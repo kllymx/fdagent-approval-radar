@@ -1,0 +1,829 @@
+{
+  "summary": "Mitapivat’s SCD application has a credible but unresolved accelerated-approval case: a substantial, replicated hemoglobin response contrasts with a nonsignificant pain-crisis primary endpoint and no overall fatigue benefit. REIGNITE has started, strengthening the confirmatory plan without supplying confirmatory results. Available SCD safety observations are partly reassuring, but detailed pivotal safety tables and the implications of mitapivat’s known liver-injury risk remain unresolved. Manufacturing is unknown—not cleared. The latest retrieved sponsor update retains November 1, 2026 as the FDA action target.",
+  "outlook": {
+    "verdict": "Mixed: meaningful anti-hemolytic activity supports consideration of accelerated approval, but clinical-benefit interpretation remains the central regulatory uncertainty.",
+    "timing": "Agios reported priority-review acceptance on July 7, 2026 and reaffirmed the November 1, 2026 PDUFA goal on July 30. No subsequent target change or SCD action was established in the retrieved evidence. This is an action target, not an approval date. REIGNITE’s registry estimates primary completion in August 2029; completed confirmation therefore is not available for the reported 2026 review target.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model estimates annual original-application receipt-cohort approval rates and separate action-timeliness measures. Those categories do not provide an applicable, calibrated probability for this new-indication sNDA. Neither priority review nor Agios’ previous approvals supplies an individual approval probability."
+  },
+  "findings": [
+    {
+      "id": "clinical-hemoglobin",
+      "title": "Pivotal hemoglobin response is substantial, with supportive phase 2 replication",
+      "detail": "RISE UP phase 3 randomized 207 patients aged at least 16 years, 2:1, to mitapivat 100 mg twice daily (138) or matched placebo (69) for 52 weeks under double blinding. Agios reported hemoglobin response—an increase of at least 1.0 g/dL in average hemoglobin during weeks 24–52—of 40.6% versus 2.9%, p<0.0001: a calculated 37.7-percentage-point difference. The longer assessment window supports persistence during the first year, not established multi-year durability. The inspected phase 2 publication abstract reports response in 12/26 at 50 mg twice daily and 13/26 at 100 mg twice daily versus 1/27 on placebo over 12 weeks. This is supportive replication within the same development program, not two independent pivotal trials. The registry’s 286 enrollment covers both portions, not the phase 3 efficacy denominator.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "trial-NCT05031780",
+        "web-0343bd601eaa"
+      ]
+    },
+    {
+      "id": "clinical-benefit",
+      "title": "The randomized pain and fatigue results do not establish broader symptomatic benefit",
+      "detail": "The second registered phase 3 primary endpoint was annualized sickle-cell pain-crisis rate through 52 weeks. Agios reports a numerical reduction that was not statistically significant, alongside no overall fatigue difference. The retrieved primary disclosure does not provide the randomized pain-rate estimate, confidence interval or exact p-value; it also lacks a confidence interval for the hemoglobin treatment difference. Responders receiving mitapivat had fewer crises than treated nonresponders—2.20 versus 2.98 annually—but this post-hoc, treatment-response-selected comparison does not preserve randomization or rescue the missed endpoint. The statistical analysis plan is needed to establish alpha allocation between the two primaries, secondary-endpoint testing, missing-data handling and transfusion-related intercurrent-event rules. The reported 1.6 g/dL improvement applies to treated hemoglobin responders, not the entire randomized treatment arm.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "trial-NCT05031780"
+      ]
+    },
+    {
+      "id": "clinical-transfusion",
+      "title": "Transfusion findings strengthen the rationale, but REIGNITE must prospectively confirm it",
+      "detail": "Agios’ June disclosure reports transfusions in 23.9% of mitapivat recipients versus 40.6% of placebo recipients, and average RBC units of 0.70 versus 1.59 per patient. These between-arm observations are more informative than responder-only comparisons, but confidence intervals, prespecification, multiplicity protection and standardized transfusion indications were not established. Transfusion outcomes were not listed among the endpoints returned for RISE UP. REIGNITE separately plans approximately 159 patients aged at least 12 years, randomized 2:1 to 100 mg twice daily or placebo for 52 weeks, with transfusion-free status during weeks 4–52 as its primary endpoint. Agios reported first-patient dosing by July 30; the registry records a July 21 start, recruiting status and no results. Initiation is observed progress, not evidence that transfusion benefit has been confirmed.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "trial-NCT05031780",
+        "trial-NCT07656415",
+        "web-9c8f9c45c8cd",
+        "web-66ec0a70e8b9"
+      ]
+    },
+    {
+      "id": "safety-scd",
+      "title": "Observed SCD tolerability is partly reassuring; pivotal serious-event and exposure data remain incomplete",
+      "detail": "Agios reports phase 3 treatment-emergent adverse events in 97.1% versus 98.6% and no treatment-related deaths. This does not establish zero deaths or exclude important event-specific imbalances. Of 207 randomized patients, 176 completed the double-blind period and 174 entered extension; extension participation is not an extension safety result. The phase 2 abstract reports serious adverse events in 2/26, 4/26 and 3/27 patients at 50 mg, 100 mg and placebo, respectively; grade 3 or worse events occurred in 3/26, 5/26 and 2/27. Investigators considered none of those serious or severe events treatment-related. These small, 12-week groups cannot establish a dose–toxicity relationship. Phase 3 serious events, all-cause deaths, toxicity discontinuations, interruptions and SCD-specific patient-years were not verified. The sponsor’s greater-than-1,300 patient-years figure pools multiple hemolytic anemias.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "web-0343bd601eaa",
+        "web-9c8f9c45c8cd"
+      ]
+    },
+    {
+      "id": "safety-liver",
+      "title": "Known mitapivat liver injury is material context—not a demonstrated SCD event rate",
+      "detail": "Agios’ thalassemia approval disclosure describes five patients with adverse reactions suggestive of hepatocellular injury, including two requiring hospitalization, during double-blind and extension treatment at 100 mg twice daily. Events arose within six months and improved after discontinuation. AQVESME carries a boxed warning and REMS with baseline liver tests and testing every four weeks for 24 weeks. This is the same ingredient and trial dose as RISE UP, making it relevant to FDA benefit–risk assessment, but the thalassemia incidence cannot be transferred to SCD. Existing PYRUKYND information also describes acute hemolysis after abrupt interruption and clinically important drug interactions. Concrete SCD questions are hepatic-event adjudication, bilirubin fractionation, monitoring feasibility, interruption/taper management and interactions, including hormonal contraception. An SCD REMS requirement has not been established.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-fade98b1644f",
+        "web-9c8f9c45c8cd",
+        "trial-NCT05031780"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "No product-linked manufacturing disposition was established",
+      "detail": "The inspected public disclosures and SEC manufacturing passages did not establish the named drug-substance, tablet-manufacturing or packaging sites proposed for the SCD supplement, a current SCD-linked CMC deficiency, or a corrective-action disposition. FDA application metadata lists an approved CMC supplement 6 with an April 8, 2026 status date, but its underlying letter and scope were not inspected; that entry cannot establish SCD supply-chain acceptability. The documented 2025 thalassemia extension concerned a REMS amendment, not a disclosed manufacturing defect. The supplied sponsor inspection leads concern BIMO and lack original documents, so they were not used as CGMP evidence. Resolving this domain requires the application-specific manufacturing-site list, formulation/site comparability information, FDA quality review and any linked inspection findings and responses.",
+      "direction": "unknown",
+      "sourceIds": [
+        "evidence-approvals-NDA216196",
+        "web-0512429b9e9f",
+        "web-3cf424cf04ac"
+      ]
+    },
+    {
+      "id": "regulatory-history",
+      "title": "Current SCD review is a new-indication supplement; prior approvals and delay are separate episodes",
+      "detail": "July sponsor disclosures identify an accelerated-approval sNDA for SCD under priority review, not an original NME application. No retrieved evidence establishes a post-CRL resubmission; the public CRL lookup failed, so absence of a prior letter cannot be certified. The exact SCD supplement number and proposed label wording/age range were not verified. FDA metadata records original mitapivat approval on February 17, 2022, and efficacy supplement 3 approval on December 23, 2025; sponsor disclosures identify PK deficiency and adult alpha-/beta-thalassemia as those indications. For thalassemia, Agios attributed the September 7-to-December 7, 2025 extension to an FDA-requested REMS major amendment addressing previously submitted liver risk; approval subsequently occurred December 23. This was not a CRL or an SCD delay. It demonstrates relevant review experience, not a validated sponsor success predictor.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-9c8f9c45c8cd",
+        "web-66ec0a70e8b9",
+        "evidence-approvals-NDA216196",
+        "web-3cf424cf04ac",
+        "web-fade98b1644f"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Mitapivat’s completed thalassemia supplement: REMS-related extension followed by approval",
+      "relevance": "The same ingredient has a documented example in which liver-risk mitigation materially affected review timing and the eventual conditions of use. The earlier setback must be reconciled with the subsequent observed approval.",
+      "difference": "This was a different indication and evidence package. It neither resolves the SCD hemoglobin-surrogate question nor proves the SCD manufacturing configuration acceptable. No timing distribution or approval likelihood is inferred from this single history.",
+      "sourceIds": [
+        "web-3cf424cf04ac",
+        "web-fade98b1644f",
+        "evidence-approvals-NDA216196"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "RISE UP’s full phase 3 report, statistical analysis plan and results tables: randomized pain-rate estimates and confidence intervals, hemoglobin treatment-difference uncertainty, endpoint testing hierarchy, missing-data sensitivity analyses and transfusion-event handling.",
+    "The integrated SCD safety update: actual exposure, serious events and all-cause deaths by arm, discontinuations and interruptions, hepatic-event narratives/adjudication, and proposed SCD monitoring or REMS provisions.",
+    "FDA’s application-specific assessment of hemoglobin as an accelerated-approval endpoint, proposed indication wording, and REIGNITE confirmation requirements; also current recruitment, transfusion eligibility/adjudication rules and agreed completion milestones.",
+    "The SCD supplement’s drug-substance/drug-product site list and formulation bridge, supplement 6 approval letter and scope, and any product-linked FDA quality review, inspection observations, corrective responses or final compliance disposition."
+  ],
+  "limitations": [
+    "This is a current investigation as of September 10, 2026. The retrieved registry records are June 23 and August 4 current snapshots, not historical protocol versions. The latest retrieved dated corporate status confirmation is July 30; comprehensive absence of later changes was not established.",
+    "Actual phase 3 numerical results were inspected in Agios’ June release, but a full pivotal paper, presentation dataset and posted registry results were not obtained. Both retrieved trial records have no posted results. Detailed phase 3 genotype distribution, baseline disease severity, background-treatment balance and subgroup consistency remain unverified.",
+    "Only the phase 2 publication abstract—not its full paper, supplement or two listed corrections—was inspected. Its eligibility criteria and safety counts are not substitutes for the phase 3 population and safety analysis.",
+    "Safety assessment used SCD observations and explicitly separated same-drug thalassemia risk information. Full FDA-approved labeling and FDA safety-review documents were not inspected; primary sponsor disclosures supplied the detailed warning and REMS information.",
+    "Manufacturing research covered public CMC/delay disclosures, FDA application metadata and SEC manufacturing passages, plus the supplied BIMO discovery leads. No original product-linked CGMP report, named production-site linkage or corrective-action document was retrieved. This leaves the domain unknown.",
+    "The public CRL archive lookup returned an error. No FDA SCD clinical/statistical review, acceptance letter, meeting minutes or objection letter was retrieved. Sponsor-reported review acceptance and confirmatory planning do not prove FDA agreement that the submitted evidence is sufficient."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Can hemoglobin response support accelerated approval despite the pain-endpoint miss, with REIGNITE adequately positioned to confirm clinical benefit?",
+    "bullCase": {
+      "claim": "The randomized hemoglobin effect is substantial and consistent with the earlier randomized phase 2 signal. The longer phase 3 assessment window and lower observed transfusion burden support a clinically plausible anti-hemolytic benefit. REIGNITE is now dosing patients rather than remaining only a proposal, strengthening the execution case for prospective confirmation.",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "web-0343bd601eaa",
+        "web-66ec0a70e8b9",
+        "trial-NCT07656415"
+      ]
+    },
+    "bearCase": {
+      "claim": "The trial did not establish a significant randomized pain-crisis benefit or overall fatigue improvement. Responder-only analyses cannot demonstrate that increasing hemoglobin caused symptomatic improvement, and the transfusion analysis lacks verified inferential protection. Against that uncertainty, the same drug has a material liver-injury history at the SCD trial dose; FDA may require stronger direct-benefit evidence or more restrictive risk management.",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "trial-NCT05031780",
+        "web-fade98b1644f"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does FDA’s clinical/statistical assessment accept the RISE UP hemoglobin response as reasonably likely to predict benefit for the proposed SCD label, with REIGNITE sufficient to verify that benefit?",
+      "whyItMatters": "That assessment distinguishes a potentially acceptable surrogate-led application from one requiring direct clinical-benefit data before approval. Filing acceptance and trial initiation do not answer it. The transfusion signal’s robustness, relationship to the proposed population and safety trade-off are central.",
+      "sourceIds": [
+        "web-408366ec9a56",
+        "web-9c8f9c45c8cd",
+        "trial-NCT07656415"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Accelerated-approval case accepted",
+        "trigger": "FDA accepts the hemoglobin endpoint and supporting evidence, finds the integrated benefit–risk acceptable, and accepts REIGNITE’s execution and confirmation commitments, with no blocking quality issue.",
+        "implication": "Accelerated approval could be available, potentially with monitoring requirements or a narrower label. It would not establish a pain-crisis-reduction claim, and continued approval would depend on confirmation.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "web-9c8f9c45c8cd",
+          "trial-NCT07656415"
+        ]
+      },
+      {
+        "label": "Direct clinical benefit required first",
+        "trigger": "FDA finds the surrogate rationale or supporting transfusion analysis insufficient in light of the missed pain endpoint, or the benefit–risk balance inadequate.",
+        "implication": "A complete response or request for additional clinical evidence could move resolution beyond the current target. REIGNITE’s estimated August 2029 primary completion would become consequential, although FDA might require different evidence or changes to that study.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "trial-NCT07656415",
+          "web-fade98b1644f"
+        ]
+      },
+      {
+        "label": "Additional review without an immediate efficacy rejection",
+        "trigger": "A material risk-management or other application amendment requires additional review.",
+        "implication": "The action target could change without constituting a CRL. The prior thalassemia REMS extension illustrates this distinction but does not predict an SCD extension.",
+        "sourceIds": [
+          "web-3cf424cf04ac",
+          "web-66ec0a70e8b9"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What were the prespecified alpha allocation, pain-crisis rate ratio and confidence interval, and sensitivity analyses for missing visits, discontinuation and transfusions?",
+        "whyItMatters": "These determine the strength of the positive hemoglobin result, what the pain miss actually excludes, and whether secondary claims retain valid statistical support.",
+        "sourceIds": [
+          "trial-NCT05031780",
+          "web-408366ec9a56"
+        ]
+      },
+      {
+        "question": "Were RISE UP transfusions prospectively defined and adjudicated, and how do REIGNITE’s eligibility and transfusion thresholds map to the proposed SCD label?",
+        "whyItMatters": "The observed transfusion difference could support clinical relevance, but confirmation must measure meaningful benefit in a population relevant to the requested indication. REIGNITE’s younger eligibility does not itself establish eligibility for the current label.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "web-9c8f9c45c8cd",
+          "trial-NCT07656415"
+        ]
+      },
+      {
+        "question": "What are the SCD-specific serious-event, death, hepatic-event and discontinuation counts, and what liver monitoring, interaction and interruption provisions have been proposed?",
+        "whyItMatters": "Overall adverse-event similarity cannot resolve rare liver injury or practical risk management at 100 mg twice daily. The thalassemia REMS is relevant context, not proof of the SCD requirement.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "web-fade98b1644f",
+          "web-9c8f9c45c8cd"
+        ]
+      },
+      {
+        "question": "Which manufacturing sites and formulation are included in the SCD supplement, and does approved CMC supplement 6 cover any part of that configuration?",
+        "whyItMatters": "Only an exact product/site bridge and application-specific quality disposition can resolve whether prior manufacturing actions are relevant. Sponsor BIMO records and commercial sales cannot do so.",
+        "sourceIds": [
+          "evidence-approvals-NDA216196",
+          "web-0512429b9e9f"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong sponsor-reported hemoglobin results coexist with a missed pain endpoint and unconfirmed clinical-benefit interpretation. REIGNITE has started. SCD safety disclosure is incomplete, known mitapivat liver risk matters, and manufacturing remains unknown.",
+    "pivotalQuestion": "Can hemoglobin response support accelerated approval despite the pain-endpoint miss, with REIGNITE adequately positioned to confirm clinical benefit?",
+    "sourceIds": [
+      "web-408366ec9a56",
+      "web-66ec0a70e8b9",
+      "trial-NCT07656415",
+      "web-fade98b1644f"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Hemoglobin response is substantial and supported by phase 2. Pain-crisis significance and overall fatigue benefit were absent; transfusion findings require stronger statistical verification.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "web-0343bd601eaa",
+          "trial-NCT05031780"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Similar overall SCD adverse-event rates offer limited reassurance. Detailed pivotal serious-event data are missing, while same-drug thalassemia liver injury makes SCD-specific adjudication and monitoring material.",
+        "sourceIds": [
+          "web-408366ec9a56",
+          "web-fade98b1644f",
+          "web-0343bd601eaa"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No SCD-linked production sites, quality-review conclusion or corrective-action disposition were established. Prior CMC approval metadata does not establish the scope or acceptability of the current manufacturing configuration.",
+        "sourceIds": [
+          "evidence-approvals-NDA216196"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "Priority sNDA review and REIGNITE initiation support process readiness. FDA acceptance of the hemoglobin surrogate, final label and confirmation requirements remains unverified after the pain-endpoint miss.",
+        "sourceIds": [
+          "web-9c8f9c45c8cd",
+          "web-66ec0a70e8b9",
+          "web-408366ec9a56"
+        ]
+      }
+    ]
+  },
+  "id": "31e1e21a-ce8d-409e-9898-90afedce4d46",
+  "candidateId": "mitapivat-scd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:20:17.281Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Mitapivat, specifically Sickle cell disease. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "agios-scd-acceptance",
+      "title": "Agios: mitapivat sickle-cell sNDA priority review",
+      "url": "https://investor.agios.com/news-releases/news-release-details/us-fda-grants-priority-review-agios-snda-mitapivat-sickle-cell",
+      "publisher": "Agios Pharmaceuticals",
+      "publishedAt": "2026-07-07",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Agios reported priority review of its mitapivat sickle-cell sNDA submitted through the accelerated-approval pathway, with a November 1 target. RISEUP evaluates hemoglobin response and sickle-cell pain crises; REIGNITE is a separate confirmatory transfusion-burden study. Acceptance and planned confirmation must not be represented as demonstrated reduction in clinical events."
+    },
+    {
+      "id": "trial-nct05031780",
+      "title": "ClinicalTrials.gov: NCT05031780 · A Study Evaluating the Efficacy and Safety of Mitapivat (AG-348) in Participants With Sickle Cell Disease (RISE UP)",
+      "url": "https://clinicaltrials.gov/study/NCT05031780",
+      "publisher": "ClinicalTrials.gov / Agios Pharmaceuticals, Inc.",
+      "publishedAt": "2026-06-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2, phase 3; randomized; sequential. Registry enrollment is 286 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct07656415",
+      "title": "ClinicalTrials.gov: NCT07656415 · A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
+      "url": "https://clinicaltrials.gov/study/NCT07656415",
+      "publisher": "ClinicalTrials.gov / Agios Pharmaceuticals, Inc.",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 159 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "agios-riseup-2026",
+      "title": "Agios: RISE UP hemoglobin benefit and missed pain endpoint",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-showcases-rise-phase-3-results-eha-2026-plenary-session",
+      "publisher": "Agios Pharmaceuticals",
+      "publishedAt": "2026-06-13",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Agios reported RISE UP phase 3 hemoglobin response of 40.6% versus 2.9%, p<0.0001. The separate primary endpoint of annualized sickle-cell pain crises did not reach significance, and overall fatigue did not differ. Analyses restricted to hemoglobin responders were post hoc; they do not preserve the original randomized comparison."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT07656415",
+      "title": "A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
+      "url": "https://clinicaltrials.gov/study/NCT07656415",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T20:06:38.148Z",
+      "summary": "Registry protocol: RECRUITING; PHASE3; lead sponsor Agios Pharmaceuticals, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05031780",
+      "title": "A Study Evaluating the Efficacy and Safety of Mitapivat (AG-348) in Participants With Sickle Cell Disease (RISE UP)",
+      "url": "https://clinicaltrials.gov/study/NCT05031780",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-06-23",
+      "retrievedAt": "2026-09-10T20:06:38.148Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2, PHASE3; lead sponsor Agios Pharmaceuticals, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA216196",
+      "title": "PYRUKYND / AQVESME — NDA216196",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA216196%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.568Z",
+      "summary": "NDA216196; sponsor AGIOS PHARMS INC. 4 of 4 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-5a0c9383-d37f-9838-e063-6294a90ac7b5",
+      "title": "AQVESME — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%225a0c9383-d37f-9838-e063-6294a90ac7b5%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.606Z",
+      "summary": "Company-submitted label; effective date 2026-08-27. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-557b465d-234d-75a2-e063-6394a90a070a",
+      "title": "PYRUKYND — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%22557b465d-234d-75a2-e063-6394a90a070a%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.606Z",
+      "summary": "Company-submitted label; effective date 2026-06-30. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39265169",
+      "title": "Activating pyruvate kinase improves red blood cell integrity by reducing band 3 tyrosine phosphorylation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39265169/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.902Z",
+      "summary": "Indexed citation in Blood advances; publication date 2024 Nov 12. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39644907",
+      "title": "Safety and efficacy of mitapivat in sickle cell disease (RISE UP): results from the phase 2 portion of a global, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39644907/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.902Z",
+      "summary": "Indexed citation in The Lancet. Haematology; publication date 2025 Jan. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38330179",
+      "title": "Mitapivat improves ineffective erythropoiesis and iron overload in adult patients with pyruvate kinase deficiency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38330179/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.902Z",
+      "summary": "Indexed citation in Blood advances; publication date 2024 May 28. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-35417638",
+      "title": "Mitapivat versus Placebo for Pyruvate Kinase Deficiency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35417638/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.902Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2022 Apr 14. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40544857",
+      "title": "Mitapivat in adults with non-transfusion-dependent α-thalassaemia or β-thalassaemia (ENERGIZE): a phase 3, international, randomised, double-blind, placebo-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40544857/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:06:38.902Z",
+      "summary": "Indexed citation in Lancet (London, England); publication date 2025 Jul 5. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05031780",
+      "title": "A Study Evaluating the Efficacy and Safety of Mitapivat (AG-348) in Participants With Sickle Cell Disease (RISE UP)",
+      "url": "https://clinicaltrials.gov/study/NCT05031780",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-06-23",
+      "retrievedAt": "2026-09-10T20:20:25.702Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05031780; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT07656415",
+      "title": "A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
+      "url": "https://clinicaltrials.gov/study/NCT07656415",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T20:20:25.733Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT07656415; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-408366ec9a56",
+      "title": "Agios Showcases RISE UP Phase 3 Results at EHA 2026 Plenary ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-showcases-rise-phase-3-results-eha-2026-plenary-session",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:20:31.814Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-55c90dae4a24",
+      "title": "PYRUKYND® – TIF - Thalassaemia International Federation",
+      "url": "https://thalassaemia.org.cy/clinical-trial-updates-scd/pyrukynd/",
+      "publisher": "thalassaemia.org.cy",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:31.154Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c8f78837bc34",
+      "title": "Mitapivat sNDA Seeks FDA Accelerated Approval in Sickle Cell ...",
+      "url": "https://www.hcplive.com/view/mitapivat-snda-fda-accelerated-approval-sickle-cell-disease",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:20:31.815Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0343bd601eaa",
+      "title": "Safety and efficacy of mitapivat in sickle cell disease (RISE UP)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39644907/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:20:31.815Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9c8f9c45c8cd",
+      "title": "U.S. FDA Grants Priority Review to Agios' sNDA for Mitapivat in Sickle ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/us-fda-grants-priority-review-agios-snda-mitapivat-sickle-cell",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:20.689Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8317a34cda87",
+      "title": "or β-#thalassaemia, following FDA approval in late 2025. The medicine ...",
+      "url": "https://www.facebook.com/tif.thalassaemia/posts/importantupdate-agios-pharmaceuticals-has-announced-the-submission-of-a-suppleme/1306266288369144/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:40.747Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-835b2c15235f",
+      "title": "Agios Outlines 2026 Strategic Priorities and Key Milestones to ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-outlines-2026-strategic-priorities-and-key-milestones",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:20:33.351Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fade98b1644f",
+      "title": "U.S. FDA Approves Agios' AQVESME™ (mitapivat) for the Treatment of ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/us-fda-approves-agios-aqvesmetm-mitapivat-treatment-anemia",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:34.560Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-66ec0a70e8b9",
+      "title": "Agios Reports Second Quarter 2026 Financial Results and Provides ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-reports-second-quarter-2026-financial-results-and-provides",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:20.688Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0512429b9e9f",
+      "title": "agio-20260331 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1439222/000143922226000073/agio-20260331.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:20.689Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-aba1d5c17ffe",
+      "title": "[PDF] Form 8-K for Agios Pharmaceuticals INC filed 07/30/2026",
+      "url": "https://investor.agios.com/static-files/b37b8931-84a8-427d-872a-2b36a63ef2ac",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:20.690Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-927a14987eb1",
+      "title": "U.S FDA Approves AQVESME™ for Adults with Thalassemia",
+      "url": "https://thalassemia.org/post/U-S-FDA-Approves-AQVESME-mitapivat-for-Adults-with-Thalassemia",
+      "publisher": "thalassemia.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:34.560Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6bf57d0398e1",
+      "title": "Aqvesme (mitapivat) FDA Approval History - Drugs.com",
+      "url": "https://www.drugs.com/history/aqvesme.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:34.561Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c60642f929fd",
+      "title": "AQVESME™ Official Patient Website | AQVESME™ (mitapivat)",
+      "url": "https://www.aqvesme.com/thalassemia/",
+      "publisher": "www.aqvesme.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:34.561Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3cf424cf04ac",
+      "title": "Agios Provides Update on U.S. PDUFA Goal Date for PYRUKYND ...",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-provides-update-us-pdufa-goal-date-pyrukyndr-mitapivat",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:40.747Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4f1f7276dfb1",
+      "title": "Agios Pharmaceuticals Faces FDA Delay for Pyrukynd Thalassemia ...",
+      "url": "https://trial.medpath.com/news/agios-pharmaceuticals-faces-fda-delay-for-pyrukynd-thalassemia-approval-amid-safety-concerns",
+      "publisher": "trial.medpath.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:40.747Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e50210931499",
+      "title": "[PDF] Agios Reports Third Quarter 2025 Financial Results and Provides ...",
+      "url": "https://investor.agios.com/node/18521/pdf",
+      "publisher": "investor.agios.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:40.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 369184,
+    "outputTokens": 7218
+  },
+  "durationMs": 281335,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "agios-riseup-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "agios-scd-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 5
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05031780"
+      },
+      "status": "completed",
+      "durationMs": 73
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT07656415"
+      },
+      "status": "completed",
+      "durationMs": 29
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "mitapivat RISE UP June 13 2026 phase 3 results safety pain crises confidence interval July 7 2026 FDA November 1"
+      },
+      "status": "completed",
+      "durationMs": 6081
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Agios mitapivat FDA manufacturing CMC manufacturer site review delay complete response 2025 2026 sickle cell AQVESME liver injury"
+      },
+      "status": "completed",
+      "durationMs": 1536
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.agios.com RISE UP phase 3 November 2025 \"2.62\" \"safety\" results pdf"
+      },
+      "status": "error",
+      "durationMs": 90012
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Agios mitapivat 2025 2026 FDA delay REMS manufacturing third party manufacturer 10-K November 1 2026"
+      },
+      "status": "completed",
+      "durationMs": 6585
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "216196"
+      },
+      "status": "partial",
+      "durationMs": 387
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Agios \"Presentation of RISE UP Phase 3 Trial Results\" November 21 2025 pdf"
+      },
+      "status": "completed",
+      "durationMs": 1109
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-0512429b9e9f",
+        "query": "manufactur"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.fda.gov mitapivat AQVESME 216196 approval REMS 2025"
+      },
+      "status": "completed",
+      "durationMs": 3405
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Agios mitapivat thalassemia September 7 December 7 2025 FDA extension REMS manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 6187
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0490af25deb71121016aa31191193487d29ecfef77eab9dcd6",
+    "inputHash": "9e16ec8c66a97f2192a112597d718eac5bdb6629d7147dccfd93fd1f41da9957"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:26:46.583Z",
+    "originalSha256": "c2e45d5ea3a3158f888b1e64b9abaea138650b6bd9fecba0a40b9ca85fa7c386",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

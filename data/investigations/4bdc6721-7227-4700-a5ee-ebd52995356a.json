@@ -1,0 +1,664 @@
+{
+  "summary": "IGALMI’s at-home sNDA has a credible evidentiary foundation, but the decisive issue is whether known cardiovascular and sedation risks can be managed without healthcare-provider supervision. Actual home-use safety results are encouraging, although exposure is modest and efficacy analyses are exploratory. The sponsor-reported November 14, 2026 action target remains pending in the supplied August update. Manufacturing compliance is unverified; Chapter 11 adds a separate operational-continuity question.",
+  "outlook": {
+    "verdict": "Mixed evidence: supportive clinical and observed tolerability data, with a material unresolved home-use safety and labeling question.",
+    "timing": "BioXcel reported submission on January 14, 2026, acceptance announced April 1, and a November 14, 2026 PDUFA target. The supplied August 28 disclosure says the company continued supporting the pending sNDA during Chapter 11. No subsequent action or target change was established in the inspected evidence. November 14 is an action goal, not an approval date; transaction timing and regulatory review timing should be tracked separately.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model estimates original-application receipt-cohort approval rates and separately measures action timeliness for original applications and resubmissions. This supplemental setting expansion is outside those modeled application classes. Neither model provides a calibrated individual approval probability or a validated timing forecast for this sNDA."
+  },
+  "findings": [
+    {
+      "id": "clinical-home",
+      "title": "The pivotal home study primarily tests safety—not confirmatory efficacy",
+      "detail": "The current SERENITY III registry describes a randomized, parallel, blinded, placebo-controlled, two-part Phase 3 study in adults aged 18–75. Part 1 tested 60 mcg in-clinic, with change in PEC agitation score at two hours as its primary endpoint. Part 2 tested self-administered 120 mcg as needed at home over 12 weeks; its registered primary outcome is SAE/TEAE incidence versus placebo. BioXcel’s August 2025 results report 246 randomized, 208 treated, and 168 treated participants completing 12 weeks; the population was 45% bipolar disorders and 55% schizophrenia. Participants had agitation despite stable underlying treatment and could live alone or with caregivers. The registry’s 452 total enrollment is not the Part 2 treated population and requires reconciliation. The live registry contains no posted results. The sponsor’s assertion that the safety endpoint was met is not accompanied by a statistical acceptance boundary or confidence interval.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05658510",
+        "web-72368b85260e"
+      ]
+    },
+    {
+      "id": "clinical-efficacy",
+      "title": "Supervised-use efficacy is replicated; quantitative home-use efficacy remains incompletely disclosed",
+      "detail": "FDA’s original risk review reports two randomized, double-blind, placebo-controlled studies using PEC change at two hours. At 120 mcg, the schizophrenia study showed adjusted changes of −8.5 versus −4.8 with placebo: difference −3.7 points, 95% CI −4.8 to −2.7. The bipolar study showed −9.1 versus −5.0: difference −4.1, 95% CI −5.1 to −3.0. Both p-values were <0.0001; the review specifies a .025 significance threshold. The 180-mcg differences were larger, but that is not the home regimen studied. This supports drug activity across both diagnoses, not independent replication of home use. BioXcel’s May 2026 disclosure reports exploratory two-hour mCGI-S benefits across baseline severities and repeated episodes, but provides no numerical treatment differences or uncertainty. Repeated benefit over 12 weeks does not establish within-episode durability beyond two hours, prevention of future episodes, or reduced emergency-service use. No active-comparator advantage is demonstrated.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-fe9e2cb5b8cf",
+        "web-51fc3dc7c6e1",
+        "trial-NCT05658510"
+      ]
+    },
+    {
+      "id": "safety-observed",
+      "title": "Actual at-home tolerability is encouraging, but 1,160 active-treatment episodes represent only 102 exposed people",
+      "detail": "BioXcel reports 102 active-treated and 106 placebo-treated participants, accounting for 1,160 and 1,277 treated episodes, respectively. First-dose somnolence, including fatigue, occurred in 23/102 versus 18/106; dizziness in 5/102 versus 1/106; and dry mouth in 7/102 versus 1/106. Across episodes, somnolence was reported in 161/1,160 versus 103/1,277. The sponsor reported no drug-related SAEs, syncope or falls, no severe treatment-associated TEAEs, and no active-arm discontinuations for tolerability. These are observed favorable findings, not merely silence about safety. Nevertheless, episode counts are correlated within patients and cannot be treated as independent safety exposures. Declining episode-level AE rates do not establish declining patient-level risk. Complete all-cause SAE accounting, arm-specific withdrawal reasons, cardiovascular measurements and subgroup analyses were not available in the inspected home-use reports.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-72368b85260e"
+      ]
+    },
+    {
+      "id": "safety-bridge",
+      "title": "Removing supervision changes the conditions under which FDA previously accepted the risks",
+      "detail": "FDA’s 2022 risk review documented dose-dependent blood-pressure and heart-rate changes and explicitly anticipated healthcare-provider monitoring in medically supervised settings. At 120 mcg, its pooled adverse-reaction table reports hypotension in 6% and bradycardia in 3%, versus 0% for both with placebo. FDA concluded a REMS was unnecessary for that original use, with risks addressed through labeling; that conclusion does not settle unsupervised use. Sponsor disclosures also describe QT prolongation, sedation, interacting drugs, and greater vulnerability in certain older or medically compromised patients. The original approval required a study of tolerance, tachyphylaxis and withdrawal after repeat dosing. Whether that requirement is fulfilled was not established. The pivotal unresolved issue is whether home-study selection, AE ascertainment, repeat-dosing instructions and emergency precautions adequately address these risks, especially for patients living alone.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-fe9e2cb5b8cf",
+        "web-44e9dc738a4d",
+        "web-bfc2b2add008",
+        "web-72368b85260e"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "ARx is a documented product supplier; current site-level CMC status remains unknown",
+      "detail": "BioXcel’s June 2025 Form 10-Q explicitly links ARx, LLC to exclusive manufacture and supply of dexmedetomidine film for commercial IGALMI and BXCL501 clinical trials, subject to alternative-supply provisions. This establishes a company–product relationship, not the exact site listed in the pending supplement. Searches covered FDA approval/risk documents, SEC manufacturing disclosures and public ARx inspection leads. No original current CGMP inspection document, product-specific CMC deficiency, corrective-action assessment, or 2026 product-quality review was inspected. Consequently, neither manufacturing clearance nor an unresolved CMC failure is established. The supply agreement creates a concrete continuity diligence item during restructuring; hypothetical manufacturing risks in the 10-Q are not evidence that a quality failure occurred.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-70ef2f3484c2"
+      ]
+    },
+    {
+      "id": "regulatory-history",
+      "title": "This is a setting-expansion supplement; the original delay was an extension, not a documented CRL",
+      "detail": "FDA’s original approval letter confirms NDA 215390 was a 505(b)(2) application received March 5, 2021 and approved April 5, 2022. FDA documents a three-month goal extension following a major amendment; its risk review connects the additional work to vital-sign analyses and substantial dosing-label changes. That historical issue was resolved sufficiently for supervised-use approval, not for home use. BioXcel reports the present sNDA seeks outpatient treatment without healthcare-provider supervision and was submitted January 14, 2026. Acceptance and positive pre-sNDA feedback are sponsor-reported process evidence, not FDA endorsement of the final safety bridge. No current FDA objection letter was inspected. The public CRL archive could not be accessed, so a comprehensive absence-of-CRL conclusion is not supported.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-44e9dc738a4d",
+        "web-fe9e2cb5b8cf",
+        "web-40206f05fd9d",
+        "web-bfc2b2add008"
+      ]
+    },
+    {
+      "id": "sponsor-continuity",
+      "title": "Chapter 11 creates execution risk, not evidence of an adverse FDA benefit–risk decision",
+      "detail": "The supplied August 28 sponsor summary reports voluntary Chapter 11 and a stalking-horse agreement with Teva covering assets including IGALMI and the pending home-use sNDA. It also says BioXcel continued supporting the November 14 review target. This supersedes the May disclosure that strategic options were merely being explored, but it does not establish a completed sale or application transfer. The material question is whether regulatory-response personnel, clinical data access, pharmacovigilance and supplier commitments remain funded and assigned throughout the process. Neither bankruptcy nor Teva’s proposed participation resolves the scientific or CMC review.",
+      "direction": "concern",
+      "sourceIds": [
+        "btai-sale-2026",
+        "web-03c7cb258097"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The final SERENITY III clinical study report, historical protocol and statistical analysis plan: reconcile Part 1/Part 2 populations, disclose primary safety decision criteria, all-cause SAEs and withdrawals, patient-level cardiovascular events, and exploratory efficacy estimates with within-patient correlation and missing-data handling.",
+    "FDA’s assessment of the home-use safety bridge and proposed labeling: supervision or caregiver requirements, cardiovascular screening, repeat-dose limits, instructions for patients living alone, and the status/results of repeat-dosing postmarketing requirement 4254-2.",
+    "The supplement’s manufacturing-site list and current product-quality documentation: exact ARx site/FEI linkage, any CMC amendments, original inspection correspondence and corrective-action status where applicable, and supplier continuity through restructuring.",
+    "Court-approved sale/financing and closing disclosures, together with confirmation of application ownership, funded review-response responsibilities, pharmacovigilance/data custody and any change to the November 14 target."
+  ],
+  "limitations": [
+    "The live August 7, 2026 registry snapshot has no posted results. Actual home-use findings were inspected in sponsor disclosures dated August 27, 2025 and May 28, 2026—not a full clinical study report or original peer-reviewed home-use paper. One additional efficacy search failed.",
+    "Part 1 numerical results, the historical prespecified analysis plan, detailed eligibility restrictions and quantitative home-use efficacy uncertainty were not retrieved. The latest severity analyses remain exploratory, not a new trial or confirmatory replication.",
+    "Home-use safety disclosures do not provide complete all-cause SAE/death accounting, arm-specific attrition, unique-patient cumulative AE rates, systematic vital-sign results or adequately interpretable age, comorbidity, concomitant-medication and living-alone subgroups.",
+    "The FDA approval and risk documents inspected concern the original 2022 application. A complete current FDA label, current sNDA review correspondence and fulfillment assessment for the repeat-dosing postmarketing requirement were not inspected.",
+    "The live compliance lookup returned historical ARx name/site leads without original FDA document URLs or confirmed product-to-site linkage. These were not treated as compliance evidence. The documented supply relationship is dated 2025; its current terms and any quality amendments remain unverified.",
+    "The August Chapter 11 information was available only as a supplied attributed summary, not inspected court orders or closing documents. The CRL archive was inaccessible. Neither gap establishes a regulatory setback or uninterrupted operational readiness."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the 120-mcg home-use regimen adequately control cardiovascular and sedation risks without healthcare-provider monitoring, including repeated dosing and patients living alone?",
+    "bullCase": {
+      "claim": "FDA-reviewed 120-mcg efficacy is replicated across schizophrenia and bipolar studies. The setting-specific randomized trial adds actual repeated home exposure, successful self-administration, and sponsor-reported absence of drug-related serious events or tolerability discontinuations. FDA could accept this bridge with workable home-use safeguards.",
+      "sourceIds": [
+        "web-fe9e2cb5b8cf",
+        "web-72368b85260e",
+        "web-40206f05fd9d"
+      ]
+    },
+    "bearCase": {
+      "claim": "FDA’s original risk-management rationale relied on monitored settings, while only 102 active-treated home participants underpin the disclosed safety results. Incomplete cardiovascular ascertainment, population coverage or repeat-use instructions could leave the central risk insufficiently addressed despite positive exploratory efficacy. Chapter 11 separately threatens response and supply continuity.",
+      "sourceIds": [
+        "web-fe9e2cb5b8cf",
+        "web-72368b85260e",
+        "btai-sale-2026"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What do the patient-level home safety dataset and FDA’s review show about cardiovascular events, excessive sedation and safe repeat dosing under the proposed instructions?",
+      "whyItMatters": "These data distinguish a usable expansion of an already effective drug from a regimen whose acceptable safety still depends on supervision. Event-detection methods and outcomes in patients living alone matter more than the headline count of treated episodes.",
+      "sourceIds": [
+        "trial-NCT05658510",
+        "web-72368b85260e",
+        "web-fe9e2cb5b8cf",
+        "web-44e9dc738a4d"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Home-use bridge accepted",
+        "trigger": "FDA finds the integrated safety evidence and practical patient-selection, dosing and emergency instructions adequate, with application and supply responsibilities maintained.",
+        "implication": "A home-use authorization becomes supportable, potentially with a narrower population or safeguards than broad unsupervised use. The actual label would determine the usable indication.",
+        "sourceIds": [
+          "web-72368b85260e",
+          "web-fe9e2cb5b8cf",
+          "web-bfc2b2add008"
+        ]
+      },
+      {
+        "label": "Safety or instructions require additional work",
+        "trigger": "FDA identifies insufficient cardiovascular assessment, repeated-use evidence or reliable implementation of home-use precautions.",
+        "implication": "Possible consequences include restrictive labeling, additional studies or a complete response. A major amendment could instead extend review. None of these outcomes is presently established.",
+        "sourceIds": [
+          "web-fe9e2cb5b8cf",
+          "web-44e9dc738a4d",
+          "trial-NCT05658510"
+        ]
+      },
+      {
+        "label": "Operational disruption becomes material",
+        "trigger": "Restructuring disrupts FDA-response capacity, data custody or ARx supply commitments, or introduces manufacturing changes needing assessment.",
+        "implication": "Timing and execution could deteriorate independently of clinical merit. Conversely, funded continuity and a completed transfer would reduce operational uncertainty without proving approval or CGMP acceptability.",
+        "sourceIds": [
+          "btai-sale-2026",
+          "web-70ef2f3484c2"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How were hypotension, bradycardia, oversedation and events occurring while alone detected at home, and what were the results by age, comorbidity and concomitant medication?",
+        "whyItMatters": "Spontaneously reported symptoms may not capture the vital-sign changes that drove FDA’s original monitoring rationale. The proposed label must fit the population actually assessed.",
+        "sourceIds": [
+          "web-fe9e2cb5b8cf",
+          "web-72368b85260e"
+        ]
+      },
+      {
+        "question": "What were the prespecified safety success criteria, reasons for non-treatment and withdrawal, Part 1 results, and patient-level estimates supporting repeated home efficacy?",
+        "whyItMatters": "This resolves the difference between a favorable sponsor characterization and a reproducible analysis, including attrition, correlated episodes, multiplicity and possible selection effects.",
+        "sourceIds": [
+          "trial-NCT05658510",
+          "web-72368b85260e",
+          "web-51fc3dc7c6e1"
+        ]
+      },
+      {
+        "question": "Has FDA accepted completion of requirement 4254-2, and what repeat-dose limits and caregiver or monitoring requirements are being negotiated for home use?",
+        "whyItMatters": "Twelve-week intermittent exposure does not automatically answer tolerance, withdrawal or safe redosing questions. Final restrictions could materially change the setting expansion.",
+        "sourceIds": [
+          "web-44e9dc738a4d",
+          "web-72368b85260e",
+          "web-40206f05fd9d"
+        ]
+      },
+      {
+        "question": "Who owns and funds FDA responses, pharmacovigilance and clinical-data custody through the sale, and which exact manufacturing sites and ARx contracts remain in the application?",
+        "whyItMatters": "The pending transaction and documented supplier concentration make continuity candidate-specific. Written assignments, current site documentation and funded responsibilities would resolve—not merely reassure about—these gaps.",
+        "sourceIds": [
+          "btai-sale-2026",
+          "web-70ef2f3484c2"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Replicated supervised efficacy and encouraging sponsor-reported home tolerability support the supplement. Removing cardiovascular and sedation monitoring remains substantive; manufacturing status is unknown, and Chapter 11 adds operational uncertainty.",
+    "pivotalQuestion": "Can repeated 120-mcg home dosing safely replace healthcare-provider supervision under practical labeling, including for patients living alone?",
+    "sourceIds": [
+      "web-fe9e2cb5b8cf",
+      "web-72368b85260e",
+      "web-70ef2f3484c2",
+      "btai-sale-2026"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "FDA-reviewed 120-mcg efficacy replicated across both diagnoses. Sponsor-reported home benefits support bridging, but are exploratory and lack disclosed numerical effect sizes and uncertainty.",
+        "sourceIds": [
+          "web-fe9e2cb5b8cf",
+          "web-51fc3dc7c6e1"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Home tolerability is encouraging in 102 active-treated patients, but FDA previously relied on supervised monitoring for cardiovascular risks. Complete patient-level home cardiovascular and repeat-use analyses remain unavailable.",
+        "sourceIds": [
+          "web-72368b85260e",
+          "web-fe9e2cb5b8cf",
+          "web-44e9dc738a4d"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "ARx’s product-supply role is documented. Current application-site linkage, original CGMP assessments, CMC amendments and any corrective-action status were not verified.",
+        "sourceIds": [
+          "web-70ef2f3484c2"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "The sponsor reports an accepted setting-expansion sNDA and November 14 target. Original approval provides relevant experience, while Chapter 11 leaves review-response and transfer continuity unresolved.",
+        "sourceIds": [
+          "web-bfc2b2add008",
+          "web-44e9dc738a4d",
+          "btai-sale-2026"
+        ]
+      }
+    ]
+  },
+  "id": "4bdc6721-7227-4700-a5ee-ebd52995356a",
+  "candidateId": "dexmedetomidine-at-home",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:21:32.247Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Dexmedetomidine sublingual film (IGALMI), specifically At-home treatment of acute agitation associated with schizophrenia or bipolar disorder. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "btai-at-home-acceptance",
+      "title": "BioXcel: IGALMI at-home sNDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/04/01/3266468/0/en/bioxcel-therapeutics-announces-food-drug-administration-acceptance-of-supplemental-new-drug-application-for-use-of-igalmi-in-the-at-home-setting.html",
+      "publisher": "BioXcel Therapeutics",
+      "publishedAt": "2026-04-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BioXcel reported acceptance of its supplemental NDA for dexmedetomidine sublingual film for acute agitation associated with bipolar disorder or schizophrenia in the at-home setting, with a November 14 target. This is a proposed setting expansion, separate from the established supervised-use indication; SERENITY III supplies the relevant study context."
+    },
+    {
+      "id": "trial-nct05658510",
+      "title": "ClinicalTrials.gov: NCT05658510 · Dexmedetomidine in the Treatment of Agitation Associated With Schizophrenia and Bipolar Disorder (SERENITY III)",
+      "url": "https://clinicaltrials.gov/study/NCT05658510",
+      "publisher": "ClinicalTrials.gov / BioXcel Therapeutics Inc",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 452 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "btai-sale-2026",
+      "title": "BioXcel: Chapter 11 and proposed Teva asset sale",
+      "url": "https://www.globenewswire.com/news-release/2026/08/28/3352588/0/en/bioxcel-therapeutics-enters-into-asset-sale-agreement-with-teva-pharmaceuticals.html",
+      "publisher": "BioXcel Therapeutics",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "BioXcel announced voluntary Chapter 11 proceedings and a stalking-horse asset-sale agreement with Teva for assets including IGALMI and the pending at-home sNDA. The transaction is subject to the court-supervised sale process, not a completed transfer. BioXcel explicitly stated it continued supporting the sNDA with November 14 as the target."
+    },
+    {
+      "id": "trial-NCT05658510",
+      "title": "Dexmedetomidine in the Treatment of Agitation Associated With Schizophrenia and Bipolar Disorder (SERENITY III)",
+      "url": "https://clinicaltrials.gov/study/NCT05658510",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T20:21:35.557Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05658510; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "web-03c7cb258097",
+      "title": "BioXcel Therapeutics Provides Business Update and Reports First ...",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-provides-business-update-and-reports-first",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:42.889Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-72368b85260e",
+      "title": "BioXcel Therapeutics Announces SERENITY At-Home Pivotal Phase ...",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-announces-serenity-home-pivotal-phase-3",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:42.892Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7c8463668f2d",
+      "title": "BioXcel Therapeutics Provides Business Update and - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000110465926061773/tm2614679d1_ex99-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:42.893Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-51fc3dc7c6e1",
+      "title": "Press Release - BioXcel Therapeutics",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-presents-new-data-serenity-home-phase-3",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:42.893Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-40206f05fd9d",
+      "title": "Press Release - BioXcel Therapeutics",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-submits-supplemental-new-drug-application",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:46.223Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6c32e997f3ac",
+      "title": "BioXcel Awaits FDA Decision on IGALMI At-Home Label Expansion",
+      "url": "https://www.clinicaltrialvanguard.com/news/bioxcel-awaits-fda-decision-on-igalmi-at-home-label-expansion/",
+      "publisher": "www.clinicaltrialvanguard.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:46.223Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bfc2b2add008",
+      "title": "BioXcel Therapeutics Announces Food & Drug Administration ...",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-announces-food-drug-administration",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:46.223Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c51711e63118",
+      "title": "Understanding FDA complete response letters: Why CMC ...",
+      "url": "https://www.parexel.com/insights/blog/understanding-fda-complete-response-letters-why-cmc-readiness-must-become-a-strategic-priority",
+      "publisher": "www.parexel.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:46.224Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-44e9dc738a4d",
+      "title": "[PDF] CENTER FOR DRUG EVALUATION AND RESEARCH",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215390Orig1s000Approv.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:56.210Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7c9e7b414374",
+      "title": "BioXcel Therapeutics Announces FDA Approval of IGALMI ...",
+      "url": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-announces-fda-approval-igalmitm",
+      "publisher": "ir.bioxceltherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:56.211Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fe9e2cb5b8cf",
+      "title": "[PDF] 215390Orig1s000 - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215390Orig1s000RiskR.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:56.211Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a6cd4675469d",
+      "title": "Sublingual Dexmedetomidine for the Treatment of Agitation in Patients ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10157019/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:21:56.211Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-70ef2f3484c2",
+      "title": "BioXcel Therapeutics, Inc._June 30, 2025 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000155837025011158/btai-20250630x10q.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:03.439Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2918e4ed88ee",
+      "title": "BioXcel Therapeutics, Inc. - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000104746918000756/a2234454zs-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:03.442Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e6f9ffd77c6d",
+      "title": "BioXcel Therapeutics, Inc._December 31, 2024 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000155837025003985/btai-20241231x10k.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:03.445Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6fe33c5665bc",
+      "title": "BioXcel Therapeutics, Inc._March 31, 2025 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720893/000155837025007269/btai-20250331x10q.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:22:03.447Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 312339,
+    "outputTokens": 7198
+  },
+  "durationMs": 267734,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "btai-at-home-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "btai-sale-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05658510"
+      },
+      "status": "completed",
+      "durationMs": 69
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "BioXcel SERENITY III Part 2 2025 2026 results 120 mcg at home adverse events IGALMI November 14 2026 sNDA"
+      },
+      "status": "completed",
+      "durationMs": 1792
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "IGALMI BioXcel FDA 215390 review manufacturing ARx CMC inspection complete response letter 2022 2026"
+      },
+      "status": "completed",
+      "durationMs": 3330
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.accessdata.fda.gov IGALMI 215390 label 2022 review approval"
+      },
+      "status": "completed",
+      "durationMs": 3038
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:sec.gov BioXcel \"ARx\" \"2025\" manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 7237
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"SERENITY\" \"At-Home\" \"2026\" \"placebo\" efficacy 56.5"
+      },
+      "status": "error",
+      "durationMs": 90010
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-70ef2f3484c2",
+        "query": "ARx"
+      },
+      "status": "completed",
+      "durationMs": 4
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-fe9e2cb5b8cf",
+        "query": "7 Discussion"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "215390"
+      },
+      "status": "partial",
+      "durationMs": 525
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "ARx"
+      },
+      "status": "completed",
+      "durationMs": 396
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0568613458391175016aa311cde80087d2ba4dba0d8feba254",
+    "inputHash": "123dd5cd195292df188dec516646f9f14fe2fb4666920fa71c0db48a176feecf"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:28:10.065Z",
+    "originalSha256": "65a1d748c1ebad394213e3d87105eccdf49e638f320645df6e779f0adff32b63",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

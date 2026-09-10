@@ -7,6 +7,7 @@ import './clarity.css';
 import './workspace.css';
 import './assessment.css';
 import './trial-evidence.css';
+import './focus.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

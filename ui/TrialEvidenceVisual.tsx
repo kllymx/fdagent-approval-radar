@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { BookOpen, ChevronDown, ChevronRight } from 'lucide-react';
 import type { TrialVisual } from './types';
 
@@ -30,7 +31,7 @@ function TrialChart({ visual, onSources }: { visual: TrialVisual; onSources: (id
   const axis = trialAxis(visual.arms.map((arm) => arm.value), visual.unit);
   return <article className="trial-visual" aria-labelledby={`trial-title-${visual.id}`}>
     <div className="trial-visual-heading"><div><span className="trial-study">{visual.study}</span><h3 id={`trial-title-${visual.id}`}>{visual.title}</h3></div><span className="trial-direction">{visual.direction === 'higher' ? 'Higher is better' : 'Lower is better'}</span></div>
-    <p className="trial-context">{visual.population}<span aria-hidden="true"> · </span>{visual.timepoint}</p>
+    <p className="trial-context">{visual.timepoint}</p>
     <div className="trial-chart" role="img" aria-label={`${visual.study}. ${visual.endpoint}. ${visual.comparisonLabel}. ${visual.arms.map((arm) => `${arm.label}: ${valueLabel(arm.value, visual.unit)}${arm.n !== undefined ? `, n=${arm.n}` : ''}`).join('; ')}. ${visual.direction === 'higher' ? 'Higher' : 'Lower'} is better.`}>
       <div className="trial-measure">{visual.comparisonLabel}<span>{visual.unit}</span></div>
       {visual.arms.map((arm, index) => {
@@ -41,11 +42,13 @@ function TrialChart({ visual, onSources }: { visual: TrialVisual; onSources: (id
     </div>
     {visual.effect && <div className="trial-effect"><span>{visual.effect.label}</span><strong>{valueLabel(visual.effect.value, visual.effect.unit ?? '')}</strong>{visual.effect.lower !== undefined && visual.effect.upper !== undefined && <span>{visual.effect.level ? `${visual.effect.level} ` : 'Interval '}{number(visual.effect.lower)}–{number(visual.effect.upper)}</span>}</div>}
     <p className="trial-interpretation">{visual.interpretation}</p>
-    <div className="trial-footer"><details><summary>Endpoint and limitations<ChevronDown size={12} /></summary><div><p><strong>Endpoint:</strong> {visual.endpoint}</p><p>{visual.sourceNote}</p>{visual.limitations.length > 0 && <ul>{visual.limitations.map((limitation, index) => <li key={`${index}-${limitation}`}>{limitation}</li>)}</ul>}</div></details>{visual.sourceIds.length > 0 && <button className="text-button" onClick={() => onSources(visual.sourceIds)}><BookOpen size={12} />Sources<ChevronRight size={12} /></button>}</div>
+    <div className="trial-footer"><details><summary>Population, endpoint and limitations<ChevronDown size={12} /></summary><div><p><strong>Population:</strong> {visual.population}</p><p><strong>Endpoint:</strong> {visual.endpoint}</p><p>{visual.sourceNote}</p>{visual.limitations.length > 0 && <ul>{visual.limitations.map((limitation, index) => <li key={`${index}-${limitation}`}>{limitation}</li>)}</ul>}</div></details>{visual.sourceIds.length > 0 && <button className="text-button" onClick={() => onSources(visual.sourceIds)}><BookOpen size={12} />Sources<ChevronRight size={12} /></button>}</div>
   </article>;
 }
 
 export default function TrialEvidenceVisual({ visuals, onSources }: { visuals: TrialVisual[]; onSources: (ids: string[]) => void }) {
+  const [selectedId, setSelectedId] = useState(visuals[0]?.id ?? '');
+  const selected = visuals.find((visual) => visual.id === selectedId) ?? visuals[0];
   if (!visuals.length) return null;
-  return <section className="trial-evidence" aria-label="Clinical trial evidence"><div className="trial-evidence-heading"><h2>Clinical results</h2><p>Reported trial endpoints · Not approval probabilities</p></div><div className={`trial-visual-grid ${visuals.length === 1 ? 'single' : ''}`}>{visuals.slice(0, 2).map((visual) => <TrialChart key={visual.id} visual={visual} onSources={onSources} />)}</div></section>;
+  return <details className="trial-evidence supporting-section" aria-label="Clinical trial evidence"><summary><span>Clinical results</span><small>{visuals.length} {visuals.length === 1 ? 'endpoint' : 'endpoints'}</small><ChevronDown size={14} /></summary><div className="clinical-disclosure-content">{visuals.length > 1 && <label className="trial-selector"><span>Result</span><select aria-label="Clinical result" value={selected.id} onChange={(event) => setSelectedId(event.target.value)}>{visuals.map((visual) => <option key={visual.id} value={visual.id}>{visual.title}</option>)}</select></label>}<TrialChart key={selected.id} visual={selected} onSources={onSources} /></div></details>;
 }

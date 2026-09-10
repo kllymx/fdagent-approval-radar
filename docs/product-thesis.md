@@ -4,6 +4,22 @@
 
 Their immediate question is often specific: “Does the new disclosure change the regulatory case, and which assumption should we investigate next?” An approval calendar supplies a date. A useful diligence tool must explain the evidence supporting the outlook, the strongest contrary interpretation and what has changed since the last assessment.
 
+## The headline and the decision behind it
+
+The primary headline is **Astra's approval outlook**, expressed as a qualitative case with a sourced explanation. The adjacent date is the **reported FDA action target**, not a predicted approval date. The first screen should answer three questions in order: how strong is the current case, what could change it, and when is the next reported FDA decision target?
+
+| Initial user | Decision they face | What they should leave with |
+|---|---|---|
+| Biotech investment analyst | Which upcoming review needs deeper diligence before an investment committee meeting? | The strongest supporting evidence, material objection, unresolved assumption and a cited brief. |
+| Pharma business-development team | What evidence should we request before advancing a licensing discussion? | Specific questions about the study, safety profile, manufacturing package and regulatory correspondence. |
+| Portfolio research team | Does a new disclosure change the thesis on an asset we already follow? | A comparison of the old and new claims, the source that changed the view, and what remains unresolved. |
+
+These are proposed users and workflows, not validated customer demand. The product should make the assessment prominent and the supporting detail progressively available: open the reasoning, inspect a domain, then inspect the relevant chart or source. A wall of statistics makes the analyst perform the synthesis again.
+
+An individual “chance of approval this year” would be useful only after validating its outcome definition, evidence cutoff and calibration. The current evidence does not support that number. An FDA action may also be a complete response rather than approval. A prominent percentage today would obscure the part the prototype actually demonstrates: Astra can retrieve evidence, reconcile materially different interpretations and explain whether a new fact warrants revising a view.
+
+The action is **explore and challenge the reasoning**, then export the resulting diligence brief. Charts support that decision; they are not the product's main result. A useful demonstration ends with a better question to ask management or an explicit thesis change, rather than a tour of dashboard panels.
+
 ## The demonstrated workflow
 
 The apitegromab investigation started with a manufacturing-related CRL and a disclosed plan to replace a fill-finish site. In response to a challenge, Astra found a later release stating that removal of the old site was completed. It revised the factual premise, assigned the favorable evidence more weight and retained the distinction between that progress and FDA acceptance of the product-specific replacement package.

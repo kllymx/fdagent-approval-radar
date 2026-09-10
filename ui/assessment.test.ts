@@ -29,6 +29,10 @@ test('completed FDA actions override model categories and unassessed candidates 
 
 test('initial assessments state their limited scope and missing factors remain unknown', () => {
   const html = renderToStaticMarkup(createElement(AssessmentView, { candidate: candidate('test'), assessment: assessment('test', 'mixed'), onSources: () => {}, onInvestigation: () => {} }));
+  assert.match(html, /Astra approval outlook/);
+  assert.match(html, /Mixed case/);
+  assert.match(html, /Explore Astra’s reasoning/);
+  assert.equal((html.match(/class="primary-button /g) ?? []).length, 1);
   assert.match(html, /Initial assessment/);
   assert.match(html, /curated source summaries/);
   assert.match(html, /not a full investigation/);
@@ -36,7 +40,19 @@ test('initial assessments state their limited scope and missing factors remain u
   assert.match(html, /No calibrated approval probability/);
   const completed = renderToStaticMarkup(createElement(AssessmentView, { candidate: candidate('test', 'approved'), assessment: assessment('test', 'concerning'), onSources: () => {}, onInvestigation: () => {} }));
   assert.match(completed, /FDA approved/);
+  assert.match(completed, /FDA review outcome/);
+  assert.match(completed, /Observed action/);
+  assert.match(completed, /Explore Astra’s reasoning/);
   assert.doesNotMatch(completed, /Concerning|factor-supportive|Initial assessment/);
+});
+
+test('completed review hero uses the observed action date and keeps retrospective research accessible', () => {
+  const approved = candidate('test', 'approved');
+  approved.milestones = [{ id: 'approval', date: '2026-09-03', kind: 'approval', title: 'FDA approval', detail: 'Test approval evidence', sourceIds: [] }];
+  const html = renderToStaticMarkup(createElement(AssessmentView, { candidate: approved, assessment: assessment('test', 'concerning'), onSources: () => {}, onInvestigation: () => {} }));
+  assert.match(html, /Sep 3, 2026/);
+  assert.doesNotMatch(html, /Oct 1, 2026|Material concerns/);
+  assert.equal((html.match(/class="primary-button /g) ?? []).length, 1);
 });
 
 test('research trail preserves failed and partial tool results rather than displaying a success-only trace', () => {

@@ -1,0 +1,644 @@
+{
+  "summary": "As of September 10, 2026, ivonescimab plus chemotherapy has a substantive PFS-based efficacy case, but the original U.S. BLA faces a material clinical-regulatory question: HARMONi missed its prespecified OS endpoint despite Summit’s disclosure that FDA considered statistically significant OS necessary. Published results also show more serious treatment-related adverse events. Manufacturing acceptability remains unverified—not demonstrably deficient. November 14 remains the latest sponsor-reaffirmed action target.",
+  "outlook": {
+    "verdict": "Mixed evidence, with a material unresolved clinical-regulatory obstacle. Filing acceptance does not resolve FDA’s previously stated OS expectation.",
+    "timing": "Summit reports submission in fourth-quarter 2025, filing acceptance announced January 29, 2026, and a November 14, 2026 PDUFA goal, reaffirmed August 25. Further HARMONi OS details are scheduled for September 15; some June-cutoff findings were already disclosed before this investigation. A July media report speculated about an extension following the updated analysis, but no extension was verified. November 14 is an action target, not an approval date.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides FDA receipt-cohort first-cycle approval context for original applications and separately models action timeliness. An original BLA is broadly within that application scope, but review priority was not independently established here, and neither model estimates this candidate’s probability. Action timeliness includes nonapproval outcomes and cannot be combined with approval rates."
+  },
+  "findings": [
+    {
+      "id": "clinical-pfs",
+      "title": "Original publication supports a substantial PFS effect and longer response duration",
+      "detail": "The inspected Lancet Oncology publisher preview describes a randomized, double-blind, placebo-controlled phase 3 study at 114 centers across Asia, Europe and North America. Adults had stage IIIB/IIIC or IV EGFR-mutated non-squamous NSCLC after third-generation EGFR-TKI progression and ECOG performance status 0–1; Asian enrollment had an upper age limit of 75. Treatment was ivonescimab 20 mg/kg or placebo with pemetrexed 500 mg/m² and carboplatin AUC 5 every three weeks. The registry specifies four induction cycles followed by antibody/placebo plus pemetrexed maintenance for up to two years. Randomization was stratified by region and brain metastases. Prespecified primary endpoints were independently reviewed PFS and ITT OS. The event-driven primary PFS analysis included 345 patients and 275 progression/death events: median PFS 6.8 months (95% CI 5.7–7.1) versus 4.4 (4.1–5.5), HR 0.52 (0.41–0.66), p<0.0001; median follow-up was 22.3 months. Akeso separately reported extended PFS HR 0.57 (0.46–0.71), response rates of 45% versus 34%, and median response duration of 7.6 versus 4.2 months. These support disease control and durability, but response uncertainty and multiplicity-adjusted secondary-endpoint testing were not available in the inspected material.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-5237caed5223",
+        "trial-NCT06396065",
+        "web-7e4664c97da7"
+      ]
+    },
+    {
+      "id": "clinical-os",
+      "title": "Later survival trends strengthen plausibility but do not repair the prespecified OS miss",
+      "detail": "The publication reports 262 deaths among 438 randomized patients: 122 versus 140. Median OS was 16.8 months (95% CI 14.3–19.0) versus 14.0 (12.8–15.7), HR 0.79 (0.62–1.01), with median follow-up of 29.7 months. Sponsor disclosures give p=0.057 against a required primary-analysis threshold of 0.0448. Summit’s Form 10-K states that the two primary endpoints had separate alpha allocations, with alpha recycled from successful PFS testing to OS. The September 2025 additional analysis was explicitly ad hoc: Western follow-up increased while Asian data remained locked, yielding HR 0.78 (0.62–0.98), nominal p=0.0332. That nominal result is not a successful prespecified OS test. Summit’s August 25, 2026 release also reports a June-cutoff Western OS HR of 0.76, but does not supply its confidence interval or a confirmatory testing basis. Thus, the newer information supports a favorable survival direction without establishing statistically significant global OS benefit under the original testing plan.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-5237caed5223",
+        "web-7e4664c97da7",
+        "web-95bb3c2a34d6",
+        "web-6818f8c229b3"
+      ]
+    },
+    {
+      "id": "population-replication",
+      "title": "Patient overlap limits replication claims; the registry enrollment count requires reconciliation",
+      "detail": "The original paper reports 438 randomized patients, including 273 in the Asian cohort and 165 in the Western cohort, whereas the current registry still lists actual enrollment of 420. The paper’s 438-patient randomized population and 345-patient primary PFS analysis should not be conflated with that registry count. Crucially, HARMONi incorporated eligible Chinese patients from HARMONi-A; the studies therefore are not two wholly independent replications. Asian enrollment occurred in 2022, versus 2023–2024 in the West, explaining why a long pooled follow-up can coexist with substantially shorter Western follow-up. The paper describes HARMONi-A as supporting China’s post-TKI approval, and Summit reports initial China authorization in May 2024. That is relevant prior product experience, not FDA precedent or independent confirmation of every HARMONi result. HARMONi-2 and HARMONi-6 involve different treatment settings and are not substituted for this application’s evidence.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-5237caed5223",
+        "trial-NCT06396065",
+        "web-7e4664c97da7",
+        "web-6818f8c229b3"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Observed serious toxicity is higher; “no new signals” is not equivalent to reassuring comparative safety",
+      "detail": "The publication includes 218 treated patients per arm. Grade 3 or worse treatment-related adverse events occurred in 50% with ivonescimab versus 42% with control; serious treatment-related events occurred in 61 patients (28%) versus 33 (15%). Grade 3–4 neutrophil decreases were 19% versus 17%, white-cell decreases 13% versus 11%, platelet decreases 12% versus 6%, and anemia 10% versus 12%. Treatment-related deaths numbered four versus five. Experimental-arm fatal events included hepatic failure, multiple-organ dysfunction, and a patient with gastrointestinal hemorrhage and pulmonary embolism. The paper reports similar grade 3-or-worse immune-related event incidence and approximately 1% severe treatment-related hemorrhage; Summit describes hemorrhage as less than 1%, requiring exact counts to reconcile rounding. These observations do not establish an excess in fatal toxicity, but the serious-event imbalance is material. Actual treatment-duration exposure, all-cause serious events, discontinuations, interruptions, dose intensity and exposure-adjusted rates were not available in the inspected preview. ECOG 0–1 selection and the Asian age cap limit extrapolation to frailer or older patients; comparative dose–toxicity effects were not established.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-5237caed5223",
+        "web-6818f8c229b3"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Akeso supply dependence is documented; BLA-site acceptability and corrective actions remain unknown",
+      "detail": "Summit’s Form 10-K states that it does not own or operate manufacturing facilities and relies on third parties. Its ivonescimab supply arrangement identifies Akeso as responsible for drug-substance manufacture until second-source suppliers or independent manufacturing are established; Summit reports progress transferring know-how to additional suppliers. This documents a product–manufacturer relationship, but not the exact BLA-listed drug-substance, fill-finish, testing or release sites. Targeted public-disclosure research, the manufacturing section and an Akeso inspection lookup did not yield an original FDA CGMP assessment linked to this BLA. No candidate-specific CMC setback, completed corrective action or FDA manufacturing clearance was established from the inspected documents. Technology transfer is not evidence that a deficiency existed or was remediated. The decisive missing materials are the BLA facility roster with FEIs, site-specific inspection outcomes, any deficiency correspondence and corrective-action closure, and process-validation/comparability conclusions.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-95bb3c2a34d6"
+      ]
+    },
+    {
+      "id": "regulatory",
+      "title": "Accepted original BLA remains in review, but FDA’s disclosed OS expectation is the central obstacle",
+      "detail": "The supplied application record and sponsor disclosures identify an original BLA seeking first U.S. authorization, not a supplement or documented resubmission, for ivonescimab plus chemotherapy after third-generation EGFR-TKI progression. Summit reports fourth-quarter 2025 submission and January 2026 acceptance. Its Form 10-K, which also discusses that acceptance, states that FDA noted “a statistically significant overall survival benefit is necessary to support marketing authorization in this setting.” Summit nevertheless argues that HARMONi’s overall benefit–risk supports authorization despite the OS miss. Acceptance is therefore not evidence that FDA withdrew its earlier expectation. The January announcement’s planned meetings and possible labeling discussions were explicitly conditional on review findings. The August 25 release reaffirms November 14, superseding neither the OS miss nor the need for substantive review. No original FDA review memorandum, acceptance letter, application number or CRL was retrieved; the public CRL archive lookup failed. No relevant prior Summit FDA-approved-product review sequence was established, and China authorization cannot serve as a validated sponsor-track-record predictor.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-319c733dfe5f",
+        "web-95bb3c2a34d6",
+        "web-6818f8c229b3"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "September 15 HARMONi presentation: obtain updated global and regional OS confidence intervals, deaths, medians, censoring, subsequent therapies and the analysis’s prespecified versus exploratory status—not just the Western hazard ratio.",
+    "FDA or attributable sponsor disclosure of substantive review feedback: determine whether the previously stated OS requirement remains operative, whether additional evidence is requested, and whether the new analysis changes the applicable action target.",
+    "Full HARMONi paper, appendix, protocol/SAP and integrated safety tables: reconcile 420 versus 438 enrollment, cohort incorporation and testing chronology; obtain discontinuations, treatment exposure, serious-event narratives and exposure-adjusted toxicity.",
+    "BLA-linked manufacturing documentation: exact facilities and FEIs, original CGMP inspection findings, any corrective-action responses and closure, process validation, commercial-lot comparability and second-source qualification status."
+  ],
+  "limitations": [
+    "The original Lancet Oncology abstract, publisher preview, research-in-context section and selected results/design passages were inspected, along with the registry and sponsor disclosures. The complete paper, appendix and SAP were not obtained. The registry has no posted results.",
+    "Clinical denominators conflict: the current registry lists 420, the paper reports 438 randomized, and the primary PFS analysis included 345. The publication provides the outcome denominators used here, but the registry discrepancy and full analysis chronology remain unresolved.",
+    "The August 25 sponsor release contains June-2026-cutoff information already public before September 10; it is not treated as future evidence. The scheduled September 15 presentation itself was not inspected or presumed known.",
+    "Safety coverage is incomplete: actual exposure duration, discontinuations, interruptions, all-cause serious events, subgroup toxicity, immunogenicity and comparative dose–response were not retrieved. Sponsor-reported worldwide or commercial treatment totals are not adjudicated safety datasets.",
+    "Manufacturing research covered targeted public disclosures, the Form 10-K manufacturing section and a public inspection lookup. The latter returned an unverified BIMO name-match lead, not an original FDA CGMP document; it was not used as product-site evidence. Warning-letter history, exact BLA sites and corrective-action status remain unverified.",
+    "Regulatory status and FDA’s OS expectation are supported by sponsor disclosures, including an SEC-filed report, rather than original FDA correspondence. The CRL archive request failed; this cannot establish that no prior CRL or undisclosed objection exists.",
+    "A July media report raised a possible review extension, but the later August sponsor release retained November 14. Neither an extension nor FDA’s treatment of the update as a major amendment was verified. No independent prior Summit FDA review-history assessment or FDA comparator review package was completed."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept the PFS-led benefit–risk case despite HARMONi’s missed prespecified OS endpoint and its previously stated OS requirement?",
+    "bullCase": {
+      "claim": "Randomized, blinded evidence demonstrates a substantial PFS improvement, supported by sustained follow-up results and longer responses. Later Western OS trends provide additional, nonconfirmatory support for regional applicability. FDA accepted the application for substantive review, leaving an evidence-based route for considering the total benefit–risk rather than treating the OS miss as automatic rejection.",
+      "sourceIds": [
+        "web-5237caed5223",
+        "web-7e4664c97da7",
+        "web-6818f8c229b3",
+        "web-319c733dfe5f"
+      ]
+    },
+    "bearCase": {
+      "claim": "The missed OS endpoint conflicts with FDA’s sponsor-disclosed expectation for authorization. Ad hoc, asynchronously updated and nominally significant analyses do not restore the prespecified result. Serious treatment-related toxicity is higher, and HARMONi-A patient overlap limits claims of independent confirmation. FDA could consequently require additional evidence despite the PFS effect.",
+      "sourceIds": [
+        "web-95bb3c2a34d6",
+        "web-5237caed5223",
+        "web-7e4664c97da7"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What is FDA’s current position on whether HARMONi’s PFS benefit plus updated OS and safety evidence meets the authorization standard despite the failed prespecified OS test?",
+      "whyItMatters": "Another favorable hazard ratio alone will not settle this. The distinguishing evidence is FDA’s assessment of the updated analysis’s evidentiary weight, regional applicability and benefit–risk, informed by the complete SAP and safety dataset. That determines whether this package is sufficient or further evidence is required.",
+      "sourceIds": [
+        "web-95bb3c2a34d6",
+        "web-5237caed5223",
+        "web-6818f8c229b3"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "PFS-led package judged sufficient",
+        "trigger": "FDA accepts the clinical benefit–risk despite the OS miss, finds regional and statistical analyses persuasive, and identifies no blocking safety or CMC deficiency.",
+        "implication": "The original BLA could support authorization, subject to labeling and any follow-up requirements. This would be a totality-of-evidence judgment—not proof that HARMONi met its OS endpoint.",
+        "sourceIds": [
+          "web-5237caed5223",
+          "web-95bb3c2a34d6",
+          "web-319c733dfe5f"
+        ]
+      },
+      {
+        "label": "OS expectation remains unmet",
+        "trigger": "FDA maintains that confirmatory statistically significant OS is necessary and does not consider the later exploratory analyses adequate.",
+        "implication": "Additional follow-up, analyses or clinical evidence could be required, potentially preventing first-cycle approval. The present public record does not establish which requirement FDA would impose.",
+        "sourceIds": [
+          "web-95bb3c2a34d6",
+          "web-7e4664c97da7"
+        ]
+      },
+      {
+        "label": "Clinical question remains open while review timing or CMC becomes limiting",
+        "trigger": "FDA formally extends review to assess an amendment, or identifies a product-linked manufacturing deficiency requiring a response.",
+        "implication": "November 14 would cease to be a reliable planning assumption if the target changes; a CMC deficiency could independently block approval. An extension is not a CRL, and no such manufacturing deficiency is currently established here.",
+        "sourceIds": [
+          "web-af941a1857ba",
+          "web-6818f8c229b3",
+          "web-95bb3c2a34d6"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Has FDA modified its stated OS expectation in written correspondence after reviewing the complete application and June-cutoff update?",
+        "whyItMatters": "This directly distinguishes a PFS-led authorization pathway from an unresolved requirement for confirmatory OS evidence. Request the relevant meeting minutes or correspondence, not an inference from filing acceptance.",
+        "sourceIds": [
+          "web-95bb3c2a34d6",
+          "web-319c733dfe5f",
+          "web-6818f8c229b3"
+        ]
+      },
+      {
+        "question": "Can management provide the dated SAP/amendments, patient-level overlap map and disposition explaining 345 primary-PFS patients, 438 randomized patients and the registry’s 420?",
+        "whyItMatters": "These documents would establish analysis populations, prespecification, alpha recycling, timing of cohort incorporation and the extent of independent corroboration. Also request regional censoring and subsequent-treatment analyses.",
+        "sourceIds": [
+          "trial-NCT06396065",
+          "web-5237caed5223",
+          "web-95bb3c2a34d6"
+        ]
+      },
+      {
+        "question": "What accounts for the serious treatment-related event imbalance, and how much persists after accounting for exposure and treatment discontinuation?",
+        "whyItMatters": "Request treatment duration, all-cause serious events, discontinuation and interruption tables, plus fatal-event narratives. Practical monitoring questions concern blood counts/platelets, hepatic injury, bleeding and thrombosis; obtain dedicated immune-toxicity, blood-pressure and proteinuria data rather than assuming a manageable profile.",
+        "sourceIds": [
+          "web-5237caed5223",
+          "web-6818f8c229b3"
+        ]
+      },
+      {
+        "question": "Which exact facilities are listed in this BLA for drug substance, fill-finish, testing and release, and what are their product-linked FDA inspection and deficiency statuses?",
+        "whyItMatters": "Akeso’s contractual manufacturing role does not identify every facility or establish acceptability. Request FEIs, original inspection records, any corrective-action closure and comparability evidence for transferred or second-source processes.",
+        "sourceIds": [
+          "web-95bb3c2a34d6"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Substantial randomized PFS benefit coexists with a missed prespecified OS endpoint, FDA’s sponsor-disclosed OS expectation and higher serious treatment-related toxicity. Manufacturing acceptability remains unverified.",
+    "pivotalQuestion": "Will FDA accept the PFS-led benefit–risk case despite HARMONi’s missed prespecified OS endpoint and its previously stated OS requirement?",
+    "sourceIds": [
+      "web-5237caed5223",
+      "web-95bb3c2a34d6"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "PFS improved substantially, with longer responses. Prespecified OS was not significant; later favorable analyses remain nonconfirmatory, and HARMONi-A patient overlap limits independent replication.",
+        "sourceIds": [
+          "web-5237caed5223",
+          "web-7e4664c97da7",
+          "web-95bb3c2a34d6"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "concern",
+        "rationale": "Serious treatment-related events were 28% versus 15%, and grade ≥3 events 50% versus 42%. Treatment-related deaths were four versus five; exposure-adjusted and discontinuation analyses remain unavailable.",
+        "sourceIds": [
+          "web-5237caed5223"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Akeso supply dependence and technology transfer are documented. Exact BLA facilities, CGMP findings, process acceptability and corrective-action closure were not established; no candidate-specific CMC setback was verified.",
+        "sourceIds": [
+          "web-95bb3c2a34d6"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "Original BLA acceptance and the reaffirmed November target support review progress. Summit’s disclosed FDA expectation for significant OS remains unresolved; acceptance does not establish that expectation was withdrawn.",
+        "sourceIds": [
+          "web-319c733dfe5f",
+          "web-6818f8c229b3",
+          "web-95bb3c2a34d6"
+        ]
+      }
+    ]
+  },
+  "id": "4c0b8bc4-a41e-47cf-b1b9-71bb97241a54",
+  "candidateId": "ivonescimab-egfrm",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:24:15.618Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Ivonescimab + chemotherapy, specifically EGFR-mutated advanced non-squamous NSCLC after third-generation EGFR TKI. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "summit-acceptance",
+      "title": "Summit: ivonescimab BLA accepted",
+      "url": "https://www.smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx",
+      "publisher": "Summit Therapeutics",
+      "publishedAt": "2026-01-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Summit reported its ivonescimab-plus-chemotherapy BLA was accepted for EGFR-mutated non-squamous NSCLC after TKI treatment, with November 14, 2026 as the action target. The filing is based on the global HARMONi trial, not HARMONi-2 or HARMONi-6."
+    },
+    {
+      "id": "summit-harmoni",
+      "title": "Summit: HARMONi primary analysis and upcoming update",
+      "url": "https://smmttx.com/news/press-releases/news-details/2026/Ivonescimab-Plus-Chemotherapy-Global-Phase-III-HARMONi-Primary-Analysis-Results-Published-in-The-Lancet-Oncology/default.aspx",
+      "publisher": "Summit Therapeutics",
+      "publishedAt": "2026-08-25",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Summit reported median PFS of 6.8 versus 4.4 months (HR 0.52; 95% CI 0.41–0.66; p<0.0001). Primary OS analysis did not reach significance. It said updated OS detail would be presented September 15; those future details are outside this catalog cutoff. The November 14 action target was reaffirmed."
+    },
+    {
+      "id": "trial-harmoni",
+      "title": "ClinicalTrials.gov: global HARMONi",
+      "url": "https://clinicaltrials.gov/study/NCT06396065",
+      "publisher": "ClinicalTrials.gov / Summit Therapeutics",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The global randomized, masked phase 3 HARMONi study enrolled 420 patients. PFS and overall survival are primary outcomes; primary completion is April 12, 2025. The population has EGFR-mutated non-squamous NSCLC progressing after EGFR-TKI therapy. No registry results are posted."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06396065",
+      "title": "Phase III Study of AK112 for NSCLC Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06396065",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T20:06:38.189Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Summit Therapeutics. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT06396065",
+      "title": "Phase III Study of AK112 for NSCLC Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06396065",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T20:24:18.288Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06396065; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-6818f8c229b3",
+      "title": "Ivonescimab Plus Chemotherapy Global Phase III HARMONi Primary ...",
+      "url": "https://smmttx.com/news/press-releases/news-details/2026/Ivonescimab-Plus-Chemotherapy-Global-Phase-III-HARMONi-Primary-Analysis-Results-Published-in-The-Lancet-Oncology/default.aspx",
+      "publisher": "smmttx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:44.165Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f03b38ce1d93",
+      "title": "interim overall survival analysis of a randomised, double-blind, phase 3 ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42218899/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:28.565Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-539d96c2ddda",
+      "title": "Ivonescimab Plus Chemotherapy Global Phase III HARMONi Primary ...",
+      "url": "https://www.drugs.com/clinical_trials/ivonescimab-plus-chemotherapy-global-phase-iii-harmoni-primary-analysis-results-published-lancet-22565.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:28.565Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7e4664c97da7",
+      "title": "HARMONi Data Update Shows OS HR=0.78, Nominal P=0.0332",
+      "url": "https://www.akesobio.com/en/media/akeso-news/250907/",
+      "publisher": "www.akesobio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:28.565Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-319c733dfe5f",
+      "title": "Summit Therapeutics Announces U.S. FDA Acceptance of Biologics ...",
+      "url": "https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx",
+      "publisher": "smmttx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:32.089Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-af941a1857ba",
+      "title": "Summit updates ivonescimab survival data ahead of PDUFA",
+      "url": "https://www.fiercepharma.com/pharma/summit-therapeutics-updates-ivonescimab-survival-data-ahead-fda-decision-date",
+      "publisher": "www.fiercepharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:32.089Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8c9aec06ff8b",
+      "title": "Summit debuts longer-term ivonescimab data as it awaits FDA ...",
+      "url": "https://www.clinicaltrialsarena.com/news/summit-debuts-longer-term-ivonescimab-data-as-it-awaits-fda-nsclc-decision/",
+      "publisher": "www.clinicaltrialsarena.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:46.063Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-500c5efcb170",
+      "title": "Summit Therapeutics Announces U.S. FDA Acceptance of Biologics ...",
+      "url": "https://www.nasdaq.com/press-release/summit-therapeutics-announces-us-fda-acceptance-biologics-license-application-bla",
+      "publisher": "www.nasdaq.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:32.089Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7ed6892097c1",
+      "title": "Ivonescimab plus chemotherapy versus placebo plus ... - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42636833/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:44.164Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5237caed5223",
+      "title": "Articles Ivonescimab plus chemotherapy versus placebo plus ...",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1470204526002822",
+      "publisher": "www.sciencedirect.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:44.165Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-798767f8113f",
+      "title": "Ivonescimab plus chemotherapy versus placebo plus ... - The Lancet",
+      "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(26)00282-2/abstract",
+      "publisher": "www.thelancet.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:44.165Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-95bb3c2a34d6",
+      "title": "smmt-20251231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000015/smmt-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:46.060Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-186abbc9b448",
+      "title": "Summit lung cancer drug improves survival vs pembrolizumab",
+      "url": "https://www.stocktitan.net/sec-filings/SMMT/8-k-summit-therapeutics-inc-reports-material-event-8bd915d9b4d1.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:46.064Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-92981b720264",
+      "title": "ASCO 2026: Ivonescimab HARMONi-6 Trial Results for NSCLC",
+      "url": "https://intuitionlabs.ai/articles/ivonescimab-harmoni-6-asco-2026-nsclc",
+      "publisher": "intuitionlabs.ai",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:24:46.064Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 287379,
+    "outputTokens": 7103
+  },
+  "durationMs": 163175,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "summit-harmoni"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "summit-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 5
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06396065"
+      },
+      "status": "completed",
+      "durationMs": 143
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ivonescimab HARMONi global phase 3 Lancet Oncology 2026 420 overall survival serious adverse events primary analysis full text"
+      },
+      "status": "completed",
+      "durationMs": 2754
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Summit ivonescimab 2026 BLA November 14 FDA manufacturing Akeso sites CMC inspection complete response September"
+      },
+      "status": "completed",
+      "durationMs": 3524
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Summit Therapeutics"
+      },
+      "status": "partial",
+      "durationMs": 347
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Ivonescimab plus chemotherapy versus placebo plus chemotherapy\" \"HARMONi\" \"Le\" Lancet 2026 438 adverse"
+      },
+      "status": "completed",
+      "durationMs": 7238
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov Summit ivonescimab 2026 \"manufacturing\" \"FDA\" \"overall survival\""
+      },
+      "status": "completed",
+      "durationMs": 1900
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-95bb3c2a34d6",
+        "query": "Manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-95bb3c2a34d6",
+        "query": "statistically significant overall survival benefit"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Akeso"
+      },
+      "status": "completed",
+      "durationMs": 226
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "web-5237caed5223"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0e2a5aceeaec6ac2016aa312157c7887d2b23662274f59a534",
+    "inputHash": "8f1db04420207b5086e4cdc917f1db1a1ccba05226bb8871d04369324d9224ff"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:29:49.371Z",
+    "originalSha256": "1c0f0b537afd5c0fbdf22b6caaab27b7bb82c3513ca5c66403ff6154174d5771",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

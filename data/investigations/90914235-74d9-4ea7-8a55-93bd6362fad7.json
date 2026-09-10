@@ -1,0 +1,812 @@
+{
+  "summary": "ATOMIC provides strong randomized evidence of improved disease-free survival in resected stage III dMMR colon cancer—not merely an accepted filing. The principal counterweight is greater toxicity without demonstrated overall-survival benefit. Roche reports priority review of supplements covering Tecentriq and Tecentriq Hybreza, with an October 9, 2026 action target. The key unresolved question is whether the full adjuvant regimen’s recurrence benefit justifies its added treatment burden. Current product-linked manufacturing readiness could not be established.",
+  "outlook": {
+    "verdict": "Strong efficacy support, but a mixed overall evidence balance because the adjuvant benefit–risk interpretation remains substantive and current CMC status is unknown.",
+    "timing": "Roche’s June 11, 2026 disclosure reports an October 9, 2026 FDA action target; the supplied July 23 update continues to list the filing. No subsequent approval, CRL, or changed target was established in the evidence reviewed as of September 10. October 9 is a reported review goal, not an approval date. Exact supplement identifiers and FDA correspondence remain unverified.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline was inspected. Its approval-rate reference concerns annual original-application receipt cohorts, and its timing classes concern original applications and their resubmissions—not these efficacy supplements. Neither supplies a calibrated individual approval probability or a validated date forecast for this episode."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "Actual pivotal results substantiate a substantial DFS benefit",
+      "detail": "ATOMIC/NCT02912559 is an NCI-sponsored, randomized, open-label phase III trial in resected stage III colon cancer with dMMR identified by immunohistochemistry. All 712 randomized patients appear in the posted efficacy analysis: 355 received assignment to mFOLFOX6 plus IV atezolizumab and 357 to mFOLFOX6 alone. Both arms planned six months of chemotherapy; the experimental strategy continued atezolizumab alone for another six months. DFS was the prespecified primary endpoint; OS and safety were secondary. At median follow-up of 40.9 months, the publication abstract reports three-year DFS of 86.3% versus 76.2%, with respective 95% CIs of 81.8–89.8 and 70.9–80.6. The DFS HR was 0.50 (95% CI 0.35–0.73); the registry reports stratified log-rank P=0.0002. The calculated absolute difference is 10.1 percentage points. This supports the tested treatment strategy, not atezolizumab monotherapy, chemotherapy omission, or unselected colorectal cancer.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4",
+        "web-d1b6d0be27de"
+      ]
+    },
+    {
+      "id": "clinical-interpretation",
+      "title": "Durability is encouraging, but OS and treatment-component questions remain",
+      "detail": "Three-year DFS extends beyond the planned one-year experimental treatment course, but does not establish cure or longer survival. Posted five-year OS estimates are 89.7% versus 87.9%; HR 0.90 (95% CI 0.55–1.47), P=0.6787. These are censored survival estimates, not evidence that every participant completed five years. The registry specifies one-sided 0.025 testing for DFS and OS testing conditional on significant DFS. Interim alpha spending, proportional-hazards diagnostics, recurrence adjudication, and censoring sensitivity were not verified from the original statistical analysis plan. Open-label assessment warrants scrutiny. The inspected critical-commentary abstract raises overtreatment, de-escalation, surrogacy, post-relapse treatment access, and component-contribution objections. Those objections do not erase the randomized DFS result, but challenge the full regimen’s net value. No independent confirmatory trial was established; conference updates and reconstructed ATOMIC survival analyses are not replication.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4",
+        "web-d90e2ea840ba",
+        "web-14592624f97b"
+      ]
+    },
+    {
+      "id": "safety-observed",
+      "title": "Candidate-specific safety results show added harm, not merely missing disclosure",
+      "detail": "The publication abstract reports grade 3/4 adverse events in 84.1% versus 71.9%. The registry’s separately defined grade ≥3 outcome contains 291/346 versus 240/334 treated patients. Its serious-event table reports 197/346 versus 138/334 patients with serious events over the stated five-year reporting window. These are not all necessarily treatment-related, and seriousness is distinct from severity grade. Participant flow lists adverse-event-related noncompletion in 62 versus 32 randomized patients; this should not be relabeled as an atezolizumab-specific permanent-discontinuation rate. Registry all-cause deaths were 31/355 versus 33/357, not treatment-attributed deaths. Roche’s statement that safety was consistent with known profiles therefore does not mean that adding atezolizumab was equally tolerable or that the adjuvant benefit–risk question is settled.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4",
+        "web-d1b6d0be27de"
+      ]
+    },
+    {
+      "id": "safety-exposure",
+      "title": "Exposure, persistent toxicity, and subgroup tolerability need a more complete safety analysis",
+      "detail": "The experimental strategy planned up to 25 two-weekly atezolizumab cycles versus 12 chemotherapy cycles in the control arm; actual median exposure and exposure-adjusted adverse-event rates were not established. The registry population had median age 64 and only 11 patients with ECOG performance status 2. Age-, frailty-, and dose-specific tolerability cannot be inferred from aggregate results. Serious-event entries include colitis in 5 versus 1 patients, adrenal insufficiency in 3 versus 0, and acute kidney injury in 9 versus 1, with treated denominators of 346 and 334. These small, unadjusted counts are monitoring leads, not proof of immune causation. Practical diligence should distinguish chemotherapy diarrhea from immune colitis, characterize persistent endocrine injury, and assess renal/hepatic abnormalities. Genentech’s product information recommends baseline and periodic liver enzymes, creatinine, and thyroid testing.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-0114277c9de8"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Current CMC status remains unknown; no product-linked site clearance was verified",
+      "detail": "The supplied product records identify Genentech as manufacturer/applicant, but do not map the pending supplements to drug-substance, fill-finish, testing, or hyaluronidase sites and FEIs. A public compliance search for Genentech warning letters returned no records; that does not establish a clean history. The supplied Roche Diagnostics device/BIMO inspection leads lack a demonstrated connection to these medicines and were excluded. Manufacturing searches did not establish a current candidate-specific CMC objection, corrective-action program, or FDA closure. FDA’s observed September 12, 2024 Hybreza approval establishes completion of that original product review—not present-day compliance of every site or clearance of the colon supplements. The resolving evidence would be the current product–site map, relevant FDA quality-review conclusions, and any linked inspection findings and responses.",
+      "direction": "unknown",
+      "sourceIds": [
+        "evidence-labels-4b922b35-c401-4189-a8b2-9f9a820878db",
+        "evidence-labels-87c7ca7b-0b4e-456a-8338-80c9613edb36",
+        "web-10bbb178f554"
+      ]
+    },
+    {
+      "id": "regulatory-status",
+      "title": "These are pending efficacy supplements, separate from completed original approvals",
+      "detail": "Roche’s primary release describes supplemental filings for Tecentriq and Tecentriq Hybreza with chemotherapy in stage III dMMR/MSI-H colon cancer, granted priority review with the October 9 target. It does not describe a CRL resubmission. Supplied Drugs@FDA records show Tecentriq’s original BLA 761034 approval on May 18, 2016 and Hybreza’s original BLA 761347 approval on September 12, 2024; neither is approval of the present colon indication. Other listed supplements were not assumed to match this application. No specific FDA objection to the colon filings was retrieved. The attempted Hybreza CRL-archive lookup failed, so absence of prior letters cannot be concluded. Sponsor acceptance disclosure is credible process evidence, but the agency’s current benefit–risk conclusions and exact supplement numbers remain unavailable.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-d1b6d0be27de",
+        "roche-hy-2026",
+        "evidence-approvals-BLA761034",
+        "evidence-approvals-BLA761347"
+      ]
+    },
+    {
+      "id": "formulation-bridge",
+      "title": "Hybreza has a relevant FDA bridging precedent, but ATOMIC tested IV treatment",
+      "detail": "FDA’s 2024 Hybreza approval relied on IMscin001 pharmacokinetic comparability between subcutaneous and IV atezolizumab in previously treated advanced NSCLC, extending the subcutaneous product to then-approved adult IV indications. FDA reports that both coprimary exposure endpoints met the prespecified comparability threshold. This is relevant formulation experience, not independent colon-cancer efficacy evidence. ATOMIC’s registry describes IV atezolizumab every two weeks, whereas the prior Hybreza approval specifies a subcutaneous dose every three weeks. The pending supplement’s exposure bridge, scheduling with mFOLFOX6, and proposed duration therefore merit explicit verification. Prior sponsor approvals are observed regulatory experience, not a validated predictor of this outcome.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-10bbb178f554",
+        "trial-NCT02912559",
+        "web-d1b6d0be27de"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Tecentriq Hybreza’s completed 2024 formulation approval",
+      "relevance": "FDA’s acceptance of a subcutaneous-to-IV pharmacokinetic bridge provides a concrete precedent for assessing the formulation component of the pending Hybreza supplement.",
+      "difference": "That was an original new-dosage-form BLA supported by a study in advanced NSCLC and existing adult indications. It neither establishes ATOMIC’s adjuvant benefit–risk nor resolves current supplement-specific CMC requirements.",
+      "sourceIds": [
+        "web-10bbb178f554",
+        "evidence-approvals-BLA761347"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "FDA’s ATOMIC clinical/statistical review or a complete clinical study report: DFS event composition, censoring sensitivity, interim testing boundaries, central biomarker confirmation, updated OS, and post-relapse immunotherapy use.",
+    "A reconciled safety/exposure report: actual treatment duration, component-specific discontinuations, attributed fatal events, persistent immune toxicities, patient-reported outcomes, and tolerability by age and recurrence-risk group.",
+    "The current CMC/site package for both formulations: product-linked sites and FEIs, process changes, relevant FDA inspection classifications, and any deficiency responses or closure documents.",
+    "FDA or sponsor correspondence confirming supplement identifiers, proposed biomarker/age/dosing label, the Hybreza exposure bridge, and any change to the October 9 action goal."
+  ],
+  "limitations": [
+    "The investigation inspected registry protocol and results sections, accessible serious-event tables, the NEJM abstract, primary sponsor disclosures, FDA’s prior Hybreza approval announcement, and secondary clinical reporting. The full NEJM article, appendix, original protocol/SAP, and FDA ATOMIC review were not retrieved; the registry payload was also truncated.",
+    "The critical commentary was accessible only through an abstract reproduced on ResearchGate; its full supporting argument was not inspected. Its objections are attributed interpretation, not documented FDA objections.",
+    "Safety tables use different definitions and analysis populations. Actual median exposure, exposure-adjusted comparisons, treatment-attributed deaths, persistent toxicity, and component-specific discontinuation rates were not established.",
+    "Manufacturing searches included Genentech public warning-letter records and targeted product/CMC searches. A historical 2023 subcutaneous manufacturing-process delay surfaced only as a bibliographic lead; its original disclosure was not verified and it was not classified as a current setback or CRL. No exact current product–facility linkage was established.",
+    "The attempted BLA 761347 CRL-archive lookup returned an error; another targeted historical search also failed. Consequently, prior CRLs and the detailed original Hybreza review chronology remain incompletely investigated.",
+    "The current registry snapshot was updated August 4, 2026 and retrieved September 10. Earlier conference estimates were not substituted for the later posted results. No later regulatory outcome was assumed, and the supplied July portfolio update was available only as a curated summary."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does ATOMIC’s sustained DFS gain justify the added toxicity of the full adjuvant regimen despite unproven overall-survival benefit?",
+    "bullCase": {
+      "claim": "A randomized, active-controlled phase III study in the intended biomarker-defined population shows a substantial and statistically persuasive DFS improvement, maintained at a three-year landmark beyond the planned treatment course. The registry and publication abstract agree on the principal effect estimate. This is meaningful efficacy support for the tested regimen.",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4"
+      ]
+    },
+    "bearCase": {
+      "claim": "More patients experienced severe and serious adverse events, while OS remains statistically inconclusive. ATOMIC does not determine whether shorter therapy, immunotherapy without chemotherapy, or treatment reserved for relapse could achieve a better benefit–risk balance. Persistent toxicity and post-relapse treatment data could materially alter interpretation. These are clinical concerns, not established FDA grounds for rejection.",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4",
+        "web-d90e2ea840ba"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does FDA’s integrated analysis confirm a robust recurrence benefit with acceptable irreversible and fatal toxicity across the proposed label population?",
+      "whyItMatters": "DFS sensitivity analyses would test whether the efficacy magnitude survives ascertainment and censoring scrutiny. Updated survival, death attribution, persistent immune toxicity, and patient-reported outcomes would distinguish an acceptable prevention trade-off from excessive adjuvant treatment burden. Current public summaries cannot settle that judgment.",
+      "sourceIds": [
+        "trial-NCT02912559",
+        "web-3e17ffdfcae4"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Favorable action on the tested strategy",
+        "trigger": "FDA confirms robust DFS, accepts the integrated safety balance and formulation bridge, and finds no blocking quality issue.",
+        "implication": "Approval could support a biomarker-restricted adjuvant regimen reflecting the tested chemotherapy-plus-maintenance strategy. It would not establish an OS benefit, chemotherapy-free treatment, or efficacy in pMMR disease.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-d1b6d0be27de",
+          "web-10bbb178f554"
+        ]
+      },
+      {
+        "label": "Evidence accepted with narrower use or added follow-up",
+        "trigger": "FDA accepts overall efficacy but identifies material population, diagnostic, exposure, or long-term toxicity uncertainties.",
+        "implication": "Label scope, dosing, monitoring, or follow-up requirements could become more restrictive than sponsor headline descriptions. IV and subcutaneous implementation should be checked separately.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-10bbb178f554",
+          "web-d1b6d0be27de"
+        ]
+      },
+      {
+        "label": "Additional review or unfavorable action",
+        "trigger": "FDA identifies material DFS robustness problems, unacceptable treatment-related harm, or a documented supplement-linked CMC deficiency.",
+        "implication": "Additional analyses or remediation could delay action or prevent approval in this cycle. A review extension would remain distinct from a CRL; neither is established in the current evidence.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-3e17ffdfcae4",
+          "web-d1b6d0be27de"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What do the original SAP and FDA sensitivity analyses show about interim alpha spending, DFS event definitions, assessment timing, and censoring after withdrawal?",
+        "whyItMatters": "The large observed effect is persuasive, but this is a single open-label pivotal trial. These analyses determine whether its magnitude and statistical validity withstand review.",
+        "sourceIds": [
+          "trial-NCT02912559"
+        ]
+      },
+      {
+        "question": "How many patients had treatment-attributed deaths, persistent endocrine or other immune injury, or component-specific permanent discontinuation—and how did these vary by age and recurrence risk?",
+        "whyItMatters": "Aggregate severe-event rates do not reveal irreversible harm or identify patients for whom recurrence prevention outweighs added toxicity.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-0114277c9de8"
+        ]
+      },
+      {
+        "question": "What were actual chemotherapy and atezolizumab exposure, quality-of-life outcomes, and checkpoint-inhibitor use after recurrence?",
+        "whyItMatters": "These data address treatment burden and the unresolved distinction between preventing recurrence and improving survival compared with effective treatment at relapse.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-d90e2ea840ba"
+        ]
+      },
+      {
+        "question": "Which manufacturing and testing sites support each supplement, what has changed since prior approval, and are any FDA quality requests unresolved?",
+        "whyItMatters": "Manufacturer names and historical approval cannot establish current product-linked readiness. A site map and original regulatory documents are required.",
+        "sourceIds": [
+          "evidence-labels-4b922b35-c401-4189-a8b2-9f9a820878db",
+          "evidence-labels-87c7ca7b-0b4e-456a-8338-80c9613edb36",
+          "web-10bbb178f554"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong randomized DFS benefit coexists with substantially higher severe adverse events and unproven overall-survival benefit. The supplements remain sponsor-reported under review; current product-linked manufacturing status is unknown.",
+    "pivotalQuestion": "Does ATOMIC’s sustained DFS gain justify the added toxicity of the full adjuvant regimen despite unproven overall-survival benefit?",
+    "sourceIds": [
+      "trial-NCT02912559",
+      "web-3e17ffdfcae4",
+      "web-d1b6d0be27de"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Randomized ATOMIC results show a substantial DFS benefit in the intended dMMR population. OS remains inconclusive; independent replication and randomized treatment-de-escalation comparisons were not established.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-3e17ffdfcae4"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "concern",
+        "rationale": "Severe and serious adverse events were more frequent with the experimental strategy. Actual exposure, attributed fatalities, persistent immune injury, and subgroup tolerability remain incompletely characterized.",
+        "sourceIds": [
+          "trial-NCT02912559",
+          "web-3e17ffdfcae4"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No current supplement-linked site map, quality-review conclusion, or corrective-action closure was verified. Prior product approval and unrelated device/BIMO inspection leads do not establish current CMC readiness.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Roche reports accepted priority supplements and an October 9 target. FDA previously approved both formulations, but the colon supplements’ exact identifiers, agency objections, and final disposition remain unverified.",
+        "sourceIds": [
+          "web-d1b6d0be27de",
+          "evidence-approvals-BLA761034",
+          "web-10bbb178f554"
+        ]
+      }
+    ]
+  },
+  "id": "90914235-74d9-4ea7-8a55-93bd6362fad7",
+  "candidateId": "atezolizumab-colon-adjuvant",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:43:31.482Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Atezolizumab + FOLFOX6, specifically Adjuvant treatment of stage III dMMR/MSI-H colon cancer. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "roche-atezo-acceptance",
+      "title": "Roche: adjuvant atezolizumab filing in biomarker-defined colon cancer",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-11",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review of supplemental applications for Tecentriq and Tecentriq Hybreza with FOLFOX6 in stage III dMMR/MSI-H colon cancer, targeting October 9. ATOMIC showed a disease-free-survival benefit; that endpoint and molecularly defined population should not be generalized to overall survival or all colorectal cancers."
+    },
+    {
+      "id": "roche-hy-2026",
+      "title": "Roche: half-year 2026 regulatory portfolio update",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "publisher": "Roche",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche’s half-year update lists the 2026 US filings for adjuvant giredestrant, giredestrant plus everolimus, adjuvant atezolizumab and satralizumab in TED. It supports portfolio context; individual acceptance releases supply the exact target dates and trial limitations."
+    },
+    {
+      "id": "trial-nct02912559",
+      "title": "ClinicalTrials.gov: NCT02912559 · Combination Chemotherapy With or Without Atezolizumab in Treating Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair",
+      "url": "https://clinicaltrials.gov/study/NCT02912559",
+      "publisher": "ClinicalTrials.gov / National Cancer Institute (NCI)",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 712 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT02912559",
+      "title": "Combination Chemotherapy With or Without Atezolizumab in Treating Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair",
+      "url": "https://clinicaltrials.gov/study/NCT02912559",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T19:43:31.565Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor National Cancer Institute (NCI). Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761347",
+      "title": "TECENTRIQ HYBREZA — BLA761347",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761347%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.906Z",
+      "summary": "BLA761347; sponsor GENENTECH INC. 7 of 7 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761034",
+      "title": "TECENTRIQ — BLA761034",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761034%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.906Z",
+      "summary": "BLA761034; sponsor GENENTECH INC. 12 of 41 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761041",
+      "title": "TECENTRIQ — BLA761041",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761041%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.906Z",
+      "summary": "BLA761041; sponsor GENENTECH INC. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34902530",
+      "title": "Updated efficacy and safety data from IMbrave150: Atezolizumab plus bevacizumab vs. sorafenib for unresectable hepatocellular carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34902530/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.997Z",
+      "summary": "Indexed citation in Journal of hepatology; publication date 2022 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32402160",
+      "title": "Atezolizumab plus Bevacizumab in Unresectable Hepatocellular Carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32402160/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.997Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2020 May 14. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-33721560",
+      "title": "Adjuvant atezolizumab versus observation in muscle-invasive urothelial carcinoma (IMvigor010): a multicentre, open-label, randomised, phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33721560/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.997Z",
+      "summary": "Indexed citation in The Lancet. Oncology; publication date 2021 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-30280641",
+      "title": "First-Line Atezolizumab plus Chemotherapy in Extensive-Stage Small-Cell Lung Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30280641/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.997Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2018 Dec 6. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37268157",
+      "title": "IMscin001 Part 2: a randomised phase III, open-label, multicentre study examining the pharmacokinetics, efficacy, immunogenicity, and safety of atezolizumab subcutaneous versus intravenous administration in previously treated locally advanced or metastatic non-small-cell lung cancer and pharmacokinetics comparison with other approved indications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37268157/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:31.997Z",
+      "summary": "Indexed citation in Annals of oncology : official journal of the European Society for Medical Oncology; publication date 2023 Aug. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-4b922b35-c401-4189-a8b2-9f9a820878db",
+      "title": "TECENTRIQ — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%224b922b35-c401-4189-a8b2-9f9a820878db%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:32.123Z",
+      "summary": "Company-submitted label; effective date 2026-05-20. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-87c7ca7b-0b4e-456a-8338-80c9613edb36",
+      "title": "Tecentriq Hybreza — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%2287c7ca7b-0b4e-456a-8338-80c9613edb36%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:32.123Z",
+      "summary": "Company-submitted label; effective date 2026-05-20. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT02912559",
+      "title": "Combination Chemotherapy With or Without Atezolizumab in Treating Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair",
+      "url": "https://clinicaltrials.gov/study/NCT02912559",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T19:43:36.929Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT02912559; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-0dbac3930b00",
+      "title": "FDA Grants Priority Review to Adjuvant Atezolizumab Plus ...",
+      "url": "https://www.onclive.com/view/fda-grants-priority-review-to-atezolizumab-adjuvant-regimen-for-stage-iii-dmmr-c",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:48.602Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d1b6d0be27de",
+      "title": "FDA grants Priority Review for Roche's Tecentriq for a certain type ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-11",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:48.603Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3f26801d31f3",
+      "title": "3-Yr DFS 86% vs 76% — Adjuvant Atezolizumab in dMMR Colon Cancer",
+      "url": "https://kolpulse.com/kol-pulse-trial-profile-atomic",
+      "publisher": "kolpulse.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:48.603Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3e17ffdfcae4",
+      "title": "Atezolizumab plus FOLFOX for Stage III Mismatch Repair-Deficient Colon ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880612/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:25.439Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-14592624f97b",
+      "title": "Adjuvant chemo-immunotherapy shows comparable efficacy among ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12829358/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:25.440Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6be3f821feeb",
+      "title": "Study Details | NCT02912559 | ClinicalTrials.gov - ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02912559",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:25.441Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-793569a1fa7d",
+      "title": "Large National Cancer Institute-Funded Trial ... - ASCO",
+      "url": "https://www.asco.org/about-asco/press-center/news-releases/large-national-cancer-institute-funded-trial-atezolizumab-chemotherapy",
+      "publisher": "www.asco.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:25.441Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-36198a10baef",
+      "title": "FDA Grants Priority Review for Genentech's Tecentriq for a Certain ...",
+      "url": "https://www.gene.com/media/press-releases/15116/2026-06-10/fda-grants-priority-review-for-genentech",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:29.099Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7c2efef685ba",
+      "title": "TECENTRIQ HYBREZA™ (atezolizumab and hyaluronidase ...",
+      "url": "https://www.tecentriq.com/hybreza.html",
+      "publisher": "www.tecentriq.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:29.099Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-10bbb178f554",
+      "title": "FDA approves atezolizumab and hyaluronidase-tqjs",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-and-hyaluronidase-tqjs-subcutaneous-injection",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:29.100Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0114277c9de8",
+      "title": "Tecentriq Hybreza™ (atezolizumab and hyaluronidase-tqjs) - Genentech",
+      "url": "https://www.gene.com/medical-professionals/medicines/tecentriq-hybreza",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:29.100Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e2a5709f65af",
+      "title": "Did ATOMIC really improve on the standard of care for mismatch repair ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42026197/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.250Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-789458c44a4c",
+      "title": "Did ATOMIC really improve on the standard of care for mismatch repair ...",
+      "url": "https://read.qxmd.com/read/42026197/did-atomic-really-improve-on-the-standard-of-care-for-mismatch-repair-deficient-colon-cancer",
+      "publisher": "read.qxmd.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.252Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d90e2ea840ba",
+      "title": "Did ATOMIC really improve on the standard of care for mismatch repair ...",
+      "url": "https://www.researchgate.net/publication/404115693_Did_ATOMIC_really_improve_on_the_standard_of_care_for_mismatch_repair-deficient_colon_cancer",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.253Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-21a5bd2d341e",
+      "title": "Did ATOMIC really improve on the standard of care for mismatch ...",
+      "url": "https://clin.larvol.com/article-detail/82026009",
+      "publisher": "clin.larvol.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.254Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2da07610840c",
+      "title": "An Evidence-Based Rationale for Dose De-escalation of ... - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393195/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:46:33.342Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ededeb1c37f2",
+      "title": "[PDF] Tecentriq, INN-atezolizumab - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/documents/assessment-report/tecentriq-epar-public-assessment-report_en.pdf",
+      "publisher": "www.ema.europa.eu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:46:33.343Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7b1aaa535c0e",
+      "title": "Study Details | NCT02409342 - ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02409342",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:46:33.344Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0c007750a20a",
+      "title": "(PDF) An Evidence-Based Rationale for Dose De-escalation of ...",
+      "url": "https://www.researchgate.net/publication/382757772_An_Evidence-Based_Rationale_for_Dose_De-escalation_of_Subcutaneous_Atezolizumab",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:46:33.345Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 498548,
+    "outputTokens": 7522
+  },
+  "durationMs": 322602,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-atezo-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT02912559"
+      },
+      "status": "completed",
+      "durationMs": 94
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ATOMIC atezolizumab FOLFOX stage III dMMR colon cancer full publication 2026 disease free survival safety FDA October 9 2026 priority review"
+      },
+      "status": "completed",
+      "durationMs": 5566
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "761347"
+      },
+      "status": "partial",
+      "durationMs": 368
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "warning_letters",
+        "query": "Genentech"
+      },
+      "status": "completed",
+      "durationMs": 638
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020640/ Atezolizumab FOLFOX ATOMIC"
+      },
+      "status": "completed",
+      "durationMs": 27918
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Tecentriq Hybreza atezolizumab FDA manufacturing CMC complete response letter 2023 2024 2026 Genentech site inspection colon supplemental"
+      },
+      "status": "completed",
+      "durationMs": 3658
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Did ATOMIC really improve\" \"2026\" standard care colon"
+      },
+      "status": "completed",
+      "durationMs": 14154
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Atezolizumab plus FOLFOX\" site:pmc.ncbi.nlm.nih.gov/articles/PMC13020640"
+      },
+      "status": "error",
+      "durationMs": 1250
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"761347\" \"complete response\" manufacturing"
+      },
+      "status": "error",
+      "durationMs": 90011
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"atezolizumab\" \"manufacturing\" \"2023\" \"delay\""
+      },
+      "status": "completed",
+      "durationMs": 9366
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0761057735a89438016aa30919a59887d2b7e0ccfba182b4cb",
+    "inputHash": "179bf253246cca3e45b71f7921059fadc618b2d14fa7a5aba4bc5c9ca7377b7a"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:06:37.334Z",
+    "originalSha256": "f240b521228f778612cb15356db507f5c3fee63bdb769ecd03cc4c6797f7ea6d",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

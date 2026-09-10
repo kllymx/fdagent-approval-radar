@@ -45,8 +45,18 @@ test('trial presentation preserves adjusted effects, supplied denominators, evid
   assert.match(html, /Test population/);
   assert.match(html, /Week 6/);
   assert.match(html, /Test limitation/);
-  assert.match(html, /Not approval probabilities/);
+  assert.match(html, /<details class="trial-evidence supporting-section"/);
+  assert.doesNotMatch(html, /<details class="trial-evidence supporting-section"[^>]*open/);
   const hr = renderToStaticMarkup(createElement(TrialEvidenceVisual, { visuals: [{ ...base, unit: 'months', arms: [{ label: 'A', value: 28.7 }, { label: 'B', value: 16.3 }], effect: { label: 'Hazard ratio', value: 0.5 } }], onSources: () => {} }));
   assert.match(hr, /Hazard ratio/);
   assert.doesNotMatch(hr, /0\.5 months/);
+});
+
+
+test('clinical charts start collapsed and only one supplied endpoint is plotted at a time', () => {
+  const html = renderToStaticMarkup(createElement(TrialEvidenceVisual, { visuals: [base, { ...base, id: 'second', title: 'Second test endpoint', study: 'Second trial' }], onSources: () => {} }));
+  assert.equal((html.match(/class="trial-visual"/g) ?? []).length, 1);
+  assert.match(html, /<select aria-label="Clinical result"/);
+  assert.match(html, /Second test endpoint/);
+  assert.doesNotMatch(html, /<details class="trial-evidence supporting-section"[^>]*open/);
 });

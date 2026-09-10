@@ -1,0 +1,73 @@
+/* One decision summary leads; supporting evidence opens on demand. */
+.candidate-header { gap: 25px; }
+.candidate-title-line h1 { font-size: 26px; }
+.header-target > span { font-size: 11px; }
+.header-target > strong { font-size: 18px; margin-top: 5px; font-weight: 500; }
+.header-target > p { margin-top: 6px; }
+.candidate-meta { margin-top: 17px; font-size: 11px; }
+.candidate-meta .status-pill, .header-sources { font-size: 11px; }
+.candidate-metadata > div { max-width: 310px; min-width: 250px; }
+.view-tabs { margin-top: 15px; margin-bottom: 22px; }
+.candidate-assessment { padding: 22px 24px 0; margin-bottom: 22px; }
+.assessment-heading { justify-content: flex-start; align-items: center; gap: 12px; margin-bottom: 11px; }
+.assessment-heading > h2 { font-size: 14px; font-weight: 500; line-height: 1.5; margin: 0; color: var(--muted); }
+.assessment-heading > .assessment-scope { font-size: 11px; border: 0; padding: 0; margin-left: auto; }
+.assessment-verdict { display: flex; align-items: center; gap: 12px; margin: 0 0 13px; color: var(--outlook-color); font-size: 30px; font-weight: 600; line-height: 1.25; letter-spacing: -.5px; }
+.assessment-verdict > .outlook-dot { width: 8px; height: 8px; flex-basis: 8px; }
+.assessment-summary { font-size: 15px; line-height: 1.65; max-width: 1030px; margin: 0 0 15px; }
+.assessment-crux { display: block; max-width: 1030px; font-size: 12.5px; line-height: 1.65; margin: 0 0 20px; color: var(--muted); }
+.assessment-crux > span { display: block; font-size: 11px; color: var(--ink); margin-bottom: 4px; font-weight: 500; }
+.assessment-primary { font-size: 12.5px; font-weight: 500; gap: 25px; margin-bottom: 23px; }
+.assessment-factors { gap: 12px; }
+.assessment-factor { display: flex; align-items: center; justify-content: space-between; gap: 7px; padding: 10px 0 11px; background: transparent; border-top: 1px solid var(--border); border-radius: 0; }
+.assessment-factor > span { margin: 0; font-size: 11px; }
+.assessment-factor > strong { font-size: 11px; gap: 4px; font-weight: 400; }
+.assessment-factor > strong > svg:first-child { display: none; }
+.assessment-factor > strong > svg:last-child { margin-left: 1px; }
+.assessment-factor > i { height: 2px; opacity: .45; }
+.assessment-factor:hover, .assessment-factor.expanded { background: transparent; }
+.assessment-factor:hover > span, .assessment-factor.expanded > span { color: var(--ink); }
+.assessment-footer { border-top: 0; padding: 13px 0; }
+.completed-assessment, .unassessed { padding-bottom: 20px; }
+.completed-assessment { display: block; }
+.completed-assessment .completed-action-date { font-size: 15px; margin-bottom: 20px; }
+.completed-assessment .assessment-primary { margin-bottom: 0; }
+.supporting-section { border: 0; border-top: 1px solid var(--border); border-radius: 0; background: transparent; margin: 0; }
+.supporting-section > summary { display: flex; align-items: center; gap: 12px; cursor: pointer; list-style: none; padding: 17px 0; font-size: 13px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+.supporting-section > summary::-webkit-details-marker { display: none; }
+.supporting-section > summary > small { color: var(--muted); font-size: 11px; font-weight: 400; margin-left: auto; }
+.supporting-section > summary > svg { color: var(--muted); }
+.supporting-section[open] > summary > svg { transform: rotate(180deg); }
+.supporting-content { padding: 4px 0 20px; }
+.supporting-content > .dossier-summary { font-size: 12.5px; color: var(--muted); max-width: 940px; margin: 0 0 25px; }
+.supporting-content .timeline { max-width: 1050px; }
+.supporting-content .timeline-content { padding-bottom: 22px; }
+.supporting-content .signal h3 { font-size: 12.5px; }
+.supporting-content .signal:first-child { border-top: 0; }
+.supporting-content .signal-detail { max-width: 1010px; }
+.clinical-disclosure-content { padding: 3px 0 20px; }
+.trial-selector { display: flex; align-items: center; gap: 12px; margin-bottom: 15px; max-width: 780px; }
+.trial-selector > span { font-size: 11px; color: var(--muted); }
+.trial-selector > select { min-width: 0; max-width: 100%; flex: 1; border: 1px solid var(--border); background: var(--panel); color: var(--ink); border-radius: 2px; padding: 9px 10px; font-size: 12.5px; line-height: 1.5; }
+.clinical-disclosure-content .trial-visual { border: 0; background: transparent; padding: 4px 0 0; max-width: 900px; }
+.clinical-disclosure-content .trial-chart { max-width: 790px; }
+.clinical-disclosure-content .trial-visual h3 { font-size: 14px; }
+.clinical-disclosure-content .trial-interpretation { max-width: 850px; }
+@media (max-width: 1150px) {
+  .assessment-factor { flex-direction: column; align-items: flex-start; gap: 7px; }
+}
+@media (max-width: 759px) {
+  .candidate-assessment { padding: 18px 15px 0; }
+  .assessment-verdict { font-size: 27px; }
+  .assessment-summary { font-size: 14px; }
+  .assessment-heading { flex-wrap: wrap; gap: 5px; }
+  .assessment-heading > .assessment-scope { margin-left: 0; flex-basis: 100%; }
+  .assessment-primary { width: 100%; }
+  .assessment-factors { gap: 10px; }
+  .assessment-factor { flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .assessment-factor > strong { white-space: nowrap; }
+  .completed-assessment, .unassessed { padding-bottom: 18px; }
+  .header-target > strong { font-size: 17px; }
+  .trial-selector { align-items: flex-start; flex-direction: column; gap: 6px; }
+  .trial-selector > select { width: 100%; }
+}

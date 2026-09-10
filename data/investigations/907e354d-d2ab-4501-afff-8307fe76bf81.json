@@ -1,0 +1,754 @@
+{
+  "summary": "INO-3107 has a meaningful surgery-reduction signal and reassuring observed tolerability in a small adult RRP study. However, its original BLA remains exposed to a specific, unresolved FDA accelerated-approval eligibility objection. The October 30, 2026 action target remains sponsor-reported. Historical device manufacturing problems were reportedly corrected, but current product-specific CMC acceptability is not publicly established.",
+  "outlook": {
+    "verdict": "Mixed: clinically credible, but accelerated-approval eligibility remains the principal unresolved obstacle.",
+    "timing": "INOVIO’s August 12, 2026 update retained October 30, 2026 as the PDUFA action target and reported completed late-cycle activities and scheduled prelicensure inspections. Earlier mid-2026 expectations depended on requested priority review; FDA instead assigned standard review. That change is not evidence of a subsequent PDUFA extension. No later outcome or target change was established in this investigation. The target is for FDA action, not necessarily approval.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides FY2017–2023 original-application standard-review cohort context, which is broadly relevant to this first BLA. It mixes application types and does not estimate an individual probability or resolve this candidate’s accelerated-approval eligibility question. Its separate action-timeliness estimates include nonapproval actions and cannot be treated as approval forecasts."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "title": "An active original BLA, with a documented eligibility objection—not merely routine uncertainty",
+      "detail": "INOVIO announced completion of its first rolling BLA submission on November 3, 2025, seeking treatment of adults with RRP. Its December 29 acceptance announcement specified standard review and disclosed FDA’s preliminary conclusion that adequate information had not been submitted to justify accelerated-approval eligibility. This is an original application, not a disclosed supplement or post-CRL resubmission. The August 12, 2026 update confirms that INOVIO presented its rationale at an informal clinical meeting, but FDA did not discuss the preliminary eligibility comment; confirmatory-trial feedback remained forthcoming. Completed meetings therefore do not establish resolution. INOVIO stated at acceptance that it was not planning to pursue traditional approval.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-fb8b0a855efc",
+        "web-7cd971b55d5d",
+        "web-13993f442659"
+      ]
+    },
+    {
+      "id": "F2",
+      "title": "Actual pivotal-supporting results show substantial within-patient surgery reduction",
+      "detail": "RRP-001/NCT04398433 was an open-label, multicenter, single-group Phase 1/2 study of 32 adults with HPV-6 and/or HPV-11 RRP and at least two surgeries in the preceding year. Seven had juvenile-onset disease but were adults at treatment; 25 had adult-onset disease. The comparator was each patient’s preceding year, not a concurrent control. Patients received four IM treatments followed by CELLECTRA 2000 electroporation at Day 0 and Weeks 3, 6 and 9. Registry and paper identify safety/tolerability as the primary endpoint; surgery frequency, staging and immune responses were secondary. All 32 completed Week 52. Baseline median surgery count was four, range two to eight. Median within-patient change was −3 surgeries, 95% CI −3 to −2. Any surgery reduction occurred in 26/32; at least 50% reduction in 23/32; and no post-Day-0 surgery in 9/32. These are distinct response definitions, not interchangeable claims.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04398433",
+        "web-a8677afd5714"
+      ]
+    },
+    {
+      "id": "F3",
+      "title": "The statistical signal does not eliminate important causal and endpoint limitations",
+      "detail": "The original paper states that no formal power analysis applied and that efficacy analyses were descriptive. The surgery-change confidence interval quantifies the observed before–after change, not a randomized treatment effect. Selection for recent surgical activity, natural disease fluctuation, regression to the mean and unblinded surgery decisions remain plausible alternative explanations. Debulking occurred before initial dosing, and the baseline procedure was outside the post-Day-0 efficacy count. At Week 52, total clinical staging score improved by −11.0 points, 95% CI −16.7 to −5.3, but the separate symptom score changed by only −0.4, 95% CI −0.7 to 0.0; the composite cannot establish a clear symptom benefit. Immune findings support biological plausibility, not an FDA-accepted surrogate. No independent confirmatory efficacy replication was retrieved.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-a8677afd5714",
+        "web-66980c9f58b9",
+        "trial-NCT04398433"
+      ]
+    },
+    {
+      "id": "F4",
+      "title": "Long-term results support durability, but are an extension—not replication",
+      "detail": "The original RRP-002 paper describes retrospective observational follow-up of 28 of the original 32 participants. Reported mean annual surgeries fell from 4.1 pretreatment to 1.7 in Year 1 and 0.9 in Year 2; Year-2 complete response was 14/28, versus 9/32 in Year 1. INOVIO reports that the benefit occurred without additional dosing. Median extension follow-up was 1.8 years. Four patients were lost or not consented: three original responders and one nonresponder, so missingness was not exclusively loss of poor responders. Nevertheless, changing denominators, retrospective ascertainment and incomplete later follow-up prevent interpreting the increasing response percentage as a controlled estimate of improving efficacy. Alternative RRP medication use was collected, but its detailed effect on durability estimates was not fully inspected.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-66980c9f58b9",
+        "web-7cd971b55d5d"
+      ]
+    },
+    {
+      "id": "F5",
+      "title": "Observed tolerability is reassuring, with limited exposure and safety-window reconciliation needed",
+      "detail": "Among 32 exposed patients, 20 had TEAEs and 13 had treatment-related events; all related events were Grade 1–2. Injection-site pain affected 10 patients; registry all-cause TEAEs included fatigue in five and headache in four. Four patients had Grade 3 TEAEs, judged unrelated; the paper reports no Grade 4–5 TEAE or TEAE causing discontinuation or death. It reports SAEs in three patients, none treatment-related, whereas the registry reports one serious TEAE—acute cholecystitis—within its first-dose-to-30-days-after-last-dose window, approximately Week 13. These scopes must not be collapsed into either 'no serious events' or an unexplained contradiction. The extension reported no SAEs, but retrospectively collected serious events rather than comprehensive prospective all-AE surveillance. There was no dose-ranging comparison; registry groups reflect prior surgery burden, not different doses.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04398433",
+        "web-a8677afd5714",
+        "web-66980c9f58b9"
+      ]
+    },
+    {
+      "id": "F6",
+      "title": "Historical device manufacturing setback reportedly corrected; commercial CMC remains unverified",
+      "detail": "INOVIO’s 2024 Form 10-K explicitly links a manufacturing problem in the CELLECTRA 5PSP single-use disposable administration component to delay of the planned 2024 BLA submission. It reports resolution in first-quarter 2025; the August 2025 update subsequently reports completion of device design-verification testing. This supersedes treating the original defect as demonstrably still unresolved. However, the pivotal trial used CELLECTRA 2000, while 5PSP was identified for commercial submission and the confirmatory study; the device-bridging package remains important. The 10-K identifies CELLECTRA component manufacturing in San Diego and reliance on third-party manufacturers, but the inspected material does not establish exact INO-3107 commercial facilities, FEIs or plasmid contractors. August 2026 inspection completion is not FDA CMC clearance.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-2d5c246ace5d",
+        "web-5e6af6f52805",
+        "trial-NCT04398433",
+        "web-13993f442659"
+      ]
+    },
+    {
+      "id": "F7",
+      "title": "Sponsor experience and funding affect execution, not the evidentiary approval standard",
+      "detail": "INOVIO characterized this as its first BLA and INO-3107 as its prospective first commercial product. The 2024 Form 10-K stated that it had no approved products in any country. Thus, no established INOVIO commercial-approval timeline provides a candidate-specific precedent. In August 2026, management projected funding into late first-quarter 2027, including July financing. That supports near-term operations according to the sponsor, but does not establish funding for an extended preapproval trial or lengthy remediation. Other pipeline announcements, including VGX-3100 in cervical dysplasia, are not clinical or regulatory evidence for this RRP application.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-fb8b0a855efc",
+        "web-2d5c246ace5d",
+        "web-13993f442659"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "PAPZIMEOS: observed traditional approval in the same adult RRP indication",
+      "relevance": "FDA approved Precigen’s PAPZIMEOS on August 14, 2025. Its regulatory review accepted a small, single-arm study with within-patient baseline control and confirmatory evidence, demonstrating that absence of randomization is not automatically fatal in RRP. The approval also supersedes older INO-3107 publications’ statements that no approved RRP therapy existed and makes the available-treatment comparison materially relevant.",
+      "difference": "PAPZIMEOS received traditional approval, not the accelerated approval sought here. Its primary efficacy endpoint was 12-month complete response after treatment: 18/35, 95% CI 34%–69%. Patients had at least three prior-year surgeries, and additional debulking was permitted during treatment. INO-3107 enrolled patients with at least two prior-year surgeries and counted surgeries after Day 0. Different populations and assessment windows preclude an unadjusted superiority comparison. FDA’s PAPZIMEOS reasoning does not establish INO-3107 eligibility.",
+      "sourceIds": [
+        "web-404b99bcea7a",
+        "web-7d8160d50c59",
+        "web-a8677afd5714",
+        "web-7cd971b55d5d"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "Written FDA resolution of accelerated-approval eligibility, including the specific endpoint and meaningful-benefit rationale relative to available therapy; meeting completion or sponsor belief would not substitute.",
+    "FDA-agreed confirmatory protocol and statistical analysis plan, with actual initiation/enrollment status and required timing. The previously announced randomized, placebo-controlled 100-patient design is a plan, not evidence of current agreement or execution.",
+    "Candidate-linked CMC and device review documentation: commercial site/FEI map, inspection observations and FDA disposition, corrective-action effectiveness, and CELLECTRA 2000-to-5PSP bridging and validation conclusions.",
+    "Integrated clinical and safety review: patient-level surgery and alternative-treatment histories, missing-follow-up sensitivity analyses, SAE narratives reconciling collection windows, and longer prospective safety exposure."
+  ],
+  "limitations": [
+    "Current-status verification rests on sponsor disclosures through August 12, 2026, inspected during this September 10 investigation. The supplied SEC exhibit could not be retrieved in full, but the corresponding sponsor release was obtained through its distribution service. No direct FDA INO-3107 review memorandum or eligibility correspondence was retrieved.",
+    "The current registry includes actual results posted April 14, 2026. Registry outcomes and original-paper methods were inspected, but the pre-enrollment protocol, amendment history and full statistical analysis plan were not; historical prespecification and multiplicity handling cannot be independently audited.",
+    "Original Phase 1/2 results and selected long-term paper sections were inspected. Complete extension medication-use tables, later-year risk sets and patient-level sensitivity analyses were not fully reviewed. No independent confirmatory result was established.",
+    "Safety evidence is candidate-specific but small. Serious-event narratives and comprehensive long-term all-AE data remain unavailable in the inspected material. Rare toxicity, retreatment effects and safety differences by age, HPV type or disease severity cannot be established.",
+    "Manufacturing research covered sponsor device disclosures, the 2024 Form 10-K and later inspection updates. Exact commercial contractors, site-linked FDA establishment reports and corrective-action closure were not obtained. The supplied compliance lead concerns BIMO and was not used as CGMP evidence. Secondary reporting mentioned an inspection observation, but its original text and FDA disposition were not verified.",
+    "The FDA public CRL archive request failed; this does not demonstrate absence of prior correspondence or objections. No INO-3107 CRL was retrieved. The disclosed filing-stage eligibility issue must not be relabeled a CRL, and commercial supplier names must not be inferred from company-wide relationships."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept INO-3107’s accelerated-approval eligibility and meaningful benefit over available therapy without requiring new preapproval efficacy data?",
+    "bullCase": {
+      "claim": "A substantial reduction in surgical burden, complete first-year follow-up, mechanistic T-cell evidence, continued benefit without redosing and low-grade treatment-related toxicity could support acceptance of the existing package. FDA’s same-indication PAPZIMEOS review demonstrates genuine flexibility toward small baseline-controlled studies.",
+      "sourceIds": [
+        "web-a8677afd5714",
+        "web-66980c9f58b9",
+        "web-7cd971b55d5d",
+        "web-404b99bcea7a"
+      ]
+    },
+    "bearCase": {
+      "claim": "FDA’s preliminary eligibility objection remains publicly unresolved despite late-cycle progress. Descriptive secondary efficacy findings from one uncontrolled cohort may not establish the required benefit over available therapy. If FDA rejects the proposed pathway or requires additional preapproval evidence, INOVIO’s previously stated lack of a traditional-approval plan leaves no publicly established near-term alternative.",
+      "sourceIds": [
+        "web-7cd971b55d5d",
+        "web-13993f442659",
+        "web-a8677afd5714",
+        "web-404b99bcea7a"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What does FDA’s written response say about the unresolved eligibility comment, the endpoint supporting approval and the confirmatory-trial requirements?",
+      "whyItMatters": "This distinguishes an acceptable accelerated-approval package with enforceable confirmation from a development program requiring additional evidence before approval. The public record does not establish whether FDA’s concern centers on available therapy, endpoint acceptability, evidentiary sufficiency or a combination.",
+      "sourceIds": [
+        "web-7cd971b55d5d",
+        "web-13993f442659"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Eligibility and remaining reviews resolved",
+        "trigger": "FDA accepts the accelerated-approval rationale and confirmatory plan, and finds the clinical, safety, device and manufacturing package acceptable.",
+        "implication": "Approval at the reported action target becomes a supportable regulatory scenario, potentially with specific confirmation and monitoring obligations; it is not assured by the present evidence.",
+        "sourceIds": [
+          "web-13993f442659",
+          "web-a8677afd5714",
+          "web-5e6af6f52805"
+        ]
+      },
+      {
+        "label": "Additional preapproval efficacy evidence required",
+        "trigger": "FDA maintains its eligibility objection or finds the uncontrolled package insufficient for the proposed claim.",
+        "implication": "A nonapproval action and further development become plausible. A new trial or revised pathway could materially extend timing, and the sponsor’s disclosed funding horizon would become an execution constraint.",
+        "sourceIds": [
+          "web-7cd971b55d5d",
+          "web-13993f442659",
+          "web-a8677afd5714"
+        ]
+      },
+      {
+        "label": "Clinical pathway acceptable, but device or CMC work remains",
+        "trigger": "FDA accepts the clinical route but identifies unresolved commercial-device bridging, validation, inspection or manufacturing requirements.",
+        "implication": "Additional review time or a CMC/device-related complete response could occur independently of efficacy. The prior defect’s reported correction would not itself resolve a newly identified requirement.",
+        "sourceIds": [
+          "web-2d5c246ace5d",
+          "web-5e6af6f52805",
+          "web-13993f442659"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Which exact accelerated-approval criterion did FDA consider inadequately justified, and has FDA now accepted INOVIO’s response in writing?",
+        "whyItMatters": "The strongest objection is specific but incompletely disclosed; sponsor presentations and FDA silence cannot resolve it.",
+        "sourceIds": [
+          "web-7cd971b55d5d",
+          "web-13993f442659"
+        ]
+      },
+      {
+        "question": "How does the meaningful-benefit argument account for PAPZIMEOS without comparing incompatible surgical assessment windows?",
+        "whyItMatters": "The approved alternative changes the treatment context, while cross-trial response percentages cannot establish comparative efficacy or procedural advantage.",
+        "sourceIds": [
+          "web-404b99bcea7a",
+          "web-a8677afd5714",
+          "web-7cd971b55d5d"
+        ]
+      },
+      {
+        "question": "What are the commercial drug and device sites, their exact roles and FEIs, and the FDA conclusions on 5PSP correction and bridging?",
+        "whyItMatters": "The trial-to-commercial device transition and historical disposable-component problem are candidate-linked issues; generic San Diego manufacturing disclosures and BIMO results are insufficient.",
+        "sourceIds": [
+          "web-2d5c246ace5d",
+          "trial-NCT04398433",
+          "web-5e6af6f52805"
+        ]
+      },
+      {
+        "question": "Can management provide the three SAE narratives, collection-window reconciliation, and a justified monitoring plan for electroporation pain, hypersensitivity and laboratory abnormalities?",
+        "whyItMatters": "These are practical questions arising from observed INO-3107 events, not assumed class effects. They distinguish reassuring limited exposure from a complete safety characterization.",
+        "sourceIds": [
+          "trial-NCT04398433",
+          "web-a8677afd5714"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Surgery reduction and observed tolerability support INO-3107, but FDA’s accelerated-approval eligibility objection remains unresolved. Retrospective durability is encouraging rather than independent replication; commercial CMC acceptability remains unknown.",
+    "pivotalQuestion": "Will FDA accept accelerated-approval eligibility and meaningful benefit over available therapy without new preapproval efficacy data?",
+    "sourceIds": [
+      "web-a8677afd5714",
+      "web-66980c9f58b9",
+      "web-7cd971b55d5d",
+      "web-13993f442659"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Substantial surgery reduction has supporting confidence intervals and durability, but comes from descriptive secondary analyses in one uncontrolled cohort; retrospective extension does not independently replicate efficacy.",
+        "sourceIds": [
+          "trial-NCT04398433",
+          "web-a8677afd5714",
+          "web-66980c9f58b9"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "supportive",
+        "rationale": "All treatment-related events were Grade 1–2, with no TEAE-driven discontinuations or deaths. Exposure was only 32 patients; serious-event windows and longer-term surveillance require further reconciliation.",
+        "sourceIds": [
+          "trial-NCT04398433",
+          "web-a8677afd5714"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Sponsor reports correction of the disposable-device defect, completed verification and inspections. Exact commercial sites, device-bridging conclusions and FDA CMC acceptance were not established.",
+        "sourceIds": [
+          "web-2d5c246ace5d",
+          "web-5e6af6f52805",
+          "web-13993f442659"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "concern",
+        "rationale": "The BLA is accepted under standard review, but FDA’s preliminary accelerated-approval eligibility objection remains publicly unresolved and confirmatory-trial feedback was still forthcoming.",
+        "sourceIds": [
+          "web-7cd971b55d5d",
+          "web-13993f442659"
+        ]
+      }
+    ]
+  },
+  "id": "907e354d-d2ab-4501-afff-8307fe76bf81",
+  "candidateId": "ino3107-rrp",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:17:12.070Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for INO-3107, specifically Recurrent respiratory papillomatosis in adults. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "ino-q2-2026",
+      "title": "INOVIO: INO-3107 review and eligibility questions",
+      "url": "https://www.sec.gov/Archives/edgar/data/1055726/000105572626000024/ino-63026x8kex991.htm",
+      "publisher": "INOVIO / SEC",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "INOVIO reported an October 30 BLA target for INO-3107 in adult recurrent respiratory papillomatosis and completion of scheduled prelicensure inspections. An informal clinical meeting did not discuss accelerated-approval eligibility; the sponsor’s view that the drug qualifies is not FDA concurrence. Confirmatory-trial feedback was still expected."
+    },
+    {
+      "id": "trial-nct04398433",
+      "title": "ClinicalTrials.gov: NCT04398433 · INO-3107 With Electroporation (EP) in Participants With HPV-6- and/or HPV-11-Associated Recurrent Respiratory Papillomatosis (RRP)",
+      "url": "https://clinicaltrials.gov/study/NCT04398433",
+      "publisher": "ClinicalTrials.gov / Inovio Pharmaceuticals",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 1, phase 2; na; single group. Registry enrollment is 32 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04398433",
+      "title": "INO-3107 With Electroporation (EP) in Participants With HPV-6- and/or HPV-11-Associated Recurrent Respiratory Papillomatosis (RRP)",
+      "url": "https://clinicaltrials.gov/study/NCT04398433",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T19:48:54.168Z",
+      "summary": "Registry protocol: COMPLETED; PHASE1, PHASE2; lead sponsor Inovio Pharmaceuticals. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37204106",
+      "title": "Interim Results of a Phase 1/2 Open-Label Study of INO-3107 for HPV-6 and/or HPV-11-Associated Recurrent Respiratory Papillomatosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37204106/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:48:54.522Z",
+      "summary": "Indexed citation in The Laryngoscope; publication date 2023 Nov. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39939590",
+      "title": "DNA immunotherapy for recurrent respiratory papillomatosis (RRP): phase 1/2 study assessing efficacy, safety, and immunogenicity of INO-3107.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39939590/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:48:54.522Z",
+      "summary": "Indexed citation in Nature communications; publication date 2025 Feb 12. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT04398433",
+      "title": "INO-3107 With Electroporation (EP) in Participants With HPV-6- and/or HPV-11-Associated Recurrent Respiratory Papillomatosis (RRP)",
+      "url": "https://clinicaltrials.gov/study/NCT04398433",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T20:17:14.885Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04398433; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-7cd971b55d5d",
+      "title": "FDA Accepts for Review INOVIO's BLA for INO-3107 for the Treatment of ...",
+      "url": "https://ir.inovio.com/news/news-details/2025/FDA-Accepts-for-Review-INOVIOs-BLA-for-INO-3107-for-the-Treatment-of-Adults-with-Recurrent-Respiratory-Papillomatosis-RRP/default.aspx",
+      "publisher": "ir.inovio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:25.729Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fb8b0a855efc",
+      "title": "INOVIO Completes Rolling BLA Submission Seeking Accelerated ...",
+      "url": "https://www.prnewswire.com/news-releases/inovio-completes-rolling-bla-submission-seeking-accelerated-approval-for-ino-3107-as-a-treatment-for-rrp-in-adults-302602227.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:25.730Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-00be987dc7f6",
+      "title": "High-Cost Therapy Profile: February 2026 - Prime Therapeutics - Portal",
+      "url": "https://www.primetherapeutics.com/high-cost-therapy-profile-february-2026",
+      "publisher": "www.primetherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:25.730Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b18582b029af",
+      "title": "FDA Accepts INOVIO's BLA for INO-3107 as Potential Treatment for ...",
+      "url": "https://www.rrpf.org/news/fda-accepts-inovio-bla-ino-3107-adult-rrp",
+      "publisher": "www.rrpf.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:25.731Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a8677afd5714",
+      "title": "DNA immunotherapy for recurrent respiratory papillomatosis (RRP)",
+      "url": "https://www.nature.com/articles/s41467-025-56729-6",
+      "publisher": "www.nature.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:33.737Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-61ffe006fd5b",
+      "title": "DNA immunotherapy for recurrent respiratory papillomatosis (RRP)",
+      "url": "https://www.researchgate.net/publication/388931401_DNA_immunotherapy_for_recurrent_respiratory_papillomatosis_RRP_phase_12_study_assessing_efficacy_safety_and_immunogenicity_of_INO-3107",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:33.737Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b336718f854c",
+      "title": "DNA Immunotherapy for Recurrent Respiratory Papillomatosis Under ...",
+      "url": "https://www.empr.com/news/dna-immunotherapy-for-recurrent-respiratory-papillomatosis-under-review/",
+      "publisher": "www.empr.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:33.738Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-66980c9f58b9",
+      "title": "DNA Immunotherapy (INO‐3107) Results in Long‐Term Surgery ...",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/lary.32416",
+      "publisher": "onlinelibrary.wiley.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:33.739Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-13993f442659",
+      "title": "INOVIO Reports Second Quarter 2026 Financial Results and Recent ...",
+      "url": "https://www.prnewswire.com/news-releases/inovio-reports-second-quarter-2026-financial-results-and-recent-business-highlights-302849959.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:38.235Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5e6af6f52805",
+      "title": "INOVIO Reports Second Quarter 2025 Financial Results and Recent ...",
+      "url": "https://ir.inovio.com/news/news-details/2025/INOVIO-Reports-Second-Quarter-2025-Financial-Results-and-Recent-Business-Highlights/default.aspx",
+      "publisher": "ir.inovio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:38.236Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0a8338bf19b6",
+      "title": "Inovio Pharmaceuticals' Q2 2026 financial results and INO-3107 ...",
+      "url": "https://www.facebook.com/INOVIOPharmaceuticals/posts/at-our-second-quarter-2026-financial-results-call-ceo-dr-jacqueline-shea-highlig/1535103188418591/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:38.236Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-287e0916515e",
+      "title": "Inovio Q2 2026 slides: INO-3107 on track for Oct FDA decision",
+      "url": "https://www.investing.com/news/company-news/inovio-q2-2026-slides-ino3107-on-track-for-oct-fda-decision-93CH-4856354",
+      "publisher": "www.investing.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:38.236Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2d5c246ace5d",
+      "title": "ino-20241231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1055726/000105572625000012/ino-20241231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:55.287Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-63962e91562a",
+      "title": "Inovio Pharmaceuticals (NASDAQ: INO) cuts loss, extends cash ...",
+      "url": "https://www.stocktitan.net/sec-filings/INO/10-q-inovio-pharmaceuticals-inc-quarterly-earnings-report-c4c7843301bc.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:55.290Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-50a0c326e3d7",
+      "title": "ino-20231231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1055726/000105572624000011/ino-20231231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:55.292Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-72cbdc825096",
+      "title": "Verified Shareholder Derivative Complaint in Shin v. Shea et al.",
+      "url": "https://trace.law/monitor/cases/shin-v-shea-5a9fd182f1d09619",
+      "publisher": "trace.law",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:55.295Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9e1ec0724c34",
+      "title": "FDA Approves First Immunotherapy for Recurrent Respiratory ...",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-immunotherapy-recurrent-respiratory-papillomatosis",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:56.571Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0ee365989bd6",
+      "title": "PAPZIMEOS - FDA",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/papzimeos",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:56.571Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7d8160d50c59",
+      "title": "[PDF] August 14, 2025 Approval Letter - PAPZIMEOS - FDA",
+      "url": "https://www.fda.gov/media/188256/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:56.572Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-404b99bcea7a",
+      "title": "[PDF] August 14, 2025 Summary Basis for Regulatory Action - PAPZIMEOS",
+      "url": "https://www.fda.gov/media/188592/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:56.572Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 510320,
+    "outputTokens": 7064
+  },
+  "durationMs": 185206,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ino-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 88
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 5
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04398433"
+      },
+      "status": "completed",
+      "durationMs": 40
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "INO-3107 2026 BLA October 30 accelerated approval eligibility CELLECTRA manufacturing 2025 2024 nature 56729"
+      },
+      "status": "completed",
+      "durationMs": 5692
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.nature.com/articles/s41467-025-56729-6 INO-3107 safety statistical analysis"
+      },
+      "status": "completed",
+      "durationMs": 3414
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.inovio.com INO-3107 \"2026\" \"manufacturing\" \"August\""
+      },
+      "status": "completed",
+      "durationMs": 4496
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Inovio"
+      },
+      "status": "partial",
+      "durationMs": 359
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-a8677afd5714",
+        "query": "Statistical"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-66980c9f58b9",
+        "query": "3 Results"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "INO-3107 CELLECTRA manufacturing defect 2024 2025 resolved San Diego manufacturer \"array\""
+      },
+      "status": "completed",
+      "durationMs": 9959
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov PAPZIMEOS approval August 14 2025 recurrent respiratory papillomatosis"
+      },
+      "status": "completed",
+      "durationMs": 1276
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-a8677afd5714",
+        "query": "### Statistical"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-2d5c246ace5d",
+        "query": "single-use"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-2d5c246ace5d",
+        "query": "We manufacture"
+      },
+      "status": "completed",
+      "durationMs": 4
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0c1381b95ee11d9b016aa3107bc00087d2932648bc8dedf433",
+    "inputHash": "91cd1a8617546e3fbdb3c64120581b165448f573c817d0c526a7956c908ebbc4"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:24:11.488Z",
+    "originalSha256": "32d8397caad92701deba9c694c1529da823f45245368e7d9a319369e90611af6",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "summary": "Mixed outlook as of September 10, 2026: the narrower Joenja pediatric resubmission has supportive sponsor-reported clinical findings and an established APDS regulatory precedent, but FDA acceptance does not establish resolution of the prior deficiencies. Importantly, the original CRL concerned both potential underexposure in lower-weight children and production-batch analytical testing—not CMC alone. Quantitative results for the requested ≥27 kg population and FDA's assessment of the revised analytical package remain unavailable in the inspected evidence.",
+  "outlook": {
+    "verdict": "A credible but unresolved resubmission pathway. The ≥27 kg restriction separates this application from the explicitly questioned lower-weight population; the outstanding analytical-method assessment remains the clearest documented potential blocker.",
+    "timing": "Pharming's June 4, 2026 announcement reports an October 24, 2026 PDUFA action target following the January 30 CRL and March 26 Type A meeting. The inspected searches did not establish a later FDA action or revised target. October 24 is an action goal, not an approval date. The original pediatric filing's earlier target and the resubmission's formal review classification were not independently verified.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model describes annual original-application first-cycle approval cohorts and, separately, timeliness for original applications and original-application resubmissions. This episode is a supplemental NDA resubmission, outside those directly applicable categories. Neither model validates an individual approval probability or a date forecast for this application."
+  },
+  "findings": [
+    {
+      "id": "clinical-pediatric",
+      "title": "Pediatric efficacy is directionally supportive, but quantitative pivotal appraisal remains incomplete",
+      "detail": "NCT05438407 is an open-label, multinational, single-arm Phase 3 study: 12 weeks of initial treatment followed by a planned one-year extension, without placebo or active comparator. The current registry estimates enrollment at 15; that is not a verified efficacy-analysis denominator. Its eight registered primary outcomes comprise adverse events, laboratory tests, vital signs, examinations, ECGs, growth/development, imaging-defined lymphoproliferation, and B-cell pAkt inhibition. Pharming reports reduced lymphadenopathy and increased naïve B cells across investigated doses at 12 weeks. However, the registry has no posted results, and no quantitative pediatric paper or results table was retrieved. Effect sizes, confidence intervals, endpoint-specific denominators, prespecified multiplicity control, missing-data handling, and ≥27 kg subgroup estimates therefore remain unverified. The current registry does not establish the historical endpoint hierarchy at analysis lock.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05438407",
+        "web-2d78ffd8f727"
+      ]
+    },
+    {
+      "id": "clinical-exposure",
+      "title": "The weight restriction responds to a substantive clinical-pharmacology objection",
+      "detail": "Pharming's February 1 disclosure says FDA identified potential underexposure in lower-weight children and requested additional pediatric pharmacokinetic data to reassess doses against the approved adult/adolescent exposure. The June resubmission instead seeks 40 mg and 50 mg twice-daily dosing for children weighing at least 27 kg; lower-weight patients require a separate application. This materially changes interpretation of the curated packet: the earlier setback was not exclusively analytical. Restricting the population plausibly isolates the stated low-weight concern, but the inspected sources provide no ≥27 kg AUC/Cmax distributions, exposure-response analysis, or FDA conclusion accepting those doses. Improvement across dose groups does not itself demonstrate adequate exposure in each group.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-2d78ffd8f727",
+        "trial-NCT05438407"
+      ]
+    },
+    {
+      "id": "clinical-precedent",
+      "title": "Controlled APDS efficacy supports the rationale, not a substitute pediatric result",
+      "detail": "FDA's original review describes Study 2201: 31 genetically confirmed APDS patients aged at least 12, randomized 2:1 to leniolisib 70 mg twice daily or placebo for 12 weeks. Coprimary endpoints were change in log10-transformed lymph-node sum of product diameters and naïve B-cell percentage at Day 85. The review reports treatment differences of −0.24 log10 units (95% CI −0.37 to −0.11) and +40.13 percentage points (95% CI 28.51 to 51.75), respectively. It also reports exclusions from the primary analysis and no significant overall SF-36 difference. FDA accepted one controlled trial plus mechanistic confirmation for the older population. These endpoints are not direct evidence of fewer serious infections, better survival, or durable benefit in 4–11-year-olds. No independent controlled replication or quantitative durability analysis in the requested pediatric population was established.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-06af44288b47",
+        "web-836df36f7d7e",
+        "trial-NCT05438407"
+      ]
+    },
+    {
+      "id": "safety-pediatric",
+      "title": "Observed pediatric tolerability is encouraging, but exposure and event detail are limited",
+      "detail": "Pharming reports that all pediatric treatment-emergent adverse events were mild or moderate, there were no drug-related serious adverse events, and all patients completed the 12-week treatment period. Its CRL announcement says the original filing included eight months of safety data. These are actual sponsor-reported observations, not merely silence about safety. Nevertheless, the inspected disclosures provide no event-by-event counts, all-cause SAE table, patient-years, dose interruptions, laboratory shifts, or safety breakdown for ≥27 kg children. 'No drug-related SAE' does not mean no SAE occurred. The registry plans growth, physical-development, laboratory and ECG surveillance, but those planned assessments are not reassuring results. Rare or delayed toxicity and dose/population effects cannot be characterized from this public summary.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-2d78ffd8f727",
+        "trial-NCT05438407"
+      ]
+    },
+    {
+      "id": "safety-known-risks",
+      "title": "FDA labeling contains material safety evidence beyond the favorable pediatric announcement",
+      "detail": "The May 2025 FDA label added postmarketing hypersensitivity, including anaphylaxis; frequency cannot be estimated from voluntary reports. In the older-population controlled trial, headache occurred in 5/21 versus 2/10, sinusitis in 4/21 versus 0/10, and atopic dermatitis in 3/21 versus 0/10. Seven treated patients developed ANC of 500–1500 cells/µL, without ANC below 500 or reported neutropenia-associated infection. The label describes 38 exposed APDS patients aged at least 12, approximately two years' median treatment, and four with over five years' exposure. FDA's original review records an extension death attributed to underlying infection/cardiomyopathy and a later discontinuation with elevated liver enzymes and failure to thrive. Juvenile-rat pubertal changes add a pediatric monitoring question, not proof of human developmental harm. Practical diligence should address hypersensitivity, CBC/ANC, liver tests, growth/puberty, weight, vaccinations and interacting medicines.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-836df36f7d7e",
+        "web-06af44288b47",
+        "web-8bb5ce7c5d98"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Documented analytical deficiency; submitted corrective data are not FDA clearance",
+      "detail": "According to Pharming, the CRL identified an issue with one analytical method used for production-batch testing and requested additional data and clarification. The June resubmission includes additional analytical-method data, but the inspected documents do not identify the assay, validation failure, affected batches, acceptance criteria, or FDA's substantive disposition. No evidence establishes contamination, a failed manufacturing inspection, or that FDA has accepted the correction. The inspected SEC commitments disclosure confirms third-party manufacturing agreements involving Joenja and RUCONEST but does not identify the pediatric Joenja manufacturing or testing sites. Novartis's documented licensing relationship does not establish a current manufacturing-site link. No exact site/FEI or product-linked CGMP outcome was verified.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-2d78ffd8f727",
+        "web-e54bf729b17e"
+      ]
+    },
+    {
+      "id": "regulatory-history",
+      "title": "A supplemental resubmission—not a new molecular entity application or a completed pediatric approval",
+      "detail": "The current episode is a pediatric sNDA resubmission after the January 30, 2026 CRL. Pharming reports a March 26 Type A meeting, subsequent written minutes, resubmission, and June 4 acceptance. Separately, Drugs@FDA records the original Joenja approval on March 24, 2023; the approved label establishes APDS use from age 12, with 70 mg twice-daily dosing for patients weighing at least 45 kg. The May 28, 2025 S-005 approval concerned labeling and fulfillment of three postmarketing requirements, including addition of anaphylaxis and weight-increase information—not this pediatric expansion. These completed actions demonstrate same-product regulatory experience, not a validated sponsor-level predictor. The original CRL itself was not retrieved, so its full objection list remains unverified.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-79ce08d67987",
+        "web-2d78ffd8f727",
+        "evidence-approvals-NDA217759",
+        "web-836df36f7d7e",
+        "web-8bb5ce7c5d98"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "FDA's substantive assessment of the revised production-batch analytical method, supported by validation, batch-testing and stability results for the proposed pediatric product—not simply acknowledgment that the resubmission was accepted.",
+    "The ≥27 kg clinical-pharmacology package: patient counts by weight/dose, observed AUC and Cmax distributions, exposure-response analyses, and FDA agreement that 40/50 mg twice-daily dosing adequately bridges to the established regimen.",
+    "Original pediatric clinical study report, locked protocol/statistical analysis plan, and extension tables: endpoint estimates with uncertainty, analysis populations, multiplicity and missing-data methods, infection outcomes, and safety exposure by dose and weight.",
+    "A dated FDA action letter or updated sponsor disclosure confirming the outcome or any target change, together with the final age/weight/dosing label if approved and product-linked facility review information where applicable."
+  ],
+  "limitations": [
+    "The principal unmet diligence item is quantitative pediatric evidence. The current trial record was retrieved and contains no posted results. Targeted public searches did not retrieve a full pediatric pivotal paper or numerical tables; one search failed. Sponsor-reported improvement cannot substitute for effect sizes and uncertainty.",
+    "A 2026 pediatric extension conference lead surfaced, but its original abstract and supplementary tables were not retrieved. No quantitative pediatric durability conclusion is drawn from that discovery record or from the registry's planned one-year extension.",
+    "The FDA CRL archive request failed. The January objections, Type A meeting and pending-application status are consequently characterized from dated sponsor disclosures, not an inspected FDA CRL, meeting minutes or acceptance letter.",
+    "The current status search established the June 4 acceptance disclosure, but not a later application-specific action. The exact pediatric supplement number, formal resubmission class, original pediatric target and any unpublicized review communications remain unknown.",
+    "Manufacturing research inspected sponsor CRL/resubmission disclosures and SEC contractual information and searched for a leniolisib manufacturing relationship. No pediatric-product site or FEI was established. The supplied compliance dossier contained no usable original-source records; a live inspection/warning-letter lookup was not completed. Site-specific FDA documents plus a documented product link are required to assess CGMP status.",
+    "Older-patient safety and controlled efficacy are clearly separated from the requested pediatric population. Numerical efficacy estimates above come from FDA's original review; the original publication's complete statistical sections and supplements were not fully inspected.",
+    "Sponsor-history review was confined to documented Joenja actions and related disclosures. It was not an exhaustive audit of Pharming's portfolio, and no company-wide success rate or approval probability is inferred."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the revised production-batch analytical package resolve FDA's CMC objection for the ≥27 kg pediatric resubmission?",
+    "bullCase": {
+      "claim": "The narrowed filing excludes the lower-weight groups expressly identified in the CRL's underexposure objection. Pharming submitted additional analytical data after a Type A meeting and written feedback, while reporting pediatric biological improvements and favorable short-term tolerability. FDA has already accepted controlled APDS efficacy for the same drug in older patients. Together, these support a potentially remediable deficiency-response pathway.",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-79ce08d67987",
+        "web-2d78ffd8f727",
+        "web-06af44288b47"
+      ]
+    },
+    "bearCase": {
+      "claim": "The prior CRL establishes substantive deficiencies, not administrative delay. Public evidence does not show that the analytical correction meets FDA requirements or that the ≥27 kg exposure bridge has been accepted. The pediatric efficacy evidence available here is uncontrolled and unquantified, and favorable short-term summaries do not settle rare, developmental or exposure-dependent safety questions.",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-2d78ffd8f727",
+        "trial-NCT05438407",
+        "web-836df36f7d7e"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Has FDA substantively accepted the revised assay validation and relevant batch data, and confirmed that no clinical-pharmacology deficiency remains for the included ≥27 kg group?",
+      "whyItMatters": "The analytical issue remains a documented candidate-specific obstacle after the weight restriction. A favorable substantive review would distinguish a corrected quality package from a merely reviewable resubmission; confirmation of the included group's exposure bridge would establish that narrowing the scope actually isolates the earlier PK objection.",
+      "sourceIds": [
+        "web-61f9298834ad",
+        "web-2d78ffd8f727",
+        "web-79ce08d67987"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Deficiencies resolved for the narrower population",
+        "trigger": "FDA accepts the analytical/batch package and the ≥27 kg dosing bridge, with an acceptable integrated benefit-risk assessment.",
+        "implication": "Approval of the narrower pediatric indication becomes supportable. Children below 27 kg would remain outside this application; the October target still would not guarantee an approval date.",
+        "sourceIds": [
+          "web-2d78ffd8f727",
+          "web-61f9298834ad"
+        ]
+      },
+      {
+        "label": "Analytical deficiency persists",
+        "trigger": "FDA finds the revised method validation or relevant production-batch evidence inadequate.",
+        "implication": "Further remediation could delay the pathway or produce another complete response despite supportive clinical findings. Public filing acceptance cannot distinguish this scenario.",
+        "sourceIds": [
+          "web-61f9298834ad",
+          "web-2d78ffd8f727"
+        ]
+      },
+      {
+        "label": "Included-population benefit-risk needs additional work",
+        "trigger": "FDA identifies inadequate exposure support at 40/50 mg twice daily or a material pediatric safety issue in detailed or longer-term data.",
+        "implication": "Additional PK or safety evidence, dosing changes, or further label restrictions could be needed independently of CMC resolution.",
+        "sourceIds": [
+          "web-61f9298834ad",
+          "trial-NCT05438407",
+          "web-836df36f7d7e"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Which analytical method was deficient, what specifically changed, and which validation and production-batch results were submitted?",
+        "whyItMatters": "Request a deficiency-to-response mapping and FDA feedback. This establishes whether the corrective work addresses the actual objection rather than merely adding data.",
+        "sourceIds": [
+          "web-61f9298834ad",
+          "web-2d78ffd8f727"
+        ]
+      },
+      {
+        "question": "How many studied children meet the ≥27 kg indication, and what are their dose-specific exposure distributions and efficacy estimates?",
+        "whyItMatters": "The broad pediatric study population and estimated registry enrollment do not establish evidence density in the narrower filing. Particular attention is needed near the 27 kg boundary and at dose transitions.",
+        "sourceIds": [
+          "trial-NCT05438407",
+          "web-2d78ffd8f727",
+          "web-61f9298834ad"
+        ]
+      },
+      {
+        "question": "What do the eight-month and subsequent pediatric safety tables show for all-cause SAEs, interruptions, CBC/liver changes, growth and puberty?",
+        "whyItMatters": "Ask for exposure denominators and weight/dose stratification, plus the proposed hypersensitivity, vaccination and interaction-management approach. Older-patient labeling identifies concrete risks but does not quantify them in these children.",
+        "sourceIds": [
+          "web-61f9298834ad",
+          "trial-NCT05438407",
+          "web-836df36f7d7e"
+        ]
+      },
+      {
+        "question": "Which entities and exact sites perform pediatric drug-substance manufacture, tablet manufacture and release testing, and what FDA review applies to each?",
+        "whyItMatters": "A contractual counterparty or sponsor address is not a product-site link. Obtain the facility list, FEIs and relevant original FDA correspondence before attributing inspections, corrective actions or CGMP status.",
+        "sourceIds": [
+          "web-e54bf729b17e",
+          "web-2d78ffd8f727"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Sponsor-reported pediatric improvements and a narrowed resubmission support the pathway, but analytical-method resolution remains unverified. Quantitative ≥27 kg efficacy/exposure data and detailed pediatric safety are unavailable; FDA labeling documents relevant established risks.",
+    "pivotalQuestion": "Does the revised production-batch analytical package resolve FDA's CMC objection for the ≥27 kg pediatric resubmission?",
+    "sourceIds": [
+      "web-2d78ffd8f727",
+      "web-61f9298834ad",
+      "trial-NCT05438407",
+      "web-836df36f7d7e"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Sponsor reports pediatric improvement, supported contextually by older-patient controlled efficacy. Quantitative ≥27 kg results and exposure bridging remain unverified; narrowing excludes the lower-weight groups identified in FDA's PK objection.",
+        "sourceIds": [
+          "web-2d78ffd8f727",
+          "web-61f9298834ad",
+          "web-06af44288b47",
+          "trial-NCT05438407"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Sponsor-reported mild/moderate pediatric events and treatment completion are encouraging. Detailed pediatric exposure is unavailable; FDA labeling documents anaphylaxis, neutrophil reductions, weight gain and juvenile-animal developmental findings.",
+        "sourceIds": [
+          "web-2d78ffd8f727",
+          "web-836df36f7d7e"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "concern",
+        "rationale": "A documented production-batch analytical-method deficiency prompted additional data. Resubmission acceptance does not establish resolution; assay validation, batch results, exact sites and product-linked CGMP status remain unverified.",
+        "sourceIds": [
+          "web-61f9298834ad",
+          "web-2d78ffd8f727"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "The accepted narrower sNDA follows a CRL and Type A meeting, with an October 24 target. Prior older-patient approval and S-005 are completed separate actions, not pediatric approval.",
+        "sourceIds": [
+          "web-2d78ffd8f727",
+          "web-79ce08d67987",
+          "evidence-approvals-NDA217759",
+          "web-8bb5ce7c5d98"
+        ]
+      }
+    ]
+  },
+  "id": "d8c4563d-cb93-4c94-bbde-5a558a21f465",
+  "candidateId": "leniolisib-pediatric-apds",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:17:12.033Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Leniolisib (Joenja), specifically APDS in children aged 4–11 years weighing at least 27 kg. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "pharming-lenio-resubmission",
+      "title": "Pharming: pediatric leniolisib resubmission accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html",
+      "publisher": "Pharming Group",
+      "publishedAt": "2026-06-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Pharming reported acceptance of the Joenja sNDA resubmission, targeting October 24 after a January 30 CRL and March 26 Type A meeting. The resubmission addresses analytical-method and batch-testing requests. It covers children aged 4–11 weighing at least 27 kg using 40/50 mg twice daily; lower-weight children require a separate submission."
+    },
+    {
+      "id": "trial-nct05438407",
+      "title": "ClinicalTrials.gov: NCT05438407 · Pediatric Patients Aged 4 to 11 Years With APDS",
+      "url": "https://clinicaltrials.gov/study/NCT05438407",
+      "publisher": "ClinicalTrials.gov / Pharming Technologies B.V.",
+      "publishedAt": "2026-05-06",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; na; single group. Registry enrollment is 15 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA217759",
+      "title": "JOENJA — NDA217759",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA217759%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.496Z",
+      "summary": "NDA217759; sponsor PHARMING. 2 of 2 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-36399712",
+      "title": "A randomized, placebo-controlled phase 3 trial of the PI3Kδ inhibitor leniolisib for activated PI3Kδ syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36399712/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.519Z",
+      "summary": "Indexed citation in Blood; publication date 2023 Mar 2. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38593221",
+      "title": "Long-term treatment with selective PI3Kδ inhibitor leniolisib in adults with activated PI3Kδ syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38593221/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.519Z",
+      "summary": "Indexed citation in Blood advances; publication date 2024 Jun 25. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39561927",
+      "title": "A randomised, placebo-controlled, phase III trial of leniolisib in activated phosphoinositide 3-kinase delta (PI3Kδ) syndrome (APDS): Adolescent and adult subgroup analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39561927/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.519Z",
+      "summary": "Indexed citation in Clinical immunology (Orlando, Fla.); publication date 2025 Jan. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42183294",
+      "title": "Evaluating the impact of leniolisib treatment on symptoms and health-related quality of life in activated phosphoinositide 3-kinase delta (PI3Kδ) syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42183294/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.519Z",
+      "summary": "Indexed citation in Frontiers in immunology; publication date 2026. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-30171694",
+      "title": "CYP3A but not P-gp plays a relevant role in the in vivo intestinal and hepatic clearance of the delta-specific phosphoinositide-3 kinase inhibitor leniolisib.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30171694/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.519Z",
+      "summary": "Indexed citation in Biopharmaceutics & drug disposition; publication date 2018 Sep. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-ad61f987-e1eb-4da6-9060-cb1915d3636f",
+      "title": "Joenja — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%22ad61f987-e1eb-4da6-9060-cb1915d3636f%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:12.564Z",
+      "summary": "Company-submitted label; effective date 2025-06-05. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05438407",
+      "title": "Pediatric Patients Aged 4 to 11 Years With APDS",
+      "url": "https://clinicaltrials.gov/study/NCT05438407",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-06",
+      "retrievedAt": "2026-09-10T20:17:12.619Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Pharming Technologies B.V.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05438407",
+      "title": "Pediatric Patients Aged 4 to 11 Years With APDS",
+      "url": "https://clinicaltrials.gov/study/NCT05438407",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-06",
+      "retrievedAt": "2026-09-10T20:17:21.033Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05438407; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-2d78ffd8f727",
+      "title": "Pharming announces U.S. FDA acceptance of sNDA resubmission ...",
+      "url": "https://www.pharming.com/our-news/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja",
+      "publisher": "www.pharming.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:01.450Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4aaa36d75b37",
+      "title": "Pharming FDA accepts Joenja sNDA for pediatric APDS - Stock Titan",
+      "url": "https://www.stocktitan.net/news/PHARM/pharming-announces-u-s-fda-acceptance-of-s-nda-resubmission-for-7mbsp9x768rj.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:23.355Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ee6a5472a7fd",
+      "title": "Joenja (leniolisib) / Novartis, Pharming Group - LARVOL DELTA",
+      "url": "https://delta.larvol.com/Products/?ProductId=0ff04a42-ce46-4a97-8822-4b62630e1282",
+      "publisher": "delta.larvol.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:23.356Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0ed309d0c49c",
+      "title": "Pharming announces U.S. FDA acceptance of sNDA resubmission",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html",
+      "publisher": "www.globenewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:01.451Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-61f9298834ad",
+      "title": "Pharming Group receives Complete Response Letter from U.S. FDA for ...",
+      "url": "https://www.pharming.com/our-news/pharming-group-receives-complete-response-letter-us-fda-snda-joenja-leniolisib-children",
+      "publisher": "www.pharming.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:01.451Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-79ce08d67987",
+      "title": "Pharming Group reports first quarter 2026 financial results; on track for ...",
+      "url": "https://www.pharming.com/our-news/pharming-group-reports-first-quarter-2026-financial-results",
+      "publisher": "www.pharming.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:01.452Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-836df36f7d7e",
+      "title": "[PDF] JOENJA® (leniolisib) tablets, for oral use - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217759s005lbl.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:06.994Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-06af44288b47",
+      "title": "[PDF] 217759Orig1s000 - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217759Orig1s000RiskR.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:06.995Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8bb5ce7c5d98",
+      "title": "[PDF] Joenja (leniolisib) tablet - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/217759Orig1s005ltr.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:06.995Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2545de8b9bfb",
+      "title": "Leniolisib for APDS · Info for Participants - Clinical Trials",
+      "url": "https://www.withpower.com/trial/leniolisib-for-apds-70b62",
+      "publisher": "www.withpower.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:06.995Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1fc8e3532377",
+      "title": "A randomised, placebo-controlled, phase III trial of leniolisib in ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1521661624005096",
+      "publisher": "www.sciencedirect.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:26.747Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d38cb80b3103",
+      "title": "What are the approved indications for Leniolisib? - Patsnap Synapse",
+      "url": "https://synapse.patsnap.com/article/what-are-the-approved-indications-for-leniolisib",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:26.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5341299b053e",
+      "title": "Comparative efficacy of leniolisib (CDZ173) versus standard of care ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39673396/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:26.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0a26f8329691",
+      "title": "A randomized, placebo-controlled phase 3 trial of the PI3Kδ inhibitor ...",
+      "url": "https://ashpublications.org/blood/article/141/9/971/493284/A-randomized-placebo-controlled-phase-3-trial-of",
+      "publisher": "ashpublications.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:26.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-21fdfcfaa56d",
+      "title": "Pharming deal shows there's still life in struggling cancer drug class",
+      "url": "https://international-pharma.com/pharming-deal-shows-theres-still-life-in-struggling-cancer-drug-class/",
+      "publisher": "international-pharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:36.584Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d140af93e73d",
+      "title": "Novartis buys Pharming priority review voucher for a song - pharmaphorum",
+      "url": "https://pharmaphorum.com/news/novartis-buys-pharming-priority-review-voucher-song",
+      "publisher": "pharmaphorum.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:36.584Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e54bf729b17e",
+      "title": "Untitled",
+      "url": "https://www.sec.gov/Archives/edgar/data/1828316/000182831625000017/R30.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:36.584Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-62d925eed314",
+      "title": "Pharming Group reports fourth quarter and full year 2025 financial results ...",
+      "url": "https://www.pharming.com/our-news/pharming-group-reports-fourth-quarter-full-year-2025-financial-results",
+      "publisher": "www.pharming.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:19:36.584Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 310325,
+    "outputTokens": 6311
+  },
+  "durationMs": 260209,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "pharming-lenio-resubmission"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05438407"
+      },
+      "status": "completed",
+      "durationMs": 75
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "leniolisib Joenja pediatric 2026 resubmission October 24 January 30 complete response analytical batch testing manufacturer 4 11 results"
+      },
+      "status": "completed",
+      "durationMs": 2322
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "217759"
+      },
+      "status": "partial",
+      "durationMs": 380
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "leniolisib pediatric 4 11 NCT05438407 results 21 lymphadenopathy naive B cells 2025 2026 adverse events long term extension"
+      },
+      "status": "error",
+      "durationMs": 90010
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.pharming.com Joenja January 30 2026 complete response analytical manufacturing batches Novartis 2026 half year October 24"
+      },
+      "status": "completed",
+      "durationMs": 1483
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.accessdata.fda.gov 217759s005lbl.pdf JOENJA adverse reactions clinical studies manufacture"
+      },
+      "status": "completed",
+      "durationMs": 5544
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"leniolisib\" \"pediatric\" \"results\" \"2025\" \"12\" \"confidence\""
+      },
+      "status": "completed",
+      "durationMs": 12215
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"leniolisib\" \"manufacturing\" \"Novartis\" \"2025\""
+      },
+      "status": "completed",
+      "durationMs": 9836
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-836df36f7d7e",
+        "query": "14 CLINICAL STUDIES"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-06af44288b47",
+        "query": "There were no apparent"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_063d0b8f5157ced9016aa310d8cf3487d2a0dcfdb3a58a2c08",
+    "inputHash": "419d43a16cfa9ca5c04b090c906686f3b515a037ef4e609479b1bdbf8849c7ae"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:26:46.581Z",
+    "originalSha256": "33629ab6e3cb65c5bdd30b0fc055d78076ec49fa88a186436cf52ad5f7621606",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

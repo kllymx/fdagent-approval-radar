@@ -1,0 +1,775 @@
+{
+  "summary": "Bepirovirsen has a strong, replicated efficacy case in selected, NA-treated adults with noncirrhotic chronic hepatitis B—not an established benefit across all adults with CHB. Actual pivotal results also show material adverse-event imbalances. The key unresolved issue is whether sustained off-treatment benefit supports the proposed population and monitoring requirements. Manufacturing readiness remains unverified. October 26, 2026 remains the sponsor-reported FDA action target.",
+  "outlook": {
+    "verdict": "Clinically compelling in the studied population, but the overall evidence remains mixed because hepatic and other toxicities could materially affect benefit–risk, eligibility and labeling. No candidate-specific manufacturing setback was established, but CMC readiness cannot be assessed.",
+    "timing": "GSK and Ionis reported NDA acceptance and priority review on April 28, 2026, with an October 26, 2026 PDUFA target. The supplied July 29 Ionis update reaffirmed that target. The live status search retrieved no later candidate-specific change. This is an action target, not an approval date; no extension or complete response for bepirovirsen was established.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline concerns annual FDA receipt cohorts, not individual candidates. Its original-priority-application cohort is potentially relevant if bepirovirsen's original-application classification is confirmed, but combines different products and indications. Its separately measured action-timing baseline includes nonapproval actions and cannot validate adherence to this candidate's originally announced date. No individual probability is estimated."
+  },
+  "findings": [
+    {
+      "id": "clinical-replication",
+      "title": "Actual pivotal results demonstrate replicated off-treatment functional cure",
+      "detail": "The original NEJM article's accessible abstract reports two replicate, randomized, double-blind, placebo-controlled phase 3 trials. Adults with noncirrhotic CHB receiving stable nucleos(t)ide analogue therapy and screening HBsAg >100–3000 IU/mL were randomized 2:1 to subcutaneous bepirovirsen 300 mg weekly or placebo for 24 weeks. The sponsor presentation specifies additional loading doses on days 4 and 11. Background NA continued through week 48; eligible participants then stopped it. The registered primary endpoint was functional cure through week 72: sustained HBsAg loss and HBV DNA below quantification for at least 24 weeks off all HBV treatment, without rescue medication. B-Well 1 reported 127/650 responders versus 0/328; B-Well 2 reported 106/570 versus 0/286—reported as 20% and 19% versus zero. This is substantially stronger evidence than filing acceptance or transient antigen suppression.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "trial-NCT05630807",
+        "trial-NCT05630820",
+        "web-f4778637db1d"
+      ]
+    },
+    {
+      "id": "clinical-statistics-population",
+      "title": "Effect size is persuasive, but population and statistical boundaries matter",
+      "detail": "Ionis reports p<0.001 in both trials. A GSK EASL presentation retrieved through a third-party mirror reports common risk differences using the summary Miettinen–Nurminen method: 17.5 percentage points (95% CI 14.6–20.3) in B-Well 1 and 13.3 points (10.4–16.1) in B-Well 2. These common estimates are not interchangeable with the crude response-rate differences. The registered, ranked secondary subgroup with baseline HBsAg ≤1000 IU/mL had sponsor-reported responses of 105/426 versus 0/214 and 95/342 versus 0/179. Its stronger response cannot establish the same benefit above 1000 IU/mL or in patients outside the trial's eligibility range. The full statistical analysis plan, missing-data sensitivity analyses and historical endpoint amendments were not inspected. Registry enrollment totals 1,838, whereas primary efficacy denominators total 1,834; the participant-level reconciliation remains unresolved.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-138b357795d3",
+        "web-f4778637db1d",
+        "trial-NCT05630807",
+        "trial-NCT05630820"
+      ]
+    },
+    {
+      "id": "candidate-safety",
+      "title": "Safety includes observed toxicity—not merely absent reassurance",
+      "detail": "The NEJM abstract reports pooled adverse events through week 72 in 91% with bepirovirsen versus 73% with placebo, and serious events in 7% versus 4%. During treatment, grade ≥3 events occurred in 16% versus 3%; grade 3 ALT increases occurred in 6% with bepirovirsen. The sponsor presentation's on-treatment safety population was 1,223 versus 611: adverse events caused permanent treatment discontinuation in 41 versus 2 participants, dose interruption/delay in 193 versus 13, and dose reduction in 24 versus zero. Sponsor-reported common events included ALT increases, 22% versus 3%; platelet-count decreases, 15% versus 1%; injection-site erythema, 31% versus 2%; and injection-site pain, 23% versus 5%. Sponsor-reported reversibility of platelet/eGFR declines and absence of serious injection-site reactions are reassuring observations, but do not negate the broader imbalance. Detailed death narratives, serious-event causality, actual exposure time and dose/population-specific analyses were not available in the inspected primary text.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "web-f4778637db1d"
+      ]
+    },
+    {
+      "id": "durability-withdrawal",
+      "title": "Durability is demonstrated to the primary endpoint, not indefinitely",
+      "detail": "Week-72 functional cure represents 24 weeks after NA cessation and 48 weeks after bepirovirsen cessation—not viral-reservoir eradication or proven prevention of cancer or mortality. The sponsor presentation required sustained HBsAg loss and HBV DNA below quantification from weeks 24–46, ALT ≤2×ULN and HBeAg negativity before NA withdrawal. Its exploratory finding that 49% reached qHBsAg ≤100 IU/mL at week 72 is not a 49% functional-cure rate. The presentation described later durability follow-up as ongoing; July registry records now mark both studies completed, but neither has posted results. That supersedes the study-status wording, not the absence of inspected week-96 outcomes. Relapse, rescue therapy and hepatic events after withdrawal remain important determinants of practical use.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "web-138b357795d3",
+        "web-f4778637db1d",
+        "trial-NCT05630807",
+        "trial-NCT05630820"
+      ]
+    },
+    {
+      "id": "manufacturing-unknown",
+      "title": "Sponsor linkage is established; commercial manufacturing linkage is not",
+      "detail": "GSK's disclosure establishes that it licensed bepirovirsen from Ionis and collaborated on development. It does not establish the commercial drug-substance, drug-product, fill-finish or testing sites. Targeted public searches for bepirovirsen manufacturing, CMC, facilities, inspections and warning letters did not yield an inspected candidate-linked FDA manufacturing document or corrective-action disclosure. The supplied FDAgent leads concern GSK Vaccines in Marburg without a documented bepirovirsen link; they cannot establish either a setback or clearance, and the BIMO entry is not CGMP evidence. No documented candidate-specific CMC setback, replacement contractor or remediation was established. Manufacturing remains unknown until the NDA site list and corresponding product-linked quality/inspection assessments are available.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-ec9d8abcbc4a"
+      ]
+    },
+    {
+      "id": "current-regulatory-episode",
+      "title": "The current episode is a sponsor-reported NDA review, not a completed FDA action",
+      "detail": "The April 28 primary sponsor disclosures describe an accepted NDA for adults with CHB, priority review, Breakthrough Therapy designation and an October 26 target. They do not describe a supplement or resubmission; treating this as an original application is consistent with those disclosures, but the FDA application number and formal ORIG classification were not retrieved. The broad requested indication wording is not the final eligible population. A GSK-name search of the FDA CRL archive, updated August 13, returned letters for other drugs—not bepirovirsen. This incomplete, name-based search cannot establish absence of a prior letter or undisclosed FDA objections. No bepirovirsen-specific FDA clinical, statistical, safety or CMC objection was retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-aa5bdd4c67dc",
+        "web-ec9d8abcbc4a",
+        "ionis-q2-2026"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Prior sponsor actions provide experience, not an approval predictor",
+      "detail": "Ionis's April 2025 Form 10-Q reports FDA approval of TRYNGOLZA (olezarsen) for familial chylomicronemia syndrome in December 2024 and subsequent launch. That is an observed prior portfolio outcome, not bepirovirsen evidence or a demonstrated shared manufacturing pathway. Conversely, FDA's October 23, 2025 Blenrep Original 2 CRL records a three-month extension following a July 22 major amendment and an unfavorable benefit–risk assessment for the DREAMM-8 regimen. Its December 16, 2025 depemokimab Original 2 CRL identifies insufficiently robust and clinically meaningful CRSwNP benefit despite statistically significant co-primary endpoints. These are separate application/indication episodes; neither their setbacks nor other approved indications should be transferred to bepirovirsen.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-33d3a3a53787",
+        "crl-c5500c6a18dd",
+        "crl-c7df57f34f53"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Depemokimab CRSwNP: two statistically positive trials did not settle regulatory sufficiency",
+      "relevance": "The December 16, 2025 FDA CRL specifically questioned missing-data/intercurrent-event sensitivity, clinical meaningfulness and supporting endpoints. It supports diligence on the robustness and practical benefit of B-Well's functional-cure estimand rather than reliance on statistical significance alone.",
+      "difference": "This was a different molecule, disease, dosing strategy and BLA Original 2 episode. Bepirovirsen has replicated off-treatment virologic responses against zero placebo responses. The depemokimab deficiencies are not documented bepirovirsen objections, and the CRL was an intermediate setback rather than proof of permanent failure.",
+      "sourceIds": [
+        "crl-c7df57f34f53",
+        "web-8293901e4f6b"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "The complete B-Well paper, supplementary appendix, protocols and prespecified statistical analysis plans: reconcile randomized versus efficacy populations, common risk-difference estimates, missing data, rescue medication and endpoint amendments.",
+    "The integrated safety report and hepatic adjudication narratives: distinguish ALT flares associated with response from clinically important injury, quantify deaths and serious events, and stratify platelet/renal effects and discontinuations by HBsAg and exposure.",
+    "Actual week-96 results: responder-level relapse, HBsAg/HBV DNA trajectories, NA restarts and hepatic outcomes after withdrawal—not merely completed registry status.",
+    "FDA filing/review correspondence and the commercial manufacturing dossier: confirm application number/classification, proposed eligibility and monitoring, any target-changing amendment, named sites/FEIs, product-linked inspections, quality deficiencies and corrective-action closure."
+  ],
+  "limitations": [
+    "This is a current investigation using the September 10, 2026 packet and live retrievals. The latest target reaffirmation supplied is the July 29 Ionis summary; no later FDA confirmation was retrieved.",
+    "The original NEJM page exposed its abstract but not the full article or supplementary tables. The detailed confidence intervals and on-treatment safety tables came from a GSK presentation hosted through a third-party mirror, not an independently inspected clinical study report.",
+    "Both exact trial records were inspected and contain no posted results. Current registry endpoints cannot independently establish when they were prespecified or whether amendments preceded unblinding.",
+    "The secondary clinical article asserts no drug-induced liver injury, but primary hepatic adjudication was not retrieved; that assertion was not treated as verified absence of injury. Complete mortality, exposure and subgroup-safety data remain unresolved.",
+    "Manufacturing searches returned no usable product–site link. The supplied compliance leads were reviewed as discovery only; no candidate-linked original FDA CGMP document was available. No clean-compliance conclusion follows.",
+    "The CRL archive is incomplete and the search was by GSK company name, not a verified bepirovirsen application number. Other GSK CRLs cannot establish bepirovirsen's review history.",
+    "The prior approved-product example is supported by an inspected company filing, not a newly retrieved FDA approval package. Sponsor-wide success rates, review-speed distributions and shared-facility performance were not modeled."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Can FDA accept the off-treatment benefit–risk across the proposed HBsAg range, given hepatic toxicity and withdrawal-monitoring requirements?",
+    "bullCase": {
+      "claim": "Two blinded, placebo-controlled trials independently demonstrated functional cure after stopping all HBV treatment. The replicated results, stronger registered low-HBsAg subgroup and observed reversibility of some laboratory abnormalities support a credible finite-treatment option for appropriately selected patients.",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "web-138b357795d3",
+        "web-f4778637db1d"
+      ]
+    },
+    "bearCase": {
+      "claim": "Most treated participants did not reach functional cure, while serious and high-grade adverse events were more frequent. The evidence comes from selected, noncirrhotic, NA-treated adults with restricted HBsAg and ALT levels. Incomplete hepatic adjudication, post-withdrawal outcomes and statistical sensitivity analyses could materially narrow or undermine the proposed benefit–risk case.",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "web-f4778637db1d",
+        "trial-NCT05630807",
+        "trial-NCT05630820"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do the integrated patient-level data show durable cure with acceptably managed hepatic events across the proposed HBsAg strata, including after NA withdrawal?",
+      "whyItMatters": "This distinguishes a manageable finite-treatment regimen from one whose benefit is concentrated in a narrower group or depends on monitoring that cannot be reproduced safely in routine use. FDA's interpretation could change eligibility, warnings, withdrawal rules, additional-study requirements or approvability.",
+      "sourceIds": [
+        "web-8293901e4f6b",
+        "web-f4778637db1d",
+        "web-138b357795d3"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Trial-like benefit–risk accepted",
+        "trigger": "FDA accepts the functional-cure analyses and hepatic-event management in the studied population, with no unresolved product-quality deficiency.",
+        "implication": "Approval could be supported for a trial-like population, with explicit laboratory monitoring and criteria for stopping background NA. The broad adult-CHB description would still not establish unrestricted use.",
+        "sourceIds": [
+          "web-8293901e4f6b",
+          "web-f4778637db1d",
+          "web-ec9d8abcbc4a"
+        ]
+      },
+      {
+        "label": "Benefit accepted only with narrower eligibility or stronger safeguards",
+        "trigger": "FDA finds the benefit–risk most persuasive at lower baseline HBsAg or requires stricter liver, platelet, renal or NA-withdrawal controls.",
+        "implication": "A narrower population or more demanding monitoring could materially reduce practical eligibility without invalidating the positive pivotal results.",
+        "sourceIds": [
+          "web-138b357795d3",
+          "web-f4778637db1d"
+        ]
+      },
+      {
+        "label": "Material review issue requires additional work",
+        "trigger": "Detailed review identifies consequential injury, insufficient off-treatment durability, nonrobust efficacy analyses, or a documented commercial-quality deficiency.",
+        "implication": "Additional data or remediation could be required. A major amendment might change timing; a complete response would be a separate nonapproval action, not interchangeable with an extension.",
+        "sourceIds": [
+          "web-8293901e4f6b",
+          "trial-NCT05630807",
+          "trial-NCT05630820",
+          "crl-c5500c6a18dd"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What exact population is in the proposed US label—particularly HBsAg threshold, cirrhosis exclusion, prior NA suppression and baseline ALT—and has FDA requested changes?",
+        "whyItMatters": "The sponsor's adult-CHB filing description is broader than the population supporting the pivotal evidence. Eligibility could be the largest difference between headline efficacy and usable treatment scope.",
+        "sourceIds": [
+          "web-ec9d8abcbc4a",
+          "web-8293901e4f6b",
+          "web-f4778637db1d"
+        ]
+      },
+      {
+        "question": "Why do the full-analysis denominators differ from registry enrollment, and how do missing observations, NA restarts and other intercurrent events affect the primary result?",
+        "whyItMatters": "The published counts establish response magnitude, but do not independently verify the robustness of the submitted estimand or sensitivity analyses.",
+        "sourceIds": [
+          "trial-NCT05630807",
+          "trial-NCT05630820",
+          "web-8293901e4f6b",
+          "web-f4778637db1d"
+        ]
+      },
+      {
+        "question": "For each serious hepatic event, what were bilirubin, coagulation, symptoms, timing, adjudicated causality and outcome—and what stopping, monitoring and NA-restart rules are proposed?",
+        "whyItMatters": "ALT elevation associated with antigen decline is not automatically benign. The distinction between controlled response-associated flares and clinically important injury is central to benefit–risk.",
+        "sourceIds": [
+          "web-8293901e4f6b",
+          "web-f4778637db1d"
+        ]
+      },
+      {
+        "question": "Which legal entities and FEIs manufacture, fill, release and test commercial bepirovirsen, and what product-linked FDA inspection or CMC issues remain open?",
+        "whyItMatters": "The established GSK–Ionis development relationship does not identify commercial manufacturing sites. A site list linked to the NDA is necessary before compliance records can be interpreted.",
+        "sourceIds": [
+          "web-ec9d8abcbc4a"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Replicated off-treatment functional cure supports efficacy, but adverse-event imbalances and unresolved hepatic/withdrawal management materially affect benefit–risk. Manufacturing readiness remains unknown.",
+    "pivotalQuestion": "Can FDA accept the off-treatment benefit–risk across the proposed HBsAg range, given hepatic toxicity and withdrawal-monitoring requirements?",
+    "sourceIds": [
+      "web-8293901e4f6b",
+      "web-f4778637db1d",
+      "web-138b357795d3"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Two randomized trials replicated functional cure at week 72 versus no placebo responses. Evidence applies to selected NA-treated, noncirrhotic adults; longer durability and full statistical sensitivity analyses remain unverified.",
+        "sourceIds": [
+          "web-8293901e4f6b",
+          "trial-NCT05630807",
+          "trial-NCT05630820"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Serious and high-grade events were more frequent, with ALT, platelet and renal monitoring implications. Sponsor-reported reversibility provides reassurance, but complete hepatic adjudication and exposure-specific analyses were not inspected.",
+        "sourceIds": [
+          "web-8293901e4f6b",
+          "web-f4778637db1d"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No candidate-linked commercial site, FDA CGMP assessment, CMC deficiency or corrective-action closure was established. Unlinked vaccine-site inspection leads cannot assess bepirovirsen manufacturing.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsors report accepted NDA, priority review and Breakthrough Therapy designation. October 26 remains the reported target; FDA's final population, objections and action are not established.",
+        "sourceIds": [
+          "web-ec9d8abcbc4a",
+          "web-aa5bdd4c67dc",
+          "ionis-q2-2026"
+        ]
+      }
+    ]
+  },
+  "id": "4353eb69-3c0e-4506-8e64-a82d33cac7f0",
+  "candidateId": "bepirovirsen-hbv",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:17:12.063Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Bepirovirsen, specifically Chronic hepatitis B in adults. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "ionis-bepi-acceptance",
+      "title": "Ionis / GSK: bepirovirsen priority review",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-bepirovirsen-accepted-priority",
+      "publisher": "Ionis Pharmaceuticals / GSK",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis reported acceptance and priority review of GSK’s bepirovirsen NDA for chronic hepatitis B, with an October 26, 2026 target. The B-Well trials evaluate functional cure, defined using sustained undetectable surface antigen after treatment cessation; it should not be described as eradication of every viral reservoir."
+    },
+    {
+      "id": "ionis-q2-2026",
+      "title": "Ionis: second-quarter regulatory update",
+      "url": "https://ir.ionispharma.com/news-releases/news-release-details/ionis-reports-second-quarter-2026-financial-results-and",
+      "publisher": "Ionis Pharmaceuticals",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis continued to report October 26 as bepirovirsen’s FDA target. Its then-pending September 22 zilganersen target was later overtaken by September 3 FDA approval; the July document alone cannot establish September review status."
+    },
+    {
+      "id": "trial-nct05630807",
+      "title": "ClinicalTrials.gov: NCT05630807 · Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+      "url": "https://clinicaltrials.gov/study/NCT05630807",
+      "publisher": "ClinicalTrials.gov / GlaxoSmithKline",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 981 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05630820",
+      "title": "ClinicalTrials.gov: NCT05630820 · Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+      "url": "https://clinicaltrials.gov/study/NCT05630820",
+      "publisher": "ClinicalTrials.gov / GlaxoSmithKline",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 857 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05630807",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+      "url": "https://clinicaltrials.gov/study/NCT05630807",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T19:47:19.799Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05630820",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+      "url": "https://clinicaltrials.gov/study/NCT05630820",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T19:47:19.799Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42206582",
+      "title": "Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B Virus Infection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42206582/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:47:20.163Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2026 Jun 25. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-36346079",
+      "title": "Efficacy and Safety of Bepirovirsen in Chronic Hepatitis B Infection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36346079/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:47:20.163Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2022 Nov 24. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34642494",
+      "title": "Safety, tolerability and antiviral activity of the antisense oligonucleotide bepirovirsen in patients with chronic hepatitis B: a phase 2 randomized controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34642494/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:47:20.163Z",
+      "summary": "Indexed citation in Nature medicine; publication date 2021 Oct. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37902953",
+      "title": "Bepirovirsen (GSK3228836) in chronic hepatitis B infection: an evaluation of phase II progress.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37902953/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:47:20.163Z",
+      "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2023 Jul-Dec. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39214467",
+      "title": "Sequential Peg-IFN after bepirovirsen may reduce post-treatment relapse in chronic hepatitis B.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39214467/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:47:20.163Z",
+      "summary": "Indexed citation in Journal of hepatology; publication date 2025 Feb. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05630807",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+      "url": "https://clinicaltrials.gov/study/NCT05630807",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T20:17:21.623Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05630807; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT05630820",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+      "url": "https://clinicaltrials.gov/study/NCT05630820",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T20:17:21.654Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05630820; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-8293901e4f6b",
+      "title": "Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B ...",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515131",
+      "publisher": "www.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:59.376Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a8a19c1dfe48",
+      "title": "Ionis partner GSK announces positive topline results from B-Well 1 and B ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-positive-topline-results-b-well-1",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:23.149Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4050a7f7a245",
+      "title": "Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42206582/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:23.150Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c9fafc46924f",
+      "title": "Bepirovirsen Induces Clinical Cure of Chronic HBV Among a Fifth of ...",
+      "url": "https://www.gastroenterologyadvisor.com/news/bepirovirsen-induces-clinical-cure-of-chronic-hbv-among-a-fifth-of-patients/",
+      "publisher": "www.gastroenterologyadvisor.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:23.150Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-aa5bdd4c67dc",
+      "title": "Ionis partner GSK announces bepirovirsen accepted for Priority ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-bepirovirsen-accepted-priority",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:32.067Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ec9d8abcbc4a",
+      "title": "Bepirovirsen accepted for priority review and granted Breakthrough ...",
+      "url": "https://us.gsk.com/en-us/media/press-releases/bepirovirsen-accepted-for-priority-review-and-granted-breakthrough-therapy-designation-by-the-us-fda/",
+      "publisher": "us.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:32.068Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-138b357795d3",
+      "title": "Ionis partner GSK announces bepirovirsen achieves ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-bepirovirsen-achieves-unprecedented",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:32.069Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-90089d27ab3b",
+      "title": "FDA Grants Bepirovirsen Breakthrough Therapy Designation ...",
+      "url": "https://www.hcplive.com/view/fda-grants-bepirovirsen-breakthrough-therapy-designation-priority-review-for-chronic-hepatitis-b",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:32.069Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8f8e33247516",
+      "title": "(PDF) Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B ...",
+      "url": "https://www.researchgate.net/publication/405402141_Phase_3_Results_of_Bepirovirsen_Treatment_for_Chronic_Hepatitis_B_Virus_Infection",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:59.377Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f4778637db1d",
+      "title": "[PDF] EASL IR call investor presentation - Finnhub",
+      "url": "https://finnhub.io/api/redirect?urlType=transcripts-slides2&id=d8c0d19d98307e7f47a51ac09d5f64a4ee6a171ea5943d558941db294b26261d",
+      "publisher": "finnhub.io",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:17:59.377Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5336c17d78f9",
+      "title": "[PDF] ARROWHEAD PHARMACEUTICALS, INC. - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/879407/000087940726000029/arwrarsproxy2026fy2025jan2.pdf",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:35.598Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4d8e07abcc3e",
+      "title": "[PDF] Form 10-Q for Aligos Therapeutics INC filed 08/06/2026",
+      "url": "https://investor.aligos.com/static-files/be6ffcad-565e-4a08-ab86-c203419020d6",
+      "publisher": "investor.aligos.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:35.600Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-33d3a3a53787",
+      "title": "[PDF] Form 10-Q for Ionis Pharmaceuticals INC filed 04/30/2025",
+      "url": "https://ir.ionis.com/static-files/da0e9cba-98f7-42b4-bbad-2a13dc193123",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:35.602Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ea8c19d7b59a",
+      "title": "[PDF] ARROWHEAD PHARMACEUTICALS, INC.",
+      "url": "https://materials.proxyvote.com/Approved/04280A/20250117/10K_594476.PDF",
+      "publisher": "materials.proxyvote.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:35.603Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-c7df57f34f53",
+      "title": "FDA complete response: GlaxoSmithKline LLC — 12/16/2025",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_BLA761458_20251216.pdf%22+AND+letter_date%3A%2212%2F16%2F2025%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:42.252Z",
+      "kind": "fda",
+      "summary": "Letter dated 12/16/2025. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "crl-c5500c6a18dd",
+      "title": "FDA complete response: GlaxoSmithKline LLC — 10/23/2025",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_BLA761440_20251023.pdf%22+AND+letter_date%3A%2210%2F23%2F2025%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:42.253Z",
+      "kind": "fda",
+      "summary": "Letter dated 10/23/2025. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-a1edffaef0e0",
+      "title": "[PDF] GSK Q1 2026 Presentation",
+      "url": "https://www.gsk.com/media/5qjlbu5u/q1-2026-results-slides.pdf",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:18:53.054Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 459143,
+    "outputTokens": 7172
+  },
+  "durationMs": 242479,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ionis-bepi-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "evidence-publications-42206582"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05630807"
+      },
+      "status": "completed",
+      "durationMs": 33
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05630820"
+      },
+      "status": "completed",
+      "durationMs": 31
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "bepirovirsen B-Well 1 B-Well 2 NEJMoa2515131 full text supplementary appendix functional cure 2026 adverse events confidence interval"
+      },
+      "status": "completed",
+      "durationMs": 1496
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "bepirovirsen GSK Ionis September 2026 FDA NDA October 26 priority review manufacturing CMC manufacturer site complete response letter"
+      },
+      "status": "completed",
+      "durationMs": 8918
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"nejmoa2515131_appendix.pdf\" OR \"nejmoa2515131\" \"confidence\" \"discontinuation\""
+      },
+      "status": "completed",
+      "durationMs": 17720
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"bepirovirsen\" manufacturing facility CMC FDA inspection warning letter contractor supply 2026"
+      },
+      "status": "completed",
+      "durationMs": 36227
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "GlaxoSmithKline"
+      },
+      "status": "completed",
+      "durationMs": 6648
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:gsk.com \"EASL\" \"2026\" \"permanent\" \"bepirovirsen\""
+      },
+      "status": "completed",
+      "durationMs": 904
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-f4778637db1d",
+        "query": "permanent"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0ad79f90072bd87e016aa310b15ebc87d2a40126ea303cc6b7",
+    "inputHash": "360d819d099f4cc0d0fcad6c7396ccef086671786b618bf376089f05bcba9b8d"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:24:11.489Z",
+    "originalSha256": "791771e569d5bc2134a41d28f770da43b93c14565be6127dc15b0bd6fd9be549",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

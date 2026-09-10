@@ -26,9 +26,11 @@ The approved zilganersen episode demonstrates why status verification matters: F
 
 The run is `88baf4b3-0ec3-4dd4-b344-34a8b1e170ab`. Its source checks are documented publicly. Do not imply that an independent expert panel reviewed the analysis or that it predicts the actual decision.
 
-## 1:45–2:30 · Ground the investigation in several data sources
+## 1:45–2:30 · Explain the headline, then inspect its basis
 
-**Open Evidence desk to show the four source-linked factors, then Evidence map to inspect a registry record and an FDA application record.**
+**Open Evidence desk. Start with the prominent Astra approval outlook and its pivotal question. Expand a clinical result, then inspect a source-linked domain or Evidence map record.**
+
+> “The headline is the strength of the approval case and what could change it. The adjacent FDA target is a reported decision date. We do not turn an unvalidated interpretation into an approval percentage. The useful next action is to inspect and challenge the reasoning.”
 
 > “The workbench pulls from trial protocols and results, FDA applications, labeling, PubMed, original FDA letters and sponsor disclosures. It tells you which source was retrieved, which is only discovery metadata and where evidence is missing. A marketed drug's manufacturing supplement is not approval of a new indication.”
 
@@ -74,4 +76,4 @@ The prototype does not establish paying demand, investment returns, prospective 
 
 The new live run `81c770af-1792-4d25-9124-b9c01b983dfb` used 12 real tool calls over 152 seconds to inspect published hypertension efficacy and dose-specific electrolyte/renal risks. It returns mixed overall evidence while rejecting the misleading idea that the separate sleep-apnea primary endpoint establishes hypertension failure. An initial packet-only favorable interpretation was withheld during review because its supplied summaries were too thin; the deeper report was generated independently without a prior report. Do not stage an invented insufficient-to-mixed change or describe this as a validated prediction.
 
-For a live judge challenge, type their actual question and press Challenge the outlook. Show the actual tool progress; inspect whether the new answer revised, strengthened or retained the prior conclusion and why. The customer outcome to demonstrate is a source-backed next diligence question and exportable brief.
+For a live judge challenge, type their actual question and press Challenge the outlook. Show the actual tool progress; inspect whether the new answer revised, strengthened or retained the prior conclusion and why. The customer outcome to demonstrate is a source-backed next diligence question and exportable brief. Keep the default screen quiet; expand the relevant clinical chart or domain only when it helps explain that question.
