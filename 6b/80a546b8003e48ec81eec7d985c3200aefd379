@@ -1,0 +1,136 @@
+ui/App.tsx
+  s_949e10ef803d8b::t_7a605e1e86cc38 14-16,108,110,138,236,410,418,432-433,454,464,467,469
+ui/ResearchMissions.tsx
+  s_949e10ef803d8b::t_835e8043563f94 1-19
+docs/outlook-methodology.md
+  s_949e10ef803d8b::t_b7f7e666a2975a 9-14,24-29,47-60
+  s_949e10ef803d8b::t_5c3ccfa1fd5caf 22,69-70
+  s_949e10ef803d8b::t_a5521bacdf8266 1-8,15-21,23,30-46,61-68
+data/recorded-run-review.md
+  s_949e10ef803d8b::t_70f9ce02e1bebb 64-74
+ui/types.ts
+  s_949e10ef803d8b::t_194a07712b3527 126
+  s_949e10ef803d8b::t_0fb68dfcc6fabc 125,144-168,186
+README.md
+  s_949e10ef803d8b::t_cc125bde3a600d 30-33,38,43,56-61,83-92
+data/assessments/anito-cel-myeloma.json
+  s_949e10ef803d8b::t_3e4169dfd402b8 1-57
+data/assessments/apitegromab-sma.json
+  s_949e10ef803d8b::t_57a224c2f5b012 1-58
+data/assessments/atezolizumab-colon-adjuvant.json
+  s_949e10ef803d8b::t_48604f5f97cb34 1-54
+data/assessments/bbp418-lgmd.json
+  s_949e10ef803d8b::t_1875dc13ff1489 1-52
+data/assessments/bepirovirsen-hbv.json
+  s_949e10ef803d8b::t_66453f3a519b3f 1-56
+data/assessments/bezuclastinib-gist.json
+  s_949e10ef803d8b::t_54ca2da4701209 1-54
+data/assessments/bezuclastinib-nonadv-sm.json
+  s_949e10ef803d8b::t_657467f872b08c 1-54
+data/assessments/deramiocel-dmd.json
+  s_949e10ef803d8b::t_bc1d61a10a008f 1-62
+data/assessments/dexmedetomidine-at-home.json
+  s_949e10ef803d8b::t_1af1354f58590b 1-55
+data/assessments/dplex100-ssi.json
+  s_949e10ef803d8b::t_1ae637ab0cdad9 1-53
+data/assessments/encaleret-adh1.json
+  s_949e10ef803d8b::t_88b58965a47181 1-51
+data/assessments/floretyrosine-glioma.json
+  s_949e10ef803d8b::t_d605c5a7d205cd 1-52
+data/assessments/giredestrant-early-breast.json
+  s_949e10ef803d8b::t_5b5ba1074165f4 1-51
+data/assessments/giredestrant-esr1-breast.json
+  s_949e10ef803d8b::t_909c03e8d06358 1-54
+data/assessments/ifinatamab-deruxtecan-sclc.json
+  s_949e10ef803d8b::t_edf9310706a4dd 1-52
+data/assessments/imlifidase-kidney.json
+  s_949e10ef803d8b::t_8d90d8ffef99b3 1-51
+data/assessments/imsidolimab-gpp.json
+  s_949e10ef803d8b::t_a88e6d3675dce5 1-56
+data/assessments/ino3107-rrp.json
+  s_949e10ef803d8b::t_8f224562a1b6ec 1-53
+data/assessments/ivonescimab-egfrm.json
+  s_949e10ef803d8b::t_e11033856e7b4e 1-53
+data/assessments/leniolisib-pediatric-apds.json
+  s_949e10ef803d8b::t_371b14f2ea98c0 1-53
+data/assessments/mitapivat-scd.json
+  s_949e10ef803d8b::t_d340890209cbf6 1-52
+data/assessments/molgramostim-apap.json
+  s_949e10ef803d8b::t_735f70d8c1f098 1-58
+data/assessments/neladalkib-alk.json
+  s_949e10ef803d8b::t_c4edcdcd781a28 1-57
+data/assessments/povetacicept-igan.json
+  s_949e10ef803d8b::t_8184dea27e48af 1-50
+data/assessments/relacorilant-cushing.json
+  s_949e10ef803d8b::t_90b96892e3cf86 1-55
+data/assessments/relutrigine-dee.json
+  s_949e10ef803d8b::t_ba5ccec4433d47 1-59
+data/assessments/satralizumab-ted.json
+  s_949e10ef803d8b::t_b4c6694e6f31b7 1-62
+data/assessments/ulixacaltamide-et.json
+  s_949e10ef803d8b::t_a799bfff04bb36 1-57
+data/assessments/ux111-mpsiiia.json
+  s_949e10ef803d8b::t_7897474d782d70 1-60
+data/assessments/zanzalintinib-mcrc.json
+  s_949e10ef803d8b::t_1d19af91341923 1-61
+data/assessments/zilganersen-axd.json
+  s_949e10ef803d8b::t_719e2f7d9f1f95 1-53
+data/assessments/zilurgisertib-fop.json
+  s_949e10ef803d8b::t_a980f50171a284 1-54
+data/investigations/81c770af-1792-4d25-9124-b9c01b983dfb.json
+  s_949e10ef803d8b::t_0a148c06795eea 1-718
+docs/contracts.md
+  s_949e10ef803d8b::t_4b7fdd7692de52 15,56-63
+docs/demo-script.md
+  s_949e10ef803d8b::t_bd5ad60805b78c 9,17,31,59,72-77
+package.json
+  s_949e10ef803d8b::t_a34659f8cb82c4 23-24
+scripts/assess.ts
+  s_949e10ef803d8b::t_63fccc5503519d 1-147
+scripts/static-demo.ts
+  s_949e10ef803d8b::t_f51ae8dc3996f6 8,56,58-59
+server/assessment-packet.ts
+  s_949e10ef803d8b::t_881561d3e477a1 1-45
+server/data.ts
+  s_949e10ef803d8b::t_670bf26537c95c 3-4,107-167
+server/index.ts
+  s_949e10ef803d8b::t_3889ded5b31a94 15,110
+server/investigate.ts
+  s_949e10ef803d8b::t_5dd7628f7be279 3,21,46-47,193,208-214,269-274,383
+shared/assessment.ts
+  s_949e10ef803d8b::t_1f2c5627caf4aa 1-96
+shared/schema.ts
+  s_949e10ef803d8b::t_8bb438a063bd8e 2-5,186,193,205
+tests/assessment.test.ts
+  s_949e10ef803d8b::t_c5497d36b4f3f0 1-215
+ui/AssessmentView.tsx
+  s_949e10ef803d8b::t_89e3ba7c69a20b 1-39
+ui/CandidateOverview.tsx
+  s_949e10ef803d8b::t_8a7121135b7899 4-7,17,22,30,42,48-52,56-59,61-63,69-70,73-74,77
+ui/ResearchTrace.tsx
+  s_949e10ef803d8b::t_fe324f74915598 1-8
+ui/assessment.css
+  s_949e10ef803d8b::t_2f883b69c74e7b 1-147
+ui/assessment.test.ts
+  s_949e10ef803d8b::t_e309e8cdfc33de 1-48
+ui/assessment.ts
+  s_949e10ef803d8b::t_e0735472a066a2 1-19
+ui/main.tsx
+  s_949e10ef803d8b::t_40729649da9019 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "6b80a546b8003e48ec81eec7d985c3200aefd379",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
