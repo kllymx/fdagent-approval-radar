@@ -1,0 +1,809 @@
+{
+  "summary": "UX111 has a credible, durable clinical signal—strongest in younger or less-impaired children—but this is not a manufacturing-only formality. The actual FDA CRL describes systemic CMC deficiencies and leaves clinical adequacy open. The resubmission is under review with a reported September 19, 2026 action target; public evidence does not establish that FDA has accepted the corrective actions.",
+  "outlook": {
+    "verdict": "Mixed: a substantive clinical case supports accelerated-approval review, but manufacturing remediation remains the principal decision risk, with additional uncertainty over indication breadth and safety characterization.",
+    "timing": "The original sponsor-reported target was August 18, 2025. FDA issued a CRL dated July 7, publicly disclosed July 11. A January 2026 resubmission received an Incomplete Response Letter on February 12 requesting additional CMC documentation. Acceptance was announced April 2 with a September 19, 2026 target, reaffirmed August 4. The incomplete-response episode was not another CRL or a review extension. September 19 is an action target, not an approval date; the inspected evidence does not establish a subsequent UX111 target change.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model estimates annual original-application receipt-cohort approval rates, which do not apply to this BLA resubmission. Its separate resubmission timing cohorts concern FDA action—including complete response—not approval. UX111's formal resubmission class and accepted receipt date were not verified, and no individualized probability or date forecast is supported."
+  },
+  "findings": [
+    {
+      "id": "f1",
+      "title": "Current review is a resubmission of original BLA 125845—not a supplement or completed approval",
+      "detail": "FDA's July 7, 2025 letter identifies BL 125845/0 for rebisufligene etisparvovec. Ultragenyx announced resubmission on January 30, 2026, then disclosed a February 12 Incomplete Response Letter requesting supportive documentation for its CRL CMC responses. The April 2 acceptance and August 4 update establish the later sponsor-reported review status and September 19 target, superseding the earlier incomplete-submission status. The requested indication is treatment of MPS IIIA through accelerated approval; precise proposed age, developmental-stage and other labeling restrictions were not disclosed in the inspected acceptance announcement. The original August 18, 2025 target is reproduced in the foundation's quotation of the original sponsor announcement.",
+      "direction": "neutral",
+      "sourceIds": [
+        "crl-b590235141ac",
+        "web-84747903fa63",
+        "web-74743c8a467d",
+        "web-6fc89d116799",
+        "web-f3694c4e8649",
+        "web-aa31f884c009"
+      ]
+    },
+    {
+      "id": "f2",
+      "title": "Design and endpoint history require the actual protocol amendments and statistical analysis plan",
+      "detail": "Transpher A, NCT02716246, is an open-label, nonrandomized, sequential dose-escalation study of one intravenous infusion: 5×10^12, 1×10^13 or 3×10^13 vg/kg. Its current registry primary endpoint is CSF heparan-sulfate exposure, defined as time-normalized AUC of percentage reduction from baseline through month 24; Bayley-III cognitive raw score is secondary. However, the original 2022 investigator abstract described safety and neurocognitive development versus natural history as primary endpoints. The January 2026 resubmission announcement describes neurologic measures supporting an intermediate clinical endpoint, with biomarkers providing additional support. These are materially different descriptions—not proof of improper endpoint switching, but insufficient to establish the prospectively agreed pivotal estimand. The current estimated enrollment of 36 includes ongoing development and is not the submitted efficacy denominator. No results are posted for this pivotal registry record.",
+      "direction": "unknown",
+      "sourceIds": [
+        "trial-NCT02716246",
+        "web-adeb87757ee1",
+        "web-84747903fa63"
+      ]
+    },
+    {
+      "id": "f3",
+      "title": "Actual reported results show substantial biochemical activity and sustained early-stage cognitive separation",
+      "detail": "Ultragenyx's February 3, 2026 results disclosure reports 28 treated Transpher A participants, including 22 at the highest dose, plus five highest-dose participants from a separate study: 33 exposed overall and 27 in the high-dose efficacy set. The modified intent-to-treat population comprised 17 highest-dose children aged up to two years, or older children with baseline cognitive developmental quotient ≥60. Against untreated natural-history patients described as rapid progressors, the reported Bayley-III cognitive treatment effect across ages 24–60 months was +23.2 raw-score points, p<0.0001. Reported effects were +8.1 receptive-communication points, p=0.0076; +11.1 expressive-communication points, p=0.0008; +9.0 fine-motor points, p=0.0026; and +3.9 gross-motor points, p=0.070. Gross motor therefore was not conventionally statistically significant. At the September 2025 cutoff, median CSF-HS exposure reduction was 63.98%, p<0.001, in the 27-patient efficacy set. Overall follow-up reached 8.5 years, median 4.8 years. The earlier cognitive estimate of +22.7 points is consistent with persistence, but these overlapping follow-up analyses are not independent replication. Confidence intervals and sufficient model details to reproduce these estimates were not provided.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-c48e75024b48",
+        "web-473cd198faf8"
+      ]
+    },
+    {
+      "id": "f4",
+      "title": "Advanced-disease results challenge broad benefit claims and cannot be dismissed by later skill-retention summaries",
+      "detail": "The original results record for NCT04088734 documents five patients with developmental quotient <60, mean age 69.02 months, receiving 3×10^13 vg/kg. The study was terminated for lack of efficacy in advanced MPS IIIA. CSF-HS nevertheless decreased at day 30 by a mean 0.120 nmol/mL, SD 0.0837, in all five; only one had an evaluable month-12 CSF-HS change. At day 180, clinician global assessments showed no improvement among four assessed patients: one unchanged and three worse. Later sponsor reporting of retained communication, walking and feeding in ten older/advanced patients may reflect different outcomes and longer follow-up, but does not independently overturn that study's result. In particular, retained ambulation at median age 9.05 years versus historical median loss at approximately 11.3 years does not itself demonstrate delayed loss. For the favorable early-stage comparison, external-control selection, genotype/progression matching, missing observations, repeated-measures modeling, test transitions and multiplicity remain material uncertainties. Biomarker reduction alone cannot establish cognitive benefit at every disease stage.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04088734",
+        "web-c48e75024b48",
+        "web-473cd198faf8"
+      ]
+    },
+    {
+      "id": "f5",
+      "title": "Safety includes reassuring observed follow-up, but also serious events and incomplete integrated reporting",
+      "detail": "Across 33 exposed patients, the February 2026 sponsor disclosure identifies liver-enzyme elevations as the most frequent TEAEs and describes treatment-related events as mostly mild or moderate and resolving spontaneously. It reports no infusion hypersensitivity/anaphylaxis and no treatment-associated TMA, myocarditis, dorsal-root-ganglion toxicity or malignancy; that wording is not equivalent to zero events of every type. The advanced-disease registry provides more granular results: three of five patients experienced SAEs through day 454, including cognitive disorder, dysphagia, gait disturbance, mental-status changes and gastrostomy. Its attribution-by-time table includes one patient with a severe, possibly related SAE during days 180 to <12 months, without linking that cell to a named event. AST increased in five of five and ALT in three of five. No deaths were recorded over the registry's mean 18-month mortality window. All five were listed as not completing the terminated study for an unspecified reason—not established AE discontinuations. The integrated 33-patient SAE, mortality, withdrawal and dose/age-stratified tables remain unavailable. Current protocol immunomodulation varies by cohort and participant, limiting simple safety comparisons.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-c48e75024b48",
+        "trial-NCT04088734",
+        "trial-NCT02716246"
+      ]
+    },
+    {
+      "id": "f6",
+      "title": "FDA's documented CMC objection was systemic; current site linkage is known, but regulatory resolution is not",
+      "detail": "The actual CRL contains three pre-license-inspection deficiency entries—two naming Ultragenyx and another with the firm redacted. FDA states that prior 483 responses insufficiently addressed deficiencies, corrective actions were not comprehensive enough for systemic issues, and verification could require subsequent inspections. FDA could not determine product and establishment compliance with CGMP requirements. Lot Release Protocol template review was deferred pending resolution. This is stronger adverse evidence than the sponsor's characterization of readily addressable facility/process observations not directly related to product quality. In January 2026, Ultragenyx reported comprehensive responses; February's incomplete-response letter then requested additional supporting CMC documentation. April's acceptance establishes progress, not substantive closure. The April announcement explicitly links planned UX111 manufacturing to Andelyn Biosciences in Columbus, Ohio, and Ultragenyx in Bedford, Massachusetts. It does not identify which redacted CRL observation belongs to which site. No inspected document supplies site-specific corrective-action verification, completed reinspection conclusions or final UX111 CMC acceptance.",
+      "direction": "concern",
+      "sourceIds": [
+        "crl-b590235141ac",
+        "web-1e1fde32c9ae",
+        "web-84747903fa63",
+        "web-74743c8a467d",
+        "web-6fc89d116799"
+      ]
+    },
+    {
+      "id": "f7",
+      "title": "Sponsor experience is relevant context, not evidence that this application or its sites are acceptable",
+      "detail": "The original developer and current sponsor jointly announced the ABO-102/UX111 license transfer in May 2022; the registry records operational transfer to Ultragenyx in August 2022. Drugs@FDA confirms an earlier Ultragenyx original priority BLA approval for Mepsevii on November 15, 2017, distinct from its later supplements. This demonstrates prior BLA experience but provides no validated predictor for UX111 and no manufacturing-site linkage. The full Mepsevii indication and review package were not inspected, so its clinical evidence is not used here. Ultragenyx's August 2026 update separately identifies DTX401 for GSDIa and UX111 for MPS IIIA; another program's action cannot establish this application's outcome.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-9b898fef1ac0",
+        "trial-NCT02716246",
+        "evidence-approvals-BLA761047",
+        "web-f3694c4e8649"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "FDA's disposition of each BLA 125845 CMC deficiency, including any follow-up inspection conclusions, verified corrective actions and final lot-release requirements for the product-linked establishments.",
+    "The pivotal clinical study report, dated protocol/SAP amendments and external-control analysis: confidence intervals, matching variables, missing-data sensitivity analyses, multiplicity handling and separate early- versus advanced-disease estimates.",
+    "An updated integrated safety report covering all treated patients and current immunomodulatory regimens, with SAE narratives, liver-injury severity, deaths, withdrawals and exposure by dose and disease stage.",
+    "The FDA action letter and review/labeling documents establishing the accepted accelerated-approval endpoint, eligible population and required confirmatory study—or the specific deficiencies preventing approval."
+  ],
+  "limitations": [
+    "Clinical research inspected both exact trial records, original investigator conference-abstract text and sponsor results disclosures from 2025–2026. It did not retrieve a full pivotal journal manuscript or clinical study report. The natural-history papers cited by the sponsor—Shapiro 2016 and Wijburg 2022—were not inspected; comparator sample size, patient-level matching and effect-estimate confidence intervals remain unresolved.",
+    "The current pivotal registry has no posted results. The detailed adverse-event and efficacy tables retrieved belong to the separate five-patient advanced-disease study and cannot be substituted for the pivotal early-stage population. Maximum follow-up is not the follow-up duration of every participant or every endpoint.",
+    "Manufacturing research inspected the original FDA CRL and searched named-site remediation/current-status disclosures. Much of the CRL is redacted. The supplied FDAgent name-match leads have no original-document verification or established UX111 linkage and were not used as compliance findings. Neither BIMO records nor an unlinked NAI classification establishes UX111 CGMP acceptability.",
+    "The current corrective-action dossier, establishment inspection reports, repeat-inspection outcomes, process-validation/comparability package and final CMC review were not retrieved. This prevents verification of remediation; it does not prove that remediation has failed.",
+    "Regulatory research inspected the FDA CRL archive and sponsor acceptance, incomplete-response and quarterly disclosures. FDA's CRL explicitly says clinical adequacy was still being evaluated and requests updated safety, Bayley/Vineland, MRI and CSF biomarker data from 30 days before resubmission. Public results with a September 2025 cutoff do not establish the full contents or cutoff of the subsequently submitted package.",
+    "The formal resubmission class, accepted receipt date, exact proposed label and confirmatory-study agreement were not verified. Prior sponsor-product research confirmed a Mepsevii approval record but was not a systematic portfolio or review-duration assessment; no sponsor success rate is inferred.",
+    "This is a current investigation using records retrieved September 10, 2026, not a historical prediction. Registry snapshots and the FDA archive are incomplete, and the archive's current status field is not itself a new FDA action."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Has FDA accepted comprehensive, product-linked remediation of the systemic manufacturing deficiencies identified in BLA 125845?",
+    "bullCase": {
+      "claim": "The early-stage high-dose population shows substantial cognitive separation from natural history, accompanied by sustained biochemical activity and extended follow-up. Ultragenyx reports submitting comprehensive CMC responses and additional clinical data, and FDA subsequently accepted the resubmission. Verified remediation would remove the clearest documented obstacle.",
+      "sourceIds": [
+        "web-c48e75024b48",
+        "web-84747903fa63",
+        "web-6fc89d116799"
+      ]
+    },
+    "bearCase": {
+      "claim": "FDA previously found corrective actions inadequate for systemic issues across multiple inspection entries, and the first 2026 response still lacked supporting CMC documentation. Acceptance does not demonstrate correction. Separately, the advanced-disease study's lack of efficacy and incomplete integrated safety reporting make a broad MPS IIIA benefit-risk conclusion less secure than the sponsor's headline implies.",
+      "sourceIds": [
+        "crl-b590235141ac",
+        "web-74743c8a467d",
+        "trial-NCT04088734",
+        "web-c48e75024b48"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does the current FDA CMC assessment close every establishment and product deficiency, including any required inspection verification and deferred lot-release review?",
+      "whyItMatters": "That evidence distinguishes an adequately remediated resubmission from another unresolved manufacturing cycle. It is more decisive than filing acceptance, manufacturing readiness statements or an inspection classification without exact application linkage.",
+      "sourceIds": [
+        "crl-b590235141ac",
+        "web-6fc89d116799",
+        "web-74743c8a467d"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Manufacturing resolved; clinical package accepted",
+        "trigger": "FDA verifies the corrective actions and accepts the updated intermediate clinical endpoint, benefit-risk assessment and confirmatory obligations.",
+        "implication": "Accelerated approval becomes a supported regulatory path, subject to the actual action letter, label and postmarketing requirements; the calendar alone does not establish that outcome.",
+        "sourceIds": [
+          "crl-b590235141ac",
+          "web-84747903fa63",
+          "web-c48e75024b48"
+        ]
+      },
+      {
+        "label": "Manufacturing resolved; benefit supported only in a narrower population",
+        "trigger": "FDA finds the early-stage evidence persuasive but does not accept extrapolation to advanced disease.",
+        "implication": "Age or developmental-stage restrictions, additional analyses or additional studies could materially limit the requested indication and eligible population.",
+        "sourceIds": [
+          "trial-NCT04088734",
+          "web-c48e75024b48",
+          "crl-b590235141ac"
+        ]
+      },
+      {
+        "label": "Material deficiencies remain",
+        "trigger": "FDA finds corrective actions insufficient, requires unresolved inspection verification, or concludes the clinical/safety package is inadequate for the proposed indication.",
+        "implication": "Another complete response or additional review work could defer access beyond the reported target. The resulting action must be distinguished from a simple review extension.",
+        "sourceIds": [
+          "crl-b590235141ac",
+          "web-74743c8a467d",
+          "web-f3694c4e8649"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Which exact establishments, FEIs and manufacturing functions correspond to each CRL inspection entry, and what FDA evidence verifies sustained corrective-action effectiveness?",
+        "whyItMatters": "Andelyn Columbus and Ultragenyx Bedford are product-linked planned sites, but the redacted CRL cannot be reliably mapped to them. Request the deficiency-to-CAPA matrix and subsequent FDA correspondence.",
+        "sourceIds": [
+          "crl-b590235141ac",
+          "web-6fc89d116799"
+        ]
+      },
+      {
+        "question": "What is the prospectively agreed pivotal estimand, and when were the endpoint hierarchy, mITT definition and natural-history comparator fixed?",
+        "whyItMatters": "The 2022 abstract, current registry and 2026 accelerated-approval description differ. Dated amendments and the SAP are needed to separate prespecified inference from later supportive analyses.",
+        "sourceIds": [
+          "web-adeb87757ee1",
+          "trial-NCT02716246",
+          "web-84747903fa63"
+        ]
+      },
+      {
+        "question": "How do the updated patient-level data reconcile the terminated advanced-disease study with later claims of meaningful skill retention?",
+        "whyItMatters": "Request separate cohort trajectories, age-matched time-to-loss analyses and missing-data handling. Retention at one visit is not equivalent to demonstrated preservation relative to an appropriate untreated comparator.",
+        "sourceIds": [
+          "trial-NCT04088734",
+          "web-c48e75024b48"
+        ]
+      },
+      {
+        "question": "What are the narratives and outcomes for severe liver abnormalities and possibly related SAEs, and how does the proposed monitoring plan vary with age, dose and immunomodulation?",
+        "whyItMatters": "The practical plan should explain hepatic and blood-count monitoring, steroid/immunomodulator complications, neurologic surveillance and escalation thresholds. Aggregate tolerability language cannot resolve these candidate-specific events.",
+        "sourceIds": [
+          "trial-NCT04088734",
+          "trial-NCT02716246",
+          "web-c48e75024b48"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Durable sponsor-reported early-stage benefits support the clinical case, but FDA-documented systemic CMC deficiencies lack public closure. Advanced-disease efficacy and granular safety results materially qualify broad benefit-risk claims.",
+    "pivotalQuestion": "Has FDA accepted comprehensive, product-linked remediation of the systemic manufacturing deficiencies in BLA 125845?",
+    "sourceIds": [
+      "web-c48e75024b48",
+      "crl-b590235141ac",
+      "web-6fc89d116799",
+      "trial-NCT04088734"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Sponsor-reported cognitive separation and sustained CSF-HS reduction favor early treatment. External-control uncertainty and a separate advanced-disease study terminated for lack of efficacy limit extrapolation.",
+        "sourceIds": [
+          "web-c48e75024b48",
+          "trial-NCT02716246",
+          "trial-NCT04088734"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Extended sponsor-reported tolerability is reassuring, but registry results include serious events, a severe possibly related SAE and frequent enzyme elevations. Integrated dose-, age- and immunomodulation-stratified safety remains unavailable.",
+        "sourceIds": [
+          "web-c48e75024b48",
+          "trial-NCT04088734",
+          "trial-NCT02716246"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "concern",
+        "rationale": "FDA documented systemic inspection deficiencies and inadequate corrective actions. Subsequent responses and filing acceptance show progress, but do not establish verified remediation or final product-linked CGMP acceptability.",
+        "sourceIds": [
+          "crl-b590235141ac",
+          "web-84747903fa63",
+          "web-74743c8a467d",
+          "web-6fc89d116799"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "Accepted accelerated-approval resubmission supersedes February's incomplete-response status. The September target remains sponsor-reported; FDA's prior clinical adequacy question and exact current labeling/confirmatory requirements are unresolved publicly.",
+        "sourceIds": [
+          "web-74743c8a467d",
+          "web-6fc89d116799",
+          "web-f3694c4e8649",
+          "crl-b590235141ac"
+        ]
+      }
+    ]
+  },
+  "id": "839be2e3-037f-4c9d-99ec-d040cbcf780b",
+  "candidateId": "ux111-mpsiiia",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:40:38.926Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for UX111 (rebisufligene etisparvovec), specifically Sanfilippo syndrome type A (MPS IIIA). Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "ux111-crl",
+      "title": "Ultragenyx: UX111 prior complete response",
+      "url": "https://ir.ultragenyx.com/node/17891",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2025-07-11",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Ultragenyx reported a CRL requesting CMC improvements and information associated with manufacturing inspection observations. It characterized clinical data as robust and biomarker evidence as supportive, attributing those views to FDA reviews."
+    },
+    {
+      "id": "ux111-resubmission",
+      "title": "Ultragenyx: UX111 resubmission accepted",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-us-fda-acceptance-bla-resubmission-ux111",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-04-02",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Ultragenyx reported FDA acceptance of its resubmitted BLA seeking accelerated approval of UX111 for MPS IIIA, with September 19, 2026 as the action target. The submission includes longer follow-up; final adequacy of the package and manufacturing review is not public.",
+      "excerpt": "PDUFA action date set for September 19, 2026"
+    },
+    {
+      "id": "ux111-q2",
+      "title": "Ultragenyx: Q2 2026 regulatory update",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-reports-second-quarter-2026-financial-results-and",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "The second-quarter update continued to list the accepted resubmitted UX111 BLA and September 19, 2026 action target. The separate DTX401 program must not be mistaken for UX111."
+    },
+    {
+      "id": "trial-ux111",
+      "title": "ClinicalTrials.gov: UX111 gene-transfer trial",
+      "url": "https://clinicaltrials.gov/study/NCT02716246",
+      "publisher": "ClinicalTrials.gov / Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry links UX111 to ABO-102 and rebisufligene etisparvovec. It describes a nonrandomized, open-label gene-transfer trial, estimated enrollment 36, with CSF heparan-sulfate exposure as a primary measure. No registry results are posted. The planned total enrollment is not the application efficacy population."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT02716246",
+      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
+      "url": "https://clinicaltrials.gov/study/NCT02716246",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T19:40:39.051Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2, PHASE3; lead sponsor Ultragenyx Pharmaceutical Inc. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT02716246",
+      "title": "Phase I/II/III Gene Transfer Clinical Trial of scAAV9.U1a.hSGSH",
+      "url": "https://clinicaltrials.gov/study/NCT02716246",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T19:40:46.734Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT02716246; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-c48e75024b48",
+      "title": "Release details - Ultragenyx Pharmaceutical Inc.",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-positive-longer-term-data-demonstrating",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:58.504Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-05f2f67311c3",
+      "title": "Ultragenyx Announces Positive Longer-Term Data Demonstrating ...",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/RARE/pressreleases/37380209/ultragenyx-announces-positive-longer-term-data-demonstrating-treatment-with-ux111-gene-therapy-results-in-sustained-significant-reductions-in-csf-hs-and-continued-meaningful-improvements-in-clinical-function-across-multiple-developmental-domains/",
+      "publisher": "www.theglobeandmail.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:58.505Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ed065a600b70",
+      "title": "rebisufligene etisparvovec (UX111) News - LARVOL Sigma",
+      "url": "https://sigma.larvol.com/product.php?e1=569277&tab=newstrac",
+      "publisher": "sigma.larvol.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:58.506Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ad8ec2456c2d",
+      "title": "High-Cost Therapy Profile: July 2025 - Prime Therapeutics - Portal",
+      "url": "https://www.primetherapeutics.com/high-cost-therapy-profile-july-2025",
+      "publisher": "www.primetherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:58.506Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6fc89d116799",
+      "title": "Ultragenyx Announces U.S. FDA Acceptance of BLA Resubmission ...",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-us-fda-acceptance-bla-resubmission-ux111",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.368Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-84747903fa63",
+      "title": "Ultragenyx Resubmits Biologics License Application for UX111 AAV ...",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-resubmits-biologics-license-application-ux111-aav",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:03.660Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7e292468cd33",
+      "title": "FDA issues CRL for Ultragenyx's UX111 gene therapy",
+      "url": "https://curesanfilippofoundation.org/2025/07/fda-issues-crl-for-ultragenyx-ux111-gene-therapy/",
+      "publisher": "curesanfilippofoundation.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:03.660Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1e1fde32c9ae",
+      "title": "[PDF] Ultragenyx Receives Complete Response Letter from FDA for ...",
+      "url": "https://ir.ultragenyx.com/node/17891/pdf",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:03.660Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-b590235141ac",
+      "title": "FDA complete response: Ultragenyx Pharmaceutical Inc. — 07/07/2025",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_BLA125845_20250707.pdf%22+AND+letter_date%3A%2207%2F07%2F2025%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:04.075Z",
+      "kind": "fda",
+      "summary": "Letter dated 07/07/2025. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "trial-NCT04088734",
+      "title": "Gene Transfer Study of ABO-102 in Patients With Middle and Advanced Phases of MPS IIIA Disease",
+      "url": "https://clinicaltrials.gov/study/NCT04088734",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2023-07-25",
+      "retrievedAt": "2026-09-10T19:41:14.213Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04088734; status TERMINATED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-9d64e897a8e1",
+      "title": "FDA Accepts Ultragenyx's New BLA Submission for MPS IIIA Gene ...",
+      "url": "https://www.cgtlive.com/view/fda-accepts-ultragenyx-new-bla-submission-mps-iiia-gene-therapy-ux111",
+      "publisher": "www.cgtlive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.369Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a01fd9819b44",
+      "title": "FDA raises manufacturing concerns for Ultragenyx gene therapy",
+      "url": "https://www.ddw-online.com/fda-raises-manufacturing-concerns-for-ultragenyx-gene-therapy-35696-202507/",
+      "publisher": "www.ddw-online.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.369Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-61b480317e26",
+      "title": "Ultragenyx Receives Complete Response Letter from FDA for ...",
+      "url": "https://www.biopharmaboardroom.com/news/15/3541/ultragenyx-receives-complete-response-letter-from-fda-for-ux111-gene-therapy-for-sanfilippo-syndrome-type-a.html",
+      "publisher": "www.biopharmaboardroom.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.369Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-473cd198faf8",
+      "title": "Release details - Ultragenyx Pharmaceutical Inc.",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-new-data-demonstrating-treatment-ux111-aav",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:25.520Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-adeb87757ee1",
+      "title": "Updated results of Transpher A, a multicenter, single-dose, Phase 1/2 ...",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.98.18_supplement.213",
+      "publisher": "www.neurology.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:25.521Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9b898fef1ac0",
+      "title": "Ultragenyx Acquires Global Rights to AAV Gene Therapy ABO-102 for ...",
+      "url": "https://investors.abeonatherapeutics.com/news-events/press-releases/detail/234/ultragenyx-acquires-global-rights-to-aav-gene-therapy-abo-102-for-sanfilippo-syndrome-type-a-mps-iiia-from-abeona-therapeutics",
+      "publisher": "investors.abeonatherapeutics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:25.521Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-aa31f884c009",
+      "title": "UX111 Gene Therapy | MPS IIIA | Phase I-II-III | Ultragenyx",
+      "url": "https://curesanfilippofoundation.org/2020/03/abo-102-gene-therapy-sanfilippo-type-iiia/",
+      "publisher": "curesanfilippofoundation.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:25.522Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f3694c4e8649",
+      "title": "Ultragenyx Reports Second Quarter 2026 Financial Results and ...",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-reports-second-quarter-2026-financial-results-and",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:47.055Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bd57a9862d66",
+      "title": "Investors & Media—Ultragenyx Pharmaceutical Inc.",
+      "url": "https://ir.ultragenyx.com/",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:47.055Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0983aec18b0a",
+      "title": "Ultragenyx to Host Conference Call for Second Quarter 2026 Financial ...",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-host-conference-call-second-quarter-2026-financial",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:47.055Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7f6ca3bb7fb8",
+      "title": "Press Releases - Ultragenyx Pharmaceutical Inc.",
+      "url": "https://ir.ultragenyx.com/press-releases",
+      "publisher": "ir.ultragenyx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:47.056Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a45c8fcb7d2a",
+      "title": "Cure Sanfilippo Foundation - Facebook",
+      "url": "https://www.facebook.com/CureSanfilippoFoundation/posts/today-ultragenyx-received-an-incomplete-response-letter-from-the-fda-which-reque/1247171050847097/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:54.649Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f5d86ab56743",
+      "title": "Ultragenyx: The Setrusumab Reset Creates A Cleaner Rare Disease ...",
+      "url": "https://seekingalpha.com/article/4916559-ultragenyx-the-setrusumab-reset-creates-a-cleaner-rare-disease-opportunity",
+      "publisher": "seekingalpha.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:54.649Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-74743c8a467d",
+      "title": "Ultragenyx Reports Fourth Quarter and Full Year 2025 Financial ...",
+      "url": "https://finance.yahoo.com/news/ultragenyx-reports-fourth-quarter-full-210100492.html",
+      "publisher": "finance.yahoo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:54.650Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-376117d4f5da",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1515673/000119312526057329/rare-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:54.652Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761047",
+      "title": "MEPSEVII — BLA761047",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761047%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:55.018Z",
+      "summary": "BLA761047; sponsor ULTRAGENYX PHARM INC. 3 of 3 submission records shown, with original applications prioritized. Indication match is unverified."
+    }
+  ],
+  "usage": {
+    "inputTokens": 354965,
+    "outputTokens": 7322
+  },
+  "durationMs": 392140,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ux111-crl"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ux111-resubmission"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ux111-q2"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT02716246"
+      },
+      "status": "completed",
+      "durationMs": 32
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "UX111 rebisufligene etisparvovec 2026 pivotal Transpher A results heparan sulfate Bayley safety 2025 2026"
+      },
+      "status": "completed",
+      "durationMs": 4363
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "UX111 September 19 2026 resubmission CRL manufacturing facility manufacturer corrective actions Ultragenyx July 2025 April 2026"
+      },
+      "status": "completed",
+      "durationMs": 5153
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Ultragenyx"
+      },
+      "status": "completed",
+      "durationMs": 416
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04088734"
+      },
+      "status": "completed",
+      "durationMs": 72
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "UX111 Andelyn Bedford 2026 inspections remediation August second quarter 2026 September FDA manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 4154
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"UX111\" \"ABO-102\" clinical trial results safety adverse events Flanigan publication Transpher A 2025 2026"
+      },
+      "status": "completed",
+      "durationMs": 7154
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.ir.ultragenyx.com \"second-quarter-2026\" \"UX111\""
+      },
+      "status": "completed",
+      "durationMs": 1394
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.ir.ultragenyx.com UX111 \"incomplete\" \"2026\" March resubmission"
+      },
+      "status": "completed",
+      "durationMs": 7598
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "vestronidase alfa"
+      },
+      "status": "completed",
+      "durationMs": 365
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_09780a1318cd4cb5016aa308b7a6dc87d287dc246ba9aa4f02",
+    "inputHash": "4eb24185d87942259b7a9c383f6bbcc603d76285f212d021bb6296eef4c6da32"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:49:27.084Z",
+    "originalSha256": "84eb8737de48c9f0b256a43e7ecc23b0900956fcff163210fc026183dd73cb49",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

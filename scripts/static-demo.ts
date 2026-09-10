@@ -5,7 +5,12 @@ import {
   copyFile,
   readdir,
 } from "node:fs/promises";
-import { getCatalog, getModel, getAssessments } from "../server/data.js";
+import {
+  getCatalog,
+  getModel,
+  getAssessments,
+  getTrialVisuals,
+} from "../server/data.js";
 import type { Investigation, Source } from "../shared/schema.js";
 import { listDossiers, readDossier, publicDossier } from "../server/dossier.js";
 await mkdir("dist/demo/investigations", { recursive: true });
@@ -57,6 +62,7 @@ const catalog = await getCatalog();
 const payload = {
   catalog,
   assessments: await getAssessments(catalog, runs),
+  trialVisuals: await getTrialVisuals(catalog, runs),
   model: await getModel(),
   evidenceCandidateIds,
   evidenceSourcesByCandidate,

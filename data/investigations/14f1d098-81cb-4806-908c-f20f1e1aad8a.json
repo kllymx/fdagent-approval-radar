@@ -1,0 +1,707 @@
+{
+  "summary": "The public evidence remains concerning on clinical sufficiency, despite a credible resubmission pathway. FDA’s April 25, 2025 CRL documented borderline diagnostic performance and inadequate confirmatory evidence—not merely a filing or manufacturing delay. Telix subsequently submitted additional data after FDA consultation, but the inspected registry provides no new accuracy results. Safety and manufacturing remain incompletely assessable. September 11, 2026 is a sponsor-reported action target, not an approval date.",
+  "outlook": {
+    "verdict": "Concerning clinical evidence, with a potentially viable but publicly unverified remedy. Approval readiness cannot be established from acceptance of the resubmission.",
+    "timing": "Telix reports resubmission on March 13, 2026, acceptance on April 10, and a September 11, 2026 PDUFA goal; the supplied August 19 update reaffirms that goal. No completed action or replacement target was retrieved in this September 10 investigation. The earlier Q4 2025 resubmission plan was superseded by the actual March filing; that is not a documented FDA review extension. The original review target and any original-cycle extensions were not reconstructed.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides original-application first-cycle cohort rates, which do not estimate approval likelihood for this NDA resubmission. Its separate resubmission timing cohorts concern FDA action, including complete responses, rather than approval. The formal resubmission class was not verified. No individualized probability is supported."
+  },
+  "findings": [
+    {
+      "id": "current-application",
+      "title": "NDA 218592 is a resubmitted original application after an efficacy CRL",
+      "detail": "FDA’s original letter identifies NDA 218592 for floretyrosine F 18 injection and records a complete response dated April 25, 2025. This is not a supplement to an approved glioma indication. Telix’s April 10, 2026 announcement describes the requested use as characterization of recurrent or progressive glioma versus treatment-related change in adults and pediatric patients, with a September 11 goal. Final population, image-interpretation instructions and labeling remain subject to review. The archive’s status field is not a substitute for a current action letter.",
+      "direction": "neutral",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "web-a41a738a731a",
+        "telix-halfyear"
+      ]
+    },
+    {
+      "id": "original-efficacy",
+      "title": "Actual FDA-reviewed results reveal weak specificity and substantial uncertainty",
+      "detail": "FDA considered efficacy study 18F-TLX101-CDx-203 adequate and well-controlled, but found that the application did not establish substantial evidence of effectiveness. Across three blinded central readers, the lower bounds of the 95% confidence intervals ranged from 58% to 73% for sensitivity and 36% to 51% for specificity. These are ranges of confidence-interval lower bounds—not point estimates, complete intervals or a pooled accuracy result. FDA also identified single-center conduct and potential bias in reference-standard determination. The retrieved letter does not supply sample size, detailed population, complete accuracy tables, prespecified success thresholds or multiplicity rules. Thus, actual adverse performance evidence is available, but the pivotal analysis cannot be fully reproduced.",
+      "direction": "concern",
+      "sourceIds": [
+        "crl-254fe122277f"
+      ]
+    },
+    {
+      "id": "confirmation",
+      "title": "Replication was inadequate; the relevant 253-case study still has no posted results",
+      "detail": "FDA rejected the original confirmatory package as insufficient. GBM-RET-01 used higher administered activity than intended for labeling, risked unblinding reference-standard evaluators, and lacked reference-standard results for more than 10% of patients. Three published retrospective studies used image-evaluation methods differing from the proposed label and lacked per-reader results. The current registry identifies candidate-specific study 18F-TLX101-005, NCT07238322: a retrospective observational dataset with a prospectively planned image analysis, 253 actual participants, and completion January 23, 2026. It covers suspected or histologically confirmed grade 1–4 glioma after primary treatment with imaging suspicion of recurrence/progression. Its registered primary objective is sensitivity and specificity against a composite standard of truth—not head-to-head superiority over MRI. No results are posted. The four-month endpoint timeframe does not establish diagnostic durability or adequate longitudinal truth verification. Reader methods, truth components, missingness, pediatric representation, thresholds, dose distribution and cohort overlap remain unavailable. Its exact contribution to the resubmitted NDA was not explicitly documented in the inspected disclosures.",
+      "direction": "concern",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "trial-NCT07238322"
+      ]
+    },
+    {
+      "id": "remediation",
+      "title": "FDA consultation creates a plausible remedy, but agreement on a pathway is not acceptance of results",
+      "detail": "The CRL explicitly allowed a second adequate and well-controlled study or other robust confirmatory evidence, and suggested considering dose optimization. In September 2025, Telix reported Type A feedback supporting a resubmission package with an additional confirmatory analysis of existing data. In March 2026, it stated that additional data and statistical analyses, together with the original dataset, appropriately addressed the CRL. That is the strongest sourced recovery case. However, these statements are sponsor interpretations; neither meeting minutes nor quantitative confirmatory results were retrieved. The newer filing supersedes the old pre-resubmission status, but does not publicly demonstrate that FDA’s performance, bias and dose concerns are resolved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "web-02f166c4e8b1",
+        "web-7069807e4061"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Candidate-specific safety cannot be quantified from the inspected documents",
+      "detail": "No candidate-specific adverse-event tables, serious-event counts, discontinuation rates, deaths, exposure denominators or dose/population safety analyses were retrieved. NCT07238322 has no posted results; its 253 retrospective cases cannot be treated as a prospectively monitored safety population. FDA requested an updated integrated safety package, including new and combined AE tables, discontinuations, serious-event narratives and exposure. That request is not evidence that such events occurred—or that none occurred. The higher activity in GBM-RET-01 raises applicability questions but does not itself demonstrate toxicity. Adult/pediatric dosimetry, repeated-scan exposure and practical monitoring instructions remain unresolved.",
+      "direction": "unknown",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "trial-NCT07238322"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "PharmaLogic is a documented product partner; specific sites and quality resolution are unverified",
+      "detail": "Telix’s April 16, 2024 disclosure names PharmaLogic Holdings Corp as commercial manufacturing and pharmacy-distribution partner for finished TLX101-CDx/Pixclara doses. This establishes a historical product–company relationship, not current approval of any facility or confirmation of the 2026 supply network. The Pixclara CRL contains a Product Quality heading but no interpretable underlying details in the retrieved public text. Specific CMC deficiencies, affected sites, corrective actions and FDA acceptance of those actions therefore cannot be reconstructed. Separately retrieved inspection/comparability objections for 89Zr-TLX250 belong to BLA 761401, not Pixclara; they must not be transferred to NDA 218592.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-1f17f191eff6",
+        "crl-254fe122277f",
+        "crl-e7d18000b8ad"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Prior Telix approvals establish experience, not a glioma approval predictor",
+      "detail": "Drugs@FDA records Telix’s Illuccix NDA 214032 original approval on December 17, 2021, and a separate efficacy supplement on March 15, 2023; later labeling supplements are distinct actions. These are completed outcomes for gallium Ga-68 gozetotide, not floretyrosine. Telix’s March 2026 disclosure also reports U.S. approval of Gozellix, but its full review history was not reconstructed here. This supports prior regulatory execution experience only. It provides no validated predictor for Pixclara, no evidence of the requested glioma accuracy, and no shared-site clearance. TLX101-Tx is a separate iodine-131 therapeutic candidate.",
+      "direction": "neutral",
+      "sourceIds": [
+        "evidence-approvals-NDA214032",
+        "web-a899076c6130",
+        "web-a41a738a731a"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Full confirmatory clinical study report and locked statistical analysis plan: per-reader sensitivity/specificity with complete confidence intervals, success criteria, missing-reference-standard sensitivity analyses, independent truth adjudication, dose alignment and overlap with the original datasets.",
+    "FDA action letter and review conclusions for NDA 218592, together with an objection-by-objection response matrix and any documented population, dosing or interpretation restrictions.",
+    "The resubmission’s integrated safety update: unique patients and scans by administered activity and age, AE/SAE/discontinuation tables, event narratives, observation windows and adult/pediatric dosimetry.",
+    "The current manufacturing-site roster and product-quality response: PharmaLogic’s continuing role, site addresses/FEIs, clinical-to-commercial comparability, validation and stability data, and application-linked FDA inspection or quality-review conclusions."
+  ],
+  "limitations": [
+    "Clinical searches used Pixclara and the exact original study identifier; the relevant current registry was inspected. FDA’s CRL supplied actual diagnostic-performance uncertainty, but no original pivotal paper, full clinical study report or new confirmatory result tables were retrieved. Generic FET literature and unrelated therapeutic studies were not substituted.",
+    "The registry identifies the intended endpoint, not a verified prespecified statistical testing framework. Its first public posting followed study start; without dated protocol/SAP versions, prespecification and analysis independence cannot be established.",
+    "Safety review covered the candidate registry, FDA letter and targeted public searches. No usable candidate-specific AE dataset was obtained. This limits assessment rather than demonstrating reassuring safety or an undisclosed safety failure.",
+    "Manufacturing research inspected product-specific partnership disclosures and both FDA letters. No current named production site, candidate-linked inspection report, corrective-action package or quality-resolution document was obtained. The supplied compliance lead was BIMO, lacked an original document and did not establish a manufacturing-site link; it was excluded from clearance judgments.",
+    "The August 19 target reaffirmation was available only as a curated attributed summary. The full April 10 acceptance announcement was retrieved. Public searching did not establish a later action, but cannot exclude nonpublic correspondence or an unindexed disclosure.",
+    "This is a current September 10, 2026 investigation. The registry is a current snapshot, and the historical CRL was retrieved from the live archive; its letter date is not proof of when it became public. Prior approval records were inspected, but sponsor-wide timelines and facility histories were not systematically reconstructed."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the new confirmatory analysis establish reliable reader-level accuracy at the proposed dose while correcting FDA’s reference-standard bias and missing-data objections?",
+    "bullCase": {
+      "claim": "FDA already accepted the original efficacy study as adequate and well-controlled and explicitly permitted robust confirmatory evidence rather than mandating one particular new-trial design. Telix reports a Type A-informed additional analysis, completed resubmission and accepted review. A persuasive independent confirmation could therefore remedy the earlier setback without discarding the original study.",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "web-02f166c4e8b1",
+        "web-7069807e4061",
+        "web-a41a738a731a"
+      ]
+    },
+    "bearCase": {
+      "claim": "The prior shortfall was substantive: borderline accuracy, especially specificity uncertainty, plus biased or non-label-concordant confirmation. Another analysis of existing images may not solve those problems unless its truth adjudication, dose, reading method and statistical independence are demonstrably stronger. No inspected new result establishes that improvement.",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "trial-NCT07238322",
+        "web-02f166c4e8b1"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What are the new study’s complete per-reader accuracy results, and do they remain persuasive under blinded, independent truth adjudication and conservative handling of missing data?",
+      "whyItMatters": "This directly distinguishes a genuine evidentiary repair from a larger but similarly vulnerable retrospective package. Label-concordant dose and interpretation methods are essential because FDA specifically challenged their applicability in the original confirmation.",
+      "sourceIds": [
+        "crl-254fe122277f",
+        "trial-NCT07238322"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Confirmatory evidence resolves the clinical objections",
+        "trigger": "FDA accepts the new results and their reference-standard, dose and reader methodology, with other application requirements satisfied.",
+        "implication": "Approval becomes a supportable regulatory outcome, potentially with population or interpretation limits. The September 11 goal still does not guarantee approval or a particular label.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "web-7069807e4061",
+          "web-a41a738a731a"
+        ]
+      },
+      {
+        "label": "Confirmation remains statistically or methodologically inadequate",
+        "trigger": "Weak specificity, broad uncertainty, biased truth determination, missingness or non-label-concordant methods persist.",
+        "implication": "Another complete response and further evidence generation would be plausible. Additional enrollment alone would not fix systematic bias.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "trial-NCT07238322"
+        ]
+      },
+      {
+        "label": "Clinical sufficiency improves, but another application requirement remains unresolved",
+        "trigger": "FDA accepts efficacy but identifies an unresolved product-quality, safety-update or labeling requirement.",
+        "implication": "Approval could still require additional work or a later action. This is a conditional possibility, not a claim that a current CMC or safety blocker has been demonstrated.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "web-1f17f191eff6"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Which study and datasets constitute the new confirmation, and how much patient/image overlap exists with CDx-203, GBM-RET-01 and the published studies?",
+        "whyItMatters": "Replication requires more than reusing correlated evidence. Obtain the dataset map, dated protocol/SAP, reader-level 2×2 tables, complete intervals and prespecified success rules.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "trial-NCT07238322"
+        ]
+      },
+      {
+        "question": "Was the composite truth standard determined without access to FET results, and what happens when missing or equivocal truth cases are analyzed conservatively?",
+        "whyItMatters": "Reference-standard bias and missingness were explicit FDA objections. The clinical report should disclose truth components, follow-up duration, adjudication blinding and exclusion flow.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "trial-NCT07238322"
+        ]
+      },
+      {
+        "question": "What administered activity and safety evidence support the requested adult and pediatric label, including repeated scans?",
+        "whyItMatters": "Request exposure and event tables by dose and age, dosimetry, and proposed instructions for acute reactions, pregnancy/lactation assessment and radiation precautions. These are monitoring questions, not established candidate-specific warnings.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "web-a41a738a731a"
+        ]
+      },
+      {
+        "question": "Which PharmaLogic or other sites are actually included in the 2026 NDA, and what product-quality matters remain open?",
+        "whyItMatters": "Obtain current site identifiers, batch-release and sterility controls, radiochemical purity/stability validation, clinical-to-commercial comparability and FDA disposition of each application-linked issue.",
+        "sourceIds": [
+          "web-1f17f191eff6",
+          "crl-254fe122277f"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "concerning",
+    "summary": "FDA documented borderline accuracy and inadequate confirmation. Telix reports a corrective resubmission, but inspected sources do not demonstrate its success. The clinical objection dominates the public evidence; safety and manufacturing remain unknown.",
+    "pivotalQuestion": "Does the new confirmatory analysis resolve FDA’s accuracy, reference-standard bias, missing-data and dose-applicability objections?",
+    "sourceIds": [
+      "crl-254fe122277f",
+      "web-7069807e4061",
+      "trial-NCT07238322"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "concern",
+        "rationale": "FDA found borderline reader-level accuracy and insufficient confirmation. The new candidate-specific registry has no results; sponsor-reported remediation does not demonstrate that the efficacy objection is resolved.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "trial-NCT07238322",
+          "web-7069807e4061"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "unknown",
+        "rationale": "No candidate-specific AE tables or usable safety-exposure analysis were retrieved. FDA’s safety-update request neither establishes a signal nor supplies reassuring observed results.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "trial-NCT07238322"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "PharmaLogic is a documented historical manufacturing partner. Current sites, interpretable product-quality deficiencies, corrective actions and FDA acceptance were not established; the separate TLX250 letter cannot fill those gaps.",
+        "sourceIds": [
+          "web-1f17f191eff6",
+          "crl-254fe122277f",
+          "crl-e7d18000b8ad"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "The accepted resubmission and reported action goal are positive process evidence after the CRL. They do not establish substantive resolution or an approved adult/pediatric glioma label.",
+        "sourceIds": [
+          "crl-254fe122277f",
+          "web-a41a738a731a",
+          "telix-halfyear"
+        ]
+      }
+    ]
+  },
+  "id": "14f1d098-81cb-4806-908c-f20f1e1aad8a",
+  "candidateId": "floretyrosine-glioma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:40:38.890Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Floretyrosine F 18 (TLX101-Px), specifically PET characterization of recurrent or progressive glioma versus treatment-related change. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "telix-acceptance",
+      "title": "Telix: Pixclara NDA resubmission accepted",
+      "url": "https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/",
+      "publisher": "Telix Pharmaceuticals",
+      "publishedAt": "2026-04-10",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Telix reported acceptance of its resubmitted NDA for TLX101-Px (floretyrosine F 18; proposed Pixclara brand), an investigational PET agent for glioma imaging, with a September 11, 2026 target. The indication distinguishes recurrent or progressive glioma from treatment-related change. Resubmission occurred March 13."
+    },
+    {
+      "id": "telix-halfyear",
+      "title": "Telix: half-year 2026 pipeline status",
+      "url": "https://ir.telixpharma.com/news-releases/news-release-details/telix-2026-half-year-results-strong-commercial-execution-and",
+      "publisher": "Telix Pharmaceuticals",
+      "publishedAt": "2026-08-19",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Telix reaffirmed September 11, 2026 as the Pixclara action target. TLX101-Px is the imaging candidate; TLX101-Tx is a different therapeutic candidate and Zircaix is a separate kidney-imaging application."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT07238322",
+      "title": "[18F]FET PET for Characterization of Progressive or Recurrent Glioma From Treatment Related Changes",
+      "url": "https://clinicaltrials.gov/study/NCT07238322",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-15",
+      "retrievedAt": "2026-09-10T19:40:39.009Z",
+      "summary": "Registry protocol: COMPLETED; phase unavailable; lead sponsor Telix Pharmaceuticals (Innovations) Pty Limited. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT07238322",
+      "title": "[18F]FET PET for Characterization of Progressive or Recurrent Glioma From Treatment Related Changes",
+      "url": "https://clinicaltrials.gov/study/NCT07238322",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-15",
+      "retrievedAt": "2026-09-10T19:40:43.335Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT07238322; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-a41a738a731a",
+      "title": "FDA Accepts NDA for TLX101-Px (Pixclara®) - Telix Pharmaceuticals",
+      "url": "https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/",
+      "publisher": "telixpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:00.237Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7069807e4061",
+      "title": "Telix Resubmits NDA to U.S. FDA for TLX101-Px (Pixclara®) Brain ...",
+      "url": "https://telixpharma.com/news-views/telix-resubmits-nda-to-u-s-fda-for-tlx101-px-pixclara-brain-cancer-imaging-candidate/",
+      "publisher": "telixpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:00.238Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-02f166c4e8b1",
+      "title": "Telix and FDA Agree on Resubmission Pathway for TLX101 ...",
+      "url": "https://telixpharma.com/news-views/telix-and-fda-agree-on-resubmission-pathway-for-tlx101-cdx-pixclara-u-s-nda/",
+      "publisher": "telixpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:00.236Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a899076c6130",
+      "title": "Telix Resubmits NDA to U.S. FDA for TLX101-Px (Pixclara®) Brain ...",
+      "url": "https://www.prnewswire.com/apac/news-releases/telix-resubmits-nda-to-us-fda-for-tlx101-px-pixclara-brain-cancer-imaging-candidate-302714119.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:00.237Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-254fe122277f",
+      "title": "FDA complete response: Telix Pharmaceuticals (US) Inc. — 04/25/2025",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_NDA218592_20250425.pdf%22+AND+letter_date%3A%2204%2F25%2F2025%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:50.495Z",
+      "kind": "fda",
+      "summary": "Letter dated 04/25/2025. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "crl-e7d18000b8ad",
+      "title": "FDA complete response: Telix Pharmaceuticals (US) Inc. — 04/10/2026",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_BLA761401_20260410.pdf%22+AND+letter_date%3A%2204%2F10%2F2026%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:50.496Z",
+      "kind": "fda",
+      "summary": "Letter dated 04/10/2026. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-660fe17a0cae",
+      "title": "Glioblastoma: From Pathophysiology to Novel Therapeutic Approaches",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12384051/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:58.856Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-130baf4da956",
+      "title": "Telix's Brain Cancer Imaging Agent Faces Approval Setback",
+      "url": "https://www.appliedradiationoncology.com/articles/telix-s-brain-cancer-imaging-agent-faces-approval-setback",
+      "publisher": "www.appliedradiationoncology.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:15.323Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-df8cedd3e76e",
+      "title": "Telix resubmits FDA NDA for TLX101-Px brain cancer imaging",
+      "url": "https://www.stocktitan.net/news/TLX/telix-resubmits-nda-to-u-s-fda-for-tlx101-px-pixclara-brain-cancer-jgh21wv6fz20.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:15.324Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-68b83985f2a2",
+      "title": "[PDF] Biotech Daily",
+      "url": "https://www.biotechdaily.com.au/wp/wp-content/uploads/2025/05/BD-Biotech-Daily-Apr-28.pdf",
+      "publisher": "www.biotechdaily.com.au",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:15.324Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-346615028ea6",
+      "title": "DASH - Drugs, Indications, Patents - Synapse - Patsnap Synapse",
+      "url": "https://synapse.patsnap.com/target/0c69dc2488514308a9e479230d73d1bd",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:15.325Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b37c4c108c6c",
+      "title": "Telix Pharmaceuticals (US) Inc. — FDA complete response letter ...",
+      "url": "https://getfuzebio.com/crl/nda-218592-2025-04-25",
+      "publisher": "getfuzebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:27.504Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1f17f191eff6",
+      "title": "TLX101-CDx (Pixclara™) Granted FDA Fast Track Designation",
+      "url": "https://telixpharma.com/news-views/tlx101-cdx-pixclara-granted-fda-fast-track-designation/",
+      "publisher": "telixpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.475Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0f0d3ac5a092",
+      "title": "TLX101-CDx (Pixclara™) Granted FDA Fast Track Designation ...",
+      "url": "https://www.biospace.com/tlx101-cdx-pixclara-granted-fda-fast-track-designation",
+      "publisher": "www.biospace.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.478Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0f2aeae97f81",
+      "title": "TLX101-CDx (Pixclara™) Granted FDA Fast Track Designation",
+      "url": "https://www.prnewswire.com/apac/news-releases/tlx101-cdx-pixclara-granted-fda-fast-track-designation-302117301.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.478Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-31c4accc3413",
+      "title": "#takethelead | PharmaLogic - LinkedIn",
+      "url": "https://www.linkedin.com/posts/pharmalogic-holdings-corp_takethelead-activity-7185969892150398978-GN-h",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.478Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-ANDA219189",
+      "title": "GALLIUM GA 68 GOZETOTIDE — ANDA219189",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22ANDA219189%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.848Z",
+      "summary": "ANDA219189; sponsor IONETIX. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA214032",
+      "title": "ILLUCCIX — NDA214032",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA214032%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.848Z",
+      "summary": "NDA214032; sponsor TELIX. 4 of 4 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA215841",
+      "title": "LOCAMETZ — NDA215841",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA215841%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.848Z",
+      "summary": "NDA215841; sponsor NOVARTIS. 2 of 2 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA212642",
+      "title": "GALLIUM GA 68 GOZETOTIDE — NDA212642",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA212642%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.848Z",
+      "summary": "NDA212642; sponsor UNIV CA LOS ANGELES. 3 of 3 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA212643",
+      "title": "GALLIUM GA 68 GOZETOTIDE — NDA212643",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA212643%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:31.848Z",
+      "summary": "NDA212643; sponsor UNIV OF CA SAN FRAN. 3 of 3 submission records shown, with original applications prioritized. Indication match is unverified."
+    }
+  ],
+  "usage": {
+    "inputTokens": 275035,
+    "outputTokens": 6542
+  },
+  "durationMs": 198490,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "telix-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "telix-halfyear"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT07238322"
+      },
+      "status": "completed",
+      "durationMs": 77
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Telix Pixclara TLX101-Px resubmission September 11 2026 pivotal sensitivity specificity 253 complete response manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 2847
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Telix"
+      },
+      "status": "completed",
+      "durationMs": 431
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Pixclara\" \"203\" sensitivity specificity safety \"005\" results"
+      },
+      "status": "completed",
+      "durationMs": 4175
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Telix Pixclara April 28 2025 complete response manufacturing product quality September 2026 NDA"
+      },
+      "status": "completed",
+      "durationMs": 1381
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Telix\" \"April 28, 2025\" \"Pixclara\" FDA manufacturing safety"
+      },
+      "status": "completed",
+      "durationMs": 9651
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"18F-TLX101-CDx-203\" results safety sensitivity"
+      },
+      "status": "completed",
+      "durationMs": 2246
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"TLX101\" \"manufacturing\" \"PharmaLogic\""
+      },
+      "status": "completed",
+      "durationMs": 3974
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "gozetotide"
+      },
+      "status": "completed",
+      "durationMs": 373
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_068c00cca73fc4d2016aa307ec0a0487d2a428a512a9e10c63",
+    "inputHash": "19407e83c2396a2006715fde2e8a489f1385714f8b6ff71912e173b04806495d"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:46:40.526Z",
+    "originalSha256": "b85c316789222edf01ac1cf049e5f80a4d73b338ca33e0d4884ec6a8d8e61d2b",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -184,6 +184,25 @@ export interface Dashboard {
   evidenceCandidateIds?: string[];
   evidenceSourcesByCandidate?: Record<string, Source[]>;
   assessments?: Record<string, Assessment>;
+  trialVisuals?: Record<string, TrialVisual[]>;
+}
+
+export interface TrialVisual {
+  id: string;
+  title: string;
+  study: string;
+  endpoint: string;
+  population: string;
+  timepoint: string;
+  unit: string;
+  direction: 'higher' | 'lower';
+  comparisonLabel: string;
+  arms: { label: string; value: number; n?: number; numerator?: number }[];
+  effect?: { label: string; value: number; lower?: number; upper?: number; level?: string; unit?: string };
+  interpretation: string;
+  limitations: string[];
+  sourceIds: string[];
+  sourceNote: string;
 }
 
 export interface EvidenceDossier {

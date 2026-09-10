@@ -13,6 +13,7 @@ import {
   listInvestigations,
   getInvestigation,
   getAssessments,
+  getTrialVisuals,
 } from "./data.js";
 import { investigate } from "./investigate.js";
 import {
@@ -108,6 +109,7 @@ const server = createServer(async (req, res) => {
         model,
         runtime: runtimeInfo(),
         assessments: await getAssessments(catalog, visibleRuns),
+        trialVisuals: await getTrialVisuals(catalog, visibleRuns),
         evidenceCandidateIds,
         evidenceSourcesByCandidate,
         investigations: visibleRuns.map(

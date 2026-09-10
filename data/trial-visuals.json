@@ -1,0 +1,365 @@
+{
+  "lorundrostat-hypertension": [
+    {
+      "id": "launch-office-sbp",
+      "title": "Blood-pressure benefit in Launch-HTN",
+      "study": "Launch-HTN · phase 3 randomized trial",
+      "endpoint": "Least-squares mean change in automated office systolic blood pressure",
+      "population": "Adults with uncontrolled hypertension taking 2–5 antihypertensive medications",
+      "timepoint": "Baseline to week 6",
+      "unit": "mmHg",
+      "direction": "lower",
+      "comparisonLabel": "Pooled 50 mg daily groups versus placebo",
+      "arms": [
+        {
+          "label": "Lorundrostat 50 mg",
+          "value": -16.9,
+          "n": 808
+        },
+        {
+          "label": "Placebo",
+          "value": -7.9,
+          "n": 270
+        }
+      ],
+      "effect": {
+        "label": "Modeled difference (mmHg)",
+        "value": -9.1,
+        "lower": -13.3,
+        "upper": -4.9,
+        "level": "95% CI"
+      },
+      "interpretation": "The primary office-BP endpoint favored lorundrostat (p<0.001). Negative values represent reductions from baseline.",
+      "limitations": [
+        "The displayed n values are the pooled active and placebo analysis populations, not the total 1,083 randomized participants.",
+        "Both active strategies used 50 mg through week 6; this comparison does not establish a benefit from later escalation to 100 mg.",
+        "The adjusted difference need not equal subtraction of the rounded arm estimates. BP reduction does not itself demonstrate fewer cardiovascular events."
+      ],
+      "sourceIds": [
+        "web-9c75f179c9ea",
+        "trial-NCT06153693"
+      ],
+      "sourceNote": "JAMA, published online June 30, 2025: primary results and Table 2. Original publication inspected during review of the recorded lorundrostat investigation."
+    },
+    {
+      "id": "advance-potassium",
+      "title": "The safety question: potassium excursions",
+      "study": "Advance-HTN · phase 2 randomized trial",
+      "endpoint": "Participants with serum potassium above 6.0 mmol/L",
+      "population": "Adults with uncontrolled hypertension after a standardized background-treatment run-in",
+      "timepoint": "12-week randomized treatment period",
+      "unit": "%",
+      "direction": "lower",
+      "comparisonLabel": "Fixed dose, dose-adjustment strategy and placebo",
+      "arms": [
+        {
+          "label": "50 mg fixed dose",
+          "value": 5,
+          "n": 94
+        },
+        {
+          "label": "50→100 mg strategy",
+          "value": 7,
+          "n": 96
+        },
+        {
+          "label": "Placebo",
+          "value": 0,
+          "n": 95
+        }
+      ],
+      "interpretation": "The paper reports potassium excursions in 5, 7 and 0 participants, respectively. These observed events support a safety-management question despite BP efficacy.",
+      "limitations": [
+        "Percentages are rounded as published; the events are laboratory thresholds, not necessarily serious adverse events or treatment discontinuations.",
+        "Escalation to 100 mg was conditional after week 4; the second arm is a dosing strategy, not 100 mg throughout.",
+        "Rates from another study cannot be directly compared without accounting for background therapy, eligibility and monitoring."
+      ],
+      "sourceIds": [
+        "web-b1bfd2635cc4",
+        "trial-NCT05769608"
+      ],
+      "sourceNote": "NEJM abstract, published online April 23, 2025: randomized group sizes and potassium results. The complete article and supplement were not reviewed."
+    }
+  ],
+  "satralizumab-ted": [
+    {
+      "id": "satrago1-primary",
+      "title": "SatraGO-1 missed its primary endpoint",
+      "study": "SatraGO-1 · phase 3 randomized trial",
+      "endpoint": "Proptosis response: ≥2 mm improvement in the study eye, without ≥2 mm worsening in the fellow eye",
+      "population": "Active thyroid eye disease · Part I full-analysis population",
+      "timepoint": "Week 24",
+      "unit": "%",
+      "direction": "higher",
+      "comparisonLabel": "Satralizumab versus placebo",
+      "arms": [
+        {
+          "label": "Satralizumab",
+          "value": 49.0,
+          "n": 50
+        },
+        {
+          "label": "Placebo",
+          "value": 31.2,
+          "n": 51
+        }
+      ],
+      "effect": {
+        "label": "Stratified difference (percentage points)",
+        "value": 17.9,
+        "lower": -1.6,
+        "upper": 37.3,
+        "level": "95.03% CI"
+      },
+      "interpretation": "The numerical response difference did not meet the prespecified significance threshold (p=0.0715). The confidence interval includes zero.",
+      "limitations": [
+        "The primary analysis used multiple imputation; do not infer integer responder counts from the displayed percentages and n.",
+        "The Mantel–Haenszel difference is stratified and need not equal simple subtraction of rounded percentages.",
+        "The failed primary endpoint stopped confirmatory hierarchical testing; this trial’s secondary p-values are descriptive. This is the active-TED analysis, not all 131 randomized participants."
+      ],
+      "sourceIds": [
+        "trial-NCT05987423",
+        "web-9da9e7d2debd"
+      ],
+      "sourceNote": "ClinicalTrials.gov primary outcome and September 7, 2026 Ophthalmology journal pre-proof. Registry n values are the reported primary-outcome denominators."
+    },
+    {
+      "id": "satrago2-primary",
+      "title": "SatraGO-2 met the same primary endpoint",
+      "study": "SatraGO-2 · phase 3 randomized trial",
+      "endpoint": "Proptosis response: ≥2 mm improvement in the study eye, without ≥2 mm worsening in the fellow eye",
+      "population": "Active thyroid eye disease · Part I full-analysis population",
+      "timepoint": "Week 24",
+      "unit": "%",
+      "direction": "higher",
+      "comparisonLabel": "Satralizumab versus placebo",
+      "arms": [
+        {
+          "label": "Satralizumab",
+          "value": 52.9,
+          "n": 48
+        },
+        {
+          "label": "Placebo",
+          "value": 23.4,
+          "n": 49
+        }
+      ],
+      "effect": {
+        "label": "Stratified difference (percentage points)",
+        "value": 28.9,
+        "lower": 11.5,
+        "upper": 46.2,
+        "level": "95.03% CI"
+      },
+      "interpretation": "This trial met its primary endpoint (p=0.0011). The result provides support, while SatraGO-1’s primary failure remains relevant to the total evidence.",
+      "limitations": [
+        "The primary analysis used multiple imputation; displayed percentages are not raw responder counts.",
+        "The stratified difference differs from subtraction of the displayed percentages. The 95.03% confidence level is intentional.",
+        "These are separate randomized trials; comparing their placebo bars does not prove the cause of discordant findings. The n values exclude inactive-TED participants."
+      ],
+      "sourceIds": [
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ],
+      "sourceNote": "ClinicalTrials.gov primary outcome and September 7, 2026 Ophthalmology journal pre-proof. The two trials are displayed separately, without pooling."
+    }
+  ],
+  "zanzalintinib-mcrc": [
+    {
+      "id": "stellar303-itt-os",
+      "title": "Overall-population survival result",
+      "study": "STELLAR-303 · phase 3 randomized trial",
+      "endpoint": "Median overall survival",
+      "population": "Intention-to-treat population with previously treated metastatic colorectal cancer; MSI-H/dMMR disease excluded",
+      "timepoint": "April 30, 2025 data cutoff · median follow-up 18 months",
+      "unit": "months",
+      "direction": "higher",
+      "comparisonLabel": "Zanzalintinib + atezolizumab versus regorafenib",
+      "arms": [
+        {
+          "label": "Zanzalintinib + atezolizumab",
+          "value": 10.9,
+          "n": 451
+        },
+        {
+          "label": "Regorafenib",
+          "value": 9.4,
+          "n": 450
+        }
+      ],
+      "effect": {
+        "label": "Stratified hazard ratio",
+        "value": 0.8,
+        "lower": 0.69,
+        "upper": 0.93,
+        "level": "95% CI"
+      },
+      "interpretation": "The later results publication reports a significant ITT survival endpoint (p=0.0045). The HR describes the survival comparison over follow-up, not the ratio of median months.",
+      "limitations": [
+        "Median values summarize survival distributions; these bars are not Kaplan–Meier curves or a predicted survival trajectory.",
+        "An earlier design publication used a different testing hierarchy. The final operative amended SAP was not retrieved; the old design alone cannot invalidate the later ITT result.",
+        "This is combination evidence, with no zanzalintinib-alone arm, and does not generalize to MSI-H/dMMR disease."
+      ],
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-946fd6b904b7",
+        "trial-NCT05425940"
+      ],
+      "sourceNote": "The Lancet results abstract indexed in PubMed (PMID 41130252), published online October 20, 2025; earlier design publication and current registry supply the testing-plan caveat."
+    },
+    {
+      "id": "stellar303-final-nlm-os",
+      "title": "Final non-liver-metastasis endpoint remained nonsignificant",
+      "study": "STELLAR-303 · final NLM survival analysis",
+      "endpoint": "Median overall survival",
+      "population": "Trial participants without active liver metastases at baseline; non-MSI-H/dMMR metastatic colorectal cancer",
+      "timepoint": "Final NLM analysis reported June 22, 2026",
+      "unit": "months",
+      "direction": "higher",
+      "comparisonLabel": "Zanzalintinib + atezolizumab versus regorafenib",
+      "arms": [
+        {
+          "label": "Zanzalintinib + atezolizumab",
+          "value": 15.9
+        },
+        {
+          "label": "Regorafenib",
+          "value": 12.7
+        }
+      ],
+      "effect": {
+        "label": "Stratified hazard ratio",
+        "value": 0.83,
+        "lower": 0.66,
+        "upper": 1.05,
+        "level": "95% CI"
+      },
+      "interpretation": "Despite the numerical median difference, the final NLM endpoint was nonsignificant (p=0.1185). This is not evidence of no effect or of harm.",
+      "limitations": [
+        "These are the final NLM estimates, not the earlier interim HR 0.79. The final-analysis release does not provide arm denominators, so none are displayed.",
+        "NLM means no active liver metastases at baseline, not no history of liver metastases. This subset must not be substituted for the ITT population.",
+        "Median differences and hazard ratios describe different aspects of survival. The operative statistical-testing plan remains an unresolved diligence question."
+      ],
+      "sourceIds": [
+        "web-19e3a8219bcb",
+        "web-946fd6b904b7"
+      ],
+      "sourceNote": "Exelixis June 22, 2026 final NLM results release. Sponsor-reported final analysis; reviewed alongside the earlier design publication."
+    }
+  ],
+  "bezuclastinib-gist": [
+    {
+      "id": "peak-median-pfs",
+      "title": "Progression-free survival in PEAK",
+      "study": "PEAK · phase 3 randomized trial",
+      "endpoint": "Median progression-free survival by blinded independent central review",
+      "population": "Patients with GIST previously treated with imatinib",
+      "timepoint": "Analysis reported May 28, 2026",
+      "unit": "months",
+      "direction": "higher",
+      "comparisonLabel": "Bezuclastinib + sunitinib versus sunitinib alone",
+      "arms": [
+        {
+          "label": "Bezuclastinib + sunitinib",
+          "value": 16.5
+        },
+        {
+          "label": "Sunitinib",
+          "value": 9.2
+        }
+      ],
+      "effect": {
+        "label": "Hazard ratio",
+        "value": 0.5,
+        "lower": 0.39,
+        "upper": 0.65,
+        "level": "95% CI"
+      },
+      "interpretation": "Cogent reported a significant PFS benefit (p<0.0001). This supports the combination in imatinib-treated GIST, rather than bezuclastinib monotherapy.",
+      "limitations": [
+        "Overall survival was immature in this disclosure; PFS is not an established overall-survival benefit.",
+        "Arm denominators and the exact analysis cutoff were not established from this release and are omitted. Registry enrollment is not used as an efficacy denominator.",
+        "These are reported medians, not a reconstructed survival curve. The HR is not the ratio of those medians."
+      ],
+      "sourceIds": [
+        "cogt-gist-acceptance"
+      ],
+      "sourceNote": "Cogent’s May 28, 2026 sponsor release, Clinical Data section. Values are sponsor-reported and are not an FDA conclusion."
+    }
+  ],
+  "giredestrant-early-breast": [
+    {
+      "id": "lidera-three-year-idfs",
+      "title": "Three-year invasive disease-free survival",
+      "study": "lidERA · phase 3 randomized, open-label trial",
+      "endpoint": "Estimated invasive disease-free survival; excludes second primary non-breast cancers",
+      "population": "Medium- or high-risk stage I–III ER-positive/HER2-negative early breast cancer",
+      "timepoint": "3 years",
+      "unit": "%",
+      "direction": "higher",
+      "comparisonLabel": "Adjuvant giredestrant versus standard endocrine therapy",
+      "arms": [
+        {
+          "label": "Giredestrant",
+          "value": 92.4
+        },
+        {
+          "label": "Standard endocrine therapy",
+          "value": 89.6
+        }
+      ],
+      "effect": {
+        "label": "Invasive disease-free survival hazard ratio",
+        "value": 0.7,
+        "lower": 0.57,
+        "upper": 0.87,
+        "level": "95% CI"
+      },
+      "interpretation": "The reported three-year estimates differ by 2.8 percentage points. The 30% relative hazard reduction (p=0.0014) is a different quantity, not a 30-point absolute benefit.",
+      "limitations": [
+        "These are survival estimates at three years, not simple proportions of all enrolled patients or a complete survival curve.",
+        "The HR summarizes follow-up rather than only the three-year timepoint. Overall-survival data were immature.",
+        "The comparator is standard endocrine therapy, not placebo. Arm-level risk-set counts and intervals around the three-year estimates are not supplied here."
+      ],
+      "sourceIds": [
+        "roche-gired-early"
+      ],
+      "sourceNote": "Roche’s June 2, 2026 sponsor release: primary iDFS results and study definition. The absolute difference is simple subtraction of the two reported point estimates."
+    }
+  ],
+  "atezolizumab-colon-adjuvant": [
+    {
+      "id": "atomic-three-year-dfs",
+      "title": "Disease-free survival in molecularly selected colon cancer",
+      "study": "ATOMIC · phase 3 randomized trial",
+      "endpoint": "Estimated disease-free survival",
+      "population": "Resected stage III colon cancer with deficient mismatch repair (dMMR)",
+      "timepoint": "36 months",
+      "unit": "%",
+      "direction": "higher",
+      "comparisonLabel": "Atezolizumab + FOLFOX6 regimen versus FOLFOX6 alone",
+      "arms": [
+        {
+          "label": "Atezolizumab + FOLFOX6",
+          "value": 86
+        },
+        {
+          "label": "FOLFOX6",
+          "value": 76
+        }
+      ],
+      "interpretation": "Roche reported a 10-percentage-point difference between rounded three-year DFS estimates. This is a disease-free-survival result in dMMR stage III colon cancer.",
+      "limitations": [
+        "The sponsor release rounds estimates to whole percentages; no extra decimals or confidence intervals are inferred.",
+        "The experimental regimen includes six months of combination treatment followed by six months of atezolizumab alone; the control receives six months of FOLFOX6.",
+        "DFS does not establish an overall-survival benefit. Results do not generalize to all colorectal cancers. Total enrollment 712 is not an arm-specific risk-set denominator."
+      ],
+      "sourceIds": [
+        "roche-atezo-acceptance",
+        "trial-nct02912559"
+      ],
+      "sourceNote": "Roche’s June 11, 2026 sponsor release, ATOMIC results and trial description. The plotted values preserve the disclosure’s rounding."
+    }
+  ]
+}

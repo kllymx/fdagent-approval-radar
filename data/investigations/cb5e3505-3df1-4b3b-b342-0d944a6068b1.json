@@ -1,0 +1,595 @@
+{
+  "summary": "Zilurgisertib has a credible signal of activity in FOP, but the missed pivotal primary endpoint remains the dominant approval concern. Actual sponsor-reported results—not merely filing acceptance—show large nominal lesion-volume effects and supportive open-label follow-up. Short-term tolerability is encouraging but incompletely characterized; manufacturing readiness remains unknown. As of this September 10 investigation, September 26, 2026 remains the latest source-reported FDA action target, not an assured approval date.",
+  "outlook": {
+    "verdict": "Concerning approval-readiness despite clinically supportive secondary results. The pivotal issue is whether FDA considers the total efficacy evidence sufficient after the primary endpoint failed.",
+    "timing": "The May 6 and June 14 sponsor disclosures report a September 26, 2026 PDUFA target for the NDA in patients aged 12 years and older; the supplied second-quarter 10-Q summary reiterates it. No later action or changed target was established in this investigation. FDA acceptance correspondence, the precise receipt date, and current review communications were not inspected. An extension, complete response, or approval would be distinct outcomes.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides original-priority receipt-cohort context, not an individualized prediction. Its approval-rate evaluation covers annual review-class rates, while action-timeliness measures FDA action of any type. The disclosures describe a new NDA, but its exact original-application classification was not independently verified. Neither cohort model resolves this candidate's failed-primary-endpoint question, and the two baselines are not combined."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "Priority NDA review is reported; FDA's substantive position is not public in the inspected evidence",
+      "detail": "Mirum's SEC-hosted May 6 release and the June 14 joint release report FDA acceptance and Priority Review for treatment of FOP in patients aged 12 years and older, with a September 26, 2026 target. They describe an investigational product's new NDA, not a supplement or explicitly identified resubmission. However, the application number, receipt/filing dates, formal original-application classification, and FDA acceptance letter were not retrieved. No candidate-specific CRL, review extension, or specific FDA objection was established. Importantly, the missed endpoint is an observed study result and sponsor-disclosed risk—not an inspected FDA objection. The supplied second-quarter 10-Q summary says the NDA relies on secondary endpoints, but its relevant full-text discussion could not be inspected.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-97a5919ef56c",
+        "web-52430e81fa30",
+        "mirm-q2-2026"
+      ]
+    },
+    {
+      "id": "clinical-primary",
+      "title": "The randomized pivotal cohort missed its primary endpoint",
+      "detail": "PROGRESS Cohort 1 randomized 63 patients aged at least 12 years, 1:1, to oral zilurgisertib 100 mg once daily (32) or placebo (31) for 24 double-blind weeks. The sponsor reports mean age approximately 21 years, recent disease activity, and generally balanced baseline characteristics. The current registry and release identify the primary endpoint as occurrence/proportion of patients with new heterotopic ossification (HO) lesions at Week 24, assessed by whole-body CT; the registry specifies exclusion of the head. The sponsor reports 1 patient (3.1%) versus 5 (16.7%), an 81% relative reduction, but p=0.0986: the primary endpoint did not establish statistical significance. Only six patients had reported primary events, limiting precision. No confidence interval was supplied. The placebo percentage does not correspond to the stated randomized denominator of 31, making the evaluable denominator and missing-scan handling an important unresolved issue.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891"
+      ]
+    },
+    {
+      "id": "clinical-secondary",
+      "title": "Large lesion-volume differences support activity, but nominal significance does not repair the primary miss",
+      "detail": "At Week 24, sponsor-reported mean new HO volume was 0.003 cm³ (SD 0.02) on zilurgisertib versus 6.57 cm³ (20.70) on placebo, a greater-than-99% reduction with nominal p<0.0001. Mean change in total HO volume was −3.24 cm³ (19.86) versus +24.64 cm³ (51.94), nominal p=0.004. Mean new-lesion count was 0.06 (0.35) versus 0.23 (0.63); annualized new flares were 2.34 (6.06) versus 4.55 (7.71). These are different endpoints, not proof that the primary lesion-occurrence endpoint succeeded. The large SDs relative to means warrant patient-level distribution and influential-observation analyses. No confidence intervals, multiplicity procedure, detailed test methods, or missing-data sensitivity analyses were inspected. These measures appear in the current registry, but a dated pre-unblinding protocol and statistical analysis plan are needed to independently establish prespecification and the testing hierarchy.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891"
+      ]
+    },
+    {
+      "id": "clinical-durability",
+      "title": "Week-48 follow-up is supportive within the same cohort, not independent replication",
+      "detail": "The sponsor reports 61 patients with Week-48 CT data and no new HO lesions during Weeks 24–48 in either continuing-treatment patients or patients crossing from placebo to zilurgisertib. Mean total-volume changes from Week 24 were −6.37 cm³ in continuing patients and −5.32 cm³ after crossover. This temporal consistency strengthens the activity hypothesis, but all patients were then receiving active treatment: there was no concurrent placebo comparator, and crossover is not a second randomized efficacy trial. The inspected evidence does not establish sustained functional improvement or benefit beyond 48 weeks. The registry's estimated enrollment of 98 includes additional younger cohorts and is not the pivotal analysis population. Its planned 292-week extension and future completion dates are protocol plans, not observed durability. The current record has no posted results.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Observed short-term tolerability is encouraging, but the integrated safety package remains unavailable",
+      "detail": "For the 24-week placebo-controlled period, the sponsor reports mostly mild/moderate adverse events and no adverse events causing treatment discontinuation or dose reduction. Among zilurgisertib recipients, commonly reported events were FOP flare-up/aching or pain (25%), headache and upper respiratory infection (21.9% each), arthralgia (18.8%), and epistaxis and nausea (12.5% each). Serious and Grade ≥3 events are described only as occurring at low rates in both groups; exact counts, event narratives, and comparator rates for common events were not provided. This is affirmative tolerability evidence, not simply silence about safety. Nevertheless, only 32 patients were assigned active treatment during the controlled period. Actual exposure duration/person-time, deaths, laboratory abnormalities, treatment interruptions, long-term adverse events, adolescent-versus-adult findings, and dose/exposure relationships could not be assessed. Zero AE-related discontinuations does not establish zero discontinuations for other reasons.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "CMC readiness cannot be established; no product-linked setback or clearance was verified",
+      "detail": "The inspected sponsor disclosures establish the Mirum–Incyte licensing relationship but do not identify zilurgisertib's active-ingredient, finished-dose, packaging, or testing sites. Targeted public CMC/manufacturer searches did not retrieve a product-linked manufacturing review, inspection report, warning letter, deficiency, or corrective-action record. A public inspection lookup produced unverified sponsor/BIMO leads, which were excluded from manufacturing conclusions because original documents and a zilurgisertib manufacturing link were absent. Accordingly, neither a clean manufacturing conclusion nor an adverse CMC conclusion is justified. The resolving documents are the NDA manufacturing-site list with exact facility identifiers, product-linked FDA quality/inspection correspondence, and any commercial-process validation or clinical-to-commercial comparability assessment.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "web-97a5919ef56c"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Prior Mirum approval experience is documented context, not evidence that this NDA will succeed",
+      "detail": "The FDA application record lists Mirum's CTEXLI, NDA 219488, with an original Priority Review approval action on February 21, 2025, classified as Type 5—new formulation or new manufacturer. Mirum's SEC-hosted disclosure identifies CTEXLI's approved indication as adults with cerebrotendinous xanthomatosis and also describes approved LIVMARLI indications. These are separate products and completed actions, not previous zilurgisertib approvals. The CTEXLI approval letter and complete review timeline were not inspected, so this investigation does not infer review duration, absence of prior deficiencies, or shared manufacturing sites. Mirum's April 2026 licensing of zilurgisertib from Incyte establishes program ownership context, not a validated sponsor-level approval predictor.",
+      "direction": "neutral",
+      "sourceIds": [
+        "evidence-approvals-NDA219488",
+        "web-97a5919ef56c",
+        "web-5cb1dcbf0b0a"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "PROGRESS Cohort 1 clinical study report, dated protocol/SAP, and FDA statistical assessment: reconcile the placebo denominator, provide confidence intervals, establish multiplicity handling, and test whether lesion-volume findings survive missing-data and influential-patient analyses.",
+    "Integrated FOP safety report and proposed monitoring language: exact serious/Grade ≥3 events, deaths, laboratory shifts, interruptions, cumulative exposure, and outcomes specifically in patients aged 12–17 years.",
+    "Zilurgisertib's NDA site list and product-linked FDA quality/inspection correspondence, including any deficiencies, responses, process-validation findings, or clinical-to-commercial bridging requirements.",
+    "FDA acceptance/review correspondence or a dated sponsor update confirming the application number, review cycle, outstanding efficacy questions, any amendment or target change, and ultimately the action letter."
+  ],
+  "limitations": [
+    "Clinical results were inspected in a full joint sponsor release, not an independently inspected journal paper, clinical study report, or FDA review. The targeted ENDO ORF37-04 search retrieved a presentation announcement, not the abstract or slides.",
+    "The current ClinicalTrials.gov record was inspected and contained no posted results. It was last updated May 22, 2026; it is not a pre-unblinding historical protocol snapshot.",
+    "Direct access to the supplied second-quarter 10-Q failed; alternate retrieval exposed header/XBRL material rather than the relevant narrative. Its secondary-endpoint reliance statement remains an attributed supplied summary. The primary miss is independently supported by the retrieved sponsor results.",
+    "Manufacturing searches covered candidate/sponsor CMC terms and an Incyte public inspection lookup. No exact product-linked site was established, so site-specific compliance and remediation could not be assessed. Unverified BIMO leads were not treated as CGMP evidence.",
+    "The Incyte CRL-archive lookup failed. This cannot rule out historical correspondence under either sponsor. No candidate-specific FDA objection or definitive review-cycle history was inspected.",
+    "The investigation ran on September 10, 2026, but its latest substantive primary clinical/status disclosure was dated June 14. Search did not establish a later action; that is not proof that no subsequent communication exists.",
+    "No independent confirmatory FOP trial results, longer-term controlled benefit, or comparative efficacy against an approved FOP therapy were inspected. Cross-indication zilurgisertib data were not substituted for this population."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept the lesion-volume and extension evidence as sufficient efficacy evidence despite PROGRESS missing its primary endpoint?",
+    "bullCase": {
+      "claim": "The randomized comparison shows large differences in new and total HO volume, a directionally favorable primary result, and fewer reported flares. Absence of new lesions after placebo crossover and during continued treatment supports a coherent activity signal. Reported short-term tolerability provides additional support for benefit–risk assessment.",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891"
+      ]
+    },
+    "bearCase": {
+      "claim": "The primary endpoint failed, the principal positive p-values are nominal, and the same small cohort supplies both controlled and extension evidence. Sparse primary events, an unexplained denominator discrepancy, and unavailable statistical sensitivity analyses leave open whether the impressive volume results constitute sufficiently reliable efficacy evidence.",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891",
+        "mirm-q2-2026"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do the pre-unblinding SAP, patient-level imaging analyses, and FDA statistical review support a robust efficacy conclusion independent of selective endpoints, missing scans, or influential observations?",
+      "whyItMatters": "Those documents would distinguish genuine but imprecisely measured disease modification from a secondary-analysis signal insufficient for this NDA. Filing acceptance does not answer that question; neither does the primary miss alone prove absence of benefit.",
+      "sourceIds": [
+        "web-52430e81fa30",
+        "trial-NCT05090891",
+        "mirm-q2-2026"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "FDA accepts the totality of efficacy evidence",
+        "trigger": "FDA finds the lesion-volume analyses robust and clinically relevant despite the primary miss, with satisfactory safety and product-quality assessments.",
+        "implication": "Approval for an appropriately supported population and claim becomes a credible outcome. Label scope and any required further studies would still depend on FDA's conclusions; September 26 remains only a reported action target.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "trial-NCT05090891"
+        ]
+      },
+      {
+        "label": "FDA requires additional efficacy confirmation",
+        "trigger": "FDA considers nominal secondary endpoints and uncontrolled extension data insufficient, or finds the efficacy conclusion sensitive to analysis choices.",
+        "implication": "A complete response requesting additional analyses or a new controlled study could materially delay the program. The missing-primary-endpoint issue would not necessarily be resolved through routine labeling negotiation.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "mirm-q2-2026"
+        ]
+      },
+      {
+        "label": "Review timing or another domain becomes decisive",
+        "trigger": "New official correspondence identifies a major amendment, a material safety issue, or a product-linked CMC deficiency.",
+        "implication": "The review could extend or end in a complete response depending on the issue. No such candidate-specific event was established here; an extension would not itself constitute rejection.",
+        "sourceIds": [
+          "web-52430e81fa30"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What were the locked efficacy estimand and testing hierarchy, why is placebo reported as 5 patients/16.7% despite 31 randomized, and how do conservative missing-scan and influential-patient analyses change the volume results?",
+        "whyItMatters": "This directly tests the reliability of the evidence carrying the NDA after the primary miss.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "trial-NCT05090891"
+        ]
+      },
+      {
+        "question": "What evidence connects the observed CT-volume changes to preserved function, and what controlled or independent evidence supplements the Week-48 extension?",
+        "whyItMatters": "Imaging consistency is supportive, but the available extension cannot independently establish durable clinical benefit.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "trial-NCT05090891"
+        ]
+      },
+      {
+        "question": "What are the exact serious-event narratives, cumulative exposure and adolescent safety findings, and what monitoring or interruption rules are proposed for epistaxis, laboratory changes, and chronic treatment?",
+        "whyItMatters": "The public tolerability summary cannot determine practical monitoring requirements or long-term safety in the requested age range.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "trial-NCT05090891"
+        ]
+      },
+      {
+        "question": "Which exact facilities perform each zilurgisertib manufacturing/testing step, and did the Incyte–Mirum arrangement involve any process, site, or supply transition requiring FDA review?",
+        "whyItMatters": "The licensing relationship does not establish manufacturing-site identity, comparability, inspection status, or resolution of quality issues.",
+        "sourceIds": [
+          "web-97a5919ef56c",
+          "web-5cb1dcbf0b0a"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "concerning",
+    "summary": "The failed primary endpoint dominates approval-readiness despite large nominal secondary effects and supportive extension observations. Reported short-term tolerability is encouraging; product-linked manufacturing evidence and FDA's substantive efficacy assessment remain unavailable.",
+    "pivotalQuestion": "Will FDA accept the lesion-volume and extension evidence as sufficient efficacy evidence despite the missed primary endpoint?",
+    "sourceIds": [
+      "web-52430e81fa30",
+      "trial-NCT05090891",
+      "mirm-q2-2026"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "concern",
+        "rationale": "The primary endpoint missed statistical significance. Large nominal volume effects and uncontrolled extension findings support activity, but multiplicity, denominator handling, robustness, and independent confirmation remain unresolved.",
+        "sourceIds": [
+          "web-52430e81fa30",
+          "trial-NCT05090891"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "supportive",
+        "rationale": "Sponsor-reported 24-week observations include mostly mild/moderate events and no AE-driven discontinuations or dose reductions. Exact serious-event counts, cumulative exposure, adolescent analyses, and long-term safety remain unavailable.",
+        "sourceIds": [
+          "web-52430e81fa30"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No product-linked manufacturing site, FDA quality assessment, verified CGMP inspection, deficiency, or corrective-action document was inspected. Sponsor/BIMO leads cannot establish manufacturing readiness.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsors report NDA acceptance and Priority Review for FOP aged 12 years and older, targeting September 26, 2026. These support review progress, not FDA agreement on efficacy.",
+        "sourceIds": [
+          "web-97a5919ef56c",
+          "web-52430e81fa30"
+        ]
+      }
+    ]
+  },
+  "id": "cb5e3505-3df1-4b3b-b342-0d944a6068b1",
+  "candidateId": "zilurgisertib-fop",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:40:38.930Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Zilurgisertib, specifically Fibrodysplasia ossificans progressiva in patients aged 12 years and older. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "mirm-q2-2026",
+      "title": "Mirum: zilurgisertib review and pivotal endpoint risk",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000045/mirm-20260630.htm",
+      "publisher": "Mirum Pharmaceuticals / SEC",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Mirum’s second-quarter 2026 Form 10-Q reports an accepted zilurgisertib NDA with a September 26 target and its April licensing agreement with Incyte. It explicitly states the pivotal study did not reach statistical significance on the primary endpoint and the NDA is supported by secondary endpoints. Exact filing day was not established in this snapshot."
+    },
+    {
+      "id": "mirm-progress",
+      "title": "Mirum / Incyte: zilurgisertib PROGRESS data and NDA",
+      "url": "https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva/default.aspx",
+      "publisher": "Mirum Pharmaceuticals / Incyte",
+      "publishedAt": "2026-06-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "The sponsors reported priority review and a September 26 target for zilurgisertib in FOP in patients aged 12 and older. Their phase 2 PROGRESS release highlights reductions in heterotopic ossification and flare activity, including nominal p-values. These positive secondary analyses require reconciliation with the Form 10-Q disclosure of a nonsignificant primary endpoint."
+    },
+    {
+      "id": "trial-nct05090891",
+      "title": "ClinicalTrials.gov: NCT05090891 · To Assess the Efficacy, Safety, and Tolerability of INCB000928 in Participants With Fibrodysplasia Ossificans Progressiva",
+      "url": "https://clinicaltrials.gov/study/NCT05090891",
+      "publisher": "ClinicalTrials.gov / Incyte Corporation",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 98 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05090891",
+      "title": "To Assess the Efficacy, Safety, and Tolerability of INCB000928 in Participants With Fibrodysplasia Ossificans Progressiva",
+      "url": "https://clinicaltrials.gov/study/NCT05090891",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T19:40:52.327Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05090891; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-52430e81fa30",
+      "title": "Mirum Pharmaceuticals and Incyte Announce Positive Pivotal Phase 2 ...",
+      "url": "https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva/default.aspx",
+      "publisher": "ir.mirumpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:01.618Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3641e759a24c",
+      "title": "Important Announcements about Zilurgisertib Clinical Trial - IFOPA",
+      "url": "https://www.ifopa.org/zilurgisertib-press-release-may-2026",
+      "publisher": "www.ifopa.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:01.619Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-60196487aaee",
+      "title": "Zilurgisertib - Drugs.com",
+      "url": "https://www.drugs.com/nda/zilurgisertib_260614.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:57.723Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d495831e77df",
+      "title": "Zilurgisertib Cuts New Bone Formation in FOP, FDA Grants ...",
+      "url": "https://pharmacally.com/zilurgisertib-cuts-new-bone-formation-in-fop-fda-grants-priority-review/",
+      "publisher": "pharmacally.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:40:57.723Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5cb1dcbf0b0a",
+      "title": "Mirum Pharmaceuticals and Incyte Announce Pivotal Late-Breaking ...",
+      "url": "https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-and-Incyte-Announce-Pivotal-Late-Breaking-Results-for-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva-Accepted-for-Presentation-at-ENDO-2026/default.aspx",
+      "publisher": "ir.mirumpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:01.618Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-97a5919ef56c",
+      "title": "Mirum Pharmaceuticals Reports First Quarter 2026 Financial ... - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000036/mirm-20260506xexx991.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:01.619Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-94e2367ddd0b",
+      "title": "Mirum Pharmaceuticals and Incyte Announce Pivotal Late-Breaking ...",
+      "url": "https://investor.incyte.com/news-releases/news-release-details/mirum-pharmaceuticals-and-incyte-announce-pivotal-late-breaking",
+      "publisher": "investor.incyte.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:15.826Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-018c438ab9d0",
+      "title": "mirm-20260630 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000045/mirm-20260630.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:17.680Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-ANDA091019",
+      "title": "CHENODIOL — ANDA091019",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22ANDA091019%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.478Z",
+      "summary": "ANDA091019; sponsor LGM PHARMA. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA219488",
+      "title": "CTEXLI — NDA219488",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA219488%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.478Z",
+      "summary": "NDA219488; sponsor MIRUM. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA018513",
+      "title": "CHENIX — NDA018513",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA018513%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:41:18.478Z",
+      "summary": "NDA018513; sponsor LEADIANT BIOSCI INC. 11 of 11 submission records shown, with original applications prioritized. Indication match is unverified."
+    }
+  ],
+  "usage": {
+    "inputTokens": 156558,
+    "outputTokens": 6866
+  },
+  "durationMs": 172549,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "mirm-progress"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "mirm-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 97
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "trial-nct05090891"
+      },
+      "status": "completed",
+      "durationMs": 30
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05090891"
+      },
+      "status": "completed",
+      "durationMs": 73
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "zilurgisertib PROGRESS June 14 2026 results primary endpoint placebo adverse events September 26 2026 NDA"
+      },
+      "status": "completed",
+      "durationMs": 5395
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "zilurgisertib Mirum Incyte 2026 manufacturing CMC manufacturer FDA complete response letter NDA September"
+      },
+      "status": "completed",
+      "durationMs": 3895
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "zilurgisertib \"PROGRESS\" \"ORF37-04\" safety pdf 2026"
+      },
+      "status": "completed",
+      "durationMs": 2030
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov/Archives/edgar/data/1759425/ \"20260630\" \"zilurgisertib\" \"primary\""
+      },
+      "status": "completed",
+      "durationMs": 1855
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Incyte"
+      },
+      "status": "partial",
+      "durationMs": 363
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Incyte"
+      },
+      "status": "completed",
+      "durationMs": 280
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "chenodiol"
+      },
+      "status": "completed",
+      "durationMs": 155
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0312da919bc4283a016aa307dea65c87d2abc60ac111832f0c",
+    "inputHash": "ce8d55423ddd98de69b0c042d8e1dcaa3b455681ee1af1951cd3790a699afad9"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:46:40.529Z",
+    "originalSha256": "544edaf1d65279f354779d8443fdc943a35a8d95f122abddb991bd075ac3800f",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -165,3 +165,31 @@ export async function getAssessments(
   }
   return result;
 }
+
+export async function getTrialVisuals(catalog: Catalog, runs: Investigation[]) {
+  try {
+    const value = JSON.parse(
+      await readFile(resolve("data/trial-visuals.json"), "utf8"),
+    );
+    const { validateTrialVisuals } = await import("../shared/trial-visuals.js");
+    return validateTrialVisuals(
+      value,
+      Object.fromEntries(
+        catalog.candidates.map((candidate) => [
+          candidate.id,
+          new Set([
+            ...candidate.sourceIds,
+            ...candidate.signals.flatMap((s) => s.sourceIds),
+            ...candidate.milestones.flatMap((m) => m.sourceIds),
+            ...runs
+              .filter((r) => r.candidateId === candidate.id)
+              .flatMap((r) => r.sources.map((s) => s.id)),
+          ]),
+        ]),
+      ),
+    );
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code === "ENOENT") return {};
+    throw e;
+  }
+}

@@ -13,6 +13,7 @@ Built for the GPT-6 Astra hackathon in New York. This is an original, standalone
 - [Public interactive demo](https://kllymx.github.io/fdagent-approval-radar/) — genuine recorded Astra investigations, clearly labeled; no API key required.
 - [Four-minute demo script](docs/demo-script.md)
 - [Evidence evaluation](docs/evidence-evaluation.md) and [independent agent review of the recorded runs](data/recorded-run-review.md)
+- [Expanded investigation review](data/deep-review-2026-09-10.md) and [additional review queue](data/deep-review-expanded-2026-09-10.md)
 - [Product thesis and customer experiment](docs/product-thesis.md)
 
 The public demo is a September 10, 2026 evidence snapshot. Its dates and status are not automatically refreshed. Live local investigations can retrieve newer evidence and must distinguish that from the snapshot.
@@ -29,13 +30,15 @@ Company logos come from Firecrawl's branding extraction of official sponsor site
 
 The first screen opens with three concrete research questions linked to exact recorded Astra investigations. Users inspect the evidence and actual tool executions, then challenge a conclusion locally. The candidate list is a supporting navigation surface.
 
-Every candidate has a visual evidence outlook: favorable, mixed, concerning or insufficient, with observed FDA outcomes shown separately. Four source-linked factors explain clinical, safety, manufacturing and regulatory evidence. These categories are real Astra interpretations, not a weighted score or calibrated approval probability. Initial assessments use curated summaries; five candidates have full investigations. See the [assessment rubric and review limits](docs/outlook-methodology.md).
+Every candidate has a visual evidence outlook: favorable, mixed, concerning or insufficient, with observed FDA outcomes shown separately. Four source-linked factors explain clinical, safety, manufacturing and regulatory evidence. These categories are real Astra interpretations, not a weighted score or calibrated approval probability. Initial assessments use curated summaries; the interface reports how many candidates have full investigations as coverage expands. See the [assessment rubric and review limits](docs/outlook-methodology.md).
 
 The interface retains FDAgent's restrained visual conventions, with compact company logos, sentence-case labels, a searchable/filterable candidate overview and an evidence map. Generic sparkle icons are removed. The evidence map distinguishes retrieved records, empty searches, failures and sources not checked.
 
+Nine drug-specific trial charts across six candidates show reported efficacy and safety results, with populations, endpoints, sample sizes and confidence levels preserved. Chart values are source-reviewed measurements, separate from Astra's qualitative judgments. [Clinical chart sources and interpretation limits](data/trial-visuals-review.md) are public.
+
 The interface shows actual tool progress. Recorded reports preserve their model ID, question, tool trace, token use and measured duration. Source-ID validation checks that references exist; it does **not** establish that every claim is scientifically correct. Discovery metadata is explicitly labeled and never presented as a full-document review.
 
-Seven genuine recorded investigations across five candidates demonstrate different kinds of reasoning:
+Reviewed Astra investigations demonstrate different kinds of reasoning:
 
 - **Satralizumab:** Astra inspected two pivotal trial result records and a newly published paper. It connected one failed primary endpoint to stopped confirmatory secondary testing, compared responder rates with continuous proptosis and diplopia results, and separated an existing NMOSD approval from the proposed thyroid-eye-disease indication. The decision brief asks for the analyses and FDA feedback that would resolve the replication question.
 - **Apitegromab:** An earlier challenge found an August 21 update confirming completed removal of Catalent and revised the initial assessment. A further challenge used FDAgent's inspection dataset, correctly distinguished BIMO clinical-research oversight from manufacturing assessment, and kept the outlook unchanged. Both revision and resistance to a misleading premise are visible.
@@ -88,7 +91,17 @@ pnpm assess
 pnpm assess apitegromab-sma
 ```
 
-This interprets existing source summaries and reviewed investigations. It does not run web retrieval. For deeper research, use Investigate with Astra in the local app. Newly completed reports update the visual assessment from the same research.
+To investigate the unresearched catalog with real tool use:
+
+```bash
+pnpm investigate:catalog
+# Or select explicit candidate IDs:
+pnpm investigate:catalog bepirovirsen-hbv
+```
+
+The bounded batch resumes completed work, records failures and stores unpublished outputs locally. Review original sources before selecting runs for publication with `scripts/record.ts`.
+
+The assessment-only command interprets existing source summaries and reviewed investigations. It does not run web retrieval. For deeper research, use Investigate with Astra in the local app. Newly completed reports update the visual assessment from the same research.
 
 Collect fresh public evidence independently of a paid model run:
 

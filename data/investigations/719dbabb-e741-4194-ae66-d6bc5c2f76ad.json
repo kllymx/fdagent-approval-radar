@@ -1,0 +1,819 @@
+{
+  "summary": "Ifinatamab deruxtecan has a substantive response-based case for approval, but the public evidence does not establish comparative survival benefit. The central uncertainty is whether response magnitude and durability justify the requested broad post-platinum indication despite potentially fatal pulmonary toxicity and an existing survival-proven alternative. Manufacturing readiness remains unverified. October 10, 2026 is the last sponsor-reported FDA action target retrieved, not an approval date.",
+  "outlook": {
+    "verdict": "Mixed: clinically active, with material benefit-risk and label-scope questions; no candidate-specific manufacturing setback was verified.",
+    "timing": "The sponsors’ April 13, 2026 disclosure reports an October 10, 2026 PDUFA target. No substantiated extension, complete response or approval for ifinatamab was identified in the inspected evidence. FDA correspondence independently confirming the current clock was not retrieved. IDeate-Lung02’s August 2026 registry record estimates primary completion in January 2028, so completed comparative confirmation should not be assumed available for this review.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline describes annual first-cycle approval rates for original priority NDA/BLA receipt cohorts and separately models action timeliness. An original priority BLA appears to be the relevant category, but the FDA classification document was not retrieved. These cohort references do not provide a calibrated probability for this ADC, indication, safety profile or manufacturing network; action timeliness is not approval."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "A first-licensure BLA is under priority review; the approval pathway and final label remain unverified",
+      "detail": "The original sponsor announcement confirms BLA acceptance for adults with ES-SCLC progressing on or after platinum-based chemotherapy, with Priority Review, Real-Time Oncology Review and Project Orbis participation. It describes ifinatamab as unapproved in every indication, consistent with an original first-licensure application rather than a supplement. No ifinatamab resubmission or prior CRL was identified in the bounded public search or the incomplete Daiichi CRL archive. The application number, FDA acceptance letter and explicit accelerated-versus-traditional approval request were not retrieved. Response-based accelerated approval is therefore a plausible interpretation, not a verified filing attribute. Expedited programs do not establish FDA agreement on efficacy, safety, dose or manufacturing.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-c84f5a2320d8",
+        "web-c334cb817b44"
+      ]
+    },
+    {
+      "id": "pivotal-results",
+      "title": "The original pivotal paper documents substantial activity, not superiority over standard treatment",
+      "detail": "IDeate-Lung01 was a global, open-label, two-part phase 2 study. Part 1 randomized patients between 8 and 12 mg/kg every three weeks—not between ifinatamab and standard care; Part 2 used 12 mg/kg without a control. The paper analyzed 183 treated patients: 46 at 8 mg/kg and 137 at 12 mg/kg, including 42 from dose optimization and 95 from extension. Registry enrollment is 187 and should not replace these analysis denominators. The prespecified primary endpoint was confirmed RECIST 1.1 ORR by blinded independent central review. At the March 3, 2025 cutoff, pooled 12-mg/kg ORR was 48.2% (95% CI 39.6–56.9), including three complete and 63 partial responses. Median response duration was 5.3 months (4.0–6.5); median PFS was 4.9 months (4.2–5.5), and median OS was 10.3 months (9.1–13.3). Median follow-up was 12.8 months; extension-cohort OS was not yet mature. These are descriptive outcomes, not comparative treatment effects.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-f346bc6af889",
+        "trial-NCT05280470"
+      ]
+    },
+    {
+      "id": "population-statistics",
+      "title": "Broad post-platinum labeling rests on a small second-line subset and descriptive statistics",
+      "detail": "Patients had ECOG performance status 0–1, adequate organ function and one to three prior systemic regimens; asymptomatic brain metastases were allowed. Enrollment into Part 2 was amended to require two to three prior regimens. Only 32 patients at 12 mg/kg received second-line treatment, versus 105 receiving third-line or later treatment. Sponsor-reported second-line ORR was 56.3% (95% CI 37.7–73.6), with median response duration 7.2 months (3.6–not estimable); third-line-plus ORR was 45.7% (36.0–55.7), with duration 4.3 months (3.7–5.8). The paper used exact binomial confidence intervals and Kaplan–Meier methods; intervals were not multiplicity-adjusted and explicitly were not hypothesis tests. Its historical chemotherapy response benchmark was not a concurrent control. Reported consistency across study parts supports internal reproducibility, not independent controlled replication. The paper describes earlier SCLC activity in IDeate-PanTumor01, but that original study’s full report was not inspected here. CNS response and biomarker analyses were exploratory.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-f346bc6af889",
+        "web-05edfec7a723",
+        "trial-NCT05280470"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Pulmonary toxicity and infection deaths are observed risks, not merely theoretical ADC concerns",
+      "detail": "In 137 patients receiving 12 mg/kg, median treatment exposure was 4.8 months, ranging from 0.7 to 22.7. Grade ≥3 treatment-emergent adverse events occurred in 62.0%, serious events in 39.4%, and adverse-event discontinuations in 10.9%; corresponding treatment-related rates were 36.5%, 18.2% and 9.5%. Treatment-related dose delays and reductions occurred in 25.5% and 15.3%. Six patients had investigator-attributed treatment-related fatal events, including pulmonary infection and ILD/pneumonitis events. Separately, independent adjudication identified treatment-related ILD/pneumonitis in 17 patients (12.4%): 11 grade 1–2, four grade 3 and two grade 5. Median ILD onset was 78 days, with a range of 18–332 days. Investigator death attribution and adjudicated ILD classifications differ and must not be added together. Common severe related toxicities included neutropenia, lymphopenia and anemia. Prior steroid-requiring ILD and current or suspected ILD were excluded. The lower-dose safety supplement and detailed population/exposure-response analyses were not inspected, preventing a complete therapeutic-index assessment.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-f346bc6af889"
+      ]
+    },
+    {
+      "id": "comparative-confirmation",
+      "title": "Confirmation is pending while the treatment landscape already includes a survival-proven alternative",
+      "detail": "The August 6, 2026 IDeate-Lung02 registry record remains recruiting, with estimated enrollment of 540 and no posted results. It compares 12 mg/kg ifinatamab against topotecan, lurbinectedin or amrubicin; OS is the primary endpoint. This is planned confirmation, not demonstrated efficacy. FDA granted tarlatamab traditional approval for the same post-platinum ES-SCLC indication on November 19, 2025 following randomized evidence of OS benefit. Thus, the older description of tarlatamab as only accelerated-approved is superseded. IDeate-Lung02 does not include tarlatamab as a comparator, and only 11 patients in the pivotal 12-mg/kg population previously received any DLL3-directed T-cell engager. Inference: FDA’s view of the incremental clinical role, appropriate line of therapy and adequacy of the confirmatory program could materially affect this application. Cross-trial response or survival comparisons cannot establish which drug is superior.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT06203210",
+        "web-a0a0b26c2d3a",
+        "web-f346bc6af889"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Manufacturing responsibility is documented; candidate-linked sites and FDA quality conclusions are not",
+      "detail": "The collaboration disclosure assigns manufacturing and supply responsibility for ifinatamab to Daiichi Sankyo. The inspected documents do not identify its BLA-listed drug-substance, conjugation, sterile drug-product or testing sites, their FEIs, validation status, inspection findings or corrective actions. Supplied firm-name compliance leads lacked verified ifinatamab–site links and were not treated as evidence of compliance. The original FDA June 26, 2024 CRL for patritumab/HER3-DXd required satisfactory responses to deficiencies at a redacted pre-license manufacturing site, with possible reinspection after resubmission. That is evidence about another product, not a documented ifinatamab CMC setback. No common-site linkage or corrective-action applicability was established. Neither sponsor clinical/BIMO inspection history nor another ADC’s approval demonstrates ifinatamab CGMP readiness.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-c84f5a2320d8",
+        "crl-c428052e1ce2"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Sponsor history includes both completed approval and a setback that was not ultimately just a manufacturing delay",
+      "detail": "FDA approved Daiichi’s separate DXd ADC Datroway for previously treated EGFR-mutated NSCLC on June 23, 2025, providing documented regulatory experience—not a predictor for ifinatamab. For patritumab, the 2024 FDA CRL’s approvability issue was facility deficiencies. However, explicitly non-approvability comments also noted a missed interim PFS boundary in the proposed confirmatory trial and recommended discussion of alternative confirmation. The sponsors subsequently reported significant PFS results but voluntarily withdrew the BLA on May 29, 2025 after OS failed statistical significance and discussions with FDA. They stated withdrawal was unrelated to the earlier facility CRL. This supersedes a narrative of that application simply awaiting manufacturing remediation, without proving the old deficiencies were resolved. These are distinct applications, targets and populations; neither outcome transfers to ifinatamab.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-29743855ffd6",
+        "crl-c428052e1ce2",
+        "web-a4c8d651813b"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Tarlatamab: response-based approval followed by randomized confirmation in the same indication",
+      "relevance": "FDA granted accelerated approval on May 16, 2024 based on response and durability, then traditional approval on November 19, 2025 following randomized survival evidence. This is a directly relevant observed regulatory pathway and current competitive context.",
+      "difference": "Tarlatamab is a different modality with different toxicities. Its completed approvals do not establish acceptable response durability, benefit-risk or review timing for ifinatamab.",
+      "sourceIds": [
+        "web-b0b7477acf71",
+        "web-a0a0b26c2d3a"
+      ]
+    },
+    {
+      "title": "Patritumab: priority review reached a CRL at the target, followed by later withdrawal",
+      "relevance": "The same sponsors reported acceptance in December 2023 with a June 26, 2024 target; FDA issued a facility-related CRL on that date. The May 2025 withdrawal illustrates how subsequent confirmatory evidence can change an initially response-supported application.",
+      "difference": "This was HER3-directed treatment for EGFR-mutated NSCLC, not B7-H3-directed treatment for SCLC. The manufacturing site is redacted and no linkage to ifinatamab was verified.",
+      "sourceIds": [
+        "web-7abb594013b9",
+        "crl-c428052e1ce2",
+        "web-a4c8d651813b"
+      ]
+    },
+    {
+      "title": "Datroway: completed approval of a separate Daiichi DXd ADC indication",
+      "relevance": "FDA’s June 23, 2025 accelerated approval for post-EGFR-therapy/post-platinum EGFR-mutated NSCLC documents experience with a response-and-durability submission and pulmonary-risk labeling.",
+      "difference": "Different target, molecule, dose and disease population; it supplies neither ifinatamab clinical evidence nor proof of shared facilities or manufacturing clearance.",
+      "sourceIds": [
+        "web-29743855ffd6"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "FDA acceptance/review correspondence establishing the application number, original-application classification, accelerated-versus-traditional pathway, current action target and requested label; clinical/statistical review explaining how response durability and available tarlatamab affect sufficiency.",
+    "The updated integrated safety analysis beyond March 2025, including fatal pulmonary-event narratives, adjudication reconciliations, opportunistic infections, dose-specific safety and exposure-response analyses. A materially different severe-toxicity profile could change benefit-risk or dose selection.",
+    "A candidate-specific manufacturing site map and FDA quality assessment, supported by pre-license inspection reports, Form 483 responses, corrective-action verification and any reinspection. These would distinguish an undisclosed independent approval barrier from acceptable manufacturing readiness.",
+    "IDeate-Lung02 enrollment and event maturity, any prespecified interim OS findings, and FDA agreement on confirmatory milestones and comparator adequacy. Recruitment delays, adverse survival findings or revised confirmation requirements would materially change the outlook."
+  ],
+  "limitations": [
+    "This is a current investigation dated September 10, 2026, not a historical prediction. The pivotal publication uses a March 3, 2025 cutoff; retrieval in 2026 does not make those clinical data current.",
+    "Original-paper methods, efficacy results and targeted safety sections were inspected. The lower-dose safety supplement, detailed ILD case tables, full statistical analysis plan and original IDeate-PanTumor01 paper were not inspected. Independent replication and dose/population safety comparisons therefore remain incompletely assessed.",
+    "Current registry records for both IDeate-Lung01 and IDeate-Lung02 had no posted results. The former’s actual results came from the original publication; the latter’s endpoints and dates describe plans, not outcomes.",
+    "Regulatory status was checked through sponsor disclosures, public searching and the incomplete disclosed FDA CRL archive. No ifinatamab FDA review package or acceptance correspondence was retrieved; absence of a disclosed objection does not establish absence of one.",
+    "Manufacturing investigation reviewed sponsor responsibility disclosures, supplied compliance leads and the original patritumab FDA letter. No candidate-linked original inspection record or site identity was verified; an additional site-identification search could not be completed. Manufacturing and corrective-action status remain unknown.",
+    "Sponsor-history examples are selectively relevant precedents, not a systematically modeled portfolio record. They cannot support an individual approval probability or an inference of shared manufacturing sites."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept the response magnitude and durability as sufficient for broad post-platinum use despite fatal pulmonary toxicity, before randomized survival confirmation?",
+    "bullCase": {
+      "claim": "Blinded central review found responses in nearly half of the 12-mg/kg population, with activity in heavily pretreated disease and reported consistency across study parts. A randomized confirmatory study is underway, and FDA has accepted the BLA for expedited review. Together these support a credible response-based approval case, subject to FDA’s pathway and benefit-risk judgment.",
+      "sourceIds": [
+        "web-f346bc6af889",
+        "web-05edfec7a723",
+        "trial-NCT06203210",
+        "web-c84f5a2320d8"
+      ]
+    },
+    "bearCase": {
+      "claim": "Median response duration was 5.3 months overall and 4.3 months in third-line-plus patients, with potentially fatal ILD and pulmonary infections. Only 32 patients inform second-line use, there is no standard-care comparison in the pivotal study, and tarlatamab already has traditional approval supported by survival evidence. FDA could require a narrower role or additional evidence.",
+      "sourceIds": [
+        "web-f346bc6af889",
+        "web-05edfec7a723",
+        "web-a0a0b26c2d3a"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does FDA’s review accept durable-response evidence at 12 mg/kg, with the updated pulmonary safety profile, for the requested population and an agreed confirmatory program?",
+      "whyItMatters": "This separates a viable response-based application from one needing a narrower indication, different dose or additional comparative evidence. The publication establishes activity, but cannot answer FDA’s integrated benefit-risk judgment. A separate adverse manufacturing finding could still block an otherwise acceptable application.",
+      "sourceIds": [
+        "web-f346bc6af889",
+        "web-c84f5a2320d8",
+        "trial-NCT06203210"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Response-based approval is acceptable",
+        "trigger": "FDA accepts the response/durability package and updated safety analysis, agrees on the confirmatory program, and finds manufacturing adequate.",
+        "implication": "Approval could be supportable, potentially with pulmonary-risk warnings, monitoring and confirmatory obligations. Neither the exact pathway nor label is established publicly.",
+        "sourceIds": [
+          "web-f346bc6af889",
+          "web-c84f5a2320d8",
+          "trial-NCT06203210"
+        ]
+      },
+      {
+        "label": "Benefit-risk or population breadth is insufficient",
+        "trigger": "FDA finds durability, second-line evidence, therapeutic-index justification or the incremental role versus available therapy inadequate.",
+        "implication": "A narrower label, additional analyses or further clinical evidence could be required; priority review would not prevent a complete response.",
+        "sourceIds": [
+          "web-f346bc6af889",
+          "web-05edfec7a723",
+          "web-a0a0b26c2d3a"
+        ]
+      },
+      {
+        "label": "An independent manufacturing issue intervenes",
+        "trigger": "An ifinatamab-linked inspection or quality review identifies an unresolved deficiency.",
+        "implication": "The application could face delay or complete response independently of clinical activity. This is conditional; no such candidate-specific deficiency was verified.",
+        "sourceIds": [
+          "web-c84f5a2320d8",
+          "crl-c428052e1ce2"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What exact approval pathway and treatment-line wording have been discussed with FDA, and has FDA requested additional second-line or post-tarlatamab evidence?",
+        "whyItMatters": "The requested post-platinum population is broader than the predominantly third-line-plus pivotal dataset; prior DLL3-directed treatment experience is limited.",
+        "sourceIds": [
+          "web-c84f5a2320d8",
+          "web-f346bc6af889"
+        ]
+      },
+      {
+        "question": "Provide the 8-versus-12-mg/kg safety tables and exposure-response analysis supporting the selected dose, including age, organ function and prior-treatment effects.",
+        "whyItMatters": "The randomized dose-optimization interim analysis favored 12 mg/kg for response, but the inspected evidence does not establish the complete comparative therapeutic index.",
+        "sourceIds": [
+          "web-f346bc6af889"
+        ]
+      },
+      {
+        "question": "How do updated case narratives reconcile investigator-attributed pulmonary deaths with independent ILD adjudication, and what monitoring, steroid-management and infection-prevention rules are proposed?",
+        "whyItMatters": "ILD can occur early or after prolonged exposure, while fatal opportunistic infections complicate pulmonary-event management. Practical risk mitigation could materially affect labeling and benefit-risk.",
+        "sourceIds": [
+          "web-f346bc6af889"
+        ]
+      },
+      {
+        "question": "Which legal manufacturers, sites and FEIs perform each ifinatamab manufacturing operation, and is any site shared with the redacted HER3-DXd facility?",
+        "whyItMatters": "Only documented product–site linkage plus inspection and remediation records can resolve the CMC question; corporate responsibility alone is insufficient.",
+        "sourceIds": [
+          "web-c84f5a2320d8",
+          "crl-c428052e1ce2"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Substantial response activity supports review, but fatal pulmonary toxicity and unproven comparative benefit remain material. Manufacturing readiness is unverified; priority review does not resolve benefit-risk or the appropriate label.",
+    "pivotalQuestion": "Does response durability justify post-platinum approval despite fatal pulmonary toxicity, without randomized survival confirmation and with tarlatamab already available?",
+    "sourceIds": [
+      "web-f346bc6af889",
+      "web-c84f5a2320d8",
+      "trial-NCT06203210",
+      "web-a0a0b26c2d3a"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "BICR ORR of 48.2% supports activity, but median response duration was 5.3 months; only 32 patients received second-line therapy and no standard-treatment comparison establishes survival benefit.",
+        "sourceIds": [
+          "web-f346bc6af889",
+          "web-05edfec7a723"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "concern",
+        "rationale": "At 12 mg/kg, grade ≥3 related events occurred in 36.5%; adjudicated treatment-related ILD occurred in 12.4%, including two fatal cases. Updated exposure and pulmonary-event narratives remain important.",
+        "sourceIds": [
+          "web-f346bc6af889"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Daiichi is responsible for supply, but no ifinatamab-linked sites, inspection resolution or FDA quality assessment were verified. Patritumab’s facility CRL cannot be transferred to this product.",
+        "sourceIds": [
+          "web-c84f5a2320d8",
+          "crl-c428052e1ce2"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsors report priority BLA acceptance, RTOR and Project Orbis participation, with an October 10, 2026 action target. These are favorable process facts, not approval or benefit-risk conclusions.",
+        "sourceIds": [
+          "web-c84f5a2320d8",
+          "web-c334cb817b44"
+        ]
+      }
+    ]
+  },
+  "id": "719dbabb-e741-4194-ae66-d6bc5c2f76ad",
+  "candidateId": "ifinatamab-deruxtecan-sclc",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:43:57.385Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Ifinatamab deruxtecan, specifically Extensive-stage small-cell lung cancer after platinum chemotherapy in adults. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "mrk-ifina-acceptance",
+      "title": "Daiichi Sankyo / Merck: ifinatamab deruxtecan priority BLA",
+      "url": "https://www.merck.com/news/ifinatamab-deruxtecan-granted-priority-review-in-the-u-s-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-bas/",
+      "publisher": "Merck / Daiichi Sankyo",
+      "publishedAt": "2026-04-13",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "The sponsors reported priority review with an October 10 target for ifinatamab deruxtecan in adults with extensive-stage small-cell lung cancer after progression on or after platinum chemotherapy. The phase 2 IDeate-Lung01 dose-expansion evidence is not a randomized comparison against standard treatment. FDA review programs and acceptance do not establish approval."
+    },
+    {
+      "id": "trial-nct05280470",
+      "title": "ClinicalTrials.gov: NCT05280470 · Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+      "url": "https://clinicaltrials.gov/study/NCT05280470",
+      "publisher": "ClinicalTrials.gov / Daiichi Sankyo",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 187 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05280470",
+      "title": "Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+      "url": "https://clinicaltrials.gov/study/NCT05280470",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T19:43:57.463Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Daiichi Sankyo. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41086386",
+      "title": "Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell Lung Cancer: Primary Analysis of the Phase II IDeate-Lung01 Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41086386/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:57.827Z",
+      "summary": "Indexed citation in Journal of clinical oncology : official journal of the American Society of Clinical Oncology; publication date 2026 Feb. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40418751",
+      "title": "Clinical progress of B7-H3 targeted antibody drug conjugate ifinatamab deruxtecan for small-cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40418751/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:57.827Z",
+      "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2025 Jun. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41055143",
+      "title": "IDeate-Lung02: a Phase 3 study of second-line ifinatamab deruxtecan in patients with relapsed small cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41055143/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:57.827Z",
+      "summary": "Indexed citation in Future oncology (London, England); publication date 2025 Oct. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41926962",
+      "title": "Ifinatamab deruxtecan, a B7-H3-directed antibody-drug conjugate, in patients with advanced solid tumours (IDeate-PanTumor01): dose-escalation results from a phase 1/2 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41926962/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:57.827Z",
+      "summary": "Indexed citation in The Lancet. Oncology; publication date 2026 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40260055",
+      "title": "Antibody-Based Therapeutics in Small Cell Lung Cancer: A Narrative Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40260055/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:43:57.827Z",
+      "summary": "Indexed citation in Biologics : targets & therapy; publication date 2025. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05280470",
+      "title": "Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+      "url": "https://clinicaltrials.gov/study/NCT05280470",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T19:44:00.995Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05280470; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-f346bc6af889",
+      "title": "Primary Analysis of the Phase II IDeate-Lung01 Trial",
+      "url": "https://ascopubs.org/doi/10.1200/JCO-25-02142",
+      "publisher": "ascopubs.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:10.647Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-05edfec7a723",
+      "title": "[PDF] Ifinatamab Deruxtecan Demonstrated Clinically Meaningful Response ...",
+      "url": "https://daiichisankyo.us/documents/36782/0/FINAL+US+I-DXd+WCLC+IDeate-Lung01+Data+Press+Release+-+9.5.25+%281%29.pdf/c4f82723-e9fd-f763-bed5-a4bad1bbc1b7?t=1757255661491",
+      "publisher": "daiichisankyo.us",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:10.648Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-80d0b613f615",
+      "title": "Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41086386/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:10.649Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8062224abe5f",
+      "title": "Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell ...",
+      "url": "https://pure.johnshopkins.edu/en/publications/ifinatamab-deruxtecan-in-patients-with-extensive-stage-small-cell/",
+      "publisher": "pure.johnshopkins.edu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:10.649Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c84f5a2320d8",
+      "title": "Ifinatamab Deruxtecan Granted Priority Review in the US for Adult ...",
+      "url": "https://daiichisankyo.us/press-releases/-/article/ifinatamab-deruxtecan-granted-priority-review-in-the-us-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-based-chemotherapy",
+      "publisher": "daiichisankyo.us",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:12.151Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c334cb817b44",
+      "title": "Ifinatamab Deruxtecan Granted Priority Review in the U.S. for Adult ...",
+      "url": "https://www.merck.com/news/ifinatamab-deruxtecan-granted-priority-review-in-the-u-s-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-bas/",
+      "publisher": "www.merck.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:12.152Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3c500c559466",
+      "title": "Ifinatamab Deruxtecan Granted Priority Review in the U.S. for Adult ...",
+      "url": "https://www.drugs.com/clinical_trials/ifinatamab-deruxtecan-granted-priority-review-u-s-adult-patients-previously-treated-extensive-stage-22394.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:12.152Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-cbf79abf7665",
+      "title": "OncoDaily lung FDA Priority Review for Ifinatamab Deruxtecan in ES ...",
+      "url": "https://www.facebook.com/oncodaily/posts/ifinatamab-deruxtecan-receives-fda-priority-review-in-previously-treated-es-sclc/896820953412135/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:12.152Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-61b5bc59bb1b",
+      "title": "Patritumab Deruxtecan BLA Submission Receives Complete ...",
+      "url": "https://daiichisankyo.us/press-releases/-/article/patritumab-deruxtecan-bla-submission-receives-complete-response-letter-from-fda-due-to-inspection-findings-at-third-party-manufacturer",
+      "publisher": "daiichisankyo.us",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:15.788Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-badb0e253dd5",
+      "title": "Patritumab Deruxtecan BLA Submission Receives ... - Merck",
+      "url": "https://www.merck.com/news/patritumab-deruxtecan-bla-submission-receives-complete-response-letter-from-fda-due-to-inspection-findings-at-third-party-manufacturer/",
+      "publisher": "www.merck.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:15.788Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-59ee99486bc4",
+      "title": "[PDF] Press Release - Patritumab Deruxtecan BLA Submission ...",
+      "url": "https://www.daiichisankyo.com/files/news/pressrelease/pdf/202406/20240626_E.pdf",
+      "publisher": "www.daiichisankyo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:15.789Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2635e515ea42",
+      "title": "Merck-Daiichi ADC Deal Faces FDA Rejection - Patsnap Synapse",
+      "url": "https://synapse.patsnap.com/article/merck-daiichi-adc-deal-faces-fda-rejection",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:15.789Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "trial-NCT06203210",
+      "title": "A Study of Ifinatamab Deruxtecan Versus Treatment of Physician's Choice in Subjects With Relapsed Small Cell Lung Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT06203210",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-06",
+      "retrievedAt": "2026-09-10T19:44:23.942Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06203210; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "crl-c428052e1ce2",
+      "title": "FDA complete response: Daiichi Sankyo, Inc. — 06/26/2024",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_BLA761366_20240626.pdf%22+AND+letter_date%3A%2206%2F26%2F2024%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:24.339Z",
+      "kind": "fda",
+      "summary": "Letter dated 06/26/2024. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "crl-3702d727193e",
+      "title": "FDA complete response: Daiichi Sankyo Inc. — 08/24/2018",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22210895_2019_Orig1s000OtherActionLtrs.pdf%22+AND+letter_date%3A%2208%2F24%2F2018%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:24.340Z",
+      "kind": "fda",
+      "summary": "Letter dated 08/24/2018. Archive current application status: Approved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-a0a0b26c2d3a",
+      "title": "FDA grants traditional approval to tarlatamab-dlle for extensive stage",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:26.991Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b0b7477acf71",
+      "title": "FDA grants accelerated approval to tarlatamab-dlle for lung cancer",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:26.991Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-29743855ffd6",
+      "title": "FDA grants accelerated approval to datopotamab deruxtecan-dlnk",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-datopotamab-deruxtecan-dlnk-egfr-mutated-non-small-cell-lung-cancer",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:26.991Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-83de7d8cbb99",
+      "title": "FDA Grants Traditional Approval to Tarlatamab-dlle for Extensive-Stage ...",
+      "url": "https://www.oncpracticemanagement.com/issues/2026/january-2026-vol-16-no-1/fda-grants-traditional-approval-to-tarlatamab-dlle-for-extensive-stage-small-cell-lung-cancer",
+      "publisher": "www.oncpracticemanagement.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:26.992Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a4c8d651813b",
+      "title": "Patritumab Deruxtecan Biologics License Application for Patients ...",
+      "url": "https://www.merck.com/news/patritumab-deruxtecan-biologics-license-application-for-patients-with-previously-treated-locally-advanced-or-metastatic-egfr-mutated-non-small-cell-lung-cancer-voluntarily-withdrawn/",
+      "publisher": "www.merck.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.514Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-45b8871d03af",
+      "title": "Patritumab Deruxtecan BLA Withdrawn After Missing Overall ...",
+      "url": "https://www.empr.com/news/patritumab-deruxtecan-bla-withdrawn-after-missing-overall-survival-endpoint/",
+      "publisher": "www.empr.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.516Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1df6cc9b029d",
+      "title": "BLA Is Withdrawn for Patritumab Deruxtecan in EGFR-Mutated NSCLC",
+      "url": "https://www.onclive.com/view/bla-is-withdrawn-for-patritumab-deruxtecan-in-egfr-mutated-nsclc",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.519Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7abb594013b9",
+      "title": "Patritumab Deruxtecan Granted Priority Review in the U.S. for ...",
+      "url": "https://www.merck.com/news/patritumab-deruxtecan-granted-priority-review-in-the-u-s-for-certain-patients-with-previously-treated-locally-advanced-or-metastatic-egfr-mutated-non-small-cell-lung-cancer/",
+      "publisher": "www.merck.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:44:43.523Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 367523,
+    "outputTokens": 8680
+  },
+  "durationMs": 202322,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "mrk-ifina-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05280470"
+      },
+      "status": "completed",
+      "durationMs": 31
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "evidence-publications-41086386"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ifinatamab deruxtecan IDeate-Lung01 JCO-25-02142 full text 48.2 safety"
+      },
+      "status": "completed",
+      "durationMs": 3312
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ifinatamab deruxtecan FDA October 10 2026 priority review manufacturing complete response September 2026"
+      },
+      "status": "completed",
+      "durationMs": 1502
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ifinatamab deruxtecan manufacturing site CMC Daiichi Sankyo Merck FDA patritumab complete response"
+      },
+      "status": "completed",
+      "durationMs": 3637
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-f346bc6af889",
+        "query": "### Safety"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06203210"
+      },
+      "status": "completed",
+      "durationMs": 73
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Daiichi"
+      },
+      "status": "completed",
+      "durationMs": 398
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.fda.gov datopotamab deruxtecan 2025 approval tarlatamab traditional approval small cell"
+      },
+      "status": "completed",
+      "durationMs": 2651
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-f346bc6af889",
+        "query": "Table 5."
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-f346bc6af889",
+        "query": "adjudicated"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.merck.com patritumab deruxtecan BLA withdrawn May 2025 overall survival"
+      },
+      "status": "completed",
+      "durationMs": 4949
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0dcddde20e00a42d016aa308abc31c87d289d639f1041e12fe",
+    "inputHash": "cfd98f1517d5d21befed8a2bf6c779c1e0bbced21192de1e613e821a66392d7a"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:49:27.087Z",
+    "originalSha256": "6f854f1b696ec2d19943f55fd3a4cabf8aa1436d3ec1e176bf4187006a2a7366",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}
