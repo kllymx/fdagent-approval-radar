@@ -1,0 +1,51 @@
+{
+  "category": "insufficient",
+  "summary": "The packet documents BLA acceptance and a randomized phase 3 trial, but supplies no interpretable efficacy results or safety and manufacturing findings. It cannot support a meaningful directional evidence assessment.",
+  "pivotalQuestion": "Does the randomized trial demonstrate meaningful renal-function benefit from the imlifidase-enabled transplant strategy, with acceptable safety?",
+  "sourceIds": [
+    "hansa-imli-target",
+    "trial-nct04935177"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry documents a randomized phase 3 study with 64 enrolled, but no efficacy results are supplied. Enrollment does not necessarily equal the pivotal efficacy analysis population.",
+      "sourceIds": [
+        "trial-nct04935177"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No safety results are supplied for the proposed transplant-desensitization use.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The packet provides no product-linked manufacturing, facility compliance, or CMC review findings.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Hansa reports BLA acceptance and a December 19, 2026 action target. Existing conditional European authorization provides context but does not establish a US approval outcome.",
+      "sourceIds": [
+        "hansa-imli-target"
+      ]
+    }
+  ],
+  "candidateId": "imlifidase-kidney",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:27.573Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "fd676ef3bb9620f140353751518a0cfb8a7940561894e6088c82e9d8c8d175bf",
+  "responseId": "resp_0acbe85ac94f9a58016aa30427b23887d2bfd38ba130f8bf64",
+  "usage": {
+    "inputTokens": 1616,
+    "outputTokens": 721
+  }
+}

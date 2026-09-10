@@ -1,0 +1,51 @@
+{
+  "category": "favorable",
+  "summary": "Roche-reported lidERA results support adjuvant efficacy through improved invasive disease-free survival. Overall survival remains immature; safety and manufacturing cannot be assessed from the supplied packet.",
+  "pivotalQuestion": "Does lidERA’s invasive disease-free-survival benefit establish a favorable adjuvant benefit–risk balance while overall survival remains immature?",
+  "sourceIds": [
+    "roche-gired-early"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Roche reports improved invasive disease-free survival in lidERA: HR 0.70 (95% CI 0.57–0.87); three-year estimates 92.4% versus 89.6%. Overall survival remains immature, without established benefit.",
+      "sourceIds": [
+        "roche-gired-early"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no interpretable safety results for this adjuvant application.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility compliance, or CMC assessment is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Roche reported priority-review acceptance for the adjuvant NDA; its July update continued to list the filing. These are process milestones, not evidence of approval.",
+      "sourceIds": [
+        "roche-gired-early",
+        "roche-hy-2026"
+      ]
+    }
+  ],
+  "candidateId": "giredestrant-early-breast",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:33.679Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "daf70120a81a719c6e1a3454f8d3313ba85457d2200f262800961596a8da1fab",
+  "responseId": "resp_06684a625053bfb1016aa303f1c98887d29472c7eb6803b80c",
+  "usage": {
+    "inputTokens": 1880,
+    "outputTokens": 1024
+  }
+}

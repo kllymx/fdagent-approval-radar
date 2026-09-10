@@ -1,0 +1,50 @@
+{
+  "category": "favorable",
+  "summary": "Vertex reports supportive interim proteinuria results for the accelerated-approval request. Renal-function benefit is not established by that analysis, and the packet provides no safety or manufacturing assessment.",
+  "pivotalQuestion": "Is the interim proteinuria reduction sufficient to support accelerated approval while the separate renal-function assessment remains pending?",
+  "sourceIds": [
+    "vrtx-poveta-acceptance"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Vertex reports a 49.8% placebo-adjusted UPCR reduction at week 36. The separate 104-week eGFR-slope assessment is not an observed interim result, so renal-function benefit remains unconfirmed.",
+      "sourceIds": [
+        "vrtx-poveta-acceptance"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no interpretable safety findings.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no product-linked manufacturing or facility-compliance evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Vertex reports BLA acceptance for the accelerated-approval request. This is supportive process evidence, not a determination that the proteinuria surrogate is sufficient for approval.",
+      "sourceIds": [
+        "vrtx-poveta-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "povetacicept-igan",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:48.322Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "1046174f2a1e40e2403072e98a92c68ea0743f93149b65ceeaf38df2c2f0be54",
+  "responseId": "resp_04ea98c7639379f4016aa3040069d887d2afb94874834fb7a1",
+  "usage": {
+    "inputTokens": 1630,
+    "outputTokens": 1090
+  }
+}

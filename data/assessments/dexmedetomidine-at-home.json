@@ -1,0 +1,55 @@
+{
+  "category": "insufficient",
+  "summary": "BioXcel reports sNDA acceptance and continued support during Chapter 11, but no efficacy or home-use safety results are supplied. The proposed asset sale adds an unresolved operational-continuity question.",
+  "pivotalQuestion": "Do SERENITY III results establish efficacy and acceptable safety for at-home use, and can application support continue through the sale process?",
+  "sourceIds": [
+    "btai-at-home-acceptance",
+    "trial-nct05658510",
+    "btai-sale-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "SERENITY III is a randomized phase 3 study with 452 enrolled; the supplied registry summary provides no efficacy results or pivotal efficacy analysis population.",
+      "sourceIds": [
+        "trial-nct05658510"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No at-home safety results are supplied. The established supervised-use indication does not establish safety in the proposed home setting.",
+      "sourceIds": [
+        "btai-at-home-acceptance"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing or facility-compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "mixed",
+      "rationale": "BioXcel reports sNDA acceptance and continued support during Chapter 11. Teva is a stalking-horse bidder, not a completed acquirer; transaction completion and review-support continuity remain unresolved.",
+      "sourceIds": [
+        "btai-at-home-acceptance",
+        "btai-sale-2026"
+      ]
+    }
+  ],
+  "candidateId": "dexmedetomidine-at-home",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:39.738Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "92cbbb68fd98ac8aabb61baf8a8001d78524fea1bdae17ce091e05a8a18062c9",
+  "responseId": "resp_0ecec75b41555bca016aa30433dd0087d2924b21cec0e91bef",
+  "usage": {
+    "inputTokens": 2026,
+    "outputTokens": 933
+  }
+}

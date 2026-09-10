@@ -5,6 +5,7 @@ import './styles.css';
 import './brand.css';
 import './clarity.css';
 import './workspace.css';
+import './assessment.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

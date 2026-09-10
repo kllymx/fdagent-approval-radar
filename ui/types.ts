@@ -122,6 +122,8 @@ export interface Investigation {
   sources: Source[];
   usage?: { inputTokens: number; outputTokens: number };
   durationMs?: number;
+  evidenceAssessment?: AssessmentContent;
+  tools?: { name: string; arguments: Record<string, unknown>; status: 'completed' | 'partial' | 'error'; durationMs: number }[];
   previousRunId?: string;
   previousOutlook?: { verdict: string; timing: string };
   decisionBrief?: {
@@ -137,6 +139,31 @@ export interface Investigation {
     summary: string;
     items: { previousClaim: string; currentClaim: string; reason: string; sourceIds: string[] }[];
   } | null;
+}
+
+export interface AssessmentContent {
+  category: 'favorable' | 'mixed' | 'concerning' | 'insufficient';
+  summary: string;
+  pivotalQuestion: string;
+  sourceIds: string[];
+  factors: {
+    category: 'clinical' | 'safety' | 'manufacturing' | 'regulatory';
+    state: 'supportive' | 'mixed' | 'concern' | 'unknown';
+    rationale: string;
+    sourceIds: string[];
+  }[];
+}
+
+export interface Assessment extends AssessmentContent {
+  candidateId: string;
+  model: string;
+  createdAt: string;
+  evidenceAsOf: string;
+  scope: 'initial_packet' | 'investigation';
+  basedOnRunId: string | null;
+  inputHash: string;
+  responseId: string;
+  usage?: { inputTokens: number; outputTokens: number };
 }
 
 export interface InvestigationSummary {
@@ -156,6 +183,7 @@ export interface Dashboard {
   investigations: InvestigationSummary[];
   evidenceCandidateIds?: string[];
   evidenceSourcesByCandidate?: Record<string, Source[]>;
+  assessments?: Record<string, Assessment>;
 }
 
 export interface EvidenceDossier {

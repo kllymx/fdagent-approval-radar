@@ -1,0 +1,54 @@
+{
+  "category": "favorable",
+  "summary": "Cogent reports that pivotal phase 2 SUMMIT met primary and key secondary endpoints, supporting the non-advanced SM application. Safety and manufacturing remain unknown from this packet.",
+  "pivotalQuestion": "Do the full SUMMIT results demonstrate clinically meaningful symptom benefit with acceptable safety in non-advanced systemic mastocytosis?",
+  "sourceIds": [
+    "cogt-nonadv-acceptance",
+    "trial-nct05186753",
+    "cogt-q2-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Cogent reports SUMMIT met primary and key secondary endpoints. The registry describes a randomized phase 2 trial; effect sizes and detailed analyses are not supplied.",
+      "sourceIds": [
+        "cogt-nonadv-acceptance",
+        "trial-nct05186753"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The packet provides no interpretable safety results for non-advanced SM monotherapy.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No application-linked manufacturing or CGMP inspection findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Cogent reported NDA acceptance in March and reaffirmed the December 30 review target in August. These are process milestones, not evidence of approval.",
+      "sourceIds": [
+        "cogt-nonadv-acceptance",
+        "cogt-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "bezuclastinib-nonadv-sm",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:30.552Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "cb5b5a8ecb2761f6f1f3f0a88e0108c8577b8078e7a17a2c27bb53c131662c6c",
+  "responseId": "resp_044f14682ce41d83016aa303eead1887d2b657216d13eaa67d",
+  "usage": {
+    "inputTokens": 1914,
+    "outputTokens": 904
+  }
+}

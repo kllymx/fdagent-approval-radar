@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import { zodTextFormat } from "openai/helpers/zod";
-import { randomUUID } from "node:crypto";
+import { randomUUID, createHash } from "node:crypto";
 import { mkdir, writeFile } from "node:fs/promises";
 import type { ResponseInputItem } from "openai/resources/responses/responses";
 import { config } from "./config.js";
@@ -18,6 +18,7 @@ import {
 } from "../shared/schema.js";
 import { ResearchSession, researchTools } from "./tools.js";
 import { gatherDossier } from "./dossier.js";
+import { ASSESSMENT_POLICY, validateAssessment } from "../shared/assessment.js";
 
 export type Emit = (event: Record<string, unknown>) => void;
 const POLICY = `You are Astra, conducting a careful public-data FDA review investigation in Approval Radar. Your job is to resolve the user's question through public evidence and produce a concise useful drug-indication outlook. You have real read-only research tools. Choose the next tool according to what evidence would change your conclusion.
@@ -42,6 +43,8 @@ export function validateReport(
   sources: Source[],
 ): { report: Report; warnings: string[] } {
   const known = new Set(sources.map((s) => s.id));
+  if (report.evidenceAssessment)
+    validateAssessment(report.evidenceAssessment, known);
   const warnings: string[] = [];
   const brief = report.decisionBrief;
   const referenced = [
@@ -187,6 +190,7 @@ export async function investigate(
   const usage = { inputTokens: 0, outputTokens: 0 },
     tools: NonNullable<Investigation["tools"]> = [];
   let draft: Report | null = null;
+  let assessmentProvenance: Investigation["assessmentProvenance"];
   for (let round = 0; round < 7; round++) {
     if (signal?.aborted) throw Error("Investigation cancelled.");
     emit({
@@ -201,7 +205,13 @@ export async function investigate(
       {
         model: config.model,
         store: false,
-        instructions: POLICY,
+        instructions:
+          POLICY +
+          "\n\nAlso return evidenceAssessment using this rubric. Here, all evidence inspected in this live investigation is available, so base the assessment on the current findings, not only the original curated packet.\n" +
+          ASSESSMENT_POLICY.replace(
+            "Do not claim to have read original documents or performed new research.",
+            "For this live investigation, describe only documents actually retrieved and inspected.",
+          ),
         input,
         reasoning: { effort: config.reasoningEffort as "high" },
         max_output_tokens: 16000,
@@ -256,6 +266,12 @@ export async function investigate(
     const calls = response.output.filter((x) => x.type === "function_call");
     if (!calls.length) {
       draft = investigationReportSchema.parse(JSON.parse(response.output_text));
+      assessmentProvenance = {
+        responseId: response.id,
+        inputHash: createHash("sha256")
+          .update(JSON.stringify(input))
+          .digest("hex"),
+      };
       break;
     }
     for (const call of calls) {
@@ -364,6 +380,7 @@ export async function investigate(
     usage,
     durationMs: Date.now() - started,
     tools,
+    assessmentProvenance,
     validation: {
       citationIdsValid: true,
       probabilityWithheld: true,

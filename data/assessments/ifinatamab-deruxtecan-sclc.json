@@ -1,0 +1,52 @@
+{
+  "category": "insufficient",
+  "summary": "Sponsors report priority BLA review, but no interpretable efficacy results are supplied. Dose expansion lacks a standard-treatment comparator; safety and manufacturing evidence are also absent, preventing a meaningful directional assessment.",
+  "pivotalQuestion": "What response magnitude, duration, and safety results support this filing, given the absence of a standard-treatment comparator in dose expansion?",
+  "sourceIds": [
+    "mrk-ifina-acceptance",
+    "trial-nct05280470"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry lists a randomized phase 2 study, but dose expansion lacks a standard-treatment comparator. No interpretable response, durability, or survival results are supplied.",
+      "sourceIds": [
+        "mrk-ifina-acceptance",
+        "trial-nct05280470"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No candidate-specific safety results are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing or facility-compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Sponsors report BLA acceptance for priority review in this indication. Review remains pending; acceptance and the reported action target do not establish approval.",
+      "sourceIds": [
+        "mrk-ifina-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "ifinatamab-deruxtecan-sclc",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:40.929Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "2b652927ef6bde92c64c453baba4743502b3ce1dead0e8ddd6dba54cea93c20c",
+  "responseId": "resp_0bb25553421292b7016aa303bd073087d28bec4e157a4467b6",
+  "usage": {
+    "inputTokens": 1688,
+    "outputTokens": 904
+  }
+}

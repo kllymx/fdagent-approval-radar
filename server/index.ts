@@ -12,6 +12,7 @@ import {
   getModel,
   listInvestigations,
   getInvestigation,
+  getAssessments,
 } from "./data.js";
 import { investigate } from "./investigate.js";
 import {
@@ -106,6 +107,7 @@ const server = createServer(async (req, res) => {
         catalog,
         model,
         runtime: runtimeInfo(),
+        assessments: await getAssessments(catalog, visibleRuns),
         evidenceCandidateIds,
         evidenceSourcesByCandidate,
         investigations: visibleRuns.map(

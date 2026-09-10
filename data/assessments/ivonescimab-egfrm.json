@@ -1,0 +1,53 @@
+{
+  "category": "mixed",
+  "summary": "Sponsor-reported global HARMONi results support a progression-free-survival benefit, but primary overall survival was not significant. The announced survival update is outside this cutoff; safety and manufacturing cannot be assessed from the supplied evidence.",
+  "pivotalQuestion": "How does the nonsignificant primary overall-survival analysis affect interpretation of the progression-free-survival benefit in this post-TKI population?",
+  "sourceIds": [
+    "summit-harmoni",
+    "trial-harmoni",
+    "summit-acceptance"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Summit reported median PFS of 6.8 versus 4.4 months (HR 0.52). Primary OS was not significant; both are primary outcomes, leaving a substantive unresolved survival interpretation.",
+      "sourceIds": [
+        "summit-harmoni",
+        "trial-harmoni"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet contains no interpretable safety results.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing or facility-compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Summit reported BLA acceptance for this global HARMONi-based indication and a November 14, 2026 action target. These are supportive review-process facts, not proof of efficacy or approval.",
+      "sourceIds": [
+        "summit-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "ivonescimab-egfrm",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:22:59.308Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "8d406995efac0eb874abf8a7a29a3a6eb39ada7dcd37795e67c0786195d2f261",
+  "responseId": "resp_0c7cab42cc23868b016aa303936a5087d2bc484727be317b66",
+  "usage": {
+    "inputTokens": 2030,
+    "outputTokens": 917
+  }
+}

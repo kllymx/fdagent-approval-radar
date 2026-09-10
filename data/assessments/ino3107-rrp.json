@@ -1,0 +1,53 @@
+{
+  "category": "insufficient",
+  "summary": "For adult RRP, INOVIO reports ongoing BLA review, but this packet lacks interpretable efficacy or safety results. Accelerated-approval eligibility remains unconfirmed; completed inspections do not establish manufacturing clearance.",
+  "pivotalQuestion": "What efficacy results support the application, and what is FDA’s position on accelerated-approval eligibility and the confirmatory-trial plan?",
+  "sourceIds": [
+    "ino-q2-2026",
+    "trial-nct04398433"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry describes a single-group phase 1/2 study with 32 enrolled participants. No efficacy results are supplied; enrollment does not establish the efficacy analysis population.",
+      "sourceIds": [
+        "trial-nct04398433"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No safety findings are supplied, so tolerability and treatment-related risks cannot be assessed.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "INOVIO reports completion of scheduled prelicensure inspections, but the packet provides no final inspection conclusions or evidence of manufacturing clearance.",
+      "sourceIds": [
+        "ino-q2-2026"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "INOVIO reports active BLA review with an October 30 target. The informal meeting did not address accelerated-approval eligibility, and confirmatory-trial feedback remained pending.",
+      "sourceIds": [
+        "ino-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "ino3107-rrp",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:59.707Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "b3fb54a1760138121b499e0fc6f38c4c04b82b4e3584512e0010515141a1a48f",
+  "responseId": "resp_0a66e64d2803d281016aa303cfd01087d28aef457def6a0058",
+  "usage": {
+    "inputTokens": 1612,
+    "outputTokens": 1391
+  }
+}

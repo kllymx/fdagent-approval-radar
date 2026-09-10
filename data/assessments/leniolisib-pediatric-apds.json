@@ -1,0 +1,53 @@
+{
+  "category": "concerning",
+  "summary": "The documented analytical and batch-testing CRL remains the principal concern. Pharming reports an accepted resubmission addressing those requests, but FDA resolution is unconfirmed; no efficacy results are supplied for the current pediatric indication.",
+  "pivotalQuestion": "Does the revised analytical-method and batch-testing package resolve the prior CRL deficiencies for children aged 4–11 weighing at least 27 kg?",
+  "sourceIds": [
+    "pharming-lenio-resubmission",
+    "trial-nct05438407"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry describes a single-group phase 3 study with estimated enrollment of 15. No efficacy results supporting the current age-and-weight indication are supplied.",
+      "sourceIds": [
+        "trial-nct05438407"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet contains no pediatric safety results.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "concern",
+      "rationale": "The prior CRL involved analytical-method and batch-testing requests. Pharming reports submitting a responsive package after a Type A meeting, but resubmission acceptance does not establish FDA resolution.",
+      "sourceIds": [
+        "pharming-lenio-resubmission"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Pharming reports FDA acceptance of the resubmission for ages 4–11 weighing at least 27 kg. Lower-weight children require a separate filing; acceptance is procedural progress, not approval.",
+      "sourceIds": [
+        "pharming-lenio-resubmission"
+      ]
+    }
+  ],
+  "candidateId": "leniolisib-pediatric-apds",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:59.180Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "7be93e7ae177911dfc544ebfce1d2ce63f264e20b492b86277e0bc040f87a0b0",
+  "responseId": "resp_079c4ae614d529ea016aa303cf480487d2bcf66bee962bcf00",
+  "usage": {
+    "inputTokens": 1792,
+    "outputTokens": 1363
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "category": "insufficient",
+  "summary": "Gilead reports accepted review of the fourth-line myeloma BLA, but the supplied study descriptions contain no interpretable efficacy results. Safety and manufacturing remain unassessable; acquisition completion does not establish clearance.",
+  "pivotalQuestion": "What efficacy and safety results support the fourth-line application, and what product-linked evidence addresses manufacturing readiness?",
+  "sourceIds": [
+    "gild-anito-acceptance",
+    "trial-nct05396885",
+    "trial-nct04155749",
+    "gild-arcellx-close"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The filing references phase 2 iMMagine-1 and phase 1 studies, both single-group. No efficacy results are supplied to assess clinical benefit; the design does not establish comparative superiority.",
+      "sourceIds": [
+        "gild-anito-acceptance",
+        "trial-nct05396885",
+        "trial-nct04155749"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No candidate-specific safety results are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The completed Arcellx acquisition establishes ownership, not manufacturing clearance. No product-linked manufacturing assessment is supplied.",
+      "sourceIds": [
+        "gild-arcellx-close"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Gilead reports FDA acceptance of the fourth-line BLA with a December 23, 2026 action target. This supports review progress, not efficacy or approval.",
+      "sourceIds": [
+        "gild-anito-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "anito-cel-myeloma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:13.568Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "8461d004c63d5ed2a302d1ebd7f36e5aa2432ae0ce225e25c094ce5afe3397d2",
+  "responseId": "resp_046c1b7d4ae5f65f016aa30419be4087d2893894e225933959",
+  "usage": {
+    "inputTokens": 2037,
+    "outputTokens": 859
+  }
+}

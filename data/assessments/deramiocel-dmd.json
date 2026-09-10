@@ -1,0 +1,62 @@
+{
+  "category": "mixed",
+  "summary": "Sponsor-reported upper-limb benefit supports the amended application, but earlier FDA statistical objections remain unresolved in the packet. Added follow-up is open-label. The prior investigation reports excess hypersensitivity; manufacturing is unassessed.",
+  "pivotalQuestion": "Do the amended analyses establish a clinically meaningful, statistically robust upper-limb benefit despite FDA’s earlier analysis-plan objections?",
+  "sourceIds": [
+    "capr-extension",
+    "fda-deramiocel-briefing",
+    "trial-hope3",
+    "web-176722829cd3"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Capricor reports HOPE-3 endpoint success; FDA previously found analysis-dependent significance and questioned post-completion, pre-unblinding revisions. The amendment adds robustness analyses, but 24-month open-label follow-up does not extend the randomized comparison.",
+      "sourceIds": [
+        "capr-extension",
+        "fda-deramiocel-briefing",
+        "trial-hope3"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "concern",
+      "rationale": "The supplied prior investigation reports FDA-noted excess hypersensitivity versus placebo and possible functional unblinding. This is secondary reporting; no updated safety assessment is provided.",
+      "sourceIds": [
+        "fda-deramiocel-briefing",
+        "web-176722829cd3"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The packet does not establish manufacturing readiness or FDA manufacturing clearance. The reported BIMO observation concerns clinical research oversight, not CGMP compliance.",
+      "sourceIds": [
+        "web-81eb491b273c"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "mixed",
+      "rationale": "Capricor reports acceptance of the upper-limb amendment and extended review. July’s unfavorable cardiomyopathy assessment is not a decision on it; the prior investigation reports a BIMO observation with closure unestablished.",
+      "sourceIds": [
+        "capr-extension",
+        "fda-deramiocel-briefing",
+        "web-81eb491b273c"
+      ]
+    }
+  ],
+  "candidateId": "deramiocel-dmd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:22:29.240Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "investigation",
+  "basedOnRunId": "dbaf1062-0418-4997-ba97-2a5935a19c55",
+  "inputHash": "da0a4fba3b9e8c56f458c138ff49fbe8a80ff49d29059f155baa88816e1e17e5",
+  "responseId": "resp_0429997348af855a016aa303773fb887d2860cb59db5f31a79",
+  "usage": {
+    "inputTokens": 5934,
+    "outputTokens": 2079
+  }
+}

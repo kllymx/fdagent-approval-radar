@@ -1,0 +1,52 @@
+{
+  "category": "mixed",
+  "summary": "Agios reports improved hemoglobin response but no significant pain-crisis reduction in RISE UP. The accelerated-approval application remains under review; planned confirmatory testing does not resolve current uncertainty about clinical benefit.",
+  "pivotalQuestion": "Can the hemoglobin response support accelerated approval despite the missed pain-crisis endpoint and clinical benefit still awaiting confirmation?",
+  "sourceIds": [
+    "agios-riseup-2026",
+    "agios-scd-acceptance"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Agios reports hemoglobin response of 40.6% versus 2.9%, but the pain-crisis primary endpoint was nonsignificant and overall fatigue unchanged. Post-hoc responder analyses do not preserve randomization.",
+      "sourceIds": [
+        "agios-riseup-2026"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no interpretable safety findings.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing or facility-compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Agios reports priority-review acceptance for accelerated approval. REIGNITE is a separate planned transfusion-burden confirmatory study, not completed evidence of benefit.",
+      "sourceIds": [
+        "agios-scd-acceptance",
+        "trial-nct07656415"
+      ]
+    }
+  ],
+  "candidateId": "mitapivat-scd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:28.846Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "a12cd1ecf3831c3b6f77948c22d16621e926b92e84a344b2703880e713a0c3b3",
+  "responseId": "resp_085c005da8b13b9c016aa304295d3887d28f62309bf30d6c6f",
+  "usage": {
+    "inputTokens": 2091,
+    "outputTokens": 905
+  }
+}

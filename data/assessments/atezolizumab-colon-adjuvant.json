@@ -1,0 +1,54 @@
+{
+  "category": "favorable",
+  "summary": "Roche reports an ATOMIC disease-free-survival benefit supporting this biomarker-defined adjuvant application. Overall-survival benefit is not established, and safety and manufacturing are not characterized in the supplied packet.",
+  "pivotalQuestion": "Does ATOMIC’s disease-free-survival benefit provide an adequate benefit-risk basis for this biomarker-defined adjuvant use?",
+  "sourceIds": [
+    "roche-atezo-acceptance",
+    "trial-nct02912559",
+    "roche-hy-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Roche reports improved disease-free survival with atezolizumab plus FOLFOX6 in randomized phase 3 ATOMIC. This supports stage III dMMR/MSI-H colon cancer, not an overall-survival benefit or use in all colorectal cancers.",
+      "sourceIds": [
+        "roche-atezo-acceptance",
+        "trial-nct02912559"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied summaries provide no interpretable safety results for this adjuvant combination; absence of a disclosed concern does not establish favorable safety.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No application-specific manufacturing, facility-compliance, or CMC findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Roche reports priority review of the supplemental applications for Tecentriq and Tecentriq Hybreza; its July update continues to list the filing. These are process milestones, not evidence of approval.",
+      "sourceIds": [
+        "roche-atezo-acceptance",
+        "roche-hy-2026"
+      ]
+    }
+  ],
+  "candidateId": "atezolizumab-colon-adjuvant",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:47.644Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "a37f6f5a691c87a0b0efb5dbcc79e1425857608c39e9b3573c962694c374c521",
+  "responseId": "resp_0909390424e909ff016aa303c3bd6c87d2825dcd5c7e3e0396",
+  "usage": {
+    "inputTokens": 1859,
+    "outputTokens": 810
+  }
+}

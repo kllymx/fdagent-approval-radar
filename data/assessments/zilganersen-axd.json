@@ -1,0 +1,53 @@
+{
+  "category": "insufficient",
+  "summary": "The supplied FDA summary records approval, superseding the older review target. However, absent efficacy results, safety findings, and manufacturing details prevent a meaningful directional assessment of the underlying evidence.",
+  "pivotalQuestion": "What efficacy results, safety findings, and manufacturing assessments supported the observed approval?",
+  "sourceIds": [
+    "fda-zilganersen-approval",
+    "ionis-zilganersen-acceptance",
+    "trial-nct04849741"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry describes a randomized, parallel phase 3 trial with 54 actual enrollees, not necessarily the efficacy analysis population. No efficacy results are supplied.",
+      "sourceIds": [
+        "trial-nct04849741"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No adverse-event results or other substantive safety findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing assessments or facility compliance findings are supplied; the approval announcement does not provide those details.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "The supplied FDA summary records September 3, 2026 approval for pediatric and adult Alexander disease, superseding Ionis's September 22 target. This is an observed outcome, not a forecast.",
+      "sourceIds": [
+        "fda-zilganersen-approval",
+        "ionis-zilganersen-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "zilganersen-axd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:32.586Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "8165728b88b2a60dae136c508d94e51bc8b54859bc8ec712beeaf67bd3246561",
+  "responseId": "resp_004f571d7fb22532016aa303b4ad5487d28cc8ef60e1bd61f0",
+  "usage": {
+    "inputTokens": 1743,
+    "outputTokens": 848
+  }
+}

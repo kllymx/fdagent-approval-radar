@@ -1,0 +1,52 @@
+{
+  "category": "favorable",
+  "summary": "BridgeBio reports that BBP-418 met prespecified 12-month FORTIFY primary and key secondary endpoints, providing supportive interim evidence. Longer-term durability is not established by this analysis; safety and manufacturing cannot be assessed from the supplied packet.",
+  "pivotalQuestion": "Do the reported 12-month results establish a clinically meaningful benefit, and how durable is that benefit with longer follow-up?",
+  "sourceIds": [
+    "bbio-bbp418-acceptance",
+    "bbio-q2-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "BridgeBio reports that FORTIFY met prespecified 12-month primary and key secondary endpoints. The supplied summary lacks effect sizes, and the interim analysis does not establish longer-term durability.",
+      "sourceIds": [
+        "bbio-bbp418-acceptance"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No candidate-specific safety results are provided in the supplied summaries.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility inspection, or CMC findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "BridgeBio reported priority-review NDA acceptance and reaffirmed the November 27, 2026 target in August, with no advisory committee planned. These are process updates, not a final benefit-risk determination.",
+      "sourceIds": [
+        "bbio-bbp418-acceptance",
+        "bbio-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "bbp418-lgmd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:04.241Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "b65352fed3c26a150f16728117520acd2de1c190f6a38e7d0f3b0f82c6001260",
+  "responseId": "resp_0fb777011ecf64a9016aa303d45eb087d2bb6cf813a5633cd3",
+  "usage": {
+    "inputTokens": 1898,
+    "outputTokens": 1428
+  }
+}

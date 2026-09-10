@@ -6,7 +6,7 @@ Open the local workbench and **All candidates**. The public site is a recorded S
 
 ## 0:00–0:35 · A decision, not just a date
 
-**Show the 33-candidate overview. Search for satralizumab.**
+**Start at the research questions on the first screen. Open the satralizumab case directly.**
 
 > “For an investor or licensing team, the useful question is which assumption could change the value of an asset. We have 33 real drug–indication episodes, 98 curated primary sources and public-database scans for every candidate. Astra can investigate the strongest case, the strongest objection and the evidence that would decide between them.”
 
@@ -14,7 +14,7 @@ The approved zilganersen episode demonstrates why status verification matters: F
 
 ## 0:35–1:45 · Show a distinction that changes diligence
 
-**Open satralizumab → Astra investigation → the recorded decision brief.**
+**The selected mission opens the exact recorded satralizumab investigation. Expand Research trail, then show the decision brief.**
 
 > “The sponsor's filing rests on two pivotal studies, but one missed its primary endpoint. Astra read both trial result records and found a September 7 paper. It checked the testing hierarchy: after the primary failure, that study's secondary p-values became descriptive rather than confirmatory.
 >
@@ -28,7 +28,7 @@ The run is `88baf4b3-0ec3-4dd4-b344-34a8b1e170ab`. Its source checks are documen
 
 ## 1:45–2:30 · Ground the investigation in several data sources
 
-**Open Evidence map. Expand a registry record and an FDA application record.**
+**Open Evidence desk to show the four source-linked factors, then Evidence map to inspect a registry record and an FDA application record.**
 
 > “The workbench pulls from trial protocols and results, FDA applications, labeling, PubMed, original FDA letters and sponsor disclosures. It tells you which source was retrieved, which is only discovery metadata and where evidence is missing. A marketed drug's manufacturing supplement is not approval of a new indication.”
 
@@ -56,7 +56,7 @@ If asked about evaluation: five selected original-document exercises covered 19 
 
 ## Optional deeper question: zanzalintinib
 
-A sixth recorded investigation, `0f625d8d-f1fc-430c-9388-0919fa463813`, compares a 2024 design publication with the later dual-primary trial description. It found the older plan gated overall-population testing behind success in the non-liver-metastasis population, whose final endpoint later failed. The model explicitly does **not** assume that old plan still governs: it asks for the operative, dated amendments and FDA feedback. This is a concrete example of a diligence question discovered across sources, not a claim that the trial result is invalid.
+A recorded investigation, `0f625d8d-f1fc-430c-9388-0919fa463813`, compares a 2024 design publication with the later dual-primary trial description. It found the older plan gated overall-population testing behind success in the non-liver-metastasis population, whose final endpoint later failed. The model explicitly does **not** assume that old plan still governs: it asks for the operative, dated amendments and FDA feedback. This is a concrete example of a diligence question discovered across sources, not a claim that the trial result is invalid.
 
 ## Fallbacks and supporting material
 
@@ -69,3 +69,9 @@ If live research fails, leave the failure clear and use a labeled recorded run. 
 - [Historical model](../model/README.md)
 
 The prototype does not establish paying demand, investment returns, prospective clinical validity or model superiority. The next step is observing whether an analyst reaches a defensible answer faster and changes their next diligence question.
+
+## Optional safety case: lorundrostat
+
+The new live run `81c770af-1792-4d25-9124-b9c01b983dfb` used 12 real tool calls over 152 seconds to inspect published hypertension efficacy and dose-specific electrolyte/renal risks. It returns mixed overall evidence while rejecting the misleading idea that the separate sleep-apnea primary endpoint establishes hypertension failure. An initial packet-only favorable interpretation was withheld during review because its supplied summaries were too thin; the deeper report was generated independently without a prior report. Do not stage an invented insufficient-to-mixed change or describe this as a validated prediction.
+
+For a live judge challenge, type their actual question and press Challenge the outlook. Show the actual tool progress; inspect whether the new answer revised, strengthened or retained the prior conclusion and why. The customer outcome to demonstrate is a source-backed next diligence question and exportable brief.

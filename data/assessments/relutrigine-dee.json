@@ -1,0 +1,59 @@
+{
+  "category": "insufficient",
+  "summary": "Praxis reports favorable mid-cycle feedback after a sensitivity-analysis review extension. Without interpretable efficacy results, the packet cannot establish a directional evidence balance. Safety and manufacturing remain unassessed.",
+  "pivotalQuestion": "What do the submitted EMBOLD efficacy results and sensitivity analyses show about benefit and robustness in the proposed population?",
+  "sourceIds": [
+    "prax-rel-extension",
+    "prax-q2-2026",
+    "trial-embold"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "EMBOLD is randomized and masked, but no registry results or interpretable sponsor efficacy estimates are supplied; the additional sensitivity analyses cannot be assessed.",
+      "sourceIds": [
+        "trial-embold",
+        "prax-rel-extension"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "Praxis reports no major safety concerns identified at mid-cycle, but the packet provides no adverse-event results to assess safety.",
+      "sourceIds": [
+        "prax-q2-2026"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The reported inspection without a Form 483 covered sponsor BIMO activities, not CGMP manufacturing. No product-linked manufacturing readiness evidence is supplied.",
+      "sourceIds": [
+        "prax-q2-2026"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Praxis reports priority-review acceptance and later mid-cycle feedback without major safety or efficacy concerns. Sensitivity analyses extended review as a major amendment; the sponsor said no new study was requested.",
+      "sourceIds": [
+        "prax-rel-acceptance",
+        "prax-rel-extension",
+        "prax-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "relutrigine-dee",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:22:29.175Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "dfac1c4e35113887735fa316d04cde5a24a1726338c3bcd2aa82ffa4646a5033",
+  "responseId": "resp_0e9ecb938e5b1b9e016aa3037862f887d281b0e8f679c0e2eb",
+  "usage": {
+    "inputTokens": 2031,
+    "outputTokens": 1297
+  }
+}

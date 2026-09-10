@@ -1,0 +1,57 @@
+{
+  "category": "insufficient",
+  "summary": "The oral ulixacaltamide NDA is accepted, but supplied summaries lack interpretable Essential3 efficacy and safety results. Clean sponsor BIMO inspections do not establish manufacturing readiness; the reported mid-cycle reassurance concerns relutrigine.",
+  "pivotalQuestion": "What do Essential3 efficacy and safety results show for oral ulixacaltamide in adults with essential tremor?",
+  "sourceIds": [
+    "prax-ulix-acceptance",
+    "trial-nct06087276",
+    "prax-q2-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "Essential3 is a randomized phase 3 program supporting the NDA, but supplied summaries provide no endpoint results or effect estimates to assess efficacy.",
+      "sourceIds": [
+        "prax-ulix-acceptance",
+        "trial-nct06087276"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No ulixacaltamide safety results are supplied. The August mid-cycle statement about no major safety or efficacy concerns pertains to relutrigine, not this application.",
+      "sourceIds": [
+        "prax-q2-2026"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "Praxis reported ulixacaltamide sponsor BIMO inspections ended without a Form 483. These clinical-research inspections do not establish CGMP compliance; no manufacturing-site clearance is supplied.",
+      "sourceIds": [
+        "prax-q2-2026"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Praxis reported NDA acceptance, a January 29, 2027 action target, and no planned advisory committee. These establish review progress, not approval.",
+      "sourceIds": [
+        "prax-ulix-acceptance"
+      ]
+    }
+  ],
+  "candidateId": "ulixacaltamide-et",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:23.146Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "0b102f151874cea72ad9fa7c33c54d935dca8811099da148ff6995c105a9f12c",
+  "responseId": "resp_06af31a5cad64cd9016aa303ab414087d28e0e478c52650bf4",
+  "usage": {
+    "inputTokens": 1844,
+    "outputTokens": 971
+  }
+}

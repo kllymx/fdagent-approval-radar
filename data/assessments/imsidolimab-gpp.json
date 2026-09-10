@@ -1,0 +1,56 @@
+{
+  "category": "insufficient",
+  "summary": "The packet documents ongoing BLA review and acute and maintenance GEMINI studies, but provides no interpretable efficacy results or safety findings to support a directional clinical assessment.",
+  "pivotalQuestion": "What efficacy and safety results support the application when acute and maintenance periods are separated by population and comparator?",
+  "sourceIds": [
+    "vnda-imsi-acceptance",
+    "vnda-q2-2026",
+    "trial-nct05352893",
+    "trial-nct05366855"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "GEMINI includes acute controlled efficacy and longer-term maintenance follow-up, but the supplied summaries provide no efficacy outcomes. Different periods and populations cannot establish a single two-year placebo-controlled effect.",
+      "sourceIds": [
+        "vnda-imsi-acceptance",
+        "trial-nct05352893",
+        "trial-nct05366855"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No safety results are supplied; study titles referencing safety do not establish tolerability or characterize adverse events.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The packet provides no product-linked manufacturing, facility inspection, or CMC findings.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Vanda reported BLA acceptance and reaffirmed ongoing FDA review in August 2026, with a December 12, 2026 target. These are process milestones, not evidence of approval.",
+      "sourceIds": [
+        "vnda-imsi-acceptance",
+        "vnda-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "imsidolimab-gpp",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:53.597Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "26f590c246d97d0cd49ade636ff9b43b5ac334fcb3ef623e7d4d95e5e4a4a5ed",
+  "responseId": "resp_0c5f961696c47bfc016aa30405ba2087d2b0999c449fa3adde",
+  "usage": {
+    "inputTokens": 2004,
+    "outputTokens": 914
+  }
+}

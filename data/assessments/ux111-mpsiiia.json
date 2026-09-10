@@ -1,0 +1,60 @@
+{
+  "category": "concerning",
+  "summary": "The prior CMC-linked CRL remains the main adverse evidence for UX111. Resubmission acceptance does not establish manufacturing resolution, while sponsor-reported favorable clinical interpretations and longer follow-up provide limited detail for assessing benefit.",
+  "pivotalQuestion": "Does the resubmission resolve the prior manufacturing findings and provide adequate biomarker and clinical support for accelerated approval?",
+  "sourceIds": [
+    "ux111-crl",
+    "ux111-resubmission",
+    "ux111-q2",
+    "trial-ux111"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "Ultragenyx describes clinical and biomarker evidence favorably and reports longer follow-up, but supplied summaries provide no interpretable efficacy results. The trial is nonrandomized and open-label.",
+      "sourceIds": [
+        "ux111-crl",
+        "ux111-resubmission",
+        "trial-ux111"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No candidate-specific safety findings are supplied in this packet.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "concern",
+      "rationale": "The prior CRL requested CMC improvements and manufacturing-inspection information. Resubmission acceptance and the latest sponsor update do not establish that these documented issues are resolved.",
+      "sourceIds": [
+        "ux111-crl",
+        "ux111-resubmission",
+        "ux111-q2"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Ultragenyx reports acceptance of the accelerated-approval BLA resubmission, reaffirmed in its August update. This is procedural progress, not confirmation of clinical or manufacturing adequacy.",
+      "sourceIds": [
+        "ux111-resubmission",
+        "ux111-q2"
+      ]
+    }
+  ],
+  "candidateId": "ux111-mpsiiia",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:22:29.238Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "cae6145fdeaa25efa6fba48b816dd4d1e33a8b0bf8e1694e132600089a0c51c0",
+  "responseId": "resp_01ea32811d1e0fbd016aa303776f5487d29ac9b28d02998753",
+  "usage": {
+    "inputTokens": 2006,
+    "outputTokens": 1407
+  }
+}

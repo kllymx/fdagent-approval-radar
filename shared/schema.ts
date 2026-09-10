@@ -1,4 +1,8 @@
 import { z } from "zod";
+import {
+  evidenceAssessmentSchema,
+  type EvidenceAssessment,
+} from "./assessment.js";
 export const direction = z.enum([
   "supportive",
   "concern",
@@ -179,12 +183,14 @@ export const changesSchema = z.object({
 export const investigationReportSchema = reportSchema.extend({
   decisionBrief: decisionBriefSchema,
   changes: changesSchema.nullable(),
+  evidenceAssessment: evidenceAssessmentSchema,
 });
 export type Source = z.infer<typeof sourceSchema>;
 export type Candidate = z.infer<typeof candidateSchema>;
 export type Catalog = z.infer<typeof catalogSchema>;
 export type Report = z.infer<typeof reportSchema> & {
   decisionBrief?: z.infer<typeof decisionBriefSchema>;
+  evidenceAssessment?: EvidenceAssessment;
   changes?: z.infer<typeof changesSchema> | null;
 };
 export type Investigation = Report & {
@@ -196,6 +202,7 @@ export type Investigation = Report & {
   question: string;
   status: "completed" | "failed";
   provenance: "live" | "recorded";
+  assessmentProvenance?: { inputHash: string; responseId: string };
   previousRunId?: string;
   previousOutlook?: { verdict: string; timing: string };
   sources: Source[];

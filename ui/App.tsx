@@ -11,6 +11,9 @@ import brandCatalog from '../data/brands.json';
 import CandidateOverview from './CandidateOverview';
 import { DecisionBrief, InvestigationChanges } from './ResearchIntelligence';
 import EvidenceMap from './EvidenceMap';
+import AssessmentView, { OutlookBadge } from './AssessmentView';
+import { candidateOutlook } from './assessment';
+import ResearchTrace from './ResearchTrace';
 
 type View = 'evidence' | 'analysis' | 'sources' | 'validation';
 const STATIC_DEMO = import.meta.env.VITE_STATIC_DEMO === 'true';
@@ -102,9 +105,9 @@ function SourceDrawer({ ids, sources, onClose }: { ids: string[]; sources: Sourc
   </div>;
 }
 
-function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobileOpen, onClose, savedCandidateIds, showOverview, onOverview }: {
+function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobileOpen, onClose, savedCandidateIds, showOverview, onOverview, assessments }: {
   candidates: Candidate[]; selectedId: string | null; onSelect: (id: string) => void;
-  runtime: RuntimeInfo; asOf: string; mobileOpen: boolean; onClose: () => void; savedCandidateIds: Set<string>; showOverview: boolean; onOverview: () => void;
+  assessments?: Dashboard['assessments']; runtime: RuntimeInfo; asOf: string; mobileOpen: boolean; onClose: () => void; savedCandidateIds: Set<string>; showOverview: boolean; onOverview: () => void;
 }) {
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState('target');
@@ -132,7 +135,7 @@ function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobile
         {filtered.map((candidate) => { const actionDate = candidateActionDate(candidate); return <button className={`candidate-item ${candidate.id === selectedId && !showOverview ? 'selected' : ''}`} key={candidate.id} aria-current={candidate.id === selectedId && !showOverview ? 'page' : undefined} onClick={() => { onSelect(candidate.id); onClose(); }}>
           <CompanyLogos candidateId={candidate.id} compact /><div className="candidate-item-copy"><div className="candidate-item-heading"><strong>{candidate.drug}</strong>{savedCandidateIds.has(candidate.id) && <span className="candidate-research-badge" title="Saved Astra investigation available"><ScanSearch size={11} /><span className="sr-only">Saved Astra research available</span></span>}</div>
           <p>{candidate.indication}</p>
-          <div className="candidate-item-footer"><span>{actionDate.completed && `${actionDate.shortLabel} · `}{actionDate.date ? formatDate(actionDate.date, { month: 'short', day: 'numeric', year: undefined }) : 'Date unknown'}</span></div></div>
+          <div className="candidate-item-footer"><span>{actionDate.completed && `${actionDate.shortLabel} · `}{actionDate.date ? formatDate(actionDate.date, { month: 'short', day: 'numeric', year: undefined }) : 'Date unknown'}</span><OutlookBadge category={candidateOutlook(candidate, assessments?.[candidate.id])} compact /></div></div>
         </button>; })}
         {!filtered.length && <div className="rail-empty">{query ? 'No candidates match your search.' : 'No candidates published yet.'}</div>}
       </nav>
@@ -230,6 +233,7 @@ function InvestigationView({ candidate, runtime, investigation, busy, progress, 
     {busy && partialFindings.length > 0 && <section className="section"><div className="section-heading"><h2>Emerging findings</h2><Tag>In progress</Tag></div>{partialFindings.map((finding, index) => <FindingCard finding={finding} index={index} sources={sources} onOpenSources={onOpenSources} key={finding.id} />)}</section>}
     {investigation && !loadingRun && <>
       <div className={`run-provenance ${investigation.provenance}`}><span className="run-provenance-kind">{investigation.provenance === 'recorded' ? <Clock3 size={13} /> : <CircleCheck size={13} />}{investigation.provenance === 'recorded' ? 'Recorded Astra run' : 'Completed live run'}</span><span>{formatDate(investigation.createdAt)}</span><button className="text-button export-run" onClick={exportRun}><Download size={12} />Export brief</button></div>
+      {investigation.tools && <ResearchTrace tools={investigation.tools} onSources={onOpenSources} />}
       {investigation.mode === 'challenge' && <details className="challenged-question"><summary><span>Challenge question</span><ChevronDown size={13} /></summary><p>“{investigation.question}”</p></details>}
       <InvestigationChanges investigation={investigation} onOpenSources={onOpenSources} />
       <section className="outlook-panel"><h2>{investigation.outlook.verdict}</h2><p>{investigation.summary}</p><div className="outlook-timing"><CalendarDays size={17} /><div><span>Timing assessment</span><p>{investigation.outlook.timing}</p></div></div><details className="probability-note disclosure"><summary><Activity size={14} /><span>{investigation.outlook.probability != null ? `${Math.round(investigation.outlook.probability * 100)}% · Astra estimate` : 'No candidate-specific probability assigned'}</span><ChevronDown size={13} /></summary><p>{investigation.outlook.probabilityBasis}</p></details></section>
@@ -403,7 +407,7 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
   const loadRun = async (id: string, expectedCandidateId = selectedId) => {
-    if (busy) return;
+    if (busy && expectedCandidateId === selectedId) return;
     historyRequestRef.current?.abort();
     const controller = new AbortController(); historyRequestRef.current = controller;
     setLoadingRun(true); setInvestigationError(null); setView('analysis');
@@ -411,6 +415,7 @@ export default function App() {
       const response = await fetch(apiDataUrl(`/api/investigations/${encodeURIComponent(id)}`), { signal: controller.signal });
       if (!response.ok) throw new Error('The saved investigation could not be loaded.');
       const run = await response.json() as Investigation;
+      if (controller.signal.aborted || historyRequestRef.current !== controller) return;
       if (run.candidateId !== expectedCandidateId) throw new Error('This investigation belongs to a different candidate.');
       setInvestigation(run);
     } catch (error) { if (!controller.signal.aborted) setInvestigationError(error instanceof Error ? error.message : 'Could not load the investigation.'); }
@@ -424,6 +429,8 @@ export default function App() {
   };
   const runInvestigation = async (mode: 'investigate' | 'challenge' = 'investigate', question?: string) => {
     if (!candidate || busy || !dashboard?.runtime.configured) return;
+    historyRequestRef.current?.abort();
+    setLoadingRun(false);
     const sequence = ++runSequence.current;
     const controller = new AbortController(); requestRef.current = controller;
     setBusy(true); setView('analysis'); setProgress([{ stage: 'connecting', message: 'Requesting a live investigation from the Astra research service.' }]); setPartialFindings([]); setInvestigationError(null);
@@ -444,6 +451,7 @@ export default function App() {
             const hasNewerRun = current.investigations.some((item) => item.candidateId === run.candidateId && item.createdAt > run.createdAt);
             return { ...current, evidenceSourcesByCandidate: { ...current.evidenceSourcesByCandidate, [run.candidateId]: hasNewerRun ? mergeSourceRecords(run.sources, manifest) : mergeSourceRecords(manifest, run.sources) }, investigations: [{ id: run.id, candidateId: run.candidateId, model: run.model, createdAt: run.createdAt, mode: run.mode, provenance: run.provenance, summary: run.summary }, ...current.investigations.filter((item) => item.id !== run.id)].sort((a, b) => b.createdAt.localeCompare(a.createdAt)) };
           });
+          if (event.investigation.evidenceAssessment) void loadDashboard();
         }
       });
     } catch (error) {
@@ -453,12 +461,12 @@ export default function App() {
 
   if (!dashboard) return <div className="boot-screen"><Logo /><div className="boot-panel">{loadError ? <><CircleAlert size={28} /><h1>Evidence service unavailable</h1><p>{loadError}</p><p className="muted">Check that the API server is running, then retry.</p><button className="primary-button" onClick={() => void loadDashboard()} disabled={refreshing}><RefreshCw className={refreshing ? 'spin' : ''} size={15} />Retry connection</button></> : <><LoaderCircle size={28} className="spin" /><h1>Opening the research desk</h1><p>Loading public evidence and model results…</p></>}</div></div>;
 
-  return <div className="app-shell"><CandidateRail candidates={dashboard.catalog.candidates} selectedId={selectedId} onSelect={selectCandidate} runtime={dashboard.runtime} asOf={dashboard.catalog.asOf} mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} savedCandidateIds={new Set(dashboard.investigations.map((run) => run.candidateId))} showOverview={showOverview} onOverview={() => { setShowOverview(true); window.scrollTo({ top: 0, behavior: 'instant' }); }} />
+  return <div className="app-shell"><CandidateRail candidates={dashboard.catalog.candidates} selectedId={selectedId} onSelect={selectCandidate} runtime={dashboard.runtime} asOf={dashboard.catalog.asOf} assessments={dashboard.assessments} mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} savedCandidateIds={new Set(dashboard.investigations.map((run) => run.candidateId))} showOverview={showOverview} onOverview={() => { setShowOverview(true); window.scrollTo({ top: 0, behavior: 'instant' }); }} />
     <div className="workspace"><header className="topbar"><div className="topbar-location"><button className="icon-button mobile-menu" onClick={() => setMobileOpen(true)} aria-label="Open candidate navigation"><Menu size={19} /></button><span className="topbar-product">Approval Radar</span><ChevronRight size={12} /><span>{showOverview ? 'All candidates' : view === 'validation' ? 'Model validation' : candidate?.drug ?? 'Research desk'}</span></div><div className="topbar-right"><Tag tone="blue">{STATIC_DEMO ? 'Public demo' : 'Research beta'}</Tag><button className="icon-button" onClick={() => void loadDashboard()} disabled={refreshing || busy} aria-label="Reload evidence catalog" title="Reload evidence catalog"><RefreshCw size={14} className={refreshing ? 'spin' : ''} /></button></div></header>
     <main className="main-content">{loadError && <div className="error-banner" role="alert"><CircleAlert size={15} /><p>Refresh failed. Showing the last loaded catalog. {loadError}</p></div>}
-      {showOverview ? <CandidateOverview dashboard={dashboard} selectedCandidate={candidate} onResume={() => setShowOverview(false)} onSelect={(id, analysis) => { selectCandidate(id); if (analysis) { const run = dashboard.investigations.find((item) => item.candidateId === id); if (run) void loadRun(run.id, id); } }} renderLogo={(item) => <CompanyLogos candidateId={item.id} compact />} onSources={setSourceIds} extraSources={Object.fromEntries(dashboard.catalog.candidates.map((item) => [item.id, mergeSourceRecords(investigation?.candidateId === item.id ? investigation.sources : [], researchSources[item.id] ?? [], dashboard.evidenceSourcesByCandidate?.[item.id] ?? [], dossiers[item.id]?.sources ?? [])]))} /> : candidate ? <><CandidateHeader candidate={candidate} sourceCount={candidateSourceIds.length} onOpenSources={() => setSourceIds(candidateSourceIds)} /><div className="view-tabs" role="tablist" aria-label="Research view">{([{ id: 'evidence', label: 'Evidence desk', icon: BookOpen }, { id: 'analysis', label: 'Astra investigation', icon: ScanSearch }, { id: 'sources', label: 'Evidence map', icon: Network }, { id: 'validation', label: 'Model validation', icon: FlaskConical }] as const).map((tab) => <button key={tab.id} id={`tab-${tab.id}`} role="tab" aria-selected={view === tab.id} aria-controls={`panel-${tab.id}`} className={view === tab.id ? 'active' : ''} onClick={() => tab.id === 'analysis' ? openAnalysis() : setView(tab.id)}><tab.icon size={15} />{tab.label}{tab.id === 'analysis' && busy && <span className="tab-working" />}</button>)}</div>
+      {showOverview ? <CandidateOverview dashboard={dashboard} selectedCandidate={candidate} onResume={() => setShowOverview(false)} onSelect={(id, analysis, runId) => { selectCandidate(id); if (!analysis) setView('evidence'); if (analysis) { const run = dashboard.investigations.find((item) => item.candidateId === id && (!runId || item.id === runId)); if (run) void loadRun(run.id, id); } }} renderLogo={(item) => <CompanyLogos candidateId={item.id} compact />} onSources={setSourceIds} extraSources={Object.fromEntries(dashboard.catalog.candidates.map((item) => [item.id, mergeSourceRecords(investigation?.candidateId === item.id ? investigation.sources : [], researchSources[item.id] ?? [], dashboard.evidenceSourcesByCandidate?.[item.id] ?? [], dossiers[item.id]?.sources ?? [])]))} /> : candidate ? <><CandidateHeader candidate={candidate} sourceCount={candidateSourceIds.length} onOpenSources={() => setSourceIds(candidateSourceIds)} /><div className="view-tabs" role="tablist" aria-label="Research view">{([{ id: 'evidence', label: 'Evidence desk', icon: BookOpen }, { id: 'analysis', label: 'Astra investigation', icon: ScanSearch }, { id: 'sources', label: 'Evidence map', icon: Network }, { id: 'validation', label: 'Model validation', icon: FlaskConical }] as const).map((tab) => <button key={tab.id} id={`tab-${tab.id}`} role="tab" aria-selected={view === tab.id} aria-controls={`panel-${tab.id}`} className={view === tab.id ? 'active' : ''} onClick={() => tab.id === 'analysis' ? openAnalysis() : setView(tab.id)}><tab.icon size={15} />{tab.label}{tab.id === 'analysis' && busy && <span className="tab-working" />}</button>)}</div>
         <div role="tabpanel" id={`panel-${view}`} aria-labelledby={`tab-${view}`}>
-          {view === 'evidence' && <ResearchDesk candidate={candidate} sources={allSources} onOpenSources={setSourceIds} runtime={dashboard.runtime} onInvestigate={() => void runInvestigation()} busy={busy} onAnalysis={openAnalysis} hasInvestigation={!!investigation} model={dashboard.model} onValidation={() => setView('validation')} savedRun={dashboard.investigations.find((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} />}
+          {view === 'evidence' && <><AssessmentView key={candidate.id} candidate={candidate} assessment={dashboard.assessments?.[candidate.id]} onSources={setSourceIds} onInvestigation={openAnalysis} /><ResearchDesk candidate={candidate} sources={allSources} onOpenSources={setSourceIds} runtime={dashboard.runtime} onInvestigate={() => void runInvestigation()} busy={busy} onAnalysis={openAnalysis} hasInvestigation={!!investigation} model={dashboard.model} onValidation={() => setView('validation')} savedRun={dashboard.investigations.find((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} /></>}
           {view === 'analysis' && <InvestigationView candidate={candidate} runtime={dashboard.runtime} investigation={investigation} busy={busy} progress={progress} partialFindings={partialFindings} error={investigationError} sources={allSources} onOpenSources={setSourceIds} onRun={(mode, question) => void runInvestigation(mode, question)} onCancel={() => requestRef.current?.abort()} history={dashboard.investigations.filter((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} loadingRun={loadingRun} />}
           {view === 'sources' && <EvidenceMap sources={allSources.filter((source) => candidateSourceIds.includes(source.id))} dossier={dossiers[candidate.id]} gathering={gatheringEvidence} loading={loadingDossier} error={evidenceError} staticDemo={STATIC_DEMO} onGather={() => void gatherEvidence()} onSources={setSourceIds} />}
           {view === 'validation' && <ValidationView model={dashboard.model} coverage={dashboard.catalog.coverage} />}

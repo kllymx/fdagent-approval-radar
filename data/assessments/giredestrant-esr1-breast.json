@@ -1,0 +1,54 @@
+{
+  "category": "insufficient",
+  "summary": "Roche reports an accepted combination NDA, but the packet lacks interpretable ESR1-mutated efficacy results. Safety and manufacturing remain unassessed; overall-population or adjuvant results cannot substitute for evidence supporting this application.",
+  "pivotalQuestion": "What are evERA’s ESR1-mutated PFS effect estimate, uncertainty, and combination safety findings?",
+  "sourceIds": [
+    "roche-gired-advanced",
+    "roche-hy-2026",
+    "trial-nct05306340"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "evERA is randomized phase 3, but no interpretable ESR1-mutated PFS results are supplied. The packet explicitly cautions against substituting overall-population estimates.",
+      "sourceIds": [
+        "trial-nct05306340",
+        "roche-gired-advanced"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No combination safety findings are supplied; tolerability and treatment-related harms cannot be assessed.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility compliance, or CMC review evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Roche reported NDA acceptance and a December 18 review target; July’s update continued listing the combination filing. These support review progress, not efficacy or approval.",
+      "sourceIds": [
+        "roche-gired-advanced",
+        "roche-hy-2026"
+      ]
+    }
+  ],
+  "candidateId": "giredestrant-esr1-breast",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:34.745Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "5212c97c7318f582a74fd68170f4e87f0c0663b108fb294f2e7a1fd013c4b240",
+  "responseId": "resp_01c95b4098bc764e016aa303f3192c87d2a2584de0e88fac21",
+  "usage": {
+    "inputTokens": 1891,
+    "outputTokens": 926
+  }
+}

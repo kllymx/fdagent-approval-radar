@@ -1,0 +1,718 @@
+{
+  "summary": "Yes. Dedicated hypertension trials provide substantive, concordant blood-pressure efficacy evidence supporting the lorundrostat NDA. This warrants upgrading a sparse-packet assessment to clinically supportive but overall mixed—not an unqualified favorable assessment—because electrolyte and renal safety remain material review questions. The justification is published 2025 results, not new September 2026 clinical data. Explore-OSA’s failed sleep-apnea endpoint does not negate the separate hypertension results.",
+  "outlook": {
+    "verdict": "Clinically supportive NDA; overall mixed evidence because safety management remains consequential and manufacturing readiness is unverified.",
+    "timing": "Mineralys reported a December 22, 2026 PDUFA action target on March 9 and reaffirmed it on August 11, the latest dated review update available here. That is an FDA action goal, not an approval date. The evidence does not establish whether approval, another action, or a changed review timetable will result.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline provides receipt-year, review-class context for original applications, with current approval-rate references drawn from FY2017–2023 cohorts. Lorundrostat is an original NDA, but its standard/priority classification is not explicitly established in these sources. Cohort rates do not validate an individual approval probability; action-timeliness estimates are separate and cannot be combined with approval rates."
+  },
+  "findings": [
+    {
+      "id": "launch-efficacy",
+      "title": "Launch-HTN demonstrated a substantial placebo-adjusted office BP reduction",
+      "detail": "The JAMA report, published online June 30, 2025, describes 1,083 randomized participants receiving two to five background antihypertensives. At week 6, pooled lorundrostat 50 mg reduced automated office systolic BP by 16.9 mmHg versus 7.9 mmHg with placebo; the modeled difference was −9.1 mmHg (95% CI −13.3 to −4.9; P<.001). This matches the registered primary endpoint and directly supports adjunctive hypertension treatment. The pooled active analysis population of 808 should not be confused with total randomized enrollment.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-9c75f179c9ea",
+        "trial-NCT06153693"
+      ]
+    },
+    {
+      "id": "advance-efficacy",
+      "title": "Advance-HTN independently supports sustained 24-hour BP lowering",
+      "detail": "The April 23, 2025 NEJM abstract reports 285 randomized participants after a standardized background-treatment run-in. At week 12, 24-hour ambulatory systolic BP changed by −15.4 mmHg with fixed 50 mg, −13.9 mmHg with the dose-adjustment strategy, and −7.4 mmHg with placebo. Placebo-adjusted differences were −7.9 mmHg (97.5% CI −13.3 to −2.6) and −6.5 mmHg (97.5% CI −11.8 to −1.2), respectively. Mineralys separately reported the fixed-dose result. This is complementary ambulatory evidence, not another office-BP measurement; the comparisons do not establish incremental benefit from escalation to 100 mg.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b1bfd2635cc4",
+        "web-126f205fa8c3",
+        "trial-NCT05769608"
+      ]
+    },
+    {
+      "id": "safety-balance",
+      "title": "Hyperkalemia is an observed candidate-specific risk, not merely a theoretical class concern",
+      "detail": "Advance-HTN reported potassium above 6.0 mmol/L in 5 participants (5%) on fixed 50 mg and 7 (7%) in the dose-adjustment group, versus none on placebo. Launch-HTN reported the same laboratory threshold in 1.1%, 1.5%, and 0.7%, respectively. These laboratory excursions are not interchangeable with adverse-event coding or discontinuation rates. In Launch’s fixed-dose group, discontinuations attributed to hyperkalemia, hyponatremia, and reduced kidney function were 2, 2, and 3 participants; serious adverse events occurred in 2.2% versus 3.0% on placebo. Thus, low discontinuation rates are reassuring but do not erase electrolyte and renal risks. The JAMA discussion notes different background regimens, including high-dose ARB treatment in Advance; cross-trial differences do not prove that the risk disappeared. Controlled follow-up lasted only 12 weeks.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-b1bfd2635cc4",
+        "web-9c75f179c9ea"
+      ]
+    },
+    {
+      "id": "osa-distinction",
+      "title": "Explore-OSA failed its sleep-apnea endpoint—not the hypertension NDA’s pivotal endpoints",
+      "detail": "Mineralys reported that the 48-participant Explore-OSA trial did not demonstrate a clinically meaningful placebo-relative improvement in apnea-hypopnea index after four weeks. It separately reported BP reductions, including a 6.2 mmHg placebo-adjusted crossover result. That BP signal cannot rescue the failed AHI endpoint or establish an OSA treatment claim. Conversely, an AHI failure does not invalidate the positive, dedicated hypertension trials. The current application is for hypertension with other antihypertensive drugs.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-657d4fe4b2bc"
+      ]
+    },
+    {
+      "id": "regulatory-status",
+      "title": "Ongoing review is documented by the sponsor, but FDA’s substantive conclusions remain unavailable",
+      "detail": "The August 11, 2026 sponsor update reiterates ongoing NDA review and the December 22 target. Mineralys also states that Transform-HTN supported the submission and continues to generate long-term data. These are process facts and sponsor representations—not FDA confirmation that the benefit-risk balance, dose, label, or safety database is acceptable. The available evidence does not establish a candidate-specific FDA objection, but it also does not expose the agency’s review correspondence.",
+      "direction": "supportive",
+      "sourceIds": [
+        "mlys-q2-2026",
+        "web-5b08c2b3bf15"
+      ]
+    },
+    {
+      "id": "manufacturing-unknown",
+      "title": "Third-party manufacturing dependence is documented; a current CMC defect or clearance is not",
+      "detail": "Mineralys’ FY2025 Form 10-K identifies dependence on third-party manufacturers for lorundrostat and the potential consequences of noncompliance or missed deadlines. The August 2026 disclosure continues to identify third-party manufacturing dependence. These disclosures establish an execution dependency, not an actual manufacturing failure. The available evidence does not document an NDA-linked site/FEI, product-specific inspection outcome, or resolved CMC assessment. Commercial launch preparations cannot substitute for manufacturing clearance.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-f0904957c144",
+        "web-5b08c2b3bf15"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Integrated NDA and Transform-HTN safety results: long-term exposure, recurrent potassium excursions, sodium abnormalities, kidney-function changes, and treatment interventions by dose, baseline renal function, and background therapy.",
+    "FDA’s clinical and statistical assessment of Launch-HTN and Advance-HTN, including missing-data sensitivity analyses, proposed dose, renal eligibility, and laboratory-monitoring requirements.",
+    "Documented linkage between lorundrostat’s NDA and drug-substance/drug-product facilities, followed by product-relevant inspection outcomes and CMC deficiency or resolution disclosures.",
+    "A subsequent FDA or sponsor action update confirming whether December 22 remains the applicable goal and distinguishing any extension from a complete response or approval."
+  ],
+  "limitations": [
+    "No previous investigation was supplied, so no actual earlier rating or wording can be compared. The upgrade describes what the expanded evidence supports relative to a sparse packet, not a correction of a documented prior report.",
+    "Launch-HTN publication excerpts include efficacy, safety-table information, and limitations. Advance-HTN evidence includes the journal abstract and sponsor disclosure, not its complete article and supplementary safety analyses.",
+    "The current trial records contain protocols but no posted results. Numerical efficacy conclusions come from the clinical reports, not study completion or registry enrollment.",
+    "The controlled studies lasted 12 weeks. These BP findings do not themselves establish cardiovascular-event reduction, comparative superiority over an active treatment, or unrestricted long-term safety.",
+    "FDA review correspondence, the complete integrated safety package, and product-linked manufacturing inspection conclusions are not available in this evidence set. Unknown status is neither clearance nor evidence of failure.",
+    "The evidence added here predates the September 10, 2026 assessment date. Current registry snapshots should not be treated as historical protocol versions."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept the demonstrated BP benefit relative to electrolyte and renal risks for the proposed adjunctive population and dosing regimen?",
+    "bullCase": {
+      "claim": "Two randomized trials show consistent placebo-adjusted systolic BP reductions using complementary office and 24-hour ambulatory measurements. Launch-HTN reported few discontinuations for key laboratory-related events. The separate AHI failure does not undermine these hypertension endpoints.",
+      "sourceIds": [
+        "web-9c75f179c9ea",
+        "web-b1bfd2635cc4",
+        "web-657d4fe4b2bc"
+      ]
+    },
+    "bearCase": {
+      "claim": "Advance-HTN’s potassium excursions and Launch-HTN’s electrolyte and renal adverse findings could materially affect patient selection, dosing, and monitoring. Lower rates in another trial do not resolve that issue, and short controlled follow-up cannot establish the entire chronic-use safety profile.",
+      "sourceIds": [
+        "web-b1bfd2635cc4",
+        "web-9c75f179c9ea"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does the integrated long-term safety analysis show that potassium, sodium, and renal risks remain manageable in the intended population under the proposed label?",
+      "whyItMatters": "This would distinguish a reproducible BP benefit with workable safety controls from a benefit-risk profile requiring substantial restrictions or additional evidence. CMC acceptability remains a separate approval prerequisite.",
+      "sourceIds": [
+        "web-b1bfd2635cc4",
+        "web-9c75f179c9ea",
+        "web-5b08c2b3bf15",
+        "web-f0904957c144"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit-risk accepted with monitoring",
+        "trigger": "FDA accepts both pivotal BP analyses, finds the integrated safety controls adequate, and completes a satisfactory CMC assessment.",
+        "implication": "An adjunctive hypertension approval becomes supportable, potentially with laboratory monitoring and renal-use boundaries. This would not establish an OSA indication.",
+        "sourceIds": [
+          "web-9c75f179c9ea",
+          "web-b1bfd2635cc4",
+          "web-657d4fe4b2bc",
+          "web-f0904957c144"
+        ]
+      },
+      {
+        "label": "Safety constrains the application",
+        "trigger": "Integrated analyses show clinically consequential recurrent electrolyte or renal events, or inadequate safety support for the proposed population or dose.",
+        "implication": "FDA could require narrower use, different dosing or monitoring, or additional evidence despite positive BP efficacy.",
+        "sourceIds": [
+          "web-b1bfd2635cc4",
+          "web-9c75f179c9ea"
+        ]
+      },
+      {
+        "label": "Quality or review issue changes timing",
+        "trigger": "A documented NDA-linked CMC deficiency or significant additional information request emerges.",
+        "implication": "The calendar outlook would need revision independently of BP efficacy. A review extension would not itself be a complete response; a complete response would remain an intermediate setback.",
+        "sourceIds": [
+          "web-f0904957c144",
+          "web-5b08c2b3bf15"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How does management reconcile potassium above 6.0 mmol/L in Advance-HTN with lower rates in Launch-HTN, accounting for background ARB dose, renal function, monitoring, and treatment interruptions?",
+        "whyItMatters": "A patient-level explanation is more decision-useful than comparing aggregate percentages across different trial regimens.",
+        "sourceIds": [
+          "web-b1bfd2635cc4",
+          "web-9c75f179c9ea"
+        ]
+      },
+      {
+        "question": "What dosing regimen and renal/potassium eligibility are proposed in the NDA, and what evidence supports any escalation beyond 50 mg?",
+        "whyItMatters": "Both Advance strategies beat placebo, but those comparisons do not establish that escalation adds benefit sufficient to offset additional safety burden.",
+        "sourceIds": [
+          "web-b1bfd2635cc4",
+          "trial-NCT06153693"
+        ]
+      },
+      {
+        "question": "Which drug-substance and drug-product facilities are listed in this NDA, and what product-linked CMC or inspection issues remain open?",
+        "whyItMatters": "The disclosed outsourcing dependency cannot be translated into either a quality concern or clearance without exact facility linkage and current regulatory evidence.",
+        "sourceIds": [
+          "web-f0904957c144",
+          "web-5b08c2b3bf15"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Dedicated trials support adjunctive hypertension efficacy, warranting an upgrade from sparse evidence. Observed electrolyte and renal risks remain consequential; the separate OSA endpoint failure does not negate BP efficacy. Manufacturing acceptability is unknown.",
+    "pivotalQuestion": "Can the demonstrated BP benefit be delivered with acceptable electrolyte and renal safety in the proposed population?",
+    "sourceIds": [
+      "web-9c75f179c9ea",
+      "web-b1bfd2635cc4",
+      "web-657d4fe4b2bc",
+      "web-f0904957c144"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Launch-HTN and Advance-HTN demonstrated placebo-adjusted office and ambulatory systolic BP reductions. Explore-OSA’s AHI failure concerns a different endpoint and indication.",
+        "sourceIds": [
+          "web-9c75f179c9ea",
+          "web-b1bfd2635cc4",
+          "web-657d4fe4b2bc"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Advance-HTN showed potassium excursions absent on placebo. Launch-HTN had few related discontinuations but more electrolyte and renal events; chronic-use risk management remains unresolved.",
+        "sourceIds": [
+          "web-b1bfd2635cc4",
+          "web-9c75f179c9ea"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Third-party manufacturing dependence is disclosed, but no product-linked inspection conclusion or CMC resolution establishes current manufacturing acceptability.",
+        "sourceIds": [
+          "web-f0904957c144",
+          "web-5b08c2b3bf15"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Mineralys reports NDA acceptance and ongoing review with a December 22 target. This supports process progress, not FDA acceptance of efficacy, safety, or manufacturing.",
+        "sourceIds": [
+          "web-657d4fe4b2bc",
+          "mlys-q2-2026"
+        ]
+      }
+    ]
+  },
+  "id": "81c770af-1792-4d25-9124-b9c01b983dfb",
+  "candidateId": "lorundrostat-hypertension",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:26:02.982Z",
+  "mode": "investigate",
+  "question": "Does the publicly reported hypertension evidence support the current lorundrostat NDA? Inspect actual blood-pressure efficacy and safety results and candidate-specific regulatory or manufacturing risks. Distinguish the failed obstructive-sleep-apnea endpoint from the hypertension indication. Identify whether the evidence warrants upgrading a sparse initial packet assessment, what sources justify that, and what remains unresolved.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "mlys-lorund-acceptance",
+      "title": "Mineralys: lorundrostat NDA accepted; separate OSA trial result",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for",
+      "publisher": "Mineralys Therapeutics",
+      "publishedAt": "2026-03-09",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Mineralys reported FDA acceptance of lorundrostat for adult hypertension as an adjunct to other therapies, with a December 22 target, supported by Launch-HTN and Advance-HTN. In the same release, the separate Explore-OSA trial missed its apnea-hypopnea-index primary endpoint despite a blood-pressure signal. Hypertension and sleep-apnea endpoints are different claims."
+    },
+    {
+      "id": "trial-nct06153693",
+      "title": "ClinicalTrials.gov: NCT06153693 · Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+      "url": "https://clinicaltrials.gov/study/NCT06153693",
+      "publisher": "ClinicalTrials.gov / Mineralys Therapeutics Inc.",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 1083 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05769608",
+      "title": "ClinicalTrials.gov: NCT05769608 · A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+      "url": "https://clinicaltrials.gov/study/NCT05769608",
+      "publisher": "ClinicalTrials.gov / Mineralys Therapeutics Inc.",
+      "publishedAt": "2026-01-20",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 285 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "mlys-q2-2026",
+      "title": "Mineralys: ongoing lorundrostat NDA review",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/111/mineralys-therapeutics-reports-second-quarter-2026",
+      "publisher": "Mineralys Therapeutics",
+      "publishedAt": "2026-08-11",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Mineralys reaffirmed ongoing FDA review of lorundrostat for hypertension with other antihypertensive drugs and the December 22 target. Its commercial preparations are conditional on approval."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05769608",
+      "title": "A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+      "url": "https://clinicaltrials.gov/study/NCT05769608",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-01-20",
+      "retrievedAt": "2026-09-10T18:56:15.367Z",
+      "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06153693",
+      "title": "Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+      "url": "https://clinicaltrials.gov/study/NCT06153693",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:56:15.367Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40587141",
+      "title": "Lorundrostat in Participants With Uncontrolled Hypertension and Treatment-Resistant Hypertension: The Launch-HTN Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40587141/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in JAMA; publication date 2025 Aug 5. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40267417",
+      "title": "Lorundrostat Efficacy and Safety in Patients with Uncontrolled Hypertension.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40267417/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2025 May 8. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38616212",
+      "title": "Systematic Review Article: New Drug Strategies for Treating Resistant Hypertension-the Importance of a Mechanistic, Personalized Approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38616212/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension; publication date 2024 Mar. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40901557",
+      "title": "The Emerging Role of Aldosterone Synthase Inhibitors in Overcoming Renin-Angiotensin-Aldosterone System Therapy Limitations: A Narrative Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40901557/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in Cardiac failure review; publication date 2025. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39152532",
+      "title": "First-in-human study evaluating safety, pharmacokinetics, and pharmacodynamics of lorundrostat, a novel and highly selective aldosterone synthase inhibitor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39152532/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in Clinical and translational science; publication date 2024 Aug. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT06153693",
+      "title": "Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+      "url": "https://clinicaltrials.gov/study/NCT06153693",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T19:26:13.100Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06153693; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT05769608",
+      "title": "A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+      "url": "https://clinicaltrials.gov/study/NCT05769608",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-01-20",
+      "retrievedAt": "2026-09-10T19:26:13.130Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05769608; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-9c75f179c9ea",
+      "title": "Lorundrostat in Participants With Uncontrolled Hypertension and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12210145/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:38.192Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-126f205fa8c3",
+      "title": "Mineralys Therapeutics Announces Publication of Pivotal Phase 2 ...",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/67/mineralys-therapeutics-announces-publication-of-pivotal",
+      "publisher": "ir.mineralystx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:16.918Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-662fa02ce638",
+      "title": "Lorundrostat Efficacy and Safety in Patients With Uncontrolled ...",
+      "url": "https://www.acc.org/latest-in-cardiology/clinical-trials/2025/03/27/15/49/advance-htn",
+      "publisher": "www.acc.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:16.919Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-657d4fe4b2bc",
+      "title": "Mineralys Therapeutics Announces FDA Acceptance of NDA for ...",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for",
+      "publisher": "ir.mineralystx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:22.371Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2beb7bf9b2b9",
+      "title": "Mineralys Therapeutics Reports First Quarter 2026 Financial Results and ...",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/100/mineralys-therapeutics-reports-first-quarter-2026-financial",
+      "publisher": "ir.mineralystx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:22.371Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5b08c2b3bf15",
+      "title": "Mineralys Therapeutics Reports Second Quarter 2026 Financial ...",
+      "url": "https://www.biospace.com/press-releases/mineralys-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update",
+      "publisher": "www.biospace.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:22.372Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1159e33dd714",
+      "title": "Mineralys FDA NDA Acceptance: Lorundrostat PDUFA Dec 2026",
+      "url": "https://www.pharmanow.live/latest-news/mineralys-therapeutics-fda-nda-acceptance-lorundrostat-december-2026-pdufa",
+      "publisher": "www.pharmanow.live",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:22.372Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b1bfd2635cc4",
+      "title": "Lorundrostat Efficacy and Safety in Patients with Uncontrolled ...",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2501440",
+      "publisher": "www.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:38.192Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a3e04b6ab0a5",
+      "title": "Lorundrostat Shows Efficacy in Uncontrolled Hypertension in",
+      "url": "https://www.kidneynews.org/view/journals/kidney-news/17/6/article-p25_14.xml",
+      "publisher": "www.kidneynews.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:38.193Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d85b66bf7499",
+      "title": "Lorundrostat for Uncontrolled Hypertension and... : JAMA",
+      "url": "https://journals.lww.com/00005407-202511250-00029",
+      "publisher": "journals.lww.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:38.193Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c858933334f9",
+      "title": "Mineralys Therapeutics - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1933414/000162828023001171/mineralys-sx1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:27:02.374Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1f575ed9af51",
+      "title": "Form 10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1933414/000193341423000012/mlys2022123110k.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:26:42.706Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-70b9f0b223e4",
+      "title": "mlys-20251231",
+      "url": "https://ir.mineralystx.com/sec-filings/all-sec-filings/content/0001933414-26-000056/mlys-20251231.htm",
+      "publisher": "ir.mineralystx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:27:02.369Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f0904957c144",
+      "title": "[PDF] 10-K - Mineralys Therapeutics, Inc. (MLYS)",
+      "url": "https://ir.mineralystx.com/sec-filings/all-sec-filings/content/0001933414-26-000056/0001933414-26-000056.pdf",
+      "publisher": "ir.mineralystx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:27:02.371Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-af17fbe93834",
+      "title": "[PDF] Alnylam 2025 Annual Report",
+      "url": "https://investors.alnylam.com/sites/default/files/pdfs/alnylam-2025-annual-report.pdf",
+      "publisher": "investors.alnylam.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T19:27:02.376Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 327041,
+    "outputTokens": 5396
+  },
+  "durationMs": 151988,
+  "tools": [
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 3
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "mlys-lorund-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "mlys-q2-2026"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06153693"
+      },
+      "status": "completed",
+      "durationMs": 81
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05769608"
+      },
+      "status": "completed",
+      "durationMs": 30
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "lorundrostat Launch-HTN Advance-HTN trial 2025 full text blood pressure results hyperkalemia hyponatremia 50 mg JAMA NEJM"
+      },
+      "status": "completed",
+      "durationMs": 3788
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Mineralys lorundrostat NDA 2026 September FDA manufacturing inspection CMC deficiencies December 22"
+      },
+      "status": "completed",
+      "durationMs": 5453
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-9c75f179c9ea",
+        "query": "Table 3."
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"NEJMoa2501440\" \"potassium\" \"6.0\" full text"
+      },
+      "status": "completed",
+      "durationMs": 8846
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov/Archives/edgar/data/1933414/ 2026 lorundrostat \"manufacturing\" \"inspection\""
+      },
+      "status": "completed",
+      "durationMs": 4515
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-9c75f179c9ea",
+        "query": "Limitations"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Mineralys \"2026\" \"lorundrostat\" \"manufacturers\" \"10-Q\""
+      },
+      "status": "completed",
+      "durationMs": 4991
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_093a302e03f08573016aa304869ff487d2b73ef7374815b71e",
+    "inputHash": "60eaa3db2b32f0980221fb4161fb580e337a2c9e5ba422ac38defc779064126b"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:31:04.189Z",
+    "originalSha256": "0e76b8ddbbc512a347f57e8d2b40a85a8b07a749af59f737171e840ce09674e7",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

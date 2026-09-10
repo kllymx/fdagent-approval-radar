@@ -1,0 +1,62 @@
+{
+  "category": "mixed",
+  "summary": "Roche reports one positive and one failed TED pivotal trial. The prior Astra review describes weak SatraGO-1 mean-proptosis results and descriptive secondary analyses, leaving efficacy sufficiency and label scope unresolved.",
+  "pivotalQuestion": "Does the totality of prespecified evidence establish clinically meaningful TED benefit for the proposed population despite SatraGO-1’s primary failure and weak mean-proptosis results?",
+  "sourceIds": [
+    "roche-satral-acceptance",
+    "trial-NCT05987423",
+    "trial-NCT06106828",
+    "web-9da9e7d2debd"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Roche reports SatraGO-2 met the primary endpoint; SatraGO-1 missed. The prior Astra review notes anti-inflammatory activity in both, but weak SatraGO-1 mean-proptosis results and only descriptive secondary analyses.",
+      "sourceIds": [
+        "roche-satral-acceptance",
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "mixed",
+      "rationale": "The prior Astra review reports similar Week 24 serious-event counts and no deaths, but more ALT elevations and neutrophil decreases in SatraGO-2; severity and longer-term safety remain unresolved.",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The prior Astra review identifies an earlier CMC supplement approval, but no manufacturing assessment linked to the TED application. That earlier action does not establish clearance for this supplement.",
+      "sourceIds": [
+        "evidence-approvals-BLA761149"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Roche reports priority sBLA acceptance and an October 15 review target; July’s update retains the filing. Neither acceptance nor prior NMOSD approval establishes TED efficacy or FDA agreement on label scope.",
+      "sourceIds": [
+        "roche-satral-acceptance",
+        "roche-hy-2026"
+      ]
+    }
+  ],
+  "candidateId": "satralizumab-ted",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:51.561Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "investigation",
+  "basedOnRunId": "88baf4b3-0ec3-4dd4-b344-34a8b1e170ab",
+  "inputHash": "7131ac745e0bb6ea3dcbe91ac2f04335b01afe1457633167383ea1bcecb19822",
+  "responseId": "resp_06cc44e383fea8db016aa303c7b10887d29e57238271b0c996",
+  "usage": {
+    "inputTokens": 9029,
+    "outputTokens": 2110
+  }
+}

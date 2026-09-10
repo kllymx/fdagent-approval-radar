@@ -12,7 +12,7 @@ TypeScript + React + Vite frontend in ui/. Root owns Vite/package/config. Node T
 
 - Data agent: data/**, scripts/data/**. Real active candidates and dated source evidence, data contract JSON, refreshing and validators. Candidate extraction may be manual curated with attribution; do not label it Astra-generated unless actually called.
 - Forecast agent: model/**, research/model/**. Independently construct defensible historical cohort, train/evaluate modest baselines, emit model artifacts and full limitations. Root will provide credentials if needed; meaningful research/data code can proceed without model API.
-- Interface agent: ui/** only. Root provides API/types below and installs dependencies.
+- Interface agent: ui/\*\* only. Root provides API/types below and installs dependencies.
 - Root: server/**, shared/**, package.json/lock, root scripts, README/docs, tests/integration, Git/publication.
 
 ## Shared JSON shape (camelCase)
@@ -53,3 +53,11 @@ New live reports add `decisionBrief`: `{pivotalQuestion, bullCase:{claim,sourceI
 Challenges additionally return `changes:{disposition:'revised'|'strengthened'|'unchanged'|'mixed',summary,items:[{previousClaim,currentClaim,reason,sourceIds}]}`; first investigations return null. Server preserves `previousRunId` and the exact `previousOutlook:{verdict,timing}` for comparison. Validation checks reference existence for every new section, alongside the existing withheld-probability rule.
 
 The optional FDAgent MCP connection calls only an allowlist of existing read-only public regulatory data tools; it does not publish the private application's code, environment, raw database rows or customer records. Name matches are leads, not proven sponsor–facility–drug links. Exact FEI identity and documented product relationship are distinct requirements.
+
+## Visual evidence assessment
+
+`Dashboard.assessments` maps candidate IDs to real Astra `Assessment` records. `evidenceAssessment` in new live investigation reports contains `category: favorable|mixed|concerning|insufficient`, a short `summary`, `pivotalQuestion`, cited `sourceIds`, and exactly four `factors`: clinical, safety, manufacturing, regulatory. Each factor contains `state: supportive|mixed|concern|unknown`, `rationale` and `sourceIds`. These are qualitative evidence judgments, not numeric or calibrated approval forecasts. The four factors are not added or averaged.
+
+Stored assessments include model, creation date, evidence date, scope (`initial_packet` or `investigation`), prior investigation ID if used, input hash, provider response ID, and token usage. `pnpm assess` calls real Astra to interpret existing curated summaries, and the latest reviewed investigation if present. It does not perform retrieval. Discovery-only metadata is not counted as clinical evidence. New live investigations produce their assessment directly from current research. Older recorded reports remain unchanged. A newer investigation invalidates an older unrelated assessment; completed FDA actions override prospective categories in the UI.
+
+The front page presents recorded research questions as entry points into inspectable investigations. Recorded tool trails show actual attempted operations and their completion/failure status, not hidden chain of thought or simulated activity. A paid live investigation starts only through the user's explicit research action.

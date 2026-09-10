@@ -1,0 +1,52 @@
+{
+  "category": "insufficient",
+  "summary": "Telix reports an active resubmission review, but no diagnostic-accuracy results are supplied. Safety and manufacturing are also unassessed, leaving insufficient evidence for a directional assessment of this glioma-imaging application.",
+  "pivotalQuestion": "Does the resubmitted package establish adequate diagnostic accuracy for distinguishing recurrent or progressive glioma from treatment-related change?",
+  "sourceIds": [
+    "telix-acceptance",
+    "telix-halfyear"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The intended use is distinguishing glioma recurrence or progression from treatment-related change; no diagnostic-accuracy analyses are supplied for this application.",
+      "sourceIds": [
+        "telix-acceptance"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The packet provides no candidate-specific safety results; absence of disclosed concerns does not establish a favorable safety profile.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility-compliance, or CMC findings are supplied. Resubmission acceptance does not establish manufacturing clearance.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Telix reported FDA acceptance of the March resubmission and reaffirmed the September 11 target in August. These support review progress, not efficacy or approval.",
+      "sourceIds": [
+        "telix-acceptance",
+        "telix-halfyear"
+      ]
+    }
+  ],
+  "candidateId": "floretyrosine-glioma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:17.684Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "a23481c2fe76394bc9516184d8eeafb720e013057ed95ae407c0278f40e809b2",
+  "responseId": "resp_0747118959960232016aa303a5ccac87d2a980068b80eec645",
+  "usage": {
+    "inputTokens": 1731,
+    "outputTokens": 688
+  }
+}

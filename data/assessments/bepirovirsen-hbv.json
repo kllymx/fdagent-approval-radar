@@ -1,0 +1,56 @@
+{
+  "category": "insufficient",
+  "summary": "Sponsor-reported priority review and two randomized phase 3 trials establish development progress, but no efficacy results or safety findings are supplied to assess benefit–risk. Manufacturing evidence is also absent.",
+  "pivotalQuestion": "What sustained off-treatment functional-cure benefit and safety profile did B-Well 1 and B-Well 2 demonstrate?",
+  "sourceIds": [
+    "ionis-bepi-acceptance",
+    "ionis-q2-2026",
+    "trial-nct05630807",
+    "trial-nct05630820"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "Two randomized phase 3 B-Well trials evaluate sustained undetectable HBsAg after treatment cessation, not viral eradication. No efficacy results are supplied.",
+      "sourceIds": [
+        "ionis-bepi-acceptance",
+        "trial-nct05630807",
+        "trial-nct05630820"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No adverse-event, tolerability, or comparative safety findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing or facility-compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Ionis reported NDA acceptance and priority review, with the October 26 target reaffirmed in July. These are process milestones, not evidence of efficacy or approval.",
+      "sourceIds": [
+        "ionis-bepi-acceptance",
+        "ionis-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "bepirovirsen-hbv",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:40.537Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "8d4011e7419a14cb78b43a3b3a7445b0dfaa4e4ca6d0f0757b5e048578750cdf",
+  "responseId": "resp_0c0f7e0422d13e7b016aa303bca43487d2afdce34d65d70a2c",
+  "usage": {
+    "inputTokens": 1985,
+    "outputTokens": 905
+  }
+}

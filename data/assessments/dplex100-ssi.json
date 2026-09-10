@@ -1,0 +1,53 @@
+{
+  "category": "mixed",
+  "summary": "PolyPid reports positive SHIELD II results, but the registered primary endpoint and incision-defined population differ from broad SSI-prevention claims. Applicability to the proposed colorectal-surgery indication remains a substantive question.",
+  "pivotalQuestion": "Do the results support SSI prevention across the proposed colorectal-surgery population, beyond the registered composite endpoint in patients with incisions over 20 cm?",
+  "sourceIds": [
+    "polypid-q2",
+    "trial-shield2"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "PolyPid reports endpoints met and a 60% relative SSI reduction. The registered primary endpoint is a 30-day composite of SSI, re-intervention or death in patients with incisions over 20 cm.",
+      "sourceIds": [
+        "polypid-q2",
+        "trial-shield2"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied summaries provide no interpretable adverse-event or tolerability results.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility-inspection or CMC findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "PolyPid reports priority-review acceptance and a November 28, 2026 target, replacing Q1 2027 guidance. Its report of no filing issues does not establish clinical or CMC clearance.",
+      "sourceIds": [
+        "polypid-q2",
+        "polypid-submission"
+      ]
+    }
+  ],
+  "candidateId": "dplex100-ssi",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:15.295Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "ed7e2d408edfa7aa7fadea7dd317529036b032fea472979748d6ddb98d70c690",
+  "responseId": "resp_018323abcca84005016aa303a371d487d28bb2f487ca08f764",
+  "usage": {
+    "inputTokens": 1865,
+    "outputTokens": 1288
+  }
+}

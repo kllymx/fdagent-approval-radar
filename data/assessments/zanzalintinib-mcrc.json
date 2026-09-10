@@ -1,0 +1,61 @@
+{
+  "category": "mixed",
+  "summary": "Exelixis reports overall-population survival success but final non-liver-metastasis endpoint failure. The supplied Astra synthesis adds higher toxicity and an unresolved testing-hierarchy question; manufacturing remains unassessed.",
+  "pivotalQuestion": "Does the operative testing plan preserve valid ITT survival success despite final non-liver-metastasis failure, and does that benefit justify added toxicity?",
+  "sourceIds": [
+    "exel-q2-2026",
+    "web-d6963585840f",
+    "web-946fd6b904b7"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Exelixis reports ITT survival success but final non-liver-metastasis endpoint failure. Only non-MSI-high disease was studied; the prior Astra synthesis flags unresolved reconciliation of historical gated testing with later dual-primary claims.",
+      "sourceIds": [
+        "exel-q2-2026",
+        "web-946fd6b904b7",
+        "web-d6963585840f"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "concern",
+      "rationale": "The supplied Astra synthesis reports grade ≥3 treatment-related events in 60% versus 37%, and five versus one treatment-related deaths, compared with regorafenib. Detailed final subgroup safety was not assessed.",
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-a60451bb48a0",
+        "web-19e3a8219bcb"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No candidate-linked CMC assessment or manufacturing clearance is established in the supplied packet.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "mixed",
+      "rationale": "Exelixis reports NDA acceptance and an unchanged review target. The prior Astra synthesis flags uncertain atezolizumab contribution: no zanzalintinib-alone arm, and sponsor exposure analyses were not independently assessed.",
+      "sourceIds": [
+        "exel-zan-acceptance",
+        "exel-q2-2026",
+        "trial-NCT05425940",
+        "web-1c6e456d8d94"
+      ]
+    }
+  ],
+  "candidateId": "zanzalintinib-mcrc",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:49.606Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "investigation",
+  "basedOnRunId": "0f625d8d-f1fc-430c-9388-0919fa463813",
+  "inputHash": "896fcf409a9d643acbd516d8ef2fff5631c6053a78a39d999fbb7011716c10b9",
+  "responseId": "resp_021ce206119b160a016aa30401b6f087d29ae3f04cea232cae",
+  "usage": {
+    "inputTokens": 9429,
+    "outputTokens": 1747
+  }
+}

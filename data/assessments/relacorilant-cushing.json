@@ -1,0 +1,55 @@
+{
+  "category": "mixed",
+  "summary": "Corcept reports positive trials and has resubmitted FDA-requested analyses. Whether these resolve the Cushing’s application’s prior questions remains unestablished; the separate oncology approval does not settle this indication.",
+  "pivotalQuestion": "Do the additional analyses resolve FDA’s prior questions for Cushing’s syndrome, accounting for GRACE’s randomized-withdrawal population?",
+  "sourceIds": [
+    "cort-resubmission",
+    "cort-q2-2026",
+    "fda-novel-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "mixed",
+      "rationale": "Corcept reports positive trials, but endpoint-level results are not supplied. GRACE uses randomized withdrawal; the additional analyses have not been shown to resolve FDA’s prior questions.",
+      "sourceIds": [
+        "cort-resubmission",
+        "cort-q2-2026"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No Cushing’s-specific safety findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility compliance, or CMC findings are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Corcept reports resubmission and a December 17 review target. Relacorilant’s separate oncology approval provides regulatory context, not approval for Cushing’s syndrome.",
+      "sourceIds": [
+        "cort-resubmission",
+        "cort-q2-2026",
+        "fda-novel-2026"
+      ]
+    }
+  ],
+  "candidateId": "relacorilant-cushing",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:55.296Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "73f7a2889f84cf24deb62981dd6bf0d1c04cbf77c9772c1b701d24c76251c317",
+  "responseId": "resp_01cce59a520707e7016aa30407699c87d2b1177d5c86c2b10d",
+  "usage": {
+    "inputTokens": 2037,
+    "outputTokens": 1509
+  }
+}

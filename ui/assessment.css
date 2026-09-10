@@ -1,0 +1,147 @@
+.outlook-favorable, .factor-supportive { --outlook-color: #287451; --outlook-wash: #eef6f1; }
+.outlook-mixed, .factor-mixed { --outlook-color: #977024; --outlook-wash: #faf5e9; }
+.outlook-concerning, .outlook-complete_response, .factor-concern { --outlook-color: #b54c46; --outlook-wash: #faf0ee; }
+.outlook-insufficient, .factor-unknown { --outlook-color: #6b7680; --outlook-wash: #f0f3f5; }
+.outlook-not_assessed { --outlook-color: #7f8990; --outlook-wash: #f5f7f8; }
+.outlook-approved { --outlook-color: #3567a6; --outlook-wash: #edf3fb; }
+.outlook-dot { display: inline-block; width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: var(--outlook-color); }
+.outlook-not_assessed .outlook-dot { background: transparent; border: 1px solid var(--outlook-color); }
+.outlook-badge { display: inline-flex; gap: 6px; align-items: center; color: var(--outlook-color); font-size: 12.5px; line-height: 1.5; font-weight: 500; }
+.outlook-badge.compact { margin-left: auto; padding: 3px; flex-shrink: 0; }
+.overview-outlooks { margin-bottom: 23px; }
+.overview-outlook-heading { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; flex-wrap: wrap; }
+.overview-outlook-heading h2 { font-size: 14px; font-weight: 550; line-height: 1.5; margin: 0; }
+.overview-outlook-heading > span { color: var(--muted); font-size: 11px; }
+.overview-outlook-heading > button { margin-left: auto; font-size: 11px; font-weight: 400; }
+.outlook-distribution { display: grid; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); gap: 8px; }
+.outlook-filter { display: flex; align-items: center; justify-content: space-between; gap: 9px; padding: 13px 12px; min-height: 49px; border: 1px solid var(--border); border-radius: 3px; background: var(--panel); color: var(--ink); text-align: left; }
+.outlook-filter > span { display: flex; align-items: center; gap: 7px; font-size: 11px; line-height: 1.45; }
+.outlook-filter > strong { font-size: 19px; line-height: 1; font-weight: 500; color: var(--outlook-color); }
+.outlook-filter:hover, .outlook-filter.selected { border-color: var(--outlook-color); background: var(--outlook-wash); }
+.outlook-filter.selected { box-shadow: inset 0 -2px var(--outlook-color); }
+.catalog-table { min-width: 1000px; }
+.catalog-table th:nth-child(1) { width: 24%; }
+.catalog-table th:nth-child(2) { width: 15%; }
+.catalog-table th:nth-child(3) { width: 15%; }
+.catalog-table th:nth-child(4) { width: 16%; }
+.catalog-table th:nth-child(5) { width: 14%; }
+.catalog-table th:nth-child(6) { width: 9%; }
+.catalog-table th:nth-child(7) { width: 7%; }
+.catalog-assessment { border: 0; padding: 0; background: transparent; display: flex; flex-direction: column; align-items: flex-start; text-align: left; gap: 4px; }
+.catalog-assessment:hover .outlook-badge { text-decoration: underline; text-underline-offset: 3px; }
+.catalog-assessment-scope { color: var(--muted); font-size: 11px; line-height: 1.5; margin-left: 12px; }
+.candidate-assessment { border: 1px solid var(--border); border-radius: 4px; padding: 18px 20px 0; margin-bottom: 25px; background: var(--panel); }
+.assessment-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; margin-bottom: 12px; }
+.assessment-heading > div { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.assessment-heading .outlook-badge { font-size: 15px; font-weight: 550; }
+.assessment-heading > button { font-size: 11px; font-weight: 400; white-space: nowrap; }
+.assessment-scope { font-size: 11px; color: var(--muted); padding-left: 12px; border-left: 1px solid var(--border); }
+.assessment-summary { font-size: 14px; line-height: 1.7; color: var(--ink); margin: 0 0 17px; max-width: 1150px; }
+.assessment-factors { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.assessment-factor { position: relative; border: 0; border-radius: 2px; padding: 9px 10px 13px; background: var(--soft-surface); color: var(--ink); text-align: left; overflow: hidden; }
+.assessment-factor > span { display: block; font-size: 11px; color: var(--muted); margin-bottom: 7px; }
+.assessment-factor > strong { display: flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 500; color: var(--outlook-color); }
+.assessment-factor > strong > svg:last-child { margin-left: auto; }
+.assessment-factor.expanded > strong > svg:last-child { transform: rotate(180deg); }
+.assessment-factor > i { position: absolute; height: 3px; width: 100%; left: 0; bottom: 0; background: var(--outlook-color); opacity: .65; }
+.assessment-factor.factor-unknown > i { background: repeating-linear-gradient(90deg,var(--outlook-color) 0 7px,transparent 7px 11px); opacity: .45; }
+.assessment-factor:hover, .assessment-factor.expanded { background: var(--outlook-wash); }
+.assessment-factor-detail { padding: 16px 0; border-bottom: 1px solid var(--border); }
+.assessment-factor-detail > strong { font-size: 12.5px; font-weight: 500; }
+.assessment-factor-detail > p { font-size: 12.5px; line-height: 1.7; color: var(--muted); margin: 7px 0 10px; }
+.assessment-factor-detail > button { font-weight: 400; font-size: 11px; }
+.assessment-crux { margin: 17px 0; display: flex; align-items: baseline; gap: 13px; font-size: 12.5px; line-height: 1.65; color: var(--ink); }
+.assessment-crux > span { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.assessment-footer { border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 15px; padding: 12px 0; }
+.assessment-footer > span { font-size: 11px; color: var(--muted); line-height: 1.6; text-align: right; }
+.assessment-footer > details { flex: 1; }
+.assessment-footer summary { list-style: none; display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 11px; color: var(--muted); }
+.assessment-footer summary::-webkit-details-marker { display: none; }
+.assessment-footer details[open] > summary > svg { transform: rotate(180deg); }
+.assessment-footer details > div { padding-top: 13px; }
+.assessment-footer p { color: var(--muted); font-size: 12.5px; line-height: 1.7; margin-bottom: 10px; }
+.assessment-footer dl { display: flex; flex-wrap: wrap; gap: 12px 25px; margin: 0 0 13px; }
+.assessment-footer dl > div { font-size: 11px; line-height: 1.7; }
+.assessment-footer dt { color: var(--muted); }
+.assessment-footer dd { color: var(--ink); margin: 0; }
+.assessment-footer .text-button { font-size: 11px; font-weight: 400; }
+.completed-assessment { display: flex; align-items: center; gap: 17px; padding-bottom: 18px; }
+.completed-assessment p { font-size: 12.5px; line-height: 1.6; color: var(--muted); margin: 0; }
+.unassessed { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-bottom: 18px; }
+.unassessed > div { display: flex; align-items: center; gap: 15px; }
+.unassessed p { font-size: 12.5px; line-height: 1.6; color: var(--muted); margin: 0; }
+@media (max-width: 1100px) {
+  .outlook-distribution { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .assessment-footer { flex-wrap: wrap; }
+  .assessment-footer > span { text-align: left; }
+}
+@media (max-width: 759px) {
+  .overview-outlook-heading { gap: 7px; }
+  .overview-outlook-heading > span { flex-basis: 100%; }
+  .overview-outlook-heading > button { margin-left: 0; }
+  .outlook-distribution { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .candidate-assessment { padding: 15px 13px 0; }
+  .assessment-heading { flex-wrap: wrap; gap: 10px; }
+  .assessment-factors { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+  .assessment-summary { font-size: 12.5px; }
+  .assessment-crux { display: block; }
+  .assessment-crux > span { display: block; margin-bottom: 5px; }
+  .assessment-footer { display: block; }
+  .assessment-footer > span { display: block; margin-top: 10px; }
+  .completed-assessment, .unassessed { padding-bottom: 15px; flex-wrap: wrap; gap: 10px; }
+  .unassessed > div { flex-wrap: wrap; gap: 8px; }
+}
+@media (prefers-color-scheme: dark) {
+  .outlook-favorable, .factor-supportive { --outlook-color: #74bb96; --outlook-wash: #172b23; }
+  .outlook-mixed, .factor-mixed { --outlook-color: #d0ad65; --outlook-wash: #2d291c; }
+  .outlook-concerning, .outlook-complete_response, .factor-concern { --outlook-color: #dc918b; --outlook-wash: #302220; }
+  .outlook-insufficient, .factor-unknown { --outlook-color: #a0aab0; --outlook-wash: #242b30; }
+  .outlook-not_assessed { --outlook-color: #98a2a8; --outlook-wash: #1c252a; }
+  .outlook-approved { --outlook-color: #85ade0; --outlook-wash: #1e2b3c; }
+}
+.research-missions { margin-bottom: 28px; }
+.mission-heading { margin-bottom: 14px; }
+.mission-heading h2 { font-size: 18px; font-weight: 550; line-height: 1.4; margin-bottom: 5px; }
+.mission-heading p { color: var(--muted); font-size: 12.5px; line-height: 1.6; margin: 0; }
+.mission-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; background: var(--panel); }
+.research-mission { display: flex; flex-direction: column; align-items: flex-start; border: 0; border-radius: 0; background: transparent; padding: 20px; color: var(--ink); text-align: left; }
+.research-mission + .research-mission { border-left: 1px solid var(--border); }
+.research-mission:hover { background: var(--blue-tint); }
+.research-mission:focus-visible { outline-offset: -3px; }
+.mission-drug { color: var(--muted); display: flex; align-items: center; gap: 7px; font-size: 11px; line-height: 1.5; margin-bottom: 12px; }
+.mission-drug > svg { color: var(--blue); flex-shrink: 0; }
+.research-mission h3 { font-size: 16px; font-weight: 550; line-height: 1.5; margin-bottom: 13px; }
+.mission-method { display: block; font-size: 11px; line-height: 1.6; color: var(--muted); margin-bottom: 10px; }
+.research-mission p { font-size: 12.5px; line-height: 1.65; margin-bottom: 17px; color: var(--muted); }
+.mission-open { color: var(--blue); font-size: 11px; line-height: 1.5; display: flex; align-items: center; gap: 8px; margin-top: auto; }
+.research-trace { margin: 8px 0 18px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.research-trace > summary { padding: 13px 0; }
+.trace-call-count { color: var(--muted); font-size: 11px; font-weight: 400; margin-left: auto; }
+.trace-note { font-size: 11px; color: var(--muted); line-height: 1.6; margin: 0 0 14px; }
+.research-trace ol { list-style: none; padding: 0; margin: 0; }
+.research-trace li { display: flex; gap: 11px; padding: 12px 0; border-top: 1px solid var(--border); }
+.trace-number { color: var(--muted); font-size: 11px; min-width: 16px; padding-top: 2px; }
+.trace-call { min-width: 0; flex: 1; }
+.trace-call > div { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.trace-call code { font: 11px var(--mono); color: var(--ink); overflow-wrap: anywhere; }
+.trace-status { color: var(--muted); font-size: 11px; margin-left: auto; }
+.trace-status.error, .trace-status.partial { color: #b58448; }
+.trace-duration { font-size: 11px; color: var(--muted); min-width: 36px; text-align: right; }
+.trace-call > details { margin-top: 8px; }
+.trace-call > details > summary { display: flex; gap: 4px; align-items: center; color: var(--muted); font-size: 11px; cursor: pointer; list-style: none; }
+.trace-call > details > summary::-webkit-details-marker { display: none; }
+.trace-call dl { margin: 10px 0 0; padding: 10px; background: var(--soft-surface); font-size: 11px; line-height: 1.6; }
+.trace-call dl > div { display: flex; gap: 14px; }
+.trace-call dt { color: var(--muted); min-width: 62px; }
+.trace-call dd { margin: 0; min-width: 0; overflow-wrap: anywhere; color: var(--ink); }
+.trace-call dd .text-button { font-size: 11px; font-weight: 400; overflow-wrap: anywhere; text-align: left; }
+@media (max-width: 1100px) {
+  .research-mission { padding: 15px; }
+  .research-mission h3 { font-size: 14px; }
+}
+@media (max-width: 759px) {
+  .mission-grid { grid-template-columns: minmax(0,1fr); }
+  .research-mission + .research-mission { border-left: 0; border-top: 1px solid var(--border); }
+  .research-mission h3 { font-size: 15px; }
+  .trace-status { margin-left: 0; }
+}

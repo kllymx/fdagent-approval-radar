@@ -1,0 +1,54 @@
+{
+  "category": "concerning",
+  "summary": "The pivotal phase 2 trial missed its primary endpoint. Sponsor-reported secondary activity does not resolve this efficacy concern; NDA acceptance and priority review provide procedural support only.",
+  "pivotalQuestion": "Can the secondary endpoint evidence establish efficacy for FOP despite the nonsignificant pivotal primary endpoint?",
+  "sourceIds": [
+    "mirm-q2-2026",
+    "mirm-progress",
+    "trial-nct05090891"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "concern",
+      "rationale": "Mirum’s Form 10-Q reports a nonsignificant primary endpoint. Sponsor-reported secondary reductions in heterotopic ossification and flare activity carry nominal p-values, leaving the pivotal efficacy concern unresolved.",
+      "sourceIds": [
+        "mirm-q2-2026",
+        "mirm-progress"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no interpretable safety results.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no product-linked manufacturing or facility-compliance evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Sponsors report NDA acceptance and priority review for FOP in patients aged 12 and older, with a September 26 review target. These milestones do not establish efficacy or approval.",
+      "sourceIds": [
+        "mirm-q2-2026",
+        "mirm-progress"
+      ]
+    }
+  ],
+  "candidateId": "zilurgisertib-fop",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:31.874Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "8b69e848b958c204a979602649e6171921636b5c7eb39c7ae487d2ff18289745",
+  "responseId": "resp_03a8cb6fbac4a062016aa3042bff3c87d299ed35f63f2770ff",
+  "usage": {
+    "inputTokens": 1844,
+    "outputTokens": 905
+  }
+}

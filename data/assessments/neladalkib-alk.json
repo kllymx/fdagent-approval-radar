@@ -1,0 +1,57 @@
+{
+  "category": "insufficient",
+  "summary": "Sponsor-reported priority review establishes an active application, but no interpretable efficacy or safety results are supplied for the single-arm registrational study. Manufacturing status remains unknown.",
+  "pivotalQuestion": "What independently reviewed response rates, durability, and safety findings support neladalkib across relevant prior-treatment groups?",
+  "sourceIds": [
+    "nuvl-acceptance",
+    "trial-alkove1",
+    "gsk-q2"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "ALKOVE-1 is nonrandomized and open-label, with independently reviewed response rate in phase 2. No response or durability findings are supplied, and the registry has no posted results.",
+      "sourceIds": [
+        "nuvl-acceptance",
+        "trial-alkove1"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No candidate-specific safety results are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "The application announcement and portfolio update do not establish FDA manufacturing clearance for neladalkib.",
+      "sourceIds": [
+        "nuvl-acceptance",
+        "gsk-q2"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Nuvalent reported NDA acceptance with priority review; GSK’s later update kept neladalkib pending. Zidesamtinib’s separate approval does not resolve this ALK indication.",
+      "sourceIds": [
+        "nuvl-acceptance",
+        "gsk-q2"
+      ]
+    }
+  ],
+  "candidateId": "neladalkib-alk",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:04.475Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "929f73f9f322c5e26afa32a808d3a18519cfbe35a2a612a2df4a7c3d2cde6ded",
+  "responseId": "resp_04b8a3030db12b3b016aa30398990c87d28084283e7cf878d7",
+  "usage": {
+    "inputTokens": 2033,
+    "outputTokens": 812
+  }
+}

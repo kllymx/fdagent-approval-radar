@@ -27,15 +27,20 @@ Company logos come from Firecrawl's branding extraction of official sponsor site
 4. Produces a **decision brief**: the pivotal question, strongest case for approval and setback, evidence that would decide between them, conditional paths and concrete questions for a licensing or investment meeting.
 5. Accepts challenges against a previous report, compares the earlier and current claims and explains whether its outlook changed. The brief and comparison export to Markdown.
 
+The first screen opens with three concrete research questions linked to exact recorded Astra investigations. Users inspect the evidence and actual tool executions, then challenge a conclusion locally. The candidate list is a supporting navigation surface.
+
+Every candidate has a visual evidence outlook: favorable, mixed, concerning or insufficient, with observed FDA outcomes shown separately. Four source-linked factors explain clinical, safety, manufacturing and regulatory evidence. These categories are real Astra interpretations, not a weighted score or calibrated approval probability. Initial assessments use curated summaries; five candidates have full investigations. See the [assessment rubric and review limits](docs/outlook-methodology.md).
+
 The interface retains FDAgent's restrained visual conventions, with compact company logos, sentence-case labels, a searchable/filterable candidate overview and an evidence map. Generic sparkle icons are removed. The evidence map distinguishes retrieved records, empty searches, failures and sources not checked.
 
 The interface shows actual tool progress. Recorded reports preserve their model ID, question, tool trace, token use and measured duration. Source-ID validation checks that references exist; it does **not** establish that every claim is scientifically correct. Discovery metadata is explicitly labeled and never presented as a full-document review.
 
-Six genuine recorded investigations across four candidates demonstrate different kinds of reasoning:
+Seven genuine recorded investigations across five candidates demonstrate different kinds of reasoning:
 
 - **Satralizumab:** Astra inspected two pivotal trial result records and a newly published paper. It connected one failed primary endpoint to stopped confirmatory secondary testing, compared responder rates with continuous proptosis and diplopia results, and separated an existing NMOSD approval from the proposed thyroid-eye-disease indication. The decision brief asks for the analyses and FDA feedback that would resolve the replication question.
 - **Apitegromab:** An earlier challenge found an August 21 update confirming completed removal of Catalent and revised the initial assessment. A further challenge used FDAgent's inspection dataset, correctly distinguished BIMO clinical-research oversight from manufacturing assessment, and kept the outlook unchanged. Both revision and resistance to a misleading premise are visible.
 - **Zanzalintinib:** Astra compared the original trial-design paper with the later dual-primary description and identified the amended testing plan as an unresolved diligence question. It preserved the distinction between an unverified amendment and proof that the positive overall-survival result is invalid.
+- **Lorundrostat:** Astra read published hypertension trials, checked dose-specific blood-pressure and electrolyte/renal safety results, and kept a failed sleep-apnea endpoint separate from the hypertension application. The resulting assessment is mixed: supportive efficacy with material safety questions. An earlier thin-packet favorable label was withheld after review, not silently edited.
 - **Deramiocel:** Astra reconciled FDA and sponsor endpoint analyses, preserved the distinction between post-completion and post-unblinding changes, and found a later cardiac-analysis correction. It assessed the indication amendment without treating a prior FDA briefing as the final decision.
 
 These are selected, source-reviewed executions, not proof of comparative model superiority or future decision accuracy. [Review notes and execution limits](data/recorded-run-review.md) are public.
@@ -48,12 +53,12 @@ A PDUFA target is an **FDA action target**, not a promised approval date. This p
 
 The public-data model is reproducible and evaluated separately from Astra:
 
-| Question | Evidence and result |
-| --- | --- |
-| Can review class forecast annual first-cycle approval rates? | Frozen historical class means: **6.9 percentage-point MAE** on **six held-out annual cohort rates**, versus **11.6 pp** for a pooled baseline. This is not individual drug accuracy. |
-| Can historical counts predict action by the applicable goal? | **603 held-out due/resolved action outcomes**. Class Brier score **0.0390**, pooled **0.0383**: the pooled baseline performed slightly better. An on-time action can be a CRL. |
-| What about unfinished reviews? | Eight held-out actions still within goal remain unresolved and are excluded from binary scoring. |
-| What does a CRL do to a timeline? | Twelve selected, real FDA review histories show review cycles and sponsor-response intervals. All were eventually approved in the selected appendix; they cannot estimate approval probability. |
+| Question                                                     | Evidence and result                                                                                                                                                                             |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Can review class forecast annual first-cycle approval rates? | Frozen historical class means: **6.9 percentage-point MAE** on **six held-out annual cohort rates**, versus **11.6 pp** for a pooled baseline. This is not individual drug accuracy.            |
+| Can historical counts predict action by the applicable goal? | **603 held-out due/resolved action outcomes**. Class Brier score **0.0390**, pooled **0.0383**: the pooled baseline performed slightly better. An on-time action can be a CRL.                  |
+| What about unfinished reviews?                               | Eight held-out actions still within goal remain unresolved and are excluded from binary scoring.                                                                                                |
+| What does a CRL do to a timeline?                            | Twelve selected, real FDA review histories show review cycles and sponsor-response intervals. All were eventually approved in the selected appendix; they cannot estimate approval probability. |
 
 Read [model methodology, source vintages and reproduction commands](model/README.md). Individual probabilities remain `null`. A future drug-level model needs a complete application-cycle cohort, timestamped feature snapshots, reliable unsuccessful/pending outcomes and prospective calibration. An approvals-only database or the selectively disclosed CRL archive cannot provide that on its own.
 
@@ -74,6 +79,16 @@ Open `http://127.0.0.1:5178`. The API runs on port 8788. Without credentials, th
 `ASTRA_BASE_URL` can point to an event-provided OpenAI-compatible Responses endpoint. Keep keys server-side. The API uses `gpt-6-astra`, structured output, function calls and configurable reasoning effort. Firecrawl is optional; without it, public FDA/trial APIs and curated sources remain available, while web-search failures are reported.
 
 To reuse an existing FDAgent installation, set `FDAGENT_MCP_ENTRY` to its already-built MCP server entry point and, if needed, `FDAGENT_ENV_FILE` to its existing environment file. The bridge forwards only the three allowlisted backend settings needed by that process; private code and configuration remain outside this repository. It exposes read-only, bounded reference queries. Public demo snapshots omit the FDAgent compliance dataset.
+
+Generate or refresh initial evidence assessments with real Astra (unchanged input packets are reused):
+
+```bash
+pnpm assess
+# Or select one candidate:
+pnpm assess apitegromab-sma
+```
+
+This interprets existing source summaries and reviewed investigations. It does not run web retrieval. For deeper research, use Investigate with Astra in the local app. Newly completed reports update the visual assessment from the same research.
 
 Collect fresh public evidence independently of a paid model run:
 

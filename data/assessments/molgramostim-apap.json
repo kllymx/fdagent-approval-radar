@@ -1,0 +1,58 @@
+{
+  "category": "insufficient",
+  "summary": "Savara reports long-term improvements, but comparative IMPALA-2 efficacy results are not supplied. The extended review and sponsor-described correspondence do not establish clinical benefit, safety, or manufacturing adequacy.",
+  "pivotalQuestion": "What were IMPALA-2’s placebo-controlled week-24 DLCO results and safety findings, and what substantive information prompted the major amendment?",
+  "sourceIds": [
+    "savara-q2",
+    "trial-impala2",
+    "savara-extension"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "IMPALA-2 randomized 164 participants and measured week-24 hemoglobin-adjusted percent-predicted DLCO. Savara reports long-term lung-function and quality-of-life improvements, but no comparative effect or primary-endpoint outcome is supplied.",
+      "sourceIds": [
+        "trial-impala2",
+        "savara-q2"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No safety results are supplied. Savara’s statement that extension correspondence cited no safety concerns does not establish the treatment’s safety profile.",
+      "sourceIds": [
+        "savara-extension"
+      ]
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "FDA’s complete manufacturing assessment is not supplied. Savara’s account of no manufacturing concerns in extension correspondence is limited to that correspondence and is not manufacturing clearance.",
+      "sourceIds": [
+        "savara-extension"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Priority review is established. Savara attributed the extension to information-request responses deemed a major amendment and later reaffirmed the November 22 target. These are process facts, not evidence of approval.",
+      "sourceIds": [
+        "savara-extension",
+        "savara-q2"
+      ]
+    }
+  ],
+  "candidateId": "molgramostim-apap",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:23:03.800Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "bf3eea7df9ebfb3f2efcf1030dd51d06c23eb06280685bd7db63e3ac724f3a8c",
+  "responseId": "resp_09e3f92442deb904016aa30397e84c87d2a84d97c2d4bfca09",
+  "usage": {
+    "inputTokens": 1827,
+    "outputTokens": 2007
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "category": "mixed",
+  "summary": "Sponsor-reported combined-dose benefit and replacement-site progress support the application. The prior manufacturing setback is mitigated, not demonstrably closed: FDA acceptance of the apitegromab-specific replacement pathway remains unresolved. Safety results are not supplied.",
+  "pivotalQuestion": "Has FDA accepted the replacement facility’s apitegromab-specific manufacturing package and completed any required facility assessments?",
+  "sourceIds": [
+    "srrk-sapphire",
+    "srrk-crl-2025",
+    "srrk-facility-2026",
+    "web-7205ad5dab2e"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Sponsor reported a 1.8-point week-52 HFMSE advantage for prespecified combined doses versus placebo on background therapy (p=0.0192); 20 mg/kg alone was not significant (p=0.1149).",
+      "sourceIds": [
+        "srrk-sapphire"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet contains no interpretable adverse-event results. Safety-related study titles and routine regulatory update requests do not establish tolerability or a safety signal.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "mixed",
+      "rationale": "Sponsor reports Catalent removal following the CRL/OAI setback, alternative-site package submission, and available vials. These mitigate the setback, but product-specific FDA acceptance remains unestablished; no replacement-site defect is documented.",
+      "sourceIds": [
+        "srrk-crl-2025",
+        "srrk-facility-2026",
+        "web-7205ad5dab2e"
+      ]
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Sponsor reports FDA-guided Catalent removal and continued review with the September 30 target retained. These process developments do not establish approval or closure of all application issues.",
+      "sourceIds": [
+        "srrk-facility-2026",
+        "web-7205ad5dab2e"
+      ]
+    }
+  ],
+  "candidateId": "apitegromab-sma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:22:29.235Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "investigation",
+  "basedOnRunId": "fd8efe13-d17e-47d4-8245-867f37157055",
+  "inputHash": "938cd4790374b976e14e59c9f25986e1774dde4f76e86da304a79075490d0994",
+  "responseId": "resp_0fa8c57156466b39016aa303772afc87d291e899f29a252208",
+  "usage": {
+    "inputTokens": 10621,
+    "outputTokens": 1553
+  }
+}

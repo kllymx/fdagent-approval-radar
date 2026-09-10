@@ -1,0 +1,51 @@
+{
+  "category": "insufficient",
+  "summary": "BridgeBio reports an accepted priority-review NDA, but the packet provides trial design rather than efficacy results. Safety and manufacturing evidence are also unavailable, preventing a meaningful directional assessment.",
+  "pivotalQuestion": "Does CALIBRATE demonstrate clinically meaningful benefit over standard care with acceptable safety in ADH1?",
+  "sourceIds": [
+    "bbio-q2-2026",
+    "trial-nct05680818"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "unknown",
+      "rationale": "The registry summary describes a randomized phase 3 comparison with standard care and 67 enrolled participants, but provides no efficacy results. Enrollment need not equal the efficacy analysis population.",
+      "sourceIds": [
+        "trial-nct05680818"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "No adverse-event or tolerability results are supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, facility compliance, or CMC evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "BridgeBio reports NDA acceptance, priority review, a May 8, 2027 action target, and no planned advisory committee. These are supportive process facts, not evidence of approval.",
+      "sourceIds": [
+        "bbio-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "encaleret-adh1",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:25:43.847Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "63253a2b6a2d55ee3816dfae00fc5c97b8547c909609fcf803b6f4c7601f40cd",
+  "responseId": "resp_0c2131612a867015016aa30437f25487d29dcce16b9679c7de",
+  "usage": {
+    "inputTokens": 1650,
+    "outputTokens": 775
+  }
+}

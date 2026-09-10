@@ -20,7 +20,8 @@
     "evaluate": "tsx scripts/evaluate.ts",
     "build:demo": "VITE_STATIC_DEMO=true vite build && tsx scripts/static-demo.ts",
     "brands": "tsx scripts/brands.ts",
-    "evidence": "tsx scripts/evidence.ts"
+    "evidence": "tsx scripts/evidence.ts",
+    "assess": "tsx scripts/assess.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

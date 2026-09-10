@@ -5,7 +5,7 @@ import {
   copyFile,
   readdir,
 } from "node:fs/promises";
-import { getCatalog, getModel } from "../server/data.js";
+import { getCatalog, getModel, getAssessments } from "../server/data.js";
 import type { Investigation, Source } from "../shared/schema.js";
 import { listDossiers, readDossier, publicDossier } from "../server/dossier.js";
 await mkdir("dist/demo/investigations", { recursive: true });
@@ -53,8 +53,10 @@ for (const id of evidenceCandidateIds) {
       ).values(),
     ];
 }
+const catalog = await getCatalog();
 const payload = {
-  catalog: await getCatalog(),
+  catalog,
+  assessments: await getAssessments(catalog, runs),
   model: await getModel(),
   evidenceCandidateIds,
   evidenceSourcesByCandidate,

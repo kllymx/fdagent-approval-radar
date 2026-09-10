@@ -1,0 +1,54 @@
+{
+  "category": "favorable",
+  "summary": "Cogent reports a randomized PFS benefit for bezuclastinib plus sunitinib after imatinib, supporting a favorable evidence balance. Safety and manufacturing evidence are unavailable here; priority review is not approval.",
+  "pivotalQuestion": "Does the combination’s safety profile support its randomized PFS benefit in GIST after imatinib?",
+  "sourceIds": [
+    "cogt-gist-acceptance",
+    "trial-nct05208047",
+    "cogt-q2-2026"
+  ],
+  "factors": [
+    {
+      "category": "clinical",
+      "state": "supportive",
+      "rationale": "Cogent reports PEAK median PFS of 16.5 versus 9.2 months for the combination versus sunitinib (HR 0.50; 95% CI 0.39–0.65). This supports combination treatment after imatinib, not mastocytosis monotherapy.",
+      "sourceIds": [
+        "cogt-gist-acceptance",
+        "trial-nct05208047"
+      ]
+    },
+    {
+      "category": "safety",
+      "state": "unknown",
+      "rationale": "The supplied packet provides no combination-specific safety results or tolerability details.",
+      "sourceIds": []
+    },
+    {
+      "category": "manufacturing",
+      "state": "unknown",
+      "rationale": "No product-linked manufacturing, CGMP inspection, or facility compliance evidence is supplied.",
+      "sourceIds": []
+    },
+    {
+      "category": "regulatory",
+      "state": "supportive",
+      "rationale": "Cogent reported priority-review NDA acceptance and reaffirmed the November 30 target in August. These are process milestones, not a final FDA benefit–risk or labeling decision.",
+      "sourceIds": [
+        "cogt-gist-acceptance",
+        "cogt-q2-2026"
+      ]
+    }
+  ],
+  "candidateId": "bezuclastinib-gist",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T19:24:30.343Z",
+  "evidenceAsOf": "2026-09-10",
+  "scope": "initial_packet",
+  "basedOnRunId": null,
+  "inputHash": "2e517c014f644d2ad69190b05e72b582c4bef3004f91060e872011f4accef07d",
+  "responseId": "resp_0770711d18548739016aa303ee7f9487d2b1fec2246a800374",
+  "usage": {
+    "inputTokens": 1973,
+    "outputTokens": 883
+  }
+}
