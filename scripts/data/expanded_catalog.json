@@ -1,0 +1,2777 @@
+{
+  "generatedAt": "2026-09-10T18:52:08.492552Z",
+  "candidates": [
+    {
+      "id": "ulixacaltamide-et",
+      "drug": "Ulixacaltamide",
+      "indication": "Essential tremor in adults",
+      "sponsor": "Praxis Precision Medicines",
+      "ticker": "PRAX",
+      "modality": "Small molecule · T-type calcium-channel modulator",
+      "phase": "Phase 3",
+      "reviewType": "Original NDA review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT06087276"
+      ],
+      "status": "under_review",
+      "targetDate": "2027-01-29",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "An oral essential-tremor application supported by Essential3; clean sponsor BIMO findings should not be mistaken for manufacturing clearance.",
+      "sourceIds": [
+        "prax-ulix-acceptance",
+        "prax-q2-2026",
+        "trial-nct06087276"
+      ],
+      "milestones": [
+        {
+          "date": "2026-04-14",
+          "title": "NDA accepted",
+          "detail": "Praxis reported a January 29, 2027 target and no planned advisory committee.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "prax-ulix-acceptance"
+          ],
+          "id": "ulixacaltamide-et-event-1"
+        },
+        {
+          "date": "2026-08-06",
+          "title": "Mid-cycle and BIMO update",
+          "detail": "Praxis reported no major clinical concern identified to date and sponsor BIMO inspections without a Form 483.",
+          "kind": "update",
+          "sourceIds": [
+            "prax-q2-2026"
+          ],
+          "id": "ulixacaltamide-et-event-2"
+        },
+        {
+          "date": "2027-01-29",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "prax-ulix-acceptance"
+          ],
+          "id": "ulixacaltamide-et-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Pivotal phase 3 program",
+          "detail": "Essential3 provides the clinical program for this oral NDA.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "prax-ulix-acceptance"
+          ],
+          "id": "ulixacaltamide-et-signal-1"
+        },
+        {
+          "label": "BIMO is a clinical-research inspection",
+          "detail": "A clean sponsor BIMO outcome is not clearance of a manufacturing facility.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "prax-q2-2026"
+          ],
+          "id": "ulixacaltamide-et-signal-2"
+        },
+        {
+          "label": "Review is not complete",
+          "detail": "No planned advisory committee and an interim review update do not establish final approval.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "prax-ulix-acceptance",
+            "prax-q2-2026"
+          ],
+          "id": "ulixacaltamide-et-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "zilganersen-axd",
+      "drug": "Zilganersen (Zanvastro)",
+      "indication": "Alexander disease in pediatric and adult patients",
+      "sponsor": "Ionis Pharmaceuticals",
+      "ticker": "IONS",
+      "modality": "Antisense oligonucleotide · GFAP",
+      "phase": "Phase 3",
+      "reviewType": "Approved after priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT04849741"
+      ],
+      "status": "approved",
+      "targetDate": "2026-09-22",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "FDA approved zilganersen on September 3, before the older September 22 target. This completed episode demonstrates why calendars need outcome verification.",
+      "sourceIds": [
+        "ionis-zilganersen-acceptance",
+        "fda-zilganersen-approval",
+        "trial-nct04849741"
+      ],
+      "milestones": [
+        {
+          "date": "2026-03-23",
+          "title": "Priority NDA review accepted",
+          "detail": "The original sponsor-reported target was September 22.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "ionis-zilganersen-acceptance"
+          ],
+          "id": "zilganersen-axd-event-1"
+        },
+        {
+          "date": "2026-09-03",
+          "title": "FDA approval",
+          "detail": "FDA announced approval for Alexander disease in pediatric and adult patients.",
+          "kind": "approval",
+          "sourceIds": [
+            "fda-zilganersen-approval"
+          ],
+          "id": "zilganersen-axd-event-2"
+        },
+        {
+          "date": "2026-09-22",
+          "title": "Previously reported FDA action target",
+          "detail": "FDA acted before this earlier sponsor-reported goal; this date is historical.",
+          "kind": "target",
+          "sourceIds": [
+            "ionis-zilganersen-acceptance"
+          ],
+          "id": "zilganersen-axd-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Regulatory outcome verified",
+          "detail": "FDA’s own announcement confirms approval; this is no longer a pending application.",
+          "direction": "supportive",
+          "category": "regulatory",
+          "sourceIds": [
+            "fda-zilganersen-approval"
+          ],
+          "id": "zilganersen-axd-signal-1"
+        },
+        {
+          "label": "Earlier action overtook the calendar",
+          "detail": "The September 22 target survives as a historical milestone, not a future approval prediction.",
+          "direction": "neutral",
+          "category": "timing",
+          "sourceIds": [
+            "ionis-zilganersen-acceptance",
+            "fda-zilganersen-approval"
+          ],
+          "id": "zilganersen-axd-signal-2"
+        }
+      ],
+      "applicationNumber": "220210"
+    },
+    {
+      "id": "bepirovirsen-hbv",
+      "drug": "Bepirovirsen",
+      "indication": "Chronic hepatitis B in adults",
+      "sponsor": "GSK / Ionis Pharmaceuticals",
+      "ticker": "GSK",
+      "modality": "Antisense oligonucleotide · hepatitis B RNA",
+      "phase": "Phase 3",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05630807",
+        "NCT05630820"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-26",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A functional-cure application for chronic hepatitis B, with two pivotal studies and a definition that requires sustained off-treatment response.",
+      "sourceIds": [
+        "ionis-bepi-acceptance",
+        "ionis-q2-2026",
+        "trial-nct05630807",
+        "trial-nct05630820"
+      ],
+      "milestones": [
+        {
+          "date": "2026-04-28",
+          "title": "Priority review reported",
+          "detail": "Ionis announced GSK’s accepted NDA and October 26 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "ionis-bepi-acceptance"
+          ],
+          "id": "bepirovirsen-hbv-event-1"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Target reaffirmed",
+          "detail": "Ionis continued to list the October target.",
+          "kind": "update",
+          "sourceIds": [
+            "ionis-q2-2026"
+          ],
+          "id": "bepirovirsen-hbv-event-2"
+        },
+        {
+          "date": "2026-10-26",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "ionis-bepi-acceptance"
+          ],
+          "id": "bepirovirsen-hbv-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Two pivotal studies",
+          "detail": "B-Well 1 and B-Well 2 support the application.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "ionis-bepi-acceptance"
+          ],
+          "id": "bepirovirsen-hbv-signal-1"
+        },
+        {
+          "label": "Functional cure has a specific definition",
+          "detail": "Sustained undetectable HBsAg after stopping treatment differs from transient suppression or complete viral eradication.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "ionis-bepi-acceptance"
+          ],
+          "id": "bepirovirsen-hbv-signal-2"
+        },
+        {
+          "label": "Final benefit-risk and label unknown",
+          "detail": "Acceptance and priority review do not establish the final eligible population or approval.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "ionis-bepi-acceptance"
+          ],
+          "id": "bepirovirsen-hbv-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "ifinatamab-deruxtecan-sclc",
+      "drug": "Ifinatamab deruxtecan",
+      "indication": "Extensive-stage small-cell lung cancer after platinum chemotherapy in adults",
+      "sponsor": "Daiichi Sankyo / Merck",
+      "ticker": "MRK",
+      "modality": "Antibody-drug conjugate · B7-H3 / DXd",
+      "phase": "Phase 2",
+      "reviewType": "Priority review",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT05280470"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-10",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A B7-H3 ADC filing in previously treated extensive-stage SCLC; response evidence and comparative survival evidence answer different questions.",
+      "sourceIds": [
+        "mrk-ifina-acceptance",
+        "trial-nct05280470"
+      ],
+      "milestones": [
+        {
+          "date": "2026-04-13",
+          "title": "Priority BLA review accepted",
+          "detail": "The sponsors reported an October 10 action target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "mrk-ifina-acceptance"
+          ],
+          "id": "ifinatamab-deruxtecan-sclc-event-1"
+        },
+        {
+          "date": "2026-10-10",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "mrk-ifina-acceptance"
+          ],
+          "id": "ifinatamab-deruxtecan-sclc-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Clinical activity supports filing",
+          "detail": "IDeate-Lung01 is the pivotal phase 2 evidence base.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "mrk-ifina-acceptance"
+          ],
+          "id": "ifinatamab-deruxtecan-sclc-signal-1"
+        },
+        {
+          "label": "Dose expansion lacks a standard-care comparator",
+          "detail": "The response evidence should not be described as randomized superiority over standard treatment.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "mrk-ifina-acceptance"
+          ],
+          "id": "ifinatamab-deruxtecan-sclc-signal-2"
+        },
+        {
+          "label": "FDA review remains pending",
+          "detail": "Priority review and participation in expedited review programs are not an approval outcome.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "mrk-ifina-acceptance"
+          ],
+          "id": "ifinatamab-deruxtecan-sclc-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "atezolizumab-colon-adjuvant",
+      "drug": "Atezolizumab + FOLFOX6",
+      "indication": "Adjuvant treatment of stage III dMMR/MSI-H colon cancer",
+      "sponsor": "Roche",
+      "ticker": "RHHBY",
+      "modality": "Monoclonal antibody · PD-L1",
+      "phase": "Phase 3",
+      "reviewType": "Priority supplemental review",
+      "applicationType": "sBLA",
+      "nctIds": [
+        "NCT02912559"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-09",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "ATOMIC supports a biomarker-defined adjuvant expansion for Tecentriq and Tecentriq Hybreza; disease-free survival is the central reported endpoint.",
+      "sourceIds": [
+        "roche-atezo-acceptance",
+        "roche-hy-2026",
+        "trial-nct02912559"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-11",
+          "title": "Supplemental applications accepted",
+          "detail": "Roche reported priority review and an October 9 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "roche-atezo-acceptance"
+          ],
+          "id": "atezolizumab-colon-adjuvant-event-1"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Filing included in half-year update",
+          "detail": "Roche continued to list the adjuvant filing.",
+          "kind": "update",
+          "sourceIds": [
+            "roche-hy-2026"
+          ],
+          "id": "atezolizumab-colon-adjuvant-event-2"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "roche-atezo-acceptance"
+          ],
+          "id": "atezolizumab-colon-adjuvant-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Randomized DFS benefit",
+          "detail": "ATOMIC reports improved disease-free survival with the combination.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-atezo-acceptance"
+          ],
+          "id": "atezolizumab-colon-adjuvant-signal-1"
+        },
+        {
+          "label": "Biomarker and setting constrain the claim",
+          "detail": "Stage III dMMR/MSI-H adjuvant colon cancer is distinct from unselected metastatic colorectal cancer.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-atezo-acceptance"
+          ],
+          "id": "atezolizumab-colon-adjuvant-signal-2"
+        },
+        {
+          "label": "DFS is not demonstrated OS benefit",
+          "detail": "The endpoint supports recurrence-risk interpretation without proving longer overall survival.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-atezo-acceptance"
+          ],
+          "id": "atezolizumab-colon-adjuvant-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "satralizumab-ted",
+      "drug": "Satralizumab (Enspryng)",
+      "indication": "Moderate-to-severe thyroid eye disease",
+      "sponsor": "Roche",
+      "ticker": "RHHBY",
+      "modality": "Monoclonal antibody · IL-6 receptor",
+      "phase": "Phase 3",
+      "reviewType": "Priority supplemental review",
+      "applicationType": "sBLA",
+      "nctIds": [
+        "NCT05987423",
+        "NCT06106828"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-15",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "One TED pivotal trial met its primary endpoint and the other did not. The totality of evidence matters more than a positive headline.",
+      "sourceIds": [
+        "roche-satral-acceptance",
+        "roche-hy-2026",
+        "trial-nct05987423",
+        "trial-nct06106828"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-30",
+          "title": "Priority TED filing accepted",
+          "detail": "Roche reported an October 15 target and results from both SatraGO studies.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "roche-satral-acceptance"
+          ],
+          "id": "satralizumab-ted-event-1"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "TED filing in portfolio update",
+          "detail": "Roche continued to list the TED filing.",
+          "kind": "update",
+          "sourceIds": [
+            "roche-hy-2026"
+          ],
+          "id": "satralizumab-ted-event-2"
+        },
+        {
+          "date": "2026-10-15",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "roche-satral-acceptance"
+          ],
+          "id": "satralizumab-ted-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "SatraGO-2 met primary endpoint",
+          "detail": "Proptosis response was 53% versus 23%, a statistically significant difference according to Roche.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-satral-acceptance"
+          ],
+          "id": "satralizumab-ted-signal-1"
+        },
+        {
+          "label": "SatraGO-1 missed primary endpoint",
+          "detail": "The 49% versus 31% numerical difference did not reach statistical significance. Both trials cannot be described as positive.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-satral-acceptance"
+          ],
+          "id": "satralizumab-ted-signal-2"
+        },
+        {
+          "label": "NMOSD approval does not answer the TED question",
+          "detail": "Existing approval for a different disease does not settle efficacy or the label in thyroid eye disease.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "roche-satral-acceptance"
+          ],
+          "id": "satralizumab-ted-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "leniolisib-pediatric-apds",
+      "drug": "Leniolisib (Joenja)",
+      "indication": "APDS in children aged 4–11 years weighing at least 27 kg",
+      "sponsor": "Pharming Group",
+      "ticker": "PHAR",
+      "modality": "Small molecule · PI3K-delta inhibitor",
+      "phase": "Phase 3",
+      "reviewType": "Supplemental NDA resubmission",
+      "applicationType": "sNDA resubmission",
+      "nctIds": [
+        "NCT05438407"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-24",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A pediatric resubmission following analytical and batch-testing questions; its weight cutoff is narrower than the full pediatric study population.",
+      "sourceIds": [
+        "pharming-lenio-resubmission",
+        "trial-nct05438407"
+      ],
+      "milestones": [
+        {
+          "date": "2026-01-30",
+          "title": "Prior complete response",
+          "detail": "The later resubmission disclosure identifies the January 30 CRL.",
+          "kind": "crl",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-event-2"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Type A meeting",
+          "detail": "Pharming discussed the requested analytical and testing package.",
+          "kind": "update",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-event-3"
+        },
+        {
+          "date": "2026-06-04",
+          "title": "Pediatric resubmission accepted",
+          "detail": "The resubmission covers children aged 4–11 weighing at least 27 kg and has an October 24 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-event-1"
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-event-4"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Revised analytical package submitted",
+          "detail": "The resubmission addresses analytical-method and additional batch-testing requests.",
+          "direction": "supportive",
+          "category": "manufacturing",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-signal-1"
+        },
+        {
+          "label": "Acceptance is not resolution",
+          "detail": "The public acceptance does not establish final FDA agreement that the previous deficiencies are resolved.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-signal-2"
+        },
+        {
+          "label": "Lower-weight children excluded from this filing",
+          "detail": "Children below 27 kg require a separate submission; age range alone overstates current application coverage.",
+          "direction": "concern",
+          "category": "regulatory",
+          "sourceIds": [
+            "pharming-lenio-resubmission"
+          ],
+          "id": "leniolisib-pediatric-apds-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "ino3107-rrp",
+      "drug": "INO-3107",
+      "indication": "Recurrent respiratory papillomatosis in adults",
+      "sponsor": "INOVIO",
+      "ticker": "INO",
+      "modality": "DNA immunotherapy · electroporation delivery",
+      "phase": "Phase 1/2",
+      "reviewType": "Accelerated approval sought",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT04398433"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-10-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "An active BLA with an unresolved public accelerated-approval eligibility question despite completed meetings and scheduled inspections.",
+      "sourceIds": [
+        "ino-q2-2026",
+        "trial-nct04398433"
+      ],
+      "milestones": [
+        {
+          "date": "2026-08-12",
+          "title": "BLA review status updated",
+          "detail": "INOVIO reported an October 30 target and completed late-cycle activities.",
+          "kind": "update",
+          "sourceIds": [
+            "ino-q2-2026"
+          ],
+          "id": "ino3107-rrp-event-1"
+        },
+        {
+          "date": "2026-10-30",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "ino-q2-2026"
+          ],
+          "id": "ino3107-rrp-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Clinical rationale presented to FDA",
+          "detail": "INOVIO reports presenting its evidence and accelerated-approval rationale at an informal meeting.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "ino-q2-2026"
+          ],
+          "id": "ino3107-rrp-signal-1"
+        },
+        {
+          "label": "Eligibility was not discussed at that meeting",
+          "detail": "The sponsor’s belief that INO-3107 qualifies is not evidence of FDA agreement.",
+          "direction": "concern",
+          "category": "regulatory",
+          "sourceIds": [
+            "ino-q2-2026"
+          ],
+          "id": "ino3107-rrp-signal-2"
+        },
+        {
+          "label": "Completed inspection is not clearance",
+          "detail": "The update reports all scheduled prelicensure inspections complete without establishing their final conclusions.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "ino-q2-2026"
+          ],
+          "id": "ino3107-rrp-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "bbp418-lgmd",
+      "drug": "BBP-418 (ribitol)",
+      "indication": "Limb-girdle muscular dystrophy type 2I/R9",
+      "sponsor": "BridgeBio Pharma",
+      "ticker": "BBIO",
+      "modality": "Oral substrate replacement · ribitol",
+      "phase": "Phase 3",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05775848"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-27",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A priority NDA based on a prespecified 12-month FORTIFY analysis, with longer-term clinical durability still a distinct question.",
+      "sourceIds": [
+        "bbio-bbp418-acceptance",
+        "bbio-q2-2026",
+        "trial-nct05775848"
+      ],
+      "milestones": [
+        {
+          "date": "2026-05-27",
+          "title": "Priority NDA accepted",
+          "detail": "BridgeBio reported November 27 as the action target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "bbio-bbp418-acceptance"
+          ],
+          "id": "bbp418-lgmd-event-1"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Target reaffirmed",
+          "detail": "The Q2 update maintained the target and no planned advisory committee.",
+          "kind": "update",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "bbp418-lgmd-event-2"
+        },
+        {
+          "date": "2026-11-27",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "bbio-bbp418-acceptance"
+          ],
+          "id": "bbp418-lgmd-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Prespecified interim endpoints met",
+          "detail": "The sponsor reports the 12-month primary and key secondary endpoints were met.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "bbio-bbp418-acceptance"
+          ],
+          "id": "bbp418-lgmd-signal-1"
+        },
+        {
+          "label": "Interim and long-term evidence differ",
+          "detail": "A successful 12-month interim analysis does not by itself establish the final long-term durability profile.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "bbio-bbp418-acceptance"
+          ],
+          "id": "bbp418-lgmd-signal-2"
+        },
+        {
+          "label": "No advisory committee planned",
+          "detail": "This is a review-process disclosure, not a final benefit-risk determination.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "bbp418-lgmd-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "bezuclastinib-gist",
+      "drug": "Bezuclastinib + sunitinib",
+      "indication": "Gastrointestinal stromal tumors after imatinib",
+      "sponsor": "Cogent Biosciences",
+      "ticker": "COGT",
+      "modality": "Small molecule · KIT inhibitor combination",
+      "phase": "Phase 3",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05208047"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The PEAK combination filing has a randomized PFS benefit, and must remain separate from bezuclastinib’s mastocytosis applications.",
+      "sourceIds": [
+        "cogt-gist-acceptance",
+        "trial-nct05208047",
+        "cogt-q2-2026"
+      ],
+      "milestones": [
+        {
+          "date": "2026-05-28",
+          "title": "Priority NDA accepted",
+          "detail": "Cogent reported a November 30 action target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "cogt-gist-acceptance"
+          ],
+          "id": "bezuclastinib-gist-event-1"
+        },
+        {
+          "id": "bezuclastinib-gist-later-update",
+          "date": "2026-08-10",
+          "title": "Target reaffirmed",
+          "detail": "Cogent continued to report the November 30 GIST target.",
+          "kind": "update",
+          "sourceIds": [
+            "cogt-q2-2026"
+          ]
+        },
+        {
+          "date": "2026-11-30",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "cogt-gist-acceptance"
+          ],
+          "id": "bezuclastinib-gist-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Randomized PFS improvement",
+          "detail": "PEAK median PFS was 16.5 versus 9.2 months, HR 0.50 (95% CI 0.39–0.65).",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "cogt-gist-acceptance"
+          ],
+          "id": "bezuclastinib-gist-signal-1"
+        },
+        {
+          "label": "Combination-specific evidence",
+          "detail": "The evidence is for bezuclastinib plus sunitinib after imatinib, not bezuclastinib monotherapy.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "cogt-gist-acceptance"
+          ],
+          "id": "bezuclastinib-gist-signal-2"
+        },
+        {
+          "label": "Final safety and labeling assessment unknown",
+          "detail": "A positive PFS endpoint and priority review do not settle FDA’s final assessment.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "cogt-gist-acceptance"
+          ],
+          "id": "bezuclastinib-gist-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "bezuclastinib-nonadv-sm",
+      "drug": "Bezuclastinib",
+      "indication": "Non-advanced systemic mastocytosis",
+      "sponsor": "Cogent Biosciences",
+      "ticker": "COGT",
+      "modality": "Small molecule · KIT inhibitor",
+      "phase": "Pivotal phase 2",
+      "reviewType": "Original NDA review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05186753"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A separate bezuclastinib monotherapy application based on the pivotal SUMMIT study in non-advanced systemic mastocytosis.",
+      "sourceIds": [
+        "cogt-nonadv-acceptance",
+        "trial-nct05186753",
+        "trial-nct05186753",
+        "cogt-q2-2026"
+      ],
+      "milestones": [
+        {
+          "date": "2026-03-16",
+          "title": "NDA accepted",
+          "detail": "Cogent reported December 30 as the target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "cogt-nonadv-acceptance"
+          ],
+          "id": "bezuclastinib-nonadv-sm-event-1"
+        },
+        {
+          "id": "bezuclastinib-nonadv-sm-later-update",
+          "date": "2026-08-10",
+          "title": "Target reaffirmed",
+          "detail": "Cogent continued to report the December 30 non-advanced SM target.",
+          "kind": "update",
+          "sourceIds": [
+            "cogt-q2-2026"
+          ]
+        },
+        {
+          "date": "2026-12-30",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "cogt-nonadv-acceptance"
+          ],
+          "id": "bezuclastinib-nonadv-sm-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Reported symptom endpoint benefit",
+          "detail": "Cogent says SUMMIT met its primary and key secondary endpoints.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "cogt-nonadv-acceptance"
+          ],
+          "id": "bezuclastinib-nonadv-sm-signal-1"
+        },
+        {
+          "label": "Pivotal does not mean phase 3",
+          "detail": "SUMMIT is registered as phase 2; its pivotal role should not change the study’s stated phase.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "cogt-nonadv-acceptance",
+            "trial-nct05186753"
+          ],
+          "id": "bezuclastinib-nonadv-sm-signal-2"
+        },
+        {
+          "label": "Separate disease and regimen",
+          "detail": "Neither GIST combination results nor advanced-SM evidence establishes the outcome for this non-advanced monotherapy filing.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "cogt-nonadv-acceptance"
+          ],
+          "id": "bezuclastinib-nonadv-sm-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "giredestrant-early-breast",
+      "drug": "Giredestrant",
+      "indication": "Adjuvant ER-positive/HER2-negative stage I–III breast cancer",
+      "sponsor": "Roche",
+      "ticker": "RHHBY",
+      "modality": "Small molecule · oral estrogen-receptor degrader",
+      "phase": "Phase 3",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT04961996"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The lidERA adjuvant filing shows invasive disease-free-survival benefit with immature overall survival, distinct from a metastatic combination application.",
+      "sourceIds": [
+        "roche-gired-early",
+        "roche-hy-2026",
+        "trial-nct04961996"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-02",
+          "title": "Priority adjuvant NDA accepted",
+          "detail": "Roche reported a November 30 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "roche-gired-early"
+          ],
+          "id": "giredestrant-early-breast-event-1"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Filing in half-year update",
+          "detail": "Roche continued to list the adjuvant filing.",
+          "kind": "update",
+          "sourceIds": [
+            "roche-hy-2026"
+          ],
+          "id": "giredestrant-early-breast-event-2"
+        },
+        {
+          "date": "2026-11-30",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "roche-gired-early"
+          ],
+          "id": "giredestrant-early-breast-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "iDFS benefit in lidERA",
+          "detail": "HR 0.70 (95% CI 0.57–0.87); three-year iDFS estimates were 92.4% and 89.6%.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-gired-early"
+          ],
+          "id": "giredestrant-early-breast-signal-1"
+        },
+        {
+          "label": "Overall survival remains immature",
+          "detail": "The current report does not establish an overall-survival benefit.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-gired-early"
+          ],
+          "id": "giredestrant-early-breast-signal-2"
+        },
+        {
+          "label": "Absolute and relative effects differ",
+          "detail": "A relative hazard reduction is not a 30-percentage-point absolute improvement.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-gired-early"
+          ],
+          "id": "giredestrant-early-breast-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "giredestrant-esr1-breast",
+      "drug": "Giredestrant + everolimus",
+      "indication": "ESR1-mutated ER-positive/HER2-negative advanced breast cancer after endocrine therapy",
+      "sponsor": "Roche",
+      "ticker": "RHHBY",
+      "modality": "Oral estrogen-receptor degrader + mTOR inhibitor",
+      "phase": "Phase 3",
+      "reviewType": "Original NDA review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05306340"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-18",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The evERA combination filing targets an ESR1-mutated advanced-disease population; its estimates should not be swapped with the overall trial or adjuvant setting.",
+      "sourceIds": [
+        "roche-gired-advanced",
+        "roche-hy-2026",
+        "trial-nct05306340"
+      ],
+      "milestones": [
+        {
+          "date": "2026-02-20",
+          "title": "Combination NDA accepted",
+          "detail": "Roche reported a December 18 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "roche-gired-advanced"
+          ],
+          "id": "giredestrant-esr1-breast-event-1"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Filing in half-year update",
+          "detail": "Roche continued to list the advanced-disease combination filing.",
+          "kind": "update",
+          "sourceIds": [
+            "roche-hy-2026"
+          ],
+          "id": "giredestrant-esr1-breast-event-2"
+        },
+        {
+          "date": "2026-12-18",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "roche-gired-advanced"
+          ],
+          "id": "giredestrant-esr1-breast-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "PFS evidence in a molecularly selected population",
+          "detail": "evERA supplies the combination evidence in the ESR1-mutated target population.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-gired-advanced"
+          ],
+          "id": "giredestrant-esr1-breast-signal-1"
+        },
+        {
+          "label": "Population-specific estimates required",
+          "detail": "The ESR1-mutated subgroup and intent-to-treat estimates are not interchangeable.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "roche-gired-advanced"
+          ],
+          "id": "giredestrant-esr1-breast-signal-2"
+        },
+        {
+          "label": "Distinct from the adjuvant NDA",
+          "detail": "A result in early breast cancer does not determine the label or outcome of this everolimus combination.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "roche-gired-advanced"
+          ],
+          "id": "giredestrant-esr1-breast-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "povetacicept-igan",
+      "drug": "Povetacicept",
+      "indication": "IgA nephropathy in adults",
+      "sponsor": "Vertex Pharmaceuticals",
+      "ticker": "VRTX",
+      "modality": "Fusion protein · BAFF / APRIL antagonist",
+      "phase": "Phase 3",
+      "reviewType": "Accelerated approval sought",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT06564142"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A proteinuria-based interim BLA with later renal-function confirmation remaining a separate milestone.",
+      "sourceIds": [
+        "vrtx-poveta-acceptance",
+        "trial-nct06564142"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-01",
+          "title": "BLA accepted",
+          "detail": "Vertex reported a November 30 target for the accelerated-approval request.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "vrtx-poveta-acceptance"
+          ],
+          "id": "povetacicept-igan-event-1"
+        },
+        {
+          "date": "2026-11-30",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "vrtx-poveta-acceptance"
+          ],
+          "id": "povetacicept-igan-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Proteinuria reduction at interim analysis",
+          "detail": "Vertex reported 49.8% placebo-adjusted UPCR reduction at week 36.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "vrtx-poveta-acceptance"
+          ],
+          "id": "povetacicept-igan-signal-1"
+        },
+        {
+          "label": "Kidney-function confirmation is later",
+          "detail": "The 104-week eGFR-slope analysis is a distinct renal-function endpoint, not an established interim result.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "vrtx-poveta-acceptance"
+          ],
+          "id": "povetacicept-igan-signal-2"
+        },
+        {
+          "label": "Pathway and approval remain conditional",
+          "detail": "Submitting under accelerated approval does not mean FDA has accepted the surrogate as sufficient.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "vrtx-poveta-acceptance"
+          ],
+          "id": "povetacicept-igan-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "zanzalintinib-mcrc",
+      "drug": "Zanzalintinib + atezolizumab",
+      "indication": "Previously treated metastatic colorectal cancer",
+      "sponsor": "Exelixis / Roche",
+      "ticker": "EXEL",
+      "modality": "Small molecule · VEGFR / MET / TAM inhibitor + PD-L1 antibody",
+      "phase": "Phase 3",
+      "reviewType": "Original NDA review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05425940"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-03",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "STELLAR-303 met overall-population OS but missed the final non-liver-metastasis OS endpoint, creating a specific clinical interpretation challenge.",
+      "sourceIds": [
+        "exel-zan-acceptance",
+        "exel-q2-2026",
+        "trial-nct05425940"
+      ],
+      "milestones": [
+        {
+          "date": "2026-02-02",
+          "title": "NDA accepted",
+          "detail": "Exelixis reported a December 3 target for the previously treated population.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "exel-zan-acceptance"
+          ],
+          "id": "zanzalintinib-mcrc-event-1"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Final subgroup outcome disclosed in quarterly update",
+          "detail": "Exelixis reported the June final non-liver-metastasis OS analysis was nonsignificant while maintaining the target.",
+          "kind": "update",
+          "sourceIds": [
+            "exel-q2-2026"
+          ],
+          "id": "zanzalintinib-mcrc-event-2"
+        },
+        {
+          "date": "2026-12-03",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "exel-zan-acceptance"
+          ],
+          "id": "zanzalintinib-mcrc-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Overall-population survival endpoint met",
+          "detail": "The ITT overall-survival primary endpoint was positive.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "exel-q2-2026"
+          ],
+          "id": "zanzalintinib-mcrc-signal-1"
+        },
+        {
+          "label": "Other primary OS endpoint missed",
+          "detail": "Final OS in the non-liver-metastasis population did not reach statistical significance; both primary endpoints did not succeed.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "exel-q2-2026"
+          ],
+          "id": "zanzalintinib-mcrc-signal-2"
+        },
+        {
+          "label": "Treatment history constrains the application",
+          "detail": "The proposed use follows fluoropyrimidine, oxaliplatin and irinotecan, and anti-EGFR therapy for RAS-wild-type disease.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "exel-zan-acceptance"
+          ],
+          "id": "zanzalintinib-mcrc-signal-3"
+        },
+        {
+          "id": "zanzalintinib-mcrc-population",
+          "label": "Trial excluded MSI-high disease",
+          "detail": "STELLAR-303 enrolled non-MSI-high metastatic colorectal cancer. The broader sponsor wording of the requested indication should not be mistaken for randomized evidence in MSI-high disease.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "exel-q2-2026",
+            "exel-zan-acceptance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imsidolimab-gpp",
+      "drug": "Imsidolimab",
+      "indication": "Generalized pustular psoriasis",
+      "sponsor": "Vanda Pharmaceuticals",
+      "ticker": "VNDA",
+      "modality": "Monoclonal antibody · IL-36 receptor",
+      "phase": "Phase 3",
+      "reviewType": "Original BLA review",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT05352893",
+        "NCT05366855"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-12",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A GPP application with acute and maintenance GEMINI evidence that should be interpreted by study period and comparator.",
+      "sourceIds": [
+        "vnda-imsi-acceptance",
+        "vnda-q2-2026",
+        "trial-nct05352893",
+        "trial-nct05366855",
+        "trial-nct05352893",
+        "trial-nct05366855"
+      ],
+      "milestones": [
+        {
+          "date": "2026-02-25",
+          "title": "BLA filing accepted",
+          "detail": "Vanda reported a December 12 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "vnda-imsi-acceptance"
+          ],
+          "id": "imsidolimab-gpp-event-1"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Target reaffirmed",
+          "detail": "The quarterly update continued to list imsidolimab under FDA review.",
+          "kind": "update",
+          "sourceIds": [
+            "vnda-q2-2026"
+          ],
+          "id": "imsidolimab-gpp-event-2"
+        },
+        {
+          "date": "2026-12-12",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "vnda-imsi-acceptance"
+          ],
+          "id": "imsidolimab-gpp-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Acute efficacy and maintenance follow-up",
+          "detail": "The GEMINI studies provide evidence on initial disease clearance and subsequent maintenance.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "vnda-imsi-acceptance"
+          ],
+          "id": "imsidolimab-gpp-signal-1"
+        },
+        {
+          "label": "Different periods answer different questions",
+          "detail": "Long-term follow-up cannot automatically be described as a two-year placebo-controlled efficacy result.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "vnda-imsi-acceptance",
+            "trial-nct05352893",
+            "trial-nct05366855"
+          ],
+          "id": "imsidolimab-gpp-signal-2"
+        },
+        {
+          "label": "No final US outcome in the packet",
+          "detail": "The last identified company update still describes FDA review.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "vnda-q2-2026"
+          ],
+          "id": "imsidolimab-gpp-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "relacorilant-cushing",
+      "drug": "Relacorilant",
+      "indication": "Endogenous Cushing’s syndrome",
+      "sponsor": "Corcept Therapeutics",
+      "ticker": "CORT",
+      "modality": "Small molecule · selective glucocorticoid receptor modulator",
+      "phase": "Phase 3",
+      "reviewType": "NDA resubmission",
+      "applicationType": "NDA resubmission",
+      "nctIds": [
+        "NCT03697109"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-17",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The Cushing’s resubmission adds requested analyses; the drug’s separate oncology approval does not settle this endocrine indication.",
+      "sourceIds": [
+        "cort-q2-2026",
+        "cort-resubmission",
+        "trial-nct03697109",
+        "fda-novel-2026",
+        "trial-nct03697109"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-17",
+          "title": "NDA resubmitted",
+          "detail": "The resubmission includes requested additional analyses of the original data.",
+          "kind": "submission",
+          "sourceIds": [
+            "cort-resubmission"
+          ],
+          "id": "relacorilant-cushing-event-2"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Resubmission target reported",
+          "detail": "Corcept reported a December 17 target.",
+          "kind": "update",
+          "sourceIds": [
+            "cort-q2-2026"
+          ],
+          "id": "relacorilant-cushing-event-1"
+        },
+        {
+          "date": "2026-12-17",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "cort-q2-2026"
+          ],
+          "id": "relacorilant-cushing-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Additional analyses submitted",
+          "detail": "The package includes GRACE, GRADIENT and follow-up, with analyses requested by FDA.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "cort-resubmission"
+          ],
+          "id": "relacorilant-cushing-signal-1"
+        },
+        {
+          "label": "Randomized-withdrawal evidence has a specific population",
+          "detail": "GRACE’s withdrawal design should not be described as an all-comer parallel-group efficacy trial.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "cort-q2-2026",
+            "trial-nct03697109"
+          ],
+          "id": "relacorilant-cushing-signal-2"
+        },
+        {
+          "label": "Oncology approval is indication-specific",
+          "detail": "FDA’s March 25 relacorilant approval concerns platinum-resistant oncology; this Cushing’s application remains separate.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "fda-novel-2026",
+            "cort-q2-2026"
+          ],
+          "id": "relacorilant-cushing-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "lorundrostat-hypertension",
+      "drug": "Lorundrostat",
+      "indication": "Hypertension in adults as an adjunct to other therapies",
+      "sponsor": "Mineralys Therapeutics",
+      "ticker": "MLYS",
+      "modality": "Small molecule · aldosterone synthase inhibitor",
+      "phase": "Phase 3",
+      "reviewType": "Original NDA review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT06153693",
+        "NCT05769608"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-22",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The hypertension NDA has dedicated blood-pressure evidence; a separate sleep-apnea trial’s missed endpoint should not be hidden or conflated with that indication.",
+      "sourceIds": [
+        "mlys-lorund-acceptance",
+        "trial-nct06153693",
+        "trial-nct05769608",
+        "mlys-q2-2026"
+      ],
+      "milestones": [
+        {
+          "date": "2026-03-09",
+          "title": "NDA accepted",
+          "detail": "Mineralys reported a December 22 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "mlys-lorund-acceptance"
+          ],
+          "id": "lorundrostat-hypertension-event-1"
+        },
+        {
+          "id": "lorundrostat-hypertension-later-update",
+          "date": "2026-08-11",
+          "title": "Ongoing review reaffirmed",
+          "detail": "Mineralys continued to report the December 22 target.",
+          "kind": "update",
+          "sourceIds": [
+            "mlys-q2-2026"
+          ]
+        },
+        {
+          "date": "2026-12-22",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "mlys-lorund-acceptance"
+          ],
+          "id": "lorundrostat-hypertension-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Dedicated hypertension trials",
+          "detail": "Launch-HTN and Advance-HTN support the blood-pressure application.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "mlys-lorund-acceptance"
+          ],
+          "id": "lorundrostat-hypertension-signal-1"
+        },
+        {
+          "label": "Separate OSA primary endpoint missed",
+          "detail": "Explore-OSA did not meet its apnea-hypopnea-index endpoint; a blood-pressure signal in that study is a different outcome.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "mlys-lorund-acceptance"
+          ],
+          "id": "lorundrostat-hypertension-signal-2"
+        },
+        {
+          "label": "Scope is adjunctive hypertension treatment",
+          "detail": "The NDA should not be represented as a sleep-apnea application or approval.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "mlys-lorund-acceptance"
+          ],
+          "id": "lorundrostat-hypertension-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "anito-cel-myeloma",
+      "drug": "Anitocabtagene autoleucel (anito-cel)",
+      "indication": "Fourth-line relapsed or refractory multiple myeloma",
+      "sponsor": "Gilead Sciences / Kite",
+      "ticker": "GILD",
+      "modality": "Autologous CAR-T · BCMA",
+      "phase": "Phase 2",
+      "reviewType": "Original BLA review",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT05396885",
+        "NCT04155749"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-23",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A BCMA CAR-T application with a December target; acquisition completion and launch preparation remain distinct from regulatory or manufacturing clearance.",
+      "sourceIds": [
+        "gild-anito-acceptance",
+        "gild-arcellx-close",
+        "trial-nct05396885",
+        "trial-nct05396885",
+        "trial-nct04155749"
+      ],
+      "milestones": [
+        {
+          "date": "2026-02-23",
+          "title": "Accepted BLA target reported",
+          "detail": "Gilead reported a December 23 action target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "gild-anito-acceptance"
+          ],
+          "id": "anito-cel-myeloma-event-1"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "Arcellx acquisition completed",
+          "detail": "Gilead completed the transaction; Arcellx became wholly owned.",
+          "kind": "update",
+          "sourceIds": [
+            "gild-arcellx-close"
+          ],
+          "id": "anito-cel-myeloma-event-2"
+        },
+        {
+          "date": "2026-12-23",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "gild-anito-acceptance"
+          ],
+          "id": "anito-cel-myeloma-event-3"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Pivotal phase 2 evidence",
+          "detail": "iMMagine-1 and earlier phase 1 data support the application.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "gild-anito-acceptance"
+          ],
+          "id": "anito-cel-myeloma-signal-1"
+        },
+        {
+          "label": "No randomized superiority claim",
+          "detail": "The single-group registrational evidence does not establish superiority over another CAR-T.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-nct05396885"
+          ],
+          "id": "anito-cel-myeloma-signal-2"
+        },
+        {
+          "label": "Commercial readiness is not approval",
+          "detail": "Acquisition completion and launch planning do not establish FDA clearance of the BLA or manufacturing process.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "gild-arcellx-close"
+          ],
+          "id": "anito-cel-myeloma-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "imlifidase-kidney",
+      "drug": "Imlifidase",
+      "indication": "Desensitization enabling deceased-donor kidney transplantation in highly sensitized adults with a positive crossmatch",
+      "sponsor": "Hansa Biopharma",
+      "ticker": "HNSA",
+      "modality": "Enzyme · IgG cleavage",
+      "phase": "Phase 3",
+      "reviewType": "Original US BLA review",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT04935177"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-19",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "An immunologic desensitization application whose clinical value concerns access to transplantation and renal function, not simply antibody reduction.",
+      "sourceIds": [
+        "hansa-imli-target",
+        "trial-nct04935177",
+        "trial-nct04935177"
+      ],
+      "milestones": [
+        {
+          "date": "2026-03-04",
+          "title": "US action target assigned",
+          "detail": "Hansa reported December 19 for the accepted BLA.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "hansa-imli-target"
+          ],
+          "id": "imlifidase-kidney-event-1"
+        },
+        {
+          "date": "2026-12-19",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "hansa-imli-target"
+          ],
+          "id": "imlifidase-kidney-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Randomized transplant-strategy evidence",
+          "detail": "ConfIdeS evaluates renal function after an imlifidase-enabled transplant strategy versus the comparator strategy.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-nct04935177"
+          ],
+          "id": "imlifidase-kidney-signal-1"
+        },
+        {
+          "label": "European authorization is separate",
+          "detail": "Existing conditional European authorization does not establish a US approval outcome.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "hansa-imli-target"
+          ],
+          "id": "imlifidase-kidney-signal-2"
+        },
+        {
+          "label": "Correct target is December 19",
+          "detail": "The primary sponsor release identifies December 19; secondary calendar dates require source checking.",
+          "direction": "neutral",
+          "category": "timing",
+          "sourceIds": [
+            "hansa-imli-target"
+          ],
+          "id": "imlifidase-kidney-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "mitapivat-scd",
+      "drug": "Mitapivat",
+      "indication": "Sickle cell disease",
+      "sponsor": "Agios Pharmaceuticals",
+      "ticker": "AGIO",
+      "modality": "Small molecule · pyruvate kinase activator",
+      "phase": "Phase 2/3",
+      "reviewType": "Priority review · accelerated approval sought",
+      "applicationType": "sNDA",
+      "nctIds": [
+        "NCT05031780",
+        "NCT07656415"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-01",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "RISE UP met its hemoglobin-response primary endpoint but missed the pain-crisis primary endpoint; the accelerated-approval application includes a separate confirmatory plan.",
+      "sourceIds": [
+        "agios-scd-acceptance",
+        "trial-nct05031780",
+        "trial-nct07656415",
+        "trial-nct05031780",
+        "trial-nct07656415",
+        "agios-riseup-2026"
+      ],
+      "milestones": [
+        {
+          "id": "mitapivat-scd-later-update",
+          "date": "2026-06-13",
+          "title": "Detailed RISE UP results presented",
+          "detail": "Hemoglobin response was positive; the pain-crisis primary endpoint was nonsignificant.",
+          "kind": "update",
+          "sourceIds": [
+            "agios-riseup-2026"
+          ]
+        },
+        {
+          "date": "2026-07-07",
+          "title": "Priority sNDA accepted",
+          "detail": "Agios reported a November 1 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "agios-scd-acceptance"
+          ],
+          "id": "mitapivat-scd-event-1"
+        },
+        {
+          "date": "2026-11-01",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "agios-scd-acceptance"
+          ],
+          "id": "mitapivat-scd-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Hemoglobin response endpoint met",
+          "detail": "RISE UP phase 3 hemoglobin response was 40.6% versus 2.9%, p<0.0001, according to Agios.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "agios-riseup-2026"
+          ],
+          "id": "mitapivat-scd-signal-1"
+        },
+        {
+          "label": "Pain-crisis primary endpoint missed",
+          "detail": "Annualized pain crises did not reach statistical significance and overall fatigue did not differ. Favorable post-hoc analyses in hemoglobin responders do not preserve randomization.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "agios-riseup-2026"
+          ],
+          "id": "mitapivat-scd-signal-2"
+        },
+        {
+          "label": "Confirmatory trial is not completed evidence",
+          "detail": "REIGNITE is a separate transfusion-burden study; its planned benefit must not be presented as observed.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "agios-scd-acceptance",
+            "trial-nct07656415"
+          ],
+          "id": "mitapivat-scd-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "zilurgisertib-fop",
+      "drug": "Zilurgisertib",
+      "indication": "Fibrodysplasia ossificans progressiva in patients aged 12 years and older",
+      "sponsor": "Mirum Pharmaceuticals / Incyte",
+      "ticker": "MIRM",
+      "modality": "Small molecule · ALK2 inhibitor",
+      "phase": "Pivotal phase 2",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05090891"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-09-26",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The sponsor’s positive PROGRESS release and the SEC disclosure of a missed primary endpoint must be read together.",
+      "sourceIds": [
+        "mirm-progress",
+        "mirm-q2-2026",
+        "trial-nct05090891",
+        "trial-nct05090891"
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-14",
+          "title": "Priority NDA status and pivotal data reported",
+          "detail": "The sponsors reported an accepted NDA and September 26 target.",
+          "kind": "update",
+          "sourceIds": [
+            "mirm-progress"
+          ],
+          "id": "zilurgisertib-fop-event-1"
+        },
+        {
+          "date": "2026-09-26",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "mirm-progress"
+          ],
+          "id": "zilurgisertib-fop-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Reported secondary evidence of activity",
+          "detail": "The sponsor highlights changes in heterotopic ossification and flare activity, with nominal statistical results.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "mirm-progress"
+          ],
+          "id": "zilurgisertib-fop-signal-1"
+        },
+        {
+          "label": "Pivotal primary endpoint was nonsignificant",
+          "detail": "Mirum’s Form 10-Q explicitly states that the primary endpoint missed and the NDA relies on secondary endpoints.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "mirm-q2-2026"
+          ],
+          "id": "zilurgisertib-fop-signal-2"
+        },
+        {
+          "label": "Pivotal phase 2, not phase 3",
+          "detail": "The registered PROGRESS trial is phase 2; its role in an NDA does not change its study phase.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "mirm-progress",
+            "trial-nct05090891"
+          ],
+          "id": "zilurgisertib-fop-signal-3"
+        }
+      ]
+    },
+    {
+      "id": "dexmedetomidine-at-home",
+      "drug": "Dexmedetomidine sublingual film (IGALMI)",
+      "indication": "At-home treatment of acute agitation associated with schizophrenia or bipolar disorder",
+      "sponsor": "BioXcel Therapeutics",
+      "modality": "Small molecule · alpha-2 adrenergic agonist",
+      "phase": "Phase 3",
+      "reviewType": "Supplemental NDA review",
+      "applicationType": "sNDA",
+      "nctIds": [
+        "NCT05658510"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-14",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The at-home sNDA remains pending during BioXcel’s Chapter 11 and proposed asset sale. Operational continuity and home-use safety are separate diligence questions.",
+      "sourceIds": [
+        "btai-at-home-acceptance",
+        "trial-nct05658510",
+        "trial-nct05658510",
+        "btai-sale-2026"
+      ],
+      "milestones": [
+        {
+          "date": "2026-04-01",
+          "title": "At-home sNDA accepted",
+          "detail": "BioXcel reported a November 14 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "btai-at-home-acceptance"
+          ],
+          "id": "dexmedetomidine-at-home-event-1"
+        },
+        {
+          "id": "dexmedetomidine-at-home-later-update",
+          "date": "2026-08-28",
+          "title": "Chapter 11 and proposed asset sale",
+          "detail": "BioXcel announced a court-supervised sale process and continued support for the pending November 14 sNDA.",
+          "kind": "update",
+          "sourceIds": [
+            "btai-sale-2026"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "btai-at-home-acceptance"
+          ],
+          "id": "dexmedetomidine-at-home-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Setting-specific study",
+          "detail": "SERENITY III evaluates the proposed home-use context.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-nct05658510"
+          ],
+          "id": "dexmedetomidine-at-home-signal-1"
+        },
+        {
+          "label": "Existing indication does not establish home-use safety",
+          "detail": "FDA must assess the proposed setting and instructions; approval in a supervised setting does not settle this expansion.",
+          "direction": "unknown",
+          "category": "safety",
+          "sourceIds": [
+            "btai-at-home-acceptance"
+          ],
+          "id": "dexmedetomidine-at-home-signal-2"
+        },
+        {
+          "label": "Application is a setting expansion",
+          "detail": "This episode is a supplemental NDA, not the first approval of dexmedetomidine.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "btai-at-home-acceptance"
+          ],
+          "id": "dexmedetomidine-at-home-signal-3"
+        },
+        {
+          "id": "dexmedetomidine-at-home-sale",
+          "label": "Sponsor in a court-supervised sale process",
+          "detail": "The August 28 release describes Chapter 11 and Teva as a stalking-horse bidder, not a completed acquirer. The sponsor continues supporting the sNDA; transaction completion and review continuity require follow-up.",
+          "direction": "concern",
+          "category": "regulatory",
+          "sourceIds": [
+            "btai-sale-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encaleret-adh1",
+      "drug": "Encaleret",
+      "indication": "Autosomal dominant hypocalcemia type 1",
+      "sponsor": "BridgeBio Pharma",
+      "ticker": "BBIO",
+      "modality": "Small molecule · calcium-sensing receptor antagonist",
+      "phase": "Phase 3",
+      "reviewType": "Priority review reported",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05680818"
+      ],
+      "status": "under_review",
+      "targetDate": "2027-05-08",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "An accepted ADH1 application with a reported May 2027 target; priority designation does not justify inventing a shorter calendar.",
+      "sourceIds": [
+        "bbio-q2-2026",
+        "trial-nct05680818",
+        "trial-nct05680818"
+      ],
+      "milestones": [
+        {
+          "date": "2026-08-10",
+          "title": "Accepted NDA and target reported",
+          "detail": "BridgeBio reported priority review with a May 8, 2027 target and no planned advisory committee.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "encaleret-adh1-event-1"
+        },
+        {
+          "date": "2027-05-08",
+          "title": "Reported FDA action target",
+          "detail": "A sponsor-reported review goal, not a promised approval date.",
+          "kind": "target",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "encaleret-adh1-event-2"
+        }
+      ],
+      "signals": [
+        {
+          "label": "Disease-specific randomized comparison",
+          "detail": "CALIBRATE compares encaleret with standard care in ADH1.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-nct05680818"
+          ],
+          "id": "encaleret-adh1-signal-1"
+        },
+        {
+          "label": "Keep the published target",
+          "detail": "The source reports both priority review and May 8, 2027; do not replace the date with an inferred six-month calculation.",
+          "direction": "neutral",
+          "category": "timing",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "encaleret-adh1-signal-2"
+        },
+        {
+          "label": "Other hypoparathyroidism programs are separate",
+          "detail": "Pediatric ADH1 and chronic hypoparathyroidism programs cannot substitute for the evidence in this application.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "bbio-q2-2026"
+          ],
+          "id": "encaleret-adh1-signal-3"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "prax-ulix-acceptance",
+      "title": "Praxis: ulixacaltamide NDA accepted",
+      "url": "https://investors.praxismedicines.com/node/11326/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported FDA acceptance of the oral ulixacaltamide NDA for adult essential tremor, a January 29, 2027 target, and no planned advisory committee. Essential3 provides phase 3 evidence. This application is distinct from relutrigine and from a transdermal ulixacaltamide development program."
+    },
+    {
+      "id": "ionis-zilganersen-acceptance",
+      "title": "Ionis: zilganersen priority review accepted",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander",
+      "publisher": "Ionis Pharmaceuticals",
+      "publishedAt": "2026-03-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis reported priority review for the zilganersen NDA in pediatric and adult Alexander disease, with September 22, 2026 as the original action target. This historical acceptance predates FDA approval on September 3."
+    },
+    {
+      "id": "fda-zilganersen-approval",
+      "title": "FDA: zilganersen approved for Alexander disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": "2026-09-03",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "fda",
+      "summary": "FDA announced approval of Zanvastro (zilganersen) injection for Alexander disease in pediatric and adult patients on September 3, 2026. This is an actual regulatory outcome, superseding an older pending-review calendar entry."
+    },
+    {
+      "id": "fda-novel-2026",
+      "title": "FDA: novel drug approvals in 2026",
+      "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": "2026-09-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "fda",
+      "summary": "FDA’s list records zilganersen approval on September 3 for Alexander disease and relacorilant approval on March 25 for platinum-resistant ovarian, fallopian-tube or primary peritoneal cancer. Relacorilant’s oncology outcome is not approval of its separate Cushing’s syndrome application. The CDER novel-drug list is not a comprehensive pending or supplemental-application register."
+    },
+    {
+      "id": "ionis-bepi-acceptance",
+      "title": "Ionis / GSK: bepirovirsen priority review",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-bepirovirsen-accepted-priority",
+      "publisher": "Ionis Pharmaceuticals / GSK",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis reported acceptance and priority review of GSK’s bepirovirsen NDA for chronic hepatitis B, with an October 26, 2026 target. The B-Well trials evaluate functional cure, defined using sustained undetectable surface antigen after treatment cessation; it should not be described as eradication of every viral reservoir."
+    },
+    {
+      "id": "ionis-q2-2026",
+      "title": "Ionis: second-quarter regulatory update",
+      "url": "https://ir.ionispharma.com/news-releases/news-release-details/ionis-reports-second-quarter-2026-financial-results-and",
+      "publisher": "Ionis Pharmaceuticals",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis continued to report October 26 as bepirovirsen’s FDA target. Its then-pending September 22 zilganersen target was later overtaken by September 3 FDA approval; the July document alone cannot establish September review status."
+    },
+    {
+      "id": "mrk-ifina-acceptance",
+      "title": "Daiichi Sankyo / Merck: ifinatamab deruxtecan priority BLA",
+      "url": "https://www.merck.com/news/ifinatamab-deruxtecan-granted-priority-review-in-the-u-s-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-bas/",
+      "publisher": "Merck / Daiichi Sankyo",
+      "publishedAt": "2026-04-13",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "The sponsors reported priority review with an October 10 target for ifinatamab deruxtecan in adults with extensive-stage small-cell lung cancer after progression on or after platinum chemotherapy. The phase 2 IDeate-Lung01 dose-expansion evidence is not a randomized comparison against standard treatment. FDA review programs and acceptance do not establish approval."
+    },
+    {
+      "id": "roche-atezo-acceptance",
+      "title": "Roche: adjuvant atezolizumab filing in biomarker-defined colon cancer",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-11",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review of supplemental applications for Tecentriq and Tecentriq Hybreza with FOLFOX6 in stage III dMMR/MSI-H colon cancer, targeting October 9. ATOMIC showed a disease-free-survival benefit; that endpoint and molecularly defined population should not be generalized to overall survival or all colorectal cancers."
+    },
+    {
+      "id": "roche-satral-acceptance",
+      "title": "Roche: satralizumab TED filing and discordant pivotal results",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-30",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-30",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review and an October 15 target for Enspryng in moderate-to-severe thyroid eye disease. SatraGO-2 met its proptosis-response primary endpoint (53% versus 23%). SatraGO-1 showed a numerical difference (49% versus 31%) that was not statistically significant. Existing approval in NMOSD does not establish efficacy or approval in TED."
+    },
+    {
+      "id": "pharming-lenio-resubmission",
+      "title": "Pharming: pediatric leniolisib resubmission accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html",
+      "publisher": "Pharming Group",
+      "publishedAt": "2026-06-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Pharming reported acceptance of the Joenja sNDA resubmission, targeting October 24 after a January 30 CRL and March 26 Type A meeting. The resubmission addresses analytical-method and batch-testing requests. It covers children aged 4–11 weighing at least 27 kg using 40/50 mg twice daily; lower-weight children require a separate submission."
+    },
+    {
+      "id": "ino-q2-2026",
+      "title": "INOVIO: INO-3107 review and eligibility questions",
+      "url": "https://www.sec.gov/Archives/edgar/data/1055726/000105572626000024/ino-63026x8kex991.htm",
+      "publisher": "INOVIO / SEC",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "INOVIO reported an October 30 BLA target for INO-3107 in adult recurrent respiratory papillomatosis and completion of scheduled prelicensure inspections. An informal clinical meeting did not discuss accelerated-approval eligibility; the sponsor’s view that the drug qualifies is not FDA concurrence. Confirmatory-trial feedback was still expected."
+    },
+    {
+      "id": "bbio-bbp418-acceptance",
+      "title": "BridgeBio: BBP-418 priority NDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301817/0/en/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9.html",
+      "publisher": "BridgeBio Pharma",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BridgeBio reported a November 27 target and priority review for oral BBP-418 in LGMD2I/R9. The filing relies on a prespecified 12-month FORTIFY interim analysis that the sponsor says met primary and key secondary endpoints. No advisory committee was planned at the announcement; longer-term follow-up and the final regulatory assessment remain distinct."
+    },
+    {
+      "id": "bbio-q2-2026",
+      "title": "BridgeBio: BBP-418 and encaleret review update",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx",
+      "publisher": "BridgeBio Pharma",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BridgeBio reported accepted priority-review NDAs for BBP-418 in LGMD2I/R9 with a November 27, 2026 target and encaleret in ADH1 with a May 8, 2027 target, with no planned advisory committee for either. Its infigratinib NDA had been submitted but lacked a reported target; that stage must not be conflated with acceptance."
+    },
+    {
+      "id": "cogt-gist-acceptance",
+      "title": "Cogent: bezuclastinib plus sunitinib GIST NDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302753/0/en/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-nda-with-priority-review-for-bezuclastinib-in-combination-with-sunitinib-for-patients-with-gist.html",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-05-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Cogent reported priority review and a November 30 target for bezuclastinib plus sunitinib in GIST after imatinib. In PEAK, median PFS was 16.5 versus 9.2 months (HR 0.50; 95% CI 0.39–0.65). This is combination evidence in GIST, separate from bezuclastinib monotherapy in systemic mastocytosis."
+    },
+    {
+      "id": "cogt-nonadv-acceptance",
+      "title": "Cogent: bezuclastinib non-advanced SM NDA accepted",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-application",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-03-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Cogent reported an accepted NDA and December 30 target for bezuclastinib in non-advanced systemic mastocytosis. The sponsor says SUMMIT met its primary and key secondary endpoints. SUMMIT is registered as phase 2 despite its pivotal role; this episode excludes the separate GIST combination and advanced-SM programs."
+    },
+    {
+      "id": "roche-gired-early",
+      "title": "Roche: adjuvant giredestrant priority review",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-02",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-02",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review with a November 30 target for adjuvant giredestrant in ER-positive/HER2-negative stage I–III breast cancer. lidERA showed invasive disease-free-survival HR 0.70 (95% CI 0.57–0.87), with three-year estimates 92.4% versus 89.6%; overall survival remained immature. Relative hazard reduction is not the absolute benefit."
+    },
+    {
+      "id": "roche-gired-advanced",
+      "title": "Roche: giredestrant plus everolimus filing",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "publisher": "Roche",
+      "publishedAt": "2026-02-20",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported a December 18 target for giredestrant plus everolimus in ESR1-mutated, ER-positive/HER2-negative locally advanced or metastatic breast cancer after endocrine therapy. evERA results in the ESR1-mutated population differ from the overall population and should not be interchanged. This combination filing is separate from adjuvant giredestrant."
+    },
+    {
+      "id": "roche-hy-2026",
+      "title": "Roche: half-year 2026 regulatory portfolio update",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "publisher": "Roche",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche’s half-year update lists the 2026 US filings for adjuvant giredestrant, giredestrant plus everolimus, adjuvant atezolizumab and satralizumab in TED. It supports portfolio context; individual acceptance releases supply the exact target dates and trial limitations."
+    },
+    {
+      "id": "vrtx-poveta-acceptance",
+      "title": "Vertex: povetacicept BLA accepted",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application",
+      "publisher": "Vertex Pharmaceuticals",
+      "publishedAt": "2026-06-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Vertex reported a November 30 target for the povetacicept BLA seeking accelerated approval in adult IgA nephropathy. The RAINIER interim analysis reported 49.8% placebo-adjusted reduction in urine protein-to-creatinine ratio at week 36. The later 104-week eGFR-slope assessment addresses renal-function benefit and is not an observed result of this interim analysis."
+    },
+    {
+      "id": "exel-zan-acceptance",
+      "title": "Exelixis: zanzalintinib plus atezolizumab NDA accepted",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-us-fda-accepted-new-drug-application",
+      "publisher": "Exelixis",
+      "publishedAt": "2026-02-02",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Exelixis reported a December 3 target for zanzalintinib plus atezolizumab in previously treated metastatic colorectal cancer. STELLAR-303 compares the combination with regorafenib and has dual overall-survival endpoints: the intent-to-treat population and patients without liver metastases. The proposed setting follows fluoropyrimidine, oxaliplatin and irinotecan, plus anti-EGFR therapy when RAS wild type."
+    },
+    {
+      "id": "exel-q2-2026",
+      "title": "Exelixis: STELLAR-303 final subgroup result and NDA update",
+      "url": "https://ir.exelixis.com/static-files/fe809677-bfbd-42c6-8538-73244509c5b7",
+      "publisher": "Exelixis / SEC",
+      "publishedAt": "2026-08-05",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Exelixis reaffirmed the December 3 target. STELLAR-303 had met its ITT overall-survival primary endpoint, but the final analysis announced in June 2026 did not reach significance for the other primary endpoint, OS in patients without liver metastases. A positive overall result cannot be described as both primary populations succeeding. The trial enrolled non-MSI-high disease."
+    },
+    {
+      "id": "vnda-imsi-acceptance",
+      "title": "Vanda: imsidolimab BLA accepted for GPP",
+      "url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html",
+      "publisher": "Vanda Pharmaceuticals",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Vanda reported FDA filing acceptance of imsidolimab for generalized pustular psoriasis and a December 12 target. Its GEMINI program includes an acute controlled efficacy study and longer-term maintenance follow-up. Different periods and populations should not be collapsed into a single two-year placebo-controlled effect."
+    },
+    {
+      "id": "vnda-q2-2026",
+      "title": "Vanda: imsidolimab review update",
+      "url": "https://www.sec.gov/Archives/edgar/data/1347178/000162828026053308/vnda8-k852026exhibit991.htm",
+      "publisher": "Vanda Pharmaceuticals / SEC",
+      "publishedAt": "2026-08-05",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Vanda continued to report the imsidolimab BLA under FDA review for generalized pustular psoriasis with a December 12, 2026 target. Corporate launch planning or non-US orphan designation does not constitute a US approval."
+    },
+    {
+      "id": "cort-q2-2026",
+      "title": "Corcept: relacorilant Cushing’s resubmission target",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
+      "publisher": "Corcept Therapeutics / SEC",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Corcept reported a resubmitted relacorilant NDA for Cushing’s syndrome and a December 17 target. GRACE is a pivotal randomized-withdrawal study enrolling 152 patients. The Cushing’s application remains separate from relacorilant’s already approved oncology use."
+    },
+    {
+      "id": "cort-resubmission",
+      "title": "Corcept: relacorilant Cushing’s NDA resubmitted",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941dex991.htm",
+      "publisher": "Corcept Therapeutics / SEC",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Corcept resubmitted relacorilant for Cushing’s syndrome with FDA-requested additional analyses of data in the original application. The package includes GRACE, GRADIENT and long-term follow-up; sponsor-reported positive trials and resubmission do not establish FDA agreement that prior questions are resolved."
+    },
+    {
+      "id": "mlys-lorund-acceptance",
+      "title": "Mineralys: lorundrostat NDA accepted; separate OSA trial result",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for",
+      "publisher": "Mineralys Therapeutics",
+      "publishedAt": "2026-03-09",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Mineralys reported FDA acceptance of lorundrostat for adult hypertension as an adjunct to other therapies, with a December 22 target, supported by Launch-HTN and Advance-HTN. In the same release, the separate Explore-OSA trial missed its apnea-hypopnea-index primary endpoint despite a blood-pressure signal. Hypertension and sleep-apnea endpoints are different claims."
+    },
+    {
+      "id": "gild-anito-acceptance",
+      "title": "Gilead: anito-cel BLA target and Arcellx transaction",
+      "url": "https://www.sec.gov/Archives/edgar/data/882095/000110465926018314/tm267044d1_ex99-1.htm",
+      "publisher": "Gilead Sciences / SEC",
+      "publishedAt": "2026-02-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Gilead reported accepted FDA review of anitocabtagene autoleucel for fourth-line relapsed/refractory multiple myeloma with a December 23 target. The filing follows iMMagine-1 phase 2 and phase 1 evidence. The announced Arcellx acquisition was still a proposed transaction on this date."
+    },
+    {
+      "id": "gild-arcellx-close",
+      "title": "Gilead: Arcellx acquisition completed",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel/default.aspx",
+      "publisher": "Gilead Sciences",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Gilead completed its acquisition of Arcellx, making it wholly owned. Anito-cel remained under FDA review; corporate ownership and launch readiness are not regulatory clearance. Current sponsor mapping uses Gilead/Kite rather than presenting Arcellx as an independent listed company."
+    },
+    {
+      "id": "hansa-imli-target",
+      "title": "Hansa: imlifidase US action date",
+      "url": "https://www.prnewswire.com/news-releases/pdufa-action-date-for-hansa-biopharmas-imlifidase-bla-set-for-december-19-2026-302704610.html",
+      "publisher": "Hansa Biopharma",
+      "publishedAt": "2026-03-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Hansa reported December 19, 2026 as the target for its accepted imlifidase BLA, intended to enable deceased-donor kidney transplantation in highly sensitized adults with a positive crossmatch. The date is December 19, not December 9. Existing European conditional authorization does not imply a US approval."
+    },
+    {
+      "id": "agios-scd-acceptance",
+      "title": "Agios: mitapivat sickle-cell sNDA priority review",
+      "url": "https://investor.agios.com/news-releases/news-release-details/us-fda-grants-priority-review-agios-snda-mitapivat-sickle-cell",
+      "publisher": "Agios Pharmaceuticals",
+      "publishedAt": "2026-07-07",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Agios reported priority review of its mitapivat sickle-cell sNDA submitted through the accelerated-approval pathway, with a November 1 target. RISEUP evaluates hemoglobin response and sickle-cell pain crises; REIGNITE is a separate confirmatory transfusion-burden study. Acceptance and planned confirmation must not be represented as demonstrated reduction in clinical events."
+    },
+    {
+      "id": "mirm-q2-2026",
+      "title": "Mirum: zilurgisertib review and pivotal endpoint risk",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000045/mirm-20260630.htm",
+      "publisher": "Mirum Pharmaceuticals / SEC",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Mirum’s second-quarter 2026 Form 10-Q reports an accepted zilurgisertib NDA with a September 26 target and its April licensing agreement with Incyte. It explicitly states the pivotal study did not reach statistical significance on the primary endpoint and the NDA is supported by secondary endpoints. Exact filing day was not established in this snapshot."
+    },
+    {
+      "id": "mirm-progress",
+      "title": "Mirum / Incyte: zilurgisertib PROGRESS data and NDA",
+      "url": "https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva/default.aspx",
+      "publisher": "Mirum Pharmaceuticals / Incyte",
+      "publishedAt": "2026-06-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "The sponsors reported priority review and a September 26 target for zilurgisertib in FOP in patients aged 12 and older. Their phase 2 PROGRESS release highlights reductions in heterotopic ossification and flare activity, including nominal p-values. These positive secondary analyses require reconciliation with the Form 10-Q disclosure of a nonsignificant primary endpoint."
+    },
+    {
+      "id": "btai-at-home-acceptance",
+      "title": "BioXcel: IGALMI at-home sNDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/04/01/3266468/0/en/bioxcel-therapeutics-announces-food-drug-administration-acceptance-of-supplemental-new-drug-application-for-use-of-igalmi-in-the-at-home-setting.html",
+      "publisher": "BioXcel Therapeutics",
+      "publishedAt": "2026-04-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BioXcel reported acceptance of its supplemental NDA for dexmedetomidine sublingual film for acute agitation associated with bipolar disorder or schizophrenia in the at-home setting, with a November 14 target. This is a proposed setting expansion, separate from the established supervised-use indication; SERENITY III supplies the relevant study context."
+    },
+    {
+      "id": "trial-nct06087276",
+      "title": "ClinicalTrials.gov: NCT06087276 · Essential 3 - Decentralized, Phase 3 Study Evaluating the Safety and Efficacy of Ulixacaltamide in Essential Tremor (ET)",
+      "url": "https://clinicaltrials.gov/study/NCT06087276",
+      "publisher": "ClinicalTrials.gov / Praxis Precision Medicines",
+      "publishedAt": "2026-07-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 1000 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04849741",
+      "title": "ClinicalTrials.gov: NCT04849741 · A Study to Evaluate the Safety and Efficacy of Zilganersen (ION373) in Patients With Alexander Disease (AxD)",
+      "url": "https://clinicaltrials.gov/study/NCT04849741",
+      "publisher": "ClinicalTrials.gov / Ionis Pharmaceuticals, Inc.",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 54 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05630807",
+      "title": "ClinicalTrials.gov: NCT05630807 · Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+      "url": "https://clinicaltrials.gov/study/NCT05630807",
+      "publisher": "ClinicalTrials.gov / GlaxoSmithKline",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 981 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05630820",
+      "title": "ClinicalTrials.gov: NCT05630820 · Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+      "url": "https://clinicaltrials.gov/study/NCT05630820",
+      "publisher": "ClinicalTrials.gov / GlaxoSmithKline",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 857 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05280470",
+      "title": "ClinicalTrials.gov: NCT05280470 · Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+      "url": "https://clinicaltrials.gov/study/NCT05280470",
+      "publisher": "ClinicalTrials.gov / Daiichi Sankyo",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 187 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct02912559",
+      "title": "ClinicalTrials.gov: NCT02912559 · Combination Chemotherapy With or Without Atezolizumab in Treating Patients With Stage III Colon Cancer and Deficient DNA Mismatch Repair",
+      "url": "https://clinicaltrials.gov/study/NCT02912559",
+      "publisher": "ClinicalTrials.gov / National Cancer Institute (NCI)",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 712 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05987423",
+      "title": "ClinicalTrials.gov: NCT05987423 · Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05987423",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 131 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct06106828",
+      "title": "ClinicalTrials.gov: NCT06106828 · A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT06106828",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 127 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05438407",
+      "title": "ClinicalTrials.gov: NCT05438407 · Pediatric Patients Aged 4 to 11 Years With APDS",
+      "url": "https://clinicaltrials.gov/study/NCT05438407",
+      "publisher": "ClinicalTrials.gov / Pharming Technologies B.V.",
+      "publishedAt": "2026-05-06",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; na; single group. Registry enrollment is 15 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04398433",
+      "title": "ClinicalTrials.gov: NCT04398433 · INO-3107 With Electroporation (EP) in Participants With HPV-6- and/or HPV-11-Associated Recurrent Respiratory Papillomatosis (RRP)",
+      "url": "https://clinicaltrials.gov/study/NCT04398433",
+      "publisher": "ClinicalTrials.gov / Inovio Pharmaceuticals",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 1, phase 2; na; single group. Registry enrollment is 32 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05775848",
+      "title": "ClinicalTrials.gov: NCT05775848 · Study to Evaluate the Efficacy and Safety of BBP-418 (Ribitol) in Patients With Limb Girdle Muscular Dystrophy 2I (LGMD2I)",
+      "url": "https://clinicaltrials.gov/study/NCT05775848",
+      "publisher": "ClinicalTrials.gov / ML Bio Solutions, Inc.",
+      "publishedAt": "2026-09-09",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 112 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05208047",
+      "title": "ClinicalTrials.gov: NCT05208047 · (Peak) A Phase 3 Randomized Trial of CGT9486+Sunitinib vs. Sunitinib in Subjects With Gastrointestinal Stromal Tumors",
+      "url": "https://clinicaltrials.gov/study/NCT05208047",
+      "publisher": "ClinicalTrials.gov / Cogent Biosciences, Inc.",
+      "publishedAt": "2026-06-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 482 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05186753",
+      "title": "ClinicalTrials.gov: NCT05186753 · (Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+      "url": "https://clinicaltrials.gov/study/NCT05186753",
+      "publisher": "ClinicalTrials.gov / Cogent Biosciences, Inc.",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 237 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04961996",
+      "title": "ClinicalTrials.gov: NCT04961996 · A Study Evaluating the Efficacy and Safety of Adjuvant Giredestrant Compared With Physician's Choice of Adjuvant Endocrine Monotherapy in Participants With Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer (lidERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT04961996",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 4170 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05306340",
+      "title": "ClinicalTrials.gov: NCT05306340 · A Study Evaluating the Efficacy and Safety of Giredestrant Plus Everolimus Compared With the Physician's Choice of Endocrine Therapy Plus Everolimus in Participants With Estrogen Receptor-Positive, HER2-Negative, Locally Advanced or Metastatic Breast Cancer (evERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT05306340",
+      "publisher": "ClinicalTrials.gov / Genentech, Inc.",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 373 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct06564142",
+      "title": "ClinicalTrials.gov: NCT06564142 · Evaluation of Efficacy of Povetacicept in Adults With Immunoglobulin A Nephropathy (IgAN)",
+      "url": "https://clinicaltrials.gov/study/NCT06564142",
+      "publisher": "ClinicalTrials.gov / Alpine Immune Sciences Inc, A Subsidiary of Vertex",
+      "publishedAt": "2026-05-15",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 605 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05425940",
+      "title": "ClinicalTrials.gov: NCT05425940 · Study of XL092 + Atezolizumab vs Regorafenib in Participants With Metastatic Colorectal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT05425940",
+      "publisher": "ClinicalTrials.gov / Exelixis",
+      "publishedAt": "2026-07-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 901 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05352893",
+      "title": "ClinicalTrials.gov: NCT05352893 · Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05352893",
+      "publisher": "ClinicalTrials.gov / Vanda Pharmaceuticals",
+      "publishedAt": "2026-03-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 45 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05366855",
+      "title": "ClinicalTrials.gov: NCT05366855 · Study to Evaluate the Long-Term Safety and Efficacy of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05366855",
+      "publisher": "ClinicalTrials.gov / Vanda Pharmaceuticals",
+      "publishedAt": "2026-03-27",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 42 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct03697109",
+      "title": "ClinicalTrials.gov: NCT03697109 · A Study of the Efficacy and Safety of Relacorilant in Patients With Endogenous Cushing Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT03697109",
+      "publisher": "ClinicalTrials.gov / Corcept Therapeutics",
+      "publishedAt": "2025-07-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 152 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct06153693",
+      "title": "ClinicalTrials.gov: NCT06153693 · Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+      "url": "https://clinicaltrials.gov/study/NCT06153693",
+      "publisher": "ClinicalTrials.gov / Mineralys Therapeutics Inc.",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 1083 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05769608",
+      "title": "ClinicalTrials.gov: NCT05769608 · A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+      "url": "https://clinicaltrials.gov/study/NCT05769608",
+      "publisher": "ClinicalTrials.gov / Mineralys Therapeutics Inc.",
+      "publishedAt": "2026-01-20",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 285 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05396885",
+      "title": "ClinicalTrials.gov: NCT05396885 · Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05396885",
+      "publisher": "ClinicalTrials.gov / Kite, A Gilead Company",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; na; single group. Registry enrollment is 136 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04155749",
+      "title": "ClinicalTrials.gov: NCT04155749 · Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+      "url": "https://clinicaltrials.gov/study/NCT04155749",
+      "publisher": "ClinicalTrials.gov / Kite, A Gilead Company",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 1; na; single group. Registry enrollment is 40 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04935177",
+      "title": "ClinicalTrials.gov: NCT04935177 · Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+      "url": "https://clinicaltrials.gov/study/NCT04935177",
+      "publisher": "ClinicalTrials.gov / Hansa Biopharma AB",
+      "publishedAt": "2026-04-30",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 64 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05031780",
+      "title": "ClinicalTrials.gov: NCT05031780 · A Study Evaluating the Efficacy and Safety of Mitapivat (AG-348) in Participants With Sickle Cell Disease (RISE UP)",
+      "url": "https://clinicaltrials.gov/study/NCT05031780",
+      "publisher": "ClinicalTrials.gov / Agios Pharmaceuticals, Inc.",
+      "publishedAt": "2026-06-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2, phase 3; randomized; sequential. Registry enrollment is 286 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct07656415",
+      "title": "ClinicalTrials.gov: NCT07656415 · A Study to Investigate the Effect of Mitapivat on Transfusion Burden in Subjects With Sickle Cell Disease (SCD)",
+      "url": "https://clinicaltrials.gov/study/NCT07656415",
+      "publisher": "ClinicalTrials.gov / Agios Pharmaceuticals, Inc.",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 159 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05090891",
+      "title": "ClinicalTrials.gov: NCT05090891 · To Assess the Efficacy, Safety, and Tolerability of INCB000928 in Participants With Fibrodysplasia Ossificans Progressiva",
+      "url": "https://clinicaltrials.gov/study/NCT05090891",
+      "publisher": "ClinicalTrials.gov / Incyte Corporation",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 98 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05658510",
+      "title": "ClinicalTrials.gov: NCT05658510 · Dexmedetomidine in the Treatment of Agitation Associated With Schizophrenia and Bipolar Disorder (SERENITY III)",
+      "url": "https://clinicaltrials.gov/study/NCT05658510",
+      "publisher": "ClinicalTrials.gov / BioXcel Therapeutics Inc",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 452 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05680818",
+      "title": "ClinicalTrials.gov: NCT05680818 · Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "publisher": "ClinicalTrials.gov / Calcilytix Therapeutics, Inc., a BridgeBio company",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 67 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "mlys-q2-2026",
+      "title": "Mineralys: ongoing lorundrostat NDA review",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/111/mineralys-therapeutics-reports-second-quarter-2026",
+      "publisher": "Mineralys Therapeutics",
+      "publishedAt": "2026-08-11",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Mineralys reaffirmed ongoing FDA review of lorundrostat for hypertension with other antihypertensive drugs and the December 22 target. Its commercial preparations are conditional on approval."
+    },
+    {
+      "id": "cogt-q2-2026",
+      "title": "Cogent: bezuclastinib application status update",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-recent-business-highlights-and-11",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Cogent reaffirmed November 30 for its GIST combination NDA and December 30 for its non-advanced systemic mastocytosis NDA. A third NDA for advanced systemic mastocytosis was submitted June 30; this disclosure does not provide acceptance or a target for that separate application."
+    },
+    {
+      "id": "btai-sale-2026",
+      "title": "BioXcel: Chapter 11 and proposed Teva asset sale",
+      "url": "https://www.globenewswire.com/news-release/2026/08/28/3352588/0/en/bioxcel-therapeutics-enters-into-asset-sale-agreement-with-teva-pharmaceuticals.html",
+      "publisher": "BioXcel Therapeutics",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "BioXcel announced voluntary Chapter 11 proceedings and a stalking-horse asset-sale agreement with Teva for assets including IGALMI and the pending at-home sNDA. The transaction is subject to the court-supervised sale process, not a completed transfer. BioXcel explicitly stated it continued supporting the sNDA with November 14 as the target."
+    },
+    {
+      "id": "agios-riseup-2026",
+      "title": "Agios: RISE UP hemoglobin benefit and missed pain endpoint",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-showcases-rise-phase-3-results-eha-2026-plenary-session",
+      "publisher": "Agios Pharmaceuticals",
+      "publishedAt": "2026-06-13",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Agios reported RISE UP phase 3 hemoglobin response of 40.6% versus 2.9%, p<0.0001. The separate primary endpoint of annualized sickle-cell pain crises did not reach significance, and overall fatigue did not differ. Analyses restricted to hemoglobin responders were post hoc; they do not preserve the original randomized comparison."
+    }
+  ]
+}

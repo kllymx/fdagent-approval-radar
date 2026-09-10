@@ -1,0 +1,324 @@
+{
+  "candidateId": "imlifidase-kidney",
+  "generatedAt": "2026-09-10T18:56:17.179Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-trials-NCT04935177"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT04935177",
+          "title": "Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+          "url": "https://clinicaltrials.gov/study/NCT04935177",
+          "fields": {
+            "nctId": "NCT04935177",
+            "sponsor": "Hansa Biopharma AB",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Kidney Transplantation in Highly Sensitized Patients"
+            ],
+            "interventions": [
+              "Imlifidase",
+              "PLEX",
+              "IVIg",
+              "Anti-CD20 antibodies",
+              "Eculizumab",
+              "Remain on wait list"
+            ],
+            "enrollment": {
+              "count": 64,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Mean estimated glomerular filtration rate (eGFR) at 12 months",
+                "timeFrame": "12 months after randomization"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-06-20",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-04-30",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hansa Biopharma AB. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT04935177"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 17,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-37340532",
+        "evidence-publications-39023092",
+        "evidence-publications-41578965",
+        "evidence-publications-38994389",
+        "evidence-publications-39825100"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "37340532",
+          "title": "Imlifidase Desensitization in HLA-incompatible Kidney Transplantation: Finding the Sweet Spot.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37340532/",
+          "summary": "Indexed citation in Transplantation; publication date 2024 Feb 1. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "37340532",
+            "journal": "Transplantation",
+            "publicationDate": "2024 Feb 1",
+            "electronicPublicationDate": "2024 Jan 19",
+            "publicationTypes": [
+              "Review",
+              "Journal Article"
+            ],
+            "authors": [
+              "de Weerd AE",
+              "Roelen DL",
+              "van de Wetering J",
+              "Betjes MGH",
+              "Heidt S",
+              "Reinders MEJ"
+            ],
+            "doi": "10.1097/TP.0000000000004689",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=37340532%2C39023092%2C41578965%2C38994389%2C39825100&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-37340532"
+        },
+        {
+          "id": "39023092",
+          "title": "A Randomized Trial Comparing Imlifidase to Plasmapheresis in Kidney Transplant Recipients With Antibody-Mediated Rejection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39023092/",
+          "summary": "Indexed citation in Clinical transplantation; publication date 2024 Jul. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "39023092",
+            "journal": "Clinical transplantation",
+            "publicationDate": "2024 Jul",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Halleck F",
+              "Böhmig GA",
+              "Couzi L",
+              "Rostaing L",
+              "Einecke G",
+              "Lefaucheur C"
+            ],
+            "doi": "10.1111/ctr.15383",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=37340532%2C39023092%2C41578965%2C38994389%2C39825100&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-39023092"
+        },
+        {
+          "id": "41578965",
+          "title": "Trends in Nephrology: From nihilism to targeted treatment of antibody-mediated rejection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41578965/",
+          "summary": "Indexed citation in Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association; publication date 2026 Jan 24. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41578965",
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "publicationDate": "2026 Jan 24",
+            "electronicPublicationDate": "2026 Jan 24",
+            "publicationTypes": [
+              "Journal Article"
+            ],
+            "authors": [
+              "Pickl JF",
+              "Oberbauer R"
+            ],
+            "doi": "10.1093/ndt/gfag011",
+            "citationStatus": "10",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=37340532%2C39023092%2C41578965%2C38994389%2C39825100&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41578965"
+        },
+        {
+          "id": "38994389",
+          "title": "New approach to desensitization in solid organ transplantation-imlifidase.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38994389/",
+          "summary": "Indexed citation in Frontiers in transplantation; publication date 2022. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38994389",
+            "journal": "Frontiers in transplantation",
+            "publicationDate": "2022",
+            "electronicPublicationDate": "2022 Nov 10",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Durlik M"
+            ],
+            "doi": "10.3389/frtra.2022.951360",
+            "citationStatus": "258",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=37340532%2C39023092%2C41578965%2C38994389%2C39825100&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38994389"
+        },
+        {
+          "id": "39825100",
+          "title": "Safety, efficacy, and immunogenicity of a novel IgG degrading enzyme (KJ103): results from two randomised, blinded, phase 1 clinical trials.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39825100/",
+          "summary": "Indexed citation in Gene therapy; publication date 2025 May. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "39825100",
+            "journal": "Gene therapy",
+            "publicationDate": "2025 May",
+            "electronicPublicationDate": "2025 Jan 18",
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase I",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Cao M",
+              "Katial R",
+              "Liu Y",
+              "Lu X",
+              "Gu Q",
+              "Chen C"
+            ],
+            "doi": "10.1038/s41434-025-00512-1",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=37340532%2C39023092%2C41578965%2C38994389%2C39825100&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-39825100"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04935177",
+      "title": "Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+      "url": "https://clinicaltrials.gov/study/NCT04935177",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-04-30",
+      "retrievedAt": "2026-09-10T18:56:16.411Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hansa Biopharma AB. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37340532",
+      "title": "Imlifidase Desensitization in HLA-incompatible Kidney Transplantation: Finding the Sweet Spot.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37340532/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:17.179Z",
+      "summary": "Indexed citation in Transplantation; publication date 2024 Feb 1. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39023092",
+      "title": "A Randomized Trial Comparing Imlifidase to Plasmapheresis in Kidney Transplant Recipients With Antibody-Mediated Rejection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39023092/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:17.179Z",
+      "summary": "Indexed citation in Clinical transplantation; publication date 2024 Jul. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41578965",
+      "title": "Trends in Nephrology: From nihilism to targeted treatment of antibody-mediated rejection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41578965/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:17.179Z",
+      "summary": "Indexed citation in Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association; publication date 2026 Jan 24. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38994389",
+      "title": "New approach to desensitization in solid organ transplantation-imlifidase.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38994389/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:17.179Z",
+      "summary": "Indexed citation in Frontiers in transplantation; publication date 2022. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39825100",
+      "title": "Safety, efficacy, and immunogenicity of a novel IgG degrading enzyme (KJ103): results from two randomised, blinded, phase 1 clinical trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39825100/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:17.179Z",
+      "summary": "Indexed citation in Gene therapy; publication date 2025 May. Abstract and full text have not been assessed."
+    }
+  ]
+}

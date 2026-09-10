@@ -1,0 +1,167 @@
+{
+  "candidateId": "anito-cel-myeloma",
+  "generatedAt": "2026-09-10T18:56:16.379Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-trials-NCT05396885",
+        "evidence-trials-NCT04155749"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05396885",
+          "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+          "url": "https://clinicaltrials.gov/study/NCT05396885",
+          "fields": {
+            "nctId": "NCT05396885",
+            "sponsor": "Kite, A Gilead Company",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Multiple Myeloma"
+            ],
+            "interventions": [
+              "anitocabtagene-autoleucel"
+            ],
+            "enrollment": {
+              "count": 136,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Overall Response Rate (ORR)",
+                "timeFrame": "24 Months"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2026-12",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-02-11",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Kite, A Gilead Company. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05396885"
+        },
+        {
+          "id": "NCT04155749",
+          "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+          "url": "https://clinicaltrials.gov/study/NCT04155749",
+          "fields": {
+            "nctId": "NCT04155749",
+            "sponsor": "Kite, A Gilead Company",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE1"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Relapsed and Refractory Multiple Myeloma"
+            ],
+            "interventions": [
+              "anitocabtagene-autoleucel"
+            ],
+            "enrollment": {
+              "count": 40,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of treatment-emergent adverse events (TEAEs), including DLT(s)",
+                "timeFrame": "24 months"
+              },
+              {
+                "measure": "Establish the RP2D of the investigational agent",
+                "timeFrame": "24 months"
+              }
+            ],
+            "primaryOutcomesReturned": 2,
+            "primaryOutcomesTotal": 2,
+            "primaryCompletionDate": "2024-10-03",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-02-11",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE1; lead sponsor Kite, A Gilead Company. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT04155749"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made. PubMed search warnings: {\"phrasesignored\":[],\"quotedphrasesnotfound\":[\"\\\"Anitocabtagene autoleucel\\\"[Title/Abstract]\"],\"outputmessages\":[\"No items found.\"]}",
+      "records": []
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05396885",
+      "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05396885",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:56:16.137Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Kite, A Gilead Company. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04155749",
+      "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+      "url": "https://clinicaltrials.gov/study/NCT04155749",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:56:16.137Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE1; lead sponsor Kite, A Gilead Company. Results availability is not an efficacy conclusion."
+    }
+  ]
+}

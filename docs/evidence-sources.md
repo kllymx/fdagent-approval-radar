@@ -1,0 +1,48 @@
+# Public evidence connectors
+
+`server/evidence.ts` provides four focused discovery adapters for regulatory diligence. The implementation is original TypeScript using native fetch, with no credentials, added packages, private FDAgent source, or private datasets. Existing FDAgent's registry/client interfaces were inspected read-only to prioritize useful public data families.
+
+```ts
+executeEvidenceQuery(
+  family: 'trials' | 'approvals' | 'labels' | 'publications',
+  query: string | { drug?: string; sponsor?: string; indication?: string;
+    applicationNumber?: string; nctIds?: string[]; limit?: number },
+  options?: { fetch?: typeof fetch; now?: () => Date;
+    timeoutMs?: number; limit?: number; signal?: AbortSignal }
+): Promise<EvidenceResult>
+```
+
+A string means a literal drug-name search, not executable advanced-query syntax. Result fields are `family`, normalized `query`, `queryUrl`, `retrievedAt`, `total`, `records`, `sources`, `coverage`, and `limitations`. Every record has `id`, `sourceId`, `title`, `url`, `summary`, and family-specific `fields`. Every source conforms to `shared/schema.ts` and declares `contentKind: "metadata"`; `fullText` is normalized metadata and scope, not a claim that the complete underlying document was read. Consumers must preserve this distinction when exposing the source to Astra. Source IDs derive from stable external identifiers. Raw source text remains untrusted evidence, never agent instructions.
+
+| Family         | Public endpoint and returned evidence                                                                                                                                                                                                                    | Interpretation limits                                                                                                                                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `trials`       | [ClinicalTrials.gov API v2](https://clinicaltrials.gov/data-api/api): intervention, sponsor and condition filters; NCT ID, phase, enrollment, registered primary outcomes, study status, posted-results flag, and registry dates.                        | A current registry snapshot is not an FDA review conclusion or historical snapshot. Completion and results availability do not establish endpoint success. Filters are combined, so aliases or sponsor changes may require a separate search. |
+| `approvals`    | [openFDA Drugs@FDA](https://open.fda.gov/apis/drug/drugsfda/): product/ingredient or sponsor search; exact NDA/BLA/ANDA lookup; application products, original submissions and recent supplements, action dates, and official review/label/letter links. | These records cover approved products, not a complete denominator of applications. A matching product is not necessarily approved for the candidate indication. Submission status date is an action/status date, not receipt date.            |
+| `labels`       | [openFDA SPL labels](https://open.fda.gov/apis/drug/label/): drug/ingredient, manufacturer, application or indication search; label identifiers, effective date, section availability, and a bounded indication excerpt.                                 | Company-submitted labeling can differ from approved or distributed labeling. A hit does not establish approval. Section availability does not quantify clinical risk.                                                                         |
+| `publications` | [NCBI E-utilities ESearch and ESummary](https://www.ncbi.nlm.nih.gov/books/NBK25499/): PubMed drug/condition title-abstract searches plus trial/phase terms; linked citation title, journal, date, publication type, authors and DOI.                    | Metadata only: abstracts, full text, endpoint estimates, retractions and bias have not been appraised. Clinical indexing is neither efficacy evidence nor regulatory sufficiency. This is bounded discovery, not a systematic review.         |
+
+## Matching and dates
+
+Known NCT IDs override broad drug-name discovery for the candidate trial scan; results remain bounded and additional trials may exist. Exact application numbers override drug and sponsor filters for FDA application/label lookup. Numeric numbers search the NDA, BLA and ANDA prefixes, preserving leading-zero formatting. Drug-name results can include related formulations and combination products. The module deliberately returns `candidateIndicationMatch: "unverified"` on application records. Indication is not searched in Drugs@FDA, which has no direct indication field; use the relevant label/review. Label indication filters remain active when an application number is supplied. Manufacturer and sponsor names are not interchangeable. PubMed does not search sponsor affiliation as a proxy for trial sponsorship.
+
+Registry `publishedAt` is the exact last-update-posted day when available. Application and label `publishedAt` are null: status dates and label effective dates are separate fields, not invented publication dates. PubMed preserves raw publication-date precision in `fields`; only an actual ISO day can populate `publishedAt`. A year or month is never silently converted to January 1 or the first of a month. Retrieval timestamps are separate from all event dates. These connectors must not be used as historical forecast features without independent availability reconstruction.
+
+Original FDA submissions are prioritized before recent supplements; up to 12 submissions and six official documents per submission are returned. Supplement records remain distinct because they may concern other indications. Official FDA document links served as HTTP in source data are normalized to HTTPS; lookalike hosts and credentialed/ported URLs are discarded. The module does not fetch those documents itself.
+
+## Operational bounds and failures
+
+Default result count is five, maximum eight; no pagination is performed. Upstream total counts are retained separately. Protocol endpoints, products, ingredients, documents, citation authors, and text are bounded. Label excerpts retain at most 25 words per source. No abstract or complete publication text is retained.
+
+Every network request has a default 15-second timeout, a configurable maximum of 30 seconds, a 4 MiB response cap enforced while streaming, and redirect rejection. Destinations are hard-coded official API endpoints; callers cannot supply a fetch URL. PubMed uses two requests when matches exist, with process-wide start slots spaced at least 350 ms apart, below NCBI's unauthenticated three-request-per-second guidance. A queue above five seconds fails explicitly; there are no hidden retries. A multi-process deployment must coordinate NCBI limits across its shared outbound IP. API quotas and outages may still cause visible failures.
+
+Only the documented openFDA `404` with `error.code: "NOT_FOUND"` becomes an empty result. Other HTTP failures, API errors, schema changes, invalid JSON, oversized responses, and timeouts throw errors. Empty results carry the explicit limitation that no match means unknown. They are never converted to a negative efficacy, safety, or approval finding.
+
+`tests/evidence.test.ts` uses injected fetch fixtures only: matching/filter behavior, provenance, chronology, FDA document host validation, original/supplement separation, exact application prefixes, SPL limitations, citation-only scope, result bounds, duplicate IDs, API failures, body limits, and timeouts. Run with `pnpm exec tsx --test tests/evidence.test.ts`. Optional live smoke checks are separate from these deterministic tests and must not be represented as fixtures.
+
+## Evidence map and the existing FDAgent app
+
+`server/dossier.ts` assembles the four source families for each candidate. It retains returned and upstream counts, discovery scope, per-record identifiers and distinct `ready`, `empty`, `error` and `not_checked` states. Scans are cached for 30 minutes; explicit refresh bypasses the cache. Concurrent callers share a scan, and cancelling one caller does not cancel another caller's work. A scan stops when its last caller cancels.
+
+The optional original bridge in `server/fdagent.ts` uses the existing app's MCP server through a local subprocess. It allowlists inspection, warning-letter, exact-FEI facility, Orange Book and Purple Book queries, strips unrelated/internal fields, and only makes original FDA links citable. A record without an original source URL remains a noncitable research lead. Sponsor-name hits do not establish product–facility linkage or the applicable inspection program.
+
+On September 10, all 33 candidates received a recorded public scan: 54 trial, eight application, seven labeling and 93 publication record occurrences, spanning 157 unique URLs. Combined with the curated catalog, these link to 220 unique public URLs. The scans are bounded discovery, not comprehensive source coverage or 162 independently verified clinical claims. Existing FDAgent compliance records are omitted from the published snapshots; users can connect their own installation locally.

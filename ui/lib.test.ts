@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { dataUrl, formatDate, investigationMarkdown, readInvestigationStream, safeSourceUrl } from './lib';
-import type { Candidate, Investigation, StreamEvent } from './types';
+import { dataUrl, formatDate, investigationMarkdown, mergeInvestigationSources, mergeSourceRecords, readInvestigationStream, safeSourceUrl } from './lib';
+import type { Candidate, Investigation, Source, StreamEvent } from './types';
 
 test('NDJSON preserves UTF-8 split across chunks and a final event without newline', async () => {
   const payload = new TextEncoder().encode('{"type":"progress","stage":"research","message":"Evidence → outlook"}\n{"type":"complete","investigation":{"id":"run-test"}}');
@@ -27,6 +27,7 @@ test('public demo data URLs honor a repository subpath and reject live-only endp
   assert.equal(dataUrl('/api/dashboard', false, '/radar/'), '/api/dashboard');
   assert.equal(dataUrl('/api/dashboard', true, '/radar/'), '/radar/demo/dashboard.json');
   assert.equal(dataUrl('/api/investigations/run-1', true, '/radar'), '/radar/demo/investigations/run-1.json');
+  assert.equal(dataUrl('/api/evidence/candidate-1', true, '/radar/'), '/radar/demo/evidence/candidate-1.json');
   assert.throws(() => dataUrl('/api/investigate', true), /requires the local Astra research server/);
 });
 
@@ -36,6 +37,19 @@ test('source links reject executable schemes and calendar dates do not shift tim
   assert.equal(safeSourceUrl('https://www.fda.gov/example'), 'https://www.fda.gov/example');
   assert.equal(formatDate('2026-12-27'), 'Dec 27, 2026');
   assert.equal(formatDate(null), 'Not disclosed');
+});
+
+test('newer source corrections beat older runs regardless of retrieval order, including unknown publication dates', () => {
+  const older: Source = { id: 'shared-source', title: 'Test source', publisher: 'Test publisher', url: 'https://example.com/source', publishedAt: '2026-09-10', retrievedAt: '2026-09-10', kind: 'publication', summary: 'Older metadata.' };
+  const corrected = { ...older, publishedAt: null, summary: 'Publication date not established.' };
+  const newestFirst = [{ createdAt: '2026-09-10T15:00:00Z', sources: [corrected] }, { createdAt: '2026-09-10T12:00:00Z', sources: [older] }];
+  assert.deepEqual(mergeInvestigationSources(newestFirst), [corrected]);
+  assert.deepEqual(mergeInvestigationSources([...newestFirst].reverse()), [corrected]);
+  assert.equal(newestFirst[0].createdAt, '2026-09-10T15:00:00Z');
+  const manifest = mergeSourceRecords([older], [corrected]);
+  assert.deepEqual(mergeSourceRecords([older], mergeInvestigationSources(newestFirst), manifest), [corrected]);
+  const liveCorrection = { ...corrected, summary: 'A newer live investigation clarified scope.' };
+  assert.deepEqual(mergeSourceRecords([older], manifest, mergeSourceRecords(manifest, [liveCorrection])), [liveCorrection]);
 });
 
 test('Markdown export preserves provenance, uncertainty and public source links', () => {
@@ -53,4 +67,11 @@ test('Markdown export preserves provenance, uncertainty and public source links'
   assert.match(markdown, /https:\/\/www.fda.gov\/example/);
   assert.match(markdown, /not a promise of approval/);
   assert.match(markdown, /No validated candidate model/);
+  const correctedExport = investigationMarkdown(candidate, run, [{ ...run.sources[0], publishedAt: null }]);
+  assert.match(correctedExport, /Published Not disclosed;/);
+  const challenge = investigationMarkdown(candidate, { ...run, previousRunId: 'previous-test-run', previousOutlook: { verdict: 'Earlier assessment', timing: 'Earlier timing' }, changes: { disposition: 'unchanged', summary: 'No supported revision', items: [{ previousClaim: 'Prior claim', currentClaim: 'Current claim', reason: 'Source supports scope only', sourceIds: ['test-source'] }] }, decisionBrief: { pivotalQuestion: 'What evidence would resolve this?', bullCase: { claim: 'Supporting case', sourceIds: ['test-source'] }, bearCase: { claim: 'Contrary case', sourceIds: ['test-source'] }, decisiveEvidence: { question: 'Is the record applicable?', whyItMatters: 'Scope determines relevance', sourceIds: ['test-source'] }, scenarios: [], diligenceQuestions: [] } }, []);
+  assert.match(challenge, /## What changed/);
+  assert.match(challenge, /Previous run: previous-test-run/);
+  assert.match(challenge, /Earlier assessment/);
+  assert.match(challenge, /Pivotal question:\*\* What evidence would resolve this/);
 });

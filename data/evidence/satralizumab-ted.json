@@ -1,0 +1,550 @@
+{
+  "candidateId": "satralizumab-ted",
+  "generatedAt": "2026-09-10T18:50:02.650Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-trials-NCT06106828",
+        "evidence-trials-NCT05987423"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT06106828",
+          "title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+          "url": "https://clinicaltrials.gov/study/NCT06106828",
+          "fields": {
+            "nctId": "NCT06106828",
+            "sponsor": "Hoffmann-La Roche",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Thyroid Eye Disease"
+            ],
+            "interventions": [
+              "Satralizumab",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 127,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Participants in the Active TED Population Who Achieved ≥ 2 Millimeters (mm) Reduction in Proptosis From Baseline at Week 24 in the Study Eye",
+                "timeFrame": "At Week 24"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-07-24",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-08-12",
+            "resultsFirstPostDate": "2026-08-12",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06106828"
+        },
+        {
+          "id": "NCT05987423",
+          "title": "Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+          "url": "https://clinicaltrials.gov/study/NCT05987423",
+          "fields": {
+            "nctId": "NCT05987423",
+            "sponsor": "Hoffmann-La Roche",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Thyroid Eye Disease",
+              "TED"
+            ],
+            "interventions": [
+              "Satralizumab",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 131,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Participants in the Active TED Population Who Achieved ≥ 2 Millimeters (mm) Reduction in Proptosis From Baseline at Week 24 in the Study Eye",
+                "timeFrame": "At Week 24"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-07-08",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-07-31",
+            "resultsFirstPostDate": "2026-07-31",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05987423"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-approvals-BLA761149"
+      ],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": [
+        {
+          "id": "BLA761149",
+          "title": "ENSPRYNG — BLA761149",
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761149%22&limit=1",
+          "summary": "BLA761149; sponsor GENENTECH. 4 of 4 submission records shown, with original applications prioritized. Indication match is unverified.",
+          "fields": {
+            "applicationNumber": "BLA761149",
+            "sponsor": "GENENTECH",
+            "products": [
+              {
+                "brandName": "ENSPRYNG",
+                "dosageForm": "INJECTABLE",
+                "route": "INJECTION",
+                "marketingStatus": "Prescription",
+                "ingredients": [
+                  {
+                    "name": "SATRALIZUMAB",
+                    "strength": "120MG/ML"
+                  }
+                ]
+              }
+            ],
+            "productsTotal": 1,
+            "submissions": [
+              {
+                "type": "ORIG",
+                "number": "1",
+                "status": "AP",
+                "statusDate": "2020-08-14",
+                "reviewPriority": "STANDARD",
+                "classDescription": "Type 1 - New Molecular Entity",
+                "documents": [
+                  {
+                    "type": "Label",
+                    "documentDate": "2020-08-17",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/761149s000lbl.pdf"
+                  },
+                  {
+                    "type": "Letter",
+                    "documentDate": "2020-03-09",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761149Orig1s000ltr.pdf"
+                  },
+                  {
+                    "type": "Review",
+                    "documentDate": "2020-09-11",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000TOC.html"
+                  }
+                ]
+              },
+              {
+                "type": "SUPPL",
+                "number": "7",
+                "status": "AP",
+                "statusDate": "2026-06-10",
+                "reviewPriority": "N/A",
+                "classDescription": "Manufacturing (CMC)",
+                "documents": []
+              },
+              {
+                "type": "SUPPL",
+                "number": "5",
+                "status": "AP",
+                "statusDate": "2022-09-14",
+                "reviewPriority": "STANDARD",
+                "classDescription": "Labeling",
+                "documents": [
+                  {
+                    "type": "Label",
+                    "documentDate": "2022-09-15",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/761149s005lbl.pdf"
+                  },
+                  {
+                    "type": "Medication Guide",
+                    "documentDate": "2022-09-15",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/761149s005lbl.pdf#page=16"
+                  },
+                  {
+                    "type": "Letter",
+                    "documentDate": "2022-09-15",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761149Orig1s005ltr.pdf"
+                  }
+                ]
+              },
+              {
+                "type": "SUPPL",
+                "number": "2",
+                "status": "AP",
+                "statusDate": "2021-05-03",
+                "reviewPriority": "STANDARD",
+                "classDescription": "Labeling",
+                "documents": [
+                  {
+                    "type": "Letter",
+                    "documentDate": "2021-05-04",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761149Orig1s002ltr.pdf"
+                  },
+                  {
+                    "type": "Label",
+                    "documentDate": "2021-05-07",
+                    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/761149s002lbl.pdf"
+                  }
+                ]
+              }
+            ],
+            "submissionsTotal": 4,
+            "applicationPage": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761149",
+            "candidateIndicationMatch": "unverified"
+          },
+          "sourceId": "evidence-approvals-BLA761149"
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-labels-488188fd-2edc-44e0-a537-c2bd408caaa2"
+      ],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": [
+        {
+          "id": "488188fd-2edc-44e0-a537-c2bd408caaa2",
+          "title": "Enspryng — submitted label",
+          "url": "https://api.fda.gov/drug/label.json?search=id%3A%22488188fd-2edc-44e0-a537-c2bd408caaa2%22&limit=1",
+          "summary": "Company-submitted label; effective date 2026-06-22. Approval and candidate-indication matching require separate verification.",
+          "fields": {
+            "labelId": "488188fd-2edc-44e0-a537-c2bd408caaa2",
+            "setId": "64c156a4-9bad-4d45-a294-0733c141f47b",
+            "brandNames": [
+              "Enspryng"
+            ],
+            "genericNames": [
+              "SATRALIZUMAB"
+            ],
+            "manufacturers": [
+              "Genentech, Inc."
+            ],
+            "applicationNumbers": [
+              "BLA761149"
+            ],
+            "productTypes": [
+              "HUMAN PRESCRIPTION DRUG"
+            ],
+            "labelEffectiveDate": "2026-06-22",
+            "sectionAvailability": {
+              "indications_and_usage": true,
+              "boxed_warning": false,
+              "contraindications": true,
+              "warnings_and_cautions": true,
+              "adverse_reactions": true,
+              "clinical_studies": true,
+              "dosage_and_administration": true
+            },
+            "indicationExcerpt": "1 INDICATIONS AND USAGE ENSPRYNG is indicated for the treatment of neuromyelitis optica spectrum disorder (NMOSD) in adult patients who are anti-aquaporin-4 (AQP4) antibody positive.",
+            "indicationExcerptTruncated": true,
+            "approvalVerification": "not_determined_by_this_source",
+            "dailyMedUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=64c156a4-9bad-4d45-a294-0733c141f47b"
+          },
+          "sourceId": "evidence-labels-488188fd-2edc-44e0-a537-c2bd408caaa2"
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 42,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-34530847",
+        "evidence-publications-31774956",
+        "evidence-publications-32333898",
+        "evidence-publications-32797372",
+        "evidence-publications-33009077"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "34530847",
+          "title": "Neuromyelitis optica spectrum disorders: from pathophysiology to therapeutic strategies.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34530847/",
+          "summary": "Indexed citation in Journal of neuroinflammation; publication date 2021 Sep 16. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "34530847",
+            "journal": "Journal of neuroinflammation",
+            "publicationDate": "2021 Sep 16",
+            "electronicPublicationDate": "2021 Sep 16",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Carnero Contentti E",
+              "Correale J"
+            ],
+            "doi": "10.1186/s12974-021-02249-1",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=34530847%2C31774956%2C32333898%2C32797372%2C33009077&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-34530847"
+        },
+        {
+          "id": "31774956",
+          "title": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31774956/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2019 Nov 28. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "31774956",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2019 Nov 28",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Yamamura T",
+              "Kleiter I",
+              "Fujihara K",
+              "Palace J",
+              "Greenberg B",
+              "Zakrzewska-Pniewska B"
+            ],
+            "doi": "10.1056/NEJMoa1901747",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=34530847%2C31774956%2C32333898%2C32797372%2C33009077&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-31774956"
+        },
+        {
+          "id": "32333898",
+          "title": "Safety and efficacy of satralizumab monotherapy in neuromyelitis optica spectrum disorder: a randomised, double-blind, multicentre, placebo-controlled phase 3 trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32333898/",
+          "summary": "Indexed citation in The Lancet. Neurology; publication date 2020 May. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "32333898",
+            "journal": "The Lancet. Neurology",
+            "publicationDate": "2020 May",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Traboulsee A",
+              "Greenberg BM",
+              "Bennett JL",
+              "Szczechowski L",
+              "Fox E",
+              "Shkrobot S"
+            ],
+            "doi": "10.1016/S1474-4422(20)30078-8",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=34530847%2C31774956%2C32333898%2C32797372%2C33009077&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-32333898"
+        },
+        {
+          "id": "32797372",
+          "title": "Satralizumab: First Approval.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32797372/",
+          "summary": "Indexed citation in Drugs; publication date 2020 Sep. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "32797372",
+            "journal": "Drugs",
+            "publicationDate": "2020 Sep",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Heo YA"
+            ],
+            "doi": "10.1007/s40265-020-01380-2",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=34530847%2C31774956%2C32333898%2C32797372%2C33009077&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-32797372"
+        },
+        {
+          "id": "33009077",
+          "title": "Update on neuromyelitis optica spectrum disorder.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33009077/",
+          "summary": "Indexed citation in Current opinion in ophthalmology; publication date 2020 Nov. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "33009077",
+            "journal": "Current opinion in ophthalmology",
+            "publicationDate": "2020 Nov",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Holroyd KB",
+              "Manzano GS",
+              "Levy M"
+            ],
+            "doi": "10.1097/ICU.0000000000000703",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=34530847%2C31774956%2C32333898%2C32797372%2C33009077&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-33009077"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06106828",
+      "title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT06106828",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:50:01.009Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05987423",
+      "title": "Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05987423",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-09-10T18:50:01.009Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34530847",
+      "title": "Neuromyelitis optica spectrum disorders: from pathophysiology to therapeutic strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34530847/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Journal of neuroinflammation; publication date 2021 Sep 16. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-31774956",
+      "title": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31774956/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2019 Nov 28. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32333898",
+      "title": "Safety and efficacy of satralizumab monotherapy in neuromyelitis optica spectrum disorder: a randomised, double-blind, multicentre, placebo-controlled phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32333898/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in The Lancet. Neurology; publication date 2020 May. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32797372",
+      "title": "Satralizumab: First Approval.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32797372/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Drugs; publication date 2020 Sep. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-33009077",
+      "title": "Update on neuromyelitis optica spectrum disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33009077/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Current opinion in ophthalmology; publication date 2020 Nov. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-488188fd-2edc-44e0-a537-c2bd408caaa2",
+      "title": "Enspryng — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%22488188fd-2edc-44e0-a537-c2bd408caaa2%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.550Z",
+      "summary": "Company-submitted label; effective date 2026-06-22. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761149",
+      "title": "ENSPRYNG — BLA761149",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761149%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.157Z",
+      "summary": "BLA761149; sponsor GENENTECH. 4 of 4 submission records shown, with original applications prioritized. Indication match is unverified."
+    }
+  ]
+}

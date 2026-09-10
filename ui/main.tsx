@@ -4,6 +4,7 @@ import App from './App';
 import './styles.css';
 import './brand.css';
 import './clarity.css';
+import './workspace.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

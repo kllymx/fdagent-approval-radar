@@ -1,6 +1,7 @@
 import OpenAI from "openai";
 import { zodTextFormat } from "openai/helpers/zod";
 import { randomUUID } from "node:crypto";
+import { mkdir, writeFile } from "node:fs/promises";
 import type { ResponseInputItem } from "openai/resources/responses/responses";
 import { config } from "./config.js";
 import {
@@ -10,12 +11,13 @@ import {
   saveInvestigation,
 } from "./data.js";
 import {
-  reportSchema,
+  investigationReportSchema,
   type Investigation,
   type Report,
   type Source,
 } from "../shared/schema.js";
 import { ResearchSession, researchTools } from "./tools.js";
+import { gatherDossier } from "./dossier.js";
 
 export type Emit = (event: Record<string, unknown>) => void;
 const POLICY = `You are Astra, conducting a careful public-data FDA review investigation in Approval Radar. Your job is to resolve the user's question through public evidence and produce a concise useful drug-indication outlook. You have real read-only research tools. Choose the next tool according to what evidence would change your conclusion.
@@ -30,6 +32,9 @@ Mandatory evidence discipline:
 - Produce 4–7 findings, an explicit timing outlook, 2–4 concrete future evidence items that would change the outlook, and material limitations. Findings should help a serious regulatory/competitive-intelligence reviewer decide what to investigate. Avoid generic disclaimers or promotional filler.
 - The product's curated evidence has an asOf date. Live tools may retrieve newer records: label that and do not retroactively attribute facts to earlier dates. This is a current evidence investigation, not a historical prediction backtest.
 - If asked a challenge, actively test it and revise only when evidence warrants. Address the previous report's claim concretely and identify what new information or corrected interpretation changes the conclusion.
+- The decisionBrief is the decision-useful core of the investigation: identify the pivotal unresolved question, strongest sourced bull case and bear case, the specific evidence that would distinguish them, two or three conditional scenarios, and concrete management/diligence questions. Scenarios are conditional implications, never assigned probabilities or target stock prices. Do not produce generic checklists; tie every item to this candidate and indication with references.
+- When a previous report is supplied, return changes with an accurate disposition and specific prior claims versus current claims. Explain whether each change reflects new dated evidence, correction of interpretation, or no material change. Quote or faithfully preserve the earlier claim; do not manufacture a more naive earlier position. With no prior report, changes MUST be null.
+- Use the multi-source evidence dossier as discovery, not proof of identity or completeness. Trial hits can cover different interventions or indications; labeling is not proof of approval, and indexed publications need full-document inspection for clinical conclusions. Use FDAgent compliance data when useful, then verify original FDA documents and exact product–facility linkage; a name search alone does not establish that link.
 - You may not say the candidate WILL be approved, that a facility is cleared without proof, or that evidence gaps prove a regulatory failure. Support a useful, specific judgment with explicit uncertainty.`;
 
 export function validateReport(
@@ -38,7 +43,22 @@ export function validateReport(
 ): { report: Report; warnings: string[] } {
   const known = new Set(sources.map((s) => s.id));
   const warnings: string[] = [];
-  for (const row of [...report.findings, ...report.analogs]) {
+  const brief = report.decisionBrief;
+  const referenced = [
+    ...report.findings,
+    ...report.analogs,
+    ...(brief
+      ? [
+          brief.bullCase,
+          brief.bearCase,
+          brief.decisiveEvidence,
+          ...brief.scenarios,
+          ...brief.diligenceQuestions,
+        ]
+      : []),
+    ...(report.changes?.items || []),
+  ];
+  for (const row of referenced) {
     if (row.sourceIds.length === 0)
       throw Error("A finding or analog has no evidence references.");
     for (const id of row.sourceIds)
@@ -89,6 +109,10 @@ export async function investigate(
   const previous = args.previousRunId
     ? await getInvestigation(args.previousRunId)
     : null;
+  if (args.previousRunId && !previous)
+    throw Error("Previous investigation was not found.");
+  if (args.mode === "challenge" && !previous)
+    throw Error("A challenge requires a previous investigation.");
   if (previous && previous.candidateId !== candidate.id)
     throw Error("Previous investigation belongs to another candidate.");
   const id = randomUUID(),
@@ -97,7 +121,8 @@ export async function investigate(
   const question =
     args.question?.trim() ||
     "Investigate the current approval outlook, the reported decision timing, the strongest case for approval, and the evidence most likely to cause a setback.";
-  const session = new ResearchSession(candidate, catalog),
+  signal?.throwIfAborted();
+  const session = new ResearchSession(candidate, catalog, signal),
     client = new OpenAI({
       apiKey: config.apiKey,
       baseURL: config.baseUrl,
@@ -107,6 +132,25 @@ export async function investigate(
   if (previous)
     for (const source of previous.sources)
       session.sources.set(source.id, source);
+  emit({ type: "started", runId: id, model: config.model });
+  let dossier;
+  try {
+    dossier = await gatherDossier(
+      candidate,
+      (message) => emit({ type: "progress", stage: "evidence_scan", message }),
+      { signal },
+    );
+    for (const source of dossier.sources)
+      session.sources.set(source.id, source);
+  } catch (e) {
+    signal?.throwIfAborted();
+    emit({
+      type: "progress",
+      stage: "evidence_scan",
+      message:
+        "The multi-source scan could not complete. Astra will use existing evidence and report the coverage gap.",
+    });
+  }
   const input: ResponseInputItem[] = [
     {
       role: "user",
@@ -122,14 +166,26 @@ export async function investigate(
               summary: previous.summary,
               outlook: previous.outlook,
               findings: previous.findings,
+              decisionBrief: previous.decisionBrief ?? null,
+              changes: previous.changes ?? null,
             }
           : null,
+        evidenceDossier: dossier
+          ? {
+              generatedAt: dossier.generatedAt,
+              families: dossier.families,
+              scope:
+                "Current discovery matches, not confirmed candidate-specific evidence. FDAgent names do not establish facility relationships. Read individual sources before making clinical claims.",
+            }
+          : {
+              coverage:
+                "Evidence scan unavailable; use research tools and retain uncertainty.",
+            },
       }),
     },
   ];
   const usage = { inputTokens: 0, outputTokens: 0 },
     tools: NonNullable<Investigation["tools"]> = [];
-  emit({ type: "started", runId: id, model: config.model });
   let draft: Report | null = null;
   for (let round = 0; round < 7; round++) {
     if (signal?.aborted) throw Error("Investigation cancelled.");
@@ -148,10 +204,15 @@ export async function investigate(
         instructions: POLICY,
         input,
         reasoning: { effort: config.reasoningEffort as "high" },
-        max_output_tokens: 9000,
+        max_output_tokens: 16000,
         tools: researchTools,
         tool_choice: tools.length >= 12 || round === 6 ? "none" : "auto",
-        text: { format: zodTextFormat(reportSchema, "approval_investigation") },
+        text: {
+          format: zodTextFormat(
+            investigationReportSchema,
+            "approval_investigation",
+          ),
+        },
       },
       { signal },
     );
@@ -161,15 +222,44 @@ export async function investigate(
       );
     usage.inputTokens += response.usage?.input_tokens || 0;
     usage.outputTokens += response.usage?.output_tokens || 0;
+    if (response.status !== "completed") {
+      // Preserve unsuccessful attempts locally without promoting partial text to a report.
+      await mkdir(".runtime/incomplete", { recursive: true, mode: 0o700 });
+      await writeFile(
+        `.runtime/incomplete/${id}.json`,
+        JSON.stringify(
+          {
+            id,
+            candidateId: candidate.id,
+            question,
+            createdAt,
+            model: response.model,
+            status: response.status,
+            incompleteDetails: response.incomplete_details,
+            usage,
+            durationMs: Date.now() - started,
+            tools,
+            round,
+            outputTokenLimit: 16000,
+            partialText: response.output_text,
+          },
+          null,
+          2,
+        ) + "\n",
+        { mode: 0o600 },
+      );
+      throw Error(
+        `Astra response did not complete (${response.status}${response.incomplete_details?.reason ? `: ${response.incomplete_details.reason}` : ""}). No report was published; attempt details were saved locally.`,
+      );
+    }
     input.push(...(response.output as ResponseInputItem[]));
     const calls = response.output.filter((x) => x.type === "function_call");
     if (!calls.length) {
-      if (response.status !== "completed")
-        throw Error(`Astra response did not complete (${response.status}).`);
-      draft = reportSchema.parse(JSON.parse(response.output_text));
+      draft = investigationReportSchema.parse(JSON.parse(response.output_text));
       break;
     }
     for (const call of calls) {
+      if (signal?.aborted) throw Error("Investigation cancelled.");
       if (tools.length >= 14) {
         input.push({
           type: "function_call_output",
@@ -193,9 +283,11 @@ export async function investigate(
           message: toolLabel(call.name, arguments_),
         });
         output = await session.execute(call.name, arguments_);
+        if (signal?.aborted) throw Error("Investigation cancelled.");
         if (output && typeof output === "object" && "error" in output)
           status = "partial";
       } catch (e) {
+        if (signal?.aborted) throw Error("Investigation cancelled.");
         status = "error";
         output = {
           error: (e as Error).message,
@@ -233,6 +325,14 @@ export async function investigate(
     throw Error(
       "Astra did not produce a complete investigation within the bounded research run.",
     );
+  if (!previous && draft.changes !== null)
+    throw Error(
+      "A first investigation cannot claim changes from an earlier report.",
+    );
+  if (previous && !draft.changes)
+    throw Error(
+      "A challenge must explain how the previous assessment changed or held up.",
+    );
   const sources = publicSources([...session.sources.values()]);
   emit({
     type: "progress",
@@ -251,6 +351,15 @@ export async function investigate(
     question,
     status: "completed",
     provenance: "live",
+    ...(previous
+      ? {
+          previousRunId: previous.id,
+          previousOutlook: {
+            verdict: previous.outlook.verdict,
+            timing: previous.outlook.timing,
+          },
+        }
+      : {}),
     sources,
     usage,
     durationMs: Date.now() - started,
@@ -268,6 +377,8 @@ export async function investigate(
 }
 function toolLabel(name: string, args: Record<string, unknown>) {
   const labels: Record<string, string> = {
+    search_evidence_database: `Searching ${args.family || "public database"}: ${args.query || ""}`,
+    query_fdagent: `Checking FDAgent ${String(args.dataset || "").replaceAll("_", " ")}: ${args.query || ""}`,
     read_source: `Reading evidence ${args.sourceId || ""}`,
     find_in_source: `Inspecting “${args.query || ""}” in ${args.sourceId || ""}`,
     search_public_sources: `Searching: ${args.query || ""}`,

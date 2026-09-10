@@ -2,7 +2,7 @@
 
 **Investigate what could change an FDA drug-review outcome, using public evidence and GPT-6 Astra.**
 
-Approval Radar follows nine real drug–indication review episodes. It connects sponsor disclosures, trial records, FDA statistical reviews and complete-response letters, then asks Astra to test the strongest case and its counterevidence. No customer documents or fictional records are needed.
+Approval Radar follows **33 real drug–indication review episodes across 29 companies**, with **98 curated primary sources** and recorded public-database scans for every candidate. It connects sponsor disclosures, trial protocols and results, FDA reviews and letters, approved applications, labeling and research publications. Astra investigates which evidence changes the case and turns that assessment into specific diligence questions. No customer uploads are required.
 
 Built for the GPT-6 Astra hackathon in New York. This is an original, standalone public project; the private FDAgent application and its data are not included.
 
@@ -21,20 +21,24 @@ Company logos come from Firecrawl's branding extraction of official sponsor site
 
 ## What Astra actually does
 
-1. Starts with a sourced candidate packet and a specific regulatory question.
-2. Chooses tools to read full FDA documents, search inside long reports, retrieve trial protocols/results, search FDA letters and discover current public disclosures.
-3. Reconciles competing analyses, source authority, dates and evidence gaps.
-4. Produces a cited outlook, timing uncertainty, counterevidence, relevant review histories when supported, and the next evidence that would change its judgment.
-5. Accepts a challenge against a prior investigation, carries its sources forward and tests whether revision is warranted. Reports can be exported as Markdown.
+1. Builds a source map from ClinicalTrials.gov, Drugs@FDA, drug labeling and PubMed. The catalog and recorded scans link to **220 unique public URLs**; bounded discovery matches are clearly separated from confirmed indication-specific evidence.
+2. Chooses tools to inspect trial results, read FDA documents, search within long reports, retrieve complete-response letters and discover newer disclosures through Firecrawl.
+3. Can query an existing FDAgent MCP installation for inspections, warning letters, exact facilities, Orange Book and Purple Book references. A company-name match is a lead; the model must verify product/facility identity and original evidence.
+4. Produces a **decision brief**: the pivotal question, strongest case for approval and setback, evidence that would decide between them, conditional paths and concrete questions for a licensing or investment meeting.
+5. Accepts challenges against a previous report, compares the earlier and current claims and explains whether its outlook changed. The brief and comparison export to Markdown.
 
-The interface shows actual tool progress. Recorded reports preserve their model ID, question, tool trace, token use and measured duration. Source-ID validation checks that references exist; it does **not** establish that every claim is scientifically correct.
+The interface retains FDAgent's restrained visual conventions, with compact company logos, sentence-case labels, a searchable/filterable candidate overview and an evidence map. Generic sparkle icons are removed. The evidence map distinguishes retrieved records, empty searches, failures and sources not checked.
 
-Two real examples are included:
+The interface shows actual tool progress. Recorded reports preserve their model ID, question, tool trace, token use and measured duration. Source-ID validation checks that references exist; it does **not** establish that every claim is scientifically correct. Discovery metadata is explicitly labeled and never presented as a full-document review.
 
-- **Apitegromab:** Astra found the FDA CRL and separated remediation of the old facility from acceptance of a replacement. It discovered labeling and safety-update obligations beyond the catalog's manufacturing summary.
-- **Deramiocel:** Astra reconciled FDA and sponsor endpoint analyses, preserved the distinction between post-completion and post-unblinding changes, and found a later cardiac-analysis correction. It assessed the later indication amendment without treating a prior FDA briefing as the final decision.
+Six genuine recorded investigations across four candidates demonstrate different kinds of reasoning:
 
-A third recorded **challenge** found an August 21 update confirming that Catalent's removal was completed. Astra corrected the earlier prospective wording and added a sourced linvoseltamab review comparison, while keeping product-specific FDA acceptance unresolved. This demonstrates a real evidence-driven revision.
+- **Satralizumab:** Astra inspected two pivotal trial result records and a newly published paper. It connected one failed primary endpoint to stopped confirmatory secondary testing, compared responder rates with continuous proptosis and diplopia results, and separated an existing NMOSD approval from the proposed thyroid-eye-disease indication. The decision brief asks for the analyses and FDA feedback that would resolve the replication question.
+- **Apitegromab:** An earlier challenge found an August 21 update confirming completed removal of Catalent and revised the initial assessment. A further challenge used FDAgent's inspection dataset, correctly distinguished BIMO clinical-research oversight from manufacturing assessment, and kept the outlook unchanged. Both revision and resistance to a misleading premise are visible.
+- **Zanzalintinib:** Astra compared the original trial-design paper with the later dual-primary description and identified the amended testing plan as an unresolved diligence question. It preserved the distinction between an unverified amendment and proof that the positive overall-survival result is invalid.
+- **Deramiocel:** Astra reconciled FDA and sponsor endpoint analyses, preserved the distinction between post-completion and post-unblinding changes, and found a later cardiac-analysis correction. It assessed the indication amendment without treating a prior FDA briefing as the final decision.
+
+These are selected, source-reviewed executions, not proof of comparative model superiority or future decision accuracy. [Review notes and execution limits](data/recorded-run-review.md) are public.
 
 In five additional original-document exercises, a separate project agent marked **19 of 20 predefined distinctions met and one partially met**. The questions, unchanged answers, exact grading pointers and retry disclosure are public. This small, selected and agent-graded exercise has no comparison model and is not an approval-accuracy benchmark.
 
@@ -69,6 +73,17 @@ Open `http://127.0.0.1:5178`. The API runs on port 8788. Without credentials, th
 
 `ASTRA_BASE_URL` can point to an event-provided OpenAI-compatible Responses endpoint. Keep keys server-side. The API uses `gpt-6-astra`, structured output, function calls and configurable reasoning effort. Firecrawl is optional; without it, public FDA/trial APIs and curated sources remain available, while web-search failures are reported.
 
+To reuse an existing FDAgent installation, set `FDAGENT_MCP_ENTRY` to its already-built MCP server entry point and, if needed, `FDAGENT_ENV_FILE` to its existing environment file. The bridge forwards only the three allowlisted backend settings needed by that process; private code and configuration remain outside this repository. It exposes read-only, bounded reference queries. Public demo snapshots omit the FDAgent compliance dataset.
+
+Collect fresh public evidence independently of a paid model run:
+
+```bash
+pnpm evidence satralizumab-ted
+pnpm evidence --refresh satralizumab-ted
+# After reviewing coverage and provenance, explicitly publish its snapshot:
+pnpm evidence --record satralizumab-ted
+```
+
 ```bash
 pnpm test
 pnpm data:validate
@@ -89,7 +104,9 @@ Serve `dist/` at that base path. Set `VITE_BASE_PATH=/` for root hosting. No cre
 
 ## Data and evaluation
 
-- [Catalog](data/catalog.json): nine review episodes, 31 primary source records, milestones, scoped signals and retrieval dates.
+- [Catalog](data/catalog.json): 33 review episodes, 98 curated primary source records, milestones, scoped signals and retrieval dates. One already-approved episode remains visible with its corrected status.
+- [Evidence snapshots](data/evidence): 33 scans covering four public database families, with 162 returned record occurrences across 157 unique URLs. Some records occur in multiple candidates; hits are not automatically evidence for the requested indication.
+- [Connector scope and provenance](docs/evidence-sources.md): exact application/NCT lookup, authority limits, metadata-only records and API failures.
 - [Source audit](data/source-audit.md) and [refresh tools](scripts/data/README.md): reproducible transport/hash checks, including failures. Fetch success does not certify scientific accuracy.
 - [Model](model/): eight FDA annual reports, aggregate observations, source hashes, exact computation and tests.
 - [Five authored reasoning challenges](data/evaluation-cases.json): original-document questions and a transparent rubric. These are a small case study, not a representative benchmark or forecast validation.
@@ -105,9 +122,9 @@ The optional `--firecrawl` flag requires an installed, authenticated Firecrawl C
 
 ## Architecture and deployment
 
-React/Vite interface → Node HTTP API → Astra Responses tool loop → public FDA/ClinicalTrials.gov APIs and optional Firecrawl. Historical computation is dependency-free Python; the interface reads its checked-in artifact.
+React/Vite interface → Node HTTP API → Astra Responses tool loop → public FDA/ClinicalTrials.gov/NCBI APIs, Firecrawl and an optional existing FDAgent MCP process. Historical computation is dependency-free Python; the interface reads its checked-in artifact.
 
-The default server binds to loopback. A public live server requires `RADAR_ACCESS_TOKEN`; authenticated clients send it as a bearer token. Public reads expose the curated catalog and deliberately recorded runs. Unpublished runtime runs require authorization when a token is configured. The browser demo intentionally has no public paid-research endpoint. Live requests are limited to two concurrent runs, a bounded tool budget and an eight-minute request deadline.
+The default server binds to loopback. A public live server requires `RADAR_ACCESS_TOKEN`; authenticated clients send it as a bearer token. Public reads expose the curated catalog and deliberately recorded runs. Unpublished runtime runs require authorization when a token is configured. The browser demo intentionally has no public paid-research endpoint. Live requests are limited to two concurrent runs, a bounded tool budget and an eight-minute request deadline. Cancellation propagates to public requests, Firecrawl and FDAgent subprocesses. Incomplete model responses are saved locally for inspection and never promoted to completed reports.
 
 Raw source caches, local questions/runs and `.env` files are ignored. Publishing an investigation is an explicit step using `scripts/record.ts` after review; it strips source bodies and copied search snippets while preserving model findings. Retrieved documents are untrusted evidence and never authorize actions or access to secrets.
 

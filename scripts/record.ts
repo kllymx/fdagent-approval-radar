@@ -17,9 +17,11 @@ for (const id of ids) {
   validateReport(run, run.sources);
   const sources = run.sources.map(({ fullText, excerpt, ...source }) => {
     if (metadata[source.id]) Object.assign(source, metadata[source.id]);
-    if (source.id.startsWith("web-"))
+    if (source.id.startsWith("web-")) {
       source.summary =
         "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed.";
+      if (!metadata[source.id]) source.publishedAt = null;
+    }
     const host = new URL(source.url).hostname;
     if (
       /(^|\.)(scholarrock\.com|capricor\.com|praxismedicines\.com|polypid\.com|ultragenyx\.com|telixpharma\.com|savarapharma\.com|summittxinc\.com|nuvalent\.com|gsk\.com)$/.test(
@@ -50,7 +52,7 @@ for (const id of ids) {
       exportedAt: new Date().toISOString(),
       originalSha256: createHash("sha256").update(raw).digest("hex"),
       metadataChanges:
-        "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged.",
+        "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged.",
     },
   };
   await writeFile(

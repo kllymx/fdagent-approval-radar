@@ -252,7 +252,7 @@
       "title": "FDA Extends Deramiocel Review for Duchenne Muscular Dystrophy",
       "url": "https://www.cgtlive.com/view/fda-extends-deramiocel-review-dmd",
       "publisher": "www.cgtlive.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:42:25.764Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -312,7 +312,7 @@
       "title": "Deramiocel Significantly Slows Upper Limb Function Decline in ...",
       "url": "https://pharmacally.com/deramiocel-phase-3-hope-3-trial-lancet-duchenne-muscular-dystrophy/",
       "publisher": "pharmacally.com",
-      "publishedAt": "2026-07-30",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:42:41.947Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -322,7 +322,7 @@
       "title": "$CAPR After $REPL: Does Tudriqev's FDA Approval Create A Real ...",
       "url": "https://www.merlintrader.com/capr-repl-the-path-to-aug22/",
       "publisher": "www.merlintrader.com",
-      "publishedAt": "2026-08-07",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:42:50.433Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -423,8 +423,8 @@
     ]
   },
   "recording": {
-    "exportedAt": "2026-09-10T18:02:01.375Z",
+    "exportedAt": "2026-09-10T19:08:18.889Z",
     "originalSha256": "4d47d4f25af583b76e465d1c31356e0b614d33153d8445cc0996ff5efde0c7f0",
-    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
   }
 }

@@ -1,0 +1,557 @@
+{
+  "candidateId": "apitegromab-sma",
+  "generatedAt": "2026-09-10T18:39:26.596Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 7,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-trials-NCT06877689",
+        "evidence-trials-NCT07047144",
+        "evidence-trials-NCT03921528",
+        "evidence-trials-NCT07435129",
+        "evidence-trials-NCT05626855"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT06877689",
+          "title": "EAP of Apitegromab for Patients With Spinal Muscular Atrophy",
+          "url": "https://clinicaltrials.gov/study/NCT06877689",
+          "fields": {
+            "nctId": "NCT06877689",
+            "sponsor": "Scholar Rock, Inc.",
+            "status": "NO_LONGER_AVAILABLE",
+            "phases": [],
+            "studyType": "EXPANDED_ACCESS",
+            "conditions": [
+              "SMA"
+            ],
+            "interventions": [
+              "Apitegromab"
+            ],
+            "enrollment": {
+              "count": null,
+              "type": null
+            },
+            "primaryOutcomes": [],
+            "primaryOutcomesReturned": 0,
+            "primaryOutcomesTotal": 0,
+            "primaryCompletionDate": null,
+            "lastUpdatePostDate": "2026-04-28",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: NO_LONGER_AVAILABLE; phase unavailable; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06877689"
+        },
+        {
+          "id": "NCT07047144",
+          "title": "A Study to Evaluate How Apitegromab Works in Subjects Who Are Less Than 2 Years Old and Have Spinal Muscular Atrophy",
+          "url": "https://clinicaltrials.gov/study/NCT07047144",
+          "fields": {
+            "nctId": "NCT07047144",
+            "sponsor": "Scholar Rock, Inc.",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Spinal Muscular Atrophy",
+              "SMA",
+              "Spinal Muscular Atrophy Type 2",
+              "Spinal Muscular Atrophy Type 3",
+              "Neuromuscular Manifestations",
+              "Anti-myostatin"
+            ],
+            "interventions": [
+              "Apitegromab",
+              "Nusinersen",
+              "Risdiplam"
+            ],
+            "enrollment": {
+              "count": 52,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the PK of apitegromab in subjects <2 years old with SMA",
+                "timeFrame": "52 Weeks"
+              },
+              {
+                "measure": "Evaluate the PD of apitegromab in subjects <2 years old with SMA",
+                "timeFrame": "52 Weeks"
+              },
+              {
+                "measure": "Evaluate the motor function outcomes (ie, efficacy) due to apitegromab treatment",
+                "timeFrame": "48 Weeks"
+              }
+            ],
+            "primaryOutcomesReturned": 3,
+            "primaryOutcomesTotal": 3,
+            "primaryCompletionDate": "2028-11",
+            "lastUpdatePostDate": "2026-05-01",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT07047144"
+        },
+        {
+          "id": "NCT03921528",
+          "title": "An Active Treatment Study of SRK-015 in Patients With Type 2 or Type 3 Spinal Muscular Atrophy",
+          "url": "https://clinicaltrials.gov/study/NCT03921528",
+          "fields": {
+            "nctId": "NCT03921528",
+            "sponsor": "Scholar Rock, Inc.",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Spinal Muscular Atrophy",
+              "Spinal Muscular Atrophy Type 3",
+              "Spinal Muscular Atrophy Type 2",
+              "SMA",
+              "Neuromuscular Diseases",
+              "Muscular Atrophy",
+              "Atrophy",
+              "Muscular Atrophy, Spinal",
+              "Neuromuscular Manifestations"
+            ],
+            "interventions": [
+              "SRK-015"
+            ],
+            "enrollment": {
+              "count": 58,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Cohort 1: Change From Baseline in the Revised Hammersmith Scale (RHS) Total Score at Day 364 (Visit 15) [Month 12]",
+                "timeFrame": "Baseline up to 12 months"
+              },
+              {
+                "measure": "Cohort 2 and Cohort 3: Change From Baseline in Hammersmith Functional Motor Scale Expanded (HFMSE) Total Score at Day 364 (Visit 15) [Month 12]",
+                "timeFrame": "Baseline up to 12 months"
+              }
+            ],
+            "primaryOutcomesReturned": 2,
+            "primaryOutcomesTotal": 2,
+            "primaryCompletionDate": "2021-01-19",
+            "lastUpdatePostDate": "2024-12-02",
+            "resultsFirstPostDate": "2022-11-17",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT03921528"
+        },
+        {
+          "id": "NCT07435129",
+          "title": "Phase 2 Study Evaluating Apitegromab for the Treatment of FSHD",
+          "url": "https://clinicaltrials.gov/study/NCT07435129",
+          "fields": {
+            "nctId": "NCT07435129",
+            "sponsor": "Scholar Rock, Inc.",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Facioscapulohumeral Muscular Dystrophy",
+              "FSHD"
+            ],
+            "interventions": [
+              "Apitegromab",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 60,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Assess the efficacy of apitegromab compared with placebo in participants with FSHD",
+                "timeFrame": "52 Weeks"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2028-06",
+            "lastUpdatePostDate": "2026-09-02",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT07435129"
+        },
+        {
+          "id": "NCT05626855",
+          "title": "Long-Term Safety & Efficacy of Apitegromab in Patients With SMA Who Completed Previous Trials of Apitegromab",
+          "url": "https://clinicaltrials.gov/study/NCT05626855",
+          "fields": {
+            "nctId": "NCT05626855",
+            "sponsor": "Scholar Rock, Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Spinal Muscular Atrophy",
+              "Spinal Muscular Atrophy Type 3",
+              "Spinal Muscular Atrophy Type 2",
+              "SMA",
+              "Neuromuscular Diseases",
+              "Muscular Atrophy",
+              "Atrophy",
+              "Muscular Atrophy, Spinal",
+              "Neuromuscular Manifestations",
+              "Anti-myostatin"
+            ],
+            "interventions": [
+              "Apitegromab"
+            ],
+            "enrollment": {
+              "count": 238,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the long-term safety and tolerability of apitegromab in patients with Type 2 and Type 3 SMA",
+                "timeFrame": "Up to 6 years"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2026-11-01",
+            "lastUpdatePostDate": "2026-09-01",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05626855"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 9,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-40818473",
+        "evidence-publications-36329412",
+        "evidence-publications-38330285",
+        "evidence-publications-33963971",
+        "evidence-publications-41178728"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "40818473",
+          "title": "Safety and efficacy of apitegromab in nonambulatory type 2 or type 3 spinal muscular atrophy (SAPPHIRE): a phase 3, double-blind, randomised, placebo-controlled trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40818473/",
+          "summary": "Indexed citation in The Lancet. Neurology; publication date 2025 Sep. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40818473",
+            "journal": "The Lancet. Neurology",
+            "publicationDate": "2025 Sep",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase III",
+              "Randomized Controlled Trial",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "Crawford TO",
+              "Servais L",
+              "Mercuri E",
+              "Kölbel H",
+              "Kuntz N",
+              "Finkel RS"
+            ],
+            "doi": "10.1016/S1474-4422(25)00225-X",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40818473%2C36329412%2C38330285%2C33963971%2C41178728&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40818473"
+        },
+        {
+          "id": "36329412",
+          "title": "Advances and limitations for the treatment of spinal muscular atrophy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36329412/",
+          "summary": "Indexed citation in BMC pediatrics; publication date 2022 Nov 3. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "36329412",
+            "journal": "BMC pediatrics",
+            "publicationDate": "2022 Nov 3",
+            "electronicPublicationDate": "2022 Nov 3",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Day JW",
+              "Howell K",
+              "Place A",
+              "Long K",
+              "Rossello J",
+              "Kertesz N"
+            ],
+            "doi": "10.1186/s12887-022-03671-x",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40818473%2C36329412%2C38330285%2C33963971%2C41178728&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-36329412"
+        },
+        {
+          "id": "38330285",
+          "title": "Safety and Efficacy of Apitegromab in Patients With Spinal Muscular Atrophy Types 2 and 3: The Phase 2 TOPAZ Study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38330285/",
+          "summary": "Indexed citation in Neurology; publication date 2024 Mar 12. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38330285",
+            "journal": "Neurology",
+            "publicationDate": "2024 Mar 12",
+            "electronicPublicationDate": "2024 Feb 8",
+            "publicationTypes": [
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Crawford TO",
+              "Darras BT",
+              "Day JW",
+              "Dunaway Young S",
+              "Duong T",
+              "Nelson LL"
+            ],
+            "doi": "10.1212/WNL.0000000000209151",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40818473%2C36329412%2C38330285%2C33963971%2C41178728&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38330285"
+        },
+        {
+          "id": "33963971",
+          "title": "A Randomized Phase 1 Safety, Pharmacokinetic and Pharmacodynamic Study of the Novel Myostatin Inhibitor Apitegromab (SRK-015): A Potential Treatment for Spinal Muscular Atrophy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33963971/",
+          "summary": "Indexed citation in Advances in therapy; publication date 2021 Jun. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "33963971",
+            "journal": "Advances in therapy",
+            "publicationDate": "2021 Jun",
+            "electronicPublicationDate": "2021 May 8",
+            "publicationTypes": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Barrett D",
+              "Bilic S",
+              "Chyung Y",
+              "Cote SM",
+              "Iarrobino R",
+              "Kacena K"
+            ],
+            "doi": "10.1007/s12325-021-01757-z",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40818473%2C36329412%2C38330285%2C33963971%2C41178728&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-33963971"
+        },
+        {
+          "id": "41178728",
+          "title": "Pharmacological intervention: Challenges and promising outcomes for fat loss and preservation of lean body mass in the treatment of overweight and type 2 diabetes.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41178728/",
+          "summary": "Indexed citation in Diabetes, obesity & metabolism; publication date 2026 Feb. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41178728",
+            "journal": "Diabetes, obesity & metabolism",
+            "publicationDate": "2026 Feb",
+            "electronicPublicationDate": "2025 Nov 3",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Aimelet V",
+              "Holst JJ"
+            ],
+            "doi": "10.1111/dom.70229",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40818473%2C36329412%2C38330285%2C33963971%2C41178728&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41178728"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "evidence-trials-NCT06877689",
+      "title": "EAP of Apitegromab for Patients With Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT06877689",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: NO_LONGER_AVAILABLE; phase unavailable; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT07047144",
+      "title": "A Study to Evaluate How Apitegromab Works in Subjects Who Are Less Than 2 Years Old and Have Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT07047144",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT03921528",
+      "title": "An Active Treatment Study of SRK-015 in Patients With Type 2 or Type 3 Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT03921528",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2024-12-02",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT07435129",
+      "title": "Phase 2 Study Evaluating Apitegromab for the Treatment of FSHD",
+      "url": "https://clinicaltrials.gov/study/NCT07435129",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-02",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT05626855",
+      "title": "Long-Term Safety & Efficacy of Apitegromab in Patients With SMA Who Completed Previous Trials of Apitegromab",
+      "url": "https://clinicaltrials.gov/study/NCT05626855",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-01",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-40818473",
+      "title": "Safety and efficacy of apitegromab in nonambulatory type 2 or type 3 spinal muscular atrophy (SAPPHIRE): a phase 3, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40818473/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in The Lancet. Neurology; publication date 2025 Sep. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-36329412",
+      "title": "Advances and limitations for the treatment of spinal muscular atrophy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36329412/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in BMC pediatrics; publication date 2022 Nov 3. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-38330285",
+      "title": "Safety and Efficacy of Apitegromab in Patients With Spinal Muscular Atrophy Types 2 and 3: The Phase 2 TOPAZ Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38330285/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Neurology; publication date 2024 Mar 12. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-33963971",
+      "title": "A Randomized Phase 1 Safety, Pharmacokinetic and Pharmacodynamic Study of the Novel Myostatin Inhibitor Apitegromab (SRK-015): A Potential Treatment for Spinal Muscular Atrophy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33963971/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Advances in therapy; publication date 2021 Jun. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-41178728",
+      "title": "Pharmacological intervention: Challenges and promising outcomes for fat loss and preservation of lean body mass in the treatment of overweight and type 2 diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41178728/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Diabetes, obesity & metabolism; publication date 2026 Feb. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    }
+  ]
+}

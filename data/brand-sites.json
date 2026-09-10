@@ -25,9 +25,21 @@
       "name": "Summit Therapeutics",
       "website": "https://www.smmttx.com"
     },
-    { "id": "savara", "name": "Savara", "website": "https://savarapharma.com" },
-    { "id": "nuvalent", "name": "Nuvalent", "website": "https://nuvalent.com" },
-    { "id": "gsk", "name": "GSK", "website": "https://www.gsk.com/en-gb/" },
+    {
+      "id": "savara",
+      "name": "Savara",
+      "website": "https://savarapharma.com"
+    },
+    {
+      "id": "nuvalent",
+      "name": "Nuvalent",
+      "website": "https://nuvalent.com"
+    },
+    {
+      "id": "gsk",
+      "name": "GSK",
+      "website": "https://www.gsk.com/en-gb/"
+    },
     {
       "id": "polypid",
       "name": "PolyPid",
@@ -37,17 +49,207 @@
       "id": "telix",
       "name": "Telix Pharmaceuticals",
       "website": "https://telixpharma.com"
+    },
+    {
+      "id": "ionis",
+      "name": "Ionis Pharmaceuticals",
+      "website": "https://ionis.com"
+    },
+    {
+      "id": "merck",
+      "name": "Merck",
+      "website": "https://www.merck.com"
+    },
+    {
+      "id": "daiichi-sankyo",
+      "name": "Daiichi Sankyo",
+      "website": "https://www.daiichisankyo.com"
+    },
+    {
+      "id": "roche",
+      "name": "Roche",
+      "website": "https://www.roche.com"
+    },
+    {
+      "id": "pharming",
+      "name": "Pharming Group",
+      "website": "https://www.pharming.com"
+    },
+    {
+      "id": "inovio",
+      "name": "INOVIO",
+      "website": "https://inovio.com"
+    },
+    {
+      "id": "bridgebio",
+      "name": "BridgeBio Pharma",
+      "website": "https://bridgebio.com"
+    },
+    {
+      "id": "cogent",
+      "name": "Cogent Biosciences",
+      "website": "https://www.cogentbio.com"
+    },
+    {
+      "id": "vertex",
+      "name": "Vertex Pharmaceuticals",
+      "website": "https://www.vrtx.com"
+    },
+    {
+      "id": "exelixis",
+      "name": "Exelixis",
+      "website": "https://www.exelixis.com"
+    },
+    {
+      "id": "vanda",
+      "name": "Vanda Pharmaceuticals",
+      "website": "https://www.vandapharma.com"
+    },
+    {
+      "id": "corcept",
+      "name": "Corcept Therapeutics",
+      "website": "https://www.corcept.com"
+    },
+    {
+      "id": "mineralys",
+      "name": "Mineralys Therapeutics",
+      "website": "https://www.mineralystx.com"
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead Sciences",
+      "website": "https://www.gilead.com"
+    },
+    {
+      "id": "hansa",
+      "name": "Hansa Biopharma",
+      "website": "https://www.hansabiopharma.com"
+    },
+    {
+      "id": "agios",
+      "name": "Agios Pharmaceuticals",
+      "website": "https://www.agios.com"
+    },
+    {
+      "id": "mirum",
+      "name": "Mirum Pharmaceuticals",
+      "website": "https://mirumpharma.com"
+    },
+    {
+      "id": "incyte",
+      "name": "Incyte",
+      "website": "https://www.incyte.com"
+    },
+    {
+      "id": "bioxcel",
+      "name": "BioXcel Therapeutics",
+      "website": "https://www.bioxceltherapeutics.com"
     }
   ],
   "candidateCompanies": {
-    "relutrigine-dee": ["praxis"],
-    "apitegromab-sma": ["scholar-rock"],
-    "ux111-mpsiiia": ["ultragenyx"],
-    "deramiocel-dmd": ["capricor"],
-    "ivonescimab-egfrm": ["summit"],
-    "molgramostim-apap": ["savara"],
-    "neladalkib-alk": ["nuvalent", "gsk"],
-    "dplex100-ssi": ["polypid"],
-    "floretyrosine-glioma": ["telix"]
+    "relutrigine-dee": [
+      "praxis"
+    ],
+    "apitegromab-sma": [
+      "scholar-rock"
+    ],
+    "ux111-mpsiiia": [
+      "ultragenyx"
+    ],
+    "deramiocel-dmd": [
+      "capricor"
+    ],
+    "ivonescimab-egfrm": [
+      "summit"
+    ],
+    "molgramostim-apap": [
+      "savara"
+    ],
+    "neladalkib-alk": [
+      "nuvalent",
+      "gsk"
+    ],
+    "dplex100-ssi": [
+      "polypid"
+    ],
+    "floretyrosine-glioma": [
+      "telix"
+    ],
+    "ulixacaltamide-et": [
+      "praxis"
+    ],
+    "zilganersen-axd": [
+      "ionis"
+    ],
+    "bepirovirsen-hbv": [
+      "gsk",
+      "ionis"
+    ],
+    "ifinatamab-deruxtecan-sclc": [
+      "daiichi-sankyo",
+      "merck"
+    ],
+    "atezolizumab-colon-adjuvant": [
+      "roche"
+    ],
+    "satralizumab-ted": [
+      "roche"
+    ],
+    "leniolisib-pediatric-apds": [
+      "pharming"
+    ],
+    "ino3107-rrp": [
+      "inovio"
+    ],
+    "bbp418-lgmd": [
+      "bridgebio"
+    ],
+    "bezuclastinib-gist": [
+      "cogent"
+    ],
+    "bezuclastinib-nonadv-sm": [
+      "cogent"
+    ],
+    "giredestrant-early-breast": [
+      "roche"
+    ],
+    "giredestrant-esr1-breast": [
+      "roche"
+    ],
+    "povetacicept-igan": [
+      "vertex"
+    ],
+    "zanzalintinib-mcrc": [
+      "exelixis",
+      "roche"
+    ],
+    "imsidolimab-gpp": [
+      "vanda"
+    ],
+    "relacorilant-cushing": [
+      "corcept"
+    ],
+    "lorundrostat-hypertension": [
+      "mineralys"
+    ],
+    "anito-cel-myeloma": [
+      "gilead"
+    ],
+    "imlifidase-kidney": [
+      "hansa"
+    ],
+    "mitapivat-scd": [
+      "agios"
+    ],
+    "zilurgisertib-fop": [
+      "mirum",
+      "incyte"
+    ],
+    "dexmedetomidine-at-home": [
+      "bioxcel"
+    ],
+    "encaleret-adh1": [
+      "bridgebio"
+    ]
   }
 }

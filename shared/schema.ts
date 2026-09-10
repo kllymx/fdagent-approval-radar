@@ -125,10 +125,68 @@ export const reportSchema = z.object({
   nextEvidence: z.array(z.string()).max(8),
   limitations: z.array(z.string()).max(12),
 });
+const citedCaseSchema = z.object({
+  claim: z.string(),
+  sourceIds: z.array(z.string()).min(1),
+});
+export const decisionBriefSchema = z.object({
+  pivotalQuestion: z.string(),
+  bullCase: citedCaseSchema,
+  bearCase: citedCaseSchema,
+  decisiveEvidence: z.object({
+    question: z.string(),
+    whyItMatters: z.string(),
+    sourceIds: z.array(z.string()).min(1),
+  }),
+  scenarios: z
+    .array(
+      z.object({
+        label: z.string(),
+        trigger: z.string(),
+        implication: z.string(),
+        sourceIds: z.array(z.string()).min(1),
+      }),
+    )
+    .min(2)
+    .max(3),
+  diligenceQuestions: z
+    .array(
+      z.object({
+        question: z.string(),
+        whyItMatters: z.string(),
+        sourceIds: z.array(z.string()).min(1),
+      }),
+    )
+    .min(2)
+    .max(4),
+});
+export const changesSchema = z.object({
+  disposition: z.enum(["revised", "strengthened", "unchanged", "mixed"]),
+  summary: z.string(),
+  items: z
+    .array(
+      z.object({
+        previousClaim: z.string(),
+        currentClaim: z.string(),
+        reason: z.string(),
+        sourceIds: z.array(z.string()).min(1),
+      }),
+    )
+    .min(1)
+    .max(4),
+});
+// Older recorded reports remain unchanged; new runs use the richer strict contract.
+export const investigationReportSchema = reportSchema.extend({
+  decisionBrief: decisionBriefSchema,
+  changes: changesSchema.nullable(),
+});
 export type Source = z.infer<typeof sourceSchema>;
 export type Candidate = z.infer<typeof candidateSchema>;
 export type Catalog = z.infer<typeof catalogSchema>;
-export type Report = z.infer<typeof reportSchema>;
+export type Report = z.infer<typeof reportSchema> & {
+  decisionBrief?: z.infer<typeof decisionBriefSchema>;
+  changes?: z.infer<typeof changesSchema> | null;
+};
 export type Investigation = Report & {
   id: string;
   candidateId: string;
@@ -138,6 +196,8 @@ export type Investigation = Report & {
   question: string;
   status: "completed" | "failed";
   provenance: "live" | "recorded";
+  previousRunId?: string;
+  previousOutlook?: { verdict: string; timing: string };
   sources: Source[];
   usage?: { inputTokens: number; outputTokens: number };
   durationMs?: number;

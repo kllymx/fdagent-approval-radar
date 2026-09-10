@@ -1,0 +1,195 @@
+{
+  "candidateId": "encaleret-adh1",
+  "generatedAt": "2026-09-10T18:56:19.938Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-trials-NCT05680818"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05680818",
+          "title": "Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+          "url": "https://clinicaltrials.gov/study/NCT05680818",
+          "fields": {
+            "nctId": "NCT05680818",
+            "sponsor": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Autosomal Dominant Hypocalcemia (ADH)"
+            ],
+            "interventions": [
+              "Encaleret",
+              "Standard of Care"
+            ],
+            "enrollment": {
+              "count": 67,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Responders who Achieve Both Albumin-Corrected Blood Calcium (cCa) and 24-hour Urinary Calcium (UCa) Within the Target Range",
+                "timeFrame": "Up to Week 24"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-08-22",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-07-29",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Calcilytix Therapeutics, Inc., a BridgeBio company. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05680818"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-publications-38572533",
+        "evidence-publications-42183375"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "38572533",
+          "title": "Treatment of Hypoparathyroidism by Re-Establishing the Effects of Parathyroid Hormone.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572533/",
+          "summary": "Indexed citation in Endocrinology and metabolism (Seoul, Korea); publication date 2024 Apr. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38572533",
+            "journal": "Endocrinology and metabolism (Seoul, Korea)",
+            "publicationDate": "2024 Apr",
+            "electronicPublicationDate": "2024 Apr 4",
+            "publicationTypes": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Rejnmark L"
+            ],
+            "doi": "10.3803/EnM.2024.1916",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=38572533%2C42183375&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38572533"
+        },
+        {
+          "id": "42183375",
+          "title": "PTH-Independent CaSR Inhibition with the Oral Calcilytic Encaleret Improves Calcium Homeostasis in Post-Surgical Hypoparathyroidism: A Phase 2 Open-Label Proof-of-Concept Trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42183375/",
+          "summary": "Indexed citation in Research square; publication date 2026 May 11. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "42183375",
+            "journal": "Research square",
+            "publicationDate": "2026 May 11",
+            "electronicPublicationDate": "2026 May 11",
+            "publicationTypes": [
+              "Journal Article",
+              "Preprint"
+            ],
+            "authors": [
+              "Hartley IR",
+              "Gafni RI",
+              "Li X",
+              "Grover A",
+              "Ferguson EA",
+              "Moore CA"
+            ],
+            "doi": "10.21203/rs.3.rs-9499053/v1",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=38572533%2C42183375&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-42183375"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05680818",
+      "title": "Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:56:19.220Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Calcilytix Therapeutics, Inc., a BridgeBio company. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38572533",
+      "title": "Treatment of Hypoparathyroidism by Re-Establishing the Effects of Parathyroid Hormone.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38572533/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:19.938Z",
+      "summary": "Indexed citation in Endocrinology and metabolism (Seoul, Korea); publication date 2024 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42183375",
+      "title": "PTH-Independent CaSR Inhibition with the Oral Calcilytic Encaleret Improves Calcium Homeostasis in Post-Surgical Hypoparathyroidism: A Phase 2 Open-Label Proof-of-Concept Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42183375/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:19.938Z",
+      "summary": "Indexed citation in Research square; publication date 2026 May 11. Abstract and full text have not been assessed."
+    }
+  ]
+}

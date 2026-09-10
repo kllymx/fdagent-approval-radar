@@ -45,3 +45,11 @@ GET /api/candidates/:id returns {candidate, sources, investigations}. Frontend c
 ## Interface priorities
 
 An attractive dense desktop workbench: left sortable/filterable candidate list, center selected candidate evidence/timeline and source-linked Astra investigation; optional methodology/evaluation view or tab. Primary CTA 'Investigate with Astra'; challenge input. Distinguish reported target, experimental model, actual source evidence and Astra interpretation. Responsive design. No made-up probabilities or quote/prediction claims. Show useful sourced data immediately without API key. Empty/error/running states work.
+
+## Expanded diligence contract
+
+New live reports add `decisionBrief`: `{pivotalQuestion, bullCase:{claim,sourceIds}, bearCase:{claim,sourceIds}, decisiveEvidence:{question,whyItMatters,sourceIds}, scenarios:[{label,trigger,implication,sourceIds}], diligenceQuestions:[{question,whyItMatters,sourceIds}]}`. Cases are interpretations; scenarios are explicitly conditional, not forecasts. Each is grounded in returned sources. Older recorded reports do not gain invented content.
+
+Challenges additionally return `changes:{disposition:'revised'|'strengthened'|'unchanged'|'mixed',summary,items:[{previousClaim,currentClaim,reason,sourceIds}]}`; first investigations return null. Server preserves `previousRunId` and the exact `previousOutlook:{verdict,timing}` for comparison. Validation checks reference existence for every new section, alongside the existing withheld-probability rule.
+
+The optional FDAgent MCP connection calls only an allowlist of existing read-only public regulatory data tools; it does not publish the private application's code, environment, raw database rows or customer records. Name matches are leads, not proven sponsor–facility–drug links. Exact FEI identity and documented product relationship are distinct requirements.

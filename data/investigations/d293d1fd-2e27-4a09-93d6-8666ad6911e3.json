@@ -258,7 +258,7 @@
       "title": "FDA review of apitegromab for SMA continues, minus one facility",
       "url": "https://www.contemporarypediatrics.com/view/apitegromab-bla-review-sma-single-fill-finish-facility",
       "publisher": "www.contemporarypediatrics.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:52:13.796Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -308,7 +308,7 @@
       "title": "FDA Issues CRL for Linvoseltamab in R/R Multiple Myeloma - AJMC",
       "url": "https://www.ajmc.com/view/fda-issues-crl-for-linvoseltamab-in-r-r-multiple-myeloma",
       "publisher": "www.ajmc.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:52:20.599Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -318,7 +318,7 @@
       "title": "FDA Denies Approval of Regeneron's Linvoseltamab for ... - BioSpace",
       "url": "https://www.biospace.com/fda/fda-denies-approval-of-regenerons-linvoseltamab-for-multiple-myeloma-cites-third-party-manufacturing-issues",
       "publisher": "www.biospace.com",
-      "publishedAt": "2024-08-21",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:52:20.600Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -338,7 +338,7 @@
       "title": "FDA Approves Linvoseltamab for Relapsed/Refractory Multiple ...",
       "url": "https://www.onclive.com/view/fda-approves-linvoseltamab-for-relapsed-refractory-multiple-myeloma",
       "publisher": "www.onclive.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:52:42.189Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -348,7 +348,7 @@
       "title": "Linvoseltamab Gains FDA Accelerated Approval In R/R Myeloma",
       "url": "https://www.oncnursingnews.com/view/linvoseltamab-gains-fda-accelerated-approval-in-r-r-myeloma",
       "publisher": "www.oncnursingnews.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:52:42.189Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -489,8 +489,8 @@
     ]
   },
   "recording": {
-    "exportedAt": "2026-09-10T18:02:01.376Z",
+    "exportedAt": "2026-09-10T19:08:18.891Z",
     "originalSha256": "b7e9b790a20f814e8d100f63ce44de883357bcac6c02193445ea8e736fcc70f0",
-    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
   }
 }

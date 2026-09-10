@@ -1,0 +1,386 @@
+{
+  "candidateId": "bepirovirsen-hbv",
+  "generatedAt": "2026-09-10T18:56:08.220Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-trials-NCT05630807",
+        "evidence-trials-NCT05630820"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05630807",
+          "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+          "url": "https://clinicaltrials.gov/study/NCT05630807",
+          "fields": {
+            "nctId": "NCT05630807",
+            "sponsor": "GlaxoSmithKline",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Chronic Hepatitis B",
+              "Hepatitis B, Chronic"
+            ],
+            "interventions": [
+              "Bepirovirsen",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 981,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants achieving functional cure (FC) with baseline HBsAg ≤3000 IU/mL",
+                "timeFrame": "Up to 72 weeks"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-11-11",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-07-08",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05630807"
+        },
+        {
+          "id": "NCT05630820",
+          "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+          "url": "https://clinicaltrials.gov/study/NCT05630820",
+          "fields": {
+            "nctId": "NCT05630820",
+            "sponsor": "GlaxoSmithKline",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Chronic Hepatitis B",
+              "Hepatitis B, Chronic"
+            ],
+            "interventions": [
+              "Bepirovirsen",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 857,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants achieving functional cure (FC) with baseline HBsAg ≤3000 IU/mL",
+                "timeFrame": "Up to 72 weeks"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-11-03",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-07-08",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05630820"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 16,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-42206582",
+        "evidence-publications-36346079",
+        "evidence-publications-34642494",
+        "evidence-publications-37902953",
+        "evidence-publications-39214467"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "42206582",
+          "title": "Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B Virus Infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42206582/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2026 Jun 25. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "42206582",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2026 Jun 25",
+            "electronicPublicationDate": "2026 May 28",
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase III"
+            ],
+            "authors": [
+              "Hou J",
+              "Lim SG",
+              "Buti M",
+              "Yuen MF",
+              "Gane E",
+              "Lampertico P"
+            ],
+            "doi": "10.1056/NEJMoa2515131",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42206582%2C36346079%2C34642494%2C37902953%2C39214467&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-42206582"
+        },
+        {
+          "id": "36346079",
+          "title": "Efficacy and Safety of Bepirovirsen in Chronic Hepatitis B Infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36346079/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2022 Nov 24. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "36346079",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2022 Nov 24",
+            "electronicPublicationDate": "2022 Nov 8",
+            "publicationTypes": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Yuen MF",
+              "Lim SG",
+              "Plesniak R",
+              "Tsuji K",
+              "Janssen HLA",
+              "Pojoga C"
+            ],
+            "doi": "10.1056/NEJMoa2210027",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42206582%2C36346079%2C34642494%2C37902953%2C39214467&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-36346079"
+        },
+        {
+          "id": "34642494",
+          "title": "Safety, tolerability and antiviral activity of the antisense oligonucleotide bepirovirsen in patients with chronic hepatitis B: a phase 2 randomized controlled trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34642494/",
+          "summary": "Indexed citation in Nature medicine; publication date 2021 Oct. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "34642494",
+            "journal": "Nature medicine",
+            "publicationDate": "2021 Oct",
+            "electronicPublicationDate": "2021 Oct 12",
+            "publicationTypes": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Yuen MF",
+              "Heo J",
+              "Jang JW",
+              "Yoon JH",
+              "Kweon YO",
+              "Park SJ"
+            ],
+            "doi": "10.1038/s41591-021-01513-4",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42206582%2C36346079%2C34642494%2C37902953%2C39214467&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-34642494"
+        },
+        {
+          "id": "37902953",
+          "title": "Bepirovirsen (GSK3228836) in chronic hepatitis B infection: an evaluation of phase II progress.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37902953/",
+          "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2023 Jul-Dec. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "37902953",
+            "journal": "Expert opinion on investigational drugs",
+            "publicationDate": "2023 Jul-Dec",
+            "electronicPublicationDate": "2023 Nov 24",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Mak LY",
+              "Hui RW",
+              "Fung J",
+              "Seto WK",
+              "Yuen MF"
+            ],
+            "doi": "10.1080/13543784.2023.2277389",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42206582%2C36346079%2C34642494%2C37902953%2C39214467&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-37902953"
+        },
+        {
+          "id": "39214467",
+          "title": "Sequential Peg-IFN after bepirovirsen may reduce post-treatment relapse in chronic hepatitis B.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39214467/",
+          "summary": "Indexed citation in Journal of hepatology; publication date 2025 Feb. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "39214467",
+            "journal": "Journal of hepatology",
+            "publicationDate": "2025 Feb",
+            "electronicPublicationDate": "2024 Aug 29",
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase II",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "Buti M",
+              "Heo J",
+              "Tanaka Y",
+              "Andreone P",
+              "Atsukawa M",
+              "Cabezas J"
+            ],
+            "doi": "10.1016/j.jhep.2024.08.010",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42206582%2C36346079%2C34642494%2C37902953%2C39214467&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-39214467"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05630807",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+      "url": "https://clinicaltrials.gov/study/NCT05630807",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:56:07.388Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05630820",
+      "title": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+      "url": "https://clinicaltrials.gov/study/NCT05630820",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-08",
+      "retrievedAt": "2026-09-10T18:56:07.388Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor GlaxoSmithKline. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42206582",
+      "title": "Phase 3 Results of Bepirovirsen Treatment for Chronic Hepatitis B Virus Infection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42206582/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.220Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2026 Jun 25. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-36346079",
+      "title": "Efficacy and Safety of Bepirovirsen in Chronic Hepatitis B Infection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36346079/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.220Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2022 Nov 24. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34642494",
+      "title": "Safety, tolerability and antiviral activity of the antisense oligonucleotide bepirovirsen in patients with chronic hepatitis B: a phase 2 randomized controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34642494/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.220Z",
+      "summary": "Indexed citation in Nature medicine; publication date 2021 Oct. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37902953",
+      "title": "Bepirovirsen (GSK3228836) in chronic hepatitis B infection: an evaluation of phase II progress.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37902953/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.220Z",
+      "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2023 Jul-Dec. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39214467",
+      "title": "Sequential Peg-IFN after bepirovirsen may reduce post-treatment relapse in chronic hepatitis B.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39214467/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.220Z",
+      "summary": "Indexed citation in Journal of hepatology; publication date 2025 Feb. Abstract and full text have not been assessed."
+    }
+  ]
+}

@@ -246,7 +246,7 @@
       "title": "FDA review of apitegromab for SMA continues, minus one facility",
       "url": "https://www.contemporarypediatrics.com/view/apitegromab-bla-review-sma-single-fill-finish-facility",
       "publisher": "www.contemporarypediatrics.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:42:27.412Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -316,7 +316,7 @@
       "title": "EMA Review of Apitegromab in Spinal Muscular Atrophy Delayed ...",
       "url": "https://www.biopharminternational.com/view/ema-review-apitegromab-spinal-muscular-atrophy-delayed",
       "publisher": "www.biopharminternational.com",
-      "publishedAt": "2026-09-10",
+      "publishedAt": null,
       "retrievedAt": "2026-09-10T17:42:38.946Z",
       "kind": "publication",
       "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
@@ -407,8 +407,8 @@
     ]
   },
   "recording": {
-    "exportedAt": "2026-09-10T18:02:01.372Z",
+    "exportedAt": "2026-09-10T19:08:18.887Z",
     "originalSha256": "9832d048c2b0436ef59bc95b9bbb98067e87f6f2576a158e3f885601facf50c4",
-    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
   }
 }

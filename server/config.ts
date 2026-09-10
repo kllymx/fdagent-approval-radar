@@ -22,6 +22,7 @@ export const config = {
 export function runtimeInfo() {
   return {
     configured: Boolean(config.apiKey),
+    fdagent: Boolean(process.env.FDAGENT_MCP_ENTRY),
     model: config.model,
     provider: new URL(config.baseUrl).hostname,
     status: config.apiKey ? "ready" : "unconfigured",

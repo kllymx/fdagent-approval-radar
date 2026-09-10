@@ -1,0 +1,301 @@
+{
+  "candidateId": "deramiocel-dmd",
+  "generatedAt": "2026-09-10T18:41:43.257Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 3,
+      "returned": 3,
+      "sourceIds": [
+        "evidence-trials-NCT05126758",
+        "evidence-trials-NCT03406780",
+        "evidence-trials-NCT04428476"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval. Application number is not searched in this registry; only the supplied intervention, sponsor, and condition filters are used.",
+      "records": [
+        {
+          "id": "NCT05126758",
+          "title": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+          "url": "https://clinicaltrials.gov/study/NCT05126758",
+          "fields": {
+            "nctId": "NCT05126758",
+            "sponsor": "Capricor Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Muscular Dystrophies",
+              "Muscular Dystrophy, Duchenne",
+              "Muscular Disorders, Atrophic",
+              "Muscular Diseases",
+              "Neuromuscular Diseases",
+              "Genetic Diseases, X-Linked",
+              "Genetic Diseases, Inborn",
+              "Nervous System Diseases"
+            ],
+            "interventions": [
+              "Deramiocel (CAP-1002)",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 106,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Change in the upper limb function",
+                "timeFrame": "At Month 12"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-06-18",
+            "lastUpdatePostDate": "2026-08-28",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05126758"
+        },
+        {
+          "id": "NCT03406780",
+          "title": "A Study of CAP-1002 in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+          "url": "https://clinicaltrials.gov/study/NCT03406780",
+          "fields": {
+            "nctId": "NCT03406780",
+            "sponsor": "Capricor Inc.",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Muscular Dystrophies",
+              "Muscular Dystrophy, Duchenne",
+              "Muscular Disorders, Atrophic",
+              "Muscular Diseases",
+              "Neuromuscular Diseases",
+              "Nervous System Diseases",
+              "Genetic Diseases, X-Linked",
+              "Genetic Diseases, Inborn"
+            ],
+            "interventions": [
+              "CAP-1002",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 20,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Change From Baseline in Functional Capacity as Assessed by the Mid-level (Elbow) Dimension Score of the Performance of Upper Limb (PUL) Version 1.2 at Month 12",
+                "timeFrame": "Baseline, Month 12"
+              },
+              {
+                "measure": "Number of Participants Experiencing Acute Respiratory Decompensation",
+                "timeFrame": "Baseline through Month 12"
+              },
+              {
+                "measure": "Number of Participants With Hypersensitivity Reactions",
+                "timeFrame": "Baseline through Month 12"
+              },
+              {
+                "measure": "Number of Participants With All-cause Mortality",
+                "timeFrame": "Baseline through Month 12"
+              },
+              {
+                "measure": "Number of Participants With Serious Adverse Events (SAEs)",
+                "timeFrame": "Baseline through Month 12"
+              },
+              {
+                "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) Related to Investigational Product (IP) or Administration Procedure",
+                "timeFrame": "Baseline through Month 12"
+              }
+            ],
+            "primaryOutcomesReturned": 6,
+            "primaryOutcomesTotal": 7,
+            "primaryCompletionDate": "2020-03-10",
+            "lastUpdatePostDate": "2025-05-28",
+            "resultsFirstPostDate": "2025-02-24",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT03406780"
+        },
+        {
+          "id": "NCT04428476",
+          "title": "Open-label Extension of the HOPE-2 Trial",
+          "url": "https://clinicaltrials.gov/study/NCT04428476",
+          "fields": {
+            "nctId": "NCT04428476",
+            "sponsor": "Capricor Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Duchenne Muscular Dystrophy"
+            ],
+            "interventions": [
+              "Deramiocel (CAP-1002)"
+            ],
+            "enrollment": {
+              "count": 13,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
+                "timeFrame": "Baseline up to Month 12"
+              },
+              {
+                "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
+                "timeFrame": "Baseline up to Month 12"
+              },
+              {
+                "measure": "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score.",
+                "timeFrame": "Baseline, Month 12"
+              }
+            ],
+            "primaryOutcomesReturned": 3,
+            "primaryOutcomesTotal": 3,
+            "primaryCompletionDate": "2022-02-16",
+            "lastUpdatePostDate": "2025-11-03",
+            "resultsFirstPostDate": "2025-02-24",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT04428476"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications. Exact application-number lookup takes precedence over drug and sponsor text filters.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data. Exact application number replaces drug/manufacturer text; any indication filter is still applied.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-publications-42526472"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made. Sponsor and application number are not used as PubMed filters; article affiliations do not reliably identify trial sponsorship.",
+      "records": [
+        {
+          "id": "42526472",
+          "title": "Deramiocel heart-derived cellular therapy in advanced Duchenne muscular dystrophy (HOPE-3): a phase 3, randomised, double-blind, placebo-controlled trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42526472/",
+          "summary": "Indexed citation in Lancet (London, England); publication date 2026 Aug 22. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "42526472",
+            "journal": "Lancet (London, England)",
+            "publicationDate": "2026 Aug 22",
+            "electronicPublicationDate": "2026 Jul 29",
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "McDonald CM",
+              "Villa C",
+              "Soslow JH",
+              "Maharry K",
+              "Hogan N",
+              "Binks M"
+            ],
+            "doi": "10.1016/S0140-6736(26)01385-1",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42526472&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-42526472"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "evidence-trials-NCT05126758",
+      "title": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+      "url": "https://clinicaltrials.gov/study/NCT05126758",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T18:41:42.227Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT03406780",
+      "title": "A Study of CAP-1002 in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+      "url": "https://clinicaltrials.gov/study/NCT03406780",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2025-05-28",
+      "retrievedAt": "2026-09-10T18:41:42.227Z",
+      "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-trials-NCT04428476",
+      "title": "Open-label Extension of the HOPE-2 Trial",
+      "url": "https://clinicaltrials.gov/study/NCT04428476",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2025-11-03",
+      "retrievedAt": "2026-09-10T18:41:42.227Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Capricor Inc.. Results availability is not an efficacy conclusion.",
+      "contentKind": "metadata"
+    },
+    {
+      "id": "evidence-publications-42526472",
+      "title": "Deramiocel heart-derived cellular therapy in advanced Duchenne muscular dystrophy (HOPE-3): a phase 3, randomised, double-blind, placebo-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42526472/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:42.300Z",
+      "summary": "Indexed citation in Lancet (London, England); publication date 2026 Aug 22. Abstract and full text have not been assessed.",
+      "contentKind": "metadata"
+    }
+  ]
+}

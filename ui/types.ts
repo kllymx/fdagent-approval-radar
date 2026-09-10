@@ -49,6 +49,7 @@ export interface RuntimeInfo {
   provider: string;
   status: 'ready' | 'unconfigured' | 'error';
   message?: string;
+  fdagent?: boolean;
 }
 
 export interface ModelSummary {
@@ -121,6 +122,21 @@ export interface Investigation {
   sources: Source[];
   usage?: { inputTokens: number; outputTokens: number };
   durationMs?: number;
+  previousRunId?: string;
+  previousOutlook?: { verdict: string; timing: string };
+  decisionBrief?: {
+    pivotalQuestion: string;
+    bullCase: { claim: string; sourceIds: string[] };
+    bearCase: { claim: string; sourceIds: string[] };
+    decisiveEvidence: { question: string; whyItMatters: string; sourceIds: string[] };
+    scenarios: { label: string; trigger: string; implication: string; sourceIds: string[] }[];
+    diligenceQuestions: { question: string; whyItMatters: string; sourceIds: string[] }[];
+  };
+  changes?: {
+    disposition: 'revised' | 'strengthened' | 'unchanged' | 'mixed';
+    summary: string;
+    items: { previousClaim: string; currentClaim: string; reason: string; sourceIds: string[] }[];
+  } | null;
 }
 
 export interface InvestigationSummary {
@@ -138,6 +154,26 @@ export interface Dashboard {
   model: ModelSummary;
   runtime: RuntimeInfo;
   investigations: InvestigationSummary[];
+  evidenceCandidateIds?: string[];
+  evidenceSourcesByCandidate?: Record<string, Source[]>;
+}
+
+export interface EvidenceDossier {
+  candidateId: string;
+  generatedAt: string;
+  provenance: 'live' | 'recorded';
+  families: {
+    id: 'trials' | 'approvals' | 'labels' | 'publications' | 'fdagent';
+    label: string;
+    status: 'ready' | 'empty' | 'error' | 'not_checked';
+    total: number | null;
+    returned: number;
+    sourceIds: string[];
+    coverage: string;
+    error?: string;
+    records: { id: string; sourceId: string; title: string; url: string; summary: string; fields: Record<string, unknown> }[];
+  }[];
+  sources: Source[];
 }
 
 export type StreamEvent =

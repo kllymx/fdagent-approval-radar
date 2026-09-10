@@ -1,0 +1,545 @@
+{
+  "candidateId": "ivonescimab-egfrm",
+  "generatedAt": "2026-09-10T18:46:19.555Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 127,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-trials-NCT07516925",
+        "evidence-trials-NCT06875076",
+        "evidence-trials-NCT07594522",
+        "evidence-trials-NCT06951646",
+        "evidence-trials-NCT06820762"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT07516925",
+          "title": "A Study of Ivonescimab in People With Leiomyosarcoma",
+          "url": "https://clinicaltrials.gov/study/NCT07516925",
+          "fields": {
+            "nctId": "NCT07516925",
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Leiomyosarcoma"
+            ],
+            "interventions": [
+              "Ivonescimab"
+            ],
+            "enrollment": {
+              "count": 20,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Response",
+                "timeFrame": "up to two years"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2029-04",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-08-27",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Memorial Sloan Kettering Cancer Center. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT07516925"
+        },
+        {
+          "id": "NCT06875076",
+          "title": "Multicenter Single-Arm Study of Ivonescimab (AK112) Combined with Chemotherapy in Pretreated Pleural Mesothelioma",
+          "url": "https://clinicaltrials.gov/study/NCT06875076",
+          "fields": {
+            "nctId": "NCT06875076",
+            "sponsor": "The First Hospital of Jilin University",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Pretreated Pleural Mesothelioma"
+            ],
+            "interventions": [
+              "Ivonescimab Combined With Chemotherapy"
+            ],
+            "enrollment": {
+              "count": 25,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "objective response rate (ORR)",
+                "timeFrame": "From enrollment to the end of treatment at 3 months"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2028-01",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2025-03-13",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor The First Hospital of Jilin University. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06875076"
+        },
+        {
+          "id": "NCT07594522",
+          "title": "A Study of Ivonescimab in People With Non-Small Cell Lung Cancer",
+          "url": "https://clinicaltrials.gov/study/NCT07594522",
+          "fields": {
+            "nctId": "NCT07594522",
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Non-Small Cell Lung Cancer"
+            ],
+            "interventions": [
+              "Photon or Proton standard stereotactic body radiotherapy (SBRT)",
+              "Ivonescimab"
+            ],
+            "enrollment": {
+              "count": 36,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "24-month event-free survival",
+                "timeFrame": "24 months"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2028-05-12",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-05-18",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor Memorial Sloan Kettering Cancer Center. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT07594522"
+        },
+        {
+          "id": "NCT06951646",
+          "title": "ctDNA-MRD Guided Escalation of Ivonescimab and Docetaxel in Advanced NSCLC With Long-Term Responses to First-line Immunotherapy (CR1STAL-Adaptive)",
+          "url": "https://clinicaltrials.gov/study/NCT06951646",
+          "fields": {
+            "nctId": "NCT06951646",
+            "sponsor": "Second Xiangya Hospital of Central South University",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Non Small Cell Lung Cancer",
+              "Immune Checkpoint Inhibitors (ICIs)"
+            ],
+            "interventions": [
+              "Ivonescimab",
+              "Docetaxel",
+              "Standard Treatment group"
+            ],
+            "enrollment": {
+              "count": 70,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Progression-Free Survival (PFS) in ctDNA-Positive Population",
+                "timeFrame": "3 years"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2028-07-01",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-03-09",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Second Xiangya Hospital of Central South University. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06951646"
+        },
+        {
+          "id": "NCT06820762",
+          "title": "Irinotecan Liposome(II) Combined With Ivonescimab as Second-line Treatment for Small Cell Lung Cancer : A Prospective, Single-arm, Multicenter Clinical Study",
+          "url": "https://clinicaltrials.gov/study/NCT06820762",
+          "fields": {
+            "nctId": "NCT06820762",
+            "sponsor": "The Second Affiliated Hospital of Dalian Medical University",
+            "status": "NOT_YET_RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "SCLC"
+            ],
+            "interventions": [
+              "irinotecan liposome(II) plus Ivonescimab via intravenously (IV) Q3W for 4-6 cycles, followed by Ivonescimab until disease progression or intolerable toxicity"
+            ],
+            "enrollment": {
+              "count": 40,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Progression free survival (PFS)",
+                "timeFrame": "Up to approximately 2 years"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2026-12-31",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2025-02-11",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: NOT_YET_RECRUITING; PHASE2; lead sponsor The Second Affiliated Hospital of Dalian Medical University. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06820762"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 17,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-40057343",
+        "evidence-publications-38820549",
+        "evidence-publications-38642937",
+        "evidence-publications-41125109",
+        "evidence-publications-40114411"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "40057343",
+          "title": "Ivonescimab versus pembrolizumab for PD-L1-positive non-small cell lung cancer (HARMONi-2): a randomised, double-blind, phase 3 study in China.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40057343/",
+          "summary": "Indexed citation in Lancet (London, England); publication date 2025 Mar 8. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40057343",
+            "journal": "Lancet (London, England)",
+            "publicationDate": "2025 Mar 8",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Xiong A",
+              "Wang L",
+              "Chen J",
+              "Wu L",
+              "Liu B",
+              "Yao J"
+            ],
+            "doi": "10.1016/S0140-6736(24)02722-3",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40057343%2C38820549%2C38642937%2C41125109%2C40114411&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40057343"
+        },
+        {
+          "id": "38820549",
+          "title": "Ivonescimab Plus Chemotherapy in Non-Small Cell Lung Cancer With EGFR Variant: A Randomized Clinical Trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38820549/",
+          "summary": "Indexed citation in JAMA; publication date 2024 Aug 20. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38820549",
+            "journal": "JAMA",
+            "publicationDate": "2024 Aug 20",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "HARMONi-A Study Investigators",
+              "Fang W",
+              "Zhao Y",
+              "Luo Y",
+              "Yang R",
+              "Huang Y"
+            ],
+            "doi": "10.1001/jama.2024.10613",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40057343%2C38820549%2C38642937%2C41125109%2C40114411&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38820549"
+        },
+        {
+          "id": "38642937",
+          "title": "Phase 1a dose escalation study of ivonescimab (AK112/SMT112), an anti-PD-1/VEGF-A bispecific antibody, in patients with advanced solid tumors.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38642937/",
+          "summary": "Indexed citation in Journal for immunotherapy of cancer; publication date 2024 Apr 19. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38642937",
+            "journal": "Journal for immunotherapy of cancer",
+            "publicationDate": "2024 Apr 19",
+            "electronicPublicationDate": "2024 Apr 19",
+            "publicationTypes": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Frentzas S",
+              "Austria Mislang AR",
+              "Lemech C",
+              "Nagrial A",
+              "Underhill C",
+              "Wang W"
+            ],
+            "doi": "10.1136/jitc-2023-008037",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40057343%2C38820549%2C38642937%2C41125109%2C40114411&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38642937"
+        },
+        {
+          "id": "41125109",
+          "title": "Ivonescimab plus chemotherapy versus tislelizumab plus chemotherapy as first-line treatment for advanced squamous non-small-cell lung cancer (HARMONi-6): a randomised, double-blind, phase 3 trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41125109/",
+          "summary": "Indexed citation in Lancet (London, England); publication date 2025 Nov 1. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41125109",
+            "journal": "Lancet (London, England)",
+            "publicationDate": "2025 Nov 1",
+            "electronicPublicationDate": "2025 Oct 19",
+            "publicationTypes": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "authors": [
+              "Chen Z",
+              "Yang F",
+              "Jiang Z",
+              "Sun L",
+              "Wu L",
+              "Han Z"
+            ],
+            "doi": "10.1016/S0140-6736(25)01848-3",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40057343%2C38820549%2C38642937%2C41125109%2C40114411&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41125109"
+        },
+        {
+          "id": "40114411",
+          "title": "Safety, Pharmacokinetics, and Pharmacodynamics Evaluation of Ivonescimab, a Novel Bispecific Antibody Targeting PD-1 and VEGF, in Chinese Patients With Advanced Solid Tumors.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40114411/",
+          "summary": "Indexed citation in Cancer medicine; publication date 2025 Mar. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40114411",
+            "journal": "Cancer medicine",
+            "publicationDate": "2025 Mar",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase I",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "Wang F",
+              "Wei X",
+              "Zheng Y",
+              "Wang J",
+              "Ying J",
+              "Chen X"
+            ],
+            "doi": "10.1002/cam4.70653",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40057343%2C38820549%2C38642937%2C41125109%2C40114411&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40114411"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT07516925",
+      "title": "A Study of Ivonescimab in People With Leiomyosarcoma",
+      "url": "https://clinicaltrials.gov/study/NCT07516925",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-27",
+      "retrievedAt": "2026-09-10T18:46:18.813Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Memorial Sloan Kettering Cancer Center. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06875076",
+      "title": "Multicenter Single-Arm Study of Ivonescimab (AK112) Combined with Chemotherapy in Pretreated Pleural Mesothelioma",
+      "url": "https://clinicaltrials.gov/study/NCT06875076",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2025-03-13",
+      "retrievedAt": "2026-09-10T18:46:18.813Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor The First Hospital of Jilin University. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT07594522",
+      "title": "A Study of Ivonescimab in People With Non-Small Cell Lung Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT07594522",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-18",
+      "retrievedAt": "2026-09-10T18:46:18.813Z",
+      "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor Memorial Sloan Kettering Cancer Center. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06951646",
+      "title": "ctDNA-MRD Guided Escalation of Ivonescimab and Docetaxel in Advanced NSCLC With Long-Term Responses to First-line Immunotherapy (CR1STAL-Adaptive)",
+      "url": "https://clinicaltrials.gov/study/NCT06951646",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-03-09",
+      "retrievedAt": "2026-09-10T18:46:18.813Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Second Xiangya Hospital of Central South University. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06820762",
+      "title": "Irinotecan Liposome(II) Combined With Ivonescimab as Second-line Treatment for Small Cell Lung Cancer : A Prospective, Single-arm, Multicenter Clinical Study",
+      "url": "https://clinicaltrials.gov/study/NCT06820762",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2025-02-11",
+      "retrievedAt": "2026-09-10T18:46:18.813Z",
+      "summary": "Registry protocol: NOT_YET_RECRUITING; PHASE2; lead sponsor The Second Affiliated Hospital of Dalian Medical University. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40057343",
+      "title": "Ivonescimab versus pembrolizumab for PD-L1-positive non-small cell lung cancer (HARMONi-2): a randomised, double-blind, phase 3 study in China.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40057343/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:19.228Z",
+      "summary": "Indexed citation in Lancet (London, England); publication date 2025 Mar 8. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38820549",
+      "title": "Ivonescimab Plus Chemotherapy in Non-Small Cell Lung Cancer With EGFR Variant: A Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38820549/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:19.228Z",
+      "summary": "Indexed citation in JAMA; publication date 2024 Aug 20. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38642937",
+      "title": "Phase 1a dose escalation study of ivonescimab (AK112/SMT112), an anti-PD-1/VEGF-A bispecific antibody, in patients with advanced solid tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38642937/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:19.228Z",
+      "summary": "Indexed citation in Journal for immunotherapy of cancer; publication date 2024 Apr 19. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41125109",
+      "title": "Ivonescimab plus chemotherapy versus tislelizumab plus chemotherapy as first-line treatment for advanced squamous non-small-cell lung cancer (HARMONi-6): a randomised, double-blind, phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41125109/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:19.228Z",
+      "summary": "Indexed citation in Lancet (London, England); publication date 2025 Nov 1. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40114411",
+      "title": "Safety, Pharmacokinetics, and Pharmacodynamics Evaluation of Ivonescimab, a Novel Bispecific Antibody Targeting PD-1 and VEGF, in Chinese Patients With Advanced Solid Tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40114411/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:19.228Z",
+      "summary": "Indexed citation in Cancer medicine; publication date 2025 Mar. Abstract and full text have not been assessed."
+    }
+  ]
+}

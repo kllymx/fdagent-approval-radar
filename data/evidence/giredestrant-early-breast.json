@@ -1,0 +1,331 @@
+{
+  "candidateId": "giredestrant-early-breast",
+  "generatedAt": "2026-09-10T18:56:12.598Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-trials-NCT04961996"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT04961996",
+          "title": "A Study Evaluating the Efficacy and Safety of Adjuvant Giredestrant Compared With Physician's Choice of Adjuvant Endocrine Monotherapy in Participants With Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer (lidERA Breast Cancer)",
+          "url": "https://clinicaltrials.gov/study/NCT04961996",
+          "fields": {
+            "nctId": "NCT04961996",
+            "sponsor": "Hoffmann-La Roche",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Early Breast Cancer"
+            ],
+            "interventions": [
+              "Giredestrant",
+              "Physician's Choice of Endocrine Therapy",
+              "LHRH Agonist"
+            ],
+            "enrollment": {
+              "count": 4170,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Invasive Disease-Free Survival (IDFS), Excluding Second Primary Non-Breast Cancers",
+                "timeFrame": "From randomization to first occurrence of an IDFS event (up to 10 years)"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-08-08",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-06-17",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT04961996"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 9,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-39293125",
+        "evidence-publications-38537155",
+        "evidence-publications-34251202",
+        "evidence-publications-37921755",
+        "evidence-publications-38019116"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "39293125",
+          "title": "Oral SERDs changing the scenery in hormone receptor positive breast cancer, a comprehensive review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39293125/",
+          "summary": "Indexed citation in Cancer treatment reviews; publication date 2024 Nov. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "39293125",
+            "journal": "Cancer treatment reviews",
+            "publicationDate": "2024 Nov",
+            "electronicPublicationDate": "2024 Sep 11",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Gheysen M",
+              "Punie K",
+              "Wildiers H",
+              "Neven P"
+            ],
+            "doi": "10.1016/j.ctrv.2024.102825",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39293125%2C38537155%2C34251202%2C37921755%2C38019116&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-39293125"
+        },
+        {
+          "id": "38537155",
+          "title": "Giredestrant for Estrogen Receptor-Positive, HER2-Negative, Previously Treated Advanced Breast Cancer: Results From the Randomized, Phase II acelERA Breast Cancer Study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38537155/",
+          "summary": "Indexed citation in Journal of clinical oncology : official journal of the American Society of Clinical Oncology; publication date 2024 Jun 20. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38537155",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "publicationDate": "2024 Jun 20",
+            "electronicPublicationDate": "2024 Mar 27",
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Martín M",
+              "Lim E",
+              "Chavez-MacGregor M",
+              "Bardia A",
+              "Wu J",
+              "Zhang Q"
+            ],
+            "doi": "10.1200/JCO.23.01500",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39293125%2C38537155%2C34251202%2C37921755%2C38019116&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38537155"
+        },
+        {
+          "id": "34251202",
+          "title": "GDC-9545 (Giredestrant): A Potent and Orally Bioavailable Selective Estrogen Receptor Antagonist and Degrader with an Exceptional Preclinical Profile for ER+ Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34251202/",
+          "summary": "Indexed citation in Journal of medicinal chemistry; publication date 2021 Aug 26. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "34251202",
+            "journal": "Journal of medicinal chemistry",
+            "publicationDate": "2021 Aug 26",
+            "electronicPublicationDate": "2021 Jul 12",
+            "publicationTypes": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "authors": [
+              "Liang J",
+              "Zbieg JR",
+              "Blake RA",
+              "Chang JH",
+              "Daly S",
+              "DiPasquale AG"
+            ],
+            "doi": "10.1021/acs.jmedchem.1c00847",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39293125%2C38537155%2C34251202%2C37921755%2C38019116&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-34251202"
+        },
+        {
+          "id": "37921755",
+          "title": "Phase Ia/b Study of Giredestrant ± Palbociclib and ± Luteinizing Hormone-Releasing Hormone Agonists in Estrogen Receptor-Positive, HER2-Negative, Locally Advanced/Metastatic Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37921755/",
+          "summary": "Indexed citation in Clinical cancer research : an official journal of the American Association for Cancer Research; publication date 2024 Feb 16. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "37921755",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "publicationDate": "2024 Feb 16",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "authors": [
+              "Jhaveri KL",
+              "Bellet M",
+              "Turner NC",
+              "Loi S",
+              "Bardia A",
+              "Boni V"
+            ],
+            "doi": "10.1158/1078-0432.CCR-23-1796",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39293125%2C38537155%2C34251202%2C37921755%2C38019116&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-37921755"
+        },
+        {
+          "id": "38019116",
+          "title": "Optimizing Early-stage Clinical Pharmacology Evaluation to Accelerate Clinical Development of Giredestrant in Advanced Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38019116/",
+          "summary": "Indexed citation in Cancer research communications; publication date 2023 Dec 15. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38019116",
+            "journal": "Cancer research communications",
+            "publicationDate": "2023 Dec 15",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Malhi V",
+              "Agarwal P",
+              "Gates MR",
+              "Liu L",
+              "Wang J",
+              "De Bruyn T"
+            ],
+            "doi": "10.1158/2767-9764.CRC-23-0324",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=39293125%2C38537155%2C34251202%2C37921755%2C38019116&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38019116"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04961996",
+      "title": "A Study Evaluating the Efficacy and Safety of Adjuvant Giredestrant Compared With Physician's Choice of Adjuvant Endocrine Monotherapy in Participants With Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer (lidERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT04961996",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:56:11.860Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39293125",
+      "title": "Oral SERDs changing the scenery in hormone receptor positive breast cancer, a comprehensive review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39293125/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:12.598Z",
+      "summary": "Indexed citation in Cancer treatment reviews; publication date 2024 Nov. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38537155",
+      "title": "Giredestrant for Estrogen Receptor-Positive, HER2-Negative, Previously Treated Advanced Breast Cancer: Results From the Randomized, Phase II acelERA Breast Cancer Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38537155/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:12.598Z",
+      "summary": "Indexed citation in Journal of clinical oncology : official journal of the American Society of Clinical Oncology; publication date 2024 Jun 20. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34251202",
+      "title": "GDC-9545 (Giredestrant): A Potent and Orally Bioavailable Selective Estrogen Receptor Antagonist and Degrader with an Exceptional Preclinical Profile for ER+ Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34251202/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:12.598Z",
+      "summary": "Indexed citation in Journal of medicinal chemistry; publication date 2021 Aug 26. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37921755",
+      "title": "Phase Ia/b Study of Giredestrant ± Palbociclib and ± Luteinizing Hormone-Releasing Hormone Agonists in Estrogen Receptor-Positive, HER2-Negative, Locally Advanced/Metastatic Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37921755/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:12.598Z",
+      "summary": "Indexed citation in Clinical cancer research : an official journal of the American Association for Cancer Research; publication date 2024 Feb 16. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38019116",
+      "title": "Optimizing Early-stage Clinical Pharmacology Evaluation to Accelerate Clinical Development of Giredestrant in Advanced Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38019116/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:12.598Z",
+      "summary": "Indexed citation in Cancer research communications; publication date 2023 Dec 15. Abstract and full text have not been assessed."
+    }
+  ]
+}

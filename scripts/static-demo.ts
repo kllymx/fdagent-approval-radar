@@ -6,7 +6,8 @@ import {
   readdir,
 } from "node:fs/promises";
 import { getCatalog, getModel } from "../server/data.js";
-import type { Investigation } from "../shared/schema.js";
+import type { Investigation, Source } from "../shared/schema.js";
+import { listDossiers, readDossier, publicDossier } from "../server/dossier.js";
 await mkdir("dist/demo/investigations", { recursive: true });
 const runs: Investigation[] = [];
 for (const file of (await readdir("data/investigations")).filter((f) =>
@@ -18,11 +19,48 @@ for (const file of (await readdir("data/investigations")).filter((f) =>
   await writeFile("dist/demo/investigations/" + file, JSON.stringify(run));
 }
 runs.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+const evidenceCandidateIds = await listDossiers(true);
+const evidenceSourcesByCandidate: Record<string, Source[]> = {};
+await mkdir("dist/demo/evidence", { recursive: true });
+for (const id of evidenceCandidateIds) {
+  const dossier = await readDossier(id, true);
+  if (dossier) {
+    evidenceSourcesByCandidate[id] = publicDossier(dossier).sources;
+    await writeFile(
+      `dist/demo/evidence/${id}.json`,
+      JSON.stringify(publicDossier(dossier)),
+    );
+  }
+}
+for (const run of [...runs].reverse())
+  evidenceSourcesByCandidate[run.candidateId] = [
+    ...new Map(
+      [
+        ...(evidenceSourcesByCandidate[run.candidateId] || []),
+        ...run.sources,
+      ].map((source) => [source.id, source]),
+    ).values(),
+  ];
+for (const id of evidenceCandidateIds) {
+  const dossier = await readDossier(id, true);
+  if (dossier)
+    evidenceSourcesByCandidate[id] = [
+      ...new Map(
+        [
+          ...(evidenceSourcesByCandidate[id] || []),
+          ...publicDossier(dossier).sources,
+        ].map((source) => [source.id, source]),
+      ).values(),
+    ];
+}
 const payload = {
   catalog: await getCatalog(),
   model: await getModel(),
+  evidenceCandidateIds,
+  evidenceSourcesByCandidate,
   runtime: {
     configured: false,
+    fdagent: false,
     model: "gpt-6-astra",
     provider: "OpenAI",
     status: "unconfigured",

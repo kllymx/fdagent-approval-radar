@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:42:40.505771Z",
+  "generatedAt": "2026-09-10T18:53:28.916274Z",
   "catalogAsOf": "2026-09-10",
   "scope": "all",
   "meaning": "Transport/hash checks only. Does not certify scientific accuracy or pending FDA status. A separate human/agent review is required to update catalog claims.",
@@ -567,6 +567,1556 @@
       "directError": "The read operation timed out",
       "bytes": 26988,
       "sha256": "c34bcb5d0fed7662f997f624fc42881acb0daac94d2542c14aeb27dcf2b102e8",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "prax-ulix-acceptance",
+      "url": "https://investors.praxismedicines.com/node/11326/pdf",
+      "retrievedAt": "2026-09-10T18:52:34.554455Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 5724,
+      "sha256": "e9f0024a8dab078034165f87f1dc4b2fbffbcf96e364ace250a53e860c0965cf",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "ionis-zilganersen-acceptance",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander",
+      "retrievedAt": "2026-09-10T18:52:41.655834Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 19593,
+      "sha256": "62dbf5497e333469dcec48f37223200653b94b68dd093dccb59ab656aa2b79a5",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "fda-zilganersen-approval",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+      "retrievedAt": "2026-09-10T18:52:15.896884Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 36993,
+      "sha256": "4fec7f2c557e8ab6d25ac0b05bdf9a32c69b85384fe4a87459f87b5254daa1d3",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "fda-novel-2026",
+      "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "retrievedAt": "2026-09-10T18:52:15.897033Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 41129,
+      "sha256": "b541e81b3348af93868eab54fb98196300fd07b18b9a2ba9e0a92cc663acb270",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "ionis-bepi-acceptance",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-bepirovirsen-accepted-priority",
+      "retrievedAt": "2026-09-10T18:52:41.429156Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 17666,
+      "sha256": "ee8ac9293781bcca25078c354434e793592b15c1a8c17d79e6b3dd2124674a52",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "ionis-q2-2026",
+      "url": "https://ir.ionispharma.com/news-releases/news-release-details/ionis-reports-second-quarter-2026-financial-results-and",
+      "retrievedAt": "2026-09-10T18:52:42.966054Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 39022,
+      "sha256": "1ea9a2c71b4ab0a7c7c3a85d65104a9c269b99d459661ba3fe1531496b335d18",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "mrk-ifina-acceptance",
+      "url": "https://www.merck.com/news/ifinatamab-deruxtecan-granted-priority-review-in-the-u-s-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-bas/",
+      "retrievedAt": "2026-09-10T18:52:16.168478Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.merck.com/news/ifinatamab-deruxtecan-granted-priority-review-in-the-u-s-for-adult-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-who-experienced-disease-progression-on-or-after-platinum-bas/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 124733,
+      "sha256": "1b1baaf447bb3ccd836e0697e32394bd2c3f2e60c6eca5b510607a9fd014ebf2",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "roche-atezo-acceptance",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-11",
+      "retrievedAt": "2026-09-10T18:52:16.168921Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.roche.com/media/releases/med-cor-2026-06-11",
+      "contentType": "text/html",
+      "bytes": 160015,
+      "sha256": "a10c4a8e32519ed8c282af4f41cde96b57507f9afe4edd8ce3648dc8a0831a54",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "roche-satral-acceptance",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-30",
+      "retrievedAt": "2026-09-10T18:52:16.849113Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.roche.com/media/releases/med-cor-2026-06-30",
+      "contentType": "text/html",
+      "bytes": 165668,
+      "sha256": "9ec7281c6b9f7cc6be4b3bb9d128a83b4fcad4466143c95360bad05667d08747",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "pharming-lenio-resubmission",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html",
+      "retrievedAt": "2026-09-10T18:52:42.767786Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 31059,
+      "sha256": "65f100257dd3e6eba1bb22eec2ecdf4c2e84ac8a7212edddb2153b6fa010cf20",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "ino-q2-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1055726/000105572626000024/ino-63026x8kex991.htm",
+      "retrievedAt": "2026-09-10T18:52:18.080634Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 17325,
+      "sha256": "9580b4d942e724642ab49e1d9fa2479849f3f5459be1802f9d7c3ee99cf12ac7",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "bbio-bbp418-acceptance",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301817/0/en/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9.html",
+      "retrievedAt": "2026-09-10T18:52:36.618042Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 33687,
+      "sha256": "089c79778495a66313a3623adb63c009085dd428b78d88b447e8e8941f692fca",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "bbio-q2-2026",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx",
+      "retrievedAt": "2026-09-10T18:52:35.418752Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 55306,
+      "sha256": "b0103d89ed9bfda4d56218f812747b4c8f8daa4d69d20978b241160a1d15bce0",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "cogt-gist-acceptance",
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302753/0/en/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-nda-with-priority-review-for-bezuclastinib-in-combination-with-sunitinib-for-patients-with-gist.html",
+      "retrievedAt": "2026-09-10T18:53:01.037978Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 31966,
+      "sha256": "3a359e103482157053eaa19fcd380fa267fcab7ea3ab7ba5a7d7e986f6804402",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "cogt-nonadv-acceptance",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-application",
+      "retrievedAt": "2026-09-10T18:53:02.309659Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 32594,
+      "sha256": "64323b7c2865b9e0be6d31da6c112f3293b5559015924275c990141d5b513cb2",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "roche-gired-early",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-02",
+      "retrievedAt": "2026-09-10T18:52:41.429424Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.roche.com/media/releases/med-cor-2026-06-02",
+      "contentType": "text/html",
+      "bytes": 184371,
+      "sha256": "2179571b3d6746d4a94baa77793c9eb6d7b7ce46af9a35017a0a3489c75d6f09",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "roche-gired-advanced",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "retrievedAt": "2026-09-10T18:52:41.655922Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "contentType": "text/html",
+      "bytes": 187085,
+      "sha256": "3f3a19a45dd86a3a1bff1c3567608d9f0dde7f75176ff34fa29802a277d0d760",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "roche-hy-2026",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "retrievedAt": "2026-09-10T18:52:42.229334Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "contentType": "text/html",
+      "bytes": 580045,
+      "sha256": "1a341a06f1eff485830643aabf57a965c85783029c0748391239e80cc6910a86",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "vrtx-poveta-acceptance",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application",
+      "retrievedAt": "2026-09-10T18:53:01.074032Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 19352,
+      "sha256": "e4636e71b13147881322031141edf5677ffa2e9b41c0f2511bd69a01e234bc8a",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "exel-zan-acceptance",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-us-fda-accepted-new-drug-application",
+      "retrievedAt": "2026-09-10T18:53:08.427542Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 19957,
+      "sha256": "a0f64f7c6d78e662ff374f6b7936df1c71e56a2b5d73ff4083e2f7cfe40cf9bc",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "exel-q2-2026",
+      "url": "https://ir.exelixis.com/static-files/fe809677-bfbd-42c6-8538-73244509c5b7",
+      "retrievedAt": "2026-09-10T18:53:01.623313Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 32315,
+      "sha256": "20f06547b4897de1b1f25bc9bc54b48759d3883adc7952cd5aa4e3525df3539e",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "vnda-imsi-acceptance",
+      "url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html",
+      "retrievedAt": "2026-09-10T18:52:43.084115Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 217470,
+      "sha256": "f5ea3d8a159296abc192e68e795ef967a34201f8f95966f5a8ffaa0a254dde8a",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "vnda-q2-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1347178/000162828026053308/vnda8-k852026exhibit991.htm",
+      "retrievedAt": "2026-09-10T18:52:44.021106Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 21070,
+      "sha256": "f4a5679c59f13cd6ebcb6012adb6b4730dcf4fabfbffed21cd8a604b4eb40c21",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "cort-q2-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
+      "retrievedAt": "2026-09-10T18:52:44.755730Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 19735,
+      "sha256": "ca505bae7861fb17fe3468ae3004df4b301b4d7953f85e06905797ef00cfab80",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "cort-resubmission",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941dex991.htm",
+      "retrievedAt": "2026-09-10T18:52:45.243175Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 6453,
+      "sha256": "f1dcaf40f7fb1b108ef88500628987d803b3cd8c0995408afb6b5e2e4fe4825a",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "mlys-lorund-acceptance",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for",
+      "retrievedAt": "2026-09-10T18:52:45.243442Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 54166,
+      "sha256": "e7a19f2cc0740c5023ccb2659017bb7ffa78c1aeb1745a591e009a819eb6590c",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "gild-anito-acceptance",
+      "url": "https://www.sec.gov/Archives/edgar/data/882095/000110465926018314/tm267044d1_ex99-1.htm",
+      "retrievedAt": "2026-09-10T18:52:46.101894Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 15332,
+      "sha256": "8cc54230e3a2593a0d417d3db366cb20fe3bbcf35c8d24ac01130835fb47beef",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "gild-arcellx-close",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel/default.aspx",
+      "retrievedAt": "2026-09-10T18:52:46.813813Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 21259,
+      "sha256": "3d024815c7671c96be67579c926c55fd43e55d307001f6a6a1d8a5171a284cdc",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "hansa-imli-target",
+      "url": "https://www.prnewswire.com/news-releases/pdufa-action-date-for-hansa-biopharmas-imlifidase-bla-set-for-december-19-2026-302704610.html",
+      "retrievedAt": "2026-09-10T18:52:46.813995Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.prnewswire.com/news-releases/pdufa-action-date-for-hansa-biopharmas-imlifidase-bla-set-for-december-19-2026-302704610.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 217615,
+      "sha256": "f55a248d86d54f90760017b1c680130aa09b95ecb4524592f37fe0ec68593989",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "agios-scd-acceptance",
+      "url": "https://investor.agios.com/news-releases/news-release-details/us-fda-grants-priority-review-agios-snda-mitapivat-sickle-cell",
+      "retrievedAt": "2026-09-10T18:53:13.549442Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 30400,
+      "sha256": "5370f1ffb9556ea55013d9e607003c451da027c92d59bd9eecab6275042352e0",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "mirm-q2-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000045/mirm-20260630.htm",
+      "retrievedAt": "2026-09-10T18:53:01.976387Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 566646,
+      "sha256": "bd3b0290672b7aafd12ad49b742b6db08928e76acf47c7cc005ccd200c5ce93f",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "mirm-progress",
+      "url": "https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva/default.aspx",
+      "retrievedAt": "2026-09-10T18:53:01.776933Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 26179,
+      "sha256": "13bb9af4675c8f9278ae7ac32fe2a6b9cc106201df39043076a0cdc69541bd81",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "btai-at-home-acceptance",
+      "url": "https://www.globenewswire.com/news-release/2026/04/01/3266468/0/en/bioxcel-therapeutics-announces-food-drug-administration-acceptance-of-supplemental-new-drug-application-for-use-of-igalmi-in-the-at-home-setting.html",
+      "retrievedAt": "2026-09-10T18:53:27.343348Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 33753,
+      "sha256": "e031a5c0dddbbbe35abae9a4f284528a2953c2213e8e48f82066de21a2d5204f",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-nct06087276",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06087276",
+      "retrievedAt": "2026-09-10T18:53:01.777148Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06087276",
+      "contentType": "application/json",
+      "bytes": 24594,
+      "sha256": "71b06f5b2b597052bb102caee480a5d481cad1f32baccf4179149fa855b56aee",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT06087276",
+        "lastUpdatePosted": {
+          "date": "2026-07-16",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 1000,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "TRIPLE",
+        "primaryCompletion": {
+          "date": "2025-10-10",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 3
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct04849741",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04849741",
+      "retrievedAt": "2026-09-10T18:53:01.866956Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04849741",
+      "contentType": "application/json",
+      "bytes": 13463,
+      "sha256": "26f89c1a53ca914e142b8e41551c8637d98e447334f2fa6c51146bd21aad01be",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04849741",
+        "lastUpdatePosted": {
+          "date": "2026-08-21",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 54,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "primaryCompletion": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05630807",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05630807",
+      "retrievedAt": "2026-09-10T18:53:01.938485Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05630807",
+      "contentType": "application/json",
+      "bytes": 35668,
+      "sha256": "df4d057a148527de3530891c024adf6fdf697a168b9e97d47cbb9b8c864ade0f",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05630807",
+        "lastUpdatePosted": {
+          "date": "2026-07-08",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 981,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-11-11",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05630820",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05630820",
+      "retrievedAt": "2026-09-10T18:53:01.976728Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05630820",
+      "contentType": "application/json",
+      "bytes": 35280,
+      "sha256": "9cfbfac21511e9651861ad05c2a0697f4786e707c0257d5a84bce518543bd65c",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05630820",
+        "lastUpdatePosted": {
+          "date": "2026-07-08",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 857,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-11-03",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05280470",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05280470",
+      "retrievedAt": "2026-09-10T18:53:02.043656Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05280470",
+      "contentType": "application/json",
+      "bytes": 27557,
+      "sha256": "c783d68cd815bcbd3a1aff7ff48558952f7ad9080f3cf33a78f8cf0f4ab8dff3",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05280470",
+        "lastUpdatePosted": {
+          "date": "2026-02-25",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 187,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-03-03",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct02912559",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02912559",
+      "retrievedAt": "2026-09-10T18:53:02.069059Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02912559",
+      "contentType": "application/json",
+      "bytes": 373481,
+      "sha256": "3c48d62a1f4db6d995b8b1079b6af48f2a2bbaadcfced46b92c9dffc60cfcd84",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT02912559",
+        "lastUpdatePosted": {
+          "date": "2026-08-04",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 712,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-02-04",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05987423",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05987423",
+      "retrievedAt": "2026-09-10T18:53:02.132650Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05987423",
+      "contentType": "application/json",
+      "bytes": 92386,
+      "sha256": "338ebe23e14e9267621c0e19471d17dc51302109a918050814dbd1e58a86bf9c",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05987423",
+        "lastUpdatePosted": {
+          "date": "2026-07-31",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 131,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-07-08",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct06106828",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06106828",
+      "retrievedAt": "2026-09-10T18:53:02.210348Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06106828",
+      "contentType": "application/json",
+      "bytes": 101421,
+      "sha256": "ae4e6bc119f19141b2ff9519b79a93fb5b08e0c473808d39f1c0192d51288155",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT06106828",
+        "lastUpdatePosted": {
+          "date": "2026-08-12",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 127,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-07-24",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05438407",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05438407",
+      "retrievedAt": "2026-09-10T18:53:02.309802Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05438407",
+      "contentType": "application/json",
+      "bytes": 21087,
+      "sha256": "c948d5d6266a83b68fa9ec6013f2232aefcbf61b7b59d63fe089cc77e4e0771a",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05438407",
+        "lastUpdatePosted": {
+          "date": "2026-05-06",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 15,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "NA",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2026-11-30",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 8
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct04398433",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04398433",
+      "retrievedAt": "2026-09-10T18:53:02.335669Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04398433",
+      "contentType": "application/json",
+      "bytes": 97246,
+      "sha256": "e688171c6423510bed05faa5af9870bcc54fb86a5a2bddcaff7c8782f43425c6",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04398433",
+        "lastUpdatePosted": {
+          "date": "2026-04-14",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 32,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "allocation": "NA",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2022-12-15",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05775848",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05775848",
+      "retrievedAt": "2026-09-10T18:53:02.385553Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05775848",
+      "contentType": "application/json",
+      "bytes": 14238,
+      "sha256": "336dea5d548e54b78950691d1106d10764463c1cdbe794dbe01551fce360c783",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05775848",
+        "lastUpdatePosted": {
+          "date": "2026-09-09",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 112,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2027-09",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05208047",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05208047",
+      "retrievedAt": "2026-09-10T18:53:02.398486Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05208047",
+      "contentType": "application/json",
+      "bytes": 39112,
+      "sha256": "abd19c8cc0666d3d86d2e1fe506c99f39f1251c53a48fc3e247d372a311f9d54",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05208047",
+        "lastUpdatePosted": {
+          "date": "2026-06-16",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 482,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-09-30",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 8
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05186753",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05186753",
+      "retrievedAt": "2026-09-10T18:53:02.442064Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05186753",
+      "contentType": "application/json",
+      "bytes": 21681,
+      "sha256": "c898c5ce9ffea7878b9316d966590f1de381c969a756adab94ab397d5b3fb896",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05186753",
+        "lastUpdatePosted": {
+          "date": "2026-05-22",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 237,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-05-22",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 3
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct04961996",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04961996",
+      "retrievedAt": "2026-09-10T18:53:02.477374Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04961996",
+      "contentType": "application/json",
+      "bytes": 112416,
+      "sha256": "f1d963f290e7ced73a4ddd001789de7043c830429dd4435c970ac579800bee12",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04961996",
+        "lastUpdatePosted": {
+          "date": "2026-06-17",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 4170,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-08-08",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05306340",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05306340",
+      "retrievedAt": "2026-09-10T18:53:02.496082Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05306340",
+      "contentType": "application/json",
+      "bytes": 42204,
+      "sha256": "ba171ba56f105ec43b73d4f004b45ee2c89132a6051130772507dd417bcfff17",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05306340",
+        "lastUpdatePosted": {
+          "date": "2026-06-17",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 373,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-07-16",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct06564142",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06564142",
+      "retrievedAt": "2026-09-10T18:53:02.547746Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06564142",
+      "contentType": "application/json",
+      "bytes": 50250,
+      "sha256": "fde9eee6827990c59a53023a6d867dd067f5028e7f5a4beb990ebfbada991a7c",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT06564142",
+        "lastUpdatePosted": {
+          "date": "2026-05-15",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 605,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2028-01-30",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05425940",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05425940",
+      "retrievedAt": "2026-09-10T18:53:02.593215Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05425940",
+      "contentType": "application/json",
+      "bytes": 29593,
+      "sha256": "df62f50616845af17d9b769e772331dcc84765b2f1dba587d4caa36a1c37b9ea",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05425940",
+        "lastUpdatePosted": {
+          "date": "2026-07-17",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 901,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2026-06-16",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05352893",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05352893",
+      "retrievedAt": "2026-09-10T18:53:02.602772Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05352893",
+      "contentType": "application/json",
+      "bytes": 33665,
+      "sha256": "8eee54acf6792c7e2721e6115ea64e58266ccd64de95f761f41eb98c2d0fd12f",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05352893",
+        "lastUpdatePosted": {
+          "date": "2026-03-17",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 45,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2023-08-17",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05366855",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05366855",
+      "retrievedAt": "2026-09-10T18:53:02.653281Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05366855",
+      "contentType": "application/json",
+      "bytes": 100029,
+      "sha256": "3c6d14c232a26a5715aae8dee435ff5abcc4f21d10ff3f0d0e897b97eba8199d",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05366855",
+        "lastUpdatePosted": {
+          "date": "2026-03-27",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 42,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2024-07-12",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct03697109",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03697109",
+      "retrievedAt": "2026-09-10T18:53:02.688116Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03697109",
+      "contentType": "application/json",
+      "bytes": 89322,
+      "sha256": "7e2ce208bf9e86f80b583e80b4c36baa6edd057f0971f5060781ac86a8b8cc02",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT03697109",
+        "lastUpdatePosted": {
+          "date": "2025-07-16",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 152,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "TRIPLE",
+        "primaryCompletion": {
+          "date": "2024-04-08",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct06153693",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06153693",
+      "retrievedAt": "2026-09-10T18:53:02.692756Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06153693",
+      "contentType": "application/json",
+      "bytes": 40490,
+      "sha256": "a4ac3c345d6881da8ae5efa23884aab0eda88ed871e7e63f01df1b5a39663107",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT06153693",
+        "lastUpdatePosted": {
+          "date": "2026-05-01",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 1083,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "primaryCompletion": {
+          "date": "2024-12-10",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05769608",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05769608",
+      "retrievedAt": "2026-09-10T18:53:02.850465Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05769608",
+      "contentType": "application/json",
+      "bytes": 26519,
+      "sha256": "389fd1f9a3b18dbd7242b374516216e479d2cf622d066ade84b1cbc753e60232",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05769608",
+        "lastUpdatePosted": {
+          "date": "2026-01-20",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 285,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "primaryCompletion": {
+          "date": "2025-01-15",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05396885",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05396885",
+      "retrievedAt": "2026-09-10T18:53:02.855864Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05396885",
+      "contentType": "application/json",
+      "bytes": 19240,
+      "sha256": "821cadf4ba5982740ae9b58d75e5c162a4760f6724ed0948d82d2465693a3261",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05396885",
+        "lastUpdatePosted": {
+          "date": "2026-02-11",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 136,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "allocation": "NA",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2026-12",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct04155749",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04155749",
+      "retrievedAt": "2026-09-10T18:53:02.860472Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04155749",
+      "contentType": "application/json",
+      "bytes": 7275,
+      "sha256": "23e8abc476e39f4cdf02c11739c81447ca0bed1c92e048ec081a2edf6e01d4f1",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04155749",
+        "lastUpdatePosted": {
+          "date": "2026-02-11",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 40,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE1"
+        ],
+        "allocation": "NA",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2024-10-03",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct04935177",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04935177",
+      "retrievedAt": "2026-09-10T18:53:02.939389Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04935177",
+      "contentType": "application/json",
+      "bytes": 22250,
+      "sha256": "c19498fe310a9b31c23e8e8b4f484d5ff6999ada2d8bf2ea02bf85ec6a328848",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04935177",
+        "lastUpdatePosted": {
+          "date": "2026-04-30",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 64,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-06-20",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05031780",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05031780",
+      "retrievedAt": "2026-09-10T18:53:02.943194Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05031780",
+      "contentType": "application/json",
+      "bytes": 30404,
+      "sha256": "b899854f8d00be28c5d55b327488398326b301c02d5636607bb4ee88c8b21bf7",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05031780",
+        "lastUpdatePosted": {
+          "date": "2026-06-23",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 286,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-10-30",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 4
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct07656415",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07656415",
+      "retrievedAt": "2026-09-10T18:53:02.948485Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07656415",
+      "contentType": "application/json",
+      "bytes": 14694,
+      "sha256": "0e95b2e88ed339c4a5fade27f13f4b3ac73f75009890c954334a6e5f25af9644",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT07656415",
+        "lastUpdatePosted": {
+          "date": "2026-08-04",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 159,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "primaryCompletion": {
+          "date": "2029-08",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05090891",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05090891",
+      "retrievedAt": "2026-09-10T18:53:03.030655Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05090891",
+      "contentType": "application/json",
+      "bytes": 15892,
+      "sha256": "ef2cf88e75cbd8aac8f498b51a544823075cc38f294d410712e60fffe6a8d120",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05090891",
+        "lastUpdatePosted": {
+          "date": "2026-05-22",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 98,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE2"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "DOUBLE",
+        "primaryCompletion": {
+          "date": "2027-07-30",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05658510",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05658510",
+      "retrievedAt": "2026-09-10T18:53:03.034313Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05658510",
+      "contentType": "application/json",
+      "bytes": 19978,
+      "sha256": "8697fa4cb22dddf06bda44aa5390f805fc493625ceccb7e9b434aab69082c071",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05658510",
+        "lastUpdatePosted": {
+          "date": "2026-08-07",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 452,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-08-15",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "trial-nct05680818",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05680818",
+      "retrievedAt": "2026-09-10T18:53:03.036355Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05680818",
+      "contentType": "application/json",
+      "bytes": 14474,
+      "sha256": "c7b791dd060c4158ac5d2036525515601576069e24e3cecbfb2803fcb5fe1256",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05680818",
+        "lastUpdatePosted": {
+          "date": "2026-07-29",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 67,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2025-08-22",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "mlys-q2-2026",
+      "url": "https://ir.mineralystx.com/news-events/press-releases/detail/111/mineralys-therapeutics-reports-second-quarter-2026",
+      "retrievedAt": "2026-09-10T18:53:03.110639Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://ir.mineralystx.com/news-events/press-releases/detail/111/mineralys-therapeutics-reports-second-quarter-2026",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90121,
+      "sha256": "293233da11b6f51396aa2916f901d9214b0f11c40088acb28189ed5078eca094",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false,
+      "method": "direct_https"
+    },
+    {
+      "sourceId": "cogt-q2-2026",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-recent-business-highlights-and-11",
+      "retrievedAt": "2026-09-10T18:53:21.713196Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 38830,
+      "sha256": "97530a2642c4034e99294354cadf5a4b3b33683ce5a9cb3bc78531ec5d380543",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "btai-sale-2026",
+      "url": "https://www.globenewswire.com/news-release/2026/08/28/3352588/0/en/bioxcel-therapeutics-enters-into-asset-sale-agreement-with-teva-pharmaceuticals.html",
+      "retrievedAt": "2026-09-10T18:53:28.735498Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 31651,
+      "sha256": "26d886771f122097c7f6f1a396727261a4c54a8ccbf713f9ed7ee439612ceb49",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "agios-riseup-2026",
+      "url": "https://investor.agios.com/news-releases/news-release-details/agios-showcases-rise-phase-3-results-eha-2026-plenary-session",
+      "retrievedAt": "2026-09-10T18:53:28.915983Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 29622,
+      "sha256": "6902ab67fed3a03462ee2f47f4f4f22417929e254ed6ed518902b6af642130b9",
       "looksLikeAccessChallenge": false,
       "excerptPresent": null
     }

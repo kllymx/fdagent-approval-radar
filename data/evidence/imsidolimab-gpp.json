@@ -1,0 +1,295 @@
+{
+  "candidateId": "imsidolimab-gpp",
+  "generatedAt": "2026-09-10T18:56:14.696Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-trials-NCT05352893",
+        "evidence-trials-NCT05366855"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05352893",
+          "title": "Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+          "url": "https://clinicaltrials.gov/study/NCT05352893",
+          "fields": {
+            "nctId": "NCT05352893",
+            "sponsor": "Vanda Pharmaceuticals",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Generalized Pustular Psoriasis"
+            ],
+            "interventions": [
+              "750 mg Imsidolimab",
+              "300 mg Imsidolimab",
+              "Placebo"
+            ],
+            "enrollment": {
+              "count": 45,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Patients Achieving a GPPPGA Score of 0 (Clear) or 1 (Almost Clear)",
+                "timeFrame": "Week 4"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2023-08-17",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-03-17",
+            "resultsFirstPostDate": "2026-03-17",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Vanda Pharmaceuticals. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05352893"
+        },
+        {
+          "id": "NCT05366855",
+          "title": "Study to Evaluate the Long-Term Safety and Efficacy of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+          "url": "https://clinicaltrials.gov/study/NCT05366855",
+          "fields": {
+            "nctId": "NCT05366855",
+            "sponsor": "Vanda Pharmaceuticals",
+            "status": "TERMINATED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Generalized Pustular Psoriasis"
+            ],
+            "interventions": [
+              "Double-blind 200 mg imsidolimab",
+              "Placebo",
+              "Open-label 200 mg imsidolimab",
+              "Standard of Care (SOC)",
+              "Imsidolimab 750 mg IV/200 mg SC"
+            ],
+            "enrollment": {
+              "count": 42,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Adverse Events",
+                "timeFrame": "All Adverse Events (AEs) were collected from Day 1 of 302 up to the final Safety Follow-up Visit (Week 116) regardless of seriousness or relationship to investigational product."
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2024-07-12",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-03-27",
+            "resultsFirstPostDate": "2026-03-27",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: TERMINATED; PHASE3; lead sponsor Vanda Pharmaceuticals. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05366855"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 3,
+      "returned": 3,
+      "sourceIds": [
+        "evidence-publications-33919434",
+        "evidence-publications-37120722",
+        "evidence-publications-42047557"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "33919434",
+          "title": "Exploring the Role of IL-36 Cytokines as a New Target in Psoriatic Disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33919434/",
+          "summary": "Indexed citation in International journal of molecular sciences; publication date 2021 Apr 21. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "33919434",
+            "journal": "International journal of molecular sciences",
+            "publicationDate": "2021 Apr 21",
+            "electronicPublicationDate": "2021 Apr 21",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Iznardo H",
+              "Puig L"
+            ],
+            "doi": "10.3390/ijms22094344",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33919434%2C37120722%2C42047557&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-33919434"
+        },
+        {
+          "id": "37120722",
+          "title": "Imsidolimab, an anti-interleukin-36 receptor monoclonal antibody, for the treatment of generalized pustular psoriasis: results from the phase II GALLOP trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37120722/",
+          "summary": "Indexed citation in The British journal of dermatology; publication date 2023 Jul 17. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "37120722",
+            "journal": "The British journal of dermatology",
+            "publicationDate": "2023 Jul 17",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "authors": [
+              "Warren RB",
+              "Reich A",
+              "Kaszuba A",
+              "Placek W",
+              "Griffiths CEM",
+              "Zhou J"
+            ],
+            "doi": "10.1093/bjd/ljad083",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33919434%2C37120722%2C42047557&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-37120722"
+        },
+        {
+          "id": "42047557",
+          "title": "Efficacy and Safety of Imsidolimab for Generalized Pustular Psoriasis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42047557/",
+          "summary": "Indexed citation in NEJM evidence; publication date 2026 May. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "42047557",
+            "journal": "NEJM evidence",
+            "publicationDate": "2026 May",
+            "electronicPublicationDate": "2026 Apr 28",
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "Smieszek S",
+              "Przychodzen B",
+              "Tyner C",
+              "Johnson C",
+              "Bushman M",
+              "Brzezynski J"
+            ],
+            "doi": "10.1056/EVIDoa2500272",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33919434%2C37120722%2C42047557&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-42047557"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05352893",
+      "title": "Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05352893",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-03-17",
+      "retrievedAt": "2026-09-10T18:56:13.962Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Vanda Pharmaceuticals. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05366855",
+      "title": "Study to Evaluate the Long-Term Safety and Efficacy of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05366855",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-03-27",
+      "retrievedAt": "2026-09-10T18:56:13.962Z",
+      "summary": "Registry protocol: TERMINATED; PHASE3; lead sponsor Vanda Pharmaceuticals. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-33919434",
+      "title": "Exploring the Role of IL-36 Cytokines as a New Target in Psoriatic Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33919434/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:14.695Z",
+      "summary": "Indexed citation in International journal of molecular sciences; publication date 2021 Apr 21. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37120722",
+      "title": "Imsidolimab, an anti-interleukin-36 receptor monoclonal antibody, for the treatment of generalized pustular psoriasis: results from the phase II GALLOP trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37120722/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:14.695Z",
+      "summary": "Indexed citation in The British journal of dermatology; publication date 2023 Jul 17. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42047557",
+      "title": "Efficacy and Safety of Imsidolimab for Generalized Pustular Psoriasis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047557/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:14.695Z",
+      "summary": "Indexed citation in NEJM evidence; publication date 2026 May. Abstract and full text have not been assessed."
+    }
+  ]
+}

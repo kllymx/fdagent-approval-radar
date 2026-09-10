@@ -1,0 +1,339 @@
+{
+  "candidateId": "neladalkib-alk",
+  "generatedAt": "2026-09-10T18:46:20.975Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 4,
+      "returned": 4,
+      "sourceIds": [
+        "evidence-trials-NCT05384626",
+        "evidence-trials-NCT06834074",
+        "evidence-trials-NCT06765109",
+        "evidence-trials-NCT07491497"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05384626",
+          "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+          "url": "https://clinicaltrials.gov/study/NCT05384626",
+          "fields": {
+            "nctId": "NCT05384626",
+            "sponsor": "Nuvalent Inc.",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Locally Advanced Solid Tumor",
+              "Metastatic Solid Tumor"
+            ],
+            "interventions": [
+              "Neladalkib (NVL-655)",
+              "Midazolam",
+              "Repaglinide",
+              "Itraconazole"
+            ],
+            "enrollment": {
+              "count": 840,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Dose limiting toxicities (DLTs) (Phase 1)",
+                "timeFrame": "Within the first 21 days of the first neladalkib (NVL-655) dose"
+              },
+              {
+                "measure": "Recommended Phase 2 Dose (RP2D) (Phase 1)",
+                "timeFrame": "Within 21 days of last patient dosed during escalation"
+              },
+              {
+                "measure": "Objective Response Rate (ORR) (Phase 2)",
+                "timeFrame": "2-3 years after first patient dosed."
+              },
+              {
+                "measure": "Number of participants with treatment-emergent adverse events, as assessed by CTCAE, V5.0 (Phase 1)",
+                "timeFrame": "Approximately 3 years"
+              },
+              {
+                "measure": "Area under the curve of repaglinide (Phase 2 DDI sub-study)",
+                "timeFrame": "Pre-dose and up to 24 hours post-dose"
+              },
+              {
+                "measure": "Area under the curve of midazolam (Phase 2 DDI sub-study)",
+                "timeFrame": "Pre-dose and up to 24 hours post-dose"
+              }
+            ],
+            "primaryOutcomesReturned": 6,
+            "primaryOutcomesTotal": 7,
+            "primaryCompletionDate": "2027-12",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-05-27",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05384626"
+        },
+        {
+          "id": "NCT06834074",
+          "title": "Expanded Access Program of Neladalkib (NVL-655) for Patients With Advanced ALK+ NSCLC or Other ALK+ Solid Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT06834074",
+          "fields": {
+            "nctId": "NCT06834074",
+            "sponsor": "Nuvalent Inc.",
+            "status": "AVAILABLE",
+            "phases": [],
+            "studyType": "EXPANDED_ACCESS",
+            "conditions": [
+              "Non Small Cell Lung Cancer",
+              "ALK-positive Non-small Cell Lung Cancer (NSCLC)"
+            ],
+            "interventions": [
+              "NVL-655"
+            ],
+            "enrollment": {
+              "count": null,
+              "type": null
+            },
+            "primaryOutcomes": [],
+            "primaryOutcomesReturned": 0,
+            "primaryOutcomesTotal": 0,
+            "primaryCompletionDate": null,
+            "primaryCompletionDateType": null,
+            "lastUpdatePostDate": "2026-09-04",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: AVAILABLE; phase unavailable; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06834074"
+        },
+        {
+          "id": "NCT06765109",
+          "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+          "url": "https://clinicaltrials.gov/study/NCT06765109",
+          "fields": {
+            "nctId": "NCT06765109",
+            "sponsor": "Nuvalent Inc.",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Non-small Cell Lung Cancer",
+              "Anaplastic Lymphoma Kinase-positive"
+            ],
+            "interventions": [
+              "Neladalkib (NVL-655)",
+              "Alectinib"
+            ],
+            "enrollment": {
+              "count": 450,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Progression-free survival (PFS) per blinded independent central review (BICR)",
+                "timeFrame": "Up to 5 years after first patient dosed"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2029-12",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-08-25",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE3; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06765109"
+        },
+        {
+          "id": "NCT07491497",
+          "title": "A Phase 1/2 Study of TRI-611 in ALK-Positive NSCLC",
+          "url": "https://clinicaltrials.gov/study/NCT07491497",
+          "fields": {
+            "nctId": "NCT07491497",
+            "sponsor": "TRIANA Biomedicines, Inc.",
+            "status": "RECRUITING",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "ALK-positive NSCLC",
+              "ALK-Positive Lung Cancer",
+              "ALK-positive Non-small Cell Lung Cancer"
+            ],
+            "interventions": [
+              "TRI-611"
+            ],
+            "enrollment": {
+              "count": 160,
+              "type": "ESTIMATED"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1: Treatment emergent adverse events",
+                "timeFrame": "Within 28 days of the first TRI-611 dose"
+              },
+              {
+                "measure": "Part 2: Objective response rate (ORR)",
+                "timeFrame": "Approximately 16 weeks after the last participant dosed in Part 2"
+              },
+              {
+                "measure": "Part 2: Depth of response (DofR)",
+                "timeFrame": "Approximately 16 weeks after the last participant dosed in Part 2"
+              }
+            ],
+            "primaryOutcomesReturned": 3,
+            "primaryOutcomesTotal": 3,
+            "primaryCompletionDate": "2029-05-31",
+            "primaryCompletionDateType": "ESTIMATED",
+            "lastUpdatePostDate": "2026-09-03",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor TRIANA Biomedicines, Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT07491497"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-publications-41158152"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "41158152",
+          "title": "Successful and On-going Long-Term Disease Control (>24 Months) with Gilteritinib in an ALK+ NSCLC Patient with Brain Metastasis Who Has Progressed on Multiple ALK TKIs. A Case Report and Review of Literature on Gilteritnib.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41158152/",
+          "summary": "Indexed citation in Lung Cancer (Auckland, N.Z.); publication date 2025. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41158152",
+            "journal": "Lung Cancer (Auckland, N.Z.)",
+            "publicationDate": "2025",
+            "electronicPublicationDate": "2025 Oct 22",
+            "publicationTypes": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "authors": [
+              "Ou SI",
+              "Park CJ",
+              "Arter ZL",
+              "Nagasaka M"
+            ],
+            "doi": "10.2147/LCTT.S547128",
+            "citationStatus": "258",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41158152&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41158152"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05384626",
+      "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05384626",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T18:46:20.344Z",
+      "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06834074",
+      "title": "Expanded Access Program of Neladalkib (NVL-655) for Patients With Advanced ALK+ NSCLC or Other ALK+ Solid Tumors",
+      "url": "https://clinicaltrials.gov/study/NCT06834074",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-04",
+      "retrievedAt": "2026-09-10T18:46:20.344Z",
+      "summary": "Registry protocol: AVAILABLE; phase unavailable; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06765109",
+      "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+      "url": "https://clinicaltrials.gov/study/NCT06765109",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-25",
+      "retrievedAt": "2026-09-10T18:46:20.344Z",
+      "summary": "Registry protocol: RECRUITING; PHASE3; lead sponsor Nuvalent Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT07491497",
+      "title": "A Phase 1/2 Study of TRI-611 in ALK-Positive NSCLC",
+      "url": "https://clinicaltrials.gov/study/NCT07491497",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-03",
+      "retrievedAt": "2026-09-10T18:46:20.344Z",
+      "summary": "Registry protocol: RECRUITING; PHASE1, PHASE2; lead sponsor TRIANA Biomedicines, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41158152",
+      "title": "Successful and On-going Long-Term Disease Control (>24 Months) with Gilteritinib in an ALK+ NSCLC Patient with Brain Metastasis Who Has Progressed on Multiple ALK TKIs. A Case Report and Review of Literature on Gilteritnib.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41158152/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:46:20.767Z",
+      "summary": "Indexed citation in Lung Cancer (Auckland, N.Z.); publication date 2025. Abstract and full text have not been assessed."
+    }
+  ]
+}

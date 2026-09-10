@@ -1,0 +1,327 @@
+{
+  "candidateId": "ifinatamab-deruxtecan-sclc",
+  "generatedAt": "2026-09-10T18:56:08.676Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-trials-NCT05280470"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05280470",
+          "title": "Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+          "url": "https://clinicaltrials.gov/study/NCT05280470",
+          "fields": {
+            "nctId": "NCT05280470",
+            "sponsor": "Daiichi Sankyo",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Extensive-stage Small-cell Lung Cancer"
+            ],
+            "interventions": [
+              "Ifinatamab Deruxtecan (I-DXd)"
+            ],
+            "enrollment": {
+              "count": 187,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Participants With Objective Response Rate (ORR) Based on Blinded Independent Central Review (BICR) Following Treatment With I-DXd in Participants With Pretreated ES-SCLC",
+                "timeFrame": "Up to approximately 36 months"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-03-03",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-02-25",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Daiichi Sankyo. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05280470"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 6,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-41086386",
+        "evidence-publications-40418751",
+        "evidence-publications-41055143",
+        "evidence-publications-41926962",
+        "evidence-publications-40260055"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "41086386",
+          "title": "Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell Lung Cancer: Primary Analysis of the Phase II IDeate-Lung01 Trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41086386/",
+          "summary": "Indexed citation in Journal of clinical oncology : official journal of the American Society of Clinical Oncology; publication date 2026 Feb. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41086386",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "publicationDate": "2026 Feb",
+            "electronicPublicationDate": "2025 Oct 14",
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Rudin CM",
+              "Johnson ML",
+              "Paz-Ares L",
+              "Nishio M",
+              "Hann CL",
+              "Girard N"
+            ],
+            "doi": "10.1200/JCO-25-02142",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41086386%2C40418751%2C41055143%2C41926962%2C40260055&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41086386"
+        },
+        {
+          "id": "40418751",
+          "title": "Clinical progress of B7-H3 targeted antibody drug conjugate ifinatamab deruxtecan for small-cell lung cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40418751/",
+          "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2025 Jun. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40418751",
+            "journal": "Expert opinion on investigational drugs",
+            "publicationDate": "2025 Jun",
+            "electronicPublicationDate": "2025 May 29",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Wespiser M",
+              "Gille R",
+              "Pérol M"
+            ],
+            "doi": "10.1080/13543784.2025.2512566",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41086386%2C40418751%2C41055143%2C41926962%2C40260055&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40418751"
+        },
+        {
+          "id": "41055143",
+          "title": "IDeate-Lung02: a Phase 3 study of second-line ifinatamab deruxtecan in patients with relapsed small cell lung cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41055143/",
+          "summary": "Indexed citation in Future oncology (London, England); publication date 2025 Oct. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41055143",
+            "journal": "Future oncology (London, England)",
+            "publicationDate": "2025 Oct",
+            "electronicPublicationDate": "2025 Oct 7",
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "authors": [
+              "Owonikoko TK",
+              "Byers L",
+              "Cheng Y",
+              "Hayashi H",
+              "Paz-Ares L",
+              "Pérol M"
+            ],
+            "doi": "10.1080/14796694.2025.2565995",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41086386%2C40418751%2C41055143%2C41926962%2C40260055&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41055143"
+        },
+        {
+          "id": "41926962",
+          "title": "Ifinatamab deruxtecan, a B7-H3-directed antibody-drug conjugate, in patients with advanced solid tumours (IDeate-PanTumor01): dose-escalation results from a phase 1/2 trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41926962/",
+          "summary": "Indexed citation in The Lancet. Oncology; publication date 2026 Apr. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41926962",
+            "journal": "The Lancet. Oncology",
+            "publicationDate": "2026 Apr",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Clinical Trial, Phase I",
+              "Multicenter Study",
+              "Clinical Trial, Phase II"
+            ],
+            "authors": [
+              "Johnson ML",
+              "Patel MR",
+              "Falchook GS",
+              "Koyama T",
+              "Gutierrez M",
+              "Awad MM"
+            ],
+            "doi": "10.1016/S1470-2045(25)00733-8",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41086386%2C40418751%2C41055143%2C41926962%2C40260055&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41926962"
+        },
+        {
+          "id": "40260055",
+          "title": "Antibody-Based Therapeutics in Small Cell Lung Cancer: A Narrative Review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40260055/",
+          "summary": "Indexed citation in Biologics : targets & therapy; publication date 2025. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40260055",
+            "journal": "Biologics : targets & therapy",
+            "publicationDate": "2025",
+            "electronicPublicationDate": "2025 Apr 15",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Torchia A",
+              "Ciappina G",
+              "Giammaruco M",
+              "Monteferrante I",
+              "Landi L",
+              "Cappuzzo F"
+            ],
+            "doi": "10.2147/BTT.S500460",
+            "citationStatus": "258",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41086386%2C40418751%2C41055143%2C41926962%2C40260055&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40260055"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05280470",
+      "title": "Ifinatamab Deruxtecan (I-DXd) in Subjects With Pretreated Extensive-Stage Small Cell Lung Cancer (ES-SCLC)",
+      "url": "https://clinicaltrials.gov/study/NCT05280470",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T18:56:08.255Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Daiichi Sankyo. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41086386",
+      "title": "Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell Lung Cancer: Primary Analysis of the Phase II IDeate-Lung01 Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41086386/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.676Z",
+      "summary": "Indexed citation in Journal of clinical oncology : official journal of the American Society of Clinical Oncology; publication date 2026 Feb. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40418751",
+      "title": "Clinical progress of B7-H3 targeted antibody drug conjugate ifinatamab deruxtecan for small-cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40418751/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.676Z",
+      "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2025 Jun. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41055143",
+      "title": "IDeate-Lung02: a Phase 3 study of second-line ifinatamab deruxtecan in patients with relapsed small cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41055143/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.676Z",
+      "summary": "Indexed citation in Future oncology (London, England); publication date 2025 Oct. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41926962",
+      "title": "Ifinatamab deruxtecan, a B7-H3-directed antibody-drug conjugate, in patients with advanced solid tumours (IDeate-PanTumor01): dose-escalation results from a phase 1/2 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41926962/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.676Z",
+      "summary": "Indexed citation in The Lancet. Oncology; publication date 2026 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40260055",
+      "title": "Antibody-Based Therapeutics in Small Cell Lung Cancer: A Narrative Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40260055/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:08.676Z",
+      "summary": "Indexed citation in Biologics : targets & therapy; publication date 2025. Abstract and full text have not been assessed."
+    }
+  ]
+}

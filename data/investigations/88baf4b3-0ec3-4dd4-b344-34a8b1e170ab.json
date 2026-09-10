@@ -1,0 +1,720 @@
+{
+  "summary": "Satralizumab has a credible but contested TED approval case—not two positive pivotal trials. Actual registry outcomes support reproducible anti-inflammatory activity and similar overall-population proptosis responder effects, but SatraGO-1’s weak mean-proptosis and diplopia results make “just a higher placebo response” an incomplete explanation. A September 7, 2026 primary-results publication confirms that SatraGO-1’s failed primary endpoint stopped confirmatory secondary testing and acknowledges that the trial discrepancy remains unexplained. Existing NMOSD approval provides product experience, not TED efficacy or approval.",
+  "outlook": {
+    "verdict": "Approval is plausible, with material uncertainty over efficacy sufficiency and label breadth. The public evidence does not justify treating this as a routine supplemental approval.",
+    "timing": "Roche’s June 30, 2026 disclosure reports priority review and an October 15, 2026 FDA action target. No later FDA action or revised target was verified in the retrieved material. October 15 is a review goal, not a promised approval date; additional analyses could affect timing, while an efficacy-related complete response could require further development.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline was inspected, but its approval-rate estimates concern original-application receipt cohorts, and its timing classes cover originals and resubmissions—not a matched priority sBLA cohort. It provides no validated individual approval probability for this supplement. Action timeliness and approval are separate outcomes."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "title": "The registered primary endpoint is narrower than the proposed disease-wide indication",
+      "detail": "Both trials define the primary endpoint as Week 24 proptosis reduction of at least 2 mm in the study eye, without at least 2 mm worsening in the fellow eye, in active TED. Registry primary-analysis denominators are 50/51 for SatraGO-1 and 48/49 for SatraGO-2, not total enrollments of 131 and 127. The combined active-plus-chronic-inactive population is secondary. Separately, “overall response” requires both proptosis response and at least a 2-point CAS reduction, with fellow-eye safeguards. Neither combined-population nor composite success establishes each disease subgroup or individual endpoint.",
+      "direction": "neutral",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828"
+      ]
+    },
+    {
+      "id": "F2",
+      "title": "Primary results are directionally consistent, but only one trial succeeded",
+      "detail": "SatraGO-1 reports 49.0% versus 31.2% responders; the reported stratified treatment difference is 17.9 percentage points, 95.03% CI −1.6 to 37.3, p=0.0715. SatraGO-2 reports 52.9% versus 23.4%; difference 28.9 points, CI 11.5 to 46.2, p=0.0011. Similar treated-arm response rates and overlapping intervals make a common treatment effect with sampling variability plausible; differing significance alone does not establish different underlying effects. Nevertheless, SatraGO-1 missed. The September 7 publication attributes the miss to unexpectedly high placebo response but explicitly states that no definitive explanation has been identified.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ]
+    },
+    {
+      "id": "F3",
+      "title": "There is genuine corroboration beyond the positive headline—but not a second confirmatory success",
+      "detail": "Combined-population proptosis response was 47.1% versus 25.4% in SatraGO-1 and 46.9% versus 22.2% in SatraGO-2, with reported differences of 22.1 and 24.6 points. Active-TED CAS reduction rates also favored treatment in both: 78.0% versus 54.9%, and 89.6% versus 63.3%. Composite overall response favored treatment in both. These patterns support biological activity. However, the results publication confirms fixed-sequence testing at two-sided alpha 0.0497: SatraGO-1’s primary failure stopped the sequence, making its secondary p-values nominal and descriptive. The publication also reports a prespecified pooled analysis; pooling is not independent replication.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ]
+    },
+    {
+      "id": "F4",
+      "title": "Continuous proptosis and functional outcomes challenge a simple placebo-only explanation",
+      "detail": "Active-TED adjusted mean proptosis change was −1.48 versus −1.31 mm in SatraGO-1: difference −0.17 mm, CI −0.88 to 0.53, nominal p=0.6256. SatraGO-2 showed −1.97 versus −0.96 mm: difference −1.02 mm, CI −1.67 to −0.36, reported p=0.0027. Thus, both treated and placebo means differed between trials. At least one-grade diplopia improvement among participants with baseline diplopia was 44.4% versus 34.4% in SatraGO-1, nominal p=0.3371, versus 60.7% versus 25.8% in SatraGO-2, reported p=0.0044. GO-QoL subscale responder comparisons were not statistically significant in either trial. Describing proptosis, diplopia and quality-of-life benefits as uniformly replicated would be selective.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828"
+      ]
+    },
+    {
+      "id": "F5",
+      "title": "NMOSD approval reduces product unfamiliarity, not TED evidentiary requirements",
+      "detail": "Drugs@FDA records the original Enspryng approval on August 14, 2020; the contemporaneous sponsor announcement identifies adults with AQP4-antibody-positive NMOSD. FDA’s original review describes two studies supporting relapse prevention in that disease—not proptosis improvement. The June 10, 2026 approved supplement in the supplied FDA record is classified as manufacturing/CMC, not a TED indication approval. Existing experience can inform safety and administration assessment, but neither the marketed brand nor that CMC action establishes TED approval or clearance of every requirement for this supplement.",
+      "direction": "neutral",
+      "sourceIds": [
+        "evidence-approvals-BLA761149",
+        "web-7a5cbb4c2f41",
+        "web-335b53dfc69f"
+      ]
+    },
+    {
+      "id": "F6",
+      "title": "Short-term safety is assessable; long-term TED benefit–risk remains incomplete",
+      "detail": "Week 24 registry serious-adverse-event counts were 3/67 versus 2/62 in SatraGO-1 and 2/64 versus 3/62 in SatraGO-2, with no deaths reported. In SatraGO-2, ALT increases occurred in 6/64 versus 1/62 and decreased neutrophil counts in 4/64 versus 1/62. These require severity and exposure review; they do not themselves establish an unacceptable risk. Roche reports no new safety signals, which is not FDA safety clearance. Week 48 durability and longer-term safety outcomes remain unposted in these snapshots. Part II rerandomizes responders and treats nonresponders with satralizumab, so its eventual results require treatment-sequence-specific interpretation.",
+      "direction": "unknown",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-1b98b94256a0"
+      ]
+    },
+    {
+      "id": "F7",
+      "title": "Priority review confirms a review pathway, not FDA agreement with Roche’s replication argument",
+      "detail": "Roche reports acceptance of the TED sBLA and an October 15 action target, while characterizing SatraGO-1 as additional confirmatory evidence. The September 7 primary-results publication provides a more precise statistical distinction: SatraGO-1’s secondary comparisons are descriptive after the primary miss. No retrieved FDA TED assessment establishes whether the agency accepts the overall package as sufficient, what label population it would support, or whether further clinical evidence is needed.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-1b98b94256a0",
+        "web-9da9e7d2debd"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Within-product contrast: Enspryng’s 2020 NMOSD review",
+      "relevance": "FDA described similar significant time-to-relapse benefits in two independent studies despite unsuccessful pain and fatigue secondary endpoints. This illustrates that the importance and replication of the principal clinical benefit matter more than counting every favorable endpoint.",
+      "difference": "TED has one failed primary endpoint and inconsistent continuous proptosis and diplopia effects. The NMOSD history is therefore not a precedent showing that this TED package is sufficient.",
+      "sourceIds": [
+        "web-335b53dfc69f",
+        "evidence-approvals-BLA761149"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "FDA correspondence or a public review explaining whether SatraGO-1 and the ancillary evidence sufficiently corroborate SatraGO-2, and specifying the supported TED population.",
+    "Locked protocols/SAPs and the integrated efficacy analysis: confirm prespecification, reproduce the pooled analysis, and show site-, population- and missing-data sensitivity results without outcome-driven exclusions.",
+    "Patient-level proptosis distributions, repeated measurements and fellow-eye failures that reconcile the responder advantage with SatraGO-1’s −0.17 mm mean treatment difference, alongside chronic-inactive-only estimates.",
+    "Part II durability and complete TED safety analyses by treatment sequence and dose, including laboratory-event grades, treatment interruptions, serious-event narratives and exposure-adjusted risks."
+  ],
+  "limitations": [
+    "Registry records were retrieved on September 10, 2026 and last updated July 31 and August 12; they are current snapshots, not archived proof of the original endpoint or analysis-plan chronology.",
+    "The September 7, 2026 journal pre-proof adds methods and discussion evidence within the requested as-of date. Relevant text was inspected, but the full supplements, locked SAPs and patient-level datasets were not.",
+    "The publication specifies multiple imputation under a missing-at-random assumption and intercurrent-event strategies. Their implementation and robustness were not independently reproduced; reported percentages should not be reverse-engineered into raw responder counts.",
+    "No FDA TED review correspondence or candidate-linked manufacturing assessment was inspected. Unlinked Roche Diagnostics inspection leads provide no basis for a satralizumab compliance conclusion.",
+    "The pivotal trials are placebo-controlled. They do not establish comparative efficacy or safety superiority over other TED treatments, despite sponsor differentiation claims."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Can the totality of prespecified TED evidence establish a reproducible, clinically meaningful benefit for a clearly defined label population despite SatraGO-1’s failed primary endpoint and weak continuous proptosis result?",
+    "bullCase": {
+      "claim": "SatraGO-2 is a clear primary-endpoint success. Similar treated-arm primary response rates, closely aligned combined-population responder effects, and consistent CAS/composite improvements across both studies support real activity rather than an isolated positive result. Established NMOSD experience supplies additional product and safety context.",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-335b53dfc69f"
+      ]
+    },
+    "bearCase": {
+      "claim": "The replication problem extends beyond a p-value narrowly missing a threshold: SatraGO-1 had little mean-proptosis separation and unconvincing diplopia results. Its favorable secondary p-values are nominal after the testing sequence stopped. The authors have not established why placebo response differed, and combined-population success does not prove chronic-inactive efficacy.",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do patient-level and prespecified sensitivity analyses show a stable treatment effect across sites, disease characteristics, measurement distributions and missing-data assumptions—and has FDA accepted that evidence as sufficient corroboration?",
+      "whyItMatters": "A persuasive explanation must account for both the threshold-responder and continuous-measure results without changing populations, endpoints or exclusions after seeing outcomes. Similar treated-arm percentages alone are insufficient. Robustness would strengthen an approval path; dependence on selected sites, imputation or post hoc subgroups would strengthen the case for another trial.",
+      "sourceIds": [
+        "trial-NCT05987423",
+        "trial-NCT06106828",
+        "web-9da9e7d2debd"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Approval with evidence-aligned scope",
+        "trigger": "FDA accepts SatraGO-2 plus corroborating prespecified evidence, finds sensitivity analyses persuasive, and considers TED benefit–risk acceptable.",
+        "implication": "Approval becomes supportable, potentially with a population or claims narrower than broad active-and-inactive TED positioning. Commercial assumptions should follow the actual label, not the sponsor headline.",
+        "sourceIds": [
+          "trial-NCT05987423",
+          "trial-NCT06106828",
+          "web-1b98b94256a0"
+        ]
+      },
+      {
+        "label": "Additional analysis and timing uncertainty",
+        "trigger": "FDA seeks substantial additional analyses of trial discordance, estimands, subgroup scope or safety that could be resolved without a new trial.",
+        "implication": "The action target could change. An extension would be a timing event, not a complete response or proof of eventual approval.",
+        "sourceIds": [
+          "web-1b98b94256a0",
+          "web-9da9e7d2debd"
+        ]
+      },
+      {
+        "label": "Efficacy-related setback",
+        "trigger": "FDA finds the failed primary endpoint and weak structural/functional corroboration leave insufficient evidence, or identifies an unresolved benefit–risk issue.",
+        "implication": "A complete response and additional study or analyses could defer the TED opportunity and require further funding. That would be an intermediate regulatory setback, not evidence of permanent failure.",
+        "sourceIds": [
+          "trial-NCT05987423",
+          "trial-NCT06106828",
+          "web-9da9e7d2debd"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Show FDA’s written feedback on SatraGO-1’s role, the exact proposed indication, and any request for additional efficacy evidence. What supports management’s use of “confirmatory” beyond filing acceptance?",
+        "whyItMatters": "Separates sponsor interpretation from agency agreement and identifies whether licensing milestones should depend on label scope or additional-study requirements.",
+        "sourceIds": [
+          "web-1b98b94256a0",
+          "web-9da9e7d2debd"
+        ]
+      },
+      {
+        "question": "Provide dated, locked SAPs and amendments, the complete testing hierarchy, and the prespecified pooling plan. Which claims retain multiplicity protection, and how do results change under missing-not-at-random and alternative intercurrent-event assumptions?",
+        "whyItMatters": "The publication confirms stopped testing in SatraGO-1 and multiple imputation under missing at random. The remaining issue is robustness and legitimate evidentiary weight—not whether secondary p-values exist.",
+        "sourceIds": [
+          "web-9da9e7d2debd",
+          "trial-NCT05987423",
+          "trial-NCT06106828"
+        ]
+      },
+      {
+        "question": "Show patient-level proptosis-change distributions around the 2-mm threshold, fellow-eye failures, observer/site effects, baseline severity and duration, smoking strata, rescue treatment and withdrawals. What explains −0.17 mm versus −1.02 mm mean treatment differences across trials?",
+        "whyItMatters": "Tests whether the placebo explanation accounts for the full data rather than selectively emphasizing similar treated-arm responder rates.",
+        "sourceIds": [
+          "trial-NCT05987423",
+          "trial-NCT06106828",
+          "web-9da9e7d2debd"
+        ]
+      },
+      {
+        "question": "What are the chronic-inactive-only effect estimates and confidence intervals, and what evidence supports inclusion of that population in the requested label?",
+        "whyItMatters": "The primary population was active TED; a favorable combined-population secondary endpoint can coexist with uncertain benefit in chronic inactive disease.",
+        "sourceIds": [
+          "trial-NCT05987423",
+          "trial-NCT06106828"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "id": "88baf4b3-0ec3-4dd4-b344-34a8b1e170ab",
+  "candidateId": "satralizumab-ted",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T18:50:00.727Z",
+  "mode": "investigate",
+  "question": "Assess the case for the proposed thyroid eye disease indication, reconciling the two pivotal trial outcomes, registered endpoint definitions and existing approval in a different disease. Distinguish a persuasive replication explanation from selective emphasis on a positive trial. Identify the most decision-relevant unresolved evidence, conditional approval/setback paths, and specific questions for a licensing or investment diligence meeting. Use primary sources and inspect actual registry outcomes; do not infer approval of this indication from an existing marketed product.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "roche-satral-acceptance",
+      "title": "Roche: satralizumab TED filing and discordant pivotal results",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-30",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-30",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review and an October 15 target for Enspryng in moderate-to-severe thyroid eye disease. SatraGO-2 met its proptosis-response primary endpoint (53% versus 23%). SatraGO-1 showed a numerical difference (49% versus 31%) that was not statistically significant. Existing approval in NMOSD does not establish efficacy or approval in TED."
+    },
+    {
+      "id": "roche-hy-2026",
+      "title": "Roche: half-year 2026 regulatory portfolio update",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "publisher": "Roche",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche’s half-year update lists the 2026 US filings for adjuvant giredestrant, giredestrant plus everolimus, adjuvant atezolizumab and satralizumab in TED. It supports portfolio context; individual acceptance releases supply the exact target dates and trial limitations."
+    },
+    {
+      "id": "trial-nct05987423",
+      "title": "ClinicalTrials.gov: NCT05987423 · Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05987423",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 131 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct06106828",
+      "title": "ClinicalTrials.gov: NCT06106828 · A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT06106828",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 127 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06106828",
+      "title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT06106828",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:50:01.009Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05987423",
+      "title": "Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05987423",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-09-10T18:50:01.009Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hoffmann-La Roche. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-34530847",
+      "title": "Neuromyelitis optica spectrum disorders: from pathophysiology to therapeutic strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34530847/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Journal of neuroinflammation; publication date 2021 Sep 16. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-31774956",
+      "title": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31774956/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2019 Nov 28. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32333898",
+      "title": "Safety and efficacy of satralizumab monotherapy in neuromyelitis optica spectrum disorder: a randomised, double-blind, multicentre, placebo-controlled phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32333898/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in The Lancet. Neurology; publication date 2020 May. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32797372",
+      "title": "Satralizumab: First Approval.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32797372/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Drugs; publication date 2020 Sep. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-33009077",
+      "title": "Update on neuromyelitis optica spectrum disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33009077/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.223Z",
+      "summary": "Indexed citation in Current opinion in ophthalmology; publication date 2020 Nov. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-labels-488188fd-2edc-44e0-a537-c2bd408caaa2",
+      "title": "Enspryng — submitted label",
+      "url": "https://api.fda.gov/drug/label.json?search=id%3A%22488188fd-2edc-44e0-a537-c2bd408caaa2%22&limit=1",
+      "kind": "fda",
+      "publisher": "Company-submitted SPL via FDA openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:01.550Z",
+      "summary": "Company-submitted label; effective date 2026-06-22. Approval and candidate-indication matching require separate verification."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-BLA761149",
+      "title": "ENSPRYNG — BLA761149",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22BLA761149%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.157Z",
+      "summary": "BLA761149; sponsor GENENTECH. 4 of 4 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05987423",
+      "title": "Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05987423",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-31",
+      "retrievedAt": "2026-09-10T18:50:11.618Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05987423; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT06106828",
+      "title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Satralizumab in Participants With Thyroid Eye Disease",
+      "url": "https://clinicaltrials.gov/study/NCT06106828",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T18:50:11.657Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06106828; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-1b98b94256a0",
+      "title": "FDA grants Priority Review to Roche's Enspryng, the first and only at-home ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-30",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:51:18.022Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-399ca123ddb5",
+      "title": "Press Releases | FDA GRANTS PRIORITY REVIEW TO ... - Genentech",
+      "url": "https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:15.276Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-46189f5d81e8",
+      "title": "FDA Grants Priority Review to Roche's Enspryng as First At-Home ...",
+      "url": "https://trial.medpath.com/news/fda-grants-priority-review-to-roche-s-enspryng-as-first-at-home-subcutaneous-therapy-for-thyroid-eye-disease",
+      "publisher": "trial.medpath.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:15.276Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-27e979c6fc70",
+      "title": "Roche's Enspryng given FDA Priority Review as thyroid eye disease ...",
+      "url": "https://pmlive.com/pharma_news/roches-enspryng-given-fda-priority-review-as-thyroid-eye-disease-treatment/",
+      "publisher": "pmlive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:15.276Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6f2eedbb6973",
+      "title": "ENSPRYNG® (satralizumab) | Neuromyelitis Optica Spectrum ...",
+      "url": "https://www.enspryng.com/",
+      "publisher": "www.enspryng.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:39.476Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-335b53dfc69f",
+      "title": "[PDF] 761149Orig1s000 - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000RiskR.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:39.477Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7a5cbb4c2f41",
+      "title": "Press Releases | Friday, Aug 14, 2020 - Genentech",
+      "url": "https://www.gene.com/media/press-releases/14873/2020-08-14/fda-approves-genentechs-enspryng-for-neu",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:39.478Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-61c96cdca4ed",
+      "title": "Understand how ENSPRYNG works and if you could benefit",
+      "url": "https://www.enspryng.com/about-enspryng/what-is-enspryng.html",
+      "publisher": "www.enspryng.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:39.479Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0f83ecb5142d",
+      "title": "Teprotumumab for the Treatment of Active Thyroid Eye Disease",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1910434",
+      "publisher": "www.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:58.646Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-80eaeb5a1d58",
+      "title": "THRIVE - Ophthalmology",
+      "url": "https://www.aaojournal.org/article/S0161-6420(26)00293-9/fulltext",
+      "publisher": "www.aaojournal.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:58.647Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6b207f5f93e5",
+      "title": "A graphical approach to sequentially rejective multiple test procedures",
+      "url": "https://www.researchgate.net/publication/23564256_A_graphic_approach_to_sequentially_rejective_multiple_test_procedures",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:58.648Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6db4e8cfc681",
+      "title": "[PDF] Controlled Study of Veligrotug for Active Thyroid Eye",
+      "url": "https://digitalcommons.library.tmc.edu/cgi/viewcontent.cgi?article=8254&context=baylor_docs",
+      "publisher": "digitalcommons.library.tmc.edu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:58.648Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-429f21654ba2",
+      "title": "Targeting IL-6 Receptor Signaling with Satralizumab in Thyroid Eye Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41066062/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:51:18.020Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b7608f02dbd2",
+      "title": "Targeting IL-6 Receptor Signaling with Satralizumab in Thyroid Eye Disease",
+      "url": "https://link.springer.com/article/10.1007/s40123-025-01255-3",
+      "publisher": "link.springer.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:51:18.021Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9da9e7d2debd",
+      "title": "Efficacy and Safety of Satralizumab for Thyroid Eye Disease: Week 24 ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0161642026006731",
+      "publisher": "www.sciencedirect.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:51:18.022Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 685616,
+    "outputTokens": 6334
+  },
+  "durationMs": 227613,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-satral-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05987423"
+      },
+      "status": "completed",
+      "durationMs": 84
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06106828"
+      },
+      "status": "completed",
+      "durationMs": 38
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "satralizumab SatraGO-1 SatraGO-2 thyroid eye disease FDA priority review October 15 2026 results Roche"
+      },
+      "status": "completed",
+      "durationMs": 3618
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "evidence-approvals-BLA761149"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.fda.gov Enspryng satralizumab 761149 approved NMOSD 120 mg liver enzymes neutrophils"
+      },
+      "status": "completed",
+      "durationMs": 4725
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"SatraGO\" \"multiplicity\" \"primary\" statistical analysis plan"
+      },
+      "status": "completed",
+      "durationMs": 19169
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Targeting IL-6 Receptor Signaling with Satralizumab in Thyroid Eye Disease\" \"SatraGO\""
+      },
+      "status": "completed",
+      "durationMs": 8670
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-9da9e7d2debd",
+        "query": "Statistical Analysis"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-9da9e7d2debd",
+        "query": "imputation"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-9da9e7d2debd",
+        "query": "placebo response"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T18:59:10.860Z",
+    "originalSha256": "3d858765106e52b38cb10246cb9b3bfd43cf2192187e5c2e251883ec7ebeebe7",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

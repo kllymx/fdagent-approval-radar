@@ -10,11 +10,19 @@ The apitegromab investigation started with a manufacturing-related CRL and a dis
 
 That is an inspectable sequence: **initial thesis → new evidence → explicit revision → remaining diligence questions.** It offers a concrete way to test value with analysts: compare their existing workflow with a reviewable evidence packet and measure time to a defensible answer, missed material evidence, citation errors and whether the output changes their next diligence question.
 
+## What the expanded prototype makes useful
+
+The overview covers 33 drug–indication episodes, with source and company filters. Every candidate has a recorded scan across four public database families; the evidence map retains scope and missingness. This makes the workflow usable across a watchlist rather than only two demonstration assets.
+
+The new decision brief is structured around an actual decision: the pivotal assumption, the strongest competing interpretations, evidence that would distinguish them, conditional paths and specific diligence questions. Satralizumab demonstrates clinical interpretation across two studies and a testing hierarchy. Apitegromab demonstrates product–facility and inspection-scope reasoning through the existing FDAgent MCP installation. The latter challenge correctly keeps its outlook unchanged. Export carries these details and citations into an analyst's existing workflow.
+
+The value proposition is reducing the work between a disclosure and an accountable diligence question. Source aggregation alone is replaceable. The harder behavior is preserving population, endpoint, timing and authority distinctions while showing exactly what changed. These examples demonstrate that behavior on selected cases; customer interviews and observed workflows must establish whether it is sufficiently reliable and valuable to buy.
+
 ## Why the model belongs in the product
 
 Astra reads and reconciles messy documents; a separate reproducible statistical model supplies historical context. Keeping those functions distinct makes disagreements visible and avoids presenting prose confidence as a calibrated forecast. The current baseline is deliberately limited to reported cohort outcomes. A future individual model requires much better application-cycle data and prospective validation.
 
-The durable product opportunity would be a maintained, dated history of drug–indication–application–facility relationships and thesis changes. Each link needs provenance and review. The hackathon prototype demonstrates parts of this workflow; it does not yet have a comprehensive coverage universe, automated change alerts, analyst collaboration or validated candidate probabilities.
+The durable product opportunity would be a maintained, dated history of drug–indication–application–facility relationships and thesis changes. Each link needs provenance and review. The hackathon prototype implements source discovery, cited decision briefs and explicit challenge comparisons. The next useful expansion would be a maintained application-cycle dataset and source-change detection that proposes a new investigation when a material disclosure appears. Automated alerts, analyst collaboration, comprehensive coverage and validated candidate probabilities remain future work.
 
 ## Next customer experiment
 

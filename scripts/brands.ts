@@ -58,8 +58,9 @@ async function extract(company: (typeof sites.companies)[number]) {
         error: (e as Error).message,
       }))
     : null;
-  const icon = iconUrl
-    ? await asset(iconUrl, company.id + "-icon").catch((e) => ({
+  const selectedIcon = iconUrl || logoUrl;
+  const icon = selectedIcon
+    ? await asset(selectedIcon, company.id + "-icon").catch((e) => ({
         error: (e as Error).message,
       }))
     : null;
@@ -67,7 +68,12 @@ async function extract(company: (typeof sites.companies)[number]) {
     throw Error(
       `Could not retrieve both brand assets for ${company.id}; existing manifest retained.`,
     );
-  const background = ["scholar-rock", "praxis", "nuvalent"].includes(company.id)
+  const background = [
+    "scholar-rock",
+    "praxis",
+    "nuvalent",
+    "mineralys",
+  ].includes(company.id)
     ? "dark"
     : "light";
   console.log(
@@ -81,10 +87,16 @@ async function extract(company: (typeof sites.companies)[number]) {
     ...company,
     logoUrl: logoUrl?.startsWith("data:") ? null : logoUrl,
     iconUrl,
+    iconAssetSource: iconUrl
+      ? "Official favicon returned by Firecrawl branding"
+      : "Official logo reused as compact mark; no favicon returned by Firecrawl branding",
     assetPath: logo && "path" in logo ? logo.path : null,
     iconPath: icon && "path" in icon ? icon.path : null,
     background,
-    displayKind: company.id === "gsk" || !logoUrl ? "symbol" : "wordmark",
+    displayKind:
+      ["gsk", "corcept", "exelixis"].includes(company.id) || !logoUrl
+        ? "symbol"
+        : "wordmark",
     retrievedAt: new Date().toISOString(),
     method: "firecrawl-branding",
     sourcePage,

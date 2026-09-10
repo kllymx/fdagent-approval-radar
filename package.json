@@ -19,9 +19,11 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "evaluate": "tsx scripts/evaluate.ts",
     "build:demo": "VITE_STATIC_DEMO=true vite build && tsx scripts/static-demo.ts",
-    "brands": "tsx scripts/brands.ts"
+    "brands": "tsx scripts/brands.ts",
+    "evidence": "tsx scripts/evidence.ts"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "@vitejs/plugin-react": "^5.1.2",
     "dotenv": "^17.2.3",
     "lucide-react": "^0.562.0",

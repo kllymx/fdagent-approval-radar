@@ -1,0 +1,856 @@
+{
+  "summary": "No—the May 30, 2025 NAI record does not remove the manufacturing concern or justify a material approval-confidence upgrade. The exact-FEI FDAgent lookup identifies Bioresearch Monitoring at Scholar Rock, not a CGMP inspection of its fill-finish manufacturer. The record lacks an original FDA document and remains a research lead. The prior constructive-but-conditional outlook stands: the replacement pathway substantially mitigates Catalent dependence, but FDA’s acceptance of the apitegromab-specific manufacturing package remains the decisive unresolved fact.",
+  "outlook": {
+    "verdict": "Constructive but conditional; no material upgrade from the Scholar Rock BIMO record.",
+    "timing": "Scholar Rock’s August 21, 2026 disclosure retains September 30, 2026 as the PDUFA action target. The September 10 searches did not establish a subsequent approval, extension or new CRL. Approval by the target remains plausible if the replacement-site and remaining application assessments conclude favorably. September 30 is not a promised approval date; additional review or another complete response remains possible, with no grounded fallback approval date.",
+    "probability": null,
+    "probabilityBasis": "The historical model’s original-application first-cycle approval rates do not apply to this BLA resubmission. Its Class 2 resubmission timing cohort contains 395 on-time and 25 overdue actions, but the reviewed candidate disclosures do not explicitly establish that classification. Those counts concern action against the applicable, potentially revised goal—not approval. They do not validate an individual approval probability."
+  },
+  "findings": [
+    {
+      "id": "bimo-not-cgmp",
+      "title": "BIMO NAI addresses a different regulatory question",
+      "detail": "FDA describes BIMO as oversight of research conduct, data integrity and participant protection; NAI means No Action Indicated within the inspected scope. Even if the reported May 30 record is confirmed, a BIMO NAI would not establish fill-finish CGMP compliance or acceptance of a manufacturing package. If its scope were documented to include SAPPHIRE, it could provide limited additional support for research compliance—not proof of efficacy or manufacturing clearance. The FDA sources cited here establish program scope and terminology, not the individual Scholar Rock inspection.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-4b8e790e7831",
+        "web-2729c484bf0b",
+        "crl-cc3076873829"
+      ]
+    },
+    {
+      "id": "original-crl",
+      "title": "The original FDA letter establishes a distinct CGMP obstacle",
+      "detail": "FDA’s September 22, 2025 CRL for BLA 761463 explicitly identifies CGMP deficiencies at an application-listed facility. It requires satisfactory responses dependent on FDA’s compliance determination, potentially reinspection, and possibly a subsequent pre-license inspection. The facility name is redacted; Scholar Rock’s September 23 disclosure links the setback to Catalent Indiana. The letter also requests labeling and safety updates and describes a conditional pregnancy-safety study requirement; those provisions are neither a newly demonstrated safety signal nor evidence that every nonmanufacturing review issue was finally closed.",
+      "direction": "concern",
+      "sourceIds": [
+        "crl-cc3076873829",
+        "srrk-crl-2025"
+      ]
+    },
+    {
+      "id": "distinct-manufacturing-facility",
+      "title": "Catalent’s original Form 483 concerns another FEI and another inspection",
+      "detail": "The April 13–24, 2026 Form 483 identifies Catalent Indiana, 1300 S Patterson Drive, Bloomington, FEI 3005949964, as a sterile drug manufacturer. It documents investigation, particulate-inspection, aseptic-process and other control observations. This later document is not the inspection underlying the 2025 CRL. Product identities are redacted, so it does not establish affected apitegromab lots. The Form 483 is not a final agency determination; the subsequent OAI classification and candidate linkage come from Scholar Rock’s August disclosure. Neither document establishes a defect at the replacement site.",
+      "direction": "concern",
+      "sourceIds": [
+        "fda-catalent-483-2026",
+        "web-5d0074cc8b8b",
+        "crl-cc3076873829"
+      ]
+    },
+    {
+      "id": "replacement-pathway-support",
+      "title": "The strongest positive evidence remains the operational replacement pathway",
+      "detail": "Scholar Rock reports that the second site was included in the March 2026 resubmission, the Type C meeting-agreed data package was submitted ahead of schedule, and commercial vials were already at a third-party provider awaiting packaging and labeling. It describes an established U.S. manufacturer with recent successful FDA and EMA inspections. On August 21, the company confirmed Catalent’s removal from the BLA under FDA guidance. These disclosures support substantial mitigation—not merely reserved capacity—but were already incorporated into the prior assessment. The Cambridge BIMO record does not independently verify these replacement-site inspection claims.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-5d0074cc8b8b",
+        "web-7205ad5dab2e"
+      ]
+    },
+    {
+      "id": "remaining-acceptance",
+      "title": "Product-specific FDA acceptance remains unknown, not demonstrably deficient",
+      "detail": "The August disclosures describe review as progressing, not completed. They do not name the replacement facility, disclose its inspection dates and scope, or establish FDA’s final acceptance of its apitegromab manufacturing package. Available inventory and successful site inspections therefore remain distinct from application-level acceptance. The same August 21 release reports European MAA withdrawal and planned resubmission with the alternative site, illustrating that favorable inspection history can coexist with unfinished application changes. That European action is not a U.S. CRL or evidence of replacement-site failure.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-5d0074cc8b8b",
+        "web-7205ad5dab2e"
+      ]
+    },
+    {
+      "id": "clinical-foundation",
+      "title": "SAPPHIRE supports the clinical foundation, within its actual analysis",
+      "detail": "The current registry confirms a randomized, masked trial with 188 participants receiving background nusinersen or risdiplam; ages 2–12 constituted the main efficacy population and ages 13–21 an exploratory population. No results are posted in the registry. Separately, Scholar Rock reported a prespecified combined-dose HFMSE advantage of 1.8 points at week 52 versus placebo (p=0.0192), while 20 mg/kg alone showed a nonsignificant 1.4-point difference (p=0.1149). This supports the clinical case without proving efficacy at every dose or across the entire proposed population, and does not resolve manufacturing acceptability.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05156320",
+        "srrk-sapphire"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "FDA correspondence or an explicit, attributable sponsor disclosure confirming acceptance of the replacement site’s apitegromab-specific manufacturing package, including completion of any required facility assessment.",
+    "The replacement facility’s exact name and FEI, paired with inspection dates, program, scope and original FDA classification documentation—not the Scholar Rock Cambridge BIMO record.",
+    "The FDA action letter or a dated sponsor disclosure of approval, an extension or another CRL around the reported September 30 target."
+  ],
+  "limitations": [
+    "The September 10 exact-FEI connector lookup returned Scholar Rock, 301 Binney Street, Suite 3, Cambridge, FEI 3024553539; inspection end date May 30, 2025; program Bioresearch Monitoring; classification NAI; and no Form 483. It supplied no original FDA document URL. Public searches did not independently verify that inspection’s underlying report, classification correspondence or product/study scope. These fields remain a lead, not a citable manufacturing finding.",
+    "Zero warning letters or compliance actions in that connector result do not establish a complete clean history, and no link from FEI 3024553539 to commercial apitegromab fill-finish operations was established.",
+    "Replacement-site inspections, inventory and completed Catalent removal remain sponsor-attributed. The site’s identity and FDA’s product-specific assessment are not publicly established in the reviewed sources.",
+    "The CRL contains redactions, and the Catalent Form 483 redacts products and lots. The Form 483’s issuance date is not its verified public posting date.",
+    "Clinical estimates rely on the supplied sponsor results disclosure; the retrieved registry contains protocol information but no posted results. Indexed publication metadata was not treated as full-paper evidence.",
+    "This is a current investigation as of September 10, 2026. August 21 evidence was already included in the supplied prior report; re-retrieving it is corroboration, not a new regulatory event."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Has FDA accepted the replacement facility’s apitegromab-specific manufacturing package for BLA 761463, including completion of any required facility assessment?",
+    "bullCase": {
+      "claim": "The replacement pathway is operational and advanced: it was included in the resubmission, the agreed package was submitted early, commercial vials exist, and Catalent has been removed under FDA guidance. Together with the positive combined-dose SAPPHIRE result, this supports a constructive outlook without requiring Catalent remediation.",
+      "sourceIds": [
+        "web-5d0074cc8b8b",
+        "web-7205ad5dab2e",
+        "srrk-sapphire"
+      ]
+    },
+    "bearCase": {
+      "claim": "The prior FDA obstacle was explicitly CGMP-related. Sponsor-reported inspection success and inventory do not establish acceptance of the replacement site’s apitegromab package, and a separate BIMO NAI cannot answer that question. An unresolved application-specific manufacturing requirement could still prevent approval in this cycle.",
+      "sourceIds": [
+        "crl-cc3076873829",
+        "web-4b8e790e7831",
+        "web-7205ad5dab2e"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Is there documented FDA acceptance of the replacement site and its apitegromab manufacturing package, rather than only agreement on what to submit?",
+      "whyItMatters": "This single fact would distinguish an advanced but unfinished manufacturing pathway from one whose principal manufacturing uncertainty has been resolved. Another generic NAI record or inventory update would be substantially less informative.",
+      "sourceIds": [
+        "crl-cc3076873829",
+        "web-5d0074cc8b8b",
+        "web-7205ad5dab2e"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Replacement package accepted",
+        "trigger": "FDA acceptance of the apitegromab-specific replacement package and completion of required facility assessments are documented.",
+        "implication": "A material manufacturing-confidence upgrade would be justified; approval at the reported target becomes more credible, subject to remaining application review.",
+        "sourceIds": [
+          "crl-cc3076873829",
+          "web-7205ad5dab2e"
+        ]
+      },
+      {
+        "label": "Only general inspection and inventory reassurance",
+        "trigger": "Further disclosures repeat site compliance history, BIMO NAI or available supply without confirming product-specific acceptance.",
+        "implication": "Retain the current constructive-but-conditional outlook; do not count these statements as closure of the manufacturing question.",
+        "sourceIds": [
+          "web-4b8e790e7831",
+          "web-5d0074cc8b8b"
+        ]
+      },
+      {
+        "label": "Additional manufacturing work required",
+        "trigger": "FDA or Scholar Rock discloses an unresolved replacement-package deficiency, additional required inspection or data request that cannot be completed in the current review.",
+        "implication": "Near-term confidence would weaken. The actual FDA communication would determine whether the consequence is an extension or another complete response; no fallback approval date is established.",
+        "sourceIds": [
+          "crl-cc3076873829",
+          "web-7205ad5dab2e"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What is the replacement manufacturer’s exact FEI, and did the cited successful FDA inspection cover the apitegromab fill-finish operation or a different scope?",
+        "whyItMatters": "This enables facility-specific verification and prevents substitution of the sponsor’s Cambridge BIMO inspection for manufacturing evidence.",
+        "sourceIds": [
+          "web-5d0074cc8b8b",
+          "web-4b8e790e7831"
+        ]
+      },
+      {
+        "question": "Has FDA communicated that the March Type C package and required facility assessments are acceptable, or are any apitegromab-specific quality requests still outstanding?",
+        "whyItMatters": "Agreement on submission content is already disclosed. Acceptance—not submission—is the unresolved fact with the greatest impact on the diligence thesis.",
+        "sourceIds": [
+          "web-5d0074cc8b8b",
+          "crl-cc3076873829"
+        ]
+      },
+      {
+        "question": "Are the existing replacement-site vials eligible for commercial release under the proposed BLA, and what remains beyond packaging and labeling?",
+        "whyItMatters": "The disclosed inventory supports execution progress but does not by itself establish regulatory release eligibility or immediate launch readiness.",
+        "sourceIds": [
+          "web-5d0074cc8b8b",
+          "web-7205ad5dab2e"
+        ]
+      }
+    ]
+  },
+  "changes": {
+    "disposition": "unchanged",
+    "summary": "The new exact-FEI lookup clarifies inspection scope but does not change the prior outlook. The earlier report already credited replacement-site inspections, inventory and completed Catalent removal; it did not mistake the Cambridge BIMO record for manufacturing clearance.",
+    "items": [
+      {
+        "previousClaim": "“Successful inspections deserve meaningful positive weight,” referring to the sponsor-described replacement facility.",
+        "currentClaim": "Those replacement-site disclosures retain positive weight. The separately identified Scholar Rock BIMO record does not independently corroborate them or establish CGMP acceptance.",
+        "reason": "New connector scope information and FDA program documentation distinguish two different evidence categories; this is not a correction of a manufacturing-clearance claim made by the prior report.",
+        "sourceIds": [
+          "web-4b8e790e7831",
+          "web-2729c484bf0b",
+          "web-5d0074cc8b8b"
+        ]
+      },
+      {
+        "previousClaim": "“Manufacturing risk is substantially mitigated, while FDA acceptance of the apitegromab-specific replacement pathway remains unconfirmed publicly.”",
+        "currentClaim": "Substantial mitigation remains supported, and product-specific FDA acceptance remains the pivotal unresolved fact—not an identified replacement-site defect.",
+        "reason": "The original CRL and current sponsor disclosures continue to support that distinction. No reviewed evidence establishes closure of the replacement-package assessment.",
+        "sourceIds": [
+          "crl-cc3076873829",
+          "web-5d0074cc8b8b",
+          "web-7205ad5dab2e"
+        ]
+      },
+      {
+        "previousClaim": "The August 21 sponsor update reported that Catalent’s removal from the BLA was completed.",
+        "currentClaim": "Completed removal and the September 30 action target are reaffirmed by the retrieved August 21 release.",
+        "reason": "Independent retrieval of an already-incorporated dated disclosure; no new event or additional confidence increment is claimed.",
+        "sourceIds": [
+          "web-7205ad5dab2e"
+        ]
+      }
+    ]
+  },
+  "id": "fd8efe13-d17e-47d4-8245-867f37157055",
+  "candidateId": "apitegromab-sma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T18:40:38.241Z",
+  "mode": "challenge",
+  "question": "FDAgent inspection data returns a May 30, 2025 NAI inspection for Scholar Rock at FEI 3024553539. Does that remove the manufacturing concern or support a more confident approval outlook? Test that interpretation against the actual inspection program, original FDA letter, current sponsor disclosures, trial evidence and prior assessment. Use the FDAgent connector for the exact facility, reconcile what each source can and cannot establish, and identify the single unresolved fact that would most change the diligence thesis.",
+  "status": "completed",
+  "provenance": "recorded",
+  "previousRunId": "d293d1fd-2e27-4a09-93d6-8666ad6911e3",
+  "previousOutlook": {
+    "verdict": "Constructive, with an advanced replacement-site pathway—not a demonstrated ongoing defect at the replacement facility, but not yet publicly confirmed FDA manufacturing acceptance.",
+    "timing": "Scholar Rock’s newly located August 21 update retains September 30, 2026 as the PDUFA action target. Approval by that target remains plausible if the remaining application and facility assessments conclude favorably. The September 10 searches did not establish a subsequent FDA approval, extension or new CRL. September 30 is an action target, not an approval commitment; an extension or another complete response remains possible, with no grounded fallback approval date."
+  },
+  "sources": [
+    {
+      "id": "srrk-crl-2025",
+      "title": "Scholar Rock: apitegromab complete response",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/fda-issues-complete-response-letter-crl-apitegromab-treatment/",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2025-09-23",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Scholar Rock reported a complete response letter tied to observations from an inspection at Catalent Indiana, its third-party fill-finish site. This historical setback belongs to apitegromab, not a general company-wide risk assumption."
+    },
+    {
+      "id": "srrk-facility-2026",
+      "title": "Scholar Rock: second fill-finish facility pathway",
+      "url": "https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Scholar Rock reported Catalent Indiana received an OAI inspection classification. It will remove that site from the apitegromab BLA under FDA guidance. Review proceeds with a second facility and the September 30 target remains. The sponsor says the alternative site package was submitted and commercial vials are available.",
+      "excerpt": "FDA review of second fill-finish facility progressing"
+    },
+    {
+      "id": "fda-catalent-483-2026",
+      "title": "FDA: Catalent Indiana inspection observations",
+      "url": "https://www.fda.gov/media/193455/download",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "fda",
+      "summary": "FDA Form 483 issued April 24, 2026 after an April 13–24 inspection at Catalent Indiana, Bloomington, FEI 3005949964. Observations include investigation, visual-inspection, aseptic-process and sampling controls. Product details are redacted. The document does not establish that observations concern apitegromab lots, and a Form 483 is not a final agency determination. Exact public posting date was not established."
+    },
+    {
+      "id": "srrk-sapphire",
+      "title": "Scholar Rock: SAPPHIRE clinical results",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-presents-new-phase-3-sapphire-data-2025-muscular/",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2025-03-16",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "The sponsor reported a 1.8-point HFMSE difference at week 52 for combined apitegromab doses versus placebo, both with standard care (p=0.0192). The 20 mg/kg group alone had a 1.4-point difference (p=0.1149). The distinction between the prespecified combined analysis and individual doses matters."
+    },
+    {
+      "id": "trial-sapphire",
+      "title": "ClinicalTrials.gov: SAPPHIRE",
+      "url": "https://clinicaltrials.gov/study/NCT05156320",
+      "publisher": "ClinicalTrials.gov / Scholar Rock",
+      "publishedAt": "2026-01-22",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry describes a randomized, masked phase 3 trial in later-onset SMA on nusinersen or risdiplam, with actual enrollment of 188. The main efficacy outcome is HFMSE total-score change. Primary completion was December 18, 2024. No results are currently posted in the registry."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "web-5d0074cc8b8b",
+      "title": "Scholar Rock Announces FDA Review of Apitegromab Biologics License ...",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T18:40:52.609Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-683fb379158f",
+      "title": "Scholar Rock Announces FDA Review of Apitegromab Biologics License ...",
+      "url": "https://www.drugs.com/nda/apitegromab_260807.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:40:52.610Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-62c98d99edad",
+      "title": "FDA review of apitegromab for SMA continues, minus one facility",
+      "url": "https://www.contemporarypediatrics.com/view/apitegromab-bla-review-sma-single-fill-finish-facility",
+      "publisher": "www.contemporarypediatrics.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:13.796Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-22ececfb647b",
+      "title": "Scholar Rock Provides Update on Timing of Committee for Medicinal ...",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-provides-update-timing-committee-medicinal-products",
+      "publisher": "investors.scholarrock.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:40:52.609Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-cc3076873829",
+      "title": "FDA complete response: Scholar Rock, Inc. — 09/22/2025",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=6&search=company_name%3A%22Scholar+Rock%22+AND+letter_date%3A%2209%2F22%2F2025%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:14.228Z",
+      "kind": "fda",
+      "summary": "Letter dated 09/22/2025. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-4f3a0c4ed6ba",
+      "title": "Regeneron Provides Update on Biologics License Application for ...",
+      "url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-provides-update-biologics-license-application-0",
+      "publisher": "Regeneron",
+      "publishedAt": "2024-08-20",
+      "retrievedAt": "2026-09-10T17:52:20.598Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6a17b0b1ce27",
+      "title": "Linvoseltamab BLA Accepted for FDA Review for the Treatment of ...",
+      "url": "https://investor.regeneron.com/news-releases/news-release-details/linvoseltamab-bla-accepted-fda-review-treatment",
+      "publisher": "Regeneron",
+      "publishedAt": "2025-02-11",
+      "retrievedAt": "2026-09-10T17:52:20.599Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-dbba7662e728",
+      "title": "FDA Issues CRL for Linvoseltamab in R/R Multiple Myeloma - AJMC",
+      "url": "https://www.ajmc.com/view/fda-issues-crl-for-linvoseltamab-in-r-r-multiple-myeloma",
+      "publisher": "www.ajmc.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:20.599Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5e237e1ac701",
+      "title": "FDA Denies Approval of Regeneron's Linvoseltamab for ... - BioSpace",
+      "url": "https://www.biospace.com/fda/fda-denies-approval-of-regenerons-linvoseltamab-for-multiple-myeloma-cites-third-party-manufacturing-issues",
+      "publisher": "www.biospace.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:20.600Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-20922be08c90",
+      "title": "FDA grants accelerated approval to linvoseltamab-gcpt for relapsed or",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-linvoseltamab-gcpt-relapsed-or-refractory-multiple-myeloma",
+      "publisher": "FDA",
+      "publishedAt": "2025-07-02",
+      "retrievedAt": "2026-09-10T17:52:42.189Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e1ddef9238e0",
+      "title": "FDA Approves Linvoseltamab for Relapsed/Refractory Multiple ...",
+      "url": "https://www.onclive.com/view/fda-approves-linvoseltamab-for-relapsed-refractory-multiple-myeloma",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:42.189Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-311fce328797",
+      "title": "Linvoseltamab Gains FDA Accelerated Approval In R/R Myeloma",
+      "url": "https://www.oncnursingnews.com/view/linvoseltamab-gains-fda-accelerated-approval-in-r-r-myeloma",
+      "publisher": "www.oncnursingnews.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:42.189Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f16979dd74c3",
+      "title": "Lynozyfic (linvoseltamab-gcpt) FDA Approval History - Drugs.com",
+      "url": "https://www.drugs.com/history/lynozyfic.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:42.190Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2ba4f73a2d0d",
+      "title": "Scholar Rock Announces FDA Review of Apitegromab Biologics License ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/scholar-rock-announces-fda-review-202000956.html",
+      "publisher": "finance.yahoo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:48.473Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c435ffa45e30",
+      "title": "Scholar Rock Provides Update on Global Apitegromab Regulatory ...",
+      "url": "https://www.businesswire.com/news/home/20260821050366/en/Scholar-Rock-Provides-Update-on-Global-Apitegromab-Regulatory-Progress-Across-U.S.-Europe-and-Japan",
+      "publisher": "Scholar Rock (via Business Wire)",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T17:52:48.474Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ea8c9b4bb889",
+      "title": "Failed Inspection Delays EU Timeline For SMA Drug Apitegromab As US ...",
+      "url": "https://insights.citeline.com/pink-sheet/product-reviews/eu-chmp/failed-inspection-delays-eu-timeline-for-sma-drug-apitegromab-as-us-fda-decision-nears-GARJEBFPEZBPNAJ6TVDYDTKH6E/",
+      "publisher": "insights.citeline.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:52:48.474Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "trial-NCT05156320",
+      "title": "Efficacy and Safety of Apitegromab in Patients With Later-Onset Spinal Muscular Atrophy Treated With Nusinersen or Risdiplam",
+      "url": "https://clinicaltrials.gov/study/NCT05156320",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-01-22",
+      "retrievedAt": "2026-09-10T18:40:52.684Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05156320; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "evidence-trials-NCT06877689",
+      "title": "EAP of Apitegromab for Patients With Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT06877689",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: NO_LONGER_AVAILABLE; phase unavailable; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "evidence-trials-NCT07047144",
+      "title": "A Study to Evaluate How Apitegromab Works in Subjects Who Are Less Than 2 Years Old and Have Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT07047144",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "evidence-trials-NCT03921528",
+      "title": "An Active Treatment Study of SRK-015 in Patients With Type 2 or Type 3 Spinal Muscular Atrophy",
+      "url": "https://clinicaltrials.gov/study/NCT03921528",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2024-12-02",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "evidence-trials-NCT07435129",
+      "title": "Phase 2 Study Evaluating Apitegromab for the Treatment of FSHD",
+      "url": "https://clinicaltrials.gov/study/NCT07435129",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-02",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: RECRUITING; PHASE2; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "evidence-trials-NCT05626855",
+      "title": "Long-Term Safety & Efficacy of Apitegromab in Patients With SMA Who Completed Previous Trials of Apitegromab",
+      "url": "https://clinicaltrials.gov/study/NCT05626855",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-09-01",
+      "retrievedAt": "2026-09-10T18:39:25.709Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Scholar Rock, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "evidence-publications-40818473",
+      "title": "Safety and efficacy of apitegromab in nonambulatory type 2 or type 3 spinal muscular atrophy (SAPPHIRE): a phase 3, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40818473/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in The Lancet. Neurology; publication date 2025 Sep. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "evidence-publications-36329412",
+      "title": "Advances and limitations for the treatment of spinal muscular atrophy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36329412/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in BMC pediatrics; publication date 2022 Nov 3. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "evidence-publications-38330285",
+      "title": "Safety and Efficacy of Apitegromab in Patients With Spinal Muscular Atrophy Types 2 and 3: The Phase 2 TOPAZ Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38330285/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Neurology; publication date 2024 Mar 12. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "evidence-publications-33963971",
+      "title": "A Randomized Phase 1 Safety, Pharmacokinetic and Pharmacodynamic Study of the Novel Myostatin Inhibitor Apitegromab (SRK-015): A Potential Treatment for Spinal Muscular Atrophy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33963971/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Advances in therapy; publication date 2021 Jun. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "evidence-publications-41178728",
+      "title": "Pharmacological intervention: Challenges and promising outcomes for fat loss and preservation of lean body mass in the treatment of overweight and type 2 diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41178728/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:39:25.848Z",
+      "summary": "Indexed citation in Diabetes, obesity & metabolism; publication date 2026 Feb. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "web-4a3a7669683d",
+      "title": "file: srrk-20260303xex99d1.htm - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1727196/000110465926022547/srrk-20260303xex99d1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:40:52.610Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-21ccfc2433c6",
+      "title": "Jobs at FDA",
+      "url": "https://www.fda.gov/about-fda/jobs-fda",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:03.219Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-40b97f983467",
+      "title": "[PDF] FDA Oral History Interview, Neidelman",
+      "url": "https://www.fda.gov/media/81282/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:03.219Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8d91e425bb43",
+      "title": "Scientific Internships, Fellowships / Trainees and Non-US Citizens - FDA",
+      "url": "https://www.fda.gov/about-fda/jobs-fda/scientific-internships-fellowships-trainees-and-non-us-citizens",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:03.220Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8382a7c4f8ad",
+      "title": "FDA Announces Real-Time Release of Complete Response Letters ...",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-announces-real-time-release-complete-response-letters-posts-previously-unpublished-batch-89",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:03.220Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7205ad5dab2e",
+      "title": "Scholar Rock Provides Update on Global Apitegromab Regulatory ...",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-provides-update-global-apitegromab-regulatory",
+      "publisher": "investors.scholarrock.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:09.085Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4ebf8a2621e0",
+      "title": "Scholar Rock withdraws Europe filing for muscle weakness drug ... - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/scholar-rock-withdraws-europe-filing-muscle-weakness-drug-plans-resubmission-2026-08-21/",
+      "publisher": "www.reuters.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:09.086Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8bf968d11ffd",
+      "title": "Scholar Rock Provides Update on Global Apitegromab Regulatory ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/scholar-rock-provides-global-apitegromab-130600428.html",
+      "publisher": "finance.yahoo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:09.087Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c136405df92e",
+      "title": "Apitegromab remains on track for an FDA decision. Scholar Rock has ...",
+      "url": "https://www.instagram.com/p/Dclv5BZljad/",
+      "publisher": "www.instagram.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:09.087Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4b8e790e7831",
+      "title": "Bioresearch Monitoring Program Information - FDA",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/fda-bioresearch-monitoring-information/bioresearch-monitoring-program-information",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:33.950Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2729c484bf0b",
+      "title": "[PDF] CBER's Bioresearch Monitoring Program: Clinical and Nonclinical ...",
+      "url": "https://www.fda.gov/media/134478/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:33.950Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-23b27585e987",
+      "title": "[PDF] Bioresearch Monitoring (BIMO) Fiscal Year 2023 Metrics - FDA",
+      "url": "https://www.fda.gov/media/178861/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:33.951Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fb533c400eab",
+      "title": "FDA Bioresearch Monitoring Information",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/fda-bioresearch-monitoring-information",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:41:33.951Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 307392,
+    "outputTokens": 5062
+  },
+  "durationMs": 138135,
+  "tools": [
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "crl-cc3076873829"
+      },
+      "status": "completed",
+      "durationMs": 648
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "web-c435ffa45e30"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "facility",
+        "query": "3024553539"
+      },
+      "status": "completed",
+      "durationMs": 806
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov \"Scholar Rock\" \"2025\" \"inspection\" \"Bioresearch\" \"3024553539\""
+      },
+      "status": "error",
+      "durationMs": 736
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Scholar Rock apitegromab September 2026 FDA September 30 August 21 2026 second fill finish facility removed Catalent FDA EMA inspections"
+      },
+      "status": "completed",
+      "durationMs": 1366
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05156320"
+      },
+      "status": "completed",
+      "durationMs": 74
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov \"Scholar Rock\" \"inspection\""
+      },
+      "status": "completed",
+      "durationMs": 3374
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Scholar Rock\" \"August 21, 2026\" \"removed\""
+      },
+      "status": "completed",
+      "durationMs": 5867
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov Bioresearch Monitoring BIMO program clinical data integrity NAI No Action Indicated inspection"
+      },
+      "status": "completed",
+      "durationMs": 10982
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "fda-catalent-483-2026"
+      },
+      "status": "completed",
+      "durationMs": 950
+    }
+  ],
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T18:48:12.051Z",
+    "originalSha256": "4bf63fb6f1815188a87d267fb8fc23ca8feb66f30f66d930ef06a9a6d4544abb",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

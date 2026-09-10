@@ -1,0 +1,706 @@
+{
+  "summary": "As of September 10, 2026, zanzalintinib plus atezolizumab has a credible, ITT-led approval case—not a trial in which both primary endpoints succeeded. The published ITT survival benefit is substantive randomized evidence; the final non-liver-metastasis (NLM) endpoint failed. A material diligence issue emerged from reading the 2024 design publication: it originally placed ITT testing behind NLM success, whereas the later publication and registry describe dual primary endpoints. The operative amended statistical analysis plan was not retrieved, so independent multiplicity protection of the ITT result cannot be audited here. The evidence supports considering a previously treated, non-MSI-H/pMMR indication spanning liver-metastasis status, but neither establishes the eventual label nor validates an NLM-specific enrichment claim.",
+  "outlook": {
+    "verdict": "Credible but conditional approval case; resolve the testing-plan amendment, benefit–risk balance, and combination-component contribution before licensing commitments.",
+    "timing": "Exelixis reported standard-review acceptance on February 2, 2026, with a December 3, 2026 PDUFA action target, reaffirmed in its August 5 update. The June NLM failure did not, in those disclosures, change that target. This is an action goal—not an approval date. No FDA action letter or subsequent target change was established in this investigation.",
+    "probability": null,
+    "probabilityBasis": "The historical model provides original-application receipt-cohort context: standard-review first-cycle approval rates averaged approximately 57.9% across FY2017–2023, with annual rates of 50–67%. These mixed NDA/BLA cohorts do not calibrate an individual oncology application or resolve this trial's statistical issues. Action-timeliness estimates are separate from approval and are not multiplied into an individual forecast."
+  },
+  "findings": [
+    {
+      "id": "itt-os",
+      "title": "ITT overall survival is the strongest primary efficacy evidence",
+      "detail": "The Lancet publication's retrieved abstract reports 901 randomized patients, 451 versus 450, and an April 30, 2025 cutoff. Median OS was 10.9 versus 9.4 months; stratified HR 0.80, 95% CI 0.69–0.93, p=0.0045. This is a randomized overall-population survival result, not a post-hoc subgroup rescue. The authors and sponsor identify it as significant primary-endpoint success. That supports the application, but is not an FDA statistical determination; the operative multiplicity rules remain unaudited.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-a60451bb48a0"
+      ]
+    },
+    {
+      "id": "nlm-final",
+      "title": "The NLM co-primary endpoint failed at final analysis—not merely at an immature interim",
+      "detail": "Exelixis disclosed on June 22, 2026 that final NLM OS was nonsignificant: stratified HR 0.83, 95% CI 0.66–1.05, p=0.1185; medians 15.9 versus 12.7 months. The earlier published interim estimate was HR 0.79, 95% CI 0.61–1.03, p=0.087. Therefore, waiting for the already-completed final analysis is not an outstanding catalyst. NLM was a prespecified primary population, not an exploratory subgroup, but benefit was not statistically confirmed there. The confidence interval permits benefit as well as no benefit; nonsignificance does not establish ineffectiveness or harm.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-19e3a8219bcb",
+        "web-d6963585840f"
+      ]
+    },
+    {
+      "id": "multiplicity",
+      "title": "The historical testing hierarchy cannot be assumed to be the operative dual-primary plan",
+      "detail": "The full-text 2024 design publication's statistical section explicitly says ITT OS would be formally tested only if NLM OS was significant, controlling study-level two-sided type I error at 0.05. Later sources describe dual primary endpoints and significant ITT OS despite nonsignificant NLM OS. These descriptions require reconciliation through dated protocol/SAP amendments—not an assumption that either source is erroneous. If the operative, prospectively specified plan independently protected ITT testing, NLM failure need not invalidate ITT success. If NLM remained a prerequisite, the formal ITT claim would be compromised. Neither 'dual primary' nor p<0.05 alone resolves this. Exelixis also reported favorable ITT PFS, HR 0.68, but explicitly withheld statistical-superiority claims because of hierarchical testing; no retrieved later evidence unlocks that claim.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-946fd6b904b7",
+        "trial-NCT05425940",
+        "web-d6963585840f",
+        "web-a60451bb48a0"
+      ]
+    },
+    {
+      "id": "label-scope",
+      "title": "Across-liver-status applicability is more defensible than an NLM-enriched claim",
+      "detail": "The randomized population excluded MSI-H/dMMR disease. Subject to valid ITT testing and acceptable benefit–risk, it supports considering use across liver-metastasis status within the studied non-MSI-H/pMMR population. The sponsor's 2025 subgroup table showed a favorable estimate with active liver metastases, HR 0.78, 95% CI 0.65–0.94, but this is supportive subgroup evidence—not a separately established liver-specific indication. NLM meant no active liver metastases at baseline by investigator assessment, not necessarily no history of liver metastases. No treatment-by-liver-status interaction analysis was retrieved: differing significance levels and median gains do not prove differential treatment benefit. The requested indication follows fluoropyrimidine, oxaliplatin and irinotecan, plus anti-EGFR therapy for RAS-wild-type disease. Its broader sponsor wording does not supply randomized evidence in MSI-H/dMMR disease.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-a60451bb48a0",
+        "web-19e3a8219bcb",
+        "web-288a17a16600"
+      ]
+    },
+    {
+      "id": "benefit-risk",
+      "title": "The survival gain must justify appreciably greater toxicity",
+      "detail": "The published abstract reports grade 3 or worse treatment-related adverse events in 60% versus 37% of treated patients and five versus one treatment-related deaths. The sponsor reported discontinuation of all study treatment due to adverse events in 18% versus 15%. These findings matter alongside the 1.5-month difference in ITT median OS; neither the median difference alone nor a 'chemotherapy-free' description settles benefit–risk. Exelixis' June statement that no new NLM safety signals were identified does not establish equivalent tolerability or absence of regulatory safety concerns. Detailed final NLM safety, exposure-adjusted analyses and patient-reported outcomes were not assessed.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-a60451bb48a0",
+        "web-19e3a8219bcb"
+      ]
+    },
+    {
+      "id": "component-contribution",
+      "title": "Combination efficacy is not the same as proof of atezolizumab's incremental contribution",
+      "detail": "STELLAR-303 randomized the combination against regorafenib, without a zanzalintinib-alone arm. It therefore establishes the regimen comparison, not a randomized estimate of the added effect of atezolizumab. Exelixis' August update described an ASCO 2026 analysis involving anti-drug antibodies and systemic exposure as supporting atezolizumab's contribution. The actual poster and underlying analyses were not retrieved; that sponsor interpretation should not be treated as independently confirmed causal evidence. Component contribution is a specific regulatory and licensing question, not evidence that FDA has already objected.",
+      "direction": "unknown",
+      "sourceIds": [
+        "trial-NCT05425940",
+        "web-1c6e456d8d94"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The operative protocol and SAP, every endpoint/multiplicity amendment, approval and lock dates, interim alpha-spending boundaries, and FDA correspondence explaining whether ITT success was independently sufficient.",
+    "The final NLM clinical study report with event counts, Kaplan–Meier curves and numbers at risk, matched-cutoff ITT/liver-metastasis results, interaction testing, and sensitivity analyses for censoring, subsequent treatment and non-proportional hazards.",
+    "The full ASCO 2026 atezolizumab-contribution analysis and integrated safety/exposure and patient-reported-outcome datasets, including final NLM results.",
+    "FDA review or advisory-committee documents, proposed-label negotiations, and candidate-linked CMC/inspection conclusions; any formal change to the December 3 action target."
+  ],
+  "limitations": [
+    "The registry record and the relevant full-text sections of the 2024 design publication were read. The Lancet results abstract was retrieved, but the full results paper, supplementary appendix, operative amended protocol/SAP and listed erratum were not inspected. Exact final alpha allocation, recycling rules, interim boundaries and amendment provenance are therefore unavailable.",
+    "Final NLM numerical results were confirmed in Exelixis' June 22 disclosure, not independently reproduced from patient-level data or an FDA review. Detailed final subgroup analyses and formal interaction results were not retrieved.",
+    "The July 17, 2026 registry snapshot had no posted results. It is a current record, not a reconstruction of the trial's historical amendments. Evidence used here predates the September 10 investigation cutoff.",
+    "Application acceptance, review class and target date are sponsor-reported. No candidate-specific FDA statistical assessment, component-contribution determination or manufacturing clearance was established. Supplied historical BIMO name matches cannot establish manufacturing status."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the operative, prospectively specified and FDA-acceptable testing plan preserve an independently valid ITT OS success after final NLM failure—and does the full regimen's benefit–risk justify the requested population?",
+    "bullCase": {
+      "claim": "A large randomized trial demonstrated published ITT OS superiority over regorafenib in non-MSI-H/dMMR-excluded mCRC, with favorable estimates across liver-status categories. If ITT testing was independently protected, the failed NLM endpoint does not erase that evidence, and an across-liver-status indication remains scientifically supportable.",
+      "sourceIds": [
+        "web-d6963585840f",
+        "web-a60451bb48a0",
+        "web-288a17a16600"
+      ]
+    },
+    "bearCase": {
+      "claim": "The primary population emphasized in the older design failed its final OS test; the transition from NLM-gated testing to dual primaries has not been audited. Higher severe toxicity and uncertain incremental atezolizumab contribution add substantive questions even if ITT statistical validity is upheld.",
+      "sourceIds": [
+        "web-946fd6b904b7",
+        "web-19e3a8219bcb",
+        "web-d6963585840f",
+        "web-1c6e456d8d94"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What exact testing rule governed the April 2025 ITT analysis, when was it finalized relative to access to comparative outcomes, and what has FDA said about its acceptability?",
+      "whyItMatters": "This distinguishes an independently protected positive primary endpoint from a nominally positive result behind an unmet testing prerequisite. Neither the older design article nor the newer endpoint labels alone answers it.",
+      "sourceIds": [
+        "web-946fd6b904b7",
+        "web-d6963585840f",
+        "trial-NCT05425940"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "ITT-led approval case sustained",
+        "trigger": "Dated amendments/SAP establish valid independent ITT testing, and FDA accepts the survival benefit, safety and component-contribution package.",
+        "implication": "An indication spanning liver-metastasis status in the studied previously treated non-MSI-H/pMMR setting is supportable; separate NLM-superiority claims remain unsupported.",
+        "sourceIds": [
+          "web-d6963585840f",
+          "web-19e3a8219bcb",
+          "web-288a17a16600"
+        ]
+      },
+      {
+        "label": "Efficacy accepted, commercial scope constrained",
+        "trigger": "FDA accepts ITT efficacy but limits extrapolation by molecular status, prior-treatment history or a demonstrated benefit–risk concern.",
+        "implication": "Label scope and licensing economics require revision. An NLM-only label should not be assumed as the default fallback: that population's confirmatory endpoint failed.",
+        "sourceIds": [
+          "web-288a17a16600",
+          "web-d6963585840f",
+          "web-19e3a8219bcb"
+        ]
+      },
+      {
+        "label": "Additional evidence required",
+        "trigger": "FDA identifies unacceptable statistical-plan provenance or unresolved benefit–risk/component-contribution deficiencies.",
+        "implication": "Additional analyses or clinical evidence could delay action or lead to a complete response. This is a conditional risk, not an observed FDA objection or a forecast that the target will be missed.",
+        "sourceIds": [
+          "web-946fd6b904b7",
+          "web-d6963585840f",
+          "web-1c6e456d8d94"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Provide the signed protocol/SAP amendment history, alpha-allocation and recycling diagram, interim boundaries, data-access chronology and FDA meeting minutes. Did success require either primary endpoint or both?",
+        "whyItMatters": "The 2024 publication explicitly gated ITT testing behind NLM success; reconciling that with the later dual-primary result is a transaction-critical statistical audit.",
+        "sourceIds": [
+          "web-946fd6b904b7",
+          "web-d6963585840f"
+        ]
+      },
+      {
+        "question": "Provide patient-level final OS data, treatment-by-liver-status interaction analyses, NLM definitions including previously treated liver lesions, censoring and subsequent-therapy analyses, and common-cutoff subgroup curves.",
+        "whyItMatters": "These distinguish imprecision from meaningful heterogeneity or analysis sensitivity. The NLM median gain cannot by itself validate an enriched population or explain the ITT result.",
+        "sourceIds": [
+          "web-19e3a8219bcb",
+          "web-a60451bb48a0"
+        ]
+      },
+      {
+        "question": "What exact label has been requested and discussed with FDA regarding MSI/MMR status and treatment sequence? Did the final protocol retain the older exclusions for prior regorafenib, trifluridine-tipiracil and PD-1/PD-L1 therapy?",
+        "whyItMatters": "The sponsor's requested wording is broader than the molecular population studied. The older design's treatment exclusions may also limit evidence for contemporary sequencing; their final status must be checked rather than assumed.",
+        "sourceIds": [
+          "web-288a17a16600",
+          "web-946fd6b904b7",
+          "web-d6963585840f"
+        ]
+      },
+      {
+        "question": "Supply the complete ASCO contribution poster, monotherapy evidence and FDA feedback. How do the anti-drug-antibody/exposure analyses handle baseline prognosis, time-dependent classification, missing samples and treatment duration?",
+        "whyItMatters": "An exposure or immunogenicity association is not automatically a randomized component-contribution estimate. The licensor should demonstrate the robustness of the claimed atezolizumab contribution.",
+        "sourceIds": [
+          "trial-NCT05425940",
+          "web-1c6e456d8d94"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "id": "0f625d8d-f1fc-430c-9388-0919fa463813",
+  "candidateId": "zanzalintinib-mcrc",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T18:58:43.303Z",
+  "mode": "investigate",
+  "question": "Assess the approval case for zanzalintinib plus atezolizumab in previously treated metastatic colorectal cancer. Reconcile the intention-to-treat overall-survival result with the non-liver-metastasis co-primary endpoint and multiplicity. Distinguish confirmed primary evidence from subgroup hypotheses and what this supports about potential label scope. Identify the evidence that would change the outlook and specific licensing-diligence questions. Read the actual protocol or publication where available, and explicitly acknowledge unavailable analyses.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "exel-zan-acceptance",
+      "title": "Exelixis: zanzalintinib plus atezolizumab NDA accepted",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-us-fda-accepted-new-drug-application",
+      "publisher": "Exelixis",
+      "publishedAt": "2026-02-02",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Exelixis reported a December 3 target for zanzalintinib plus atezolizumab in previously treated metastatic colorectal cancer. STELLAR-303 compares the combination with regorafenib and has dual overall-survival endpoints: the intent-to-treat population and patients without liver metastases. The proposed setting follows fluoropyrimidine, oxaliplatin and irinotecan, plus anti-EGFR therapy when RAS wild type."
+    },
+    {
+      "id": "exel-q2-2026",
+      "title": "Exelixis: STELLAR-303 final subgroup result and NDA update",
+      "url": "https://ir.exelixis.com/static-files/fe809677-bfbd-42c6-8538-73244509c5b7",
+      "publisher": "Exelixis / SEC",
+      "publishedAt": "2026-08-05",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Exelixis reaffirmed the December 3 target. STELLAR-303 had met its ITT overall-survival primary endpoint, but the final analysis announced in June 2026 did not reach significance for the other primary endpoint, OS in patients without liver metastases. A positive overall result cannot be described as both primary populations succeeding. The trial enrolled non-MSI-high disease."
+    },
+    {
+      "id": "trial-nct05425940",
+      "title": "ClinicalTrials.gov: NCT05425940 · Study of XL092 + Atezolizumab vs Regorafenib in Participants With Metastatic Colorectal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT05425940",
+      "publisher": "ClinicalTrials.gov / Exelixis",
+      "publishedAt": "2026-07-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 901 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05425940",
+      "title": "Study of XL092 + Atezolizumab vs Regorafenib in Participants With Metastatic Colorectal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT05425940",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-17",
+      "retrievedAt": "2026-09-10T18:50:02.059Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Exelixis. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39099411",
+      "title": "Zanzalintinib (XL092): a next-generation tyrosine kinase inhibitor-comprehensive review of early safety & efficacy data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39099411/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.494Z",
+      "summary": "Indexed citation in Expert opinion on investigational drugs; publication date 2024 Sep. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39041200",
+      "title": "STELLAR-303: randomized phase III study of zanzalintinib + atezolizumab in previously treated metastatic colorectal cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39041200/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.494Z",
+      "summary": "Indexed citation in Future oncology (London, England); publication date 2024. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41130252",
+      "title": "Zanzalintinib plus atezolizumab versus regorafenib in refractory colorectal cancer (STELLAR-303): a randomised, open-label, phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41130252/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.494Z",
+      "summary": "Indexed citation in Lancet (London, England); publication date 2025 Nov 15. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40008409",
+      "title": "STELLAR-304: a phase III study of zanzalintinib (XL092) plus nivolumab in advanced non-clear cell renal cell carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40008409/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.494Z",
+      "summary": "Indexed citation in Future oncology (London, England); publication date 2025 Mar. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40248950",
+      "title": "STELLAR-305: phase II/III study of zanzalintinib plus pembrolizumab versus pembrolizumab alone in patients with HNSCC.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40248950/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:50:02.494Z",
+      "summary": "Indexed citation in Future oncology (London, England); publication date 2025 May. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05425940",
+      "title": "Study of XL092 + Atezolizumab vs Regorafenib in Participants With Metastatic Colorectal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT05425940",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-17",
+      "retrievedAt": "2026-09-10T18:58:53.880Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05425940; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-d6963585840f",
+      "title": "Zanzalintinib plus atezolizumab versus regorafenib in refractory ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41130252/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:06.457Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a60451bb48a0",
+      "title": "Exelixis Announces Detailed Results from Phase 3 STELLAR-303 Pivotal ...",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-detailed-results-phase-3-stellar-303-pivotal",
+      "publisher": "ir.exelixis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:58:55.528Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a20e920a663c",
+      "title": "Zanzalintinib plus atezolizumab versus regorafenib in refractory ...",
+      "url": "https://falkfoundation.org/en/fgr/detail/zanzalintinib-plus-atezolizumab-versus-regorafenib-in-refractory-colorectal-cancer-stellar-303-a-randomised-open-label-phase-3-trial",
+      "publisher": "falkfoundation.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:58:55.529Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8fb80426551c",
+      "title": "NCT05425940 | Study of XL092 + Atezolizumab vs Regorafenib in ...",
+      "url": "https://clinicaltrials.gov/study/NCT05425940",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:06.457Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-19e3a8219bcb",
+      "title": "Exelixis Provides Update on the Phase 3 STELLAR-303 Trial ...",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-provides-update-phase-3-stellar-303-trial-evaluating",
+      "publisher": "ir.exelixis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:06.457Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-288a17a16600",
+      "title": "Exelixis Announces U.S. FDA Accepted the New Drug Application ...",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-us-fda-accepted-new-drug-application",
+      "publisher": "ir.exelixis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:58:56.767Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1c6e456d8d94",
+      "title": "Exelixis Announces Second Quarter 2026 Financial Results and ...",
+      "url": "https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-second-quarter-2026-financial-results-and",
+      "publisher": "ir.exelixis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:58:56.767Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0d7c206bfea4",
+      "title": "Exelixis Provides Update on the Phase 3 STELLAR-303 Trial ...",
+      "url": "https://www.drugs.com/clinical_trials/exelixis-provides-update-phase-3-stellar-303-trial-evaluating-zanzalintinib-combination-immune-22505.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:58:56.768Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-946fd6b904b7",
+      "title": "STELLAR-303: randomized phase III study of zanzalintinib + ... - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11485978/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:04.997Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7bf30f9f12a6",
+      "title": "STELLAR-303: randomized phase III study of zanzalintinib + ...",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14796694.2024.2352276",
+      "publisher": "www.tandfonline.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:04.998Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-478daeb9ad73",
+      "title": "STELLAR-303: randomized phase III study of zanzalintinib + ...",
+      "url": "https://www.researchgate.net/publication/382488428_STELLAR-303_randomized_phase_III_study_of_zanzalintinib_atezolizumab_in_previously_treated_metastatic_colorectal_cancer",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:04.999Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c7ea6b0f3ca9",
+      "title": "CXCR4 mRNA overexpression: an indicator of poor survival and ...",
+      "url": "https://bmjoncology.bmj.com/content/5/1/e001003",
+      "publisher": "bmjoncology.bmj.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:05.000Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4d320dbec275",
+      "title": "Zanzalintinib Plus Atezolizumab Misses OS End Point in Non–Liver ...",
+      "url": "https://www.onclive.com/view/zanzalintinib-plus-atezolizumab-misses-os-end-point-in-non-liver-metastases-subgroup-in-refractory-mcrc",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:06.458Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-302d1e99fce2",
+      "title": "(PDF) Lenvatinib Plus Pembrolizumab Versus Standard of Care for ...",
+      "url": "https://www.researchgate.net/publication/381159005_Lenvatinib_Plus_Pembrolizumab_Versus_Standard_of_Care_for_Previously_Treated_Metastatic_Colorectal_Cancer_Final_Analysis_of_the_Randomized_Open-Label_Phase_III_LEAP-017_Study",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:36.839Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-784e548ca83f",
+      "title": "Phase III clinical trial data of biopharma companies in 2022",
+      "url": "https://www.bioworld.com/content/phase3-data-2022",
+      "publisher": "www.bioworld.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:36.840Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-74e68eeff3ad",
+      "title": "STELLAR-305: phase II/III study of zanzalintinib plus pembrolizumab ...",
+      "url": "https://www.researchgate.net/publication/390922090_STELLAR-305_phase_IIIII_study_of_zanzalintinib_plus_pembrolizumab_versus_pembrolizumab_alone_in_patients_with_HNSCC",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:36.841Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fe238e9791c7",
+      "title": "[PDF] PROGRAM - Amazon S3",
+      "url": "https://s3.amazonaws.com/files.oncologymeetings.org/prod/s3fs-public/2024-05/AM24-Program.pdf",
+      "publisher": "s3.amazonaws.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:36.842Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a13a232f7c92",
+      "title": "Zanzalintinib plus atezolizumab versus regorafenib in refractory ...",
+      "url": "https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(25)02025-2.pdf",
+      "publisher": "www.thelancet.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:55.434Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2b5e856c7544",
+      "title": "Zanzalintinib plus atezolizumab is first immunotherapy regimen to benefit ...",
+      "url": "https://acsjournals.onlinelibrary.wiley.com/doi/pdf/10.1002/cncr.70235",
+      "publisher": "acsjournals.onlinelibrary.wiley.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:55.434Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e1e16567037c",
+      "title": "[PDF] CTEP RAPID COMMUNICATION - Harvard Cancer Consortium",
+      "url": "https://www.dfhcc.harvard.edu/fileadmin/media/ETCTN/06_NewsandAnnouncements/Zanzalintinib_NSC_TBD_Announcement_of_Availability.pdf",
+      "publisher": "www.dfhcc.harvard.edu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:55.435Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0cab5ee892e3",
+      "title": "Nine‐year data show sustained benefit of nivolumab in ... - Ovid",
+      "url": "https://www.ovid.com/journals/canc/pdf/10.1002/cncr.70234~nineyear-data-show-sustained-benefit-of-nivolumab-in",
+      "publisher": "www.ovid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:59:55.435Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 557671,
+    "outputTokens": 5288
+  },
+  "durationMs": 169370,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "exel-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "evidence-publications-41130252"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05425940"
+      },
+      "status": "completed",
+      "durationMs": 92
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "STELLAR-303 Lancet 2025 02025-2 full text protocol statistical analysis alpha overall survival non liver metastases"
+      },
+      "status": "completed",
+      "durationMs": 1648
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.ir.exelixis.com 2026 zanzalintinib June final non liver metastases December 3 FDA"
+      },
+      "status": "completed",
+      "durationMs": 1239
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"STELLAR-303\" \"14796694.2024.2352276\" full text statistical analysis"
+      },
+      "status": "completed",
+      "durationMs": 2901
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"STELLAR-303\" \"02025-2\" \"alpha\" fulltext appendix"
+      },
+      "status": "completed",
+      "durationMs": 1458
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-946fd6b904b7",
+        "query": "2.5."
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02025-2/fulltext STELLAR-303 statistical analysis multiplicity"
+      },
+      "status": "error",
+      "durationMs": 611
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"STELLAR-303\" \"multiplicity\" \"2025\" protocol alpha statistical analysis"
+      },
+      "status": "completed",
+      "durationMs": 7646
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Zanzalintinib plus atezolizumab versus regorafenib\" filetype:pdf"
+      },
+      "status": "completed",
+      "durationMs": 11548
+    }
+  ],
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T19:07:18.382Z",
+    "originalSha256": "e57a3ec477548f3a5ca2053b4d2ef59f51a6f133706c2a7f1594f16ddaf5e23e",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -3,13 +3,16 @@ import {
   Activity, ArrowRight, ArrowUpRight, BookOpen, CalendarDays, Download,
   Check, ChevronDown, ChevronRight, CircleAlert, CircleCheck, Clock3,
   ExternalLink, FileText, FlaskConical, Layers3, LoaderCircle, Menu, PanelRightClose,
-  Radio, RefreshCw, Search, ShieldCheck, Sparkles, Target, X,
+  Radio, RefreshCw, Search, ShieldCheck, ScanSearch, Target, Table2, Network, X,
 } from 'lucide-react';
-import { dataUrl, formatDate, investigationMarkdown, readInvestigationStream, safeSourceUrl } from './lib';
-import type { Candidate, Dashboard, Direction, Finding, Investigation, ModelSummary, RuntimeInfo, Source } from './types';
+import { candidateActionDate, dataUrl, formatDate, investigationMarkdown, mergeInvestigationSources, mergeSourceRecords, readInvestigationStream, safeSourceUrl } from './lib';
+import type { Candidate, Dashboard, Direction, EvidenceDossier, Finding, Investigation, ModelSummary, RuntimeInfo, Source } from './types';
 import brandCatalog from '../data/brands.json';
+import CandidateOverview from './CandidateOverview';
+import { DecisionBrief, InvestigationChanges } from './ResearchIntelligence';
+import EvidenceMap from './EvidenceMap';
 
-type View = 'evidence' | 'analysis' | 'validation';
+type View = 'evidence' | 'analysis' | 'sources' | 'validation';
 const STATIC_DEMO = import.meta.env.VITE_STATIC_DEMO === 'true';
 const apiDataUrl = (path: string) => dataUrl(path, STATIC_DEMO, import.meta.env.BASE_URL);
 const STATUS_LABELS: Record<Candidate['status'], string> = {
@@ -87,7 +90,7 @@ function SourceDrawer({ ids, sources, onClose }: { ids: string[]; sources: Sourc
       <div className="drawer-header"><h2 id="source-drawer-title">Sources</h2><button className="icon-button" aria-label="Close evidence library" ref={closeButton} onClick={onClose}><PanelRightClose size={20} /></button></div>
       <p className="drawer-description">Public records behind this outlook. Sponsor statements are attributed to the sponsor; public disclosures may be incomplete.</p>
       <div className="drawer-sources">{selected.map((source, index) => <article className="source-detail" key={source.id}>
-        <div className="source-detail-meta"><span className="source-index">{String(index + 1).padStart(2, '0')}</span><Tag>{source.kind === 'fda' ? 'FDA' : source.kind === 'sec' ? 'SEC' : source.kind === 'trial' ? 'Clinical trial' : source.kind === 'sponsor' ? 'Sponsor' : 'Publication'}</Tag><span>{formatDate(source.publishedAt)}</span></div>
+        <div className="source-detail-meta"><span className="source-index">{String(index + 1).padStart(2, '0')}</span><Tag>{source.kind === 'fda' ? 'FDA' : source.kind === 'sec' ? 'SEC' : source.kind === 'trial' ? 'Clinical trial' : source.kind === 'sponsor' ? 'Sponsor' : 'Research / web'}</Tag><span>{formatDate(source.publishedAt)}</span></div>
         <h3>{source.title}</h3><p className="source-publisher">{source.publisher}</p><p>{source.summary}</p>
         {source.excerpt && <blockquote>{source.excerpt}</blockquote>}
         {safeSourceUrl(source.url) ? <a className="text-link" href={safeSourceUrl(source.url)} target="_blank" rel="noreferrer">Read original source <ExternalLink size={13} /></a> : <span className="muted">Source URL unavailable</span>}
@@ -99,16 +102,16 @@ function SourceDrawer({ ids, sources, onClose }: { ids: string[]; sources: Sourc
   </div>;
 }
 
-function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobileOpen, onClose, savedCandidateIds }: {
+function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobileOpen, onClose, savedCandidateIds, showOverview, onOverview }: {
   candidates: Candidate[]; selectedId: string | null; onSelect: (id: string) => void;
-  runtime: RuntimeInfo; asOf: string; mobileOpen: boolean; onClose: () => void; savedCandidateIds: Set<string>;
+  runtime: RuntimeInfo; asOf: string; mobileOpen: boolean; onClose: () => void; savedCandidateIds: Set<string>; showOverview: boolean; onOverview: () => void;
 }) {
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState('target');
   const listRef = useRef<HTMLElement>(null);
   const filtered = useMemo(() => candidates.filter((candidate) => `${candidate.drug} ${candidate.indication} ${candidate.sponsor}`.toLowerCase().includes(query.toLowerCase())).sort((a, b) => {
     if (sort === 'name') return a.drug.localeCompare(b.drug);
-    return (a.targetDate ?? '9999').localeCompare(b.targetDate ?? '9999');
+    return (candidateActionDate(a).date ?? '9999').localeCompare(candidateActionDate(b).date ?? '9999');
   }), [candidates, query, sort]);
   useEffect(() => {
     const list = listRef.current;
@@ -121,16 +124,16 @@ function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobile
     {mobileOpen && <button className="rail-backdrop" onClick={onClose} aria-label="Close candidate navigation" />}
     <aside className={`rail ${mobileOpen ? 'mobile-open' : ''}`}>
       <div className="rail-brand"><Logo /><button className="icon-button mobile-close" onClick={onClose} aria-label="Close navigation"><X size={18} /></button></div>
-      <div className="rail-destination"><Target size={16} /><span>Approval Radar</span></div>
+      <button className={`rail-destination ${showOverview ? 'active' : ''}`} onClick={() => { onOverview(); onClose(); }}><Table2 size={16} /><span>All candidates</span></button>
       <div className="rail-section-label"><span>Review watchlist</span><span>{candidates.length}</span></div>
       <div className="rail-search"><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search drug, sponsor…" aria-label="Search candidates" />{query && <button onClick={() => setQuery('')} aria-label="Clear search"><X size={13} /></button>}</div>
-      <div className="rail-sort"><span>Drug / indication</span><label><span className="sr-only">Sort candidates</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="target">Target date</option><option value="name">Name A–Z</option></select><ChevronDown size={11} /></label></div>
+      <div className="rail-sort"><span>Drug / indication</span><label><span className="sr-only">Sort candidates</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="target">Action / target</option><option value="name">Name A–Z</option></select><ChevronDown size={11} /></label></div>
       <nav className="candidate-list" aria-label="Drug candidates" ref={listRef}>
-        {filtered.map((candidate) => <button className={`candidate-item ${candidate.id === selectedId ? 'selected' : ''}`} key={candidate.id} aria-current={candidate.id === selectedId ? 'page' : undefined} onClick={() => { onSelect(candidate.id); onClose(); }}>
-          <CompanyLogos candidateId={candidate.id} compact /><div className="candidate-item-copy"><div className="candidate-item-heading"><strong>{candidate.drug}</strong>{savedCandidateIds.has(candidate.id) && <span className="candidate-research-badge" title="Saved Astra investigation available"><Sparkles size={11} /><span className="sr-only">Saved Astra research available</span></span>}</div>
+        {filtered.map((candidate) => { const actionDate = candidateActionDate(candidate); return <button className={`candidate-item ${candidate.id === selectedId && !showOverview ? 'selected' : ''}`} key={candidate.id} aria-current={candidate.id === selectedId && !showOverview ? 'page' : undefined} onClick={() => { onSelect(candidate.id); onClose(); }}>
+          <CompanyLogos candidateId={candidate.id} compact /><div className="candidate-item-copy"><div className="candidate-item-heading"><strong>{candidate.drug}</strong>{savedCandidateIds.has(candidate.id) && <span className="candidate-research-badge" title="Saved Astra investigation available"><ScanSearch size={11} /><span className="sr-only">Saved Astra research available</span></span>}</div>
           <p>{candidate.indication}</p>
-          <div className="candidate-item-footer"><span>{candidate.targetDate ? formatDate(candidate.targetDate, { month: 'short', day: 'numeric', year: undefined }) : 'Date unknown'}</span></div></div>
-        </button>)}
+          <div className="candidate-item-footer"><span>{actionDate.completed && `${actionDate.shortLabel} · `}{actionDate.date ? formatDate(actionDate.date, { month: 'short', day: 'numeric', year: undefined }) : 'Date unknown'}</span></div></div>
+        </button>; })}
         {!filtered.length && <div className="rail-empty">{query ? 'No candidates match your search.' : 'No candidates published yet.'}</div>}
       </nav>
       <div className="rail-bottom"><div className="runtime-line"><span className={`runtime-dot ${runtime.configured ? 'ready' : ''}`} /><span>{STATIC_DEMO ? 'Recorded Astra research' : runtime.configured ? 'Astra connected' : 'Astra API not configured'}</span></div><p>Evidence as of {formatDate(asOf)}</p></div>
@@ -139,13 +142,14 @@ function CandidateRail({ candidates, selectedId, onSelect, runtime, asOf, mobile
 }
 
 function CandidateHeader({ candidate, sourceCount, onOpenSources }: { candidate: Candidate; sourceCount: number; onOpenSources: () => void }) {
+  const actionDate = candidateActionDate(candidate);
   return <>
     <div className="candidate-header"><div className="candidate-title-block">
       <div className="candidate-title-line"><h1>{candidate.drug}</h1></div>
       <p className="indication">{candidate.indication}</p>
       <div className="sponsor-row"><CompanyLogos candidateId={candidate.id} /><span className="sponsor-name">{candidate.sponsor}</span>{candidate.ticker && <span className="ticker">{candidate.ticker}</span>}</div>
-    </div><div className="header-target"><span>Reported FDA action target</span><strong>{candidate.targetDate ? formatDate(candidate.targetDate) : 'Not publicly disclosed'}</strong><p>An action target is not an approval promise.</p></div></div>
-    <div className="candidate-meta"><span className={`status-pill ${candidate.status}`}><span />{STATUS_LABELS[candidate.status]}</span><span>{candidate.reviewType}</span>{(!candidate.reviewType.includes(candidate.applicationType) || candidate.applicationNumber) && <span>{candidate.applicationType}{candidate.applicationNumber ? ` ${candidate.applicationNumber}` : ''}</span>}<details className="candidate-metadata"><summary>Details <ChevronDown size={12} /></summary><div><p>{candidate.modality}</p><p>{candidate.phase}</p><p>{candidate.applicationType}{candidate.applicationNumber ? ` ${candidate.applicationNumber}` : ''}</p><p>Evidence as of {formatDate(candidate.asOf)}</p></div></details><button className="text-button header-sources" onClick={onOpenSources}><BookOpen size={13} />{sourceCount} sources</button></div>
+    </div><div className="header-target"><span>{actionDate.label}</span><strong>{actionDate.date ? formatDate(actionDate.date) : 'Not publicly disclosed'}</strong><p>{actionDate.completed ? 'Completed review episode.' : 'An action target is not an approval promise.'}</p></div></div>
+    <div className="candidate-meta"><span className={`status-pill ${candidate.status}`}><span />{STATUS_LABELS[candidate.status]}</span><span>{candidate.reviewType}</span>{(!candidate.reviewType.includes(candidate.applicationType) || candidate.applicationNumber) && <span>{candidate.applicationType}{candidate.applicationNumber ? ` ${candidate.applicationNumber}` : ''}</span>}<details className="candidate-metadata"><summary>Details <ChevronDown size={12} /></summary><div><p>{candidate.modality}</p><p>{candidate.phase}</p><p>{candidate.applicationType}{candidate.applicationNumber ? ` ${candidate.applicationNumber}` : ''}</p>{actionDate.completed && candidate.targetDate && <p>Historical reported target: {formatDate(candidate.targetDate)}</p>}<p>Evidence as of {formatDate(candidate.asOf)}</p></div></details><button className="text-button header-sources" onClick={onOpenSources}><BookOpen size={13} />{sourceCount} sources</button></div>
   </>;
 }
 
@@ -168,8 +172,8 @@ function ResearchDesk({ candidate, sources, onOpenSources, runtime, onInvestigat
       {model.approvalRatePrior && <details className="section baseline-preview disclosure"><summary><FlaskConical size={15} /><span>Historical review baseline</span><ChevronDown size={14} /></summary><p>First-cycle approval rates for original applications, averaged across annual FDA cohorts.</p><div className="baseline-preview-values">{(['priority', 'standard'] as const).map((reviewClass) => { const rate = model.approvalRatePrior?.current[reviewClass]; return rate && <div key={reviewClass}><span>{reviewClass} review</span><strong>{(rate.meanRate * 100).toFixed(1)}<small>%</small></strong><p>{rate.annualCohortCount} annual cohort rates</p></div>; })}<div className="baseline-preview-context"><p>Population context, with no candidate-specific probability. These rates do not estimate resubmission outcomes.</p></div></div><button className="baseline-preview-link" onClick={onValidation}>Inspect model validation <ArrowRight size={13} /></button></details>}
     </div>
     <aside className="research-aside">
-      <div className="astra-card"><h2><Sparkles size={17} />Astra investigation</h2><p>Test the evidence and see what could change the outlook.</p>
-        {hasInvestigation ? <button className="primary-button" onClick={onAnalysis}>{STATIC_DEMO ? 'Open recorded Astra run' : 'Open investigation'}<ArrowRight size={15} /></button> : STATIC_DEMO && savedRun ? <button className="primary-button" onClick={() => onLoadRun(savedRun.id)}><Clock3 size={15} />Open recorded Astra run<ArrowRight size={15} /></button> : <button className="primary-button" disabled={busy || !runtime.configured} onClick={onInvestigate}>{busy ? <LoaderCircle size={15} className="spin" /> : <Sparkles size={15} />}{busy ? 'Investigation running' : STATIC_DEMO ? 'No recorded investigation yet' : 'Investigate with Astra'}{!busy && !STATIC_DEMO && <ArrowRight size={15} />}</button>}
+      <div className="astra-card"><h2><ScanSearch size={17} />Astra investigation</h2><p>Test the evidence and see what could change the outlook.</p>
+        {hasInvestigation ? <button className="primary-button" onClick={onAnalysis}>{STATIC_DEMO ? 'Open recorded Astra run' : 'Open investigation'}<ArrowRight size={15} /></button> : STATIC_DEMO && savedRun ? <button className="primary-button" onClick={() => onLoadRun(savedRun.id)}><Clock3 size={15} />Open recorded Astra run<ArrowRight size={15} /></button> : <button className="primary-button" disabled={busy || !runtime.configured} onClick={onInvestigate}>{busy ? <LoaderCircle size={15} className="spin" /> : <ScanSearch size={15} />}{busy ? 'Investigation running' : STATIC_DEMO ? 'No recorded investigation yet' : 'Investigate with Astra'}{!busy && !STATIC_DEMO && <ArrowRight size={15} />}</button>}
         <div className="astra-card-foot"><span className={`runtime-dot ${runtime.configured ? 'ready' : ''}`} />{STATIC_DEMO ? 'Public demo · explore recorded research' : runtime.configured ? 'Live research · linked public evidence' : 'Connect the Astra API to investigate'}</div>
         {!STATIC_DEMO && !hasInvestigation && savedRun && <button className="saved-run-link" disabled={busy} onClick={() => onLoadRun(savedRun.id)}><Clock3 size={12} /><span>Open saved Astra investigation<small>{formatDate(savedRun.createdAt)} · {savedRun.provenance === 'recorded' ? 'Recorded run' : 'Previously completed run'}</small></span><ArrowUpRight size={12} /></button>}
       </div>
@@ -218,7 +222,7 @@ function InvestigationView({ candidate, runtime, investigation, busy, progress, 
     </div></div>
     {!investigation && <><h2>Investigate with Astra</h2><p>Examine the evidence, weigh conflicting findings and identify what remains uncertain.</p></>}
     {!runtime.configured && !investigation && <div className="configuration-notice"><CircleAlert size={17} /><div><strong>{STATIC_DEMO ? 'Public demo · recorded Astra runs' : 'Astra is not connected'}</strong><p>{runtime.message ?? 'Set OPENAI_API_KEY and ASTRA_MODEL in the server environment to run live investigations. Source evidence and historical model results remain available.'}</p></div></div>}
-    {!investigation && !busy && !loadingRun && <button className="primary-button" disabled={!runtime.configured} onClick={() => onRun('investigate')}><Sparkles size={15} />Investigate {candidate.drug}<ArrowRight size={15} /></button>}
+    {!investigation && !busy && !loadingRun && <button className="primary-button" disabled={!runtime.configured} onClick={() => onRun('investigate')}><ScanSearch size={15} />Investigate {candidate.drug}<ArrowRight size={15} /></button>}
     </section>
     {error && <div className="error-banner" role="alert"><CircleAlert size={17} /><div><strong>Investigation could not complete</strong><p>{error}</p></div>{runtime.configured && <button className="text-button" onClick={() => onRun('investigate')}>Try again <ArrowRight size={13} /></button>}</div>}
     {loadingRun && <div className="loading-inline" role="status"><LoaderCircle size={18} className="spin" />Loading the saved investigation…</div>}
@@ -226,14 +230,16 @@ function InvestigationView({ candidate, runtime, investigation, busy, progress, 
     {busy && partialFindings.length > 0 && <section className="section"><div className="section-heading"><h2>Emerging findings</h2><Tag>In progress</Tag></div>{partialFindings.map((finding, index) => <FindingCard finding={finding} index={index} sources={sources} onOpenSources={onOpenSources} key={finding.id} />)}</section>}
     {investigation && !loadingRun && <>
       <div className={`run-provenance ${investigation.provenance}`}><span className="run-provenance-kind">{investigation.provenance === 'recorded' ? <Clock3 size={13} /> : <CircleCheck size={13} />}{investigation.provenance === 'recorded' ? 'Recorded Astra run' : 'Completed live run'}</span><span>{formatDate(investigation.createdAt)}</span><button className="text-button export-run" onClick={exportRun}><Download size={12} />Export brief</button></div>
-      {investigation.mode === 'challenge' && <div className="challenged-question"><p>“{investigation.question}”</p></div>}
+      {investigation.mode === 'challenge' && <details className="challenged-question"><summary><span>Challenge question</span><ChevronDown size={13} /></summary><p>“{investigation.question}”</p></details>}
+      <InvestigationChanges investigation={investigation} onOpenSources={onOpenSources} />
       <section className="outlook-panel"><h2>{investigation.outlook.verdict}</h2><p>{investigation.summary}</p><div className="outlook-timing"><CalendarDays size={17} /><div><span>Timing assessment</span><p>{investigation.outlook.timing}</p></div></div><details className="probability-note disclosure"><summary><Activity size={14} /><span>{investigation.outlook.probability != null ? `${Math.round(investigation.outlook.probability * 100)}% · Astra estimate` : 'No candidate-specific probability assigned'}</span><ChevronDown size={13} /></summary><p>{investigation.outlook.probabilityBasis}</p></details></section>
+      {investigation.decisionBrief && <DecisionBrief brief={investigation.decisionBrief} onOpenSources={onOpenSources} />}
       <section className="section findings-section"><div className="section-heading"><h2>What the evidence supports</h2></div>{investigation.findings.map((finding, index) => <FindingCard finding={finding} index={index} sources={sources} onOpenSources={onOpenSources} key={finding.id} />)}</section>
       {investigation.analogs.length > 0 && <details className="section analogs-section disclosure"><summary><Layers3 size={16} /><span>Historical comparisons</span><ChevronDown size={14} /></summary>{investigation.analogs.map((analog, index) => <article className="analog" key={`${index}-${analog.title}`}><h3>{analog.title}</h3><p>{analog.relevance}</p><div className="analog-difference"><span>Key difference</span><p>{analog.difference}</p></div><Sources ids={analog.sourceIds} sources={sources} onOpen={onOpenSources} /></article>)}</details>}
       {investigation.limitations.length > 0 && <details className="limitations-details"><summary><ShieldCheck size={15} />Scope and limitations <ChevronDown size={14} /></summary><ul>{investigation.limitations.map((item) => <li key={item}>{item}</li>)}</ul></details>}
     </>}
   </div><aside className="analysis-aside">
-    <section className="challenge-panel"><div className="section-heading"><h2><Target size={16} />Challenge the outlook</h2></div><p>Give Astra a specific assumption to test against the public evidence.</p><form onSubmit={(event) => { event.preventDefault(); if (question.trim()) onRun(investigation ? 'challenge' : 'investigate', question.trim()); }}><label className="sr-only" htmlFor="challenge-question">Question for Astra</label><textarea id="challenge-question" placeholder="What could make this assessment wrong?" value={question} onChange={(event) => setQuestion(event.target.value)} maxLength={2000} disabled={busy} /><button className="primary-button" disabled={busy || !runtime.configured || !question.trim()} type="submit"><Sparkles size={14} />{investigation ? 'Challenge with Astra' : 'Ask Astra'}<ArrowRight size={14} /></button></form><div className="suggestions">{suggestions.map((suggestion) => <button key={suggestion} onClick={() => setQuestion(suggestion)} disabled={busy}>{suggestion}<ArrowUpRight size={13} /></button>)}</div></section>
+    <section className="challenge-panel"><div className="section-heading"><h2><Target size={16} />Challenge the outlook</h2></div><p>Give Astra a specific assumption to test against the public evidence.</p><form onSubmit={(event) => { event.preventDefault(); if (question.trim()) onRun(investigation ? 'challenge' : 'investigate', question.trim()); }}><label className="sr-only" htmlFor="challenge-question">Question for Astra</label><textarea id="challenge-question" placeholder="What could make this assessment wrong?" value={question} onChange={(event) => setQuestion(event.target.value)} maxLength={2000} disabled={busy} /><button className="primary-button" disabled={busy || !runtime.configured || !question.trim()} type="submit"><ScanSearch size={14} />{investigation ? 'Challenge with Astra' : 'Ask Astra'}<ArrowRight size={14} /></button></form><div className="suggestions">{suggestions.map((suggestion) => <button key={suggestion} onClick={() => setQuestion(suggestion)} disabled={busy}>{suggestion}<ArrowUpRight size={13} /></button>)}</div></section>
     {investigation?.nextEvidence.length ? <section className="section next-evidence"><div className="section-heading"><h2><Search size={15} />What to watch next</h2></div><ol>{investigation.nextEvidence.map((item, index) => <li key={item}><span>{String(index + 1).padStart(2, '0')}</span><p>{item}</p></li>)}</ol></section> : <div className="note-box"><BookOpen size={16} /><p>An investigation will identify the public evidence that could materially change the outlook.</p></div>}
     {investigation?.usage && <details className="run-details disclosure"><summary><span>Run details</span><ChevronDown size={13} /></summary><dl><div><dt>Model</dt><dd>{investigation.model}</dd></div><div><dt>Input tokens</dt><dd>{investigation.usage.inputTokens.toLocaleString()}</dd></div><div><dt>Output tokens</dt><dd>{investigation.usage.outputTokens.toLocaleString()}</dd></div><div><dt>Run ID</dt><dd>{investigation.id}</dd></div></dl></details>}
   </aside></div>;
@@ -293,6 +299,7 @@ export default function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [view, setView] = useState<View>('evidence');
+  const [showOverview, setShowOverview] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [sourceIds, setSourceIds] = useState<string[] | null>(null);
   const [investigation, setInvestigation] = useState<Investigation | null>(null);
@@ -301,6 +308,12 @@ export default function App() {
   const [progress, setProgress] = useState<{ stage: string; message: string }[]>([]);
   const [partialFindings, setPartialFindings] = useState<Finding[]>([]);
   const [investigationError, setInvestigationError] = useState<string | null>(null);
+  const [dossiers, setDossiers] = useState<Record<string, EvidenceDossier>>({});
+  const [researchSources, setResearchSources] = useState<Record<string, Source[]>>({});
+  const [loadingDossier, setLoadingDossier] = useState(false);
+  const [gatheringEvidence, setGatheringEvidence] = useState(false);
+  const [evidenceError, setEvidenceError] = useState<string | null>(null);
+  const evidenceRequestRef = useRef<AbortController | null>(null);
   const requestRef = useRef<AbortController | null>(null);
   const runSequence = useRef(0);
   const historyRequestRef = useRef<AbortController | null>(null);
@@ -321,23 +334,75 @@ export default function App() {
     } finally { if (!signal?.aborted) setRefreshing(false); }
   }, []);
   useEffect(() => { const controller = new AbortController(); void loadDashboard(controller.signal); return () => controller.abort(); }, [loadDashboard]);
-  useEffect(() => () => { requestRef.current?.abort(); historyRequestRef.current?.abort(); }, []);
+  useEffect(() => () => { requestRef.current?.abort(); historyRequestRef.current?.abort(); evidenceRequestRef.current?.abort(); }, []);
+  useEffect(() => {
+    if (!selectedId || !dashboard) return;
+    const controller = new AbortController();
+    const candidateId = selectedId;
+    setEvidenceError(null);
+    evidenceRequestRef.current?.abort();
+    setGatheringEvidence(false);
+    const canLoadDossier = !STATIC_DEMO || dashboard.evidenceCandidateIds?.includes(candidateId);
+    setLoadingDossier(Boolean(canLoadDossier));
+    if (canLoadDossier) void (async () => {
+      try {
+        const response = await fetch(apiDataUrl(`/api/evidence/${encodeURIComponent(candidateId)}`), { signal: controller.signal });
+        if (response.status === 404) return;
+        if (!response.ok) throw new Error(`Evidence dossier returned ${response.status}.`);
+        const dossier = await response.json() as EvidenceDossier;
+        if (dossier.candidateId !== candidateId || !Array.isArray(dossier.families)) throw new Error('The evidence service returned an unexpected dossier.');
+        setDossiers((current) => ({ ...current, [candidateId]: dossier }));
+      } catch (error) { if (!controller.signal.aborted) setEvidenceError(error instanceof Error ? error.message : 'The evidence dossier could not be loaded.'); }
+      finally { if (!controller.signal.aborted) setLoadingDossier(false); }
+    })();
+    const priorRuns = dashboard.investigations.filter((run) => run.candidateId === candidateId).sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+    if (priorRuns.length) void (async () => {
+      const results = await Promise.allSettled(priorRuns.map(async (run) => {
+        const response = await fetch(apiDataUrl(`/api/investigations/${encodeURIComponent(run.id)}`), { signal: controller.signal });
+        if (!response.ok) return null;
+        const research = await response.json() as Investigation;
+        return research.candidateId === candidateId ? research : null;
+      }));
+      if (controller.signal.aborted) return;
+      const runs = results.flatMap((result) => result.status === 'fulfilled' && result.value ? [result.value] : []);
+      setResearchSources((current) => ({ ...current, [candidateId]: mergeInvestigationSources(runs) }));
+    })();
+    return () => controller.abort();
+  }, [selectedId, dashboard?.evidenceCandidateIds, dashboard?.investigations]);
   const candidate = dashboard?.catalog.candidates.find((item) => item.id === selectedId);
-  const allSources = useMemo(() => {
-    const sourceMap = new Map(dashboard?.catalog.sources.map((source) => [source.id, source]) ?? []);
-    for (const source of investigation?.sources ?? []) sourceMap.set(source.id, source);
-    return [...sourceMap.values()];
-  }, [dashboard, investigation]);
-  const candidateSourceIds = useMemo(() => candidate ? [...new Set([...candidate.sourceIds, ...candidate.milestones.flatMap((item) => item.sourceIds), ...candidate.signals.flatMap((item) => item.sourceIds)])] : [], [candidate]);
+  const allSources = useMemo(() => mergeSourceRecords(
+    dashboard?.catalog.sources ?? [],
+    investigation?.sources ?? [],
+    Object.values(researchSources).flat(),
+    Object.values(dashboard?.evidenceSourcesByCandidate ?? {}).flat(),
+    Object.values(dossiers).sort((a, b) => a.generatedAt.localeCompare(b.generatedAt)).flatMap((dossier) => dossier.sources),
+  ), [dashboard, investigation, researchSources, dossiers]);
+  const candidateSourceIds = useMemo(() => candidate ? [...new Set([...candidate.sourceIds, ...candidate.milestones.flatMap((item) => item.sourceIds), ...candidate.signals.flatMap((item) => item.sourceIds), ...(dashboard?.evidenceSourcesByCandidate?.[candidate.id] ?? []).map((source) => source.id), ...(researchSources[candidate.id] ?? []).map((source) => source.id), ...(dossiers[candidate.id]?.sources ?? []).map((source) => source.id), ...(investigation?.candidateId === candidate.id ? investigation.sources.map((source) => source.id) : [])])] : [], [candidate, dashboard?.evidenceSourcesByCandidate, researchSources, dossiers, investigation]);
+  const gatherEvidence = async () => {
+    if (!candidate || STATIC_DEMO || gatheringEvidence) return;
+    const candidateId = candidate.id;
+    const controller = new AbortController(); evidenceRequestRef.current = controller;
+    setGatheringEvidence(true); setEvidenceError(null);
+    try {
+      const response = await fetch(`/api/evidence/${encodeURIComponent(candidateId)}`, { method: 'POST', signal: controller.signal });
+      const payload = await response.json();
+      if (!response.ok) throw new Error(payload?.message ?? payload?.error?.message ?? payload?.error ?? `Evidence gathering failed (${response.status}).`);
+      const dossier = payload as EvidenceDossier;
+      if (dossier.candidateId !== candidateId || !Array.isArray(dossier.families)) throw new Error('The evidence service returned an unexpected dossier.');
+      setDossiers((current) => ({ ...current, [candidateId]: dossier }));
+    } catch (error) { if (!controller.signal.aborted) setEvidenceError(error instanceof Error ? error.message : 'Evidence gathering failed.'); }
+    finally { if (!controller.signal.aborted) setGatheringEvidence(false); }
+  };
   const closeSources = useCallback(() => setSourceIds(null), []);
   const selectCandidate = (id: string) => {
+    setShowOverview(false);
     if (id === selectedId) return;
     runSequence.current += 1;
     requestRef.current?.abort(); historyRequestRef.current?.abort();
     setSelectedId(id); setInvestigation(null); setInvestigationError(null); setPartialFindings([]); setProgress([]); setBusy(false); setLoadingRun(false); setSourceIds(null); setView('evidence');
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
-  const loadRun = async (id: string) => {
+  const loadRun = async (id: string, expectedCandidateId = selectedId) => {
     if (busy) return;
     historyRequestRef.current?.abort();
     const controller = new AbortController(); historyRequestRef.current = controller;
@@ -346,10 +411,16 @@ export default function App() {
       const response = await fetch(apiDataUrl(`/api/investigations/${encodeURIComponent(id)}`), { signal: controller.signal });
       if (!response.ok) throw new Error('The saved investigation could not be loaded.');
       const run = await response.json() as Investigation;
-      if (run.candidateId !== selectedId) throw new Error('This investigation belongs to a different candidate.');
+      if (run.candidateId !== expectedCandidateId) throw new Error('This investigation belongs to a different candidate.');
       setInvestigation(run);
     } catch (error) { if (!controller.signal.aborted) setInvestigationError(error instanceof Error ? error.message : 'Could not load the investigation.'); }
     finally { if (!controller.signal.aborted) setLoadingRun(false); }
+  };
+  const openAnalysis = () => {
+    setView('analysis');
+    if (investigation || busy || loadingRun) return;
+    const savedRun = dashboard?.investigations.find((run) => run.candidateId === selectedId);
+    if (savedRun) void loadRun(savedRun.id);
   };
   const runInvestigation = async (mode: 'investigate' | 'challenge' = 'investigate', question?: string) => {
     if (!candidate || busy || !dashboard?.runtime.configured) return;
@@ -365,7 +436,14 @@ export default function App() {
         if (event.type === 'finding') setPartialFindings((current) => [...current.filter((finding) => finding.id !== event.finding.id), event.finding]);
         if (event.type === 'complete') {
           setInvestigation(event.investigation);
-          setDashboard((current) => current ? { ...current, investigations: [{ id: event.investigation.id, candidateId: event.investigation.candidateId, model: event.investigation.model, createdAt: event.investigation.createdAt, mode: event.investigation.mode, provenance: event.investigation.provenance, summary: event.investigation.summary }, ...current.investigations.filter((run) => run.id !== event.investigation.id)] } : current);
+          setResearchSources((current) => ({ ...current, [event.investigation.candidateId]: mergeSourceRecords(current[event.investigation.candidateId] ?? [], event.investigation.sources) }));
+          setDashboard((current) => {
+            if (!current) return current;
+            const run = event.investigation;
+            const manifest = current.evidenceSourcesByCandidate?.[run.candidateId] ?? [];
+            const hasNewerRun = current.investigations.some((item) => item.candidateId === run.candidateId && item.createdAt > run.createdAt);
+            return { ...current, evidenceSourcesByCandidate: { ...current.evidenceSourcesByCandidate, [run.candidateId]: hasNewerRun ? mergeSourceRecords(run.sources, manifest) : mergeSourceRecords(manifest, run.sources) }, investigations: [{ id: run.id, candidateId: run.candidateId, model: run.model, createdAt: run.createdAt, mode: run.mode, provenance: run.provenance, summary: run.summary }, ...current.investigations.filter((item) => item.id !== run.id)].sort((a, b) => b.createdAt.localeCompare(a.createdAt)) };
+          });
         }
       });
     } catch (error) {
@@ -375,13 +453,14 @@ export default function App() {
 
   if (!dashboard) return <div className="boot-screen"><Logo /><div className="boot-panel">{loadError ? <><CircleAlert size={28} /><h1>Evidence service unavailable</h1><p>{loadError}</p><p className="muted">Check that the API server is running, then retry.</p><button className="primary-button" onClick={() => void loadDashboard()} disabled={refreshing}><RefreshCw className={refreshing ? 'spin' : ''} size={15} />Retry connection</button></> : <><LoaderCircle size={28} className="spin" /><h1>Opening the research desk</h1><p>Loading public evidence and model results…</p></>}</div></div>;
 
-  return <div className="app-shell"><CandidateRail candidates={dashboard.catalog.candidates} selectedId={selectedId} onSelect={selectCandidate} runtime={dashboard.runtime} asOf={dashboard.catalog.asOf} mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} savedCandidateIds={new Set(dashboard.investigations.map((run) => run.candidateId))} />
-    <div className="workspace"><header className="topbar"><div className="topbar-location"><button className="icon-button mobile-menu" onClick={() => setMobileOpen(true)} aria-label="Open candidate navigation"><Menu size={19} /></button><span className="topbar-product">Approval Radar</span><ChevronRight size={12} /><span>{view === 'validation' ? 'Model validation' : candidate?.drug ?? 'Research desk'}</span></div><div className="topbar-right"><Tag tone="blue">{STATIC_DEMO ? 'Public demo' : 'Research beta'}</Tag><button className="icon-button" onClick={() => void loadDashboard()} disabled={refreshing || busy} aria-label="Reload evidence catalog" title="Reload evidence catalog"><RefreshCw size={14} className={refreshing ? 'spin' : ''} /></button></div></header>
+  return <div className="app-shell"><CandidateRail candidates={dashboard.catalog.candidates} selectedId={selectedId} onSelect={selectCandidate} runtime={dashboard.runtime} asOf={dashboard.catalog.asOf} mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} savedCandidateIds={new Set(dashboard.investigations.map((run) => run.candidateId))} showOverview={showOverview} onOverview={() => { setShowOverview(true); window.scrollTo({ top: 0, behavior: 'instant' }); }} />
+    <div className="workspace"><header className="topbar"><div className="topbar-location"><button className="icon-button mobile-menu" onClick={() => setMobileOpen(true)} aria-label="Open candidate navigation"><Menu size={19} /></button><span className="topbar-product">Approval Radar</span><ChevronRight size={12} /><span>{showOverview ? 'All candidates' : view === 'validation' ? 'Model validation' : candidate?.drug ?? 'Research desk'}</span></div><div className="topbar-right"><Tag tone="blue">{STATIC_DEMO ? 'Public demo' : 'Research beta'}</Tag><button className="icon-button" onClick={() => void loadDashboard()} disabled={refreshing || busy} aria-label="Reload evidence catalog" title="Reload evidence catalog"><RefreshCw size={14} className={refreshing ? 'spin' : ''} /></button></div></header>
     <main className="main-content">{loadError && <div className="error-banner" role="alert"><CircleAlert size={15} /><p>Refresh failed. Showing the last loaded catalog. {loadError}</p></div>}
-      {candidate ? <><CandidateHeader candidate={candidate} sourceCount={candidateSourceIds.length} onOpenSources={() => setSourceIds(candidateSourceIds)} /><div className="view-tabs" role="tablist" aria-label="Research view">{([{ id: 'evidence', label: 'Evidence desk', icon: BookOpen }, { id: 'analysis', label: 'Astra investigation', icon: Sparkles }, { id: 'validation', label: 'Model validation', icon: FlaskConical }] as const).map((tab) => <button key={tab.id} id={`tab-${tab.id}`} role="tab" aria-selected={view === tab.id} aria-controls={`panel-${tab.id}`} className={view === tab.id ? 'active' : ''} onClick={() => setView(tab.id)}><tab.icon size={15} />{tab.label}{tab.id === 'analysis' && busy && <span className="tab-working" />}</button>)}</div>
+      {showOverview ? <CandidateOverview dashboard={dashboard} selectedCandidate={candidate} onResume={() => setShowOverview(false)} onSelect={(id, analysis) => { selectCandidate(id); if (analysis) { const run = dashboard.investigations.find((item) => item.candidateId === id); if (run) void loadRun(run.id, id); } }} renderLogo={(item) => <CompanyLogos candidateId={item.id} compact />} onSources={setSourceIds} extraSources={Object.fromEntries(dashboard.catalog.candidates.map((item) => [item.id, mergeSourceRecords(investigation?.candidateId === item.id ? investigation.sources : [], researchSources[item.id] ?? [], dashboard.evidenceSourcesByCandidate?.[item.id] ?? [], dossiers[item.id]?.sources ?? [])]))} /> : candidate ? <><CandidateHeader candidate={candidate} sourceCount={candidateSourceIds.length} onOpenSources={() => setSourceIds(candidateSourceIds)} /><div className="view-tabs" role="tablist" aria-label="Research view">{([{ id: 'evidence', label: 'Evidence desk', icon: BookOpen }, { id: 'analysis', label: 'Astra investigation', icon: ScanSearch }, { id: 'sources', label: 'Evidence map', icon: Network }, { id: 'validation', label: 'Model validation', icon: FlaskConical }] as const).map((tab) => <button key={tab.id} id={`tab-${tab.id}`} role="tab" aria-selected={view === tab.id} aria-controls={`panel-${tab.id}`} className={view === tab.id ? 'active' : ''} onClick={() => tab.id === 'analysis' ? openAnalysis() : setView(tab.id)}><tab.icon size={15} />{tab.label}{tab.id === 'analysis' && busy && <span className="tab-working" />}</button>)}</div>
         <div role="tabpanel" id={`panel-${view}`} aria-labelledby={`tab-${view}`}>
-          {view === 'evidence' && <ResearchDesk candidate={candidate} sources={allSources} onOpenSources={setSourceIds} runtime={dashboard.runtime} onInvestigate={() => void runInvestigation()} busy={busy} onAnalysis={() => setView('analysis')} hasInvestigation={!!investigation} model={dashboard.model} onValidation={() => setView('validation')} savedRun={dashboard.investigations.find((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} />}
+          {view === 'evidence' && <ResearchDesk candidate={candidate} sources={allSources} onOpenSources={setSourceIds} runtime={dashboard.runtime} onInvestigate={() => void runInvestigation()} busy={busy} onAnalysis={openAnalysis} hasInvestigation={!!investigation} model={dashboard.model} onValidation={() => setView('validation')} savedRun={dashboard.investigations.find((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} />}
           {view === 'analysis' && <InvestigationView candidate={candidate} runtime={dashboard.runtime} investigation={investigation} busy={busy} progress={progress} partialFindings={partialFindings} error={investigationError} sources={allSources} onOpenSources={setSourceIds} onRun={(mode, question) => void runInvestigation(mode, question)} onCancel={() => requestRef.current?.abort()} history={dashboard.investigations.filter((run) => run.candidateId === candidate.id)} onLoadRun={(id) => void loadRun(id)} loadingRun={loadingRun} />}
+          {view === 'sources' && <EvidenceMap sources={allSources.filter((source) => candidateSourceIds.includes(source.id))} dossier={dossiers[candidate.id]} gathering={gatheringEvidence} loading={loadingDossier} error={evidenceError} staticDemo={STATIC_DEMO} onGather={() => void gatherEvidence()} onSources={setSourceIds} />}
           {view === 'validation' && <ValidationView model={dashboard.model} coverage={dashboard.catalog.coverage} />}
         </div></> : <EmptyState icon={<Search size={26} />} title="The watchlist is ready for evidence" detail="Publish the public candidate catalog to begin exploring regulatory milestones and source-linked investigations." action={<button className="secondary-button" onClick={() => void loadDashboard()}><RefreshCw size={14} />Refresh catalog</button>} />}
       <footer className="workspace-footer"><span><ShieldCheck size={13} />Public-source research · Not an FDA determination</span><span>Approval Radar <span className="footer-slash">/</span> FDAgent</span></footer>

@@ -12,7 +12,9 @@ python3 scripts/data/refresh_sources.py
 python3 scripts/data/refresh_sources.py --candidate deramiocel-dmd
 ```
 
-`build_catalog.py` deterministically reproduces the curated snapshot. Its fixed timestamp identifies the original review, not a fresh retrieval. Updating the evidence cutoff or statements requires source review and edits to that file.
+`build_catalog.py` deterministically reproduces the curated snapshot: the original nine episodes live in the builder, and 24 additional episodes with their source records live in `expanded_catalog.json`. The combined result currently contains 33 episodes and 98 primary sources. The fixed retrieval timestamps identify actual source review, not a fresh retrieval. Updating the evidence cutoff or statements requires source review and edits to the appropriate input. The builder replaces the output atomically so a running server never reads a partially written catalog.
+
+The September 10 snapshot includes 32 pending reviews and one completed episode: FDA approved zilganersen September 3, ahead of its old September 22 target. Separate indications, combinations and home-use expansions are separate episodes, so 33 episodes does not mean 33 unique drug molecules. `data/brand-sites.json` maps episodes to 29 official company sites; it is an identity/display aid, not evidence of a product–facility relationship or an exhaustive partnership map.
 
 `refresh_sources.py` uses public HTTPS endpoints and the Python standard library. ClinicalTrials.gov pages are fetched through the public v2 JSON API. It writes transport status, hashes, retrieval dates, registry metadata and excerpt-presence checks to `data/source-health.json`; it does not overwrite the reviewed catalog or classify application outcomes. Failures are reported per source. Raw fetched pages/PDFs are stored in ignored `data/.cache/`. A successful request, changed hash or matching excerpt does not establish scientific truth, new information or pending FDA status.
 

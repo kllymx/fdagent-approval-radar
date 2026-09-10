@@ -6,10 +6,21 @@ import {
   onDomain,
   publicHttpsUrl,
   sourceWindows,
+  ResearchSession,
 } from "../server/tools.js";
-import { reportSchema, type Report, type Source } from "../shared/schema.js";
+import {
+  reportSchema,
+  type Report,
+  type Source,
+  type Candidate,
+  type Catalog,
+} from "../shared/schema.js";
+import { gatherDossier, readDossier } from "../server/dossier.js";
+import { queryFDAgent } from "../server/fdagent.js";
+import { randomUUID } from "node:crypto";
+import { rm } from "node:fs/promises";
 
-// All fixtures are local unit-test inputs. Nothing invokes a model, a network, or a write tool.
+// All fixtures are local unit-test inputs. Upstream APIs and paid models are never called.
 const source: Source = {
   id: "fda-reference",
   title: "FDA source fixture",
@@ -20,6 +31,130 @@ const source: Source = {
   kind: "fda",
   summary: "A source used solely to test reference validation.",
 };
+test("find_in_source preserves citation-metadata scope when a title contains the searched phrase", async () => {
+  const metadata: Source = {
+    ...source,
+    id: "evidence-publications-123",
+    kind: "publication",
+    contentKind: "metadata",
+    fullText: JSON.stringify({
+      title: "An efficacy result",
+      abstractRetrieved: false,
+    }),
+  };
+  const session = new ResearchSession(
+    { sourceIds: [metadata.id] } as Candidate,
+    { sources: [metadata] } as Catalog,
+  );
+  const result = (await session.execute("find_in_source", {
+    sourceId: metadata.id,
+    query: "efficacy result",
+  })) as { coverage: string; totalMatches: number };
+  assert.equal(result.totalMatches, 1);
+  assert.match(result.coverage, /Normalized database metadata only/);
+  assert.match(result.coverage, /not the full publication/);
+});
+
+test("cancelled research sessions and FDAgent calls reject before starting any work", async () => {
+  const controller = new AbortController();
+  controller.abort();
+  const session = new ResearchSession(
+    { sourceIds: [] } as unknown as Candidate,
+    { sources: [] } as unknown as Catalog,
+    controller.signal,
+  );
+  await assert.rejects(
+    session.execute("query_fdagent", {
+      dataset: "facility",
+      query: "1234567890",
+    }),
+    { name: "AbortError" },
+  );
+  await assert.rejects(
+    queryFDAgent("facility", "1234567890", { signal: controller.signal }),
+    { name: "AbortError" },
+  );
+});
+
+test("one cancelled dossier subscriber does not cancel another subscriber's shared scan", async () => {
+  const originalFetch = globalThis.fetch;
+  const originalEntry = process.env.FDAGENT_MCP_ENTRY;
+  delete process.env.FDAGENT_MCP_ENTRY;
+  const candidate = {
+    id: `test-cancel-${randomUUID()}`,
+    drug: "FixtureDrug",
+    sponsor: "FixtureSponsor",
+    nctIds: [],
+  } as unknown as Candidate;
+  const controller = new AbortController();
+  const signals: AbortSignal[] = [];
+  let started!: () => void;
+  const firstRequest = new Promise<void>((resolve) => {
+    started = resolve;
+  });
+  let release!: () => void;
+  const hold = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  globalThis.fetch = async (input, init) => {
+    if (init?.signal) signals.push(init.signal);
+    started();
+    await hold;
+    init?.signal?.throwIfAborted();
+    const url = new URL(String(input));
+    return Response.json(
+      url.hostname === "clinicaltrials.gov"
+        ? { studies: [], totalCount: 0 }
+        : url.hostname === "api.fda.gov"
+          ? { results: [], meta: { results: { total: 0 } } }
+          : { esearchresult: { count: "0", idlist: [] } },
+    );
+  };
+  try {
+    const first = gatherDossier(candidate, undefined, {
+      signal: controller.signal,
+      refresh: true,
+    });
+    const rejected = assert.rejects(first, { name: "AbortError" });
+    await firstRequest;
+    // Read the cache and join the existing scan before aborting its first subscriber.
+    let joined!: () => void;
+    const joinedScan = new Promise<void>((resolve) => {
+      joined = resolve;
+    });
+    const second = gatherDossier(
+      candidate,
+      (message) => {
+        if (message.startsWith("Joining")) joined();
+      },
+      { refresh: true },
+    );
+    await joinedScan;
+    controller.abort();
+    await rejected;
+    assert.ok(
+      signals.every((signal) => !signal.aborted),
+      "The shared upstream requests still have an active subscriber",
+    );
+    release();
+    const completed = await second;
+    assert.equal(completed.candidateId, candidate.id);
+    assert.ok(completed.families.every((family) => family.status !== "error"));
+    assert.equal(
+      signals.length,
+      4,
+      "Both subscribers share a single set of requests",
+    );
+    assert.equal((await readDossier(candidate.id))?.candidateId, candidate.id);
+  } finally {
+    release();
+    globalThis.fetch = originalFetch;
+    if (originalEntry === undefined) delete process.env.FDAGENT_MCP_ENTRY;
+    else process.env.FDAGENT_MCP_ENTRY = originalEntry;
+    await rm(`.cache/evidence/${candidate.id}.json`, { force: true });
+  }
+});
+
 function groundedReport(): Report {
   return {
     summary: "The available evidence leaves the final decision unresolved.",
@@ -62,6 +197,59 @@ test("accepts a schema-valid report with known references and a withheld probabi
     ),
   );
   assert.equal(result.report.outlook.probability, null);
+});
+
+test("diligence and change sections cannot introduce unknown or empty source references", () => {
+  const report = groundedReport();
+  report.changes = {
+    disposition: "revised",
+    summary: "A claim changed",
+    items: [
+      {
+        previousClaim: "Prior claim",
+        currentClaim: "New claim",
+        reason: "New evidence",
+        sourceIds: ["unseen-update"],
+      },
+    ],
+  };
+  assert.throws(
+    () => validateReport(report, [source]),
+    /reference does not exist.*unseen-update/,
+  );
+  report.changes.items[0].sourceIds = [];
+  assert.throws(
+    () => validateReport(report, [source]),
+    /no evidence references/,
+  );
+  report.changes.items[0].sourceIds = [source.id];
+  assert.equal(
+    validateReport(report, [source]).report.changes?.disposition,
+    "revised",
+  );
+  report.decisionBrief = {
+    pivotalQuestion: "What resolves the question?",
+    bullCase: { claim: "Support", sourceIds: [source.id] },
+    bearCase: { claim: "Concern", sourceIds: [source.id] },
+    decisiveEvidence: {
+      question: "Which evidence?",
+      whyItMatters: "It distinguishes the cases",
+      sourceIds: [source.id],
+    },
+    scenarios: [
+      {
+        label: "Conditional scenario",
+        trigger: "New result",
+        implication: "Reassess",
+        sourceIds: ["unseen-scenario"],
+      },
+    ],
+    diligenceQuestions: [],
+  };
+  assert.throws(
+    () => validateReport(report, [source]),
+    /reference does not exist.*unseen-scenario/,
+  );
 });
 
 test("rejects unknown finding references even when other references are valid", () => {

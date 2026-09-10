@@ -1,0 +1,329 @@
+{
+  "candidateId": "molgramostim-apap",
+  "generatedAt": "2026-09-10T18:52:02.916Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 1,
+      "returned": 1,
+      "sourceIds": [
+        "evidence-trials-NCT04544293"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT04544293",
+          "title": "Clinical Trial of Inhaled Molgramostim Nebulizer Solution in Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+          "url": "https://clinicaltrials.gov/study/NCT04544293",
+          "fields": {
+            "nctId": "NCT04544293",
+            "sponsor": "Savara Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Autoimmune Pulmonary Alveolar Proteinosis"
+            ],
+            "interventions": [
+              "Molgramostim",
+              "Placebo",
+              "Molgramostim Open-label"
+            ],
+            "enrollment": {
+              "count": 164,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Change From Baseline in Percent (%) Predicted Diffusing Capacity of the Lung for Carbon Monoxide (DLCO) Adjusted for Hemoglobin Concentration to Week 24",
+                "timeFrame": "From Baseline to Week 24"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2023-11-30",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-08-26",
+            "resultsFirstPostDate": "2025-08-07",
+            "hasPostedResults": true
+          },
+          "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Savara Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT04544293"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 33,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-40834301",
+        "evidence-publications-32897035",
+        "evidence-publications-40973220",
+        "evidence-publications-41085041",
+        "evidence-publications-8695266"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "40834301",
+          "title": "Phase 3 Trial of Inhaled Molgramostim in Autoimmune Pulmonary Alveolar Proteinosis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40834301/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2025 Aug 21. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40834301",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2025 Aug 21",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "authors": [
+              "Trapnell BC",
+              "Inoue Y",
+              "Bonella F",
+              "Wang T",
+              "McCarthy C",
+              "Arai T"
+            ],
+            "doi": "10.1056/NEJMoa2410542",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40834301%2C32897035%2C40973220%2C41085041%2C8695266&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40834301"
+        },
+        {
+          "id": "32897035",
+          "title": "Inhaled Molgramostim Therapy in Autoimmune Pulmonary Alveolar Proteinosis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32897035/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2020 Oct 22. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "32897035",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2020 Oct 22",
+            "electronicPublicationDate": "2020 Sep 7",
+            "publicationTypes": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Trapnell BC",
+              "Inoue Y",
+              "Bonella F",
+              "Morgan C",
+              "Jouneau S",
+              "Bendstrup E"
+            ],
+            "doi": "10.1056/NEJMoa1913590",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40834301%2C32897035%2C40973220%2C41085041%2C8695266&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-32897035"
+        },
+        {
+          "id": "40973220",
+          "title": "Pharmacokinetics and pharmacodynamics of inhaled molgramostim in healthy people.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40973220/",
+          "summary": "Indexed citation in BMJ open respiratory research; publication date 2025 Sep 18. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40973220",
+            "journal": "BMJ open respiratory research",
+            "publicationDate": "2025 Sep 18",
+            "electronicPublicationDate": "2025 Sep 18",
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase I"
+            ],
+            "authors": [
+              "Trapnell BC",
+              "Carey BC",
+              "Robinson BR"
+            ],
+            "doi": "10.1136/bmjresp-2024-002832",
+            "citationStatus": "3",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40834301%2C32897035%2C40973220%2C41085041%2C8695266&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40973220"
+        },
+        {
+          "id": "41085041",
+          "title": "Recombinant GM-CSF drug evaluation review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41085041/",
+          "summary": "Indexed citation in Immunotherapy; publication date 2025 Oct. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "41085041",
+            "journal": "Immunotherapy",
+            "publicationDate": "2025 Oct",
+            "electronicPublicationDate": "2025 Oct 14",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "McCarthy J",
+              "Boyle N",
+              "McCarthy C"
+            ],
+            "doi": "10.1080/1750743X.2025.2571020",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40834301%2C32897035%2C40973220%2C41085041%2C8695266&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-41085041"
+        },
+        {
+          "id": "8695266",
+          "title": "Phase I trial of etoposide, doxorubicin and cisplatin (EAP) in combination with GM-CSF.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8695266/",
+          "summary": "Indexed citation in European journal of cancer (Oxford, England : 1990); publication date 1996 Apr. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "8695266",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "publicationDate": "1996 Apr",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Clinical Trial",
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "authors": [
+              "Ford PA",
+              "Arbuck SG",
+              "Minniti C",
+              "Miller LL",
+              "DeMaria D",
+              "O'Dwyer PJ"
+            ],
+            "doi": "10.1016/0959-8049(95)00602-8",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40834301%2C32897035%2C40973220%2C41085041%2C8695266&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-8695266"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04544293",
+      "title": "Clinical Trial of Inhaled Molgramostim Nebulizer Solution in Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+      "url": "https://clinicaltrials.gov/study/NCT04544293",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-26",
+      "retrievedAt": "2026-09-10T18:52:02.177Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Savara Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40834301",
+      "title": "Phase 3 Trial of Inhaled Molgramostim in Autoimmune Pulmonary Alveolar Proteinosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40834301/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:52:02.526Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2025 Aug 21. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-32897035",
+      "title": "Inhaled Molgramostim Therapy in Autoimmune Pulmonary Alveolar Proteinosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32897035/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:52:02.526Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2020 Oct 22. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40973220",
+      "title": "Pharmacokinetics and pharmacodynamics of inhaled molgramostim in healthy people.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40973220/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:52:02.526Z",
+      "summary": "Indexed citation in BMJ open respiratory research; publication date 2025 Sep 18. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41085041",
+      "title": "Recombinant GM-CSF drug evaluation review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41085041/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:52:02.526Z",
+      "summary": "Indexed citation in Immunotherapy; publication date 2025 Oct. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-8695266",
+      "title": "Phase I trial of etoposide, doxorubicin and cisplatin (EAP) in combination with GM-CSF.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8695266/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:52:02.526Z",
+      "summary": "Indexed citation in European journal of cancer (Oxford, England : 1990); publication date 1996 Apr. Abstract and full text have not been assessed."
+    }
+  ]
+}

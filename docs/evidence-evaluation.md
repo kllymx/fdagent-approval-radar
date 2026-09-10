@@ -61,6 +61,14 @@ This is one observed example of evidence-responsive revision. It does not establ
 
 The more detailed claim checks are in [recorded-run-review.md](../data/recorded-run-review.md).
 
+## Expanded decision-brief investigations
+
+The later satralizumab run (`88baf4b3-0ec3-4dd4-b344-34a8b1e170ab`) inspected both pivotal registry result records and a September 7 results publication. Independent project-agent review verified the primary estimates, stopped fixed-sequence testing in SatraGO-1, continuous proptosis/diplopia differences, safety counts and the distinction between a manufacturing supplement for an existing product and TED approval. Its specific diligence questions concern the locked analysis plan, robustness, label population and FDA feedback. The answer remains unchanged in the recorded artifact; this is bounded factual review, not external expert validation.
+
+The further apitegromab challenge (`fd8efe13-d17e-47d4-8245-867f37157055`) exercised the existing FDAgent MCP data connection. It distinguished a BIMO research inspection from CGMP manufacturing acceptance and returned an accurate **unchanged** comparison with the previous report. The private compliance dataset is not redistributed. Nonlinked records remain research leads and the report identifies the original-source gap.
+
+See the [review log](../data/recorded-run-review.md) for scope and an incomplete zanzalintinib-attempt disclosure. Completed-run metrics exclude unsuccessful attempts and are not total experiment cost. These new examples do not change the five-case rubric score below.
+
 ## Five completed document-only cases
 
 Astra answered all five questions in [evaluation-cases.json](../data/evaluation-cases.json) using the selected original public documents. A separate research agent manually graded the answers against the twenty previously authored expected distinctions: **19 met, one partially met, none absent or contradicted**. None of the fourteen listed critical overclaims was observed. These are coverage counts for this small selected suite, not a representative accuracy estimate or validation of approval forecasts.

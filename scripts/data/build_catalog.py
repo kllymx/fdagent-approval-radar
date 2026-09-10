@@ -149,12 +149,18 @@ candidate('floretyrosine-glioma','Floretyrosine F 18 (TLX101-Px)','PET character
 
 next(c for c in CANDIDATES if c['id']=='deramiocel-dmd')['applicationNumber']='125842'
 
-catalog=dict(schemaVersion=1,generatedAt=RETRIEVED,asOf=AS_OF,candidates=CANDIDATES,sources=SOURCES,coverage=dict(title='Nine real FDA review episodes',description='Manually curated and source-linked public evidence for nine drug–indication or diagnostic review episodes, checked September 10, 2026. This is a focused demonstration collection, not a census or model-training cohort.',limitations=[
+expansion=json.loads((ROOT/'scripts/data/expanded_catalog.json').read_text())
+CANDIDATES.extend(expansion['candidates'])
+SOURCES.extend(expansion['sources'])
+
+catalog=dict(schemaVersion=1,generatedAt=expansion['generatedAt'],asOf=AS_OF,candidates=CANDIDATES,sources=SOURCES,coverage=dict(title=f'{len(CANDIDATES)} real FDA review episodes',description='Manually curated public evidence for 33 drug–indication or diagnostic episodes: 32 pending reviews and one verified September 3 approval, checked September 10, 2026. Separate indications, combinations and setting expansions remain separate episodes. This is a focused diligence collection, not a complete registry or model-training cohort.',limitations=[
 'Current review status reflects the latest identified sponsor/SEC disclosures and a contemporaneous outcome search; FDA does not publish a complete live pending-application registry.',
 'All FDA action dates are sponsor-reported targets. They are not approval predictions, and may change or precede an earlier action.',
 'No numerical approval probabilities are supplied by this catalog. Supportive/concern labels are qualitative curation, not a trained score or Astra output.',
 'Sponsor statements and SEC-filed sponsor exhibits are attributed reports, not independent FDA conclusions. Trial registry records are submitted by responsible parties.',
 'Trial snapshots are current at retrieval. Do not use later-updated records as historical features without a historical version; total enrollment may differ from a pivotal analysis population.',
+'The expanded collection varies in evidence depth. Some episodes have one acceptance release plus a verified registry snapshot; others include later SEC disclosures or FDA documents. Live investigations can find material documents beyond the curated packet.',
+'Zilganersen is already approved as of September 3. Its September 22 target is retained only as historical evidence of a calendar overtaken by an earlier action; do not count it as pending.',
 'Missing manufacturing findings, unpublished results and unobserved regulatory correspondence are unknown, not evidence that a concern is absent.',
 'The Catalent Form 483 issue date is known but its exact public posting date is not. It must be excluded from historical as-of backtests unless first-public availability is established.',
 'No private FDAgent data, customer uploads or fictional company records are included. Source summaries are human/agent-curated; new Astra investigations carry separate provenance.'
@@ -162,5 +168,7 @@ catalog=dict(schemaVersion=1,generatedAt=RETRIEVED,asOf=AS_OF,candidates=CANDIDA
 
 if __name__ == '__main__':
     output=ROOT/'data/catalog.json'
-    output.write_text(json.dumps(catalog,indent=2,ensure_ascii=False)+'\n')
+    temporary=output.with_suffix('.tmp')
+    temporary.write_text(json.dumps(catalog,indent=2,ensure_ascii=False)+'\n')
+    temporary.replace(output)
     print(f'Wrote {len(CANDIDATES)} candidates and {len(SOURCES)} primary sources to {output}')

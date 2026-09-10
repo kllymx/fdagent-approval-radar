@@ -1,0 +1,385 @@
+{
+  "candidateId": "lorundrostat-hypertension",
+  "generatedAt": "2026-09-10T18:56:16.103Z",
+  "provenance": "recorded",
+  "families": [
+    {
+      "id": "trials",
+      "label": "ClinicalTrials.gov",
+      "status": "ready",
+      "total": 2,
+      "returned": 2,
+      "sourceIds": [
+        "evidence-trials-NCT05769608",
+        "evidence-trials-NCT06153693"
+      ],
+      "coverage": "Registered protocols and posted results availability; not FDA review conclusions. Exact catalog-linked NCT identifiers were retrieved; this is not an exhaustive drug-name search. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Sponsor/condition filters are combined with the intervention filter. Study completion and posted-results availability do not establish endpoint success, FDA acceptance, or approval.",
+      "records": [
+        {
+          "id": "NCT05769608",
+          "title": "A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+          "url": "https://clinicaltrials.gov/study/NCT05769608",
+          "fields": {
+            "nctId": "NCT05769608",
+            "sponsor": "Mineralys Therapeutics Inc.",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Hypertension"
+            ],
+            "interventions": [
+              "Placebo",
+              "lorundrostat Dose 1",
+              "lorundrostat Dose 2"
+            ],
+            "enrollment": {
+              "count": 285,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Change in 24-hour average ambulatory blood pressure monitoring (ABPM) systolic blood pressure (SBP)",
+                "timeFrame": "Baseline (Randomization) to Week 12"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2025-01-15",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-01-20",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT05769608"
+        },
+        {
+          "id": "NCT06153693",
+          "title": "Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+          "url": "https://clinicaltrials.gov/study/NCT06153693",
+          "fields": {
+            "nctId": "NCT06153693",
+            "sponsor": "Mineralys Therapeutics Inc.",
+            "status": "COMPLETED",
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL",
+            "conditions": [
+              "Hypertension"
+            ],
+            "interventions": [
+              "Placebo",
+              "lorundrostat Dose 1",
+              "lorundrostat Dose 2"
+            ],
+            "enrollment": {
+              "count": 1083,
+              "type": "ACTUAL"
+            },
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline in automated office BP (AOBP) SBP at Week 6 in subjects randomized to lorundrostat 50 mg QD compared to subjects randomized to placebo",
+                "timeFrame": "Week 6"
+              }
+            ],
+            "primaryOutcomesReturned": 1,
+            "primaryOutcomesTotal": 1,
+            "primaryCompletionDate": "2024-12-10",
+            "primaryCompletionDateType": "ACTUAL",
+            "lastUpdatePostDate": "2026-05-01",
+            "resultsFirstPostDate": null,
+            "hasPostedResults": false
+          },
+          "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion.",
+          "sourceId": "evidence-trials-NCT06153693"
+        }
+      ]
+    },
+    {
+      "id": "approvals",
+      "label": "Drugs@FDA",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Application and submission records for approved products; not a complete pending-application registry. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Approved-product records can supply comparator histories. They are not a denominator for pending applications or rejected products, and do not establish the requested indication is approved. Submission status dates are FDA action/status dates, not submission receipt dates. ORIG and SUPPL records remain separate; latest supplements may concern other indications.",
+      "records": []
+    },
+    {
+      "id": "labels",
+      "label": "Drug labeling",
+      "status": "empty",
+      "total": 0,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "Company-submitted Structured Product Labeling; listing does not itself establish FDA approval. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. SPL is company-submitted listing information; openFDA says its content is not verified and may differ from approved or currently distributed labeling. A label hit is not proof of FDA approval. Label effective date is not publication date, first approval date, or proof of availability at a historical cutoff. Section presence is not a clinical risk assessment. Only a short indication excerpt and section availability are returned; open the full source to assess populations, warnings, and clinical data.",
+      "records": []
+    },
+    {
+      "id": "publications",
+      "label": "PubMed",
+      "status": "ready",
+      "total": 13,
+      "returned": 5,
+      "sourceIds": [
+        "evidence-publications-40587141",
+        "evidence-publications-40267417",
+        "evidence-publications-38616212",
+        "evidence-publications-40901557",
+        "evidence-publications-39152532"
+      ],
+      "coverage": "Indexed publication metadata; titles and indexing do not establish efficacy or regulatory sufficiency. Current public snapshot; not a historical as-of dataset. Retrieval time is not the event or publication date. Search matches require drug, sponsor, formulation, and indication verification; a name match alone is not a confirmed candidate match. Results are bounded and may omit aliases, older records, unindexed evidence, and undisclosed information. No match means unknown, not a negative finding. Clinical publication discovery uses title/abstract drug and condition terms plus trial/phase indexing; this is not a systematic literature review and may miss unindexed or differently named studies. Only citation metadata is retrieved. Abstracts, full text, endpoint estimates, statistical methods, retractions, and risk of bias have not been appraised. Publication date and indexing are distinct from public availability at a forecast cutoff; no historical availability guarantee is made.",
+      "records": [
+        {
+          "id": "40587141",
+          "title": "Lorundrostat in Participants With Uncontrolled Hypertension and Treatment-Resistant Hypertension: The Launch-HTN Randomized Clinical Trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40587141/",
+          "summary": "Indexed citation in JAMA; publication date 2025 Aug 5. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40587141",
+            "journal": "JAMA",
+            "publicationDate": "2025 Aug 5",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Saxena M",
+              "Laffin L",
+              "Borghi C",
+              "Fernandez Fernandez B",
+              "Ghali JK",
+              "Kopjar B"
+            ],
+            "doi": "10.1001/jama.2025.9413",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40587141%2C40267417%2C38616212%2C40901557%2C39152532&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40587141"
+        },
+        {
+          "id": "40267417",
+          "title": "Lorundrostat Efficacy and Safety in Patients with Uncontrolled Hypertension.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40267417/",
+          "summary": "Indexed citation in The New England journal of medicine; publication date 2025 May 8. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40267417",
+            "journal": "The New England journal of medicine",
+            "publicationDate": "2025 May 8",
+            "electronicPublicationDate": "2025 Apr 23",
+            "publicationTypes": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "authors": [
+              "Laffin LJ",
+              "Kopjar B",
+              "Melgaard C",
+              "Wolski K",
+              "Ibbitson J",
+              "Bhikam S"
+            ],
+            "doi": "10.1056/NEJMoa2501440",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40587141%2C40267417%2C38616212%2C40901557%2C39152532&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40267417"
+        },
+        {
+          "id": "38616212",
+          "title": "Systematic Review Article: New Drug Strategies for Treating Resistant Hypertension-the Importance of a Mechanistic, Personalized Approach.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38616212/",
+          "summary": "Indexed citation in High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension; publication date 2024 Mar. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "38616212",
+            "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+            "publicationDate": "2024 Mar",
+            "electronicPublicationDate": "2024 Apr 14",
+            "publicationTypes": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "authors": [
+              "Nardoianni G",
+              "Pala B",
+              "Scoccia A",
+              "Volpe M",
+              "Barbato E",
+              "Tocci G"
+            ],
+            "doi": "10.1007/s40292-024-00634-4",
+            "citationStatus": "256",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40587141%2C40267417%2C38616212%2C40901557%2C39152532&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-38616212"
+        },
+        {
+          "id": "40901557",
+          "title": "The Emerging Role of Aldosterone Synthase Inhibitors in Overcoming Renin-Angiotensin-Aldosterone System Therapy Limitations: A Narrative Review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40901557/",
+          "summary": "Indexed citation in Cardiac failure review; publication date 2025. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "40901557",
+            "journal": "Cardiac failure review",
+            "publicationDate": "2025",
+            "electronicPublicationDate": "2025 Aug 18",
+            "publicationTypes": [
+              "Journal Article",
+              "Review"
+            ],
+            "authors": [
+              "Patel SK",
+              "Teoh H",
+              "Saunthar A",
+              "Yau TM",
+              "Verma S"
+            ],
+            "doi": "10.15420/cfr.2025.09",
+            "citationStatus": "258",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40587141%2C40267417%2C38616212%2C40901557%2C39152532&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-40901557"
+        },
+        {
+          "id": "39152532",
+          "title": "First-in-human study evaluating safety, pharmacokinetics, and pharmacodynamics of lorundrostat, a novel and highly selective aldosterone synthase inhibitor.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39152532/",
+          "summary": "Indexed citation in Clinical and translational science; publication date 2024 Aug. Abstract and full text have not been assessed.",
+          "fields": {
+            "pmid": "39152532",
+            "journal": "Clinical and translational science",
+            "publicationDate": "2024 Aug",
+            "electronicPublicationDate": null,
+            "publicationTypes": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase I",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "authors": [
+              "Shimizu H",
+              "Tortorici MA",
+              "Ohta Y",
+              "Ogawa K",
+              "Rahman SMA",
+              "Fujii A"
+            ],
+            "doi": "10.1111/cts.70000",
+            "citationStatus": "4",
+            "abstractRetrieved": false,
+            "fullTextRetrieved": false,
+            "summaryApiUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40587141%2C40267417%2C38616212%2C40901557%2C39152532&retmode=json&tool=fdagent_approval_radar"
+          },
+          "sourceId": "evidence-publications-39152532"
+        }
+      ]
+    },
+    {
+      "id": "fdagent",
+      "label": "FDAgent compliance",
+      "status": "not_checked",
+      "total": null,
+      "returned": 0,
+      "sourceIds": [],
+      "coverage": "The local app can query an existing FDAgent MCP installation. Its compliance dataset is not redistributed in this public snapshot.",
+      "records": []
+    }
+  ],
+  "sources": [
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05769608",
+      "title": "A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+      "url": "https://clinicaltrials.gov/study/NCT05769608",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-01-20",
+      "retrievedAt": "2026-09-10T18:56:15.367Z",
+      "summary": "Registry protocol: COMPLETED; PHASE2; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06153693",
+      "title": "Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+      "url": "https://clinicaltrials.gov/study/NCT06153693",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-01",
+      "retrievedAt": "2026-09-10T18:56:15.367Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Mineralys Therapeutics Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40587141",
+      "title": "Lorundrostat in Participants With Uncontrolled Hypertension and Treatment-Resistant Hypertension: The Launch-HTN Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40587141/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in JAMA; publication date 2025 Aug 5. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40267417",
+      "title": "Lorundrostat Efficacy and Safety in Patients with Uncontrolled Hypertension.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40267417/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in The New England journal of medicine; publication date 2025 May 8. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38616212",
+      "title": "Systematic Review Article: New Drug Strategies for Treating Resistant Hypertension-the Importance of a Mechanistic, Personalized Approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38616212/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension; publication date 2024 Mar. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-40901557",
+      "title": "The Emerging Role of Aldosterone Synthase Inhibitors in Overcoming Renin-Angiotensin-Aldosterone System Therapy Limitations: A Narrative Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40901557/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in Cardiac failure review; publication date 2025. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39152532",
+      "title": "First-in-human study evaluating safety, pharmacokinetics, and pharmacodynamics of lorundrostat, a novel and highly selective aldosterone synthase inhibitor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39152532/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T18:56:16.102Z",
+      "summary": "Indexed citation in Clinical and translational science; publication date 2024 Aug. Abstract and full text have not been assessed."
+    }
+  ]
+}

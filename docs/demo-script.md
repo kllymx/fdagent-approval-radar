@@ -2,71 +2,70 @@
 
 ## Before presenting
 
-Open the workbench. Confirm that the two recorded investigations and apitegromab follow-up challenge are available. Check the live runtime's model and credentials if offering a fresh challenge. Open **Model validation** once. The evidence cutoff is September 10, 2026; recheck status before reusing the script on a later date.
+Open the local workbench and **All candidates**. The public site is a recorded September 10, 2026 snapshot; the local app can run live research. Check Astra access with `pnpm preflight` before inviting a new question. Keep recorded labels visible. A fresh run can take several minutes and may encounter source/provider failures.
 
-All three recorded runs below actually executed with `gpt-6-astra`. Keep the **recorded** label visible and identify replays plainly. A fresh live invocation may find different evidence; show its actual progress and wait for completion before discussing its answer. The initial catalog is a curated starting packet, not a complete index of public disclosures.
+## 0:00–0:35 · A decision, not just a date
 
-## 0:00–0:30 · The diligence question
+**Show the 33-candidate overview. Search for satralizumab.**
 
-**Show the candidate list; select apitegromab.**
+> “For an investor or licensing team, the useful question is which assumption could change the value of an asset. We have 33 real drug–indication episodes, 98 curated primary sources and public-database scans for every candidate. Astra can investigate the strongest case, the strongest objection and the evidence that would decide between them.”
 
-> “A biotech investment thesis can change when one FDA filing, trial analysis or manufacturing update changes. Approval Radar is a public-evidence workbench for investment and business-development diligence: select an application, investigate the case, challenge the conclusion and inspect its sources.
+The approved zilganersen episode demonstrates why status verification matters: FDA acted on September 3 before the old September 22 calendar target. Use this as a short backup example, not a diversion from the central investigation.
+
+## 0:35–1:45 · Show a distinction that changes diligence
+
+**Open satralizumab → Astra investigation → the recorded decision brief.**
+
+> “The sponsor's filing rests on two pivotal studies, but one missed its primary endpoint. Astra read both trial result records and found a September 7 paper. It checked the testing hierarchy: after the primary failure, that study's secondary p-values became descriptive rather than confirmatory.
 >
-> “We start with nine real applications. This date is the reported FDA action target. The question is what could change the case before that decision.”
+> “It also compared threshold responder rates with continuous proptosis and diplopia results. Similar treated-arm response rates did not explain away the full difference between the studies. An existing approval in a different disease did not establish approval for this indication.”
 
-## 0:30–1:10 · Establish the initial assessment
+**Open a source link, then expand Questions for diligence.**
 
-**Open the recorded apitegromab investigation and its FDA letter citation.**
+> “The output is a useful next meeting: show the locked statistical plan, the sensitivity analyses explaining the discrepancy, the proposed label population and FDA's actual written feedback. That is more specific than a generated confidence score.”
 
-> “This is an actual recorded Astra run. Apitegromab had a manufacturing-related setback. Astra found the original FDA complete-response letter beyond our starting packet and connected it to the company's replacement-facility plan.
+The run is `88baf4b3-0ec3-4dd4-b344-34a8b1e170ab`. Its source checks are documented publicly. Do not imply that an independent expert panel reviewed the analysis or that it predicts the actual decision.
+
+## 1:45–2:30 · Ground the investigation in several data sources
+
+**Open Evidence map. Expand a registry record and an FDA application record.**
+
+> “The workbench pulls from trial protocols and results, FDA applications, labeling, PubMed, original FDA letters and sponsor disclosures. It tells you which source was retrieved, which is only discovery metadata and where evidence is missing. A marketed drug's manufacturing supplement is not approval of a new indication.”
+
+The public demo omits the existing FDAgent compliance dataset. In the local app, the original MCP bridge can query that installation's inspections, warning letters, exact facilities and reference books. Source links and entity scope determine which records can support a claim.
+
+## 2:30–3:25 · Challenge an assumption
+
+**Select apitegromab → its latest inspection-scope challenge → What changed.**
+
+> “An earlier challenge discovered completed removal of the old manufacturing site and revised the assessment. This further challenge asks whether a favorable inspection settles the remaining concern.
 >
-> “It concluded that an alternative site provides a credible path forward, while its good inspection history and existing inventory do not establish FDA acceptance of this product's package. It also refused to assign redacted inspection findings to particular apitegromab lots.
+> “Astra used FDAgent's existing inspection data and distinguished clinical-research oversight from manufacturing assessment. It preserved the earlier outlook and explained why the new premise did not justify changing it. The decisive question remains FDA acceptance of the product-specific replacement package.”
+
+Expand the previous/current claim comparison and one source. The latest disposition is **Unchanged**; do not describe this run as an improved prediction. If presenting locally, invite a judge's specific challenge and show actual progress. A recorded answer must never be presented as the result of that fresh invocation.
+
+## 3:25–4:00 · Value and evidence
+
+**Expand possible paths, then export the brief or briefly show Model validation.**
+
+> “This produces a repeatable diligence packet: the competing cases, the evidence that would resolve them, conditional implications and management questions, with a record of what changed. The product hypothesis is recurring portfolio and licensing diligence.
 >
-> “That identifies a specific question for diligence: what has FDA accepted about the replacement pathway?”
+> “We keep forecasting separate. The historical model is reproducible, with later years held out; it does not validate individual drug probabilities. Astra's recorded investigations, tool traces, source reviews and the full hackathon code are public.”
 
-## 1:10–2:00 · Challenge the thesis and show the revision
+If asked about evaluation: five selected original-document exercises covered 19 of 20 predefined distinctions, with one partial. This was agent-graded, not a comparative benchmark. The timing baseline also shows where a simpler pooled model performed better.
 
-**Open the recorded apitegromab challenge. Show its actual question, then the completed-site-removal finding and citation.**
+## Optional deeper question: zanzalintinib
 
-> “We challenged that caution: the second site passed inspections and inventory already exists. Astra searched again. It found an August 21 release missing from the initial investigation: Catalent's removal was now completed.
->
-> “It changed the wording and strengthened the mitigation assessment. The remaining uncertainty became narrower: product-specific FDA acceptance was still unconfirmed. That is a concrete revision driven by new evidence.
->
-> “It also found linvoseltamab's path from a similar manufacturing setback to approval, and explained the limits: different disease, no verified shared site, and historical examples selected from successful applications. One favorable comparison cannot supply approval odds.”
+A sixth recorded investigation, `0f625d8d-f1fc-430c-9388-0919fa463813`, compares a 2024 design publication with the later dual-primary trial description. It found the older plan gated overall-population testing behind success in the non-liver-metastasis population, whose final endpoint later failed. The model explicitly does **not** assume that old plan still governs: it asks for the operative, dated amendments and FDA feedback. This is a concrete example of a diligence question discovered across sources, not a claim that the trial result is invalid.
 
-**Optional live interaction:** Submit a judge's specific challenge or reuse the recorded question. Explain that this starts a new run and may differ. Continue the demo while it works; return to its actual result when complete. Do not present the recorded answer as the response to a newly submitted question.
+## Fallbacks and supporting material
 
-## 2:00–2:50 · Reconcile conflicting clinical evidence
+If live research fails, leave the failure clear and use a labeled recorded run. The source map and reviewed research work without credentials. Deramiocel is a backup example of reconciling FDA/sponsor analyses and amendment chronology.
 
-**Select deramiocel and open the recorded analysis-disagreement and cardiac-correction findings.**
+- [Run reviews and execution disclosures](../data/recorded-run-review.md)
+- [Evidence connector scope](evidence-sources.md)
+- [Evaluation methods](evidence-evaluation.md)
+- [Product thesis](product-thesis.md)
+- [Historical model](../model/README.md)
 
-> “Here the sponsor says the primary endpoint succeeded, while FDA's statistical review is unfavorable. Astra separates the analysis plans, missing-data choices and measurement scales behind those claims.
->
-> “It preserves a crucial chronology: the plans changed after controlled follow-up ended, but that alone does not prove changes after unblinding. It also finds a later correction that weakened the cardiac result while leaving the reported upper-limb result unchanged.
->
-> “Then it connects that evidence to the amended upper-limb indication. A reviewer can see the strongest case, the unresolved objection and the source for each.”
-
-## 2:50–3:45 · Show the evidence for the product
-
-**Show Model validation and the evaluation documentation.**
-
-> “We measured two separate things. Astra answered five selected questions from original public documents, without our summaries or grading rubric. Agent review found nineteen of twenty expected distinctions, with one partially covered. The original answers and grading are public. This is a small case study, not a comparative benchmark.
->
-> “The statistical module uses later years held out. Its annual first-cycle rate error was 6.9 percentage points versus 11.6 for a pooled baseline, on six aggregate observations. For action timing, the simpler pooled model performed better. We show both results and withhold unsupported individual approval probabilities.
->
-> “The product opportunity is a repeatable diligence workflow: new evidence, a revised thesis, cited reasons and a clear next question. This prototype demonstrates that loop on real applications. The code, recorded runs and reproducible methods are public.”
-
-**If a new challenge has completed, finish on one changed finding and open its source.**
-
-## If live access is unavailable
-
-Leave the error visible and use an explicitly labeled recorded run: “This is the actual earlier execution, with its model, time and sources preserved.” The evidence desk and historical references work without an API key.
-
-## Supporting material
-
-- [Actual runs, manual review and five-case evaluation](evidence-evaluation.md)
-- [Criterion-level results and exact output pointers](../data/evaluation-results.json)
-- [Source audit and the initial packet's coverage limitation](../data/source-audit.md)
-- [Statistical methods and held-out results](../model/README.md)
-
-Investment and business-development use is the proposed customer workflow. This prototype does not establish paying demand, investment performance, prospective clinical validity or a measured advantage over another model.
+The prototype does not establish paying demand, investment returns, prospective clinical validity or model superiority. The next step is observing whether an analyst reaches a defensible answer faster and changes their next diligence question.

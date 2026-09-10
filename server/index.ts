@@ -14,6 +14,12 @@ import {
   getInvestigation,
 } from "./data.js";
 import { investigate } from "./investigate.js";
+import {
+  readDossier,
+  listDossiers,
+  gatherDossier,
+  publicDossier,
+} from "./dossier.js";
 import { z } from "zod";
 
 const loopback = ["127.0.0.1", "localhost", "::1"].includes(config.host);
@@ -68,32 +74,117 @@ const server = createServer(async (req, res) => {
         getModel(),
         listInvestigations(),
       ]);
+      const visibleRuns = runs.filter(
+        (r) => authorized(req) || r.provenance === "recorded",
+      );
+      const evidenceCandidateIds = await listDossiers(!authorized(req));
+      const evidenceSourcesByCandidate = Object.fromEntries(
+        await Promise.all(
+          catalog.candidates.map(async (candidate) => {
+            const dossier = evidenceCandidateIds.includes(candidate.id)
+              ? await readDossier(candidate.id, !authorized(req))
+              : null;
+            const sources = [
+              ...visibleRuns
+                .filter((run) => run.candidateId === candidate.id)
+                .sort((a, b) => a.createdAt.localeCompare(b.createdAt))
+                .flatMap((run) => run.sources),
+              ...(dossier ? publicDossier(dossier).sources : []),
+            ];
+            return [
+              candidate.id,
+              [
+                ...new Map(
+                  sources.map((source) => [source.id, source]),
+                ).values(),
+              ],
+            ];
+          }),
+        ),
+      );
       return json(res, 200, {
         catalog,
         model,
         runtime: runtimeInfo(),
-        investigations: runs
-          .filter((r) => authorized(req) || r.provenance === "recorded")
-          .map(
-            ({
-              id,
-              candidateId,
-              model,
-              createdAt,
-              mode,
-              provenance,
-              summary,
-            }) => ({
-              id,
-              candidateId,
-              model,
-              createdAt,
-              mode,
-              provenance,
-              summary,
-            }),
-          ),
+        evidenceCandidateIds,
+        evidenceSourcesByCandidate,
+        investigations: visibleRuns.map(
+          ({
+            id,
+            candidateId,
+            model,
+            createdAt,
+            mode,
+            provenance,
+            summary,
+          }) => ({
+            id,
+            candidateId,
+            model,
+            createdAt,
+            mode,
+            provenance,
+            summary,
+          }),
+        ),
       });
+    }
+    if (url.pathname.startsWith("/api/evidence/")) {
+      const id = url.pathname.split("/").pop() || "";
+      const candidate = (await getCatalog()).candidates.find(
+        (c) => c.id === id,
+      );
+      if (!candidate) return json(res, 404, { error: "Candidate not found." });
+      if (req.method === "GET") {
+        const dossier = await readDossier(id, !authorized(req));
+        return json(
+          res,
+          dossier ? 200 : 404,
+          dossier
+            ? publicDossier(dossier)
+            : {
+                error:
+                  "No evidence scan has been gathered for this candidate yet.",
+              },
+        );
+      }
+      if (req.method === "POST") {
+        if (!authorized(req))
+          return json(res, 401, {
+            error: "Evidence gathering requires the configured access token.",
+          });
+        const origin = req.headers.origin;
+        if (
+          origin &&
+          !["localhost", "127.0.0.1", "[::1]"].includes(
+            new URL(origin).hostname,
+          ) &&
+          !config.accessToken
+        )
+          return json(res, 403, {
+            error: "Cross-site evidence requests are not allowed.",
+          });
+        const abort = new AbortController();
+        const timer = setTimeout(() => abort.abort(), 2 * 60_000);
+        res.on("close", () => {
+          if (!res.writableEnded) abort.abort();
+        });
+        try {
+          return json(
+            res,
+            200,
+            publicDossier(
+              await gatherDossier(candidate, undefined, {
+                refresh: true,
+                signal: abort.signal,
+              }),
+            ),
+          );
+        } finally {
+          clearTimeout(timer);
+        }
+      }
+      return json(res, 405, { error: "Method not allowed." });
     }
     if (req.method === "GET" && url.pathname.startsWith("/api/candidates/")) {
       const id = url.pathname.split("/").pop(),

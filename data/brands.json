@@ -1,24 +1,169 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T18:16:39.185Z",
+  "generatedAt": "2026-09-10T18:44:09.430Z",
   "attribution": "Logos and trademarks belong to their respective companies. Extracted from their official sites through Firecrawl branding for identification, not endorsement.",
   "companies": [
+    {
+      "id": "agios",
+      "name": "Agios Pharmaceuticals",
+      "website": "https://www.agios.com",
+      "logoUrl": "https://www.agios.com/wp-content/themes/agios/src/assets/img/logo-agios.svg",
+      "iconUrl": "https://www.agios.com/wp-content/themes/agios/favicon.png?v2",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/agios-logo.svg",
+      "iconPath": "brands/agios-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.173Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.agios.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "66ec56447bdd40b251167da3e1644fa01e27cc4e24b13dc1deaf2d0189297c2d",
+      "iconSha256": "ec9bb237b81f8e725b3ffb11283d9b378108bedf8557b12fbfd31930a589aaa5"
+    },
+    {
+      "id": "bioxcel",
+      "name": "BioXcel Therapeutics",
+      "website": "https://www.bioxceltherapeutics.com",
+      "logoUrl": "https://www.bioxceltherapeutics.com/wp-content/uploads/2021/09/Bioxcel-Therapeutics-Logo-R-1024x302.png",
+      "iconUrl": "https://www.bioxceltherapeutics.com/wp-content/uploads/2021/09/favicon-32x32-1.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/bioxcel-logo.png",
+      "iconPath": "brands/bioxcel-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.424Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.bioxceltherapeutics.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "04488b9a5f2764abd3b1fbe903642a2f464319547ed6b290a3738628404826a1",
+      "iconSha256": "4dcb04923114cfc86e4c570073062d9bcbe5dda628d34af7e7f4f645fe3ba6c8"
+    },
+    {
+      "id": "bridgebio",
+      "name": "BridgeBio Pharma",
+      "website": "https://bridgebio.com",
+      "logoUrl": null,
+      "iconUrl": "https://bridgebio.com/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/bridgebio-logo.svg",
+      "iconPath": "brands/bridgebio-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.116Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://bridgebio.com",
+      "assetSource": "Inline SVG extracted by Firecrawl from the source page",
+      "logoSha256": "87aa34fbe172f992fc950047a80578466e8fa7644d644b846ad733d232ad4250",
+      "iconSha256": "3edf1e9ef904216b91ce5768ab59dd634e7ce58e523c9fd331b834f15f45d67f"
+    },
     {
       "id": "capricor",
       "name": "Capricor Therapeutics",
       "website": "https://www.capricor.com",
       "logoUrl": "https://d1io3yog0oux5.cloudfront.net/_50007d7151abaeddca04af2625202c33/capricor/files/theme/images/logo.svg",
       "iconUrl": "https://d1io3yog0oux5.cloudfront.net/_50007d7151abaeddca04af2625202c33/capricor/files/theme/images/favicons/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/capricor-logo.svg",
       "iconPath": "brands/capricor-icon.ico",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.527Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.553Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://www.capricor.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "0226fdca65934727e277f8e1575166d44102dbbee3df1c136aad75fb1082540f",
-      "iconSha256": "07585de0645f1e2e3c4d64c45f2f802b4d801f92a70d6fc7e63c953ab0b0d5d7",
-      "displayKind": "wordmark"
+      "iconSha256": "07585de0645f1e2e3c4d64c45f2f802b4d801f92a70d6fc7e63c953ab0b0d5d7"
+    },
+    {
+      "id": "cogent",
+      "name": "Cogent Biosciences",
+      "website": "https://www.cogentbio.com",
+      "logoUrl": "https://www.cogentbio.com/wp-content/uploads/2022/08/cogent-logo-180x75.png",
+      "iconUrl": "https://www.cogentbio.com/wp-content/uploads/2022/09/cogent_favicon.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/cogent-logo.png",
+      "iconPath": "brands/cogent-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.642Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.cogentbio.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "bce5bc8f207fd4005f9bdf83e7347a218cf0b89b876748d7dd85744758b55be3",
+      "iconSha256": "6b04bee2d9d613b6c231549a24b6d1aa6a5e499eab3183026377e94605af9dfd"
+    },
+    {
+      "id": "corcept",
+      "name": "Corcept Therapeutics",
+      "website": "https://www.corcept.com",
+      "logoUrl": "https://corcept.com/wp-content/uploads/COR-transparent-logo-blue-e1710273269934.png",
+      "iconUrl": "https://corcept.com/wp-content/uploads/favicon-1.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/corcept-logo.png",
+      "iconPath": "brands/corcept-icon.png",
+      "background": "light",
+      "displayKind": "symbol",
+      "retrievedAt": "2026-09-10T18:44:08.877Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.corcept.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "eb05822fcd69ec1edcf17d39b9587f4e2a74cb7d1fc93e7ad99f7f3bcb1698f6",
+      "iconSha256": "4542f1c4afa594b604dae810399fc676869f9b8ef66135716e1f4a74618f05c2"
+    },
+    {
+      "id": "daiichi-sankyo",
+      "name": "Daiichi Sankyo",
+      "website": "https://www.daiichisankyo.com",
+      "logoUrl": "https://www.daiichisankyo.com/Portals/0/files/common/images/logo_en_2.png?299",
+      "iconUrl": "https://www.daiichisankyo.com/Portals/0/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/daiichi-sankyo-logo.png",
+      "iconPath": "brands/daiichi-sankyo-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.094Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.daiichisankyo.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "205033e7deb9681f74a6d1a91430fe4ce0cf9d80d54ef43de772604b80f37b36",
+      "iconSha256": "1a5d8cb9eac7d721ab2e80e25e9d003318508bf92b936dc54fd0c918077d5add"
+    },
+    {
+      "id": "exelixis",
+      "name": "Exelixis",
+      "website": "https://www.exelixis.com",
+      "logoUrl": "https://www.exelixis.com/wp-content/uploads/2022/09/exelixis-logo-white.svg",
+      "iconUrl": "https://www.exelixis.com/wp-content/uploads/2022/09/cropped-Logomark-32x32.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/exelixis-logo.svg",
+      "iconPath": "brands/exelixis-icon.png",
+      "background": "light",
+      "displayKind": "symbol",
+      "retrievedAt": "2026-09-10T18:44:08.377Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.exelixis.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "c39e98c36c751ba89edf124d96ea0cfd5e0ecc6188b7e23645a4d5a475c49324",
+      "iconSha256": "ddf54fc7263793d793abb208a6776acb1c51b835d5709c4babed47ed208e6354"
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead Sciences",
+      "website": "https://www.gilead.com",
+      "logoUrl": "https://gilead.stylelabs.cloud/api/public/content/89749f3b535e4eebb8ae07c8e9607b17?v=c1371898",
+      "iconUrl": "https://www.gilead.com/-/media/gileadcorpredesign/images/favicon_180.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/gilead-logo.svg",
+      "iconPath": "brands/gilead-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.833Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.gilead.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "70a0d3bda4156f82fc31ae6fc3830ec69dd6b283b9df9ea90ebf47bb6ca38988",
+      "iconSha256": "8ea7ed90833de4a7b5bf5cd1d197cdacaed053bd163ef21e6489192a0ad25b91"
     },
     {
       "id": "gsk",
@@ -26,16 +171,143 @@
       "website": "https://www.gsk.com/en-gb/",
       "logoUrl": "https://www.gsk.com/nuxtassets/images/gif_logo_opt.gif",
       "iconUrl": "https://www.gsk.com/nuxtassets/img/favicons/favicon-96x96.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/gsk-logo.png",
       "iconPath": "brands/gsk-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.782Z",
+      "displayKind": "symbol",
+      "retrievedAt": "2026-09-10T18:44:07.720Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://www.gsk.com/en-gb/",
       "assetSource": "Static company mark from Firecrawl branding favicon; animated logo URL retained",
       "logoSha256": "0421bcfcdcdc67e5a70355314327a1a5e1e2fd6ec7703384441742b9cc86193f",
-      "iconSha256": "0421bcfcdcdc67e5a70355314327a1a5e1e2fd6ec7703384441742b9cc86193f",
-      "displayKind": "symbol"
+      "iconSha256": "0421bcfcdcdc67e5a70355314327a1a5e1e2fd6ec7703384441742b9cc86193f"
+    },
+    {
+      "id": "hansa",
+      "name": "Hansa Biopharma",
+      "website": "https://www.hansabiopharma.com",
+      "logoUrl": null,
+      "iconUrl": "https://www.hansabiopharma.com/favicons/apple-touch-icon.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/hansa-logo.svg",
+      "iconPath": "brands/hansa-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.367Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.hansabiopharma.com",
+      "assetSource": "Inline SVG extracted by Firecrawl from the source page",
+      "logoSha256": "333f634b8a4e40403242107ef97c8873bcf6a30331a91d08aacd69b351b36f82",
+      "iconSha256": "6cda47bed8a537333aeb519c35bd975c8443f5a690a4e6eb7d4c9ecb0edddf69"
+    },
+    {
+      "id": "incyte",
+      "name": "Incyte",
+      "website": "https://www.incyte.com",
+      "logoUrl": "https://incyte.com/themes/custom/incyte2026/logo.svg",
+      "iconUrl": "https://incyte.com/themes/custom/incyte2026/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/incyte-logo.svg",
+      "iconPath": "brands/incyte-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.282Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.incyte.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "cf19e23590b8758ff89e932e9373bdbf10bb4aae958589c721a0339ba474c92d",
+      "iconSha256": "fc4c36c2510dea331661b80ffaa9f78e28c3ba1031bd429498445c7b0c3e5f77"
+    },
+    {
+      "id": "inovio",
+      "name": "INOVIO",
+      "website": "https://inovio.com",
+      "logoUrl": "https://inovio.com/wp-content/themes/inovio/images/inovio-min.jpg",
+      "iconUrl": "https://inovio.com/wp-content/themes/inovio/icons/plasmid-76.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/inovio-logo.jpg",
+      "iconPath": "brands/inovio-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.667Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://inovio.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "67e4045dd85ede2966ebbe2aafa008125bfae824cc4fd0b74cc4692da899540d",
+      "iconSha256": "1de6104a56221c0e5fe5a4a3a408c1b581c4b5a1247ee28d62465281fb8aac87"
+    },
+    {
+      "id": "ionis",
+      "name": "Ionis Pharmaceuticals",
+      "website": "https://ionis.com",
+      "logoUrl": "https://ionis.com/sites/default/files/ionis-logo.png",
+      "iconUrl": "https://ionis.com/themes/custom/envivent/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/ionis-logo.png",
+      "iconPath": "brands/ionis-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.791Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://ionis.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "29675a3bd16331ae3ca6bc73dcc0cf36b1c7d87b426ce515f0ebbd5f9484b641",
+      "iconSha256": "b5731ba95dbd26eab68bd4ab72affc636c949badd002fa7a3f7d506aad1684a3"
+    },
+    {
+      "id": "merck",
+      "name": "Merck",
+      "website": "https://www.merck.com",
+      "logoUrl": "https://www.merck.com/wp-content/uploads/sites/124/2025/08/site-logo.svg",
+      "iconUrl": "https://www.merck.com/wp-content/themes/cex-wpvip-mhh-mhh2-mcc-theme/images/apple-touch-icon.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/merck-logo.svg",
+      "iconPath": "brands/merck-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.063Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.merck.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "2f2d49804902be1401579a14dd71877cb54d5ef61333fac5e088f2b627943c05",
+      "iconSha256": "9bbc0a52b098a36ad5a4d3fa1bbc01c0b10cdaca643e32b0a8f1668373a3d27c"
+    },
+    {
+      "id": "mineralys",
+      "name": "Mineralys Therapeutics",
+      "website": "https://www.mineralystx.com",
+      "logoUrl": "https://mineralystx.com/wp-content/uploads/2023/02/MIN_logo_primary_reversed_rgb.svg",
+      "iconUrl": "https://mineralystx.com/wp-content/uploads/2023/02/min-fav-3.svg",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/mineralys-logo.svg",
+      "iconPath": "brands/mineralys-icon.svg",
+      "background": "dark",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.168Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.mineralystx.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "112518bc7dd9bff4338d9db1c29fd5180d4cc31e995a8fe45aa07a72d1162b56",
+      "iconSha256": "0301628ae85ad9a17fde89f08442c3d9df02925a02e696f21853eb48e885234d"
+    },
+    {
+      "id": "mirum",
+      "name": "Mirum Pharmaceuticals",
+      "website": "https://mirumpharma.com",
+      "logoUrl": "https://mirumpharma.com/wp-content/uploads/2026/04/mirum-pharmaceuticals-site_logo.svg",
+      "iconUrl": "https://mirumpharma.com/wp-content/themes/mirum/favicon/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/mirum-logo.svg",
+      "iconPath": "brands/mirum-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:09.173Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://mirumpharma.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "3346217c756ae643cd75e5fe557bb4caa147048e6860f0c51beeb353abb94180",
+      "iconSha256": "f72345250b48b7dbfdaa83ae28d927f7338b1792cefe500fc179300f3325d72f"
     },
     {
       "id": "nuvalent",
@@ -43,16 +315,35 @@
       "website": "https://nuvalent.com",
       "logoUrl": "https://nuvalent.com/_next/image?url=%2Fimages%2Fglobal%2Fnuv-logo-white.webp&w=640&q=75",
       "iconUrl": "https://nuvalent.com/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/nuvalent-logo.webp",
       "iconPath": "brands/nuvalent-icon.ico",
       "background": "dark",
-      "retrievedAt": "2026-09-10T18:16:38.733Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.746Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://nuvalent.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "7b9e4b2937f2bf33ffa2d971c1dc58a1bf7cf2c0e00f09d8b99c3353f15e9042",
-      "iconSha256": "e17d12c842bf22f7d5f985cb63db456af190c1101854d3215e7e58943e94d0d3",
-      "displayKind": "wordmark"
+      "iconSha256": "e17d12c842bf22f7d5f985cb63db456af190c1101854d3215e7e58943e94d0d3"
+    },
+    {
+      "id": "pharming",
+      "name": "Pharming Group",
+      "website": "https://www.pharming.com",
+      "logoUrl": "https://www.pharming.com/images/pharming-logo.png",
+      "iconUrl": "https://cdn.sanity.io/images/7cfy8hie/production/bbbe7ad8ea16c31809bb74d04aae1ef0d9c5b683-32x32.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/pharming-logo.png",
+      "iconPath": "brands/pharming-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.964Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.pharming.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "9bd4e3e0c5cf95323be1f07c09a6e464ec9754531171aba90623cb0d4296c8eb",
+      "iconSha256": "471e1fa485a5369fa35dd4a59ad83d28f372f94d6acef9a1c5f1007215344362"
     },
     {
       "id": "polypid",
@@ -60,16 +351,17 @@
       "website": "https://www.polypid.com",
       "logoUrl": "https://polypid.com/wp-content/uploads/2026/01/polypid-logo.svg",
       "iconUrl": "https://polypid.com/wp-content/uploads/2026/01/icon-150x150.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/polypid-logo.svg",
       "iconPath": "brands/polypid-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:39.178Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.084Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://www.polypid.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "5595238d4184b2e1416bc97beadd9894a7760b76b721b52804bbc91326b6a70b",
-      "iconSha256": "3e2e1c1045b1a64f8a6bd215f2d9463b02cdaa554e0cdefd7a58677e9c25ccc9",
-      "displayKind": "wordmark"
+      "iconSha256": "3e2e1c1045b1a64f8a6bd215f2d9463b02cdaa554e0cdefd7a58677e9c25ccc9"
     },
     {
       "id": "praxis",
@@ -77,16 +369,35 @@
       "website": "https://praxismedicines.com",
       "logoUrl": "https://praxismedicines.com/wp-content/uploads/2022/09/praxis-logo-color-reversed.svg",
       "iconUrl": "https://praxismedicines.com/wp-content/uploads/2022/09/praxis-favicon.jpg",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/praxis-logo.svg",
       "iconPath": "brands/praxis-icon.jpg",
       "background": "dark",
-      "retrievedAt": "2026-09-10T18:16:38.560Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.527Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://praxismedicines.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "4662fbb30f84fe6c216796f54f0289ef62886940181f6acc734b39a14db86636",
-      "iconSha256": "da38a4d9eb325b0544797da1e21757c096a2e491383a5fad134e7e340f6a7191",
-      "displayKind": "wordmark"
+      "iconSha256": "da38a4d9eb325b0544797da1e21757c096a2e491383a5fad134e7e340f6a7191"
+    },
+    {
+      "id": "roche",
+      "name": "Roche",
+      "website": "https://www.roche.com",
+      "logoUrl": null,
+      "iconUrl": "https://www.roche.com/favicon-32x32.png?v=7f5356ff0eaba89671bed4a1828ef379",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/roche-logo.svg",
+      "iconPath": "brands/roche-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.861Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.roche.com",
+      "assetSource": "Inline SVG extracted by Firecrawl from the source page",
+      "logoSha256": "cd4777ba0d8b72c73c80c4ef385fd024469d252b71de333498ac1fe849c9e242",
+      "iconSha256": "ffad2f8e09b23a40402ef3af64b891052524acb3e4b104fa2b67a71f7e4c5aec"
     },
     {
       "id": "savara",
@@ -94,16 +405,17 @@
       "website": "https://savarapharma.com",
       "logoUrl": "https://savarapharma.com/wp-content/themes/savara/img/logo-savara.svg",
       "iconUrl": "https://savarapharma.com/wp-content/uploads/favicon-32x32.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/savara-logo.svg",
       "iconPath": "brands/savara-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.705Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.632Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://savarapharma.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "33bdaacaf6724f045de899b52e20e26a5391d529042d090bc00465272cfaea16",
-      "iconSha256": "ab04a51384ec67a41da45272b40c672e8458a971622c5d6eed216109f9b13f95",
-      "displayKind": "wordmark"
+      "iconSha256": "ab04a51384ec67a41da45272b40c672e8458a971622c5d6eed216109f9b13f95"
     },
     {
       "id": "scholar-rock",
@@ -111,16 +423,17 @@
       "website": "https://scholarrock.com",
       "logoUrl": null,
       "iconUrl": "https://scholarrock.com/wp-content/uploads/2026/05/cropped-Favicon-32x32.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/scholar-rock-logo.svg",
       "iconPath": "brands/scholar-rock-icon.png",
       "background": "dark",
-      "retrievedAt": "2026-09-10T18:16:38.569Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.555Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://scholarrock.com",
       "assetSource": "Inline SVG extracted by Firecrawl from the source page",
       "logoSha256": "976b03eba4fd6c4fb6a054b2238227d13a29ae11ea25c0a60eafb5cfa84b227f",
-      "iconSha256": "b7c8e5261d22f04332344e2fc06ceadc7f4d3a247e93c6e1c5910deb33fcfbf0",
-      "displayKind": "wordmark"
+      "iconSha256": "b7c8e5261d22f04332344e2fc06ceadc7f4d3a247e93c6e1c5910deb33fcfbf0"
     },
     {
       "id": "summit",
@@ -128,16 +441,17 @@
       "website": "https://www.smmttx.com",
       "logoUrl": "https://s206.q4cdn.com/652410165/files/design/summit-therapeutics-logo.png",
       "iconUrl": "https://s206.q4cdn.com/652410165/files/favicon-32x32.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/summit-logo.png",
       "iconPath": "brands/summit-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.701Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.698Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://www.smmttx.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "fb7b56e6978af27e25f21773d6f7f4115a88816fa17c63718b7dc0d31872b680",
-      "iconSha256": "05377cff6acf72305197ba0fed374a3f0df9ad8342203f8aea8f72f7a0a96a5a",
-      "displayKind": "wordmark"
+      "iconSha256": "05377cff6acf72305197ba0fed374a3f0df9ad8342203f8aea8f72f7a0a96a5a"
     },
     {
       "id": "telix",
@@ -145,16 +459,17 @@
       "website": "https://telixpharma.com",
       "logoUrl": "https://telixpharma.com/wp-content/uploads/2025/09/Telix-Logo.svg",
       "iconUrl": "https://telixpharma.com/apple-touch-icon.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/telix-logo.svg",
       "iconPath": "brands/telix-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.799Z",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:07.798Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://telixpharma.com",
       "assetSource": "Logo URL returned by Firecrawl branding",
       "logoSha256": "bfbd58ca1ca51e226ca60bac000f624528bd2f0aff6e90718c6b4b40bdbbd6b6",
-      "iconSha256": "3dbfcd771ccc4ce6fedcc5ac466fc160fbf02c9d7035145f48976726174f6c4e",
-      "displayKind": "wordmark"
+      "iconSha256": "3dbfcd771ccc4ce6fedcc5ac466fc160fbf02c9d7035145f48976726174f6c4e"
     },
     {
       "id": "ultragenyx",
@@ -162,16 +477,53 @@
       "website": "https://www.ultragenyx.com",
       "logoUrl": null,
       "iconUrl": "https://ir.ultragenyx.com/sites/g/files/knoqqb83881/files/UGX-Favicon.png",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
       "assetPath": "brands/ultragenyx-logo.png",
       "iconPath": "brands/ultragenyx-icon.png",
       "background": "light",
-      "retrievedAt": "2026-09-10T18:16:38.696Z",
+      "displayKind": "symbol",
+      "retrievedAt": "2026-09-10T18:44:07.585Z",
       "method": "firecrawl-branding",
       "sourcePage": "https://ir.ultragenyx.com",
       "assetSource": "Official company icon returned by Firecrawl branding; full wordmark unavailable",
       "logoSha256": "48f058a6d1c8529651e5f3d1b2d8f69838998b281d82410caa38120d90825b12",
-      "iconSha256": "48f058a6d1c8529651e5f3d1b2d8f69838998b281d82410caa38120d90825b12",
-      "displayKind": "symbol"
+      "iconSha256": "48f058a6d1c8529651e5f3d1b2d8f69838998b281d82410caa38120d90825b12"
+    },
+    {
+      "id": "vanda",
+      "name": "Vanda Pharmaceuticals",
+      "website": "https://www.vandapharma.com",
+      "logoUrl": "https://www.vandapharma.com/assets/vanda-logo-feed9586ed87e342208f4feac87badcb15a0d5ef41a19279600cbfca0a2e3209.png",
+      "iconUrl": null,
+      "iconAssetSource": "Official logo reused as compact mark; no favicon returned by Firecrawl branding",
+      "assetPath": "brands/vanda-logo.png",
+      "iconPath": "brands/vanda-icon.png",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.581Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.vandapharma.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "b735834c46f8b624f2059f2c72414cbd9354970ad2ed870ff988fc48850e6071",
+      "iconSha256": "b735834c46f8b624f2059f2c72414cbd9354970ad2ed870ff988fc48850e6071"
+    },
+    {
+      "id": "vertex",
+      "name": "Vertex Pharmaceuticals",
+      "website": "https://www.vrtx.com",
+      "logoUrl": "https://www.vrtx.com/themes/custom/vrtx/images/vertexlogo.png",
+      "iconUrl": "https://www.vrtx.com/themes/custom/vrtx/favicon.ico",
+      "iconAssetSource": "Official favicon returned by Firecrawl branding",
+      "assetPath": "brands/vertex-logo.png",
+      "iconPath": "brands/vertex-icon.ico",
+      "background": "light",
+      "displayKind": "wordmark",
+      "retrievedAt": "2026-09-10T18:44:08.274Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.vrtx.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "0941d3a5296b2db5d4f95fbafb019a7e1c684f4b24f3ac930fdfb1a8ea08c585",
+      "iconSha256": "fdbdd27e2c3b0507071fbab5bbf221aca0510f0c0df25e1c39c15308d268785f"
     }
   ],
   "candidateCompanies": {
@@ -202,6 +554,82 @@
     ],
     "floretyrosine-glioma": [
       "telix"
+    ],
+    "ulixacaltamide-et": [
+      "praxis"
+    ],
+    "zilganersen-axd": [
+      "ionis"
+    ],
+    "bepirovirsen-hbv": [
+      "gsk",
+      "ionis"
+    ],
+    "ifinatamab-deruxtecan-sclc": [
+      "daiichi-sankyo",
+      "merck"
+    ],
+    "atezolizumab-colon-adjuvant": [
+      "roche"
+    ],
+    "satralizumab-ted": [
+      "roche"
+    ],
+    "leniolisib-pediatric-apds": [
+      "pharming"
+    ],
+    "ino3107-rrp": [
+      "inovio"
+    ],
+    "bbp418-lgmd": [
+      "bridgebio"
+    ],
+    "bezuclastinib-gist": [
+      "cogent"
+    ],
+    "bezuclastinib-nonadv-sm": [
+      "cogent"
+    ],
+    "giredestrant-early-breast": [
+      "roche"
+    ],
+    "giredestrant-esr1-breast": [
+      "roche"
+    ],
+    "povetacicept-igan": [
+      "vertex"
+    ],
+    "zanzalintinib-mcrc": [
+      "exelixis",
+      "roche"
+    ],
+    "imsidolimab-gpp": [
+      "vanda"
+    ],
+    "relacorilant-cushing": [
+      "corcept"
+    ],
+    "lorundrostat-hypertension": [
+      "mineralys"
+    ],
+    "anito-cel-myeloma": [
+      "gilead"
+    ],
+    "imlifidase-kidney": [
+      "hansa"
+    ],
+    "mitapivat-scd": [
+      "agios"
+    ],
+    "zilurgisertib-fop": [
+      "mirum",
+      "incyte"
+    ],
+    "dexmedetomidine-at-home": [
+      "bioxcel"
+    ],
+    "encaleret-adh1": [
+      "bridgebio"
     ]
   }
 }

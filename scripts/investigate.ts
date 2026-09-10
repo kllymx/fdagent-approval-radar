@@ -11,6 +11,7 @@ const run = await investigate(
     if (event.type === "finding") return;
     console.log(JSON.stringify(event));
   },
+  AbortSignal.timeout(8 * 60_000),
 );
 console.log(
   JSON.stringify({

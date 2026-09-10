@@ -8,6 +8,8 @@ import type { FunctionTool } from "openai/resources/responses/responses";
 import type { Candidate, Catalog, Source } from "../shared/schema.js";
 import { config } from "./config.js";
 import { getModel } from "./data.js";
+import { executeEvidenceQuery, type EvidenceFamily } from "./evidence.js";
+import { queryFDAgent, type FDAgentDataset } from "./fdagent.js";
 
 const exec = promisify(execFile);
 const object = (properties: Record<string, unknown>) => ({
@@ -18,6 +20,44 @@ const object = (properties: Record<string, unknown>) => ({
 });
 const str = (description: string) => ({ type: "string", description });
 export const researchTools: FunctionTool[] = [
+  {
+    type: "function",
+    name: "search_evidence_database",
+    description:
+      "Search a specific primary public database: trials (ClinicalTrials.gov), approvals (Drugs@FDA), labels (submitted SPL labeling, not proof of approval), or publications (PubMed metadata, not full-paper evidence). Use a drug/ingredient term or a known comparator. Results are research leads; verify exact product, indication, endpoint and publication date.",
+    parameters: object({
+      family: {
+        type: "string",
+        enum: ["trials", "approvals", "labels", "publications"],
+      },
+      query: str(
+        "Specific drug, intervention, active ingredient or comparator; up to 160 characters",
+      ),
+    }),
+    strict: true,
+  },
+  {
+    type: "function",
+    name: "query_fdagent",
+    description:
+      "Read the existing FDAgent regulatory datasets. Use inspections/warning_letters for named-firm research leads, facility only with exact FEI, orange_book or purple_book for approved-product reference records. No original document URL means the record is a lead, not citable evidence: retrieve the FDA source before using it as a finding. A firm-name match never proves product–facility linkage. Connector can be unavailable; failures are not evidence of absence.",
+    parameters: object({
+      dataset: {
+        type: "string",
+        enum: [
+          "inspections",
+          "warning_letters",
+          "facility",
+          "orange_book",
+          "purple_book",
+        ],
+      },
+      query: str(
+        "Firm/drug query up to 160 characters; exact FEI number for facility",
+      ),
+    }),
+    strict: true,
+  },
   {
     type: "function",
     name: "read_source",
@@ -106,7 +146,9 @@ export function crlQuery(query: string): string {
 async function fetchBounded(
   url: string,
   limit = 5_000_000,
+  signal?: AbortSignal,
 ): Promise<{ text: string; type: string; bytes: Uint8Array }> {
+  signal?.throwIfAborted();
   const u = publicHttpsUrl(url);
   const allowed = ["fda.gov", "clinicaltrials.gov", "sec.gov"].some((d) =>
     onDomain(u.hostname, d),
@@ -114,16 +156,23 @@ async function fetchBounded(
   if (!allowed)
     throw Error("Use public search for non-government source retrieval.");
   const response = await fetch(u, {
-    signal: AbortSignal.timeout(35_000),
+    signal: signal
+      ? AbortSignal.any([signal, AbortSignal.timeout(35_000)])
+      : AbortSignal.timeout(35_000),
     redirect: "error",
     headers: {
       "User-Agent":
         "FDAgent-Approval-Radar/0.1 (public research; github.com/kllymx/fdagent-approval-radar)",
     },
   });
-  if (!response.ok) throw Error(`Source returned HTTP ${response.status}.`);
-  if (Number(response.headers.get("content-length") || 0) > limit)
+  if (!response.ok) {
+    await response.body?.cancel().catch(() => undefined);
+    throw Error(`Source returned HTTP ${response.status}.`);
+  }
+  if (Number(response.headers.get("content-length") || 0) > limit) {
+    await response.body?.cancel().catch(() => undefined);
     throw Error("Source exceeds bounded read limit.");
+  }
   const chunks: Uint8Array[] = [];
   let size = 0;
   if (!response.body) throw Error("Empty source response.");
@@ -143,6 +192,7 @@ async function fetchBounded(
     reader.releaseLock();
   }
   const bytes = Buffer.concat(chunks);
+  signal?.throwIfAborted();
   return {
     text: bytes.toString("utf8"),
     type: response.headers.get("content-type") || "",
@@ -165,13 +215,19 @@ type SearchHit = {
   markdown?: string;
   metadata?: { title?: string; publishedTime?: string; sourceURL?: string };
 };
-async function searchWeb(query: string): Promise<SearchHit[]> {
+async function searchWeb(
+  query: string,
+  signal?: AbortSignal,
+): Promise<SearchHit[]> {
+  signal?.throwIfAborted();
   if (!query || query.length > 400)
     throw Error("Search query must be between 1 and 400 characters.");
   if (config.firecrawlKey) {
     const response = await fetch("https://api.firecrawl.dev/v2/search", {
       method: "POST",
-      signal: AbortSignal.timeout(75_000),
+      signal: signal
+        ? AbortSignal.any([signal, AbortSignal.timeout(75_000)])
+        : AbortSignal.timeout(75_000),
       headers: {
         Authorization: `Bearer ${config.firecrawlKey}`,
         "Content-Type": "application/json",
@@ -183,12 +239,15 @@ async function searchWeb(query: string): Promise<SearchHit[]> {
         scrapeOptions: { formats: ["markdown"], onlyMainContent: true },
       }),
     });
-    if (!response.ok)
+    if (!response.ok) {
+      await response.body?.cancel().catch(() => undefined);
       throw Error(`Public search unavailable (HTTP ${response.status}).`);
+    }
     const data = (await response.json()) as {
       success?: boolean;
       data?: { web?: SearchHit[] };
     };
+    signal?.throwIfAborted();
     if (data.success === false)
       throw Error("Public search reported a failure.");
     return data.data?.web || [];
@@ -197,7 +256,7 @@ async function searchWeb(query: string): Promise<SearchHit[]> {
     const { stdout } = await exec(
       "firecrawl",
       ["search", query, "--limit", "4", "--scrape", "--json"],
-      { timeout: 90_000, maxBuffer: 8_000_000 },
+      { timeout: 90_000, maxBuffer: 8_000_000, signal, killSignal: "SIGKILL" },
     );
     const result = JSON.parse(stdout.slice(stdout.indexOf("{"))) as {
       data?: { web?: SearchHit[] };
@@ -214,6 +273,7 @@ export class ResearchSession {
   constructor(
     readonly candidate: Candidate,
     catalog: Catalog,
+    readonly signal?: AbortSignal,
   ) {
     for (const source of catalog.sources.filter((s) =>
       candidate.sourceIds.includes(s.id),
@@ -221,6 +281,7 @@ export class ResearchSession {
       this.sources.set(source.id, source);
   }
   private async cache(source: Source, text: string) {
+    this.signal?.throwIfAborted();
     this.texts.set(source.id, text);
     const dir = resolve(".cache/sources");
     await mkdir(dir, { recursive: true, mode: 0o700 });
@@ -232,10 +293,41 @@ export class ResearchSession {
           .digest("hex") + ".json",
       ),
       JSON.stringify({ fetchedAt: new Date().toISOString(), text }),
-      { mode: 0o600 },
+      { mode: 0o600, signal: this.signal },
     );
   }
   async execute(name: string, args: Record<string, unknown>): Promise<unknown> {
+    this.signal?.throwIfAborted();
+    if (name === "search_evidence_database") {
+      if (
+        !["trials", "approvals", "labels", "publications"].includes(
+          String(args.family),
+        )
+      )
+        throw Error("Unknown evidence database.");
+      const query = String(args.query);
+      if (!query.trim() || query.length > 160)
+        throw Error("Provide a query up to 160 characters.");
+      const result = await executeEvidenceQuery(
+        args.family as EvidenceFamily,
+        query,
+        { limit: 5, signal: this.signal },
+      );
+      for (const source of result.sources) {
+        this.sources.set(source.id, source);
+        if (source.fullText) await this.cache(source, source.fullText);
+      }
+      return result;
+    }
+    if (name === "query_fdagent") {
+      const result = await queryFDAgent(
+        String(args.dataset) as FDAgentDataset,
+        String(args.query),
+        { signal: this.signal },
+      );
+      for (const source of result.sources) this.sources.set(source.id, source);
+      return result;
+    }
     if (name === "get_historical_baseline") {
       const model = await getModel();
       for (const item of (model.sources || []) as {
@@ -287,7 +379,11 @@ export class ResearchSession {
       }
       if (!content && ["fda", "sec", "trial"].includes(source.kind)) {
         try {
-          const result = await fetchBounded(source.url, 12_000_000);
+          const result = await fetchBounded(
+            source.url,
+            12_000_000,
+            this.signal,
+          );
           if (
             result.type.includes("pdf") ||
             source.url.endsWith(".pdf") ||
@@ -295,11 +391,19 @@ export class ResearchSession {
           ) {
             const temp = await mkdtemp(join(tmpdir(), "radar-pdf-"));
             try {
-              await writeFile(join(temp, "source.pdf"), result.bytes);
+              await writeFile(join(temp, "source.pdf"), result.bytes, {
+                signal: this.signal,
+              });
+              this.signal?.throwIfAborted();
               const parsed = await exec(
                 "pdftotext",
                 ["-layout", join(temp, "source.pdf"), "-"],
-                { timeout: 30_000, maxBuffer: 2_000_000 },
+                {
+                  timeout: 30_000,
+                  maxBuffer: 2_000_000,
+                  signal: this.signal,
+                  killSignal: "SIGKILL",
+                },
               );
               content = parsed.stdout;
             } finally {
@@ -311,6 +415,7 @@ export class ResearchSession {
               : plainText(result.text);
           await this.cache(source, content);
         } catch (e) {
+          this.signal?.throwIfAborted();
           return {
             source,
             content: source.summary + "\n" + (source.excerpt || ""),
@@ -329,9 +434,12 @@ export class ResearchSession {
         totalCharacters: content?.length,
         truncated: !!content && content.length > 65_000,
         coverage: content
-          ? cachedAt
-            ? "Source text from cache, fetched at cachedAt (at most one hour old)."
-            : "Source text retrieved in this session (bounded; use find_in_source for sections beyond the initial limit)."
+          ? source.contentKind === "metadata" ||
+            source.id.startsWith("evidence-")
+            ? "Normalized database metadata only, not the full publication, trial protocol/results, or FDA review. Use the exact trial tool or retrieve the original document to support clinical conclusions."
+            : cachedAt
+              ? "Source text from cache, fetched at cachedAt (at most one hour old)."
+              : "Source text retrieved in this session (bounded; use find_in_source for sections beyond the initial limit)."
           : "Curated attributed summary only; use search to retrieve additional primary evidence.",
       };
     }
@@ -356,11 +464,12 @@ export class ResearchSession {
         ...sourceWindows(content, query),
         cachedAt: read.cachedAt,
         coverage:
-          "Exact phrase matches in retrieved text. PDF extraction can disrupt words/tables; no match is not evidence of absence. Page numbers are PDF pages, not printed page labels.",
+          read.coverage +
+          " Exact phrase matches within that retrieved content. PDF extraction can disrupt words/tables; no match is not evidence of absence. Page numbers, when available, are PDF pages, not printed page labels.",
       };
     }
     if (name === "search_public_sources") {
-      const hits = await searchWeb(String(args.query));
+      const hits = await searchWeb(String(args.query), this.signal);
       const result = [];
       for (const hit of hits.slice(0, 4)) {
         if (!hit.url) continue;
@@ -385,7 +494,8 @@ export class ResearchSession {
           title: hit.title || hit.metadata?.title || u.hostname,
           url: hit.url,
           publisher: u.hostname,
-          publishedAt: hit.metadata?.publishedTime?.slice(0, 10) || null,
+          // Search metadata can confuse indexing/update dates with publication. Read the document.
+          publishedAt: null,
           retrievedAt: new Date().toISOString(),
           kind,
           summary: (
@@ -418,7 +528,7 @@ export class ResearchSession {
       const id = String(args.nctId);
       if (!/^NCT\d{8}$/.test(id)) throw Error("Expected exact NCT identifier.");
       const url = `https://clinicaltrials.gov/api/v2/studies/${id}`;
-      const { text } = await fetchBounded(url);
+      const { text } = await fetchBounded(url, undefined, this.signal);
       const raw = JSON.parse(text);
       const s = raw.protocolSection?.statusModule || {};
       const source: Source = {
@@ -464,8 +574,11 @@ export class ResearchSession {
       const url = `https://api.fda.gov/transparency/crl.json?${params}`;
       let raw;
       try {
-        raw = JSON.parse((await fetchBounded(url)).text);
+        raw = JSON.parse(
+          (await fetchBounded(url, undefined, this.signal)).text,
+        );
       } catch (e) {
+        this.signal?.throwIfAborted();
         return {
           error: (e as Error).message,
           coverage:
