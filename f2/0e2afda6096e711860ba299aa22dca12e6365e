@@ -1,0 +1,63 @@
+README.md
+  s_949e10ef803d8b::t_1ac0396ec15953 20-21
+data/brand-sites.json
+  s_949e10ef803d8b::t_9c3e3d028a8251 1-25
+  s_949e10ef803d8b::t_5bc9a40e7a130e 26-53
+server/index.ts
+  s_949e10ef803d8b::t_4a1353e6b7c48c 201-205
+ui/main.tsx
+  s_949e10ef803d8b::t_0bfa4faf252a02 6
+ui/App.tsx
+  s_949e10ef803d8b::t_4239c945619dd4 145,213-214,223,228,233,235,247-248,265,268,270-272,277-278,283-284,373,376,378
+  s_949e10ef803d8b::t_3a25e874c12ec3 87
+  s_949e10ef803d8b::t_f16ecf8eaa1cfd 46,48-49,56
+  s_949e10ef803d8b::t_dc9f04292e0f24 157-158,162,165,168,173-174,177,190,212,216-217,225-227,229
+  s_949e10ef803d8b::t_f6ba5f5291704d 10,25,35-36,38,42-45,47,50-55,57-58,84,122,127,129,133,140-141,143-144
+ui/clarity.css
+  s_949e10ef803d8b::t_0bfa4faf252a02 1-26,29-33,37-39,41-255
+  s_949e10ef803d8b::t_f16ecf8eaa1cfd 27-28,35-36
+  s_949e10ef803d8b::t_4239c945619dd4 34
+  s_949e10ef803d8b::t_3a25e874c12ec3 40
+public/brands/README.md
+  s_949e10ef803d8b::t_1ac0396ec15953 1-9
+scripts/brands.ts
+  s_949e10ef803d8b::t_9c3e3d028a8251 1,25-26,103,185
+  s_949e10ef803d8b::t_1ac0396ec15953 2-24,27-65,70-86,88-102,104-119,138-153,156-157,159-180,182-184,186-219
+  s_949e10ef803d8b::t_b910e279119f3b 158,181
+  s_949e10ef803d8b::t_d85635f0ccd4da 66-69,87,120-137,154-155
+tests/brands.test.ts
+  s_949e10ef803d8b::t_1ac0396ec15953 1-25
+  s_949e10ef803d8b::t_ecfe7d9a39ff5c 26-39
+data/brands.json
+  s_949e10ef803d8b::t_14cc7586d5ef08 1-207
+package.json
+  s_949e10ef803d8b::t_08cee36933afe7 21-22
+public/brands/capricor-logo.svg
+  s_949e10ef803d8b::t_a1cacb889bb946 1
+public/brands/polypid-logo.svg
+  s_949e10ef803d8b::t_dd4a34b53dc661 1-4629
+public/brands/praxis-logo.svg
+  s_949e10ef803d8b::t_f1ad726ac5f66a 1
+public/brands/savara-logo.svg
+  s_949e10ef803d8b::t_bdcd7b83b89422 1-12
+public/brands/scholar-rock-logo.svg
+  s_949e10ef803d8b::t_a4b3a2bf5b121b 1-27
+public/brands/telix-logo.svg
+  s_949e10ef803d8b::t_9e4e459898eeed 1-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "f20e2afda6096e711860ba299aa22dca12e6365e",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
