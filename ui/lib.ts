@@ -1,4 +1,5 @@
 import type { Candidate, Investigation, Source, StreamEvent } from './types';
+import { getSourceReviewNotes } from '../shared/review-notes';
 
 export function dataUrl(path: string, staticDemo: boolean, baseUrl = '/'): string {
   if (!staticDemo) return path;
@@ -46,6 +47,7 @@ export function mergeInvestigationSources(runs: Pick<Investigation, 'createdAt' 
 
 export function investigationMarkdown(candidate: Candidate, investigation: Investigation, sources: Source[]): string {
   const actionDate = candidateActionDate(candidate);
+  const reviewNotes = getSourceReviewNotes(investigation.id);
   const combinedSources = new Map(mergeSourceRecords(investigation.sources, sources).map((source) => [source.id, source]));
   const referencedIds = new Set([...candidate.sourceIds, ...investigation.findings.flatMap((finding) => finding.sourceIds), ...investigation.analogs.flatMap((analog) => analog.sourceIds)]);
   for (const item of investigation.changes?.items ?? []) for (const id of item.sourceIds) referencedIds.add(id);
@@ -73,6 +75,7 @@ export function investigationMarkdown(candidate: Candidate, investigation: Inves
     `**Timing assessment:** ${investigation.outlook.timing}`, '',
     investigation.outlook.probability === null ? '**Candidate-specific probability:** Not assigned.' : `**Astra probability estimate:** ${(investigation.outlook.probability * 100).toFixed(1)}%.`,
     investigation.outlook.probabilityBasis, '',
+    ...(reviewNotes.length ? ['## Source review notes', '', 'Editorial source check. Astra’s output above is unchanged.', '', ...reviewNotes.flatMap((note) => [`### ${note.title}`, '', note.detail, '', safeSourceUrl(note.sourceUrl) ? `[${note.sourceLabel}](${safeSourceUrl(note.sourceUrl)})` : note.sourceLabel, ''])] : []),
     ...(investigation.changes ? ['## What changed', '', `Assessment: ${investigation.changes.disposition}`, '', investigation.changes.summary, '', ...investigation.changes.items.flatMap((item) => [`**Previous:** ${item.previousClaim}`, '', `**Current:** ${item.currentClaim}`, '', item.reason, '', sourceLine(item.sourceIds), ''])] : []),
     ...(investigation.previousOutlook ? ['### Previous overall outlook', '', investigation.previousOutlook.verdict, '', `**Previous timing assessment:** ${investigation.previousOutlook.timing}`, '', ...(investigation.previousRunId ? [`Previous run: ${investigation.previousRunId}`, ''] : [])] : []),
     ...(investigation.decisionBrief ? [

@@ -1,0 +1,696 @@
+{
+  "summary": "Giredestrant plus everolimus has substantial, population-specific PFS evidence supporting the ESR1-mutated filing—not merely an accepted application. The principal unresolved issue is whether FDA considers that benefit sufficiently robust and tolerable for the requested post-endocrine label. Comparative toxicity, label generalizability and undisclosed CMC readiness remain important diligence areas.",
+  "outlook": {
+    "verdict": "Clinically supportive, with a mixed overall evidence assessment. The retrieved evidence does not identify a candidate-specific regulatory rejection or documented manufacturing setback.",
+    "timing": "Roche’s February 20, 2026 announcement reports a December 18, 2026 PDUFA target; the supplied July 23 portfolio update continues to list the filing. The live search did not establish a superseding action or target change. December 18 is an action goal, not an approval date. FDA administrative correspondence confirming the current clock was not retrieved.",
+    "probability": null,
+    "probabilityBasis": "The historical model describes annual original-application first-cycle approval cohorts and, separately, action timeliness. Original-application context is broadly relevant, but review priority was not independently established here. Neither model estimates this candidate’s probability, incorporates its clinical or CMC evidence, or validates a date forecast. No individual probability is assigned."
+  },
+  "findings": [
+    {
+      "id": "f1",
+      "title": "The requested label is molecularly restricted, but broader than the trial’s prior-treatment experience",
+      "detail": "Genentech’s February 19 and Roche’s February 20 announcements describe an NDA for adults with ESR1-mutated, ER-positive/HER2-negative locally advanced or metastatic breast cancer following recurrence or progression on a prior endocrine-based regimen. The episode is tracked as an original NDA; the sponsor describes a new application, not a supplement or resubmission, although the FDA application number and receipt/filing letter were not retrieved. Importantly, evERA required prior CDK4/6 inhibitor plus endocrine therapy. Whether final labeling explicitly requires prior CDK4/6 exposure is therefore a substantive generalizability question—not a documented FDA objection. This combination application is separate from adjuvant giredestrant.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b7b569215567",
+        "web-31c7adcd8938",
+        "trial-NCT05306340",
+        "roche-hy-2026"
+      ]
+    },
+    {
+      "id": "f2",
+      "title": "Actual pivotal results strongly favor the combination in the prespecified ESR1-mutated population",
+      "detail": "evERA is a randomized, open-label, multicenter phase III trial: 373 participants, allocated to giredestrant plus everolimus (183) or physician’s-choice endocrine therapy plus everolimus (190). The experimental regimen is giredestrant 30 mg daily plus everolimus 10 mg daily; control endocrine options are exemestane, fulvestrant or tamoxifen. Randomization was stratified by ESR1 status, disease site and prior fulvestrant. Investigator-assessed RECIST 1.1 PFS in baseline ctDNA-defined ESR1-mutated disease and in the ITT population were co-primary endpoints. In the ESR1-mutated population, 102 versus 105 participants, Roche reports median PFS of 9.99 versus 5.45 months, HR 0.38 (95% CI 0.27–0.54), p<0.0001. Conference reporting supplies median confidence intervals of 8.08–12.94 and 3.75–5.62 months, respectively. The ITT result was different: 8.77 versus 5.49 months, HR 0.56 (95% CI 0.44–0.71). The ESR1-mutated result is a prespecified primary population, not an exploratory subgroup rescued from a failed overall trial.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05306340",
+        "web-e8bb15169c1f",
+        "web-1b70c5ee1200"
+      ]
+    },
+    {
+      "id": "f3",
+      "title": "Durability is supportive; overall survival and independent replication remain unestablished",
+      "detail": "Conference reporting gives ESR1-mutated 12-month PFS rates of 40.5% versus 15.2%. Among response-evaluable patients, 94 per arm, ORR was 26.6% versus 13.8%; the difference was 12.8 percentage points (95% CI 0.48–24.7). Median response duration was 14.88 months (95% CI 9.10–not evaluable; 25 responders) versus 7.33 months (95% CI 3.84–not evaluable; 13 responders). These responder-only estimates have substantial uncertainty and are not population-wide disease-control durations. ESR1-mutated OS remained immature: HR 0.62 (95% CI 0.38–1.02), p=0.0566. That does not establish a survival benefit; the ITT OS p-value cannot substitute for the requested population or an inspected multiplicity hierarchy. ESMO and SABCS reports concern the same evERA trial, not independent replication. No second pivotal study of this exact regimen and population was inspected, and adjuvant results are not treated as replication.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-65b09d065274",
+        "web-e8bb15169c1f",
+        "web-2a46ac0a4eb2",
+        "web-31c7adcd8938"
+      ]
+    },
+    {
+      "id": "f4",
+      "title": "The statistical case is persuasive but not fully auditable from the retrieved public record",
+      "detail": "Open-label, investigator-assessed PFS makes assessment timing, censoring, missing scans and any independent-review sensitivity analyses important. The locked statistical analysis plan, alpha allocation between co-primary populations, OS testing hierarchy and full clinical study report were not inspected. An original 2023 trial-in-progress abstract specified an overall two-sided 0.05 level, target enrollment of 320 and an exemestane-only comparator; the current registry and actual results instead describe 373 participants and three endocrine comparator options. These older design descriptions are superseded, but amendment timing and rationale require the protocol history. The control arm predominantly received exemestane. Exploratory comparator analyses reportedly favored giredestrant, but do not establish superiority over every modern alternative. Separately, the exploratory ESR1-mutation-not-detected PFS estimate was HR 0.84 (95% CI 0.59–1.18), which does not establish benefit in that population despite broad promotional language about subgroup consistency.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT05306340",
+        "web-feaf0640b173",
+        "web-1b70c5ee1200"
+      ]
+    },
+    {
+      "id": "f5",
+      "title": "Observed tolerability is interpretable, but treatment burden and serious-event uncertainty are material",
+      "detail": "Conference reports describe stomatitis in 47.2% versus 48.9%, diarrhea in 26.9% versus 22.6%, and anemia in 23.6% versus 21.0% of the experimental and control arms. Grade 1/2 bradycardia occurred in 3.8% versus 0.5%; no grade 3/4 bradycardia was reported in the experimental arm, and no photopsia was observed. These are actual observations, not simply silence about safety. However, AEs led to treatment discontinuation in 17.0% versus 11.8%. The more detailed report distinguishes experimental-arm discontinuation of giredestrant (8.2%), everolimus (17.0%) or either drug (17.0%); these percentages must not be added. Among 182 safety-evaluable experimental patients, 30.8% had everolimus dose reductions and 2.7% had AEs with fatal outcomes. Causality and a comparable control fatal-event rate were not provided in the inspected material. Exposure was longer experimentally: median giredestrant/endocrine treatment duration 7.11 versus 4.62 months and everolimus duration 6.03 versus 4.14 months. Everolimus median dose intensity was 84.70% versus 87.86%. Crude AE comparisons therefore do not isolate incremental drug toxicity. Overall grade 3/4 rates, serious-event totals, fatal-event narratives, exposure-adjusted comparisons and ESR1-specific or organ-impairment safety analyses remain unavailable here.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-1b70c5ee1200",
+        "web-65b09d065274"
+      ]
+    },
+    {
+      "id": "f6",
+      "title": "Manufacturing remains unknown; no drug-linked CMC conclusion is supportable",
+      "detail": "The sponsor announcements inspected do not identify commercial API, finished-dose, packaging or release-testing sites or describe candidate-specific CMC deficiencies and corrective actions. A public inspection lookup for Genentech returned firm-name leads without original FDA documents or giredestrant linkage; these were excluded from the compliance assessment. A candidate-specific FDA-domain search for manufacturing, CMC, warning letters and complete responses failed technically. Consequently, neither a clean manufacturing history nor an unresolved manufacturing failure is established. A documented NDA product-to-site map, FDA quality review and current product-linked inspection/deficiency disposition would resolve this domain. Sponsor headquarters, another product’s approval and clinical/BIMO inspection outcomes cannot substitute for that evidence.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-b7b569215567",
+        "web-31c7adcd8938"
+      ]
+    },
+    {
+      "id": "f7",
+      "title": "Relevant sponsor experience exists, but no giredestrant-specific FDA objection was retrieved",
+      "detail": "FDA documents verify Genentech’s original Itovebi NDA receipt on March 27, 2024 and approval on October 10, 2024, seven weeks ahead of its goal. That is relevant experience with a biomarker-selected breast-cancer combination and companion diagnostic, not a predictor or evidence of shared manufacturing readiness. The disclosed CRL archive search returned a November 23, 2020 pediatric Xofluza letter addressing treatment-emergent antiviral resistance—not giredestrant or CMC. Its current 'Approved' archive field does not turn that historical letter into an approval or establish resolution of every pediatric claim. No giredestrant CRL or specific FDA deficiency was retrieved, but the archive is incomplete and its dataset was last updated August 13, 2026. Undisclosed review objections remain unknown.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-5507d9ae6e3a",
+        "web-4c1c14fc6dcb",
+        "crl-6a51c2da970d"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Itovebi: completed Genentech breast-cancer combination approval",
+      "relevance": "FDA approved the original inavolisib application on October 10, 2024 with palbociclib and fulvestrant for a biomarker-selected HR-positive/HER2-negative advanced-breast-cancer population. FDA accepted a PFS-based benefit–risk case while requiring further safety/dose work and continued OS follow-up. This demonstrates a possible regulatory structure, not a giredestrant forecast.",
+      "difference": "Itovebi targets PIK3CA-mutated disease with a different regimen, and its pivotal trial was double-blind and excluded prior systemic treatment for advanced disease. evERA is open-label and post-CDK4/6. Itovebi’s priority-review timeline, toxicity findings and manufacturing conclusions cannot be transferred.",
+      "sourceIds": [
+        "web-4c1c14fc6dcb",
+        "web-5507d9ae6e3a"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "The evERA full paper/clinical study report, amendment history and locked statistical analysis plan, including ESR1-mutated PFS censoring and independent-review sensitivity analyses, comparator selection and the OS multiplicity hierarchy.",
+    "An updated integrated safety and OS report with arm-specific serious/fatal-event narratives, exposure-adjusted comparisons, discontinuations by drug, patient-reported outcomes and safety in the proposed label population.",
+    "FDA or dated sponsor correspondence confirming the NDA number, original-application classification, current action target, outstanding review issues, prior-CDK4/6 label language and ESR1 companion-diagnostic requirements.",
+    "A documented commercial product-to-site map and FDA quality/inspection disposition, including any actual deficiencies, corrective actions, validation, stability or clinical-to-commercial comparability issues."
+  ],
+  "limitations": [
+    "Investigation date is September 10, 2026. The live trial record was last updated June 17, 2026 and returned no posted results. Registry protocol fields establish planned assessments, not efficacy or safety outcomes.",
+    "Actual pivotal estimates were retrieved from Roche’s primary disclosures and detailed conference journalism. The original results presentation, full peer-reviewed evERA paper, supplementary tables and patient-level datasets were not inspected. Searches for original materials found a trial-in-progress abstract and congress pages, not an auditable final results package.",
+    "The supplied July 2026 portfolio update was available only as an attributed curated summary. Current application status and timing therefore remain sponsor-supported rather than independently confirmed by FDA administrative correspondence.",
+    "No comparative overall serious-event or grade 3/4 table, fatal-event causality assessment, exposure-response analysis, organ-impairment dosing assessment or ESR1-specific safety dataset was available in the inspected sources.",
+    "Manufacturing diligence was limited by absent candidate-site linkage, unverified firm-name inspection leads and a failed targeted FDA search. No original giredestrant-linked CGMP, warning-letter, CMC or corrective-action document was inspected.",
+    "The CRL archive is incomplete. Sponsor portfolio examples are selective, and neither their outcomes nor the historical cohort model provide a validated individual approval probability."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept evERA’s ESR1-mutated PFS benefit as sufficient net clinical benefit for the requested post-endocrine label?",
+    "bullCase": {
+      "claim": "A prespecified, biomarker-defined primary population showed a large randomized PFS effect against an active everolimus-containing regimen, with supportive response durability. The result is directly relevant to previously CDK4/6-treated ESR1-mutated disease, rather than extrapolated from the overall trial or adjuvant setting.",
+      "sourceIds": [
+        "trial-NCT05306340",
+        "web-e8bb15169c1f",
+        "web-65b09d065274"
+      ]
+    },
+    "bearCase": {
+      "claim": "The strongest contrary interpretation is not a failed efficacy trial: it is that an open-label PFS advantage may support a narrower population or less favorable benefit–risk conclusion after scrutiny of censoring, comparator choice and treatment burden. Discontinuations were higher, OS benefit is unproven, and serious/fatal-event comparisons remain incomplete publicly.",
+      "sourceIds": [
+        "trial-NCT05306340",
+        "web-1b70c5ee1200",
+        "web-65b09d065274",
+        "web-31c7adcd8938"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do FDA’s ESR1-specific efficacy sensitivity analyses and integrated safety review preserve the reported net benefit, and for which prior-treatment population?",
+      "whyItMatters": "The clinical study report and FDA multidisciplinary review would distinguish a robust, clinically useful PFS effect from an effect materially sensitive to open-label assessment, censoring or toxicity. They would also resolve whether evidence confined to prior CDK4/6 exposure supports the sponsor’s broader post-endocrine wording.",
+      "sourceIds": [
+        "trial-NCT05306340",
+        "web-31c7adcd8938",
+        "web-65b09d065274"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit–risk confirmed",
+        "trigger": "ESR1-mutated PFS remains convincing across prespecified and independent-review or sensitivity analyses; updated serious-event and OS data do not materially undermine benefit; quality requirements are satisfied.",
+        "implication": "An approval pathway for the evidenced ESR1-mutated population remains well supported, potentially with monitoring and follow-up obligations. This is conditional, not an outcome or timing forecast.",
+        "sourceIds": [
+          "web-e8bb15169c1f",
+          "web-65b09d065274",
+          "trial-NCT05306340"
+        ]
+      },
+      {
+        "label": "Approval case survives, but label or use is narrower",
+        "trigger": "FDA accepts the PFS result but limits generalization beyond prior CDK4/6 treatment or requires more explicit diagnostic, dose-modification or monitoring provisions.",
+        "implication": "The regulatory outcome could retain the core clinical opportunity while narrowing eligible patients or increasing practical treatment burden. A label restriction would not mean evERA failed.",
+        "sourceIds": [
+          "web-31c7adcd8938",
+          "trial-NCT05306340",
+          "web-65b09d065274"
+        ]
+      },
+      {
+        "label": "Additional evidence required",
+        "trigger": "Detailed review identifies materially unfavorable serious-event/OS findings or a PFS result sensitive to assessment and censoring assumptions.",
+        "implication": "FDA could require additional analyses or data; depending on the issue, this could produce a review extension or complete response. Those are different regulatory events. No such FDA finding is established in the retrieved record.",
+        "sourceIds": [
+          "trial-NCT05306340",
+          "web-65b09d065274"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Has FDA agreed that the proposed indication can omit prior CDK4/6 exposure, and what ESR1 assay, mutation coverage and clinical-to-commercial diagnostic bridge support patient selection?",
+        "whyItMatters": "The announcement’s post-endocrine wording is broader than evERA’s prior-treatment experience, while the primary population depended on baseline ctDNA mutation detection.",
+        "sourceIds": [
+          "web-31c7adcd8938",
+          "trial-NCT05306340"
+        ]
+      },
+      {
+        "question": "When and why were the comparator options and enrollment target amended, and can management provide the locked alpha-allocation, censoring and OS testing plans?",
+        "whyItMatters": "The original trial-in-progress description differs from the completed trial. Resolving the amendments and analysis rules is more informative than treating an older protocol description as current or assuming an improper change.",
+        "sourceIds": [
+          "web-feaf0640b173",
+          "trial-NCT05306340",
+          "web-1b70c5ee1200"
+        ]
+      },
+      {
+        "question": "What caused the fatal AEs, how do serious events compare after accounting for exposure, and which dose holds and monitoring rules are proposed for stomatitis, diarrhea, anemia and bradycardia?",
+        "whyItMatters": "Common-event comparisons are partially reassuring, but higher discontinuations and incomplete severe-event characterization require a drug-specific assessment. The registry includes dexamethasone mouth-rinse prophylaxis and vital-sign/laboratory monitoring; these protocol measures are not proof that risk is fully controlled.",
+        "sourceIds": [
+          "web-65b09d065274",
+          "web-1b70c5ee1200",
+          "trial-NCT05306340"
+        ]
+      },
+      {
+        "question": "Which legal manufacturers and exact sites make, test and release commercial giredestrant, and are any product-linked CMC deficiencies or corrective actions still open?",
+        "whyItMatters": "The inspected sponsor disclosures establish sponsorship and the NDA, not commercial-site identity or FDA quality acceptance. The NDA site list and current FDA quality correspondence are needed before making any manufacturing judgment.",
+        "sourceIds": [
+          "web-b7b569215567",
+          "web-31c7adcd8938"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong ESR1-mutated PFS results support the filing, but higher treatment discontinuations, incomplete serious-event characterization and requested-label generalizability remain material. Manufacturing readiness is unknown.",
+    "pivotalQuestion": "Will FDA accept evERA’s ESR1-mutated PFS benefit as sufficient net clinical benefit for the requested post-endocrine label?",
+    "sourceIds": [
+      "web-e8bb15169c1f",
+      "web-1b70c5ee1200",
+      "web-65b09d065274",
+      "web-31c7adcd8938",
+      "trial-NCT05306340"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Prespecified ESR1-mutated PFS strongly favored the combination, with supportive response durability. Open-label assessment, uninspected statistical details and immature OS limit interpretation; independent replication was not inspected.",
+        "sourceIds": [
+          "web-e8bb15169c1f",
+          "web-65b09d065274",
+          "trial-NCT05306340"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Common toxicities were partly comparable, but discontinuations were higher and exposure longer. Fatal AEs were reported without a complete comparative causality assessment; overall serious-event and grade 3/4 tables were not inspected.",
+        "sourceIds": [
+          "web-1b70c5ee1200",
+          "web-65b09d065274"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No candidate-linked CMC review, verified commercial-site inspection, deficiency or corrective-action record was inspected. Firm-name inspection leads lack product linkage and cannot establish quality readiness.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor disclosures establish NDA acceptance and a December 18 target for the ESR1-mutated combination. FDA administrative confirmation, final prior-treatment wording and any outstanding objections remain unavailable.",
+        "sourceIds": [
+          "web-b7b569215567",
+          "web-31c7adcd8938"
+        ]
+      }
+    ]
+  },
+  "id": "19d1ee43-b142-4520-95db-0b53ad0519f2",
+  "candidateId": "giredestrant-esr1-breast",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:36:26.728Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Giredestrant + everolimus, specifically ESR1-mutated ER-positive/HER2-negative advanced breast cancer after endocrine therapy. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "roche-gired-advanced",
+      "title": "Roche: giredestrant plus everolimus filing",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "publisher": "Roche",
+      "publishedAt": "2026-02-20",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported a December 18 target for giredestrant plus everolimus in ESR1-mutated, ER-positive/HER2-negative locally advanced or metastatic breast cancer after endocrine therapy. evERA results in the ESR1-mutated population differ from the overall population and should not be interchanged. This combination filing is separate from adjuvant giredestrant."
+    },
+    {
+      "id": "roche-hy-2026",
+      "title": "Roche: half-year 2026 regulatory portfolio update",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "publisher": "Roche",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche’s half-year update lists the 2026 US filings for adjuvant giredestrant, giredestrant plus everolimus, adjuvant atezolizumab and satralizumab in TED. It supports portfolio context; individual acceptance releases supply the exact target dates and trial limitations."
+    },
+    {
+      "id": "trial-nct05306340",
+      "title": "ClinicalTrials.gov: NCT05306340 · A Study Evaluating the Efficacy and Safety of Giredestrant Plus Everolimus Compared With the Physician's Choice of Endocrine Therapy Plus Everolimus in Participants With Estrogen Receptor-Positive, HER2-Negative, Locally Advanced or Metastatic Breast Cancer (evERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT05306340",
+      "publisher": "ClinicalTrials.gov / Genentech, Inc.",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 373 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05306340",
+      "title": "A Study Evaluating the Efficacy and Safety of Giredestrant Plus Everolimus Compared With the Physician's Choice of Endocrine Therapy Plus Everolimus in Participants With Estrogen Receptor-Positive, HER2-Negative, Locally Advanced or Metastatic Breast Cancer (evERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT05306340",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T20:36:29.638Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05306340; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-1b70c5ee1200",
+      "title": "Giredestrant/Everolimus Extends PFS for ER+, HER2– Advanced Breast ...",
+      "url": "https://www.onclive.com/view/giredestrant-everolimus-extends-pfs-for-er-her2--advanced-breast-cancer",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:02.881Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e8bb15169c1f",
+      "title": "Roche's phase III evERA data showed giredestrant significantly improved ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2025-10-18",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:02.880Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e078d2ae9777",
+      "title": "A phase III trial of giredestrant (GIRE) + everolimus (E) in patients (pts ...",
+      "url": "https://www.asco.org/abstracts-presentations/259345",
+      "publisher": "www.asco.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:39.300Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2a46ac0a4eb2",
+      "title": "Giredestrant Plus Everolimus in ER-Positive/HER2-Negative ...",
+      "url": "https://www.conference-correspondent.com/highlights/sabcs/sabcs-2025-er-her2-breast-cancer/clinical-and-biomarker-subgroup-analysis-from-the-phase-3-evera-trial",
+      "publisher": "www.conference-correspondent.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:39.300Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-31c7adcd8938",
+      "title": "FDA accepts New Drug Application for Roche's giredestrant in ESR1 ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:52.822Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b7b569215567",
+      "title": "FDA Accepts New Drug Application for Genentech's Giredestrant in ESR1 ...",
+      "url": "https://www.gene.com/media/press-releases/15100/2026-02-19/fda-accepts-new-drug-application-for-gen",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:52.822Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3915f61e4aa6",
+      "title": "FDA Accepts NDA for Giredestrant/Everolimus in ESR1 ...",
+      "url": "https://www.cancernetwork.com/view/fda-accepts-nda-for-giredestrant-everolimus-in-esr1-mutated-breast-cancer",
+      "publisher": "www.cancernetwork.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:52.823Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-65b09d065274",
+      "title": "Giredestrant Plus Everolimus NDA Is Under FDA Review for ESR1 ...",
+      "url": "https://www.onclive.com/view/giredestrant-plus-everolimus-under-fda-review-for-esr1-mutated-er-advanced-breast-cancer",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:52.823Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-6a51c2da970d",
+      "title": "FDA complete response: Genentech, Incorporated — 11/23/2020",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22214410Orig2s000OtherActionLtrs.pdf%22+AND+letter_date%3A%2211%2F23%2F2020%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:36:53.853Z",
+      "kind": "fda",
+      "summary": "Letter dated 11/23/2020. Archive current application status: Approved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-98830dbc3704",
+      "title": "Study Details | NCT05306340 | ClinicalTrials.gov - ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05306340",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:02.882Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-feaf0640b173",
+      "title": "evERA Breast Cancer (BC): Phase III study of giredestrant + everolimus ...",
+      "url": "https://www.asco.org/abstracts-presentations/225767",
+      "publisher": "www.asco.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:02.883Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d354053dc061",
+      "title": "European Society for Medical Oncology (ESMO) 2023 Congress",
+      "url": "https://medically.roche.com/global/en/oncology/esmo-2023/breast-cancer/evera-breast-cancer.html",
+      "publisher": "medically.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:12.886Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-69b6846d2a3c",
+      "title": "2026 ASCO® Annual Meeting",
+      "url": "https://medically.roche.com/nz/en/oncology/congresses/oncology-annual-meeting-2026.html",
+      "publisher": "medically.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:12.887Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-653adaf33a3d",
+      "title": "SABCS 2025",
+      "url": "https://medically.roche.com/ca/en/oncology/congresses/sabcs-2025.html",
+      "publisher": "medically.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:12.887Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7768da0ca1d8",
+      "title": "ESMO 2025",
+      "url": "https://medically.roche.com/es/en/oncology/congresses/esmo-2025.html",
+      "publisher": "medically.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:12.888Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4c1c14fc6dcb",
+      "title": "FDA approves inavolisib with palbociclib and fulvestrant for ...",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-inavolisib-palbociclib-and-fulvestrant-endocrine-resistant-pik3ca-mutated-hr-positive",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:17.684Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-54db0944f16a",
+      "title": "Drugs Trials Snapshot: ITOVEBI - FDA",
+      "url": "https://www.fda.gov/drugs/drug-trials-snapshots/drugs-trials-snapshot-itovebi",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:17.685Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5507d9ae6e3a",
+      "title": "[PDF] NDA 219249 - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/219249Orig1s000ltr.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:17.685Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0c5abeed53ec",
+      "title": "[PDF] CY 2024 CDER New Molecular Entity (NME) Drug & Original BLA ... - FDA",
+      "url": "https://www.fda.gov/media/185463/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:17.686Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 295638,
+    "outputTokens": 7060
+  },
+  "durationMs": 187572,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-gired-advanced"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-hy-2026"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05306340"
+      },
+      "status": "completed",
+      "durationMs": 141
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "evERA Breast Cancer giredestrant everolimus phase 3 ESR1 mutation 2025 2026 results publication hazard ratio adverse events discontinuation"
+      },
+      "status": "completed",
+      "durationMs": 3601
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "giredestrant everolimus FDA NDA December 18 2026 status complete response CMC manufacturing site Roche Genentech"
+      },
+      "status": "completed",
+      "durationMs": 13523
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Genentech"
+      },
+      "status": "completed",
+      "durationMs": 422
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Genentech"
+      },
+      "status": "completed",
+      "durationMs": 609
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "evERA giredestrant everolimus Mayer 2025 2026 full paper supplement safety serious adverse events LBA16 GS3-09 pdf"
+      },
+      "status": "completed",
+      "durationMs": 4835
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"giredestrant\" \"evERA\" site:medically.roche.com"
+      },
+      "status": "completed",
+      "durationMs": 4542
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"giredestrant\" (\"manufacturing\" OR \"CMC\" OR \"warning letter\" OR \"complete response\") site:fda.gov"
+      },
+      "status": "error",
+      "durationMs": 563
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov inavolisib Itovebi approved October 2024 Genentech"
+      },
+      "status": "completed",
+      "durationMs": 4236
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_079c9ca82026b82b016aa314fdd25c87d2be3a12e5e48afadf",
+    "inputHash": "7fd7cb4abe70bb8ae1160ad6ac52b91f9db0217ffd69039a5d95e62be1a52b85"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:45:31.294Z",
+    "originalSha256": "2e90a44ced11235194d0be5f02dae02885e68579ad0623790e9ad2c1867bc39f",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "summary": "Imlifidase has a substantive randomized efficacy case for enabling transplantation—not merely lowering antibodies. The evidence balance is mixed because rejection and infection are established candidate-specific risks, and the endpoint does not establish a survival benefit. Hansa’s latest inspected update retains a December 19, 2026 US action target. Exact US manufacturing-site relationships and FDA CMC readiness remain unresolved.",
+  "outlook": {
+    "verdict": "Clinically supportive, with material benefit–risk questions and unverified US manufacturing readiness.",
+    "timing": "Hansa reported BLA acceptance on February 18, 2026 and assignment of a December 19, 2026 PDUFA action target on March 4. Its July 2026 half-year report retained that target and described ongoing FDA review. December 19 is an action goal, not an approval date; the inspected evidence does not support a more precise outcome or timing forecast.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model describes annual FDA receipt-cohort first-cycle approval rates and separately measured action timeliness. Original-application cohorts provide broad context, but mix NDAs and BLAs and do not estimate an individual imlifidase probability. Review priority was not established from the inspected primary disclosures. No individual probability or combined approval-and-timing estimate is assigned."
+  },
+  "findings": [
+    {
+      "id": "finding-1",
+      "title": "Actual randomized results support the transplant-enabling strategy",
+      "detail": "Hansa’s March 2026 presentation reports ConfIdeS full-analysis-set results for 32 patients per arm: mean 12-month eGFR was 51.5 versus 19.3 mL/min/1.73 m², a difference of 32.2, with p<0.0001. A rank-based analysis reported medians of 50.0 versus 0 and p=0.0001. These are sponsor-reported results, not merely planned endpoints. The registry confirms an open-label randomized comparison in patients with cPRA ≥99.9%, against institution-specific desensitization where feasible or continued waiting.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-7f915a5bb54d",
+        "trial-NCT04935177"
+      ]
+    },
+    {
+      "id": "finding-2",
+      "title": "The endpoint measures access plus kidney function; subgroup and hierarchy claims need care",
+      "detail": "The registered primary endpoint assigns eGFR zero to patients not transplanted, experiencing graft loss, or dying before 12 months. It therefore evaluates the entire transplant strategy, not kidney function solely among functioning graft recipients or survival independently. Hansa also reports an organ-offer-at-randomization transplant subset of 27 versus 3 patients, with mean eGFR 59.3 versus 23.1 and p=0.0138; this selected, highly imbalanced subset does not preserve the full randomized comparison. Hansa calls dialysis independence a key secondary endpoint (p=0.0007), whereas the current registry lists patient survival as secondary and dialysis dependency under other outcomes.",
+      "direction": "neutral",
+      "sourceIds": [
+        "trial-NCT04935177",
+        "web-7f915a5bb54d",
+        "web-d6362dd0fc32"
+      ]
+    },
+    {
+      "id": "finding-3",
+      "title": "Antibody rebound and rejection are material risks, not eliminated by crossmatch conversion",
+      "detail": "In the published single-arm phase 2 Highdes study, 19 patients were dosed and 18 transplanted. Early biopsy-proven antibody-mediated rejection occurred in 7/18 recipients (38.9%), beginning 2–19 days after transplantation; donor-specific antibodies commonly rebounded within 3–14 days. All exposed patients reported a treatment-emergent adverse event within 30 days. Investigators reported 18 serious TEAEs—not 18 affected patients—with two classified as related: a grade 2 infusion reaction and grade 3 mixed cellular/humoral rejection. Infusions were temporarily halted in two patients. No grade 4 TEAEs or deaths occurred during the study. These older results characterize risk but are not randomized ConfIdeS safety estimates.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-10895644bf07"
+      ]
+    },
+    {
+      "id": "finding-4",
+      "title": "Infection is an established product-specific safety issue",
+      "detail": "EMA’s Idefirix overview identifies infections including pneumonia, urinary tract infection and sepsis among common adverse effects, and pneumonia and sepsis among serious adverse effects. It states that Idefirix should not be used in patients with a serious infection and that standard post-transplant immunosuppression remains necessary. EMA considered the safety profile manageable for its conditional authorization; that is European benefit–risk context, not an FDA safety determination.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-701b34d5b2b5"
+      ]
+    },
+    {
+      "id": "finding-5",
+      "title": "The documented supply relationship is Hansa-to-SERB, not a verified factory relationship",
+      "detail": "Hansa’s May 19, 2026 transaction presentation assigns Hansa responsibility for supplying Idefirix to the licensed European and MENA territories, with SERB responsible for commercialization and medical affairs. SERB reported closing the transaction on July 1. This establishes a candidate-specific commercial supply responsibility; it does not identify the drug-substance, fill-finish, testing or release facilities proposed in the US BLA.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-af704dbfb881",
+        "web-22f62d4194dc"
+      ]
+    },
+    {
+      "id": "finding-6",
+      "title": "The US BLA is in review; accelerated-approval follow-up remains relevant",
+      "detail": "Hansa reported filing acceptance on February 18 and a December 19, 2026 action target on March 4. Its July half-year report describes continuing FDA interactions and retains that target. The acceptance disclosure describes a five-year ConfIdeS program, including long-term follow-up agreed with FDA as part of an accelerated-approval pathway. Filing acceptance establishes reviewability, not acceptance of the efficacy interpretation, safety profile, manufacturing package or final label.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-d6362dd0fc32",
+        "web-20ae5c728af8",
+        "web-2b1a871438c2"
+      ]
+    },
+    {
+      "id": "finding-7",
+      "title": "Sponsor history provides experience, but no transferable FDA success rate",
+      "detail": "EMA documents Idefirix’s conditional EU authorization on August 25, 2020, providing same-product regulatory experience without establishing US clearance. Conversely, Hansa’s Q1 2026 report acknowledges that the separate anti-GBM phase 3 program missed its primary endpoint and that long-term follow-up was terminated in February. That setback argues against assuming IgG cleavage guarantees clinical benefit across indications; it does not negate the positive randomized transplant-strategy result. Hansa’s July disclosure also reports receipt of €110 million from the SERB transaction, a financing event rather than regulatory evidence.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-701b34d5b2b5",
+        "web-2bf932e5f7cc",
+        "web-e50b876727ef",
+        "web-7f915a5bb54d"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Obtain the complete ConfIdeS report and prespecified statistical analysis plan: confidence intervals, analysis-set definitions, missing-data sensitivity analyses, transplant timing by arm, and the multiplicity hierarchy for dialysis independence and survival.",
+    "Obtain randomized ConfIdeS safety tables with explicit exposed and transplanted denominators: biopsy-confirmed AMR/CMR, serious and opportunistic infections, severity, attribution, infusion interruptions, discontinuations, graft losses and deaths.",
+    "Obtain the US BLA manufacturing map with legal entities, exact addresses/FEIs and responsibilities for drug substance, fill-finish, testing and release; then match product-linked FDA inspection findings, responses and disposition to those sites.",
+    "Monitor FDA or dated sponsor disclosures for review issues, any revised action target, proposed population restrictions and the final accelerated-approval/confirmatory-follow-up requirements."
+  ],
+  "limitations": [
+    "The investigation did not establish an exact imlifidase-to-US-manufacturing-site relationship or retrieve a product-linked FDA CGMP/prelicense inspection disposition. Manufacturing readiness is unknown—not cleared and not a documented failure. Commercial supply responsibility and European authorization cannot substitute for this evidence.",
+    "Quantitative ConfIdeS efficacy evidence inspected here comes from sponsor disclosures. The current registry has no posted results. A complete randomized safety report, confidence intervals and prespecified statistical analysis plan were not retrieved.",
+    "The 27-versus-3 transplant subset is specifically tied to the organ offer at randomization; it must not be presented as all transplants during follow-up. Broader labeling beyond the studied cPRA ≥99.9% population requires justification.",
+    "Highdes was a small, uncontrolled phase 2 study including living- and deceased-donor transplantation. Its rejection and adverse-event experience cannot quantify the incremental risk of imlifidase versus the ConfIdeS comparator strategy.",
+    "The latest inspected detailed US status disclosure is from July 2026. This September 10 investigation does not establish that no later FDA communication, review amendment or undisclosed concern exists.",
+    "The anti-GBM failure was assessed as sponsor development history, not through a full appraisal of that separate trial. It is not treated as a failed endpoint in the transplant application."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the randomized transplant-strategy benefit outweigh rejection and infection risks sufficiently for FDA’s proposed population and accelerated-approval requirements?",
+    "bullCase": {
+      "claim": "ConfIdeS shows a large sponsor-reported randomized improvement in 12-month strategy-level eGFR, supported by a rank-based analysis and reported dialysis-independence benefit. This directly addresses access to a functioning transplant rather than relying only on antibody reduction.",
+      "sourceIds": [
+        "web-7f915a5bb54d",
+        "trial-NCT04935177",
+        "web-d6362dd0fc32"
+      ]
+    },
+    "bearCase": {
+      "claim": "The primary endpoint combines transplantation access, graft outcomes and death through zero assignment, so it does not independently prove survival benefit. The transplant subset is selected and very small in controls, while earlier candidate-specific evidence establishes antibody rebound, rejection and serious infection risks.",
+      "sourceIds": [
+        "trial-NCT04935177",
+        "web-7f915a5bb54d",
+        "web-10895644bf07",
+        "web-701b34d5b2b5"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do the prespecified randomized analyses and arm-level rejection, infection, graft-loss and mortality data confirm a clinically durable net benefit?",
+      "whyItMatters": "They would distinguish a robust benefit from enabling transplantation from an interpretation that overstates graft-specific or survival improvement, and show whether the required immunosuppressive strategy carries acceptable harms.",
+      "sourceIds": [
+        "trial-NCT04935177",
+        "web-7f915a5bb54d",
+        "web-10895644bf07",
+        "web-d6362dd0fc32"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit–risk and CMC support approval",
+        "trigger": "FDA accepts the strategy endpoint and sensitivity analyses, finds rejection/infection management acceptable, and determines the product-linked manufacturing package is adequate.",
+        "implication": "The evidence would support an approval pathway for a carefully defined population, potentially with long-term confirmation requirements. December 19 would remain an action target rather than a guaranteed approval date.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-d6362dd0fc32",
+          "web-20ae5c728af8"
+        ]
+      },
+      {
+        "label": "Clinical benefit accepted with narrower conditions",
+        "trigger": "FDA accepts transplant enablement but limits generalizability or requires stronger rejection/infection controls and explicit long-term confirmation.",
+        "implication": "The usable indication could be narrower than a broad highly sensitized population, with substantial monitoring and follow-up obligations.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-701b34d5b2b5",
+          "web-d6362dd0fc32"
+        ]
+      },
+      {
+        "label": "Additional evidence or review work required",
+        "trigger": "FDA identifies material weaknesses in endpoint robustness, net safety benefit, or the US manufacturing package.",
+        "implication": "Further analyses, remediation or additional clinical evidence could be required. A review extension and a complete response would be distinct possible developments, neither established by the current evidence.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-10895644bf07",
+          "web-701b34d5b2b5",
+          "web-2b1a871438c2"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How does the final statistical analysis plan reconcile the registry’s endpoint hierarchy with the sponsor’s designation of dialysis independence as a key secondary endpoint?",
+        "whyItMatters": "Prespecification and multiplicity control determine which claims are confirmatory rather than supportive.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-d6362dd0fc32"
+        ]
+      },
+      {
+        "question": "What were AMR/CMR, serious infection, graft-loss and death outcomes in each randomized arm, with both randomized and transplant-exposure denominators?",
+        "whyItMatters": "The strategy changes how many patients undergo transplantation and immunosuppression; raw event counts alone could misrepresent comparative risk.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-10895644bf07",
+          "web-701b34d5b2b5"
+        ]
+      },
+      {
+        "question": "Which exact facilities perform each manufacturing step for the US BLA, and how do those arrangements relate to Hansa’s retained Idefirix supply obligation to SERB?",
+        "whyItMatters": "The disclosed commercial relationship is not a factory map. Exact product/site linkage is necessary before interpreting any compliance record as relevant.",
+        "sourceIds": [
+          "web-af704dbfb881",
+          "web-22f62d4194dc"
+        ]
+      },
+      {
+        "question": "What population and long-term clinical-benefit commitments remain under discussion with FDA, and who will maintain the necessary data access after the SERB transition?",
+        "whyItMatters": "ConfIdeS studied cPRA ≥99.9%, and Hansa describes five-year follow-up under an accelerated-approval pathway; European study responsibilities are also transitioning.",
+        "sourceIds": [
+          "trial-NCT04935177",
+          "web-d6362dd0fc32",
+          "web-2b1a871438c2"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Sponsor-reported randomized efficacy supports transplant enablement, but established rejection and infection risks require a clearer randomized benefit–risk assessment. US manufacturing readiness remains unknown; filing acceptance is not approval.",
+    "pivotalQuestion": "Does the transplant-strategy benefit outweigh rejection and infection risks in the population FDA would authorize?",
+    "sourceIds": [
+      "web-7f915a5bb54d",
+      "trial-NCT04935177",
+      "web-10895644bf07",
+      "web-701b34d5b2b5",
+      "web-d6362dd0fc32"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Sponsor reports a large randomized 12-month eGFR benefit with rank-based support. Zero assignment makes this a transplant-strategy endpoint, not independent proof of survival or graft-specific superiority.",
+        "sourceIds": [
+          "web-7f915a5bb54d",
+          "trial-NCT04935177"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Highdes documented early AMR and related serious events; EMA identifies serious infection risks but judged safety manageable. These data do not establish the randomized ConfIdeS incremental risk.",
+        "sourceIds": [
+          "web-10895644bf07",
+          "web-701b34d5b2b5"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Exact US product–site relationships and product-linked FDA manufacturing dispositions were not established. No clearance or adverse compliance conclusion is justified.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Hansa reports accepted BLA review and retains the December 19 target in July. Its described accelerated-approval pathway includes long-term follow-up; neither establishes FDA approval.",
+        "sourceIds": [
+          "web-d6362dd0fc32",
+          "web-2b1a871438c2"
+        ]
+      }
+    ]
+  },
+  "id": "969d4838-430b-4a4f-b811-09323b936d6c",
+  "candidateId": "imlifidase-kidney",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:46:41.967Z",
+  "mode": "investigate",
+  "question": "Conduct one fresh full investigation of imlifidase for desensitization enabling deceased-donor kidney transplantation in highly sensitized adults with a positive crossmatch. Cover actual randomized clinical results, endpoint populations and uncertainty, candidate-specific safety including rejection and infection, manufacturing evidence with exact product/site relationships, and current US regulatory position plus relevant sponsor history. Prior generation attempts failed citation validation; no completed prior report is supplied. Every finding and every analog MUST cite at least one exact source ID that exists in this research session and supports that particular claim. Never invent or shorten IDs. If no grounded analog exists return analogs: []. Put uncited evidence gaps in limitations or nextEvidence, and use unknown assessment factors with empty sourceIds where appropriate, rather than emitting an uncited factual finding. Historical model context is not a sourced drug-specific finding. Research all four domains and return an evidence-linked decisionBrief and evidenceAssessment; no approval probability and no assumption that EU authorization establishes FDA clearance.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "hansa-imli-target",
+      "title": "Hansa: imlifidase US action date",
+      "url": "https://www.prnewswire.com/news-releases/pdufa-action-date-for-hansa-biopharmas-imlifidase-bla-set-for-december-19-2026-302704610.html",
+      "publisher": "Hansa Biopharma",
+      "publishedAt": "2026-03-04",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Hansa reported December 19, 2026 as the target for its accepted imlifidase BLA, intended to enable deceased-donor kidney transplantation in highly sensitized adults with a positive crossmatch. The date is December 19, not December 9. Existing European conditional authorization does not imply a US approval."
+    },
+    {
+      "id": "trial-nct04935177",
+      "title": "ClinicalTrials.gov: NCT04935177 · Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+      "url": "https://clinicaltrials.gov/study/NCT04935177",
+      "publisher": "ClinicalTrials.gov / Hansa Biopharma AB",
+      "publishedAt": "2026-04-30",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 64 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04935177",
+      "title": "Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+      "url": "https://clinicaltrials.gov/study/NCT04935177",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-04-30",
+      "retrievedAt": "2026-09-10T20:46:42.150Z",
+      "summary": "Registry protocol: COMPLETED; PHASE3; lead sponsor Hansa Biopharma AB. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-37340532",
+      "title": "Imlifidase Desensitization in HLA-incompatible Kidney Transplantation: Finding the Sweet Spot.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37340532/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:42.514Z",
+      "summary": "Indexed citation in Transplantation; publication date 2024 Feb 1. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39023092",
+      "title": "A Randomized Trial Comparing Imlifidase to Plasmapheresis in Kidney Transplant Recipients With Antibody-Mediated Rejection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39023092/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:42.514Z",
+      "summary": "Indexed citation in Clinical transplantation; publication date 2024 Jul. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-41578965",
+      "title": "Trends in Nephrology: From nihilism to targeted treatment of antibody-mediated rejection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41578965/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:42.514Z",
+      "summary": "Indexed citation in Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association; publication date 2026 Jan 24. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38994389",
+      "title": "New approach to desensitization in solid organ transplantation-imlifidase.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38994389/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:42.514Z",
+      "summary": "Indexed citation in Frontiers in transplantation; publication date 2022. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-39825100",
+      "title": "Safety, efficacy, and immunogenicity of a novel IgG degrading enzyme (KJ103): results from two randomised, blinded, phase 1 clinical trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39825100/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:42.514Z",
+      "summary": "Indexed citation in Gene therapy; publication date 2025 May. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT04935177",
+      "title": "Renal Function in Highly Sensitized Patients 1 Year After Desensitization With Imlifidase Prior to DD Kidney Tx",
+      "url": "https://clinicaltrials.gov/study/NCT04935177",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-04-30",
+      "retrievedAt": "2026-09-10T20:46:47.686Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04935177; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-e5b18e9dfcec",
+      "title": "Hansa Biopharma Announces Late-Breaking Abstract from ...",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2026/hansa-biopharma-announces-late-breaking-abstract-from-confides-phase-3-trial-selected-for-oral-presentation-at-atc-2026/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:22.768Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e74991c5c888",
+      "title": "Hansa Biopharma reports positive efficacy and safety results from ...",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2026/hansa-biopharma-reports-positive-efficacy-and-safety-results-from-idefirix-european-post-authorization-study-in-kidney-transplantation/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:36.372Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7f915a5bb54d",
+      "title": "[PDF] Corporate Presentation - Hansa Biopharma",
+      "url": "https://www.hansabiopharma.com/files/Presentations/2026/hansa_corporate_presentation_mar_2026_2.pdf",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:38.920Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-021f4309d946",
+      "title": "Hansa Biopharma announces ConfIdeS Phase 3 Abstract ...",
+      "url": "https://firstwordpharma.com/story/7647514",
+      "publisher": "firstwordpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:22.769Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d6362dd0fc32",
+      "title": "Hansa Biopharma's Biologics License Application (BLA) for imlifidase ...",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2026/hansa-biopharmas-biologics-license-application-bla-for-imlifidase-accepted-by-the-fda/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:28.959Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bcb58c5fa4b6",
+      "title": "Hansa Biopharma's Biologics License Application (BLA) for imlifidase ...",
+      "url": "https://www.prnewswire.com/news-releases/hansa-biopharmas-biologics-license-application-bla-for-imlifidase-accepted-by-the-fda-302691922.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:12.107Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-57c89479c61a",
+      "title": "PDUFA Action Date for Hansa Biopharma's Imlifidase BLA Set for ...",
+      "url": "https://firstwordpharma.com/story/7127425",
+      "publisher": "firstwordpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:12.107Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ada8a47dd2f8",
+      "title": "Hansa closes on FDA verdict for transplant drug imlifidase",
+      "url": "https://pharmaphorum.com/news/hansa-closes-fda-verdict-transplant-drug-imlifidase",
+      "publisher": "pharmaphorum.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:12.108Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-cab377214622",
+      "title": "Hansa Biopharma Announces Late-Breaking Abstract from ...",
+      "url": "https://www.prnewswire.com/news-releases/hansa-biopharma-announces-late-breaking-abstract-from-confides-phase-3-trial-selected-for-oral-presentation-at-atc-2026-302781429.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:22.769Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-10895644bf07",
+      "title": "Imlifidase Desensitization in Crossmatch-positive, Highly ... - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8294837/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:22.769Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-701b34d5b2b5",
+      "title": "Idefirix | European Medicines Agency (EMA)",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/idefirix",
+      "publisher": "www.ema.europa.eu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:36.372Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7f2c05a9b50e",
+      "title": "Idefirix, INN-imlifidase - EMA",
+      "url": "https://www.ema.europa.eu/en/documents/overview/idefirix-epar-medicine-overview_en.pdf",
+      "publisher": "www.ema.europa.eu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:25.364Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-22f62d4194dc",
+      "title": "SERB Pharmaceuticals Completes Acquisition of European and MENA ...",
+      "url": "https://serb.com/news/serb-pharmaceuticals-completes-acquisition-of-european-and-mena-rights-to-idefirix-imlifidase-from-hansa-biopharma/",
+      "publisher": "serb.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:36.372Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-14206433d335",
+      "title": "European Medicines Agency (EMA) - European Union",
+      "url": "https://www.ema.europa.eu/en/medicines",
+      "publisher": "www.ema.europa.eu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:25.365Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2bf932e5f7cc",
+      "title": "[PDF] Interim Report - Hansa Biopharma",
+      "url": "https://www.hansabiopharma.com/files/Main/1219/4338923/hnsa--q1-2026-quarterly-report-eng-final_.pdf",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:28.959Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-20ae5c728af8",
+      "title": "PDUFA Action Date for Hansa Biopharma's Imlifidase BLA Set for ...",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2026/pdufa-action-date-for-hansa-biopharmas-imlifidase-bla-set-for-december-19-2026/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:28.960Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-97ddd36a8fa0",
+      "title": "Hansa provides update on Pivotal Phase 3 trial in anti-glomerular ...",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2025/hansa-provides-update-on-pivotal-phase-3-trial-in-anti-glomerular-basement-membrane-anti-gbm-disease/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:28.960Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-19d2fd462c7d",
+      "title": "European Medicines Agency - European Union",
+      "url": "https://www.ema.europa.eu/en/homepage",
+      "publisher": "www.ema.europa.eu",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:36.371Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e50b876727ef",
+      "title": "Hansa Biopharma Reports Second Quarter and First Half Year 2026 ...",
+      "url": "https://www.hansabiopharma.com/investors/financial-reports/hansa-biopharma-reports-second-quarter-and-first-half-year-2026-financial-results/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:38.919Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a9f54ff8144b",
+      "title": "Today, Hansa Biopharma reported its Second Quarter and First Half Year ...",
+      "url": "https://www.linkedin.com/posts/hansa-medical-ab_for-investors-and-media-today-hansa-biopharma-activity-7485562689147043840-2wlA",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:38.920Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-af704dbfb881",
+      "title": "[PDF] Hansa's €115 Million Out Licensing of Idefirix in Europe and MENA to SERB",
+      "url": "https://www.hansabiopharma.com/files/Presentations/2026/2026-05-19-hansa-biopharma-out-licensing-call-presentation.pdf",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:59.901Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b92d52b90c6b",
+      "title": "[PDF] Annual Report 2024 - Hansa Biopharma",
+      "url": "https://www.hansabiopharma.com/files/Annual-reports/HansaBiopharma_AnnualReport_2024_ENG.pdf",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:55.488Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-15b40bed1a8c",
+      "title": "#raredisease #kidneytransplant #imlifidase #biopharma ... - LinkedIn",
+      "url": "https://www.linkedin.com/posts/malsum_raredisease-kidneytransplant-imlifidase-activity-7478488069533523969-pAAR",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:55.490Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ee44d45340a2",
+      "title": "[PDF] Addressing unmet need - Cision",
+      "url": "https://mb.cision.com/Main/1219/3948116/2684261.pdf",
+      "publisher": "mb.cision.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:55.490Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-229b0289ee01",
+      "title": "Meds Entry Watch 7th Edition - Canada.ca",
+      "url": "https://www.canada.ca/en/patented-medicine-prices-review/services/npduis/analytical-studies/meds-entry-watch-7th-edition.html",
+      "publisher": "www.canada.ca",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:55.491Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-cbbc9b3f1f32",
+      "title": "Hansa Biopharma invite to Capital Markets Day 2026 in New York",
+      "url": "https://www.hansabiopharma.com/media/press-releases/2026/hansa-biopharma-invite-to-capital-markets-day-2026-in-new-york/",
+      "publisher": "www.hansabiopharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:59.901Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2b1a871438c2",
+      "title": "[PDF] Half Year Report - Cision",
+      "url": "https://mb.cision.com/Main/1219/4376601/4200215.pdf",
+      "publisher": "mb.cision.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:59.902Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a07ae2b9e0a2",
+      "title": "[PDF] Hansa Biopharma invite to Capital Markets Day 2026 in ... - Nasdaq",
+      "url": "https://attachment.news.eu.nasdaq.com/a52ba8328d523d1f19eb0aed8bdd097f0",
+      "publisher": "attachment.news.eu.nasdaq.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:47:59.904Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 487259,
+    "outputTokens": 5620
+  },
+  "durationMs": 205775,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "hansa-imli-target"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04935177"
+      },
+      "status": "completed",
+      "durationMs": 78
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.hansabiopharma.com ConfIdeS 2026 results eGFR safety rejection 12 months 2025 2026"
+      },
+      "status": "completed",
+      "durationMs": 15253
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "imlifidase Idefirix manufacturing manufacturer site BiotechPharma Propharma AGC Hansa 2026 FDA BLA"
+      },
+      "status": "completed",
+      "durationMs": 3554
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ConfIdeS June 22 2026 imlifidase results adverse events rejection 51.5 19.3"
+      },
+      "status": "completed",
+      "durationMs": 2955
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.ema.europa.eu Idefirix product information manufacturers biological active substance Biovian Propharma infection"
+      },
+      "status": "completed",
+      "durationMs": 2595
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.hansabiopharma.com 2026 interim report imlifidase FDA manufacturing inspection anti-GBM"
+      },
+      "status": "completed",
+      "durationMs": 3595
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.ema.europa.eu/en/documents/product-information/idefirix-epar-product-information_en.pdf"
+      },
+      "status": "completed",
+      "durationMs": 799
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.hansabiopharma.com ConfIdeS \"2026\" \"confidence\""
+      },
+      "status": "completed",
+      "durationMs": 2549
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-10895644bf07",
+        "query": "Safety"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Idefirix\" \"manufacturers\" \"substance\""
+      },
+      "status": "completed",
+      "durationMs": 5121
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.hansabiopharma.com \"2026\" \"ConfIdeS\" \"Capital Markets Day\" pdf June"
+      },
+      "status": "completed",
+      "durationMs": 4412
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-10895644bf07",
+        "query": "Adverse Events"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_032fd63c1fc4f542016aa3178029f487d2a0ca9bbb0eb9f7a3",
+    "inputHash": "fc884b78edd42490fb34fbbc2fe0032702e06c65620de20919275bd828876332"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:53:58.866Z",
+    "originalSha256": "5209e009165cb0bf782813df489638bd8428e30f75f549ba9c89c5136c8e5b35",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

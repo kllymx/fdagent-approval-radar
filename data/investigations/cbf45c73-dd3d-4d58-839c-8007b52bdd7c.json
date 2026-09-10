@@ -1,0 +1,665 @@
+{
+  "summary": "Bezuclastinib has substantive placebo-controlled efficacy evidence for non-advanced systemic mastocytosis, not merely an accepted filing. The main unresolved issue is whether its symptom benefit justifies chronic treatment given reproducible liver-enzyme toxicity. Public evidence supports continued review toward the sponsor-reported December 30, 2026 target, but does not establish manufacturing readiness or FDA’s final benefit–risk judgment.",
+  "outlook": {
+    "verdict": "Clinically supportive, with a material chronic-use safety question and unresolved manufacturing visibility. Approval remains plausible, but neither broad labeling nor an on-target favorable action is established.",
+    "timing": "Cogent announced NDA acceptance on March 16, 2026, with a December 30, 2026 PDUFA target. The supplied August 10 update reaffirms that target. No inspected disclosure establishes a subsequent target change or completed action. December 30 is an action goal, not an approval date; undisclosed review issues or amendments could change timing.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides annual first-cycle approval context for original standard and priority applications, using FY2017–2023 receipt cohorts. Original-application scope is relevant, but this investigation did not independently verify the exact review-priority classification. Those cohort rates do not estimate this candidate’s approval probability. The separate timeliness model measures FDA action, including unfavorable actions, and is not combined with approval rates."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "The pivotal trial demonstrates an incremental symptom benefit over placebo",
+      "detail": "SUMMIT Part 2 is a multicenter, randomized, double-blind, placebo-controlled phase 2 trial—not phase 3. Adults had centrally confirmed non-advanced SM and moderate-to-severe symptoms despite optimized best supportive care (BSC). Randomization was 2:1 to bezuclastinib 100 mg once daily plus BSC or placebo plus BSC: 119 versus 60 randomized, with 118 versus 60 treated. The registered primary endpoint was mean absolute change in MS2D2 total symptom score (TSS; 0–110) at week 24. Sponsor-hosted results show changes of −24.32 versus −15.41 points, with a treatment difference of −8.91 points (95% CI −13.56 to −4.26; p<0.001). Reported ≥50% symptom-response rates were 34.3% versus 18.1% (p=0.01), and ≥30% response rates were 65.4% versus 38.6% (p<0.001). Thus, the relevant effect is the placebo-adjusted benefit, not the entire within-treatment improvement. The registry’s estimated enrollment of 237 covers the multipart study and is not the pivotal randomized denominator.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05186753",
+        "web-a86b814050bc",
+        "web-f5df55f8dbf2",
+        "web-475de98cc040"
+      ]
+    },
+    {
+      "id": "clinical-robustness",
+      "title": "Biomarkers corroborate activity, but endpoint breadth and statistical robustness require qualification",
+      "detail": "At week 24, sponsor results show ≥50% tryptase reduction in 104/119 patients versus 0/60. The marrow endpoint was a composite—≥50% mast-cell reduction OR clearance of aggregates—with responses of 75.6% versus 21.7%. The KIT D816V endpoint combined ≥50% variant-allele reduction OR undetectability, with responses of 78/91 versus 0/48 among patients with detectable blood mutation at baseline. These are not interchangeable with pure reduction endpoints or responses in every randomized patient. Individual-symptom p-values in the presentation were explicitly unadjusted for multiplicity. The inspected sources did not provide the complete prespecified statistical analysis plan, missing-diary sensitivity analyses, or responder confidence intervals. Baseline mean TSS was 57.1 versus 52.6. Markedly different hair-color changes could potentially compromise blinding of a patient-reported endpoint; this is a diligence hypothesis, not demonstrated bias. Biomarker changes and their correlations with symptoms do not establish prevention of progression, fractures, or other long-term clinical events.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "trial-NCT05186753",
+        "web-b83bfc825127"
+      ]
+    },
+    {
+      "id": "clinical-durability",
+      "title": "Follow-up supports persistence, but does not constitute independent randomized replication",
+      "detail": "The February 28, 2026 sponsor update reports a −32.0-point mean TSS change at 48 weeks and approximately 86% achieving ≥30% symptom improvement. After week 24, however, patients could enter an open-label extension; there was no continuing randomized placebo comparison establishing incremental benefit through week 48. The release does not provide a complete attrition analysis or uncertainty estimates. Earlier SUMMIT Part 1 results provide supportive consistency: among 27 patients receiving 100 mg, including placebo crossovers, 16 contributed week-48 symptom results, with a reported −28.8-point mean change. That small, selected follow-up cohort is not an independent confirmatory pivotal trial. Generalization also needs care: Part 2 contained only 12 patients with smoldering SM, 20 with bone-marrow mastocytosis, and 14 previously treated with avapritinib. The current registry’s additional avapritinib-inadequate-control substudy is a protocol, not completed evidence.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b83bfc825127",
+        "web-f0cedd1e6752",
+        "web-f5df55f8dbf2",
+        "web-475de98cc040",
+        "trial-NCT05186753"
+      ]
+    },
+    {
+      "id": "safety-liver",
+      "title": "Liver-enzyme toxicity is observed and reproducible—not an undisclosed hypothetical risk",
+      "detail": "In the pivotal safety population, treatment-emergent adverse events occurred in 116/118 patients (98.3%) versus 53/60 (88.3%); these percentages represent patients with TEAEs, not the proportion of events that were low grade. Serious TEAEs occurred in 5/118 versus 3/60. Drug-related events prompted dose reductions in 13/118 versus none and discontinuations in 7/118 versus none. Cogent attributes all seven discontinuations to ALT/AST elevations and reports resolution. ALT/AST elevations occurred in 22.0% versus 6.6%, with grade ≥3 elevations in 5.9% versus none. Other frequent events included hair-color changes, altered taste and nausea. A presentation footnote notes one additional discontinuation after the cutoff, which needs reconciliation with the latest cumulative dataset. Earlier Part 1 exposure at 100 mg included median treatment durations of 56 weeks in 18 initially treated patients and 40 weeks in nine crossovers; three of 27 had grade 3 ALT/AST events, two discontinued after grade 3 events, and one event was described as a possibly related grade 3 SAE. Observed reversibility and the small serious-event counts are reassuring, but do not establish rare-event or lifelong safety. Full bilirubin/Hy’s-law adjudication, serious-event narratives, deaths, exposure-adjusted rates, hepatic-impairment effects and comparative dose–toxicity data were not available in the inspected material.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "web-475de98cc040",
+        "web-f0cedd1e6752"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Manufacturing remains unassessed; no product-linked clearance or documented corrective-action history was established",
+      "detail": "Targeted public and SEC-oriented searches for manufacturers, CMC issues and inspections did not yield an inspected candidate-linked commercial site list or FDA quality assessment. Retrieved 2025 company filings discuss manufacturing scalability and third-party performance risks, but those general disclosures are not evidence of a specific deficiency. A SEC-oriented search failed, and the available filing excerpts do not establish the current NDA’s API manufacturer, tablet manufacturer, testing sites or FEIs. The registry documents Formulation A in Part 1a and Formulation B in Part 1b/Part 2; that transition is not itself a CMC setback. No inspected evidence establishes a CMC-related CRL, replacement contractor, remediation program, process-validation acceptance or CGMP clearance. The resolving documents are the NDA facility list and FDA quality assessment, including clinical-to-commercial formulation bridging, batch validation and stability support, plus any product-linked inspection findings and corrective-action correspondence.",
+      "direction": "unknown",
+      "sourceIds": [
+        "trial-NCT05186753",
+        "web-ceede93e8086"
+      ]
+    },
+    {
+      "id": "regulatory-status",
+      "title": "This is the original non-advanced SM NDA; early review communications are not final FDA conclusions",
+      "detail": "Cogent’s January 12, 2026 disclosure states that its first NDA, for non-advanced SM, was submitted in December 2025. Its March 16 acceptance release identifies the requested disease population and December 30, 2026 target. This supports the supplied original-NDA classification, not a supplement or post-CRL resubmission. Cogent also stated that, at acceptance, FDA had identified no potential review issues and had no advisory committee planned. Those are dated sponsor-attributed communications, not a current FDA review memorandum or assurance of approval. The supplied August update reaffirms the target but is available here only as a curated attributed summary. No inspected document establishes a current specific FDA objection or prior CRL; the attempted public CRL-archive check failed, so absence cannot be confirmed. GIST priority-review status and advanced-SM submissions are separate episodes and cannot be imported into this application.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-63abd1cdf001",
+        "web-68dafa1d478e",
+        "cogt-q2-2026"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Sponsor history supplies development context, not a demonstrated approval track record",
+      "detail": "Cogent’s December 2025 presentation explicitly stated that it had not obtained marketing approval for any product, and its January 2026 update described the non-advanced SM submission as its first NDA. No completed sponsor approval pathway was established by the documents inspected here. Personnel launch experience at other companies is not Cogent application-outcome evidence. January’s expectation of acceptance by the end of February was followed by a March 16 acceptance announcement; announcement timing alone does not establish the actual FDA acceptance date, an extended review clock or a regulatory setback. There is therefore no grounded sponsor-specific timeline multiplier or approval precedent to apply.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "web-63abd1cdf001",
+        "web-68dafa1d478e"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The complete SUMMIT Part 2 clinical study report and prespecified statistical analysis plan: primary estimand, multiplicity hierarchy, diary completeness, post-discontinuation handling, sensitivity analyses, responder confidence intervals and subtype estimates.",
+    "The latest non-advanced SM integrated safety update: patient-years at 100 mg, cumulative serious events and discontinuations, ALT/AST plus bilirubin narratives, recurrence after rechallenge, exposure–toxicity relationships and proposed liver-monitoring/hold rules.",
+    "The NDA’s product-linked manufacturing facility list and FDA quality assessment, with formulation bridging, commercial-batch validation, stability data and any inspection observations or corrective-action closure documentation.",
+    "A current sponsor disclosure or FDA document confirming review classification, requested label breadth, outstanding review issues and the applicable action target; ultimately, the FDA action letter and review package."
+  ],
+  "limitations": [
+    "This is a current investigation through September 10, 2026, not a historical prediction backtest. Older trial cutoffs and disclosures are dated separately; no post-cutoff outcome is assumed.",
+    "The current ClinicalTrials.gov record was inspected and contains no posted results. Clinical conclusions rely on an original conference abstract’s methods, sponsor-hosted results slides, a Part 1 poster and sponsor disclosures—not an inspected full peer-reviewed pivotal manuscript or FDA clinical review.",
+    "The 48-week release lacks a complete denominator/attrition and cumulative safety presentation. Selected follow-up results cannot be treated as randomized durability evidence, and smaller disease/prior-treatment subgroups do not establish equal benefit throughout the requested population.",
+    "Manufacturing searches were inconclusive. Available 2025 filing excerpts are not a current quality dossier; no named commercial manufacturer, exact product–facility link or original FDA inspection assessment was verified. No CGMP clearance is inferred from filing acceptance or sponsor addresses.",
+    "The CRL-archive check failed, and one SEC-oriented search failed. These failures do not establish absence of prior letters, deficiencies or manufacturing issues. The August 2026 status update was supplied as a curated summary rather than retrieved full text.",
+    "No FDA-reviewed comparator history was inspected sufficiently to support an analog. No head-to-head efficacy or safety advantage over avapritinib is established, and unrelated GIST or advanced-SM results were not substituted for non-advanced SM evidence."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the symptom benefit at 100 mg justify chronic liver risk across the requested non-advanced SM population?",
+    "bullCase": {
+      "claim": "A randomized phase 2 pivotal trial shows a statistically supported placebo-adjusted symptom benefit, higher symptom-response rates and large objective biomarker effects. Follow-up supports persistence. Reported transaminase events resolved, while serious-event counts were small in both arms. This could support a favorable benefit–risk finding with appropriate monitoring if FDA confirms the analyses and manufacturing acceptability.",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "web-475de98cc040",
+        "web-b83bfc825127"
+      ]
+    },
+    "bearCase": {
+      "claim": "A chronic symptom-control indication must justify reproducible grade ≥3 transaminase abnormalities and treatment discontinuations. The placebo-adjusted symptom effect is smaller than the headline within-arm improvement, distinctive adverse effects may threaten blinding, and uncontrolled follow-up plus small subgroups leave uncertainty about durability and broad labeling. These are potential review vulnerabilities, not documented FDA objections.",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "web-f0cedd1e6752",
+        "web-475de98cc040"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do patient-level liver adjudication and prespecified efficacy sensitivity analyses preserve a clinically meaningful benefit–risk balance after accounting for discontinuations, missing diaries and longer exposure?",
+      "whyItMatters": "These data distinguish manageable reversible laboratory toxicity accompanying robust benefit from a monitoring or tolerability burden that undermines broad chronic use. FDA’s integrated review and proposed label would show whether the issue affects warnings, eligible patients, additional evidence requirements or approvability.",
+      "sourceIds": [
+        "web-f5df55f8dbf2",
+        "web-f0cedd1e6752",
+        "trial-NCT05186753"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Supportive benefit–risk and acceptable quality",
+        "trigger": "FDA confirms the primary analysis and clinically meaningful symptom benefit; the cumulative liver dataset supports workable monitoring and dose modification; all product-linked quality requirements are satisfied.",
+        "implication": "A favorable action becomes supportable, potentially with liver-testing and dose-management requirements. The reported December 30 goal remains a review target rather than a guaranteed outcome.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-68dafa1d478e"
+        ]
+      },
+      {
+        "label": "Benefit accepted, but chronic-use scope constrained",
+        "trigger": "FDA accepts efficacy but finds the liver-risk burden or evidence in smaller subgroups insufficient for the sponsor’s full requested scope.",
+        "implication": "More restrictive eligibility, warnings, monitoring or additional postmarketing evidence could materially change the usable label without negating the pivotal endpoint result.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-f0cedd1e6752"
+        ]
+      },
+      {
+        "label": "Additional evidence or remediation required",
+        "trigger": "FDA identifies a substantive unresolved efficacy/safety issue or a documented product-linked quality deficiency requiring additional work.",
+        "implication": "Action could be delayed or unfavorable in the current cycle. No such current FDA finding was established here; a review extension and a CRL would be distinct events.",
+        "sourceIds": [
+          "web-68dafa1d478e",
+          "trial-NCT05186753",
+          "web-ceede93e8086"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How robust is the −8.91-point treatment difference to missing diaries, treatment discontinuations, baseline imbalance and possible functional unblinding?",
+        "whyItMatters": "The primary endpoint is patient reported, placebo improvement was substantial, and treatment-specific hair changes were conspicuous. Request the frozen analysis plan, sensitivity outputs and instrument-validation package rather than additional headline p-values.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-a86b814050bc"
+        ]
+      },
+      {
+        "question": "What is the latest adjudicated liver-risk profile at 100 mg, and what exact baseline testing, monitoring, interruption and rechallenge rules are proposed?",
+        "whyItMatters": "Transaminase elevations caused pivotal discontinuations and appeared in earlier longer-exposure patients. Obtain bilirubin-linked narratives, time to onset/resolution, recurrence, patient-years and hepatic-impairment/exposure analyses.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-f0cedd1e6752"
+        ]
+      },
+      {
+        "question": "Which legal entities, sites and FEIs manufacture and test the NDA’s API and commercial tablets, and how is commercial material bridged to SUMMIT Formulation B?",
+        "whyItMatters": "The public record inspected does not identify the commercial supply chain or establish quality acceptability. Request the facility-role map, validation/stability package and any actual inspection findings and responses; a corporate or clinical inspection would not answer this.",
+        "sourceIds": [
+          "trial-NCT05186753",
+          "web-ceede93e8086"
+        ]
+      },
+      {
+        "question": "What exact label population and review classification are under discussion, and has FDA raised any issue since the March acceptance communication?",
+        "whyItMatters": "The trial was predominantly indolent SM, with small smoldering and prior-avapritinib groups. The initial statement of no identified review issues is dated, while other bezuclastinib applications have different indications and timelines.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-68dafa1d478e",
+          "cogt-q2-2026"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Placebo-controlled symptom and biomarker benefits support the application, but reproducible liver-enzyme toxicity remains material to chronic use. Manufacturing acceptability is unverified; filing acceptance does not resolve either issue.",
+    "pivotalQuestion": "Does the symptom benefit at 100 mg justify chronic liver risk across the requested non-advanced SM population?",
+    "sourceIds": [
+      "web-f5df55f8dbf2",
+      "web-475de98cc040",
+      "web-f0cedd1e6752",
+      "web-68dafa1d478e"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Randomized results show a −8.91-point placebo-adjusted TSS difference with confidence interval excluding zero, supported by symptom responders and biomarkers. Open-label durability and small subgroups limit broader conclusions.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-b83bfc825127"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Reported reversibility and small serious-event counts are reassuring, but grade ≥3 transaminase abnormalities and liver-related discontinuations recur across SUMMIT cohorts. Complete cumulative liver adjudication and chronic-exposure data remain unavailable.",
+        "sourceIds": [
+          "web-f5df55f8dbf2",
+          "web-475de98cc040",
+          "web-f0cedd1e6752"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Inspected materials do not establish commercial manufacturers, product-linked inspection outcomes or FDA quality acceptability. The registered formulation transition is not evidence of a CMC deficiency.",
+        "sourceIds": [
+          "trial-NCT05186753",
+          "web-ceede93e8086"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Cogent reports original NDA acceptance and a December 30, 2026 target, reaffirmed in the supplied August update. March’s absence of identified review issues is dated process evidence, not final FDA judgment.",
+        "sourceIds": [
+          "web-63abd1cdf001",
+          "web-68dafa1d478e",
+          "cogt-q2-2026"
+        ]
+      }
+    ]
+  },
+  "id": "cbf45c73-dd3d-4d58-839c-8007b52bdd7c",
+  "candidateId": "bezuclastinib-nonadv-sm",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:42:36.370Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Bezuclastinib, specifically Non-advanced systemic mastocytosis. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "cogt-nonadv-acceptance",
+      "title": "Cogent: bezuclastinib non-advanced SM NDA accepted",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-application",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-03-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Cogent reported an accepted NDA and December 30 target for bezuclastinib in non-advanced systemic mastocytosis. The sponsor says SUMMIT met its primary and key secondary endpoints. SUMMIT is registered as phase 2 despite its pivotal role; this episode excludes the separate GIST combination and advanced-SM programs."
+    },
+    {
+      "id": "trial-nct05186753",
+      "title": "ClinicalTrials.gov: NCT05186753 · (Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+      "url": "https://clinicaltrials.gov/study/NCT05186753",
+      "publisher": "ClinicalTrials.gov / Cogent Biosciences, Inc.",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; randomized; parallel. Registry enrollment is 237 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "cogt-q2-2026",
+      "title": "Cogent: bezuclastinib application status update",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-recent-business-highlights-and-11",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Cogent reaffirmed November 30 for its GIST combination NDA and December 30 for its non-advanced systemic mastocytosis NDA. A third NDA for advanced systemic mastocytosis was submitted June 30; this disclosure does not provide acceptance or a target for that separate application."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05186753",
+      "title": "(Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+      "url": "https://clinicaltrials.gov/study/NCT05186753",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T20:42:36.452Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE2; lead sponsor Cogent Biosciences, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05186753",
+      "title": "(Summit) A Study to Evaluate the Efficacy and Safety of CGT9486 Versus Placebo in Patients With Indolent or Smoldering Systemic Mastocytosis",
+      "url": "https://clinicaltrials.gov/study/NCT05186753",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-22",
+      "retrievedAt": "2026-09-10T20:42:41.094Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05186753; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-475de98cc040",
+      "title": "Cogent Biosciences Presents Full SUMMIT Results of Bezuclastinib in ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-presents-full-summit-results-bezuclastinib",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:52.826Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a86b814050bc",
+      "title": "Efficacy and safety results from the primary analysis of the pivotal ...",
+      "url": "https://ashpublications.org/blood/article/146/Supplement%201/80/548775/Efficacy-and-safety-results-from-the-primary",
+      "publisher": "ashpublications.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:52.827Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f5df55f8dbf2",
+      "title": "[PDF] Investor Webcast - Cogent Biosciences, Inc.",
+      "url": "https://investors.cogentbio.com/static-files/64526478-fe1c-4965-8329-5918e4aa5d78",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:52.827Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f0cedd1e6752",
+      "title": "[PDF] AAAAI-2025-Summit.pdf - Cogent Biosciences",
+      "url": "https://www.cogentbio.com/wp-content/uploads/AAAAI-2025-Summit.pdf",
+      "publisher": "www.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:18.491Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-68dafa1d478e",
+      "title": "Cogent Biosciences Announces FDA Acceptance of New Drug ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-application",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:56.101Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-63abd1cdf001",
+      "title": "Cogent Biosciences Announces Anticipated 2026 Commercial and ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-anticipated-2026-commercial-and",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:56.101Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-056b074a9592",
+      "title": "Bezuclastinib - Drugs.com",
+      "url": "https://www.drugs.com/nda/bezuclastinib_260528.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:56.102Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8ceb786b5d45",
+      "title": "Cogent Biosciences NonAdvSM NDA accepted by FDA | COGT Stock News",
+      "url": "https://www.stocktitan.net/news/COGT/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-a8npotyeos6p.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:42:56.103Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ceede93e8086",
+      "title": "[PDF] Form 10-Q for Cogent Biosciences INC filed 11/07/2025",
+      "url": "https://investors.cogentbio.com/static-files/b06116a0-f84b-45fb-b863-cb0725f66da6",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:13.605Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2aabe00cd45f",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622229/000095017023007729/cogt-20221231.htm%3Fref%3Dp05.org",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:13.606Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c4271614d20f",
+      "title": "[PDF] Form 10-Q for Cogent Biosciences INC filed 08/05/2025",
+      "url": "https://investors.cogentbio.com/static-files/7c953713-07ab-4b3d-bce6-5b15ad0f32a8",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:13.606Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-79c93801e662",
+      "title": "Cogent Biosciences, Inc. SEC 10-K Report - TradingView",
+      "url": "https://www.tradingview.com/news/tradingview:a78b4e5a367ce:0-cogent-biosciences-inc-sec-10-k-report/",
+      "publisher": "www.tradingview.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:13.608Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b83bfc825127",
+      "title": "Release Details - Cogent Biosciences, Inc.",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-highlights-additional-data-six-bezuclastinib",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:18.490Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-977793507cad",
+      "title": "Bezuclastinib Delivers Durable Symptom Relief in Nonadvanced SM",
+      "url": "https://www.rarediseaseadvisor.com/news/bezuclastinib-delivers-durable-symptom-relief-nonadvanced-sm/",
+      "publisher": "www.rarediseaseadvisor.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:18.491Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-68ce4e93653b",
+      "title": "FDA Accepts NDA for Bezuclastinib in Non-Advanced Systemic Mastocytosis",
+      "url": "https://www.hcplive.com/view/fda-accepts-nda-bezuclastinib-non-advanced-systemic-mastocytosis",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:18.491Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 287572,
+    "outputTokens": 7019
+  },
+  "durationMs": 173480,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cogt-nonadv-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cogt-q2-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05186753"
+      },
+      "status": "completed",
+      "durationMs": 77
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "bezuclastinib SUMMIT pivotal Part 2 2025 2026 24 weeks MS2D2 results placebo confidence interval adverse events full presentation"
+      },
+      "status": "completed",
+      "durationMs": 6686
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Cogent bezuclastinib September 2026 NDA December 30 manufacturing CMC contract manufacturer FDA inspection complete response letter 10-Q"
+      },
+      "status": "completed",
+      "durationMs": 3275
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-a86b814050bc",
+        "query": "Methods"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov Cogent bezuclastinib \"manufactur\" \"2026\""
+      },
+      "status": "error",
+      "durationMs": 893
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Cogent"
+      },
+      "status": "partial",
+      "durationMs": 234
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Cogent Biosciences 2025 10-K bezuclastinib manufacturing third party suppliers drug substance drug product"
+      },
+      "status": "completed",
+      "durationMs": 4059
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-f5df55f8dbf2",
+        "query": "Serious"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "bezuclastinib SUMMIT 48 weeks AAAAI 2026 safety liver 100 mg"
+      },
+      "status": "completed",
+      "durationMs": 4883
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0dae73194d674187016aa31666bee487d295489970d57697dc",
+    "inputHash": "c9b75d434f067d7b41772c209eaaa7beba10387bf097daa6c4c8709d609616be"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:47:25.673Z",
+    "originalSha256": "0cfccd6a1ec59eb27da24d87b0f113e4b61bbeff558fc18b8039915987ee5372",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

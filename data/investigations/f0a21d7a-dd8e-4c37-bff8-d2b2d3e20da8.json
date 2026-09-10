@@ -1,0 +1,681 @@
+{
+  "summary": "FDA approved Zanvastro (zilganersen) for pediatric and adult Alexander disease on September 3, 2026. This is an observed outcome, not a prospective prediction. The pivotal evidence supports gait-speed preservation, but comes from a small analysis population with substantial uncertainty. Remaining risks include limited direct infant evidence, recurrent aseptic meningitis, and FDA-required studies of leachables, carcinogenicity, and developmental toxicity. Product-specific manufacturing sites and inspection conclusions remain unverified.",
+  "outlook": {
+    "verdict": "Approved; the retrospective evidence balance is mixed because clinically supportive results coexist with material postapproval benefit-risk questions.",
+    "timing": "FDA received the NDA on January 22, 2026, and signed the approval letter on September 3, before the sponsor-reported September 22 target. September 22 is now historical, not a pending catalyst. Required toxicology reports extend from 2028 through 2032; these are agreed submission schedules, not forecasts of satisfactory results.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides original priority-application receipt-cohort context, estimating annual review-class first-cycle approval rates and separate action timeliness. It does not validate individual probabilities. This application’s approval is already observed, so no probability or retrospective prediction is assigned."
+  },
+  "findings": [
+    {
+      "id": "regulatory-outcome",
+      "title": "Original NDA approval is verified; the older action target is superseded",
+      "detail": "The FDA approval letter identifies NDA 220210, received January 22, 2026, for Alexander disease in pediatric and adult patients. Drugs@FDA identifies ORIG 1, priority review, and Type 1—New Molecular Entity, rather than a supplement. The letter’s September 3 electronic signature resolves the September 4 document-date metadata: the effective approval was September 3. FDA did not convene an advisory committee, explaining that outside discussion was unnecessary. No retrieved document establishes a prior CRL, resubmission, or target extension; the CRL archive request failed, so a clean first-cycle history cannot be certified solely from that search. The documented outstanding requirements are postmarketing obligations, not a CRL or continuing approval review.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-c2398297f7c6",
+        "evidence-approvals-NDA220210",
+        "fda-zilganersen-approval",
+        "ionis-zilganersen-acceptance"
+      ]
+    },
+    {
+      "id": "pivotal-efficacy",
+      "title": "Actual pivotal results show gait preservation, with a wide confidence interval",
+      "detail": "NCT04849741 is a multicenter, randomized, double-blind, multiple-ascending-dose Phase 1–3 study. The registry specifies 2:1 assignment to intrathecal zilganersen or matching intrathecal placebo every 12 weeks during a 60-week controlled period; 50 mg was the pivotal dose. The registered primary endpoint is percentage change from baseline in 10-Meter Walk Test gait speed at Week 61. Ionis’s September results table reports 17 patients receiving 50 mg versus 13 pooled controls in the primary analysis of patients aged at least five: baseline speeds were 1.2 versus 1.1 m/s; adjusted changes were −2.1% versus −35.4%; treatment difference 33.3 percentage points, 95% CI 1.4–65.3, p=0.041. This describes preservation relative to control decline, not a 33.3% improvement from baseline. FDA confirms a significant walking-speed benefit. The small sample and broad interval limit precision; historical prespecification of the analysis population, pooling rules, and statistical hierarchy was not independently verified.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04849741",
+        "web-b5974086af25",
+        "web-cecd5bfc5bb3",
+        "fda-zilganersen-approval"
+      ]
+    },
+    {
+      "id": "clinical-generalizability",
+      "title": "Broad labeling rests on unequal evidence across ages; durability and replication remain limited",
+      "detail": "FDA describes 49 patients aged two or older in the main study plus four infants in an uncontrolled substudy. Registry enrollment is 54, and the sponsor reports an overall age range of 1.5–53 years; these counts must not be substituted for the 30-person primary efficacy analysis. Their exact reconciliation requires participant disposition data. In children aged two to four, Ionis reports a 22.9-point GMFM-88 difference at Week 61, nominal p=0.034, without multiplicity control; subgroup counts and confidence intervals were not available in the inspected results disclosure. Plasma GFAP was 33.6% lower versus control, nominal p=0.003, supporting target engagement rather than independently proving clinical benefit. Infant labeling relies on extrapolation from older patients, pharmacokinetic modeling, and four infants’ safety data—not controlled infant efficacy. The registry has no posted results. The retrieved presentations repeat the same study, not independent replication; planned extensions do not establish benefit beyond Week 61 or effects on survival, swallowing, cognition, or loss of independence.",
+      "direction": "concern",
+      "sourceIds": [
+        "fda-zilganersen-approval",
+        "trial-NCT04849741",
+        "web-b36e445798f1",
+        "web-cecd5bfc5bb3",
+        "web-c5544511b5a6"
+      ]
+    },
+    {
+      "id": "safety-exposure",
+      "title": "Safety results are substantive, but pooled serious-event comparisons need qualification",
+      "detail": "The September prescribing information reports safety evaluation in 53 patients: 38 received treatment for one year and 18 for two years; median exposure was 60 weeks across groups. In the controlled adverse-reaction table, 50 mg recipients numbered 24 versus 17 controls. Rates included vomiting 50% versus 29%, back pain 50% versus 18%, cough 38% versus 18%, headache 29% versus 12%, and post-lumbar-puncture syndrome 29% versus 6%. Ionis’s April disclosure reports serious treatment-emergent events in 37.5% of pooled 25/50 mg recipients versus 47.1% of pooled controls, with most events mild or moderate. This numerical comparison is not a demonstrated safety advantage and does not isolate the approved dose. Comprehensive death, discontinuation, serious-event diagnosis, age-stratified, and exposure-adjusted tables were not retrieved; absence of those details must not be reported as zero events.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-c5544511b5a6",
+        "web-b36e445798f1"
+      ]
+    },
+    {
+      "id": "safety-inflammatory-developmental",
+      "title": "Recurrent meningeal inflammation and developmental-toxicology questions survive approval",
+      "detail": "The prescribing information documents one serious aseptic-meningitis reaction during blinded treatment, recurring during extension and requiring dose interruption and intravenous dexamethasone pretreatment. CSF white cells and protein subsequently increased despite corticosteroids, although the patient remained asymptomatic and did not discontinue. Pleocytosis occurred in 7/24 patients receiving 50 mg versus 3/17 controls after the first two to four doses, with six additional patients affected during extension. The label calls for diagnostic workup and treatment if meningitis symptoms develop; this single rechallenge experience does not establish routine steroid prophylaxis. Practical questions include symptom surveillance, CSF interpretation, interruption/rechallenge criteria, lumbar-puncture risk assessment, and age-specific preparation volumes. Human pregnancy and lactation data are absent, and patients aged 65 or older were not studied. FDA additionally requires rabbit embryo-fetal, pre/postnatal-development, and two carcinogenicity studies. These requirements identify unresolved risks, not demonstrated human teratogenicity or cancer.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-c5544511b5a6",
+        "web-c2398297f7c6"
+      ]
+    },
+    {
+      "id": "manufacturing-quality",
+      "title": "A specific leachables concern is documented; manufacturing-site clearance is not",
+      "detail": "FDA accepted a 30-month refrigerated shelf life for the drug and co-packaged artificial-CSF diluent based on submitted stability data. However, PMR 5053-5 requires a 13-week intrathecal animal study of detected leachables with local CNS toxicity concerns, tested as a mixture at worst-case combined exposures. Its draft protocol is scheduled for January 2027 and final report for April 2029. This is a candidate-specific quality/toxicology issue, but not proof of a manufacturing violation or a causal explanation for the observed meningitis. The approval letter and targeted manufacturing search did not establish drug-substance, fill-finish, diluent, or packaging manufacturers and sites. Ionis’s regulatory correspondence address is not a documented manufacturing location. No verified site-specific corrective action, contractor replacement, or CMC CRL was retrieved. The supplied inspection leads lack original documents and candidate linkage; neither sponsor-name matches nor BIMO inspections establish CGMP clearance.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-c2398297f7c6",
+        "web-c5544511b5a6"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Prior neurology experience provides context, not a transferable approval or manufacturing record",
+      "detail": "Ionis’s approval disclosure identifies prior involvement in Spinraza for spinal muscular atrophy, Qalsody for SOD1-ALS, and Wainua for hereditary transthyretin-mediated amyloid polyneuropathy. These are different products and indications; their efficacy, safety, and manufacturing evidence cannot substitute for zilganersen data. Ionis describes Zanvastro as its first independent neurology launch. Its September 2025 plan to submit in the first quarter of 2026 is consistent with FDA’s documented January 22 receipt—an observed candidate-specific execution milestone. The June Recordati agreement assigns ex-U.S. development/commercialization rights while Ionis retains U.S. commercial responsibility; it does not identify a manufacturing site. Prior products’ complete review timelines and compliance histories were not independently reconstructed, and no sponsor-wide predictive advantage is inferred.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-cecd5bfc5bb3",
+        "web-f67b7b82d885",
+        "web-c2398297f7c6",
+        "web-22f8c8619c38"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Obtain FDA’s integrated clinical/statistical review, historical protocol/SAP, and participant-disposition tables to reconcile enrollment and analysis populations, test pooled-control comparability, and inspect missing-data and subgroup sensitivity analyses.",
+    "Obtain age-stratified extension results beyond Week 61, including functional trajectories, infant developmental outcomes, cumulative exposure, deaths, serious events, discontinuations, and meningitis/pleocytosis recurrence at the approved dose.",
+    "Obtain the FDA quality review and documented drug-substance, fill-finish, diluent, and packaging site links, followed by original site inspection records. Inspect leachables identities, exposure margins, current controls, and PMR 5053-5 protocol/report progress.",
+    "Track FDA assessment of required developmental-toxicity reports scheduled for July and October 2028, the leachables report scheduled for April 2029, and carcinogenicity reports scheduled for October 2029 and February 2032."
+  ],
+  "limitations": [
+    "This is a current retrospective investigation through September 10, 2026. September approval documents were not evidence available at the March acceptance milestone, and the completed action is not presented as a successful forecast.",
+    "The current trial registry was read and contains no posted results. The dossier’s PubMed discovery returned no manuscript, and no original pivotal paper was retrieved. Quantitative efficacy therefore relies on inspected sponsor results disclosures and presentation tables, supported qualitatively by FDA’s announcement.",
+    "The prescribing information was retrieved from Ionis’s website. Relevant administration, safety, exposure, pediatric-use, and nonclinical sections were inspected, but the entire clinical-study section was not recovered through the bounded excerpts. FDA’s full statistical and clinical reviews were not retrieved.",
+    "The historical SAP, complete endpoint hierarchy, participant-level data, missing-data analyses, control-cohort composition, and all adverse-event listings were unavailable. These specifically limit appraisal of prespecification, robustness, subgroup consistency, and dose-specific safety.",
+    "Manufacturing research included the supplied inspection leads, targeted public searches, prescribing information, and original FDA approval letter. One search failed; a subsequent targeted search retrieved the leachables requirement but no verified product-site linkage. No original site inspection or warning-letter document was inspected. FDA’s quality review and linked establishment records are needed to resolve this domain.",
+    "The FDA CRL archive request returned an error. Approval is independently verified, but the search cannot exclude an undisclosed or unindexed earlier CRL. Prior sponsor products were documented contextually through company disclosures, not a comprehensive independent audit of their review histories."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does broad-label treatment deliver durable functional benefit beyond the small gait-analysis population without cumulative intrathecal or product-related toxicity?",
+    "bullCase": {
+      "claim": "A randomized, blinded study showed preservation of gait speed versus substantial control decline, with a positive confidence interval. Younger-child motor findings and GFAP reduction provide supporting evidence, and FDA accepted the overall package for pediatric and adult use.",
+      "sourceIds": [
+        "web-b5974086af25",
+        "web-b36e445798f1",
+        "fda-zilganersen-approval"
+      ]
+    },
+    "bearCase": {
+      "claim": "The primary estimate is imprecise and based on 30 analyzed patients; younger-child findings are nominal and infant efficacy is extrapolated. Recurrent aseptic meningitis, limited multiyear exposure, and unresolved leachables/developmental-toxicology questions could materially change the practical long-term benefit-risk balance.",
+      "sourceIds": [
+        "web-b5974086af25",
+        "web-b36e445798f1",
+        "web-c5544511b5a6",
+        "web-c2398297f7c6"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do age-stratified longitudinal outcomes show sustained functional preservation with acceptable cumulative toxicity, particularly in infants and patients outside the pivotal walking analysis?",
+      "whyItMatters": "Approval resolves authorization, not equal evidence across the label. Extension and postmarketing outcomes must distinguish durable patient benefit from short-term motor stabilization, while dedicated toxicology—not spontaneous reports alone—must address FDA’s identified leachables and developmental risks.",
+      "sourceIds": [
+        "trial-NCT04849741",
+        "fda-zilganersen-approval",
+        "web-c5544511b5a6",
+        "web-c2398297f7c6"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Durable benefit with manageable toxicity",
+        "trigger": "Extension data preserve functional gains across age groups, inflammatory events remain manageable without substantial discontinuation, and FDA accepts satisfactory leachables and developmental-toxicology studies.",
+        "implication": "The evidence supporting sustained broad-label use strengthens; the present extrapolation and cumulative-safety questions diminish.",
+        "sourceIds": [
+          "trial-NCT04849741",
+          "web-c5544511b5a6",
+          "web-c2398297f7c6"
+        ]
+      },
+      {
+        "label": "Benefit concentrated in the pivotal phenotype",
+        "trigger": "Walking benefit persists in evaluable older patients, but infant, nonambulatory, or broader functional outcomes remain unconvincing.",
+        "implication": "Authorization remains an observed fact, but clinical expectations and evidence discussions should be phenotype-specific rather than assuming equivalent benefit throughout the label.",
+        "sourceIds": [
+          "web-b5974086af25",
+          "fda-zilganersen-approval",
+          "web-b36e445798f1"
+        ]
+      },
+      {
+        "label": "Cumulative safety or product-quality burden emerges",
+        "trigger": "Repeated dosing produces more clinically significant meningeal inflammation or discontinuations, or required studies identify unacceptable leachables or developmental-toxicity findings.",
+        "implication": "Additional monitoring, administration or product changes, or regulatory reassessment may become necessary; none of these outcomes is established by the current record.",
+        "sourceIds": [
+          "web-c5544511b5a6",
+          "web-c2398297f7c6"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How do the 54 enrolled participants, 49 main-study patients plus four infants, and 30-person primary analysis reconcile, and were pooling and analysis-set rules finalized before unblinding?",
+        "whyItMatters": "The answer distinguishes legitimate endpoint eligibility from exclusions or analytical choices that could affect a small, imprecise treatment estimate.",
+        "sourceIds": [
+          "trial-NCT04849741",
+          "fda-zilganersen-approval",
+          "web-b5974086af25"
+        ]
+      },
+      {
+        "question": "What are the complete 50-mg serious-event, death, interruption, and discontinuation tables by age and cumulative dose, and what governs CSF monitoring and rechallenge after meningitis?",
+        "whyItMatters": "Pooled lower serious-event rates do not resolve approved-dose tolerability, recurrent inflammation, or infant monitoring needs.",
+        "sourceIds": [
+          "web-b36e445798f1",
+          "web-c5544511b5a6"
+        ]
+      },
+      {
+        "question": "Which identified leachables prompted PMR 5053-5, where do they originate, what exposure margins and interim controls support commercial use, and which documented sites make each product component?",
+        "whyItMatters": "This separates a real product-quality question from unsupported facility allegations and identifies the exact documents needed for CGMP and supply-chain diligence.",
+        "sourceIds": [
+          "web-c2398297f7c6"
+        ]
+      },
+      {
+        "question": "What evidence-collection plan covers infants and other patients poorly represented by the gait endpoint, and who owns delivery of each FDA-required study?",
+        "whyItMatters": "The label extends beyond the strongest direct efficacy evidence. The approval letter exempts this orphan indication from PREA requirements, while separately imposing specific safety studies; these obligations should not be confused.",
+        "sourceIds": [
+          "fda-zilganersen-approval",
+          "web-c2398297f7c6",
+          "web-22f8c8619c38"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Randomized gait results support the observed approval, but infant extrapolation, recurrent aseptic meningitis, and FDA-required leachables and developmental toxicology leave material postapproval questions. Site compliance remains unverified.",
+    "pivotalQuestion": "Does broad-label treatment deliver durable functional benefit beyond the small gait-analysis population without cumulative intrathecal or product-related toxicity?",
+    "sourceIds": [
+      "web-b5974086af25",
+      "fda-zilganersen-approval",
+      "web-c5544511b5a6",
+      "web-c2398297f7c6"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Randomized gait-speed results favor treatment, with a positive but wide confidence interval. Infant efficacy is extrapolated; younger-child results are nominal, and independent replication or longer-term efficacy was not retrieved.",
+        "sourceIds": [
+          "web-b5974086af25",
+          "web-b36e445798f1",
+          "fda-zilganersen-approval"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Sponsor-reported pooled serious-event rates were numerically lower than control, but labeling documents recurrent aseptic meningitis and pleocytosis. Multiyear exposure is limited, with developmental and carcinogenicity studies outstanding.",
+        "sourceIds": [
+          "web-b36e445798f1",
+          "web-c5544511b5a6",
+          "web-c2398297f7c6"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "concern",
+        "rationale": "FDA required intrathecal toxicology for detected leachables with local CNS toxicity concerns. This product-quality question remains open; manufacturer/site linkage and CGMP inspection conclusions were not established.",
+        "sourceIds": [
+          "web-c2398297f7c6"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "FDA’s signed letter verifies original NDA approval for pediatric and adult Alexander disease on September 3, superseding the September 22 target. Specific postmarketing safety requirements remain.",
+        "sourceIds": [
+          "web-c2398297f7c6",
+          "evidence-approvals-NDA220210",
+          "ionis-zilganersen-acceptance"
+        ]
+      }
+    ]
+  },
+  "id": "f0a21d7a-dd8e-4c37-bff8-d2b2d3e20da8",
+  "candidateId": "zilganersen-axd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:45:29.857Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Zilganersen (Zanvastro), specifically Alexander disease in pediatric and adult patients. This episode is already approved: analyze the observed evidence and remaining risks retrospectively; do not portray it as a successful prospective prediction.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "ionis-zilganersen-acceptance",
+      "title": "Ionis: zilganersen priority review accepted",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander",
+      "publisher": "Ionis Pharmaceuticals",
+      "publishedAt": "2026-03-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Ionis reported priority review for the zilganersen NDA in pediatric and adult Alexander disease, with September 22, 2026 as the original action target. This historical acceptance predates FDA approval on September 3."
+    },
+    {
+      "id": "fda-zilganersen-approval",
+      "title": "FDA: zilganersen approved for Alexander disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": "2026-09-03",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "fda",
+      "summary": "FDA announced approval of Zanvastro (zilganersen) injection for Alexander disease in pediatric and adult patients on September 3, 2026. This is an actual regulatory outcome, superseding an older pending-review calendar entry."
+    },
+    {
+      "id": "trial-nct04849741",
+      "title": "ClinicalTrials.gov: NCT04849741 · A Study to Evaluate the Safety and Efficacy of Zilganersen (ION373) in Patients With Alexander Disease (AxD)",
+      "url": "https://clinicaltrials.gov/study/NCT04849741",
+      "publisher": "ClinicalTrials.gov / Ionis Pharmaceuticals, Inc.",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 54 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT04849741",
+      "title": "A Study to Evaluate the Safety and Efficacy of Zilganersen (ION373) in Patients With Alexander Disease (AxD)",
+      "url": "https://clinicaltrials.gov/study/NCT04849741",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T20:45:29.965Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Ionis Pharmaceuticals, Inc.. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA220210",
+      "title": "ZANVASTRO — NDA220210",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA220210%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:30.339Z",
+      "summary": "NDA220210; sponsor IONIS PHARMS INC. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT04849741",
+      "title": "A Study to Evaluate the Safety and Efficacy of Zilganersen (ION373) in Patients With Alexander Disease (AxD)",
+      "url": "https://clinicaltrials.gov/study/NCT04849741",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T20:45:39.697Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04849741; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-cecd5bfc5bb3",
+      "title": "ZANVASTRO™ (zilganersen) approved by the FDA as the first ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/zanvastrotm-zilganersen-approved-fda-first-and-only-disease",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:10.295Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-55f97ea4aaa0",
+      "title": "FDA Approves First Drug to Treat Alexander Disease",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:10.294Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4097dccf7f2f",
+      "title": "FDA Approves Zanvastro (zilganersen) for the Treatment of ...",
+      "url": "https://www.drugs.com/newdrugs/fda-approves-zanvastro-zilganersen-alexander-6876.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:53.339Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6ef7f0373e85",
+      "title": "FDA Accepts Zilganersen New Drug Application for Priority Review in ...",
+      "url": "https://www.neurologylive.com/view/fda-accepts-zilganersen-new-drug-application-priority-review-alexander-disease",
+      "publisher": "www.neurologylive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:53.339Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c5544511b5a6",
+      "title": "[PDF] ZANVASTRO-FPI.pdf - Ionis Pharmaceuticals",
+      "url": "https://ionis.com/medicines/ZANVASTRO/ZANVASTRO-FPI.pdf",
+      "publisher": "ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:00.290Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b5974086af25",
+      "title": "[PDF] ZANVASTROTM FDA Approval - Ionis Pharmaceuticals, Inc.",
+      "url": "https://ir.ionis.com/static-files/50adbccf-2d14-4dae-b3d6-b3eb46cfe107",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:00.292Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c2398297f7c6",
+      "title": "[PDF] nda 220210 nda approval - accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220210Orig1s000ltr.pdf",
+      "publisher": "www.accessdata.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:31.825Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-043fad3e3d1b",
+      "title": "Postmarketing Requirements and Commitments: Reports - FDA",
+      "url": "https://www.fda.gov/drugs/postmarketing-requirements-and-commitments-introduction/postmarketing-requirements-and-commitments-reports",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:10.295Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b36e445798f1",
+      "title": "Ionis presents new data from pivotal study of zilganersen in Alexander ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-presents-new-data-pivotal-study-zilganersen-alexander",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:28.236Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f67b7b82d885",
+      "title": "Ionis announces positive topline results from pivotal study of ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-positive-topline-results-pivotal-study",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:28.237Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-22f8c8619c38",
+      "title": "Ionis announces license agreement with Recordati for zilganersen in ...",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-license-agreement-recordati-zilganersen",
+      "publisher": "ir.ionis.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:28.237Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-554f7bf77f31",
+      "title": "FDA Approves Zilganersen Injection, First Drug for Alexander Disease",
+      "url": "https://www.pharmacytimes.com/view/fda-approves-zilganersen-injection-first-drug-for-alexander-disease",
+      "publisher": "www.pharmacytimes.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:28.238Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ae9ee97a16bc",
+      "title": "Pharma Journalist - Leading Magazine for Pharmaceutical ...",
+      "url": "https://www.pharmajournalist.com/",
+      "publisher": "www.pharmajournalist.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:31.826Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d4642815fb56",
+      "title": "Srinivasa Ketineedi - Senior Quality Assurance Manager (Site ... - LinkedIn",
+      "url": "https://www.linkedin.com/in/srinivasa-ketineedi-5a302818",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:31.826Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 317202,
+    "outputTokens": 8032
+  },
+  "durationMs": 215158,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "fda-zilganersen-approval"
+      },
+      "status": "completed",
+      "durationMs": 108
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "ionis-zilganersen-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04849741"
+      },
+      "status": "completed",
+      "durationMs": 76
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Zanvastro zilganersen NDA 220210 FDA prescribing information clinical review 2026 results 10 meter walk 61 weeks adverse events manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 13641
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://ionis.com/medicines/ZANVASTRO/ZANVASTRO-FPI.pdf ZANVASTRO prescribing information 14 clinical studies 6 adverse reactions"
+      },
+      "status": "completed",
+      "durationMs": 1628
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "220210"
+      },
+      "status": "partial",
+      "durationMs": 431
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "zilganersen Zanvastro \"manufacturing\" \"CMC\" \"manufacturer\" \"220210Orig1s000ltr\" Ionis"
+      },
+      "status": "error",
+      "durationMs": 590
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-c5544511b5a6",
+        "query": "The efficacy"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-c5544511b5a6",
+        "query": "Manufactured"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220210Orig1s000ltr.pdf zilganersen approval postmarketing manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 3700
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-c5544511b5a6",
+        "query": "Table 4"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "zilganersen Ionis presents new data pivotal April 2026 serious treatment emergent adverse events 37.5 control 47.1"
+      },
+      "status": "completed",
+      "durationMs": 5049
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"zilganersen\" \"manufacturing\" \"site\" FDA Ionis leachables"
+      },
+      "status": "completed",
+      "durationMs": 3586
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_007581d177a409e2016aa31728015487d293ff606c69cc4f51",
+    "inputHash": "fe5a3cb12d7734d8dffd3232e9ec878a56526d3db00177ee27f6717131b3574d"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:53:58.863Z",
+    "originalSha256": "5ec3d46364e50629c604796cdf6156ae5940625b20126ad1c082009cb255640f",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -67,6 +67,15 @@ test('Markdown export preserves provenance, uncertainty and public source links'
   assert.match(markdown, /https:\/\/www.fda.gov\/example/);
   assert.match(markdown, /not a promise of approval/);
   assert.match(markdown, /No validated candidate model/);
+  assert.doesNotMatch(markdown, /Source review notes|six confirmed cases/);
+  const qualified = investigationMarkdown(candidate, { ...run, id: '969d4838-430b-4a4f-b811-09323b936d6c' }, []);
+  assert.match(qualified, /## Source review notes/);
+  assert.match(qualified, /Editorial source check\. Astra’s output above is unchanged\./);
+  assert.match(qualified, /six confirmed cases and one presumed case/);
+  assert.match(qualified, /https:\/\/pmc\.ncbi\.nlm\.nih\.gov\/articles\/PMC8294837\//);
+  assert.match(qualified, /Test summary\./);
+  assert.doesNotMatch(qualified, /Primary corroboration of the fatal CRS event/);
+  assert.doesNotMatch(investigationMarkdown(candidate, { ...run, id: 'another-unreviewed-run' }, []), /Source review notes|six confirmed cases/);
   const correctedExport = investigationMarkdown(candidate, run, [{ ...run.sources[0], publishedAt: null }]);
   assert.match(correctedExport, /Published Not disclosed;/);
   const challenge = investigationMarkdown(candidate, { ...run, previousRunId: 'previous-test-run', previousOutlook: { verdict: 'Earlier assessment', timing: 'Earlier timing' }, changes: { disposition: 'unchanged', summary: 'No supported revision', items: [{ previousClaim: 'Prior claim', currentClaim: 'Current claim', reason: 'Source supports scope only', sourceIds: ['test-source'] }] }, decisionBrief: { pivotalQuestion: 'What evidence would resolve this?', bullCase: { claim: 'Supporting case', sourceIds: ['test-source'] }, bearCase: { claim: 'Contrary case', sourceIds: ['test-source'] }, decisiveEvidence: { question: 'Is the record applicable?', whyItMatters: 'Scope determines relevance', sourceIds: ['test-source'] }, scenarios: [], diligenceQuestions: [] } }, []);

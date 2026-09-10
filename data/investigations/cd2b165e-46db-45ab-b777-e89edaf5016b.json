@@ -1,0 +1,681 @@
+{
+  "summary": "Anito-cel has a substantive clinical case for fourth-line-and-later relapsed/refractory multiple myeloma, not merely an accepted filing: the sponsor reports a 96% independently assessed response rate in 117 treated patients, with encouraging durability. The balance remains mixed because serious-toxicity characterization is incomplete, an earlier partial clinical hold requires careful interpretation, and commercial-process comparability and site-level FDA review are unverified. The reported December 23, 2026 action target remains a review goal—not an approval date.",
+  "outlook": {
+    "verdict": "Clinically promising, but the public evidence does not yet establish a fully resolved benefit–risk and manufacturing package.",
+    "timing": "Gilead's February 23, 2026 disclosure reports a December 23, 2026 PDUFA action target. The supplied April 28 acquisition-completion summary still describes anito-cel as under review. Live searches did not retrieve a later candidate-specific action or target-change disclosure. The December target is therefore retained as sponsor-reported, without independently confirming unchanged status through September 10. No extension or CRL should be inferred from the remaining disclosure gaps.",
+    "probability": null,
+    "probabilityBasis": "The historical model was inspected. Its original-application receipt cohorts provide class-level context, not an individualized approval estimate. The packet identifies an original BLA, but priority-versus-standard review was not independently established. Historical action timeliness includes nonapproval actions and cannot be combined with approval-rate averages to forecast this outcome."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "Accepted fourth-line-and-later BLA; exact FDA review terms remain partly undisclosed",
+      "detail": "The retrieved February 23 sponsor announcement confirms BLA acceptance and the December 23, 2026 target; a related SEC-filed sponsor communication explicitly describes the request as 4L+ RRMM. This aligns with, rather than independently proves, the packet's original-BLA classification. No FDA filing letter, application number, review-priority determination, approval-pathway agreement, CRL, or current deficiency correspondence was obtained. Arcellx's FY2024 filing reported no approved commercial products; the supplied April 28, 2026 summary reports its subsequent acquisition by Gilead. Neither ownership consolidation nor launch planning establishes regulatory acceptance of efficacy, safety, or CMC.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b2e352526dd0",
+        "web-bd3d2687b2bb",
+        "web-8989ba1ac860",
+        "gild-arcellx-close"
+      ]
+    },
+    {
+      "id": "pivotal-efficacy",
+      "title": "Actual pivotal responses are strong and match the intended treatment setting",
+      "detail": "iMMagine-1 is an open-label, single-group phase 2 study without a concurrent comparator. The registry specifies IRC-assessed overall response rate under IMWG criteria as the primary endpoint; CR/sCR, duration of response, PFS, OS, MRD and safety are secondary. The sponsor describes eligibility as at least three prior regimens including a proteasome inhibitor, immunomodulatory drug and anti-CD38 antibody, with refractoriness to the last line. At the October 7, 2025 cutoff, 117 patients treated at a target dose of 115 million CAR-positive viable T cells had median follow-up of 15.9 months: IRC ORR was 96% and combined CR/sCR was 74%. The population included 87% triple-refractory disease, 41% penta-refractory disease, 18% extramedullary disease and 40% high-risk cytogenetics. These are sponsor-reported actual results, not registry-posted results or FDA-validated analyses.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05396885",
+        "web-48b6023ab8f2"
+      ]
+    },
+    {
+      "id": "durability-and-statistics",
+      "title": "Durability is encouraging, but the analysis population and statistical uncertainty need auditing",
+      "detail": "The sponsor reports PFS of 82.1%, 67.4% and 61.7% at 12, 18 and 24 months, respectively; corresponding OS was 94%, 88% and 83%. Median PFS and OS were not reached. A secondary ASH report gives confidence intervals of 48.0–72.8 for 24-month PFS and 70.7–90.5 for 24-month OS, illustrating substantial tail uncertainty; the original survival tables were not retrieved. MRD negativity was 91/96 evaluable patients, not 95% of all treated or enrolled patients. The current registry lists 136 enrolled versus 117 in the sponsor's treated analysis; the difference cannot be assumed to represent manufacturing failures or exclusions without disposition data. Neither registry contains posted results. ORR confidence intervals, the prespecified null benchmark, statistical analysis plan, DOR estimates, censoring rules and survival numbers at risk remain unavailable. Repeated data cuts are maturation of one cohort, not independent replication, and no randomized survival or superiority effect is established.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-48b6023ab8f2",
+        "web-0d344e7a8963",
+        "trial-NCT05396885",
+        "trial-NCT04155749",
+        "web-bd3d2687b2bb"
+      ]
+    },
+    {
+      "id": "phase-one-support",
+      "title": "An original phase 1 publication supports biological activity, with limited replication strength",
+      "detail": "The retrieved original Blood Advances publication reports an early single-arm cohort of 13 enrolled and 12 infused patients, rather than the entire 40-person enrollment now shown in the registry. All 12 infused patients responded, nine achieved CR/sCR, and eight of nine MRD-evaluable patients were negative at a median follow-up of 56 weeks. Its primary objectives were safety, dose-limiting toxicity and recommended phase 2 dose—not a confirmatory efficacy comparison. Doses were 100 million or 300 million cells; the reported grade ≥3 CRS and severe neurotoxicity cases occurred at the higher dose. This is useful candidate-specific corroboration, but the very small cohorts cannot establish a reliable dose–toxicity relationship or replace the complete phase 1 dataset supporting the BLA.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-3a3e0a68802b",
+        "trial-NCT04155749"
+      ]
+    },
+    {
+      "id": "candidate-safety",
+      "title": "Observed neurological tolerability is encouraging; serious and fatal toxicity cannot be summarized as absent",
+      "detail": "In the 117-patient pivotal update, the sponsor reports CRS in 86%, ICANS in 8% with one grade 3 case, and grade ≥3 infections in 9%. Reported neutropenia, anemia and thrombocytopenia were 71%, 28% and 26%; the release does not clearly assign severity grades to those cytopenia percentages. The sponsor reports no observed delayed non-ICANS neurological syndromes or immune-effector-cell-associated enterocolitis, with every pivotal patient at least 12 months post-dose. That is observed follow-up evidence, not proof that rare or later events cannot occur. A secondary ASH summary reports one fatal, grade 5 CRS event; the SEC-filed sponsor table confirms one grade ≥3 CRS event but does not supply the fatal-event narrative. The integrated SAE rate, all deaths and attribution, prolonged cytopenias, hypogammaglobulinemia, hospitalization burden and withdrawals were not obtained. For this one-infusion therapy, pre-infusion attrition and subsequent follow-up discontinuation are more informative than a conventional chronic-treatment discontinuation rate.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-48b6023ab8f2",
+        "web-dedf0a91ab3c",
+        "web-bd3d2687b2bb"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "A documented manufacturing transition makes commercial-product comparability a concrete diligence item",
+      "detail": "Arcellx's FY2024 SEC filing documents an anito-cel development/manufacturing agreement with Lonza Houston, Inc., including technology transfer and cGMP manufacturing activities; that agreement expired in December 2024. The same filing reports completion of cell-manufacturing technical transfer to Kite during 2024 and Kite manufacture for iMMagine-3. Expiration and transfer are not documented CMC failures or corrective actions. These disclosures establish company-level responsibilities, but not the exact facilities, vector suppliers, process versions or release-testing sites proposed in the current BLA. No original FDA inspection document, product-linked compliance conclusion, commercial comparability assessment or process-validation package was verified. The retrieved clinical-manufacturing conference page supplied no usable results. Consequently, neither commercial manufacturing clearance nor an unresolved candidate-specific CMC deficiency is established.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-8989ba1ac860",
+        "web-1e183a572326"
+      ]
+    },
+    {
+      "id": "prior-hold",
+      "title": "The earlier partial clinical hold was lifted; its underlying safety lesson remains important",
+      "detail": "Arcellx's FY2024 filing explicitly states that FDA had issued and lifted one partial clinical hold on anito-cel. It also cautions that protocol safety measures might not prevent future serious adverse events. This is a documented historical setback followed by resumption—not evidence of a currently active hold, a manufacturing objection, or a BLA CRL. The retrieved excerpts did not establish the precise initiating event, FDA's written objections, required protocol changes, or post-change safety analysis. Those documents are necessary to determine whether the fatal CRS report and the earlier hold are related; that relationship should not be assumed.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-8989ba1ac860"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Earlier BCMA CAR-T approvals provide target-class context, not a matched forecast",
+      "relevance": "The original anito-cel phase 1 paper describes completed FDA approvals of idecabtagene vicleucel in March 2021 and ciltacabtagene autoleucel in February 2022. This supports precedent for BCMA-directed CAR-T treatment of myeloma.",
+      "difference": "These are different constructs and manufacturing processes. Their FDA review packages were not inspected here, and their outcomes do not establish anito-cel's comparability, superiority, safety, sponsor-specific execution probability or review timing.",
+      "sourceIds": [
+        "web-3a3e0a68802b"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "The integrated BLA clinical/safety report: reconcile all enrolled, leukapheresed, manufactured and infused patients; provide IRC ORR confidence intervals, DOR, survival censoring and numbers at risk, plus every serious/fatal event.",
+    "The original partial-hold and hold-release correspondence, associated protocol amendments, and patient-level safety outcomes before and after the changes—especially the grade 5 CRS narrative.",
+    "The BLA manufacturing-site and process-version map, Lonza-to-Kite comparability package, potency/release specifications, validation results, out-of-specification rates and product-linked FDA inspection findings with any corrective-action disposition.",
+    "A dated FDA or sponsor review update confirming the current application classification, requested label, approval pathway and December 23 target, including any substantive information request, amendment, extension or complete response."
+  ],
+  "limitations": [
+    "This is a September 10, 2026 live investigation, not a historical forecast. No later-dated candidate-specific evidence was used. The most recent substantive pivotal cutoff inspected was October 7, 2025; the April 2026 acquisition update was available only as an attributed curated summary.",
+    "Both exact trial records were retrieved and showed no posted results. Searches found actual sponsor-reported pivotal outcomes and an original early phase 1 paper, but not a full pivotal manuscript, protocol/SAP history, comprehensive safety tables or the full phase 1 BLA analysis. Only the returned portion of the phase 1 paper was inspected.",
+    "The fatal CRS detail and survival confidence intervals come from secondary conference coverage. They are explicitly distinguished from the sponsor's aggregate results and require verification against original tables and case narratives.",
+    "Manufacturing research covered the SEC filing, a clinical-manufacturing conference lead and a public named-firm inspection lookup. Inspection leads lacked verified original FDA documents and candidate–facility linkage and were not promoted to findings. Warning letters, Form 483s, establishment inspection reports and corrective-action closeouts were not retrieved. A clinical/BIMO inspection would not establish CGMP clearance.",
+    "The attempted public CRL-archive check did not return usable evidence. No conclusion that anito-cel has never received a CRL follows. The original-BLA classification comes from the supplied packet, supported but not fully authenticated by the acceptance disclosures.",
+    "A product-specific FDA review history for Kite's prior approved therapies was not retrieved. Arcellx's historical absence of approved products and Gilead's acquisition are documented context, not a modeled sponsor track record."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the integrated BLA dataset establish acceptable serious/fatal toxicity alongside durable responses in the intended fourth-line population?",
+    "bullCase": {
+      "claim": "The response signal is unusually strong within this uncontrolled dataset: IRC ORR of 96%, CR/sCR of 74%, and encouraging survival follow-up in heavily refractory patients. Early phase 1 activity corroborates the candidate's effect. The sponsor's observed absence of delayed neurological syndromes and the lifted—not ongoing—partial hold support continued review rather than a presumption of failure.",
+      "sourceIds": [
+        "web-48b6023ab8f2",
+        "web-3a3e0a68802b",
+        "web-8989ba1ac860"
+      ]
+    },
+    "bearCase": {
+      "claim": "Infused-patient response rates alone do not resolve benefit–risk for everyone entering the treatment pathway. Serious infections, a secondary report of fatal CRS, and an incompletely reconstructed hold history require more than a 'manageable safety' characterization. The commercial manufacturing transition creates a separate comparability gate, although no current CMC deficiency has been verified.",
+      "sourceIds": [
+        "trial-NCT05396885",
+        "web-48b6023ab8f2",
+        "web-dedf0a91ab3c",
+        "web-8989ba1ac860"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What do FDA's integrated clinical review and the underlying disposition/death narratives show when non-infused patients and the current safety protocol are included?",
+      "whyItMatters": "This would distinguish durable benefit with adequately controlled toxicity from a favorable treated-cohort presentation that understates treatment-pathway losses or severe-event risk. Commercial-process comparability would still need independent resolution.",
+      "sourceIds": [
+        "trial-NCT05396885",
+        "web-48b6023ab8f2",
+        "web-dedf0a91ab3c",
+        "web-8989ba1ac860"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit–risk and commercial bridge are accepted",
+        "trigger": "FDA finds the full-population response/durability analysis robust, serious-event risks adequately characterized and manageable, and the proposed commercial product comparable with acceptable manufacturing controls.",
+        "implication": "The application would have a coherent basis for a favorable action, potentially with specific monitoring and long-term follow-up requirements. This is conditional, not a forecast of approval on the target date.",
+        "sourceIds": [
+          "web-48b6023ab8f2",
+          "trial-NCT05396885",
+          "web-8989ba1ac860"
+        ]
+      },
+      {
+        "label": "Clinical benefit remains persuasive but safety limits use",
+        "trigger": "Integrated review confirms meaningful efficacy but identifies a higher-risk population, unresolved fatal-event attribution, or monitoring requirements not adequately supported by the submitted data.",
+        "implication": "FDA could seek further analyses, more restrictive labeling or additional evidence. Outpatient/community positioning would need reassessment rather than being inferred from low observed severe ICANS.",
+        "sourceIds": [
+          "web-48b6023ab8f2",
+          "web-dedf0a91ab3c",
+          "web-8989ba1ac860"
+        ]
+      },
+      {
+        "label": "Manufacturing evidence becomes the limiting issue",
+        "trigger": "A product-linked FDA review identifies inadequate process comparability, potency validation, release controls or facility remediation at a proposed commercial site.",
+        "implication": "Strong response data would not overcome that separate deficiency; additional submissions or remediation could alter timing or produce a complete response. No such current finding was verified in this investigation.",
+        "sourceIds": [
+          "web-8989ba1ac860"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How do the 136 registry enrollees reconcile with the 117 treated patients, and what are the outcomes from enrollment and leukapheresis—not just infusion?",
+        "whyItMatters": "The answer separates cohort-definition differences from disease progression, deaths, withdrawals, manufacturing failures and other treatment-pathway losses.",
+        "sourceIds": [
+          "trial-NCT05396885",
+          "web-48b6023ab8f2"
+        ]
+      },
+      {
+        "question": "What specifically caused the prior partial hold, what did FDA require to lift it, and how does the reported fatal CRS event fit into that chronology?",
+        "whyItMatters": "A lifted hold is not a current objection, but the adequacy and durability of its safety resolution may affect labeling and the overall benefit–risk assessment.",
+        "sourceIds": [
+          "web-8989ba1ac860",
+          "web-dedf0a91ab3c"
+        ]
+      },
+      {
+        "question": "Which exact sites and process versions made the pivotal product and are proposed for launch, and what evidence bridges Lonza-associated production to Kite production?",
+        "whyItMatters": "Company-level transfer statements cannot establish analytical comparability, commercial release capability or the regulatory disposition of individual sites.",
+        "sourceIds": [
+          "web-8989ba1ac860"
+        ]
+      },
+      {
+        "question": "What monitoring, infection prophylaxis, cytopenia support and rapid-escalation infrastructure are proposed, and which populations support outpatient administration?",
+        "whyItMatters": "Frequent CRS, serious infections and observed cytopenias remain operationally important despite encouraging delayed-neurotoxicity observations. The public dataset does not establish broad outpatient suitability.",
+        "sourceIds": [
+          "web-48b6023ab8f2",
+          "web-dedf0a91ab3c"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong sponsor-reported responses and encouraging durability coexist with serious-toxicity questions, including a secondary report of fatal CRS. Commercial-process comparability and site-level FDA review remain unverified.",
+    "pivotalQuestion": "Does the integrated BLA dataset establish acceptable serious/fatal toxicity alongside durable responses in the intended fourth-line population?",
+    "sourceIds": [
+      "web-48b6023ab8f2",
+      "web-dedf0a91ab3c",
+      "web-8989ba1ac860"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Sponsor-reported IRC ORR of 96% and CR/sCR of 74% in 117 patients support activity. Single-arm design, incomplete disposition reconciliation and unavailable DOR/statistical tables limit interpretation.",
+        "sourceIds": [
+          "web-48b6023ab8f2",
+          "trial-NCT05396885"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Low severe ICANS and no observed delayed syndromes coexist with serious infections and a secondary report of fatal CRS. Integrated death adjudication and complete serious-event tables remain unavailable.",
+        "sourceIds": [
+          "web-48b6023ab8f2",
+          "web-dedf0a91ab3c",
+          "web-bd3d2687b2bb"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Lonza-associated manufacturing and transfer to Kite are documented. Commercial site mapping, comparability, validation and product-linked FDA inspection disposition were not verified; no current CMC setback or clearance is established.",
+        "sourceIds": [
+          "web-8989ba1ac860"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor disclosures confirm accepted fourth-line-and-later BLA review and a December 23 target. The earlier partial hold was lifted. FDA's current substantive review conclusions and any later target changes remain unverified.",
+        "sourceIds": [
+          "web-b2e352526dd0",
+          "web-bd3d2687b2bb",
+          "web-8989ba1ac860"
+        ]
+      }
+    ]
+  },
+  "id": "cd2b165e-46db-45ab-b777-e89edaf5016b",
+  "candidateId": "anito-cel-myeloma",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:39:33.161Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Anitocabtagene autoleucel (anito-cel), specifically Fourth-line relapsed or refractory multiple myeloma. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "gild-anito-acceptance",
+      "title": "Gilead: anito-cel BLA target and Arcellx transaction",
+      "url": "https://www.sec.gov/Archives/edgar/data/882095/000110465926018314/tm267044d1_ex99-1.htm",
+      "publisher": "Gilead Sciences / SEC",
+      "publishedAt": "2026-02-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Gilead reported accepted FDA review of anitocabtagene autoleucel for fourth-line relapsed/refractory multiple myeloma with a December 23 target. The filing follows iMMagine-1 phase 2 and phase 1 evidence. The announced Arcellx acquisition was still a proposed transaction on this date."
+    },
+    {
+      "id": "gild-arcellx-close",
+      "title": "Gilead: Arcellx acquisition completed",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel/default.aspx",
+      "publisher": "Gilead Sciences",
+      "publishedAt": "2026-04-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Gilead completed its acquisition of Arcellx, making it wholly owned. Anito-cel remained under FDA review; corporate ownership and launch readiness are not regulatory clearance. Current sponsor mapping uses Gilead/Kite rather than presenting Arcellx as an independent listed company."
+    },
+    {
+      "id": "trial-nct05396885",
+      "title": "ClinicalTrials.gov: NCT05396885 · Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05396885",
+      "publisher": "ClinicalTrials.gov / Kite, A Gilead Company",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 2; na; single group. Registry enrollment is 136 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct04155749",
+      "title": "ClinicalTrials.gov: NCT04155749 · Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+      "url": "https://clinicaltrials.gov/study/NCT04155749",
+      "publisher": "ClinicalTrials.gov / Kite, A Gilead Company",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 1; na; single group. Registry enrollment is 40 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05396885",
+      "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple Myeloma (iMMagine-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05396885",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T20:39:40.092Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05396885; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT04155749",
+      "title": "Study of Anitocabtagene-autoleucel in Participants With Relapsed Refractory Multiple Myeloma",
+      "url": "https://clinicaltrials.gov/study/NCT04155749",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-02-11",
+      "retrievedAt": "2026-09-10T20:39:40.125Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04155749; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-48b6023ab8f2",
+      "title": "Kite Announces New Data for Pivotal iMMagine 1 Study at ASH 2025 ...",
+      "url": "https://www.gilead.com/news/news-details/2025/kite-announces-new-data-for-pivotal-immagine-1-study-at-ash-2025-highlighting-anito-cels-opportunity-in-relapsed-or-refractory-multiple-myeloma",
+      "publisher": "www.gilead.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:17.363Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-dedf0a91ab3c",
+      "title": "Anitocabtagene Autoleucel iMMagine-1 Trial: Exceptional ...",
+      "url": "https://www.myeloma.org/videos/anitocabtagene-autoleucel-immagine-1-trial-exceptional-safety-durability-relapsed-myeloma",
+      "publisher": "www.myeloma.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:39:54.274Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8989ba1ac860",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1786205/000095017025029150/aclx-20241231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:39:54.274Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1e183a572326",
+      "title": "Anitocabtagene autoleucel (anito-cel) clinical trial manufacturing ... - ASCO",
+      "url": "https://www.asco.org/abstracts-presentations/257815",
+      "publisher": "www.asco.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:39:54.278Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-cfea602f4d4c",
+      "title": "Updated results from iMMagine-1: Phase 2 study of anitocabtagene ...",
+      "url": "https://www.myeloma.org/videos/updated-results-immagine-1-phase-2-study-anitocabtagene-autoleucel-relapsedrefractory",
+      "publisher": "www.myeloma.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:04.667Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9934846f12ae",
+      "title": "Study of Anitocabtagene-autoleucel in Relapsed or Refractory Multiple ...",
+      "url": "https://clinicaltrials.gov/study/NCT05396885",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:17.362Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-aaa195618d09",
+      "title": "Updated results from the iMMagine-1 trial of anito-cel in R/R multiple ...",
+      "url": "https://www.vjhemonc.com/video/yffsfnv609u-updated-results-from-the-immagine-1-trial-of-anito-cel-in-rr-multiple-myeloma/",
+      "publisher": "www.vjhemonc.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:04.669Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0d344e7a8963",
+      "title": "iMMagine-1 updated results: Anito-cel for RRMM - Multiple Myeloma Hub",
+      "url": "https://multiplemyelomahub.com/medical-information/immagine-1-phase-ii-updated-results-anito-cel-for-rrmm",
+      "publisher": "multiplemyelomahub.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:04.669Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b2e352526dd0",
+      "title": "Gilead Sciences to Acquire Arcellx to Maximize Long Term Potential of ...",
+      "url": "https://www.gilead.com/news/news-details/2026/gilead-sciences-to-acquire-arcellx-to-maximize-long-term-potential-of-anito-cel",
+      "publisher": "www.gilead.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:08.201Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c7bc15a387aa",
+      "title": "Gilead Doubles Down on CAR T with $7.8B Acquisition of Arcellx - BioBuzz",
+      "url": "https://biobuzz.io/news/breaking-gilead-doubles-down-on-car-t-with-7-8b-acquisition-of-arcellx/",
+      "publisher": "biobuzz.io",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:08.202Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e086494f542f",
+      "title": "Gilead–Arcellx Deal: Up to $7.8B for Anito-cel CAR-T in Multiple Myeloma",
+      "url": "https://oncodaily.com/technology/gilead461928",
+      "publisher": "oncodaily.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:08.203Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bd3d2687b2bb",
+      "title": "file: tm267075d1_ex99-1.htm - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/882095/000110465926018531/tm267075d1_ex99-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:08.203Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3a3e0a68802b",
+      "title": "Phase 1 study of CART-ddBCMA for the treatment of subjects with ... - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989524/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:17.362Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ad6cd079b4b7",
+      "title": "Anitocabtagene Autoleucel for R/R Multiple Myeloma",
+      "url": "https://www.myeloma.org/videos/anitocabtagene-autoleucel-rr-multiple-myeloma-preliminary-immagine-1-phase-2-results",
+      "publisher": "www.myeloma.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:17.363Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 240051,
+    "outputTokens": 6878
+  },
+  "durationMs": 183203,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "gild-anito-acceptance"
+      },
+      "status": "partial",
+      "durationMs": 73
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "gild-arcellx-close"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05396885"
+      },
+      "status": "completed",
+      "durationMs": 88
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04155749"
+      },
+      "status": "completed",
+      "durationMs": 32
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "anito-cel iMMagine-1 2026 pivotal results safety manufacturing FDA December 23 BLA clinical hold"
+      },
+      "status": "completed",
+      "durationMs": 14153
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "anitocabtagene autoleucel iMMagine-1 phase 2 results 2026 Lancet 117 confidence interval serious adverse events"
+      },
+      "status": "completed",
+      "durationMs": 5222
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-8989ba1ac860",
+        "query": "clinical hold"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-8989ba1ac860",
+        "query": "Manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.gilead.com 2026 anito-cel FDA BLA December 23 manufacturing Frederick"
+      },
+      "status": "completed",
+      "durationMs": 3531
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "anito-cel CART-ddBCMA phase 1 iMMagine-1 results site.ashpublications.org OR site.pmc.ncbi.nlm.nih.gov"
+      },
+      "status": "completed",
+      "durationMs": 3006
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-8989ba1ac860",
+        "query": "June 16, 2023"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-8989ba1ac860",
+        "query": "Lonza Houston"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Kite Pharma"
+      },
+      "status": "completed",
+      "durationMs": 288
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0657d4c61def4bdd016aa315b1db9c87d2a81e9cf0b09770d0",
+    "inputHash": "649c42142be5489a654bd053f29075c127e0f53bb5424b4c308050fb00b275a1"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:45:31.299Z",
+    "originalSha256": "4ec1581bceb4feaa9d59225adb80d0ac94d57fb5b62fea7e99ff3294cc23d5bc",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

@@ -109,7 +109,7 @@
 .research-mission:hover { background: var(--blue-tint); }
 .research-mission:focus-visible { outline-offset: -3px; }
 .mission-drug { color: var(--muted); display: flex; align-items: center; gap: 7px; font-size: 11px; line-height: 1.5; margin-bottom: 12px; }
-.mission-drug > svg { color: var(--blue); flex-shrink: 0; }
+.mission-drug > .company-logos { gap: 4px; flex-shrink: 0; }
 .research-mission h3 { font-size: 16px; font-weight: 550; line-height: 1.5; margin-bottom: 13px; }
 .mission-method { display: block; font-size: 11px; line-height: 1.6; color: var(--muted); margin-bottom: 10px; }
 .research-mission p { font-size: 12.5px; line-height: 1.65; margin-bottom: 17px; color: var(--muted); }

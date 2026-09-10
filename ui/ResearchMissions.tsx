@@ -1,4 +1,5 @@
-import { ArrowRight, FileSearch } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import CompanyLogos from './CompanyLogos';
 import type { Dashboard } from './types';
 
 // Editorial entry points to the exact recorded investigations cited here.
@@ -15,5 +16,5 @@ export default function ResearchMissions({ dashboard, onOpen }: { dashboard: Das
     return candidate && run ? [{ ...mission, drug: candidate.drug }] : [];
   });
   if (!available.length) return null;
-  return <section className="research-missions" aria-labelledby="research-missions-title"><div className="mission-heading"><h2 id="research-missions-title">Recorded Astra investigations</h2><p>Open a real case to inspect the sources, follow the research trail and challenge the conclusion.</p></div><div className="mission-grid">{available.map((mission) => <button className="research-mission" key={mission.runId} onClick={() => onOpen(mission.candidateId, mission.runId)}><span className="mission-drug"><FileSearch size={13} />{mission.drug}</span><h3>{mission.question}</h3><span className="mission-method">{mission.method}</span><p>{mission.finding}</p><span className="mission-open">Follow the investigation<ArrowRight size={13} /></span></button>)}</div></section>;
+  return <section className="research-missions" aria-labelledby="research-missions-title"><div className="mission-heading"><h2 id="research-missions-title">Recorded Astra investigations</h2><p>Open a real case to inspect the sources, follow the research trail and challenge the conclusion.</p></div><div className="mission-grid">{available.map((mission) => <button className="research-mission" key={mission.runId} onClick={() => onOpen(mission.candidateId, mission.runId)}><div className="mission-drug"><CompanyLogos candidateId={mission.candidateId} compact allSponsors /><span>{mission.drug}</span></div><h3>{mission.question}</h3><span className="mission-method">{mission.method}</span><p>{mission.finding}</p><span className="mission-open">Follow the investigation<ArrowRight size={13} /></span></button>)}</div></section>;
 }

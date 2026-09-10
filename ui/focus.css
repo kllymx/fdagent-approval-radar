@@ -53,6 +53,13 @@
 .clinical-disclosure-content .trial-chart { max-width: 790px; }
 .clinical-disclosure-content .trial-visual h3 { font-size: 14px; }
 .clinical-disclosure-content .trial-interpretation { max-width: 850px; }
+.source-review-notes { border-left: 2px solid var(--border); padding: 0 0 0 15px; margin: 22px 0; }
+.source-review-notes > h2 { margin: 0 0 3px; font-size: 12.5px; font-weight: 500; line-height: 1.5; }
+.source-review-notes .source-review-basis { margin: 0 0 12px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.source-review-notes article + article { margin-top: 16px; }
+.source-review-notes h3 { margin: 0 0 5px; font-size: 13px; font-weight: 500; line-height: 1.5; }
+.source-review-notes article > p { margin: 0 0 8px; color: var(--muted); font-size: 12.5px; line-height: 1.65; }
+.source-review-notes .text-link { font-size: 11px; }
 @media (max-width: 1150px) {
   .assessment-factor { flex-direction: column; align-items: flex-start; gap: 7px; }
 }

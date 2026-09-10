@@ -1,0 +1,665 @@
+{
+  "summary": "Neladalkib has a credible response-based approval case, but the evidence balance is mixed. ALKOVE-1 shows durable systemic and intracranial responses after ALK TKIs; its headline response rates include some unconfirmed responses. The original presentation’s later safety section verifies Grade ≥3 ALT and AST increases of 20% and 16%, respectively, in a pooled N=656 population. These findings require substantive hepatic benefit–risk review, not reassurance based solely on low discontinuation rates. The sponsor-reported FDA action target remains November 27, 2026; exact manufacturing sites and FDA clearance are not established.",
+  "outlook": {
+    "verdict": "Clinically supportive, with material hepatic safety and label-scope questions; manufacturing acceptability remains unknown.",
+    "timing": "Nuvalent announced priority-review acceptance on May 27, 2026, with a November 27, 2026 PDUFA target. GSK’s July 28 update still distinguished pending neladalkib from approved Jideytro. Searches conducted September 10 did not retrieve a superseding neladalkib action or target change. November 27 is therefore the latest substantiated sponsor-reported action target, not a promised approval date or independently verified FDA review-completion forecast.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical baseline concerns annual FDA receipt cohorts, not individual candidates. Original-priority applications averaged approximately 78.7% first-cycle approvals across FY2017–2023, but those cohorts mix NDA and BLA products and do not incorporate neladalkib’s efficacy, liver safety, manufacturing or sponsor-transition details. This is contextual information only. The separately measured action-timeliness baseline is not an approval probability and is not combined with the approval-rate reference."
+  },
+  "findings": [
+    {
+      "id": "clinical-denominators",
+      "title": "The pivotal headline ORR is not entirely confirmed",
+      "detail": "The original ASCO 2026 presentation uses an August 29, 2025 cutoff: 781 patients enrolled across doses and ALK-positive solid tumors; 656 patients with advanced ALK-positive NSCLC treated at 150 mg daily formed the pooled safety population. The pivotal pretreated efficacy population was 253 patients with BICR-measurable disease treated by September 30, 2024. BICR RECIST 1.1 ORR was displayed as 31% (79/253; 95% CI 26–37), including two partial responses pending confirmation. Subtracting those two reconciles to 77/253 confirmed responders, also the DOR analysis population; this is arithmetic reconciliation, not a separately published FDA analysis. Lorlatinib-naïve ORR was 46% (29/63); lorlatinib-experienced ORR was 26% (50/190), including both pending responses, leaving 48 confirmed responders. Two of six displayed complete responses were unconfirmed upgrades from previously confirmed partial responses—not additional patients to remove from confirmed ORR. The registry’s estimated enrollment of 840 covers the wider protocol, not this efficacy denominator.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-987e61ed054f",
+        "trial-NCT05384626"
+      ]
+    },
+    {
+      "id": "clinical-durability",
+      "title": "Durable responses support benefit, but treatment history materially changes interpretation",
+      "detail": "Among 77 confirmed responders, the presentation reports median DOR not reached (95% CI 14.5 months–not estimable) and a Kaplan–Meier 12-month DOR estimate of 64% (95% CI 51–75). The lorlatinib-experienced responder population was N=48, with an emerging median DOR of 17.6 months (95% CI 6.9–not estimable); the lorlatinib-naïve responder population was N=29. These responder-only results must not be generalized to all treated patients: median PFS was 5.7 months overall, 4.6 months after lorlatinib and an emerging 14.5 months in lorlatinib-naïve patients. Of 253 patients, 190 had received lorlatinib and 128 chemotherapy. The 48% ORR after alectinib alone involved only 21/44 patients. The nonrandomized, open-label study supports antitumor activity, but does not establish comparative PFS, overall-survival benefit or superiority over another treatment.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-987e61ed054f",
+        "trial-NCT05384626"
+      ]
+    },
+    {
+      "id": "clinical-cns",
+      "title": "Intracranial and resistance-mutation activity are supportive, with distinct denominators",
+      "detail": "CNS response eligibility required BICR-measurable lesions ≥5 mm and no brain radiation within two months before first dose. Intracranial ORR was 32% (29/92; 95% CI 22–42), including two pending-confirmation intracranial partial responses; the confirmed-responder IC-DOR analysis began with 27 patients. Lorlatinib-naïve IC-ORR was 63% (15/24), including both pending responses; post-lorlatinib IC-ORR was 21% (14/68), without that pending-response qualification. Overall 12-month IC-DOR was a responder-based Kaplan–Meier estimate of 71% (95% CI 48–85), not the proportion of all 92 patients benefiting for a year. The G1202R subgroup had displayed ORR 68% (32/47), including one pending partial response. This is not a compound-mutation-only response rate, nor evidence for an equally large benefit throughout the proposed pretreated label.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-987e61ed054f"
+      ]
+    },
+    {
+      "id": "safety-hepatic",
+      "title": "Verified later safety table: substantial Grade ≥3 transaminase elevations",
+      "detail": "The original presentation’s later safety section explicitly reports all-causality treatment-emergent adverse events in the pooled N=656 advanced ALK-positive NSCLC population receiving 150 mg daily, including TKI-naïve and pretreated patients. ALT increased: 47% any grade and 20% Grade ≥3. AST increased: 44% any grade and 16% Grade ≥3. Other listed any-grade/Grade ≥3 rates were constipation 28%/0.2%, dysgeusia 23%/0%, peripheral edema 18%/0.3%, cough 16%/0.5% and nausea 16%/0.8%. The table selects events occurring in ≥15% of either treatment-history population; it is not a complete adverse-event inventory. Grade denotes severity, not treatment relatedness or regulatory seriousness. Exact patient counts cannot be reconstructed reliably from rounded percentages, and ALT and AST rates cannot be added as if they represent different patients. These pooled figures do not establish the liver-event rates specifically among the 253 pivotal pretreated patients.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-987e61ed054f"
+      ]
+    },
+    {
+      "id": "safety-management",
+      "title": "Dose reductions and discontinuations mitigate—but do not erase—the liver signal",
+      "detail": "In the N=656 safety presentation, TEAEs led to dose reduction in 17% and treatment discontinuation in 5%. Event-specific dose-reduction rates were ALT increased 10% and AST increased 8%; discontinuation rates were ALT increased 2% and AST increased 1%. These are different outcomes, are not necessarily mutually exclusive, and are not treatment-related adverse-event rates. The investigators described most transaminase events as asymptomatic, low-grade, transient and reversible with interruptions or reductions, while noting preliminary higher incidence in less heavily pretreated patients and enhanced monitoring/prompt dose interventions in ALKAZAR. That interpretation coexists with the verified Grade ≥3 rates. The inspected table does not quantify overall interruption frequency, serious adverse events, deaths, treatment-attributed events or individual CNS adverse-event categories. TRK-sparing design and a ≥15% reporting threshold do not establish absence of clinically important CNS toxicity or a comparative CNS-safety advantage.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-987e61ed054f",
+        "web-3c21a16f35b9"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Product-specific outsourcing is documented; exact supplier and FDA status are not",
+      "detail": "Nuvalent’s FY2025 Form 10-K explicitly includes neladalkib in its manufacturing disclosure: the company states that API and drug-product manufacturing follow cGMP and that it relies on single-source CMOs for the described drug-product manufacturing activities. It describes supply-chain development and exploration of backup suppliers, not completed qualification of redundant commercial sources. This establishes a candidate-linked outsourcing and concentration exposure, but the inspected passage does not identify neladalkib’s supplier legal entities, site addresses, FEIs, inspection findings or FDA application-specific manufacturing determination. The sponsor’s cGMP assertion is not FDA clearance. These pre-acquisition arrangements also cannot be assumed unchanged after GSK’s acquisition. No usable product-linked FDA compliance record was obtained; neither a company-name match nor a clinical/BIMO inspection would establish manufacturing acceptability.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-0477fe078117",
+        "gsk-nuvalent"
+      ]
+    },
+    {
+      "id": "regulatory-sponsor",
+      "title": "Review remains pending under GSK; portfolio experience is context, not transferable approval",
+      "detail": "Nuvalent reported submission on April 7 and priority-review acceptance on May 27, 2026, for TKI-pretreated advanced ALK-positive NSCLC, with a November 27 target. Its reported breakthrough designation covers patients previously treated with at least two ALK TKIs—a narrower population than the proposed broad pretreated indication. GSK reported acquisition completion July 15; its July 28 update separated FDA-approved Jideytro from neladalkib’s pending H2 action. Nuvalent’s February 2026 disclosure was still preparing for its first potential approval. GSK brings documented commercial and regulatory experience: its July 2025 report described FDA approvals for Blujepa, Penmenvy and Nucala in COPD. That same report described a revised Blenrep target, while its July 2026 report describes US Blenrep sales, illustrating why dated episodes must be reconciled. None of these separate products validates neladalkib’s evidence or manufacturing. No neladalkib-specific FDA review memorandum or CRL was retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-8a4e051b2e10",
+        "web-3c21a16f35b9",
+        "gsk-nuvalent",
+        "web-295ef1eb119c",
+        "web-5d28d9b8889c",
+        "web-820dbbb889b8",
+        "web-eb85b7e22c10"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Updated, fully confirmed BICR ORR and DOR with the FDA-submitted analysis population, exclusions and results separated by prior lorlatinib, number of TKIs and resistance-mutation status.",
+    "Integrated safety results at 150 mg separating pretreated from TKI-naïve patients: exact liver-event counts, Grade 3 versus 4, bilirubin/clinical liver-injury assessments, serious and fatal events, attribution, interruption/reduction/rechallenge outcomes, and prospectively monitored CNS events.",
+    "Candidate-linked commercial API, drug-product and testing-site identities and FEIs, with original FDA inspection correspondence, remediation status and application-specific manufacturing conclusions.",
+    "Dated FDA or sponsor review update confirming the target, proposed label breadth, approval pathway and any required additional study or postmarketing commitments after the GSK transition."
+  ],
+  "limitations": [
+    "This investigation is current to September 10, 2026, but the detailed clinical presentation uses an August 29, 2025 data cutoff. Its figures are not September 2026 patient outcomes.",
+    "The live registry record was last updated May 27, 2026 and contains protocol information but no posted results. Clinical results therefore come from the investigator/sponsor presentation, not an FDA assessment or registry results dataset.",
+    "The original presentation’s later safety table was retrieved and inspected. Remaining gaps concern endpoints and analyses not present in the inspected material—not an inability to reach the liver-safety section.",
+    "PDF extraction distorted some waterfall and curve-derived tables and did not preserve reliable page numbers. Reported summary tables and explicit footnotes were used; exact counts were not inferred from rounded safety percentages.",
+    "The safety denominator pools treatment histories. Rates of serious events, deaths, treatment-related events, overall interruptions, clinical liver injury and individual monitored CNS events were not established by the inspected safety table.",
+    "Exact manufacturing supplier/site linkage and original FDA inspection conclusions remain unavailable. The compliance lookup yielded no usable record; that is not evidence of either compliance or a deficiency.",
+    "Review status and target are sponsor-reported. Search coverage is incomplete, and failure to retrieve a CRL, extension or FDA objection cannot establish that none exists. Sponsor history was examined through selected dated disclosures, not a systematic approval-rate analysis."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does FDA consider confirmed response durability sufficient across the proposed pretreated label, with an acceptable hepatic benefit–risk balance at 150 mg daily?",
+    "bullCase": {
+      "claim": "Independent-review responses persist after extensive ALK treatment, including lorlatinib, and include intracranial activity. The confirmed systemic responder population is substantial enough to reconcile the headline results, and many responses are durable. A 5% TEAE discontinuation rate supports the possibility that toxicity can be managed in this population, although it does not settle hepatic risk.",
+      "sourceIds": [
+        "web-987e61ed054f"
+      ]
+    },
+    "bearCase": {
+      "claim": "The broad pretreated label rests on heterogeneous single-arm populations, while the strongest response rates occur in smaller subsets. Grade ≥3 ALT and AST increases are substantial, and the presentation flags potentially higher incidence with less pretreatment. Without stratified integrated safety and finalized response confirmation, benefit–risk may differ materially across the requested treatment lines.",
+      "sourceIds": [
+        "web-987e61ed054f",
+        "trial-NCT05384626",
+        "web-3c21a16f35b9"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What does the FDA-submitted integrated analysis show for fully confirmed efficacy and clinically consequential liver injury, separately after one ALK TKI and after lorlatinib?",
+      "whyItMatters": "This would distinguish a broadly applicable salvage treatment with manageable laboratory toxicity from a narrower benefit–risk proposition requiring different label scope, dosing or additional evidence. Manufacturing acceptability remains a separate necessary condition.",
+      "sourceIds": [
+        "web-987e61ed054f",
+        "web-3c21a16f35b9",
+        "web-0477fe078117"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Response-based approval with hepatic risk management",
+        "trigger": "FDA accepts confirmed ORR/DOR for the proposed population, finds liver risk manageable through monitoring and dose instructions, and finds manufacturing acceptable.",
+        "implication": "An approval pathway remains credible around the reported action target; the actual label and monitoring requirements would determine treatment scope. This is conditional, not a predicted outcome.",
+        "sourceIds": [
+          "web-987e61ed054f",
+          "web-3c21a16f35b9",
+          "web-0477fe078117"
+        ]
+      },
+      {
+        "label": "More restricted indication or additional clinical requirements",
+        "trigger": "FDA finds the benefit–risk balance persuasive only in particular prior-treatment groups, or considers the less-pretreated hepatic profile insufficiently characterized.",
+        "implication": "The eventual indication, dosing or evidence requirements could be narrower or more demanding than the sponsor’s broad TKI-pretreated proposal.",
+        "sourceIds": [
+          "web-987e61ed054f",
+          "web-3c21a16f35b9"
+        ]
+      },
+      {
+        "label": "Review does not conclude with approval at the reported target",
+        "trigger": "Additional efficacy/safety analyses or unresolved application-specific manufacturing information are required.",
+        "implication": "Timing would depend on the actual FDA communication. An extension would not itself be a CRL, and a CRL would be an intermediate setback rather than proof of permanent failure.",
+        "sourceIds": [
+          "web-3c21a16f35b9",
+          "web-0477fe078117",
+          "pdufa-2025"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Have the two systemic and two intracranial pending partial responses been confirmed, and how do the final NDA populations reconcile with N=253 and N=92?",
+        "whyItMatters": "Prevents presenting preliminary headline response rates as fully confirmed regulatory endpoints and identifies any changes in inclusion or missing-data handling.",
+        "sourceIds": [
+          "web-987e61ed054f"
+        ]
+      },
+      {
+        "question": "What are the exact pretreated-only Grade 3/4 liver-event counts, bilirubin findings, serious liver injuries, treatment attribution, recovery times and recurrence after rechallenge?",
+        "whyItMatters": "Distinguishes reversible laboratory elevations from clinically consequential injury and tests whether the pooled N=656 table obscures different risks across treatment lines.",
+        "sourceIds": [
+          "web-987e61ed054f"
+        ]
+      },
+      {
+        "question": "Which CNS events were prospectively monitored, and what were their rates, grades, attribution and dose consequences by prior lorlatinib and baseline CNS disease? Request cognition, mood, speech and balance/dizziness analyses rather than assuming these were absent.",
+        "whyItMatters": "Tests the proposed CNS-sparing differentiation directly. These are requested assessment categories, not claims that such events occurred or were comprehensively measured in the retrieved presentation.",
+        "sourceIds": [
+          "web-987e61ed054f",
+          "web-3c21a16f35b9"
+        ]
+      },
+      {
+        "question": "Which legal entities and FEIs perform commercial API, tablet manufacture, release testing and packaging, and what application-linked FDA issues remain open?",
+        "whyItMatters": "Turns the documented single-source outsourcing exposure into a verifiable supply-chain assessment without confusing sponsor cGMP statements, clinical inspections or unrelated GSK facilities with clearance.",
+        "sourceIds": [
+          "web-0477fe078117"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Durable systemic and intracranial responses support activity, but substantial high-grade transaminase elevations require stratified benefit–risk assessment. Priority review remains pending; exact manufacturing-site acceptability is unverified.",
+    "pivotalQuestion": "Are confirmed responses sufficiently durable across the proposed pretreated population to outweigh hepatic toxicity at 150 mg daily?",
+    "sourceIds": [
+      "web-987e61ed054f",
+      "web-3c21a16f35b9",
+      "web-295ef1eb119c",
+      "web-0477fe078117"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "BICR responses and responder-based durability support activity, including after lorlatinib and intracranially. Some headline responses await confirmation; single-arm evidence does not establish comparative survival benefit.",
+        "sourceIds": [
+          "web-987e61ed054f",
+          "trial-NCT05384626"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Pooled N=656 Grade ≥3 ALT/AST increases were 20%/16%; TEAE dose reductions/discontinuations were 17%/5%. Manageability is plausible, but pretreated-only hepatic severity, attribution and CNS-event details remain unresolved.",
+        "sourceIds": [
+          "web-987e61ed054f"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Nuvalent documents candidate-linked single-source outsourcing and asserts cGMP manufacture. Exact suppliers, FEIs and FDA application-specific manufacturing conclusions were not established; acquisition does not prove clearance.",
+        "sourceIds": [
+          "web-0477fe078117"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor-reported priority-review acceptance and November 27 target establish an active review pathway. July’s GSK update retains pending status; Jideytro’s separate approval does not resolve neladalkib.",
+        "sourceIds": [
+          "web-3c21a16f35b9",
+          "web-295ef1eb119c"
+        ]
+      }
+    ]
+  },
+  "id": "900f93d6-f4b7-43ec-a38a-26ad4f058ebc",
+  "candidateId": "neladalkib-alk",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:37:21.395Z",
+  "mode": "investigate",
+  "question": "Conduct a fresh complete investigation of neladalkib for TKI-pretreated ALK-positive NSCLC across clinical, safety, manufacturing and regulatory/sponsor history. Read actual ALKOVE-1 pivotal results, response confirmation and denominators. Retrieve the original presentation at https://cdn.sanity.io/files/8miuua0t/production/781d64797149fd79d2fdb9c732bd964560f3fd68.pdf and use find_in_source for Grade, ALT, AST, discontinuation and dose modification; do not stop at an opening excerpt. A reviewer reports later pages contain Grade >=3 ALT and AST data in an N=656 safety population. Verify all figures and distinguish severity, relatedness, discontinuation and dose adjustment, plus monitored CNS risks. Do not simply state safety tables were not retrieved if relevant later sections are available. Verify current FDA review/target, sponsor experience and exact manufacturing/supplier evidence without inferring site clearance. Return a full decision brief and all four evidenceAssessment factors, with citations and explicit limitations. This is a standalone investigation with no prior report supplied; do not manufacture a change history.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "nuvl-acceptance",
+      "title": "Nuvalent: neladalkib priority-review acceptance",
+      "url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "publisher": "Nuvalent",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Nuvalent announced priority-review acceptance for neladalkib in TKI-pretreated advanced ALK-positive NSCLC, with a November 27, 2026 target. The application uses ALKOVE-1 phase 1/2 data; the registrational phase 2 portion is single-arm and open-label."
+    },
+    {
+      "id": "gsk-nuvalent",
+      "title": "GSK: completed Nuvalent acquisition",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-nuvalent-inc/",
+      "publisher": "GSK",
+      "publishedAt": "2026-07-15",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "GSK announced completion of its acquisition of Nuvalent. Neladalkib was still under FDA review; the sponsor identity here reflects the completed acquisition rather than obsolete standalone-company information."
+    },
+    {
+      "id": "gsk-q2",
+      "title": "GSK: Q2 2026 portfolio update",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+      "publisher": "GSK",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "GSK’s Q2 update distinguished FDA-approved Jideytro (zidesamtinib) from neladalkib, which still had a forthcoming FDA target. The two acquired kinase inhibitors have different targets and review outcomes."
+    },
+    {
+      "id": "trial-alkove1",
+      "title": "ClinicalTrials.gov: ALKOVE-1",
+      "url": "https://clinicaltrials.gov/study/NCT05384626",
+      "publisher": "ClinicalTrials.gov / Nuvalent",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The phase 1/2 registry describes a nonrandomized, open-label study of neladalkib (NVL-655), including phase 2 response rate by independent review. Estimated enrollment 840 covers the wider protocol, not just the submitted efficacy group. No registry results are posted."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "web-987e61ed054f",
+      "title": "781d64797149fd79d2fdb9c732b...",
+      "url": "https://cdn.sanity.io/files/8miuua0t/production/781d64797149fd79d2fdb9c732bd964560f3fd68.pdf",
+      "publisher": "cdn.sanity.io",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:30.767Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ca53d9184157",
+      "title": "EX-99.(a)(5)(a) - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1861560/000119312526262957/d29899dex99a5a.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:35.215Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0588d0b6d4cc",
+      "title": "GSK To Acquire Nuvalent For $10.6 Billion - DirectorsTalk Interviews",
+      "url": "https://www.directorstalkinterviews.com/gsk-to-acquire-nuvalent-for-10-6-billion/4121253333",
+      "publisher": "www.directorstalkinterviews.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:30.768Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a61c7f53736a",
+      "title": "GSK to buy Nuvalent in $10.6B oncology deal | GSK SEC Filing",
+      "url": "https://www.stocktitan.net/sec-filings/GSK/6-k-gsk-plc-current-report-foreign-issuer-2ae5a331f433.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:30.768Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "trial-NCT05384626",
+      "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+      "url": "https://clinicaltrials.gov/study/NCT05384626",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T20:37:30.863Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05384626; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-3c21a16f35b9",
+      "title": "and ALK-positive NSCLC - May 27, 2026 - Nuvalent Investors",
+      "url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "publisher": "investors.nuvalent.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:35.215Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-294d17aa068e",
+      "title": "GSK enters agreement to acquire Nuvalent, Inc.",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-enters-agreement-to-acquire-nuvalent-inc/",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:35.215Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3f1bed1c3051",
+      "title": "GSK bets $10.6bn on lung cancer future with Nuvalent buy",
+      "url": "https://www.bioxconomy.com/partnering/gsk-bets-10-6bn-on-lung-cancer-future-with-nuvalent-buy",
+      "publisher": "www.bioxconomy.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:35.216Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5d28d9b8889c",
+      "title": "Nuvalent Outlines Recent Pipeline Progress, Reiterates Key ...",
+      "url": "https://investors.nuvalent.com/2026-02-26-Nuvalent-Outlines-Recent-Pipeline-Progress,-Reiterates-Key-Anticipated-Milestones,-and-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results",
+      "publisher": "investors.nuvalent.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:38.262Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0477fe078117",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1861560/000119312526073317/nuvl-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:38.262Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c5d0abecaccc",
+      "title": "Nuvalent Highlights Recent Pipeline Progress, Reiterates Key ...",
+      "url": "https://www.prnewswire.com/news-releases/nuvalent-highlights-recent-pipeline-progress-reiterates-key-anticipated-milestones-and-reports-first-quarter-2026-financial-results-302763296.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:38.265Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8a4e051b2e10",
+      "title": "Nuvalent Announces Submission of New Drug Application to FDA for ...",
+      "url": "https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC",
+      "publisher": "investors.nuvalent.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:38.265Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-295ef1eb119c",
+      "title": "GSK delivers strong Q2 core results performance and continued ...",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:49.443Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ce5a3984ef65",
+      "title": "Press releases - GSK",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:49.444Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-820dbbb889b8",
+      "title": "GSK delivers continued strong performance",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-continued-strong-performance/",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:49.444Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-eb85b7e22c10",
+      "title": "[PDF] q2-2026-results-announcement.pdf - GSK",
+      "url": "https://www.gsk.com/media/jayh41pz/q2-2026-results-announcement.pdf",
+      "publisher": "www.gsk.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:37:49.445Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 227377,
+    "outputTokens": 7245
+  },
+  "durationMs": 381084,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "nuvl-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "gsk-q2"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://cdn.sanity.io/files/8miuua0t/production/781d64797149fd79d2fdb9c732bd964560f3fd68.pdf"
+      },
+      "status": "completed",
+      "durationMs": 1295
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05384626"
+      },
+      "status": "completed",
+      "durationMs": 96
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "neladalkib FDA November 27 2026 priority review GSK Nuvalent acquisition September 2026"
+      },
+      "status": "completed",
+      "durationMs": 4351
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Nuvalent neladalkib manufacturing supplier drug substance drug product 2025 2026 10-K"
+      },
+      "status": "completed",
+      "durationMs": 3050
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-987e61ed054f",
+        "query": "Grade"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-987e61ed054f",
+        "query": "ALT"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-987e61ed054f",
+        "query": "AST"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-987e61ed054f",
+        "query": "discontinuation"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-987e61ed054f",
+        "query": "dose modification"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-0477fe078117",
+        "query": "single-source"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/"
+      },
+      "status": "completed",
+      "durationMs": 3529
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_01e8267c31359a83016aa315d2151c87d28fa6175367f8e90e",
+    "inputHash": "26da97920992be1af13da9770480d995a0df7ba647b5d2c81d1d582f27816cb2"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:46:42.385Z",
+    "originalSha256": "e2b096930d8243157b392c915b0501f9de1e77555d253dfa6fde81e63efa4db1",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

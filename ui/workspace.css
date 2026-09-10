@@ -1,4 +1,4 @@
-.rail { height: 100dvh; overflow: hidden; }
+.rail { height: 100dvh; overflow: clip; }
 .rail > :not(.candidate-list) { flex-shrink: 0; }
 .candidate-list { overscroll-behavior-y: contain; }
 @media (min-width: 760px) {

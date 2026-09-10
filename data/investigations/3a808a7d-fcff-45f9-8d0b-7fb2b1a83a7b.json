@@ -1,0 +1,722 @@
+{
+  "summary": "Ulixacaltamide’s adult essential-tremor NDA has substantive efficacy support, but the public evidence is mixed rather than uniformly reassuring. Essential3 showed placebo-controlled functional improvement and a positive responder-withdrawal result, alongside substantial tolerability-related discontinuation and statistical questions following interim futility. The full August 2026 disclosure confirms sponsor-reported favorable mid-cycle feedback specifically for ulixacaltamide. Manufacturing readiness remains unverified; January 29, 2027 is an action target, not an approval date.",
+  "outlook": {
+    "verdict": "A credible approval pathway remains, supported by positive pivotal results and reported review progress. The pivotal unresolved issue is whether the functional benefit remains robust and clinically worthwhile after accounting for tolerability-driven attrition and the revised analysis strategy. No documented candidate-specific CMC setback was established, but manufacturing is an unassessed approval requirement.",
+    "timing": "Praxis reported NDA acceptance on April 14, 2026 and reiterated the January 29, 2027 PDUFA target on August 6. No ulixacaltamide target extension was identified in the inspected disclosures. The separately disclosed relutrigine extension does not apply here. Praxis said it would stop providing interim regulatory updates until the expected targets, limiting visibility. Additional FDA requests could change timing or outcome.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline covers annual original-application receipt cohorts and separately measures action timeliness. Original-NDA structure is broadly relevant, but review-priority classification was not independently established. The model does not estimate this candidate’s likelihood or account for Essential3 attrition, endpoint changes, tolerability or CMC. No individualized probability is assigned."
+  },
+  "findings": [
+    {
+      "id": "clinical-parallel",
+      "title": "Study 1 demonstrated functional benefit—not a 4.3-point placebo-adjusted effect",
+      "detail": "Essential3 used simultaneous, decentralized US studies in adults with ET. Study 1 randomized 473 participants 1:1 to oral ulixacaltamide or placebo for 12 weeks. The registered regimen titrated from 20 mg to 40 mg to 60 mg once daily over two weeks. The final reported primary endpoint was baseline-to-Day-56 change in mADL11, an adjusted 11-item daily-function composite ranging from 0–33. Praxis reported changes of −4.3 versus −1.7 points in its mITT table, a calculated 2.6-point treatment difference, p<0.0001. A treatment-difference confidence interval was not supplied in that table. PGI-C and CGI-S also favored treatment. These are placebo comparisons, not evidence of superiority to propranolol or primidone, and the composite does not establish improvement in every individual activity. Detailed baseline severity, demographic and concomitant-medication tables were not retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-76283c80c634",
+        "trial-NCT06087276"
+      ]
+    },
+    {
+      "id": "clinical-replication",
+      "title": "Withdrawal evidence supports maintenance in selected responders, with substantial uncertainty",
+      "detail": "Study 2 enrolled 238 participants for eight weeks of ulixacaltamide; 80 stable responders meeting the mADL11 improvement criterion entered four-week randomized withdrawal, 40 per arm. Praxis reported maintenance of response in 55% continuing treatment versus 33% switching to placebo: p=0.0369, odds ratio 2.7, reported CI 1.06–6.92. The interval is wide. The first key secondary slope endpoint was positive, but PGI-C and CGI-S were not statistically significant. This provides complementary maintenance evidence in responders who reached randomization, not a second broad-population parallel-group replication. The additional pooled and cross-study hypotheses reuse Study 1’s placebo group and are not independent trials. Controlled follow-up extends only to 12 weeks; the registry’s planned three-year extension is not an observed three-year durability result.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-76283c80c634",
+        "trial-NCT06087276"
+      ]
+    },
+    {
+      "id": "clinical-statistics",
+      "title": "Final positive results supersede interim futility, but the analysis history still matters",
+      "detail": "On February 28, 2025, Praxis disclosed an IDMC recommendation to stop Study 1 for futility, while also reporting that model assumptions might have influenced the finding and alternative analyses were encouraged. Praxis continued the studies. The October results identify Day 84 as the primary endpoint at the interim analysis, versus Day 56 for the final analysis. Importantly, the final Day-84 sensitivity result also favored treatment: −3.4 versus −1.9, p=0.0049. A sponsor-reported delta-adjusted missing-data analysis remained significant at the largest tested shift, p=0.0026. These counter a simple claim that efficacy appeared only by selecting Week 8. Nevertheless, Study 1’s reported mITT denominators—199 active and 233 placebo—differ from the randomized and safety populations, while overall study discontinuation was 35.6% versus 5.6%. The original and amended statistical plans, amendment chronology, exclusion rules, all-randomized estimand and multiplicity control were not retrieved. This is an unresolved robustness question, not proof of invalid analyses or an FDA objection.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-50711b7a90a8",
+        "web-76283c80c634",
+        "trial-NCT06087276"
+      ]
+    },
+    {
+      "id": "safety-tolerability",
+      "title": "Observed tolerability burden is material despite the absence of drug-related serious events",
+      "detail": "Praxis’s Study 1 safety table includes 233 active and 234 placebo recipients: any TEAE occurred in 94.9% versus 75.6%, severe TEAEs in 6.0% versus 4.3%, and drug-related TEAEs causing discontinuation in 27.0% versus 1.7%. Any serious adverse event occurred in 2 versus 8 participants; the sponsor classified these as unrelated to study drug and reported no deaths. In Study 2’s 231-person active-exposure safety set, 28.1% discontinued because of drug-related TEAEs and four participants had an SAE. Common events included constipation, dizziness, euphoric mood, brain fog, headache, paraesthesia and insomnia; dizziness and brain fog were prominent discontinuation causes. Thus, serious-toxicity observations are partly reassuring, but 'generally well tolerated' understates treatment persistence problems. Actual cumulative exposure, long-term event tables, individual-event placebo comparisons, dose-response and age/organ-impairment subgroup results were not retrieved. Practical questions concern cognition, balance/driving, mood/sleep and tolerability during titration—not an established monitoring protocol.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-76283c80c634",
+        "trial-NCT06087276"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Outsourced manufacturing is documented; oral-product sites and CGMP status are not",
+      "detail": "The inspected 2025 Form 10-K manufacturing section states that Praxis owns or operates no manufacturing facilities and sources clinical drug substance and drug product through third-party CDMOs, with additional contractors handling packaging and distribution functions. The August 2026 update reports commercial inventory build in progress, but names no oral ulixacaltamide manufacturing site or FEI. Its no-Form-483 statement concerns sponsor BIMO inspections covering clinical operations, data integrity, statistics/interim analyses and safety—not manufacturing CGMP. Remagine Labs is explicitly linked to a separate transdermal development collaboration and cannot be treated as the oral NDA’s manufacturer. Targeted public searches and the inspected SEC/sponsor disclosures did not establish a candidate-specific CMC deficiency, corrective action, validated commercial process, stability package or FDA site disposition. Neither manufacturing clearance nor a manufacturing failure can be inferred.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-a2e36b1e2fe6",
+        "web-37324fec9103"
+      ]
+    },
+    {
+      "id": "regulatory-current",
+      "title": "Full August disclosure strengthens the ulixacaltamide-specific process evidence",
+      "detail": "The April acceptance release identifies the requested indication as ET in adults and supports the supplied original-NDA episode, rather than a supplement or documented resubmission. It reports a January 29, 2027 target, no planned advisory committee and December 2025 Breakthrough Therapy Designation. Unlike the incomplete curated August summary, the full August 6 release explicitly says ulixacaltamide’s mid-cycle meeting was completed with no major safety or efficacy concerns identified to date and no advisory committee planned. This corrects the initial summary-only interpretation that the clinical feedback applied solely to relutrigine. All are sponsor-attributed statements, not retrieved FDA review conclusions. BIMO completion does not establish statistical approvability, and an interim absence of major concerns is not final benefit–risk acceptance. The application number, FDA correspondence and complete review were not retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-e23b0e29ae01",
+        "web-37324fec9103",
+        "prax-q2-2026"
+      ]
+    },
+    {
+      "id": "regulatory-history",
+      "title": "No verified prior completed approval pathway should be credited to this application",
+      "detail": "No completed prior Praxis approval episode or prior approved ulixacaltamide indication was independently verified in this investigation. The August release describes potential launches, not completed approvals. It separately reports that additional relutrigine sensitivity analyses constituted a major amendment and led to a December 27, 2026 target; that is neither an ulixacaltamide extension nor a CRL. No candidate-specific prior CRL or written FDA objection was retrieved, and the attempted FDA letter-archive lookup failed, so absence of a letter cannot be established. Sponsor portfolio activity and designation counts provide no validated predictor of this NDA’s outcome.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-37324fec9103",
+        "web-e23b0e29ae01"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Essential3 clinical study reports plus original/amended protocols and statistical plans: reconcile randomized, safety and mITT denominators; document endpoint-change timing, blinding safeguards, multiplicity, treatment-difference confidence intervals and outcomes after treatment discontinuation.",
+    "Integrated safety summary and long-term extension tables: actual exposure at six and twelve months, patient-years, serious-event narratives, discontinuations and CNS effects by age, concomitant medication and titration regimen; evidence supporting any proposed alternative titration.",
+    "Oral-NDA manufacturing/site roster with FEIs and documented product links, commercial process-validation and stability summaries, and original FDA inspection dispositions or deficiency/corrective-action correspondence where applicable.",
+    "Ulixacaltamide-specific FDA late-cycle correspondence, action letter and proposed/final labeling: confirm remaining efficacy, safety or CMC requests, dose/titration restrictions and any change to the January 29, 2027 target."
+  ],
+  "limitations": [
+    "This is a current investigation conducted on September 10, 2026, not a historical forecast. The latest substantive application update inspected was dated August 6, 2026; the live registry record was last updated July 16, 2026.",
+    "Clinical conclusions use actual sponsor results tables, not merely filing acceptance. The registry had no posted results. AAN presentation disclosures and secondary clinical coverage were inspected, but no full peer-reviewed pivotal paper, complete study report or statistical analysis plan was retrieved.",
+    "The reported sensitivity analyses are supportive but cannot independently resolve informative missingness, analysis-population selection, amendment chronology or familywise error control. The report does not infer misconduct or an FDA statistical objection.",
+    "Safety tables cover short controlled follow-up with substantial attrition. Long-term exposure, detailed event rates and vulnerable-population analyses remain unavailable in the inspected evidence; planned extension duration is not completed exposure.",
+    "Manufacturing research inspected SEC manufacturing excerpts and the current sponsor launch/BIMO disclosure. No oral-product manufacturer/FEI link was established, and no site-specific original FDA CGMP finding was verified. Missing compliance evidence is unknown.",
+    "Direct retrieval of the supplied SEC August release failed; the full sponsor-hosted release was subsequently inspected and corrected its curated summary. The FDA letter-archive attempt also failed. No exhaustive CRL history or completed prior sponsor approval history was established."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does ulixacaltamide provide a robust, clinically meaningful net benefit after accounting for tolerability-driven attrition and the revised Essential3 analysis strategy?",
+    "bullCase": {
+      "claim": "The benefit is not supported by one favorable headline alone: the parallel trial, randomized withdrawal, final Week-12 analysis and sponsor-reported missing-data sensitivity analysis all favor treatment. The full August disclosure adds ulixacaltamide-specific favorable interim FDA feedback and a sponsor BIMO inspection without Form 483 observations. These support a viable approval pathway if FDA accepts the analyses, tolerability management and CMC package.",
+      "sourceIds": [
+        "web-76283c80c634",
+        "web-37324fec9103"
+      ]
+    },
+    "bearCase": {
+      "claim": "A meaningful portion of patients could not persist on treatment, potentially making both practical benefit and estimated efficacy less favorable than the primary mean change suggests. The final analysis followed an interim futility recommendation and changed endpoint timing; the smaller withdrawal population is responder-enriched. Public disclosures do not establish that all-randomized benefit, chronic tolerability or manufacturing readiness have satisfied FDA.",
+      "sourceIds": [
+        "web-76283c80c634",
+        "web-50711b7a90a8",
+        "trial-NCT06087276",
+        "web-a2e36b1e2fe6"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What do the full treatment-policy/all-randomized analyses show when discontinuations are incorporated, and does the documented statistical-plan history preserve valid inference?",
+      "whyItMatters": "A durable functional advantage under credible assumptions about missing outcomes would distinguish robust benefit from benefit concentrated among patients able to tolerate treatment. Original/amended plans, participant disposition, post-discontinuation assessments and FDA’s statistical interpretation would resolve this more directly than additional topline p-values.",
+      "sourceIds": [
+        "web-76283c80c634",
+        "web-50711b7a90a8",
+        "trial-NCT06087276"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit–risk and manufacturing package accepted",
+        "trigger": "FDA accepts the efficacy estimand, amendment history and missing-data analyses; tolerability is manageable within supported labeling; oral-product CMC and relevant sites are satisfactory.",
+        "implication": "Approval remains a credible outcome within the currently reported review episode. The target still represents an action goal, not a guarantee of approval or launch.",
+        "sourceIds": [
+          "web-76283c80c634",
+          "web-37324fec9103",
+          "web-e23b0e29ae01"
+        ]
+      },
+      {
+        "label": "Efficacy accepted, but use constrained by tolerability",
+        "trigger": "FDA finds the functional benefit persuasive but requires specific titration instructions, warnings, patient selection or additional supporting tolerability information.",
+        "implication": "The clinically addressable population and treatment persistence could be more limited than a broad adult-ET indication suggests. New titration claims would need evidence; the separate patch program cannot resolve the current oral application by assumption.",
+        "sourceIds": [
+          "web-76283c80c634",
+          "trial-NCT06087276",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "label": "Additional clinical or CMC work required",
+        "trigger": "FDA finds the revised analysis or handling of attrition insufficient, identifies an unfavorable chronic benefit–risk balance, or documents a material oral-product CMC deficiency.",
+        "implication": "Further analyses, studies or manufacturing work could change timing or produce a complete response. An extension would not itself be a CRL, and a CRL would be an intermediate setback rather than proof of permanent failure.",
+        "sourceIds": [
+          "web-50711b7a90a8",
+          "web-76283c80c634",
+          "web-a2e36b1e2fe6"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Why are the Study 1 randomized, safety and mITT populations different, and what happens to the effect estimate when every randomized participant and treatment discontinuation is accounted for?",
+        "whyItMatters": "The imbalance in discontinuation is large enough to affect both the estimand and the practical likelihood of sustained benefit; the public table alone cannot resolve it.",
+        "sourceIds": [
+          "web-76283c80c634"
+        ]
+      },
+      {
+        "question": "When and under what blinded governance were endpoint timing and analytical methods changed, and how was multiplicity controlled across the four prospective hypotheses?",
+        "whyItMatters": "The interim futility recommendation and final endpoint difference require an auditable chronology. A BIMO inspection without observations is relevant oversight evidence, not a substitute for FDA’s statistical assessment.",
+        "sourceIds": [
+          "web-50711b7a90a8",
+          "web-76283c80c634",
+          "trial-NCT06087276",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "question": "How many participants sustained six- and twelve-month exposure, and do slower titration or dose adjustments demonstrably reduce dizziness, brain fog and discontinuations without sacrificing benefit?",
+        "whyItMatters": "The proposed treatment is chronic, but public controlled data show substantial early tolerability losses. Age-specific balance, cognition, mood/sleep and concomitant-drug analyses would inform practical use and labeling.",
+        "sourceIds": [
+          "web-76283c80c634",
+          "trial-NCT06087276"
+        ]
+      },
+      {
+        "question": "Which exact sites make, test and package the oral NDA product, and what product-linked validation, stability and FDA inspection documentation supports commercial readiness?",
+        "whyItMatters": "Praxis relies on contractors, while the disclosed inspection was sponsor BIMO. Inventory preparation and the Remagine patch collaboration do not answer the oral product’s CMC questions.",
+        "sourceIds": [
+          "web-a2e36b1e2fe6",
+          "web-37324fec9103"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Positive Essential3 efficacy and sponsor-reported mid-cycle progress coexist with substantial treatment discontinuation and unresolved analysis robustness. Manufacturing readiness remains unverified. The balance is mixed, not evidence of an FDA rejection.",
+    "pivotalQuestion": "Does ulixacaltamide provide a robust, clinically meaningful net benefit after accounting for tolerability-driven attrition and the revised Essential3 analysis strategy?",
+    "sourceIds": [
+      "web-76283c80c634",
+      "web-50711b7a90a8",
+      "web-37324fec9103",
+      "web-a2e36b1e2fe6"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Parallel and responder-withdrawal results favor treatment, including supportive sensitivity analyses. Unequal attrition, changed endpoint timing and limited independent replication require full statistical review.",
+        "sourceIds": [
+          "web-76283c80c634",
+          "web-50711b7a90a8",
+          "trial-NCT06087276"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "concern",
+        "rationale": "Drug-related adverse events caused markedly more discontinuations than placebo. No deaths or drug-related serious events were sponsor-reported during controlled follow-up; longer-term and subgroup risks remain inadequately characterized publicly.",
+        "sourceIds": [
+          "web-76283c80c634",
+          "trial-NCT06087276"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Inspected disclosures describe CDMO reliance, inventory preparation and sponsor BIMO inspections, but identify no verified oral-product manufacturing site, CGMP disposition or completed CMC remediation.",
+        "sourceIds": [
+          "web-a2e36b1e2fe6",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Praxis reports accepted adult-ET NDA, unchanged January 2027 target and no major efficacy/safety concerns at mid-cycle. These interim process signals do not establish approval; direct FDA review documents were not retrieved.",
+        "sourceIds": [
+          "web-e23b0e29ae01",
+          "web-37324fec9103"
+        ]
+      }
+    ]
+  },
+  "id": "3a808a7d-fcff-45f9-8d0b-7fb2b1a83a7b",
+  "candidateId": "ulixacaltamide-et",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:43:02.960Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Ulixacaltamide, specifically Essential tremor in adults. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "prax-q2-2026",
+      "title": "Praxis: August regulatory update filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+      "publisher": "Praxis Precision Medicines / SEC",
+      "publishedAt": "2026-08-06",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sec",
+      "summary": "Praxis reported a completed relutrigine mid-cycle meeting without major safety or efficacy concerns identified to date or a planned advisory committee. It reported BIMO sponsor inspections for relutrigine and ulixacaltamide ended without a Form 483. This is sponsor-reported clinical-research oversight, not manufacturing-site clearance. Praxis said it would not communicate further regulatory updates before the expected targets."
+    },
+    {
+      "id": "prax-ulix-acceptance",
+      "title": "Praxis: ulixacaltamide NDA accepted",
+      "url": "https://investors.praxismedicines.com/node/11326/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-04-14",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported FDA acceptance of the oral ulixacaltamide NDA for adult essential tremor, a January 29, 2027 target, and no planned advisory committee. Essential3 provides phase 3 evidence. This application is distinct from relutrigine and from a transdermal ulixacaltamide development program."
+    },
+    {
+      "id": "trial-nct06087276",
+      "title": "ClinicalTrials.gov: NCT06087276 · Essential 3 - Decentralized, Phase 3 Study Evaluating the Safety and Efficacy of Ulixacaltamide in Essential Tremor (ET)",
+      "url": "https://clinicaltrials.gov/study/NCT06087276",
+      "publisher": "ClinicalTrials.gov / Praxis Precision Medicines",
+      "publishedAt": "2026-07-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 1000 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT06087276",
+      "title": "Essential 3 - Decentralized, Phase 3 Study Evaluating the Safety and Efficacy of Ulixacaltamide in Essential Tremor (ET)",
+      "url": "https://clinicaltrials.gov/study/NCT06087276",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-16",
+      "retrievedAt": "2026-09-10T20:43:03.038Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Praxis Precision Medicines. Results availability is not an efficacy conclusion."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT06087276",
+      "title": "Essential 3 - Decentralized, Phase 3 Study Evaluating the Safety and Efficacy of Ulixacaltamide in Essential Tremor (ET)",
+      "url": "https://clinicaltrials.gov/study/NCT06087276",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-16",
+      "retrievedAt": "2026-09-10T20:43:12.715Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06087276; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-76283c80c634",
+      "title": "Press Release - Investor Relations - Praxis Precision Medicines, Inc.",
+      "url": "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-positive-topline-results-1",
+      "publisher": "ir.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:17.083Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0cb95a17cbfc",
+      "title": "Praxis Reports Positive Phase III Results for Ulixacaltamide in ...",
+      "url": "https://www.appliedclinicaltrialsonline.com/view/praxis-reports-positive-results-ulixacaltamide-essential-tremor",
+      "publisher": "www.appliedclinicaltrialsonline.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:39.771Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bfb0049ee591",
+      "title": "Study Details | NCT06087276 | Essential 3 - ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06087276",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:54.829Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ab5a228b4832",
+      "title": "Praxis Precision Medicines Reports Positive Phase 3 Results for ...",
+      "url": "https://trial.medpath.com/news/praxis-precision-medicines-reports-positive-phase-3-results-for-ulixacaltamide-in-essential-tremor",
+      "publisher": "trial.medpath.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:17.085Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e23b0e29ae01",
+      "title": "Press Release - Investor Relations - Praxis Precision Medicines, Inc.",
+      "url": "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-fda-acceptance-new-drug",
+      "publisher": "ir.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:20.750Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0194d9f7ecc6",
+      "title": "Praxis Precision Medicines Announces FDA Acceptance of New",
+      "url": "https://www.globenewswire.com/news-release/2026/04/14/3273225/0/en/praxis-precision-medicines-announces-fda-acceptance-of-new-drug-application-for-ulixacaltamide-hcl-in-patients-with-essential-tremor.html",
+      "publisher": "www.globenewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:20.751Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-59ac857a2f34",
+      "title": "Praxis Precision Medicines Announces FDA Acceptance of ...",
+      "url": "https://www.quiverquant.com/news/Praxis+Precision+Medicines+Announces+FDA+Acceptance+of+NDA+for+Ulixacaltamide+HCl+for+Essential+Tremor+Treatment,+Target+Action+Date+Set+for+January+29,+2027",
+      "publisher": "www.quiverquant.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:20.751Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d196474a40f1",
+      "title": "Praxis FDA accepts tremor drug filing, Jan. 2027 date | PRAX Stock News",
+      "url": "https://www.stocktitan.net/news/PRAX/praxis-precision-medicines-announces-fda-acceptance-of-new-drug-k5k75axt4y4j.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:20.752Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-37324fec9103",
+      "title": "Praxis Precision Medicines Provides Corporate Update and Reports ...",
+      "url": "https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-corporate-update-and-20",
+      "publisher": "investors.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:31.366Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-38c9979ce5c1",
+      "title": "Praxis Precision Medicines Provides Corporate Update and Reports ...",
+      "url": "https://markets.businessinsider.com/news/stocks/praxis-precision-medicines-provides-corporate-update-and-reports-second-quarter-2026-financial-results-1036419377",
+      "publisher": "markets.businessinsider.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:31.367Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b121f1454cf0",
+      "title": "Praxis Q2 Earnings: $1.4B Cash, 2 FDA Dates | PRAX Stock News",
+      "url": "https://www.stocktitan.net/news/PRAX/praxis-precision-medicines-provides-corporate-update-and-reports-kiy45xtm2d7s.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:31.367Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0bfebd87e81c",
+      "title": "Praxis Precision Medicines Inc (PRAX) (Q2 2026) Earnings Call ...",
+      "url": "https://finance.yahoo.com/healthcare/articles/praxis-precision-medicines-inc-prax-231513996.html",
+      "publisher": "finance.yahoo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:31.367Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a2e36b1e2fe6",
+      "title": "prax-20251231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000029/prax-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:37.051Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3bec4ec60cc9",
+      "title": "prax-20260331 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000047/prax-20260331.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:37.056Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2752bb4de5a0",
+      "title": "prax-20221231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954823000044/prax-20221231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:37.057Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9befe0783d24",
+      "title": "prax-20240930 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954824000101/prax-20240930.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:37.060Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-50711b7a90a8",
+      "title": "Praxis Precision Medicines Provides Update on Essential3 and ...",
+      "url": "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-update-essential3-and",
+      "publisher": "ir.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:39.770Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2f0ab94044bd",
+      "title": "Praxis soars on Phase III data, planned FDA filing for tremor drug",
+      "url": "https://firstwordpharma.com/story/6322494",
+      "publisher": "firstwordpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:39.771Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-14d3a07ae56f",
+      "title": "Praxis to Showcase Essential3, the First Positive Phase 3 Program in ...",
+      "url": "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-showcase-essential3-first-positive-phase-3-program",
+      "publisher": "ir.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:54.829Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-90dcd3dd5cb4",
+      "title": "12-Week Trial of Essential Tremor Drug Finds Sustained Results",
+      "url": "https://neurologytoday.aan.com/doi/10.1212/netod-blogs.10000027",
+      "publisher": "neurologytoday.aan.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:54.829Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1a3466ef59b7",
+      "title": "Topline results from the Essential3 Study Two of ulixacaltamide for ...",
+      "url": "https://www.vjneurology.com/video/x7pjv1bazg-topline-results-from-the-essential3-study-two-of-ulixacaltamide-for-essential-tremor/",
+      "publisher": "www.vjneurology.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:43:54.830Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 370863,
+    "outputTokens": 8669
+  },
+  "durationMs": 231353,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "prax-ulix-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "prax-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 76
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06087276"
+      },
+      "status": "completed",
+      "durationMs": 374
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ulixacaltamide Essential3 October 2025 results mADL11 placebo safety adverse events discontinuations study 1 study 2"
+      },
+      "status": "completed",
+      "durationMs": 4369
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Praxis ulixacaltamide 2026 NDA January 29 2027 manufacturing CMC manufacturer FDA complete response"
+      },
+      "status": "completed",
+      "durationMs": 3667
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Praxis August 6 2026 second quarter ulixacaltamide mid-cycle BIMO manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 3118
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov/Archives/edgar/data/1689548/ 2026 ulixacaltamide \"manufacturing\" \"third-party\""
+      },
+      "status": "completed",
+      "durationMs": 5695
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ulixacaltamide Essential3 futility February 28 2025 primary endpoint change week 8 statistical analysis plan FDA"
+      },
+      "status": "completed",
+      "durationMs": 2709
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-a2e36b1e2fe6",
+        "query": "MANUFACTURING"
+      },
+      "status": "completed",
+      "durationMs": 3
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-a2e36b1e2fe6",
+        "query": "interim"
+      },
+      "status": "completed",
+      "durationMs": 3
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Praxis Precision Medicines"
+      },
+      "status": "partial",
+      "durationMs": 412
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "ulixacaltamide Essential3 2026 publication AAN safety long term mITT confidence interval"
+      },
+      "status": "completed",
+      "durationMs": 6437
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_05b8296734c4ec5b016aa3168b00d087d2ab4e357685d07e06",
+    "inputHash": "a0f8e7c00910d9051c730588d0459741d0ab3b1b11e69f51c1335687a1d1a8fa"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:48:21.252Z",
+    "originalSha256": "2acec634cf54936f0492fea22f0046269187fa20c731924cf1ee5e452c9821e3",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

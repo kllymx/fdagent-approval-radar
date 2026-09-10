@@ -1,0 +1,702 @@
+{
+  "summary": "Relutrigine remains under FDA review for SCN2A- and SCN8A-DEE, with a sponsor-reported December 27, 2026 action target. The evidence is clinically encouraging but mixed: actual cohort-1 results support antiseizure activity, while numerical registrational cohort-2 results and the submitted sensitivity analyses could not be independently assessed. Later favorable mid-cycle feedback moderates—but does not resolve—that uncertainty. Manufacturing readiness remains unknown.",
+  "outlook": {
+    "verdict": "Mixed, with supportive clinical activity and regulatory progress; pivotal statistical robustness remains unresolved.",
+    "timing": "Praxis reported priority-review acceptance on March 30, 2026, initially targeting September 27. Its June 29 disclosure moved the target to December 27, 2026 following a major amendment containing additional sensitivity analyses. The August 6 update reaffirmed December 27. This is an FDA action goal, not an approval date. No later action was established in the inspected evidence.",
+    "probability": null,
+    "probabilityBasis": "The historical baseline covers annual original-priority NDA/BLA receipt cohorts, with FY2017–2023 used for its current reference. That is broadly relevant to this reported initial NDA, but does not calibrate relutrigine, early-stopped EMBOLD results, or major-amendment extensions. Historical action timeliness is a separate endpoint, not approval likelihood; no individual probability is estimated."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "Active initial NDA; the extension is not a CRL",
+      "detail": "The March acceptance disclosure and subsequently inspected Q1 SEC filing identify an NDA for SCN2A- and SCN8A-DEE accepted for priority review. The August disclosure calls this the initial NDA and distinguishes a possible future broad-DEE supplemental application. Praxis attributed the three-month extension to additional sensitivity analyses of existing data, classified collectively as a major amendment; it said no new clinical studies were requested and no safety or manufacturing concerns were cited. On August 6, Praxis reported no major safety or efficacy concerns identified to date and no planned advisory committee. These are sponsor accounts, not FDA review conclusions. The actual FDA correspondence, NDA number, and precise proposed age/variant labeling were not retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "prax-rel-acceptance",
+        "web-3bec4ec60cc9",
+        "web-6c8ca4da9632",
+        "web-37324fec9103"
+      ]
+    },
+    {
+      "id": "clinical-controlled",
+      "title": "Actual cohort-1 results support activity, but the comparator is unconventional",
+      "detail": "The inspected sponsor-funded AES abstract reports 16 participants aged 2–18 with early-onset SCN2A-DEE or SCN8A-DEE, randomized 1:1 to once-daily relutrigine for 16 weeks versus relutrigine for 12 weeks plus matching placebo for four weeks, with placebo timing concealed. Dosing began at 0.5 mg/kg/day and could increase to 1.0 mg/kg/day; administration was oral or through a feeding tube. This was not a conventional 16-week active-versus-placebo comparison. Investigators reported a 46% placebo-adjusted motor-seizure reduction, alongside separate 28-day figures of 27% reduction in eight participants versus 1.6% in seven placebo participants. The abstract does not explain how those distinct summaries reconcile, provide confidence intervals or exact p-values, or fully reconcile participant denominators. These are interpretable activity signals, not a reproducible pivotal analysis.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b93aab359088",
+        "trial-NCT05818553"
+      ]
+    },
+    {
+      "id": "clinical-pivotal",
+      "title": "Registrational robustness—not filing acceptance—is the central unresolved issue",
+      "detail": "Praxis's December 4, 2025 release states that the registrational EMBOLD cohort stopped early for efficacy following a Data Monitoring Committee recommendation, but contains no numerical cohort-2 effect estimate, analysis sample, confidence interval, stopping boundary, or adverse-event table. The retrieved AES abstract describes cohort 1 and its extension, despite sharing the presentation number cited in that announcement; it cannot substitute for cohort-2 results. The current registry has no posted results and lists estimated enrollment of 77 across cohorts, not a pivotal efficacy denominator. Its Part A primary-outcome heading describes safety/tolerability while its description specifies change in 28-day motor-seizure frequency over 16 weeks, which also appears among secondary outcomes. Consequently, the exact prespecified pivotal endpoint, estimand and hierarchy require the dated protocol and statistical analysis plan. Early stopping, placebo-period effects, missing diaries, influential observations, and consistency between genes are important methodological questions—not established FDA objections. The subsequent sensitivity-analysis amendment makes resolving them particularly consequential.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-bd4feb04b040",
+        "web-b93aab359088",
+        "trial-NCT05818553",
+        "web-6c8ca4da9632"
+      ]
+    },
+    {
+      "id": "clinical-durability",
+      "title": "Longer-term seizure reduction is supportive, not independent replication or disease modification",
+      "detail": "The AES abstract reports 90% seizure reduction through 11 months in 13 extension participants and a mean longest seizure-free period of 67 days versus three at baseline. It also reports 33% seizure freedom at 16 weeks, without sufficient detail to interpret this as continuous freedom throughout treatment. These observations support persistence of activity among followed participants. However, the extension is uncontrolled, has fewer participants than the enrolled cohort, and cannot separate treatment effects from selection, background-treatment changes, or reporting effects. Longest seizure-free periods also require comparable observation windows. Caregiver/clinician improvements do not establish developmental disease modification. Cohort 2 offers a potential replication dataset, but its numerical results were not available in the inspected documents.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b93aab359088",
+        "web-bd4feb04b040"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Observed tolerability is encouraging, but the integrated safety profile remains incomplete",
+      "detail": "The cohort-1/OLE abstract reports mostly mild-to-moderate adverse events, no study-drug-related serious adverse events, and no required dose reductions. This is actual observed tolerability evidence, not merely silence about safety. Secondary reporting of the earlier topline disclosure states no adverse-event discontinuations, but the primary abstract does not supply disposition counts. Importantly, 'no drug-related serious events' is not 'no serious events': the inspected news article's headline summary overstates the narrower primary report. Event-specific incidence, all-cause serious events and deaths, cohort-2 discontinuations, patient-years, dose-specific risks, and age/genotype/concomitant-medication effects were not available. Planned registry follow-up of up to 144 weeks is not observed exposure. Practical diligence should establish titration and treatment-hold rules, feeding-tube administration/PK, and monitoring requirements from the integrated safety analysis rather than infer them from the sodium-channel mechanism.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-b93aab359088",
+        "web-104bbc5e5100",
+        "trial-NCT05818553"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "No verified product-site clearance or documented CMC remediation was established",
+      "detail": "The inspected manufacturing section of Praxis's 2024 Form 10-K states that it owned no manufacturing facilities, sourced drug substance and product through third-party CDMOs, and intended to qualify additional suppliers before NDA submission. That is dated operating-model evidence, not proof of today's supplier qualification. It does not name relutrigine's NDA manufacturing sites. Targeted public CMC/SEC searches and a sponsor-name public inspection lookup did not establish a drug-site link, original FDA manufacturing finding, candidate-specific CMC setback, or corrective-action program. The June statement that no manufacturing concern was cited concerns that communication only. August's no-Form-483 inspection explicitly covered sponsor BIMO operations, including clinical data integrity and interim analyses—not CGMP manufacturing clearance. Inventory-building also does not establish CMC acceptability.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-b3cedd4de4d3",
+        "web-6c8ca4da9632",
+        "web-37324fec9103"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Pending portfolio milestones are not completed approval precedents",
+      "detail": "No verified completed Praxis approval precedent was established in this bounded investigation. The inspected Q1 filing and August update describe ulixacaltamide as another pending NDA, with a January 29, 2027 action target—not a prior regulatory success. August also places broad-DEE EMERALD results in the future, with a possible 2027 supplement conditional on initial relutrigine approval and positive results. Neither supplies current SCN2A/SCN8A pivotal evidence. A public FDA CRL-archive retrieval failed, so prior-CRL absence cannot be certified. No candidate-specific CRL or specific FDA objection beyond the disclosed additional-analysis review was retrieved. Sponsor portfolio experience is therefore contextual, not an approval predictor.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-3bec4ec60cc9",
+        "web-37324fec9103",
+        "web-6c8ca4da9632"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The cohort-2 clinical study report or complete presentation, dated protocol/SAP, interim stopping plan, final analysis population, treatment effect with confidence interval, and the sensitivity analyses submitted in the major amendment.",
+    "The integrated safety summary with participant exposure and patient-years, event-specific active/placebo tables, all-cause serious events/deaths, discontinuations, and dose, age, genotype and concomitant-treatment analyses.",
+    "The NDA manufacturing-site list with exact entities/FEIs and responsibilities, supported by product-linked FDA inspection assessments, validation/stability evidence, and any deficiency responses or corrective-action closure.",
+    "FDA correspondence or an action package resolving the statistical review, exact proposed/approved population and dosing, outstanding CMC matters, and the December 27 action target."
+  ],
+  "limitations": [
+    "Numerical registrational cohort-2 results were not retrieved despite inspection of the current registry, the original December 4 announcement, the AES abstract, and focused clinical-result searches. This prevents a complete pivotal efficacy or benefit-risk assessment.",
+    "The actual clinical results inspected were in a sponsor-funded conference abstract, not a full original trial paper or FDA statistical review. The supplied PubMed lead was review-article metadata and was not used as clinical proof.",
+    "The current registry is not a historical prespecification record. Its inconsistent endpoint wording and missing results cannot establish the original pivotal hierarchy, analysis population, or protocol-amendment chronology.",
+    "Safety evidence is concentrated in the small first cohort and extension. Complete adverse-event tables, pivotal-cohort exposure and disposition, rare-event assessment, and population-specific monitoring recommendations remain unavailable.",
+    "Manufacturing research established only an older outsourcing disclosure and sponsor BIMO scope. No named relutrigine manufacturer/site linkage was verified, so site-specific warning-letter or inspection conclusions would be speculative.",
+    "FDA action letters and review correspondence were not obtained; the CRL-archive attempt failed. Regulatory status rests on attributed sponsor disclosures and SEC-filed sponsor reporting, not direct agency confirmation.",
+    "Live retrieval occurred September 10, 2026; the latest candidate-specific regulatory disclosure inspected was dated August 6. No later regulatory outcome was established. Praxis's stated intention to withhold further updates means subsequent silence would not demonstrate problem resolution."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does EMBOLD's early-stopped registrational effect remain robust enough under the submitted sensitivity analyses to support both SCN2A- and SCN8A-DEE?",
+    "bullCase": {
+      "claim": "Actual controlled cohort-1 seizure reduction and sustained extension activity support a genuine treatment effect. Praxis subsequently reported an efficacy-driven cohort-2 stop and favorable mid-cycle feedback, with no new trial requested in the extension notice. The amendment could principally require review time rather than reveal a deficient benefit-risk case.",
+      "sourceIds": [
+        "web-b93aab359088",
+        "web-bd4feb04b040",
+        "web-6c8ca4da9632",
+        "web-37324fec9103"
+      ]
+    },
+    "bearCase": {
+      "claim": "The strongest contrary explanation is that the registrational conclusion is sensitive to analysis choices or insufficiently established across the requested population. Numerical cohort-2 results, interim error control and the added sensitivity analyses remain unassessed publicly. The small first cohort and uncontrolled extension cannot independently settle that question. Manufacturing is a separate unknown, not a documented current failure.",
+      "sourceIds": [
+        "trial-NCT05818553",
+        "web-b93aab359088",
+        "web-bd4feb04b040",
+        "web-6c8ca4da9632"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What do the complete cohort-2 analysis and major-amendment sensitivity results show about effect size, uncertainty, interim error control, missing data, placebo-period effects and consistency between SCN2A and SCN8A?",
+      "whyItMatters": "Those documents would distinguish a robust result requiring additional review time from an analysis-dependent result that could change evidentiary sufficiency or label breadth. Neither filing acceptance nor a clean BIMO inspection answers that statistical question.",
+      "sourceIds": [
+        "trial-NCT05818553",
+        "web-bd4feb04b040",
+        "web-6c8ca4da9632",
+        "web-37324fec9103"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Robust efficacy and acceptable application",
+        "trigger": "FDA accepts the prespecified and sensitivity analyses, finds the submitted population supported, and resolves safety and product-specific CMC review.",
+        "implication": "Approval would become better supported by the evidence, potentially with population-specific dosing, labeling or follow-up obligations. December 27 remains an action goal, not a guaranteed approval date.",
+        "sourceIds": [
+          "web-bd4feb04b040",
+          "web-6c8ca4da9632",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "label": "Material statistical fragility or population inconsistency",
+        "trigger": "Reasonable sensitivity analyses materially attenuate the effect, interim methods are inadequate, or benefit is not convincingly supported across the proposed population.",
+        "implication": "FDA could require narrower labeling, further analyses or additional clinical evidence; a CRL would be possible if deficiencies preclude approval. This is conditional: the inspected extension disclosure said no new trial had been requested.",
+        "sourceIds": [
+          "trial-NCT05818553",
+          "web-bd4feb04b040",
+          "web-6c8ca4da9632"
+        ]
+      },
+      {
+        "label": "Clinical case survives, separate CMC issue emerges",
+        "trigger": "Product-linked FDA review identifies unresolved site, validation, stability or other manufacturing deficiencies.",
+        "implication": "Action or approval could be delayed, or a CRL could require remediation despite acceptable clinical evidence. No such candidate-specific deficiency was established here; sponsor BIMO findings would not resolve it.",
+        "sourceIds": [
+          "web-b3cedd4de4d3",
+          "web-37324fec9103"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Provide the dated cohort-2 protocol/SAP and explain the exact primary endpoint, estimand, interim boundary, final sample, placebo schedule, and all changes from cohort 1.",
+        "whyItMatters": "The registry's endpoint wording is internally inconsistent, while early stopping and limited placebo exposure require study-specific statistical interpretation.",
+        "sourceIds": [
+          "trial-NCT05818553",
+          "web-bd4feb04b040",
+          "web-b93aab359088"
+        ]
+      },
+      {
+        "question": "What prompted each sensitivity analysis, how much did each change the effect and confidence interval, and what evidence supports both genes and the requested age/variant population?",
+        "whyItMatters": "This directly tests whether the major amendment is principally a review-volume issue or reveals a material robustness or labeling question.",
+        "sourceIds": [
+          "web-6c8ca4da9632",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "question": "What are integrated all-cause serious-event, death and discontinuation counts, exposure by dose and population, and the proposed titration, treatment-hold and feeding-tube instructions?",
+        "whyItMatters": "The available abstract's favorable tolerability statements do not quantify comparative risk or define practical management in a pediatric population receiving background therapy.",
+        "sourceIds": [
+          "web-b93aab359088",
+          "trial-NCT05818553"
+        ]
+      },
+      {
+        "question": "Which exact sites make, test and package NDA drug substance/product, and what product-linked evidence establishes validation, stability and resolution of any FDA observations?",
+        "whyItMatters": "The only inspected manufacturing model is dated and unnamed; the reported inspection was BIMO, not a manufacturing assessment.",
+        "sourceIds": [
+          "web-b3cedd4de4d3",
+          "web-37324fec9103"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Sponsor-reported seizure reductions and tolerability support activity, but registrational effect estimates and the additional sensitivity analyses remain unverified. Later mid-cycle feedback is encouraging; manufacturing readiness remains unknown.",
+    "pivotalQuestion": "Does the early-stopped registrational effect remain robust under sensitivity analyses and support both SCN2A- and SCN8A-DEE?",
+    "sourceIds": [
+      "web-b93aab359088",
+      "web-bd4feb04b040",
+      "web-6c8ca4da9632",
+      "web-37324fec9103"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "Cohort 1 shows placebo-adjusted seizure reduction and extension durability. Cohort 2 stopped early, but numerical results, uncertainty and the amendment's sensitivity-analysis robustness were not available for assessment.",
+        "sourceIds": [
+          "web-b93aab359088",
+          "web-bd4feb04b040",
+          "trial-NCT05818553",
+          "web-6c8ca4da9632"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "supportive",
+        "rationale": "Observed cohort-1 adverse events were mostly mild/moderate, with no drug-related serious events or dose reductions reported. Small exposure and absent event tables prevent assessing rare harms or comparative risk.",
+        "sourceIds": [
+          "web-b93aab359088"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "The inspected 2024 filing describes outsourced manufacturing without named relutrigine sites. August BIMO findings concern sponsor research operations, not product-specific CGMP or CMC acceptability.",
+        "sourceIds": [
+          "web-b3cedd4de4d3",
+          "web-37324fec9103"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "Priority review remains active with favorable sponsor-reported mid-cycle feedback. The major-amendment extension is a timing setback, not a CRL; final FDA agreement on the analyses remains unverified.",
+        "sourceIds": [
+          "web-3bec4ec60cc9",
+          "web-6c8ca4da9632",
+          "web-37324fec9103"
+        ]
+      }
+    ]
+  },
+  "id": "c64bef80-34c2-4185-b0d0-c84402d93299",
+  "candidateId": "relutrigine-dee",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:40:01.993Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Relutrigine, specifically SCN2A and SCN8A developmental and epileptic encephalopathies. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "prax-rel-acceptance",
+      "title": "Praxis: relutrigine NDA acceptance",
+      "url": "https://investors.praxismedicines.com/node/11301/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-03-30",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported acceptance of the relutrigine NDA with priority review for SCN2A and SCN8A developmental and epileptic encephalopathies; the original target was September 27, 2026. The submission uses EMBOLD data."
+    },
+    {
+      "id": "prax-rel-extension",
+      "title": "Praxis: relutrigine three-month extension",
+      "url": "https://investors.praxismedicines.com/node/11541/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-06-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported that additional sensitivity analyses of existing clinical data were a major amendment; the target moved from September 27 to December 27, 2026. The company said no new study was requested and the notice cited no safety or manufacturing concerns.",
+      "excerpt": "FDA sets updated PDUFA date of December 27, 2026"
+    },
+    {
+      "id": "prax-q2-2026",
+      "title": "Praxis: August regulatory update filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+      "publisher": "Praxis Precision Medicines / SEC",
+      "publishedAt": "2026-08-06",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sec",
+      "summary": "Praxis reported a completed relutrigine mid-cycle meeting without major safety or efficacy concerns identified to date or a planned advisory committee. It reported BIMO sponsor inspections for relutrigine and ulixacaltamide ended without a Form 483. This is sponsor-reported clinical-research oversight, not manufacturing-site clearance. Praxis said it would not communicate further regulatory updates before the expected targets."
+    },
+    {
+      "id": "trial-embold",
+      "title": "ClinicalTrials.gov: EMBOLD",
+      "url": "https://clinicaltrials.gov/study/NCT05818553",
+      "publisher": "ClinicalTrials.gov / Praxis Precision Medicines",
+      "publishedAt": "2026-01-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The current registry describes a randomized, masked phase 2/3 study of PRAX-562 (relutrigine), including monthly motor-seizure frequency and longer-term safety assessments. Estimated enrollment is 77 across cohorts; this is not the efficacy analysis sample size. Primary completion is recorded as November 12, 2025; no registry results are posted."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42651828",
+      "title": "Antiseizure Medications in Development: Novel Mechanisms, Precision Therapy, and the Move Towards Disease Modification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42651828/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:12:09.476Z",
+      "summary": "Indexed citation in Current issues in molecular biology; publication date 2026 Aug 16. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05818553",
+      "title": "A Clinical Trial of PRAX-562 in Subjects With Developmental and Epileptic Encephalopathies (DEE)",
+      "url": "https://clinicaltrials.gov/study/NCT05818553",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-01-29",
+      "retrievedAt": "2026-09-10T20:40:06.013Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05818553; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-bd4feb04b040",
+      "title": "Press Release - Investor Relations - Praxis Precision Medicines, Inc.",
+      "url": "https://ir.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-positive-results-embold",
+      "publisher": "ir.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:25.230Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-104bbc5e5100",
+      "title": "Relutrigine Shows Promise in Phase 2 EMBOLD Study of SCN2A-DEE ...",
+      "url": "https://www.neurologylive.com/view/relutrigine-shows-promise-phase-2-embold-study-scn2a-dee-scn8a-dee",
+      "publisher": "www.neurologylive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:25.231Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b93aab359088",
+      "title": "relutrigine demonstrates sustained seizure reduction with continued ...",
+      "url": "https://aesnet.org/abstractslisting/relutrigine-demonstrates-sustained-seizure-reduction-with-continued-exposure-on-top-of-standard-of-care-results-from-the-embold-open-label-extension",
+      "publisher": "aesnet.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:25.230Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-bfd18b1b815f",
+      "title": "Press Release - Investor Relations - Praxis Precision Medicines, Inc.",
+      "url": "https://praxismedicines.gcs-web.com/news-releases/news-release-details/praxis-precision-medicines-receives-fda-breakthrough-therapy",
+      "publisher": "praxismedicines.gcs-web.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:25.231Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-6c8ca4da9632",
+      "title": "Press Release - Investor Relations - Praxis Precision Medicines, Inc.",
+      "url": "https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-announces-extension-period",
+      "publisher": "investors.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:16.785Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0ca6e7fb9b74",
+      "title": "Praxis Precision Medicines Announces FDA Extends Review of ...",
+      "url": "https://www.quiverquant.com/news/Praxis+Precision+Medicines+Announces+FDA+Extends+Review+of+Relutrigine+NDA+to+December+27,+2026",
+      "publisher": "www.quiverquant.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:16.786Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5e88205c5a41",
+      "title": "Praxis Precision Medicines Announces Extension Period for",
+      "url": "https://www.globenewswire.com/news-release/2026/06/29/3319308/0/en/praxis-precision-medicines-announces-extension-period-for-relutrigine-for-treatment-of-scn2a-and-scn8a-developmental-and-epileptic-encephalopathies.html",
+      "publisher": "www.globenewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:16.787Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9dc7dc855aa9",
+      "title": "Praxis FDA review for relutrigine extended to Dec. 27 - Stock Titan",
+      "url": "https://www.stocktitan.net/news/PRAX/praxis-precision-medicines-announces-extension-period-for-nvfzxh6lpq52.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:16.787Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b3cedd4de4d3",
+      "title": "prax-20241231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954825000040/prax-20241231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:29.129Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3bec4ec60cc9",
+      "title": "prax-20260331 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000047/prax-20260331.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:29.136Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2568b165ca83",
+      "title": "prax-20260430 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000039/prax-20260430.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:29.137Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9befe0783d24",
+      "title": "prax-20240930 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954824000101/prax-20240930.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:29.138Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-37324fec9103",
+      "title": "Praxis Precision Medicines Provides Corporate Update and Reports ...",
+      "url": "https://investors.praxismedicines.com/news-releases/news-release-details/praxis-precision-medicines-provides-corporate-update-and-20",
+      "publisher": "investors.praxismedicines.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:36.442Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-38c9979ce5c1",
+      "title": "Praxis Precision Medicines Provides Corporate Update and Reports ...",
+      "url": "https://markets.businessinsider.com/news/stocks/praxis-precision-medicines-provides-corporate-update-and-reports-second-quarter-2026-financial-results-1036419377",
+      "publisher": "markets.businessinsider.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:36.443Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0544ddff4c3a",
+      "title": "Praxis Precision Medicines, Inc. - Drug pipelines, Patents, Clinical trials",
+      "url": "https://synapse.patsnap.com/organization/f6c344be5cae37f8b707753e716a9c81",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:36.443Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0835ea84d8c6",
+      "title": "Praxis posts Q2 loss, advances two NDAs toward FDA dates - Stock Titan",
+      "url": "https://www.stocktitan.net/sec-filings/PRAX/8-k-praxis-precision-medicines-inc-reports-material-event-a3f99adc6c19.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:40:36.444Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 345090,
+    "outputTokens": 7179
+  },
+  "durationMs": 180962,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "prax-rel-extension"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "prax-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 90
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05818553"
+      },
+      "status": "completed",
+      "durationMs": 76
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "relutrigine EMBOLD cohort 1 cohort 2 results 2025 2026 motor seizure confidence interval adverse events SCN2A SCN8A"
+      },
+      "status": "completed",
+      "durationMs": 1524
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Praxis relutrigine September 2026 NDA December 27 sensitivity analyses manufacturing CMC contract manufacturer complete response approval history"
+      },
+      "status": "completed",
+      "durationMs": 4013
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Praxis Precision Medicines"
+      },
+      "status": "completed",
+      "durationMs": 267
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Praxis Precision Medicines"
+      },
+      "status": "partial",
+      "durationMs": 444
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "relutrigine EMBOLD December 6 2025 registrational cohort 2 0.000 seizure reduction results adverse events poster"
+      },
+      "status": "completed",
+      "durationMs": 1219
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov/Archives/edgar/data/1689548/ 2026 relutrigine \"manufacturing\" \"approved\""
+      },
+      "status": "completed",
+      "durationMs": 3907
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.praxismedicines.com \"August 6, 2026\" \"relutrigine\" \"mid-cycle\""
+      },
+      "status": "completed",
+      "durationMs": 7306
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-3bec4ec60cc9",
+        "query": "EMBOLD"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-b3cedd4de4d3",
+        "query": "contract manufacturers"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-3bec4ec60cc9",
+        "query": "no products"
+      },
+      "status": "completed",
+      "durationMs": 1
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_00a90828b1407ae1016aa315ce30f487d2866a4603d3a9e627",
+    "inputHash": "a00727bc3aa4905b8416ac5a03c689b3af46f60008b958dd57cbee7625d7822e"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:45:31.301Z",
+    "originalSha256": "28484c59666768d3ab6bf7dfcf42eab41234e82908e0dcf2df098f628ce78ea6",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

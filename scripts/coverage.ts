@@ -61,6 +61,8 @@ ${rows.join("\n")}
 
 Tool counts include attempted operations, including failures. A source reference or successful request does not establish scientific correctness. Read the report's source citations, scope and limitations alongside its assessment.
 
+Source-review qualifications accompany the unchanged imlifidase and anito-cel reports in the app and exported briefs. Imlifidase's seven early antibody-mediated rejection cases include six confirmed and one presumed case; anito-cel's fatal CRS event also has primary SEC corroboration missed in the retrieved excerpts. The [additional review ledger](../data/deep-review-expanded-2026-09-10.md) documents the distinctions and original sources.
+
 Review records: [original cases](../data/recorded-run-review.md), [first expanded group](../data/deep-review-2026-09-10.md), [additional cases and recovery attempts](../data/deep-review-expanded-2026-09-10.md). The source review was performed by separate project agents; it is not an independent expert assessment or prospective validation of FDA outcomes.
 `;
 if (process.argv.includes("--check")) {

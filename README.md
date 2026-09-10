@@ -4,6 +4,8 @@
 
 Approval Radar follows **33 real drug–indication review episodes across 29 companies**, with **98 curated primary sources** and recorded public-database scans for every candidate. It connects sponsor disclosures, trial protocols and results, FDA reviews and letters, approved applications, labeling and research publications. Astra investigates which evidence changes the case and turns that assessment into specific diligence questions. No customer uploads are required.
 
+All **33 candidates have source-reviewed deep Astra investigations**, with clinical, safety, manufacturing and regulatory assessments. The 35 recorded runs include repeat challenges; they are not 35 different drugs. [Coverage and individual reports](docs/research-coverage.md) distinguish supportive evidence, concerns and unresolved questions. Two reports carry explicit editorial source-review qualifications in the app and exported briefs; the original model outputs remain unchanged.
+
 Built for the GPT-6 Astra hackathon in New York. This is an original, standalone public project; the private FDAgent application and its data are not included.
 
 ![Approval Radar using FDAgent's visual conventions, displaying a genuine recorded Astra investigation](docs/assets/approval-radar.png)
@@ -13,7 +15,7 @@ Built for the GPT-6 Astra hackathon in New York. This is an original, standalone
 - [Public interactive demo](https://kllymx.github.io/fdagent-approval-radar/) — genuine recorded Astra investigations, clearly labeled; no API key required.
 - [Four-minute demo script](docs/demo-script.md)
 - [Evidence evaluation](docs/evidence-evaluation.md) and [independent agent review of the recorded runs](data/recorded-run-review.md)
-- [Expanded investigation review](data/deep-review-2026-09-10.md) and [additional review queue](data/deep-review-expanded-2026-09-10.md)
+- [Expanded investigation review](data/deep-review-2026-09-10.md) and [additional source reviews and execution history](data/deep-review-expanded-2026-09-10.md)
 - [Published research coverage by drug and evidence domain](docs/research-coverage.md)
 - [Product thesis and customer experiment](docs/product-thesis.md)
 
@@ -100,7 +102,7 @@ pnpm investigate:catalog
 pnpm investigate:catalog bepirovirsen-hbv
 ```
 
-The bounded batch resumes completed work, records failures and stores unpublished outputs locally. Review original sources before selecting runs for publication with `scripts/record.ts`.
+The bounded batch resumes completed work, records failures and stores unpublished outputs locally. Review original sources before selecting runs for publication with `scripts/record.ts`, then regenerate the public index with `pnpm research:coverage`. CI checks that this index matches the published records.
 
 The assessment-only command interprets existing source summaries and reviewed investigations. It does not run web retrieval. For deeper research, use Investigate with Astra in the local app. Newly completed reports update the visual assessment from the same research.
 

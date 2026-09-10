@@ -25,6 +25,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm test
+      - run: pnpm research:coverage --check
       - run: VITE_BASE_PATH=/fdagent-approval-radar/ pnpm build:demo
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

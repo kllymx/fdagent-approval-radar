@@ -1,0 +1,697 @@
+{
+  "summary": "Encaleret has a strong disease-specific efficacy case for ADH1, supported by actual CALIBRATE results and an earlier published study—not merely filing acceptance. The main unresolved question is whether sustained dual-calcium control delivers an acceptable chronic benefit–risk profile under practical titration and monitoring. Hypercalcemia and a treatment-related serious event warrant scrutiny. Manufacturing readiness remains publicly unverified. BridgeBio reports priority review with an unchanged May 8, 2027 action target.",
+  "outlook": {
+    "verdict": "Clinically supportive, with material safety and implementation questions; manufacturing remains unknown.",
+    "timing": "BridgeBio announced NDA submission on May 12, 2026 and filing acceptance on July 22, 2026. Its August 10 update says FDA reconsidered the review designation and granted priority review, while retaining May 8, 2027 as the PDUFA target. No target extension was identified in these disclosures. The earlier 'early 2027' launch expectation was not an FDA action date. May 8 remains a sponsor-reported action goal, not a promised approval date; no advisory committee was currently planned.",
+    "probability": null,
+    "probabilityBasis": "The historical model's original-priority receipt cohort is the closest contextual category, based on the sponsor-described application. It measures annual first-cycle approval rates across heterogeneous original NDAs and BLAs, not individual drug outcomes. Its limited annual-cohort validation does not calibrate encaleret, incorporate these safety findings, or establish sponsor-specific performance. Action timeliness is a separate outcome and is not combined with approval rates."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "Original NDA pathway supported; priority designation changed, but the reported target did not",
+      "detail": "The May submission and July acceptance announcements describe an NDA for treatment of individuals with ADH1, consistent with an original application rather than a supplement or CRL resubmission. The August 10 primary sponsor disclosure resolves the July announcement's silence on priority: FDA reportedly reconsidered the designation and granted priority review, retaining May 8, 2027. This is a designation change, not evidence of an extension or complete response. Exact requested age limits, application number, FDA filing/priority letters and substantive review objections were not retrieved. The attempted FDA CRL archive retrieval failed, so it cannot establish a clean prior-letter history. Pediatric ADH1 and chronic hypoparathyroidism development remain separate from the evidence supporting this application.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-0e4d90b9d585",
+        "web-f08c395aaf5d",
+        "web-102af7afa606"
+      ]
+    },
+    {
+      "id": "pivotal-results",
+      "title": "Large primary effect, with a genuinely supportive randomized comparison",
+      "detail": "CALIBRATE was a global, randomized, open-label trial. After standard-care optimization and a four-week maintenance period, 67 participants aged 16–76 years were randomized 2:1 to encaleret (45) or calcium/active-vitamin-D standard care (22). Encaleret recipients stopped standard care before initiation, underwent 20 weeks of titration, then four weeks of maintenance. The sponsor-described prespecified primary endpoint required BOTH corrected serum calcium of 8.3–10.7 mg/dL and 24-hour urinary calcium below 300 mg/day in males or 250 mg/day in females. The primary analysis compared encaleret recipients with themselves: 34/45 responded at treatment Week 24 versus 2/45 during standard care at Week 4; the reported difference was 71 percentage points, 95% CI 58–84, p<0.0001 by McNemar's test. Crucially, the randomized Week-24 comparison also favored encaleret: 75.6% versus 19% among 21 standard-care completers, p<0.0001. That comparison corroborates—but is not—the primary analysis.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05680818",
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d"
+      ]
+    },
+    {
+      "id": "clinical-interpretation",
+      "title": "Biochemical efficacy is convincing; clinical-outcome breadth and statistical robustness need narrower claims",
+      "detail": "The primary within-person comparison is vulnerable to period effects and treatment-management differences, although the randomized secondary comparison substantially strengthens causality. Baseline corrected calcium differed between arms—8.4 mg/dL with encaleret versus 7.9 with standard care—and urinary calcium was 397 versus 331 mg/day. The concurrent comparison used 21 of 22 randomized controls; its confidence interval and full missing-data sensitivity analyses were not available in the inspected reports. The slide deck specifies nonresponse for encaleret recipients requiring elemental calcium above 600 mg/day for more than seven days during maintenance; the complete rescue-treatment rules and multiplicity hierarchy need the final protocol/SAP. PTH reached or exceeded its lower reference limit in 41/45 recipients versus 3/45 during prior standard care; this does not mean all had PTH within the full normal range. Dual-calcium normalization does not itself demonstrate fewer seizures, stones, fractures or progression to kidney failure. ClinicalTrials.gov currently has no posted results.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d",
+        "trial-NCT05680818"
+      ]
+    },
+    {
+      "id": "durability-replication",
+      "title": "Earlier ADH1 study corroborates the mechanism, but mature pivotal durability is not established",
+      "detail": "The original 2023 NEJM report, inspected through its full-text author manuscript, treated 13 adults with ADH1 spanning nine CASR variants in an uncontrolled phase 2b study. It reported correction of hypocalcemia, reduced hypercalciuria and improved mineral homeostasis through a 24-week outpatient period without supplemental calcium or calcitriol. CALIBRATE extends this observation to 46 distinct CASR variants and reports rapid calcium changes maintained through Week 24. These are consistent findings across two studies, but not two independent randomized pivotal replications. The phase 2 population was entirely non-Hispanic White; CALIBRATE was predominantly White. In CALIBRATE, 65 of 67 randomized participants entered long-term extension, but extension enrollment is not an observed long-term efficacy or safety result. No mature pivotal extension outcome dataset was inspected.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-8931823d1587",
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d",
+        "web-fddd08228450"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Observed tolerability is encouraging, but the pivotal table contains a real calcium-excursion signal",
+      "detail": "During CALIBRATE's treatment periods, any treatment-emergent adverse event occurred in 40/45 encaleret recipients versus 14/22 controls; hypercalcemia occurred in 10/45 versus 0/22, and hypocalcemia in 3/45 versus 3/22. Serious events affected 4/45 versus 3/22; one encaleret recipient had a treatment-related serious event, versus none on concurrent standard care. Severe events affected 3/45 versus 2/22. No adverse events led to study discontinuation, and all 45 encaleret recipients completed the treatment period. The serious related event's diagnosis was not disclosed in the inspected table; it must not be assumed to have been hypercalcemia. The earlier 13-person study reported no serious events or discontinuations and mild, transient, asymptomatic hypercalcemia/hypophosphatemia resolving spontaneously or with dose adjustment. Its individualized doses ranged from 5–190 mg twice daily—not an established phase 3 or proposed-label dose range. Bone-turnover markers increased, with longer skeletal follow-up explicitly needed. Pivotal event timing, dose relationships, recurrent events, mortality details and cumulative extension exposure remain unavailable here.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-0c0e7c5f19f5",
+        "web-8931823d1587"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Outsourced supply is documented; encaleret-specific CMC status and site linkage are not",
+      "detail": "BridgeBio's 2025 Form 10-K states that it owns no manufacturing facilities and uses contract manufacturers for raw materials, drug substance, drug product and packaging. The second-quarter 2026 Form 10-Q reiterates dependence on outside manufacturers and says certain candidates have single-source supply, without identifying encaleret as one of them in the inspected passages. Searches covering encaleret/Calcilytix manufacturing and SEC disclosures, plus a public compliance lookup under Calcilytix, did not establish a named encaleret commercial manufacturer, exact site/FEI, product-linked CGMP inspection, documented CMC setback or corrective-action outcome. Thus neither a manufacturing deficiency nor satisfactory readiness can be concluded. Attruby manufacturing agreements cannot be transferred to encaleret. Resolving this domain requires the NDA manufacturing-site list, commercial-process validation and stability evidence, and product-linked FDA inspection/quality-review conclusions.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-29850acea4cd",
+        "web-db29d45ecff9"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Attruby: documented sponsor review experience, not an ADH1 approval precedent",
+      "relevance": "FDA's FY2025 performance report records BridgeBio's acoramidis/Attruby original standard-review application receiving first-cycle approval after 11.8 months, with its applicable goal met. The August 2026 sponsor update identifies its approved ATTR-CM indication. This documents completed regulatory execution by the sponsor.",
+      "difference": "Different molecule, disease, evidence package and potentially different manufacturing network. The observed timeline does not validate an encaleret forecast, demonstrate unchanged original-target performance, or establish a sponsor-wide approval probability.",
+      "sourceIds": [
+        "pdufa-2025",
+        "web-102af7afa606"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "CALIBRATE's final clinical study report and prespecified SAP: randomized treatment-effect confidence intervals, all-randomized sensitivity analyses, rescue-treatment rules, multiplicity control and component-level response durability.",
+    "Updated integrated safety and extension results: cumulative exposure, the related serious-event narrative, hypercalcemia timing/severity/recurrence, dose adjustments, renal-function subgroups, and longitudinal bone-turnover/bone-density findings.",
+    "An encaleret-specific commercial manufacturing-site/FEI list with process-validation, stability and clinical-to-commercial comparability evidence, plus linked FDA inspection findings and any corrective-action closure.",
+    "FDA filing and priority-designation correspondence confirming application classification, requested age/indication scope and the May 8, 2027 goal, followed by any substantive review issues or proposed labeling requirements."
+  ],
+  "limitations": [
+    "CALIBRATE evidence inspected consists of its current registry protocol, sponsor result tables/disclosures and an original ENDO 2026 conference abstract. No posted registry results, complete pivotal peer-reviewed report, final SAP or FDA clinical/statistical review was available in this investigation.",
+    "The phase 2 NEJM manuscript was inspected, but its supplementary tables were not separately retrieved. Pivotal safety tables provide participant incidence, not complete event narratives or exposure-adjusted rates; no mortality conclusion is justified from their silence.",
+    "Manufacturing review covered SEC manufacturing passages and public candidate/company searches. The Calcilytix compliance lookup returned no original facility document. Without commercial site identities, site-specific inspection and warning-letter verification could not be completed; this is not evidence of clean compliance.",
+    "The FDA complete-response-letter archive retrieval was unsuccessful and the archive is incomplete. No claim that encaleret has never received a CRL or confidential FDA objection can be established from that attempt.",
+    "Exact NDA number, statutory filing pathway, requested age limits and FDA-authored acceptance/priority correspondence were not retrieved. Original-application characterization and current timing rely on attributed sponsor disclosures.",
+    "Live evidence was inspected on September 10, 2026. The July 29 registry record is a current snapshot, not a historical protocol version. Attruby is a limited sponsor-history example, not a systematic portfolio analysis."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept CALIBRATE's dual-calcium benefit as sufficient for chronic ADH1 treatment with manageable calcium-excursion risk?",
+    "bullCase": {
+      "claim": "A large dual-calcium response is supported by both the prespecified within-person analysis and a randomized concurrent comparison, with consistent PTH effects and earlier disease-specific phase 2 corroboration. All encaleret participants completed CALIBRATE's treatment period. This is a substantive efficacy package for ADH1, not a designation-driven thesis.",
+      "sourceIds": [
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d",
+        "web-8931823d1587"
+      ]
+    },
+    "bearCase": {
+      "claim": "Biochemical success may not fully establish chronic net benefit if hypercalcemia is persistent, recurrent or consequential outside intensive titration. CALIBRATE reported more hypercalcemia and one related serious event. Its small, open-label population, within-person primary analysis and limited inspected long-term data leave important questions about routine-use safety and robustness—not a documented FDA rejection rationale.",
+      "sourceIds": [
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d",
+        "web-8931823d1587"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do the updated safety dataset and FDA review show that hypercalcemia and the related serious event are controllable with the proposed dosing regimen while dual-calcium response persists?",
+      "whyItMatters": "Event timing, recurrence, clinical consequences and management would distinguish transient titration effects from a chronic treatment liability. The complete randomized analysis would establish whether the efficacy claim remains robust under FDA's handling of missing data and rescue therapy. CMC acceptability remains an independent prerequisite.",
+      "sourceIds": [
+        "web-0c0e7c5f19f5",
+        "web-29fd36853d7d",
+        "web-db29d45ecff9"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Evidence supports an approvable ADH1 benefit–risk profile",
+        "trigger": "FDA accepts the full CALIBRATE analyses; updated exposure shows manageable calcium excursions without an emerging renal or skeletal liability; product-specific CMC review is satisfactory.",
+        "implication": "A current-cycle approval pathway remains plausible, potentially with individualized titration and laboratory monitoring. The reported action target remains May 8, 2027; broader pediatric or other hypoparathyroidism claims would require their own support.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-8931823d1587",
+          "web-102af7afa606"
+        ]
+      },
+      {
+        "label": "Safety or analysis concerns constrain the application",
+        "trigger": "Detailed review identifies clinically consequential recurrent hypercalcemia, an unfavorable subgroup, or material sensitivity to missing-data/rescue-treatment assumptions.",
+        "implication": "FDA could seek additional analyses or follow-up, narrower population/dosing language, or stronger monitoring requirements. Whether this changes timing would depend on the actual request; none is established in the inspected disclosures.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-29fd36853d7d"
+        ]
+      },
+      {
+        "label": "Independent CMC obstacle",
+        "trigger": "A verified encaleret-linked inspection, validation, stability or comparability deficiency remains unresolved at action.",
+        "implication": "A delay or complete response could occur despite supportive clinical efficacy. No such candidate-specific deficiency was verified here, so this is a conditional diligence scenario, not an observed setback.",
+        "sourceIds": [
+          "web-29850acea4cd",
+          "web-db29d45ecff9"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Can management provide the final prespecified analysis hierarchy, the randomized responder confidence interval, and sensitivity results retaining all 22 randomized controls?",
+        "whyItMatters": "The strongest protection against period effects is the randomized comparison, but the inspected abstract reports 21 controls at Week 24. Missing-data and rescue-treatment handling must be reconciled with the primary estimand.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-29fd36853d7d"
+        ]
+      },
+      {
+        "question": "What was the related serious event, and how did hypercalcemia vary by titration versus maintenance, dose, renal function and CASR variant?",
+        "whyItMatters": "These details determine whether the observed safety signal can be addressed by a practical initiation, supplement-withdrawal and monitoring regimen rather than prolonged intensive supervision.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-8931823d1587"
+        ]
+      },
+      {
+        "question": "Which legal entities and exact sites manufacture encaleret API and finished tablets, and are commercial validation, stability, comparability and any inspection responses complete?",
+        "whyItMatters": "The sponsor documents outsourcing but not candidate-specific readiness. Product-site linkage is necessary before any facility record can inform this NDA.",
+        "sourceIds": [
+          "web-29850acea4cd",
+          "web-db29d45ecff9"
+        ]
+      },
+      {
+        "question": "Can management provide FDA's priority-reconsideration correspondence, confirm the unchanged goal and requested age range, and identify any substantive clinical, safety or CMC information requests?",
+        "whyItMatters": "The August disclosure supports priority review without a shorter target. Actual correspondence would separate process milestones from unresolved review requirements and clarify the indication being adjudicated.",
+        "sourceIds": [
+          "web-f08c395aaf5d",
+          "web-102af7afa606"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "CALIBRATE shows substantial biochemical benefit with randomized corroboration. More hypercalcemia and one related serious event leave titration and chronic safety questions unresolved. Manufacturing readiness remains unknown; the NDA is sponsor-reported under priority review.",
+    "pivotalQuestion": "Will FDA accept sustained dual-calcium control as sufficient benefit with manageable calcium-excursion risk for chronic ADH1 treatment?",
+    "sourceIds": [
+      "web-0c0e7c5f19f5",
+      "web-29fd36853d7d",
+      "web-8931823d1587",
+      "web-102af7afa606",
+      "web-db29d45ecff9"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Large dual-calcium response, randomized corroboration and consistent phase 2 findings support efficacy. The primary analysis was within-person and open-label; long-term clinical-event benefits are not established.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-29fd36853d7d",
+          "web-8931823d1587"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "No discontinuations coexist with more hypercalcemia and one related serious event. Earlier mild, reversible mineral abnormalities are reassuring but do not resolve pivotal event narratives, dose effects or long-term skeletal risk.",
+        "sourceIds": [
+          "web-0c0e7c5f19f5",
+          "web-8931823d1587"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "SEC filings document outsourced manufacturing, not encaleret-specific readiness. No verified commercial site linkage, CGMP conclusion, CMC deficiency or corrective-action outcome was retrieved.",
+        "sourceIds": [
+          "web-29850acea4cd",
+          "web-db29d45ecff9"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor confirms NDA acceptance and subsequent priority designation while retaining May 8, 2027. These are supportive process milestones, not FDA endorsement of efficacy, safety or manufacturing.",
+        "sourceIds": [
+          "web-f08c395aaf5d",
+          "web-102af7afa606"
+        ]
+      }
+    ]
+  },
+  "id": "e9790fae-60d1-4619-820c-3bae45c2ffe6",
+  "candidateId": "encaleret-adh1",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:44:56.838Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Encaleret, specifically Autosomal dominant hypocalcemia type 1. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "bbio-q2-2026",
+      "title": "BridgeBio: BBP-418 and encaleret review update",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx",
+      "publisher": "BridgeBio Pharma",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BridgeBio reported accepted priority-review NDAs for BBP-418 in LGMD2I/R9 with a November 27, 2026 target and encaleret in ADH1 with a May 8, 2027 target, with no planned advisory committee for either. Its infigratinib NDA had been submitted but lacked a reported target; that stage must not be conflated with acceptance."
+    },
+    {
+      "id": "trial-nct05680818",
+      "title": "ClinicalTrials.gov: NCT05680818 · Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "publisher": "ClinicalTrials.gov / Calcilytix Therapeutics, Inc., a BridgeBio company",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 67 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-trials-NCT05680818",
+      "title": "Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "kind": "trial",
+      "publisher": "ClinicalTrials.gov / National Library of Medicine",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T20:44:56.915Z",
+      "summary": "Registry protocol: ACTIVE_NOT_RECRUITING; PHASE3; lead sponsor Calcilytix Therapeutics, Inc., a BridgeBio company. Results availability is not an efficacy conclusion."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-38572533",
+      "title": "Treatment of Hypoparathyroidism by Re-Establishing the Effects of Parathyroid Hormone.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38572533/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:44:57.273Z",
+      "summary": "Indexed citation in Endocrinology and metabolism (Seoul, Korea); publication date 2024 Apr. Abstract and full text have not been assessed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-publications-42183375",
+      "title": "PTH-Independent CaSR Inhibition with the Oral Calcilytic Encaleret Improves Calcium Homeostasis in Post-Surgical Hypoparathyroidism: A Phase 2 Open-Label Proof-of-Concept Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42183375/",
+      "kind": "publication",
+      "publisher": "PubMed / National Library of Medicine",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:44:57.273Z",
+      "summary": "Indexed citation in Research square; publication date 2026 May 11. Abstract and full text have not been assessed."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05680818",
+      "title": "Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T20:45:05.183Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05680818; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-0e4d90b9d585",
+      "title": "BridgeBio Submits NDA to FDA for Encaleret for Individuals Living with ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Submits-NDA-to-FDA-for-Encaleret-for-Individuals-Living-with-ADH1/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:33.620Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9adef7ee5157",
+      "title": "99.1 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000114036126021036/ef20073370_ex99-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:20.911Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-00f2ced42e82",
+      "title": "BridgeBio Submits NDA for Encaleret for Autosomal Dominant ... - HCPLive",
+      "url": "https://www.hcplive.com/view/bridgebio-submits-nda-for-encaleret-for-autosomal-dominant-hypocalcemia-type-1",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:20.912Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0c0e7c5f19f5",
+      "title": "[PDF] CALIBRATE Phase 3 Topline Results of Encaleret in ADH1",
+      "url": "https://s205.q4cdn.com/224494602/files/doc_events/2025/Oct/29/CALIBRATE-Topline-Results_Investor-Webcast_vF_29Oct2025.pdf",
+      "publisher": "s205.q4cdn.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:20.913Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f08c395aaf5d",
+      "title": "BridgeBio Announces FDA Acceptance of NDA for Encaleret for ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-of-NDA-for-Encaleret-for-ADH1/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:33.619Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5376060d7bed",
+      "title": "BridgeBio Announces FDA Acceptance of NDA for Encaleret for ...",
+      "url": "https://www.drugs.com/nda/encaleret_260722.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:33.621Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0c5ce0cccbb2",
+      "title": "BridgeBio Pharma's Calcilytix Therapeutics Initiates Phase 2 ...",
+      "url": "https://www.biospace.com/bridgebio-pharma-s-calcilytix-therapeutics-initiates-phase-2-study-of-encaleret-for-autosomal-dominant-hypocalcemia-type-1-adh1",
+      "publisher": "www.biospace.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:33.622Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fddd08228450",
+      "title": "BridgeBio Reports Positive Phase 3 Topline Results for Encaleret in ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2025/BridgeBio-Reports-Positive-Phase-3-Topline-Results-for-Encaleret-in-Patients-with-Autosomal-Dominant-Hypocalcemia-Type-1/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:49.643Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8931823d1587",
+      "title": "Efficacy and Safety of Encaleret in Autosomal Dominant Hypocalcemia ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10616810/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:49.645Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-29fd36853d7d",
+      "title": "Encaleret Restores Mineral Homeostasis in ... - ENDO 2026",
+      "url": "https://endo2026.endocrine.org/ajaxcalls/PresentationInfo.asp?PresentationID=1837611",
+      "publisher": "endo2026.endocrine.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:49.645Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-25c498048a33",
+      "title": "NCT05680818 | Efficacy and Safety of Encaleret Compared to Standard of ...",
+      "url": "https://clinicaltrials.gov/study/NCT05680818",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:45:49.646Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-29850acea4cd",
+      "title": "bbio-20251231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000009/bbio-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:16.783Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f89ae95afff0",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000095017025024119/bbio-20241231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:16.787Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-79cc81f9cb61",
+      "title": "bbio-20260331 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000019/bbio-20260331.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:16.792Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-db29d45ecff9",
+      "title": "bbio-20260630 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000027/bbio-20260630.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:16.794Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-102af7afa606",
+      "title": "BridgeBio Reports Second Quarter 2026 Financial Results and ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:18.017Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d0232c93b3f3",
+      "title": "News - BridgeBio Pharma Inc. - Investor Relations",
+      "url": "https://investor.bridgebio.com/news/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:46:18.018Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 450510,
+    "outputTokens": 8820
+  },
+  "durationMs": 256794,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "bbio-q2-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 4
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05680818"
+      },
+      "status": "completed",
+      "durationMs": 71
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "encaleret CALIBRATE phase 3 results 2026 primary endpoint adverse events NDA accepted May 8 2027 manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 12978
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "encaleret Calcilytix BridgeBio NDA accepted August 2026 May 8 2027 CMC manufacturing manufacturer facility complete response FDA"
+      },
+      "status": "completed",
+      "durationMs": 3576
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "encaleret ADH1 Gafni Hartley 2023 Efficacy Safety full text CALIBRATE 2026 primary results hypercalcemia serious adverse events"
+      },
+      "status": "completed",
+      "durationMs": 16024
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "BridgeBio"
+      },
+      "status": "partial",
+      "durationMs": 361
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"encaleret\" \"manufacturing\" \"2026\" site:sec.gov"
+      },
+      "status": "completed",
+      "durationMs": 10368
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:investor.bridgebio.com \"Second Quarter 2026\" \"encaleret\" \"priority\""
+      },
+      "status": "completed",
+      "durationMs": 1220
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Calcilytix"
+      },
+      "status": "completed",
+      "durationMs": 281
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-29850acea4cd",
+        "query": "manufacturing facilities"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "pdufa-2025",
+        "query": "ATTRUBY"
+      },
+      "status": "completed",
+      "durationMs": 757
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-db29d45ecff9",
+        "query": "manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 2
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_015d0b684242b083016aa31729e5d487d2bf9b569c9077f31a",
+    "inputHash": "b4c5aa530dc5be610c0e2c3e8b4d6e84921eaa142e96a7aa95e8bc9cf08b1274"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:53:58.865Z",
+    "originalSha256": "7258cb706696b4c35207577f9e57f403250957b4bcd0750c841a31422d5a4e22",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}
