@@ -45,8 +45,11 @@ function CompanyMark({ company, compact }: { company: Company; compact: boolean 
   const asset = compact ? company.iconPath : company.assetPath;
   const symbol = (company as Company & { displayKind?: string }).displayKind === 'symbol';
   const initials = company.name.split(/\s+/).map((word) => word[0]).slice(0, 2).join('');
+  // Bound intrinsic assets even before the application stylesheet has loaded.
+  const imageWidth = compact ? 18 : symbol ? 26 : 110;
+  const imageHeight = compact ? 18 : 26;
   return <span className={`company-mark ${compact ? 'compact' : 'wordmark'} ${symbol ? 'symbol' : ''} ${company.background}`} title={company.name}>
-    {asset && !failed ? <img src={`${import.meta.env.BASE_URL}${asset}`} alt={compact || symbol ? '' : company.name} onError={() => setFailed(true)} loading="lazy" /> : <span className="company-fallback" aria-label={company.name}>{compact || symbol ? initials : company.name}</span>}
+    {asset && !failed ? <img src={`${import.meta.env.BASE_URL}${asset}`} alt={compact || symbol ? '' : company.name} width={imageWidth} height={imageHeight} style={{ maxWidth: imageWidth, maxHeight: imageHeight, objectFit: 'contain' }} onError={() => setFailed(true)} loading="lazy" /> : <span className="company-fallback" aria-label={company.name}>{compact || symbol ? initials : company.name}</span>}
   </span>;
 }
 
