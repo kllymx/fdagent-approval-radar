@@ -1,0 +1,71 @@
+ Proprietary Name                                                 Cycle              Total
+                                                NME     Review             Cycle             Goal
+   (Established               Applicant                            Time              Time
+                                                (Y/N)    Cycle             Result            Met
+      Name)                                                       (Mos.)            (Mos.)
+ALYFTREK
+(vanzacaftor,           VERTEX
+                                                 Y       First     7.6      AP       7.6        Y♦
+tezacaftor, and         PHARMACEUTICALS INC
+deutivacaftor)
+ZIIHERA                 JAZZ PHARMACEUTICALS
+                                                 Y       First     7.8      AP       7.8        Y♦
+(zanidatamab)           IRELAND LIMITED
+                        MIRUM
+CTEXLI (chenodiol)                               N       First     7.8      AP       7.8        Y#
+                        PHARMACEUTICALS INC
+IMAAVY (nipocalimab-
+                        JANSSEN BIOTECH, INC.    Y       First     8.0      AP       8.0        Y♦
+aahu)
+BLUJEPA
+                        GLAXOSMITHKLINE LLC      Y       First     8.0      AP       8.0        Y♦
+(gepotidacin)
+TRYNGOLZA               IONIS
+                                                 Y       First     8.0      AP       8.0        Y♦
+(olezarsen)             PHARMACEUTICALS INC
+JOURNAVX                VERTEX
+                                                 Y       First     8.0      AP       8.0        Y♦
+(suzetrigine)           PHARMACEUTICALS INC
+ROMVIMZA                DECIPHERA
+                                                 Y       First     8.0      AP       8.0        Y♦
+(vimsetinib)            PHARMACEUTICALS LLC
+KEBILIDI
+(eladocagene            PTC THERAPEUTICS         Y       First     8.0      AP       8.0        Y♦
+exuparvovec-tneq)
+VIMKUNYA
+(chikungunya vaccine,   BAVARIAN NORDIC A/S      Y       First     8.0      AP       8.0        Y♦
+recombinant)
+MNEXSPIKE (covid-
+                        MODERNATX, INC.          Y       First     8.0      AP       8.0        Y♦
+19 vaccine, mrna)
+VYKAT XR (diazoxide     SOLENO THERAPEUTICS
+                                                 N       First     8.9      AP       8.9        Y#
+choline)                INC
+BIZENGRI
+(ZENOCUTUZUMAB-
+                        PARTNER
+ZBCO)                                            Y       First     9.0      AP       9.0        Y♦#
+                        THERAPEUTICS INC.
+(zenocutuzumab-
+zbco)
+REVUFORJ                SYNDAX
+                                                 Y       First     9.7      AP       9.7        Y♦#
+(revumenib)             PHARMACEUTICALS INC
+ENCELTO
+                        NEUROTECH
+(revakinagene                                    Y       First     10.5     AP       10.5       Y♦#
+                        PHARMACEUTICALS INC.
+taroretcel-lwey)
+SYMVESS (acellular
+tissue engineered       HUMACYTE GLOBAL INC.     Y       First     12.3     AP       12.3       N♦
+vessel-tyod)
+                                                         First     8.0      CR       8.0        Y♦
+LYNOZYFIC               REGENERON
+                                                 Y      Sponsor    4.7               12.7
+(linvoseltamab-gcpt)    PHARMACEUTICALS, INC.
+                                                        Second     5.7      AP       18.4       Y∆
+
+
+
+
+      Appendix A                                                                     Page A-4

@@ -1,0 +1,13 @@
+{
+  "description": "Publication dates and source authorship checked against original documents by the separate source-review agent. These corrections apply only to exported source metadata, never model findings.",
+  "review": "data/recorded-run-review.md",
+  "sources": {
+    "web-c435ffa45e30": { "publishedAt": "2026-08-21", "kind": "sponsor", "publisher": "Scholar Rock (via Business Wire)" },
+    "web-4f3a0c4ed6ba": { "publishedAt": "2024-08-20", "kind": "sponsor", "publisher": "Regeneron" },
+    "web-6a17b0b1ce27": { "publishedAt": "2025-02-11", "kind": "sponsor", "publisher": "Regeneron" },
+    "web-20922be08c90": { "publishedAt": "2025-07-02", "kind": "fda", "publisher": "FDA" },
+    "web-81eb491b273c": { "publishedAt": "2026-08-13", "kind": "sponsor", "publisher": "Capricor Therapeutics" },
+    "web-072ea4419aa4": { "publishedAt": "2026-08-24", "kind": "sponsor", "publisher": "Capricor Therapeutics" },
+    "web-5d0074cc8b8b": { "publishedAt": "2026-08-07", "kind": "sponsor", "publisher": "Scholar Rock" }
+  }
+}

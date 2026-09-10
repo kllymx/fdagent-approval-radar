@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pdufa-2018",
+    "title": "FDA FY 2018 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/130665/download",
+    "reportFiscalYear": 2018,
+    "outcomeAsOf": "2018-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "be013f8a19917ee393da9d1d62978570c0fcccaca53d9cd4a3687e845c452ab5",
+    "pdfMetadata": {
+      "CreationDate": "Tue Sep 10 07:09:34 2019 EDT",
+      "ModDate": "Fri Oct  4 12:11:28 2019 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2019",
+    "title": "FDA FY 2019 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/138325/download",
+    "reportFiscalYear": 2019,
+    "outcomeAsOf": "2019-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "ba6772b8e806ec05d4dd33e2492e085f34bf6f5d47a8674aa750de9e60edde68",
+    "pdfMetadata": {
+      "CreationDate": "Fri May 22 14:42:11 2020 EDT",
+      "ModDate": "Fri May 22 15:27:43 2020 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2020",
+    "title": "FDA FY 2020 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/151602/download",
+    "reportFiscalYear": 2020,
+    "outcomeAsOf": "2020-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "0fce86c8a9d599aab75fd3e7525e62c02ee5343c03f95c7ad9ac360a3b224e8f",
+    "pdfMetadata": {
+      "CreationDate": "Mon Aug  9 08:18:33 2021 EDT",
+      "ModDate": "Fri Aug 13 03:05:26 2021 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2021",
+    "title": "FDA FY 2021 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/156077/download",
+    "reportFiscalYear": 2021,
+    "outcomeAsOf": "2021-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "66f74e3a5b87c3450ca1090ea11aaa8eed49c0295ecbc80ea366393cf42e67c8",
+    "pdfMetadata": {
+      "CreationDate": "Mon Feb  7 16:43:34 2022 EST",
+      "ModDate": "Tue Feb  8 18:24:03 2022 EST"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2022",
+    "title": "FDA FY 2022 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/166927/download",
+    "reportFiscalYear": 2022,
+    "outcomeAsOf": "2022-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "4e65fce2ad46312bbb4f8dee4cbaf51a20d38f6dea98c9b6a865645831fa633e",
+    "pdfMetadata": {
+      "CreationDate": "Fri Apr  7 12:39:04 2023 EDT",
+      "ModDate": "Fri Apr  7 14:01:08 2023 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2023",
+    "title": "FDA FY 2023 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/177976/download",
+    "reportFiscalYear": 2023,
+    "outcomeAsOf": "2023-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "32d51e77264bb859258677be86176a98dc70d1d4faeadd8f7c48b08258b2ca51",
+    "pdfMetadata": {
+      "CreationDate": "Sun Apr 21 16:50:13 2024 EDT",
+      "ModDate": "Sun Apr 21 16:50:13 2024 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2024",
+    "title": "FDA FY 2024 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/188188/download",
+    "reportFiscalYear": 2024,
+    "outcomeAsOf": "2024-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "589f432a7bb34237b247c1c39376ca1a3a9722984856f409e79d81fddf8127c4",
+    "pdfMetadata": {
+      "CreationDate": "Mon Jul 28 12:15:51 2025 EDT",
+      "ModDate": "Tue Sep 30 09:32:19 2025 EDT"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  },
+  {
+    "id": "pdufa-2025",
+    "title": "FDA FY 2025 PDUFA Performance Report",
+    "url": "https://www.fda.gov/media/191112/download",
+    "reportFiscalYear": 2025,
+    "outcomeAsOf": "2025-09-30",
+    "retrievedAt": "2026-09-10",
+    "sha256": "0e1744fdf373841cd2d3f013c7796fe14fa87f4fa123a2dfcfc3abbae730fb8e",
+    "pdfMetadata": {
+      "CreationDate": "Mon Jan 26 10:57:45 2026 EST",
+      "ModDate": "Thu Feb 12 15:19:16 2026 EST"
+    },
+    "publicationDate": null,
+    "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+  }
+]

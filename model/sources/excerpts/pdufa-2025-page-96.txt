@@ -1,0 +1,69 @@
+ Proprietary Name                                                                      Cycle                    Total
+                                                               NME        Review                   Cycle                Goal
+   (Established                      Applicant                                          Time                    Time
+                                                               (Y/N)       Cycle                   Result               Met
+      Name)                                                                            (Mos.)                  (Mos.)
+ENSACOVE
+                          XCOVERY HOLDINGS INC                    Y         First        11.7        AP         11.7     Y
+(ensartinib)
+VIZZ (aceclidine)         LENZ THERAPEUTICS INC                   Y         First        11.7        AP         11.7     Y♦
+AUCATZYL
+(obecabtagene             AUTOLUS, INC.                           Y         First        11.7        AP         11.7     Y♦
+autoleucel)
+ATTRUBY
+                          BRIDGEBIO PHARMA INC                    Y         First        11.8        AP         11.8     Y♦
+(acoramidis)
+IOMERVU (iomeprol) 6      BRACCO DIAGNOSTICS INC                  Y         First        11.9        AP         11.9     Y♦
+TRYPTYR
+                          ALCON LABORATORIES INC                  Y         First        11.9        AP         11.9     Y♦
+(acoltremon)
+PENMENVY
+(meningococcal            GLAXOSMITHKLINE
+                                                                  Y         First        12.0        AP         12.0     Y♦
+groups a, b, c, w, and    BIOLOGICALS
+y vaccine)
+QIVIGY (immune
+globulin intravenous,
+                          KEDRION, S.P.A.                         Y         First        12.0        AP         12.0     Y♦
+human-kthm, 10%
+solution)
+HYMPAVZI
+                          PFIZER INC.                             Y         First        12.0        AP         12.0     Y♦
+(marsticimab-hncq)
+NEMLUVIO                  GALDERMA
+                                                                  Y         First        12.0        AP         12.0     Y♦
+(nemolizumab-ilto)        LABORATORIES, L.P.
+QFITLIA (fitusiran)       GENZYME CORP                            Y         First        12.0        AP         12.0     Y♦
+PALSONIFY                 CRINETICS
+                                                                  Y         First        12.0        AP         12.0     Y♦
+(paltusotine)             PHARMACEUTICALS INC
+ANZUPGO
+                          LEO PHARMA AS                           Y         First        12.0        AP         12.0     Y♦
+(delgocitinib)
+VANRAFIA                  NOVARTIS
+                                                                  Y         First        12.0        AP         12.0     Y♦
+(atrasentan)              PHARMACEUTICALS CORP
+DAWNZERA                  IONIS PHARMACEUTICALS
+                                                                  Y         First        12.0        AP         12.0     Y♦
+(donidalorsen)            INC
+SEPHIENCE
+                          PTC THERAPEUTICS INC                    Y         First        12.0        AP         12.0     Y♦
+(sepiapterin)
+WAYRILZ
+                          GENZYME CORP                            Y         First        12.0        AP         12.0     Y♦
+(rilzabrutinib)
+NILCEYA (nilotinib)       CIPLA LTD                               N         First        12.3        AP         12.3    Y#
+
+                                                                            First        10.0        CR         10.0     Y
+
+
+
+      6 NDA reviewed under the PDUFA V program. At time of receipt, the active ingredient Iomeprol had never been
+
+      approved in the United States, allowing for NME designation; however, at time of approval, iomeprol had already
+      been approved for marketing in another application
+
+
+
+
+      Appendix A                                                                                             Page A-8

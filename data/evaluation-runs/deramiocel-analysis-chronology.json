@@ -1,0 +1,110 @@
+{
+  "caseId": "deramiocel-analysis-chronology",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T17:52:56.982Z",
+  "mode": "original-documents-only",
+  "reasoningEffort": "high",
+  "question": "Capricor says HOPE-3 met its primary endpoint and has now submitted longer follow-up for a refined upper-limb indication. Does this dispose of FDA's July statistical objections? Reconcile the actual analyses and the chronology, and identify what remains unresolved.",
+  "answer": {
+    "answer": "## Bottom line\n**No—not on the supplied record as of September 10, 2026.** Capricor’s “met its primary endpoint” statement reflects its preferred analysis, not FDA’s July assessment of the prespecified analysis. The August amendment adds evidence for a different proposed indication; acceptance for review does not establish that FDA has accepted the analyses or resolved its objections. Conversely, July’s briefing was not a final determination and did not assess the subsequently submitted HOPE-3 extension efficacy data. [fda-deramiocel-briefing; capr-extension]\n\n## What the analyses actually showed\nFDA used the SAP 1.1 methodology underlying HOPE-3’s design and powering, **adding cohort as a covariate** because the two manufacturing cohorts were separately randomized. Thus, this was a SAP 1.1-based analysis, not an entirely unchanged implementation. [fda-deramiocel-briefing]\n\n| Analysis reported in FDA’s comparison | PUL 2.0 treatment difference | LVEF treatment difference |\n|---|---|---|\n| SAP 1.1-based FDA analysis, original missing-data handling | **0.66 points**, 95% CI −0.45 to 1.77; **p=0.24** | **−0.041 percentage points**, 95% CI −2.58 to 2.49; **p=0.97** |\n| SAP 3.0 model, original missing-data handling | 2.53 percentage-point difference in percent change; p=0.21 | 6.88 ranks; p=0.22 |\n| SAP 3.0 with changed missing-data/intercurrent-event handling | 4.16 percentage-point difference in percent change; p=0.045 | 9.51 ranks; p=0.09 |\n| Applicant’s CSR-modified SAP 3.0 analysis | **4.55 percentage-point difference in percent change; p=0.029** | **11.65 ranks; p=0.041** |\n\nSource: FDA Tables 7 and 9. These are different outcome scales—not interchangeable estimates of the same clinically interpretable effect. FDA classifies the secondary-endpoint p-values as nominal because the prespecified primary analysis failed. [fda-deramiocel-briefing]\n\nThe disagreement therefore is not simply whether a p-value is below 0.05:\n- **Endpoint and model changes:** PUL changed from absolute score change to percent change, alongside covariance-model and baseline-definition changes. LVEF changed from repeated-measures analysis of absolute change to an ANCOVA on ranks. FDA questioned the scientific justification and clinical interpretation of both transformations.\n- **Fragility to two placebo patients:** The later analyses assigned worst observed scores to one placebo patient withdrawing because of an adverse event and discarded observed post-medication data from another. Treated withdrawals recorded as withdrawal of consent remained under missing-at-random assumptions. Removing the contested handling eliminated significance even under the SAP 3.0 models.\n- **Additional CSR departures:** The PUL analysis retained a sparse “slow progressor” covariate that FDA said should have been omitted under the applicant’s criteria. The LVEF analysis added an unspecified age-by-baseline interaction. These distinguish the headline p=0.029 and p=0.041 results from SAP 3.0 itself.\n- **Selective LVEF inclusion:** The ranked analysis excluded 23/106 randomized patients, including six additional patients versus the original repeated-measures analysis. FDA noted that those additional exclusions removed a placebo patient doing well and several treated patients doing poorly.\n\nFDA also found that favorable analyses labeled SAP 1.7/2.0 did not faithfully implement those plans; its Table 7/9 SAP 2.0 comparisons remained nonsignificant. [fda-deramiocel-briefing]\n\n## Chronology matters\n1. **June 18, 2025:** HOPE-3’s randomized, placebo-controlled period ended. This is also the registry’s actual primary-completion date—not completion of all extension follow-up.\n2. **July 9, 2025:** The original, HOPE-2/HOPE-2-OLE-based BLA received a Complete Response Letter. This is distinct from the July 2026 statistical critique. FDA found those earlier studies insufficient to establish effectiveness.\n3. **August–November 2025:** FDA rejected an August proposal to replace HOPE-3’s primary endpoint with LVEF. SAP 2.0 followed on September 26; SAP 3.0 was finalized November 24, **after controlled follow-up ended but one day before formal database lock/unblinding on November 25**. FDA concurrence was not obtained. FDA identified departures from the blinding/statistical-development plan and possible functional unblinding from differential hypersensitivity reactions and crossover experience—not proof that assignments were actually known.\n4. **December 2025–February 2026:** A December 29 resubmission was deemed incomplete January 13; the February 20 resubmission supplied requested material, including the February 3 CSR containing further analytical departures.\n5. **July 2026:** FDA’s advisory-committee briefing addressed a cardiomyopathy indication but expressly criticized both cardiac and upper-limb efficacy. It stated that HOPE-3 extension efficacy data were not included in the reviewed resubmission.\n6. **August 24, 2026:** Capricor announced submission of 24-month open-label data and additional robustness analyses for an upper-limb-focused indication. It reported FDA acceptance as a major amendment and extension of the target action date from August 22 to **November 22, 2026**. This establishes a company-reported review development, not a favorable outcome. [fda-deramiocel-briefing; trial-hope3; capr-extension]\n\nThe sponsor-maintained registry, updated August 28, lists percent change in its primary-outcome field while its detailed description still says mean change. It posts no results. That current entry cannot establish what was prospectively specified or FDA-approved. [trial-hope3]\n\n## What the amendment can—and cannot—resolve\n**Inference:** An upper-limb indication better matches HOPE-3’s original functional objective and could reduce reliance on the disputed cardiac evidence. But July’s objections already encompassed PUL, so the indication change does not bypass them. Longer follow-up may inform durability and safety, but months 12–24 are open-label, with both original groups eligible for active treatment—not another year of blinded placebo comparison. FDA specifically notes PUL’s susceptibility to effort and assessment bias under open-label conditions. Longer observation cannot retroactively prespecify the original analysis. [fda-deramiocel-briefing; trial-hope3; capr-extension]\n\nStill unresolved are robustness under defensible analyses, clinically meaningful absolute functional benefit, the appropriate indicated population, adequacy of confirmatory evidence, and benefit–risk including hypersensitivity. For any retained cardiac claim, missing imaging, abandonment of the planned adjudicated reading process, measurement variability, and uncertain clinical meaning remain additional issues. The supplied documents establish neither that the amendment cures these problems nor that FDA will necessarily reject it. [fda-deramiocel-briefing; capr-extension]",
+    "claims": [
+      {
+        "claim": "FDA’s SAP 1.1-based analysis, with an added cohort covariate, yielded PUL p=0.24 and LVEF p=0.97; these differ from the applicant’s CSR-modified analyses yielding p=0.029 and p=0.041.",
+        "sourceIds": [
+          "fda-deramiocel-briefing"
+        ]
+      },
+      {
+        "claim": "FDA’s comparisons distinguish SAP 3.0 itself from the CSR modifications and show loss of significance when the original missing-data handling is applied.",
+        "sourceIds": [
+          "fda-deramiocel-briefing"
+        ]
+      },
+      {
+        "claim": "The major HOPE-3 SAP revisions occurred after controlled follow-up ended but before formal database unblinding; FDA nevertheless considered them post hoc and identified blinding-plan deviations and possible functional unblinding.",
+        "sourceIds": [
+          "fda-deramiocel-briefing"
+        ]
+      },
+      {
+        "claim": "The July 2025 Complete Response Letter concerned the earlier HOPE-2-based submission; the July 2026 briefing evaluated the HOPE-3 resubmission and was not a final FDA determination.",
+        "sourceIds": [
+          "fda-deramiocel-briefing"
+        ]
+      },
+      {
+        "claim": "Capricor reported an August amendment containing 24-month HOPE-3 open-label data and robustness analyses for an upper-limb-focused indication, accepted for review as a major amendment with a November 22, 2026 target date.",
+        "sourceIds": [
+          "capr-extension"
+        ]
+      },
+      {
+        "claim": "HOPE-3’s post-month-12 follow-up is open-label, with active treatment available to both original randomized groups; extension efficacy data were absent from the resubmission assessed in the July briefing.",
+        "sourceIds": [
+          "trial-hope3",
+          "fda-deramiocel-briefing"
+        ]
+      },
+      {
+        "claim": "The current sponsor-maintained registry contains differing primary-endpoint descriptions and no posted results; it does not independently establish historical statistical prespecification or regulatory acceptance.",
+        "sourceIds": [
+          "trial-hope3"
+        ]
+      },
+      {
+        "claim": "Analytical inference: the upper-limb proposal changes the regulatory focus but does not by itself resolve FDA’s existing objections to the PUL analyses or establish an acceptable benefit–risk balance.",
+        "sourceIds": [
+          "fda-deramiocel-briefing",
+          "capr-extension",
+          "trial-hope3"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "The supplied documents do not disclose the amendment’s numerical 24-month results, participant retention, detailed robustness methods, or exact proposed label and population.",
+      "No subsequent FDA assessment of the amendment, final advisory-committee voting record, or final regulatory determination is supplied.",
+      "FDA’s July blinding concerns establish a risk of bias, not demonstrated knowledge of treatment assignments or intentional manipulation; sponsor inspections were still ongoing when the briefing was prepared.",
+      "Failure of the FDA-preferred analyses to demonstrate effectiveness does not prove zero biological effect. Whether the expanded evidence meets the approval standard remains unresolved.",
+      "November 22, 2026 is a company-reported target action date, not evidence of approval or assurance of action on that date."
+    ]
+  },
+  "documents": [
+    {
+      "id": "fda-deramiocel-briefing",
+      "title": "FDA: deramiocel July 2026 advisory-committee briefing",
+      "url": "https://www.fda.gov/media/193839/download",
+      "characters": 159395,
+      "sha256": "a5c4cb19ae6c00fb24d5a039a6b3326f69a6302d1f7432247f4df4743081317b"
+    },
+    {
+      "id": "capr-extension",
+      "title": "Capricor: deramiocel extension and refined indication",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "characters": 9263,
+      "sha256": "37086b630401b66941da9f990d1287f44f56cb553189220662a5e67e5a6957c6"
+    },
+    {
+      "id": "trial-hope3",
+      "title": "ClinicalTrials.gov: HOPE-3",
+      "url": "https://clinicaltrials.gov/study/NCT05126758",
+      "characters": 22328,
+      "sha256": "272ade82142e18cd847b05109544d861cc4a941647e99d0d8faa422b7ee3b30a"
+    }
+  ],
+  "inputSha256": "47910218c5e8fc74e9de007ce1ee147cc92c91d5ad13eb9470934374252326bd",
+  "usage": {
+    "input_tokens": 48268,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 48265
+    },
+    "output_tokens": 3815,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 52083
+  },
+  "durationMs": 86284,
+  "gradingStatus": "ungraded",
+  "method": "No candidate summaries, curated signals, expected facts or grading rubric supplied. Current retrieved documents, not a historical forecast backtest."
+}

@@ -1,0 +1,88 @@
+{
+  "caseId": "bimo-manufacturing-scope",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T17:48:37.398Z",
+  "mode": "original-documents-only",
+  "reasoningEffort": "high",
+  "question": "Praxis says the FDA inspection ended with no Form 483 and the mid-cycle meeting found no major concerns. Can we now treat relutrigine's manufacturing risk as cleared? Explain the defensible conclusion and what evidence is still needed, as of September 10, 2026.",
+  "answer": {
+    "answer": "No. As of September 10, 2026, the defensible conclusion is: favorable company-reported regulatory milestones, but relutrigine’s manufacturing/CMC risk is not established as cleared. This is an evidence gap—not evidence of a manufacturing defect.\n\nThe inspection’s scope matters. Praxis described BIMO sponsor inspections covering its quality and clinical operations, data integrity, statistical/interim analyses and safety, with no Form FDA 483 issued. The supplied disclosure does not establish a clean manufacturing-site/cGMP inspection or completion of the chemistry, manufacturing and controls (CMC) review. Likewise, the mid-cycle statement was specifically “no major safety or efficacy concerns to date,” not clearance of all regulatory issues. [prax-q2-2026]\n\nThere is additional, limited reassurance: Praxis said FDA cited no safety or manufacturing concerns when extending the review for additional sensitivity analyses of existing clinical data. That supports the stated explanation for the extension; it does not affirmatively establish manufacturing acceptability. These are Praxis’s reports of FDA interactions, not supplied FDA inspection reports or review conclusions. [prax-rel-extension]\n\nTo support manufacturing clearance, seek relutrigine-specific evidence of:\n• FDA’s CMC/quality review disposition and resolution of any approval-blocking deficiencies.\n• The identity and FDA acceptability status of relevant manufacturing and testing sites, including required preapproval/cGMP inspection or assessment outcomes and resolution of findings—or confirmation that further inspection is unnecessary.\n• The final FDA action and supporting quality-review documentation to establish the actual approval outcome.\n\nThose are evidence requirements, not findings established here. December 27, 2026 is a target action date, not an approval commitment. Praxis also said it would stop regulatory updates until the expected PDUFA dates, so subsequent silence cannot be treated as confirmation that manufacturing issues are absent or resolved. [prax-q2-2026; prax-rel-extension]",
+    "claims": [
+      {
+        "claim": "Praxis reported that FDA BIMO inspections of its operations for relutrigine and ulixacaltamide covered quality and clinical operations, data integrity, statistical/interim analyses and safety, and concluded with no Form FDA 483 issued.",
+        "sourceIds": [
+          "prax-q2-2026"
+        ]
+      },
+      {
+        "claim": "Praxis reported no major safety or efficacy concerns to date at relutrigine’s mid-cycle meeting and no planned advisory committee meeting; it did not report a blanket clearance of manufacturing or all review issues.",
+        "sourceIds": [
+          "prax-q2-2026"
+        ]
+      },
+      {
+        "claim": "Praxis attributed the three-month extension to additional sensitivity analyses deemed a major amendment, reported no new clinical studies requested, and said FDA cited no safety or manufacturing concerns in that context.",
+        "sourceIds": [
+          "prax-rel-extension"
+        ]
+      },
+      {
+        "claim": "Analytical conclusion: the disclosed BIMO outcome, mid-cycle feedback and extension explanation do not establish completed CMC review or manufacturing-site acceptability, but also do not demonstrate a manufacturing defect.",
+        "sourceIds": [
+          "prax-q2-2026",
+          "prax-rel-extension"
+        ]
+      },
+      {
+        "claim": "The reported relutrigine PDUFA target is December 27, 2026; neither supplied document establishes an approval outcome.",
+        "sourceIds": [
+          "prax-rel-extension",
+          "prax-q2-2026"
+        ]
+      },
+      {
+        "claim": "Praxis announced that it did not intend to provide further regulatory updates until the expected PDUFA dates; inference: silence is not affirmative evidence of clearance.",
+        "sourceIds": [
+          "prax-q2-2026"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "The supplied record does not identify relevant manufacturing/testing sites or establish their inspection requirements, findings, final dispositions or FDA acceptability for relutrigine.",
+      "Whether FDA has completed the CMC review, identified outstanding deficiencies or accepted any responses is not established.",
+      "No direct FDA correspondence, inspection report, final quality assessment or final NDA action is supplied; the case-specific FDA interactions are reported by Praxis."
+    ]
+  },
+  "documents": [
+    {
+      "id": "prax-q2-2026",
+      "title": "Praxis: August regulatory update filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+      "characters": 20529,
+      "sha256": "0816142cc934808b186bd0acf506ac2c1bf1f55e6320126eb6e674be03c94c8d"
+    },
+    {
+      "id": "prax-rel-extension",
+      "title": "Praxis: relutrigine three-month extension",
+      "url": "https://investors.praxismedicines.com/node/11541/pdf",
+      "characters": 4932,
+      "sha256": "8c8811b8ef5b73ad2553d7be3fa0023b57f0bc88da43e59748dc57746f2c7358"
+    }
+  ],
+  "inputSha256": "1cad36c35b30e3b79c1005b7d9bb766b9755195f597ca8b57fb45972ddcdde06",
+  "usage": {
+    "input_tokens": 6427,
+    "input_tokens_details": {
+      "cache_write_tokens": 6424,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1398,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 7825
+  },
+  "durationMs": 32305,
+  "gradingStatus": "ungraded",
+  "method": "No candidate summaries, curated signals, expected facts or grading rubric supplied. Current retrieved documents, not a historical forecast backtest."
+}

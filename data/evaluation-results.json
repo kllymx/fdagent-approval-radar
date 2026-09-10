@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-10",
+  "reviewedAt": "2026-09-10T17:56:02.981707+00:00",
+  "suiteArtifact": "data/evaluation-cases.json",
+  "suiteSha256": "6418e522e1c8a14603a608b83a506db24f84ba9312fde925f9986fc43473a29d",
+  "evaluationType": "manual-agent-source-grounded-review",
+  "reviewer": {
+    "role": "Separate research agent in the same hackathon project",
+    "humanExpertReview": false,
+    "blindToModelIdentity": false,
+    "rubricAuthorAlsoGraded": true
+  },
+  "protocol": {
+    "answeringModel": "gpt-6-astra",
+    "answerInput": "Question, cutoff, and original extracted public-document text with source IDs, titles and URLs. No candidate summaries, curated signals, expected facts or critical-overclaim rubric.",
+    "sourceSelection": "Evaluator-selected sources; no autonomous search tools in this five-case experiment. The separate live investigations do use retrieval/search.",
+    "harnessReviewed": "scripts/evaluate.ts",
+    "harnessReview": "Inspected construction of input and API payload; rubric fields are excluded. Structured output and source-ID validity are checked by code; semantic grading is manual.",
+    "gradingLabels": {
+      "met": "The answer states the substantive criterion with grounded support. Exact rubric wording is not required.",
+      "partially_met": "The answer supports part of the criterion but omits an explicitly requested distinction.",
+      "not_met": "The criterion is absent, contradicted or not supported by the supplied evidence."
+    },
+    "outputPointers": "RFC 6901-style JSON pointers into the public run record; array indexes are zero-based. Excerpts are exact substrings of model output.",
+    "hashes": "Document SHA-256 hashes refer to the extracted text supplied to the model. inputSha256 is copied from the harness hash of its complete serialized input. answerSha256 hashes UTF-8 JSON of the answer object with sorted keys, no extra whitespace, and unescaped Unicode.",
+    "modelComparison": "No other-model baseline or curated-summary ablation was executed.",
+    "completionPolicy": "Completed answers were retained without answer editing or selection among multiple completed answers. Existing completed cases were skipped on restart."
+  },
+  "attemptNotes": [
+    {
+      "caseId": "deramiocel-analysis-chronology",
+      "status": "incomplete_initial_attempt",
+      "maxOutputTokens": 4500,
+      "provenance": "Run coordinator report; initial harness threw before persisting the incomplete response.",
+      "detail": "Initial deramiocel attempt did not complete at the 4500-token output cap. The cap was raised to 12000 for remaining cases, including this retry. The incomplete answer, exact failure details, token usage and latency were not retained and cannot be audited here. No completed answer was rejected to select a better answer."
+    }
+  ],
+  "summary": {
+    "completedCases": 5,
+    "expectedCriteria": 20,
+    "criterionCounts": {
+      "met": 19,
+      "partially_met": 1,
+      "not_met": 0
+    },
+    "listedCriticalOverclaimsObserved": 0,
+    "listedCriticalOverclaimsChecked": 14,
+    "interpretation": "19 distinctions met and one partially met on five selected questions. These counts describe rubric coverage, not representative accuracy, an approval forecast or comparative model superiority.",
+    "completedResponsesOnly": {
+      "inputTokens": 121146,
+      "outputTokens": 11405,
+      "summedDurationMs": 258746
+    }
+  },
+  "limitations": [
+    "Small deliberately selected challenge set; sources and expected distinctions were chosen by the project research agent.",
+    "Manual same-project agent grading, not blinded independent human or clinical/statistical expert review.",
+    "No comparison model or ablation, and no prospective approval outcome evaluation.",
+    "Review focused on expected distinctions and consequential additional claims, not an exhaustive audit of every sentence or underlying trial data.",
+    "Current retrieved documents may have changed since earlier milestones; source hashes preserve inputs but do not make this a historical backtest.",
+    "Five completed responses are preserved, but incomplete-attempt usage and output were not captured; total evaluation cost and latency are therefore not reported."
+  ],
+  "cases": [
+    {
+      "caseId": "bimo-manufacturing-scope",
+      "candidateId": "relutrigine-dee",
+      "outputArtifact": "data/evaluation-runs/bimo-manufacturing-scope.json",
+      "provenance": {
+        "model": "gpt-6-astra",
+        "createdAt": "2026-09-10T17:48:37.398Z",
+        "mode": "original-documents-only",
+        "reasoningEffort": "high",
+        "durationMs": 32305,
+        "usage": {
+          "input_tokens": 6427,
+          "input_tokens_details": {
+            "cache_write_tokens": 6424,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1398,
+          "output_tokens_details": {
+            "reasoning_tokens": 516
+          },
+          "total_tokens": 7825
+        },
+        "inputSha256": "1cad36c35b30e3b79c1005b7d9bb766b9755195f597ca8b57fb45972ddcdde06",
+        "documents": [
+          {
+            "id": "prax-q2-2026",
+            "title": "Praxis: August regulatory update filed with SEC",
+            "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+            "characters": 20529,
+            "sha256": "0816142cc934808b186bd0acf506ac2c1bf1f55e6320126eb6e674be03c94c8d"
+          },
+          {
+            "id": "prax-rel-extension",
+            "title": "Praxis: relutrigine three-month extension",
+            "url": "https://investors.praxismedicines.com/node/11541/pdf",
+            "characters": 4932,
+            "sha256": "8c8811b8ef5b73ad2553d7be3fa0023b57f0bc88da43e59748dc57746f2c7358"
+          }
+        ],
+        "answerSha256": "0351bc0279dc3a64445712ddc4dec4156cf7bc4cc8ddbfc9179dc666bcce7cab",
+        "completedAttemptMaxOutputTokens": 4500
+      },
+      "criteria": [
+        {
+          "criterionId": "bimo-scope",
+          "expectedFact": "The inspection described was a BIMO sponsor inspection concerning clinical operations/data integrity, not a drug-manufacturing facility inspection.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/0/claim",
+              "excerpt": "BIMO inspections"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "does not establish a clean manufacturing-site/cGMP inspection"
+            }
+          ],
+          "sourceIds": [
+            "prax-q2-2026"
+          ],
+          "rationale": "The answer names sponsor BIMO scope and explicitly distinguishes manufacturing-site inspection."
+        },
+        {
+          "criterionId": "reporting-party",
+          "expectedFact": "The clean-inspection and mid-cycle statements are reported by Praxis, including in an SEC-filed exhibit; they are not an independent final FDA approval determination.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "These are Praxis’s reports of FDA interactions"
+            },
+            {
+              "pointer": "/answer/uncertainties/2",
+              "excerpt": "the case-specific FDA interactions are reported by Praxis"
+            }
+          ],
+          "sourceIds": [
+            "prax-q2-2026"
+          ],
+          "rationale": "Sponsor attribution is explicit; it does not turn the SEC-filed release into a final FDA determination."
+        },
+        {
+          "criterionId": "notice-scope",
+          "expectedFact": "No manufacturing concerns cited in the extension correspondence does not establish full CMC or manufacturing clearance; the actual manufacturing assessment remains unknown here.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "it does not affirmatively establish manufacturing acceptability"
+            },
+            {
+              "pointer": "/answer/claims/3/claim",
+              "excerpt": "do not establish completed CMC review or manufacturing-site acceptability"
+            }
+          ],
+          "sourceIds": [
+            "prax-rel-extension",
+            "prax-q2-2026"
+          ],
+          "rationale": "The extension statement is kept within its reported context; unknown manufacturing review is not asserted clear or defective."
+        },
+        {
+          "criterionId": "required-evidence",
+          "expectedFact": "A conclusion on manufacturing readiness would require candidate/facility-specific CMC review or inspection outcome evidence, or the final FDA action; no approval probability follows from these statements alone.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "FDA’s CMC/quality review disposition"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "The identity and FDA acceptability status of relevant manufacturing and testing sites"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "a target action date, not an approval commitment"
+            }
+          ],
+          "sourceIds": [
+            "prax-q2-2026"
+          ],
+          "rationale": "The answer specifies the missing candidate/facility review evidence and final action; it assigns no numerical approval probability."
+        }
+      ],
+      "criticalOverclaims": [
+        {
+          "claim": "Manufacturing is cleared because the BIMO inspection had no Form 483.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/3/claim",
+            "/answer/claims/4/claim"
+          ]
+        },
+        {
+          "claim": "A favorable mid-cycle meeting guarantees approval.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/3/claim",
+            "/answer/claims/4/claim"
+          ]
+        }
+      ],
+      "additionalChecks": [],
+      "missingOrPartialCriteria": []
+    },
+    {
+      "caseId": "deramiocel-analysis-chronology",
+      "candidateId": "deramiocel-dmd",
+      "outputArtifact": "data/evaluation-runs/deramiocel-analysis-chronology.json",
+      "provenance": {
+        "model": "gpt-6-astra",
+        "createdAt": "2026-09-10T17:52:56.982Z",
+        "mode": "original-documents-only",
+        "reasoningEffort": "high",
+        "durationMs": 86284,
+        "usage": {
+          "input_tokens": 48268,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 48265
+          },
+          "output_tokens": 3815,
+          "output_tokens_details": {
+            "reasoning_tokens": 1552
+          },
+          "total_tokens": 52083
+        },
+        "inputSha256": "47910218c5e8fc74e9de007ce1ee147cc92c91d5ad13eb9470934374252326bd",
+        "documents": [
+          {
+            "id": "fda-deramiocel-briefing",
+            "title": "FDA: deramiocel July 2026 advisory-committee briefing",
+            "url": "https://www.fda.gov/media/193839/download",
+            "characters": 159395,
+            "sha256": "a5c4cb19ae6c00fb24d5a039a6b3326f69a6302d1f7432247f4df4743081317b"
+          },
+          {
+            "id": "capr-extension",
+            "title": "Capricor: deramiocel extension and refined indication",
+            "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+            "characters": 9263,
+            "sha256": "37086b630401b66941da9f990d1287f44f56cb553189220662a5e67e5a6957c6"
+          },
+          {
+            "id": "trial-hope3",
+            "title": "ClinicalTrials.gov: HOPE-3",
+            "url": "https://clinicaltrials.gov/study/NCT05126758",
+            "characters": 22328,
+            "sha256": "272ade82142e18cd847b05109544d861cc4a941647e99d0d8faa422b7ee3b30a"
+          }
+        ],
+        "answerSha256": "c08ca00ceb30829597648327bf5292ee4c70d8bc3f4a49e532a4692321f2281e",
+        "completedAttemptMaxOutputTokens": 12000
+      },
+      "criteria": [
+        {
+          "criterionId": "analysis-disagreement",
+          "expectedFact": "FDA Appendix Table 12 (printed page 52) reports p=0.11 under SAP 1.1 and p=0.045 under SAP 3.0, with sensitivity to analysis and missing-data handling; these are not interchangeable results.",
+          "weight": 1,
+          "status": "partially_met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/0/claim",
+              "excerpt": "yielded PUL p=0.24 and LVEF p=0.97"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "4.16 percentage-point difference in percent change; p=0.045"
+            },
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "show loss of significance when the original missing-data handling is applied"
+            }
+          ],
+          "sourceIds": [
+            "fda-deramiocel-briefing"
+          ],
+          "rationale": "The answer correctly reconstructs FDA Tables 7 and 9, differing scales, SAP 3.0 versus CSR modifications, and missing-data sensitivity. It omits the specifically expected Appendix Table 12 SAP 1.1 p=0.11 comparison. This is incomplete coverage of the authored criterion, not an erroneous substitution: Table 7 separately reports p=0.24 without the later imputation and p=0.11 with it."
+        },
+        {
+          "criterionId": "chronology",
+          "expectedFact": "The blinded treatment period ended June 18, 2025; SAP 2.0 and 3.0 were dated September 26 and November 24. These revisions were after study completion, but the record lists database lock/unblinding November 25. Do not equate post-completion with proven post-unblinding.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "**June 18, 2025:**"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "SAP 2.0 followed on September 26; SAP 3.0 was finalized November 24"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "one day before formal database lock/unblinding on November 25"
+            }
+          ],
+          "sourceIds": [
+            "fda-deramiocel-briefing"
+          ],
+          "rationale": "The sequence is exact, with post-completion changes distinguished from proven post-unblinding changes. The answer separately identifies the later CSR modifications."
+        },
+        {
+          "criterionId": "new-scope",
+          "expectedFact": "July's FDA briefing addresses the then-proposed cardiomyopathy indication. The August amendment proposes an upper-limb-function focus and adds 24-month open-label follow-up; it requires a fresh assessment without automatically resolving statistical concerns.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "FDA’s advisory-committee briefing addressed a cardiomyopathy indication but expressly criticized both cardiac and upper-limb efficacy"
+            },
+            {
+              "pointer": "/answer/claims/4/claim",
+              "excerpt": "24-month HOPE-3 open-label data and robustness analyses for an upper-limb-focused indication"
+            },
+            {
+              "pointer": "/answer/claims/7/claim",
+              "excerpt": "does not by itself resolve FDA’s existing objections to the PUL analyses"
+            }
+          ],
+          "sourceIds": [
+            "fda-deramiocel-briefing",
+            "capr-extension"
+          ],
+          "rationale": "The earlier indication, later amendment, open-label follow-up and unresolved statistical objections are all distinguished."
+        },
+        {
+          "criterionId": "not-final",
+          "expectedFact": "The FDA briefing is a pre-advisory-committee assessment, not a final decision on the subsequent amendment. Review was extended to November 22, 2026.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/3/claim",
+              "excerpt": "was not a final FDA determination"
+            },
+            {
+              "pointer": "/answer/uncertainties/4",
+              "excerpt": "November 22, 2026 is a company-reported target action date"
+            }
+          ],
+          "sourceIds": [
+            "fda-deramiocel-briefing",
+            "capr-extension"
+          ],
+          "rationale": "The answer does not convert the pre-meeting briefing into a final rejection of the later amendment and states the revised target."
+        }
+      ],
+      "criticalOverclaims": [
+        {
+          "claim": "FDA's July critique is irrelevant because the sponsor submitted new data.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/3/claim",
+            "/answer/claims/7/claim"
+          ]
+        },
+        {
+          "claim": "The sponsor's statistically significant analysis by itself establishes effectiveness.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/3/claim",
+            "/answer/claims/7/claim"
+          ]
+        },
+        {
+          "claim": "All statistical-plan changes were made after unblinding.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/3/claim",
+            "/answer/claims/7/claim"
+          ]
+        },
+        {
+          "claim": "FDA has already rejected the August amended indication.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/3/claim",
+            "/answer/claims/7/claim"
+          ]
+        }
+      ],
+      "additionalChecks": [
+        {
+          "status": "verified",
+          "claimPointers": [
+            "/answer/answer",
+            "/answer/claims/0/claim"
+          ],
+          "note": "FDA Tables 7/9 confirm the numerical analysis table, separate effect scales, added cohort covariate and CSR-modified models. The 83-subject ranked LVEF analysis versus 106 randomized and 89 in the original repeated-measures analysis supports 23 total exclusions and six additional exclusions."
+        },
+        {
+          "status": "verified",
+          "claimPointers": [
+            "/answer/claims/2/claim",
+            "/answer/uncertainties/2"
+          ],
+          "note": "FDA printed pages 32–34 and regulatory history confirm the dates; functional unblinding is a possibility, not demonstrated knowledge or manipulation."
+        }
+      ],
+      "missingOrPartialCriteria": [
+        "analysis-disagreement"
+      ]
+    },
+    {
+      "caseId": "dplex-endpoint-population",
+      "candidateId": "dplex100-ssi",
+      "outputArtifact": "data/evaluation-runs/dplex-endpoint-population.json",
+      "provenance": {
+        "model": "gpt-6-astra",
+        "createdAt": "2026-09-10T17:49:45.490Z",
+        "mode": "original-documents-only",
+        "reasoningEffort": "high",
+        "durationMs": 68089,
+        "usage": {
+          "input_tokens": 34949,
+          "input_tokens_details": {
+            "cache_write_tokens": 34946,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2911,
+          "output_tokens_details": {
+            "reasoning_tokens": 1552
+          },
+          "total_tokens": 37860
+        },
+        "inputSha256": "42bb4fd3465fb9acd722d9edbee98f6cfa34f25416bc1ec6ca3047bd0db9703f",
+        "documents": [
+          {
+            "id": "polypid-q2",
+            "title": "PolyPid: priority-review acceptance and updated target",
+            "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-provides-corporate-update-and-reports-second-quarter-3",
+            "characters": 33765,
+            "sha256": "4551edc211a9bb11276990930465b9ce14968dce24c6c370431d57d09260865a"
+          },
+          {
+            "id": "trial-shield2",
+            "title": "ClinicalTrials.gov: SHIELD II",
+            "url": "https://clinicaltrials.gov/study/NCT04411199",
+            "characters": 57837,
+            "sha256": "2303bcbb5fba42c68ccb7182816504e3ff2d905e4dbf28972d55175a10da2377"
+          },
+          {
+            "id": "polypid-submission",
+            "title": "PolyPid: completed D-PLEX100 NDA submission",
+            "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-completes-new-drug-application-submission-fda-d-plex100",
+            "characters": 13495,
+            "sha256": "d2e14c57e7483d713fe4fc0733c1b2f3781fa3112efea3547c1daacef9727e73"
+          }
+        ],
+        "answerSha256": "ef9a264119bb02a3aedb2dca885a532c189f1a7774c36e8e85e30a435f638f63",
+        "completedAttemptMaxOutputTokens": 4500
+      },
+      "criteria": [
+        {
+          "criterionId": "composite",
+          "expectedFact": "The registered primary endpoint is a composite treatment-failure measure including SSI, target-incision re-intervention and death within 30 days, rather than SSI alone.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "target-incision SSI, target-incision re-intervention, or death from any cause within 30 days"
+            }
+          ],
+          "sourceIds": [
+            "trial-shield2"
+          ],
+          "rationale": "The three-component primary endpoint and 30-day window are explicit."
+        },
+        {
+          "criterionId": "subgroup",
+          "expectedFact": "The primary analysis population specifies target incision length greater than 20 cm. The total 975 enrollment is not automatically that analysis population.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "target incision length >20 cm, 405 D-PLEX-plus-SoC and 393 SoC participants were analyzed"
+            },
+            {
+              "pointer": "/answer/claims/3/claim",
+              "excerpt": "All randomized population"
+            }
+          ],
+          "sourceIds": [
+            "trial-shield2"
+          ],
+          "rationale": "The answer distinguishes 798 in the primary analysis, 768 in the evaluable SSI analysis and 975 randomized. The registry denominators independently match."
+        },
+        {
+          "criterionId": "scope",
+          "expectedFact": "The current application is prevention after abdominal colorectal surgery; one cannot generalize its evidence to every abdominal surgery.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/6/claim",
+              "excerpt": "seeking SSI prevention in abdominal colorectal surgery"
+            },
+            {
+              "pointer": "/answer/claims/5/claim",
+              "excerpt": "Benefit for every abdominal procedure, excluded patient group, demographic subgroup or individual is not established"
+            }
+          ],
+          "sourceIds": [
+            "polypid-submission",
+            "polypid-q2"
+          ],
+          "rationale": "It limits generalization to the trial/application scope and identifies relevant exclusions."
+        },
+        {
+          "criterionId": "relative",
+          "expectedFact": "The sponsor reports a 60% relative SSI reduction; this is not a 60-percentage-point absolute reduction and should be accompanied by outcome/population-specific absolute rates if available.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/2/claim",
+              "excerpt": "Rates were 3.8% versus 9.5%"
+            },
+            {
+              "pointer": "/answer/claims/2/claim",
+              "excerpt": "1−3.8/9.5=60%"
+            },
+            {
+              "pointer": "/answer/claims/2/claim",
+              "excerpt": "about six percentage points, not 60 percentage points"
+            }
+          ],
+          "sourceIds": [
+            "polypid-q2"
+          ],
+          "rationale": "Both relative and absolute effects are given for the correct SSI-only population, with the separately reported adjusted risk difference preserved."
+        }
+      ],
+      "criticalOverclaims": [
+        {
+          "claim": "The primary endpoint proves a 60% benefit in all 975 patients across every abdominal surgery.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/1/claim",
+            "/answer/claims/2/claim",
+            "/answer/claims/5/claim"
+          ]
+        },
+        {
+          "claim": "SSI risk fell by 60 percentage points.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/1/claim",
+            "/answer/claims/2/claim",
+            "/answer/claims/5/claim"
+          ]
+        }
+      ],
+      "additionalChecks": [
+        {
+          "status": "verified",
+          "claimPointers": [
+            "/answer/claims/1/claim",
+            "/answer/claims/2/claim",
+            "/answer/claims/3/claim"
+          ],
+          "note": "Registry JSON confirms primary n=405+393, SSI evaluable n=391+377, randomized n=487+488, rates 10.9/18.1 and 3.8/9.5, and reported p-values/intervals."
+        },
+        {
+          "status": "verified",
+          "claimPointers": [
+            "/answer/uncertainties/2"
+          ],
+          "note": "The source labels a negative -6.3 estimate and negative limits as Risk Ratio (RR). The answer correctly flags that source inconsistency and distinguishes the difference calculated from displayed rates."
+        }
+      ],
+      "missingOrPartialCriteria": []
+    },
+    {
+      "caseId": "relutrigine-target-revision",
+      "candidateId": "relutrigine-dee",
+      "outputArtifact": "data/evaluation-runs/relutrigine-target-revision.json",
+      "provenance": {
+        "model": "gpt-6-astra",
+        "createdAt": "2026-09-10T17:51:54.295Z",
+        "mode": "original-documents-only",
+        "reasoningEffort": "high",
+        "durationMs": 23560,
+        "usage": {
+          "input_tokens": 7936,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 7933
+          },
+          "output_tokens": 1087,
+          "output_tokens_details": {
+            "reasoning_tokens": 430
+          },
+          "total_tokens": 9023
+        },
+        "inputSha256": "a6909ec89b84e397751312303c68c2dbcfe874874ad3431d1579e24ab6fe3749",
+        "documents": [
+          {
+            "id": "prax-rel-acceptance",
+            "title": "Praxis: relutrigine NDA acceptance",
+            "url": "https://investors.praxismedicines.com/node/11301/pdf",
+            "characters": 6731,
+            "sha256": "403800990502ef02873f4eaebddf3ef2e566bd83a4a34a673e6c09accdd316d1"
+          },
+          {
+            "id": "prax-rel-extension",
+            "title": "Praxis: relutrigine three-month extension",
+            "url": "https://investors.praxismedicines.com/node/11541/pdf",
+            "characters": 4932,
+            "sha256": "8c8811b8ef5b73ad2553d7be3fa0023b57f0bc88da43e59748dc57746f2c7358"
+          },
+          {
+            "id": "prax-q2-2026",
+            "title": "Praxis: August regulatory update filed with SEC",
+            "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+            "characters": 20529,
+            "sha256": "0816142cc934808b186bd0acf506ac2c1bf1f55e6320126eb6e674be03c94c8d"
+          }
+        ],
+        "answerSha256": "57183ed73b32a180cec951399073866e99b673b2502a485b7c71dca271d8c642",
+        "completedAttemptMaxOutputTokens": 12000
+      },
+      "criteria": [
+        {
+          "criterionId": "latest-date",
+          "expectedFact": "Display December 27, 2026 as the latest reported FDA action target; September 27 is superseded.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "December 27, 2026 — PDUFA target action date; NDA under review"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "September 27, 2026 only as the superseded historical target"
+            }
+          ],
+          "sourceIds": [
+            "prax-rel-extension",
+            "prax-q2-2026"
+          ],
+          "rationale": "The current target supersedes the March-reported date, and the August confirmation is cited."
+        },
+        {
+          "criterionId": "amendment",
+          "expectedFact": "Praxis disclosed a three-month extension on June 29 after sensitivity analyses of existing clinical data were classified as a major amendment.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "June 29 announcement explicitly replaced September 27 with December 27, 2026"
+            },
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "additional sensitivity analyses of existing clinical data as a major amendment"
+            }
+          ],
+          "sourceIds": [
+            "prax-rel-extension"
+          ],
+          "rationale": "The announcement date, three-month timing change and reason are correctly joined."
+        },
+        {
+          "criterionId": "scope-of-concerns",
+          "expectedFact": "Praxis said no new study was requested and the extension notice cited no safety or manufacturing concerns; these are scoped sponsor reports, not proof all concerns are absent.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/1/claim",
+              "excerpt": "no new clinical studies were requested, and FDA cited no safety or manufacturing concerns"
+            },
+            {
+              "pointer": "/answer/uncertainties/0",
+              "excerpt": "All supplied regulatory updates are company reports"
+            },
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "neither those findings nor the target date establish approval"
+            }
+          ],
+          "sourceIds": [
+            "prax-rel-extension"
+          ],
+          "rationale": "The no-new-study and no-cited-concern statements are sponsor-attributed and bounded, not treated as comprehensive clearance."
+        },
+        {
+          "criterionId": "no-probability-from-target",
+          "expectedFact": "An action target is not an approval date or approval probability. An extension establishes a timing change but is insufficient on its own to assign a numerical approval probability.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/answer",
+              "excerpt": "The extension alone does not establish a higher or lower chance of approval"
+            },
+            {
+              "pointer": "/answer/uncertainties/1",
+              "excerpt": "the evidence does not establish that approval odds are unchanged either"
+            }
+          ],
+          "sourceIds": [
+            "prax-rel-extension"
+          ],
+          "rationale": "It correctly separates a timing update from an approval probability, including the subtle point that insufficient evidence of change does not prove unchanged odds."
+        }
+      ],
+      "criticalOverclaims": [
+        {
+          "claim": "September 27 remains the current target.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/3/claim",
+            "/answer/uncertainties/1"
+          ]
+        },
+        {
+          "claim": "FDA approval is scheduled for December 27.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/3/claim",
+            "/answer/uncertainties/1"
+          ]
+        },
+        {
+          "claim": "A three-month extension alone establishes a calibrated approval probability.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/3/claim",
+            "/answer/uncertainties/1"
+          ]
+        }
+      ],
+      "additionalChecks": [],
+      "missingOrPartialCriteria": []
+    },
+    {
+      "caseId": "apitegromab-facility-mitigation",
+      "candidateId": "apitegromab-sma",
+      "outputArtifact": "data/evaluation-runs/apitegromab-facility-mitigation.json",
+      "provenance": {
+        "model": "gpt-6-astra",
+        "createdAt": "2026-09-10T17:52:42.898Z",
+        "mode": "original-documents-only",
+        "reasoningEffort": "high",
+        "durationMs": 48508,
+        "usage": {
+          "input_tokens": 23566,
+          "input_tokens_details": {
+            "cache_write_tokens": 23563,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2194,
+          "output_tokens_details": {
+            "reasoning_tokens": 1034
+          },
+          "total_tokens": 25760
+        },
+        "inputSha256": "34fea8f357b197106259e20f1a0c1a31231dd9edbef3ecbb7cd2fa437e11844c",
+        "documents": [
+          {
+            "id": "srrk-crl-2025",
+            "title": "Scholar Rock: apitegromab complete response",
+            "url": "https://investors.scholarrock.com/news-releases/news-release-details/fda-issues-complete-response-letter-crl-apitegromab-treatment/",
+            "characters": 25061,
+            "sha256": "5a5a465da04da8018e6398c9a1de88bed2161a9e405b66060b1c003be2b8b369"
+          },
+          {
+            "id": "fda-catalent-483-2026",
+            "title": "FDA: Catalent Indiana inspection observations",
+            "url": "https://www.fda.gov/media/193455/download",
+            "characters": 51248,
+            "sha256": "ed4dcbfe65ea1f6eed11559080a3cb555170057ee22a54fecf1bbaa00a70a6e4"
+          },
+          {
+            "id": "srrk-facility-2026",
+            "title": "Scholar Rock: second fill-finish facility pathway",
+            "url": "https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+            "characters": 26172,
+            "sha256": "8957c9a13b63eaac2a705a75409bd12fd76acf1d27d5376c33568d5a8d7ba50e"
+          }
+        ],
+        "answerSha256": "d66763b379ceb5d656255b311111ae2868bb86efeb7f4f6070c43383f755f17d",
+        "completedAttemptMaxOutputTokens": 12000
+      },
+      "criteria": [
+        {
+          "criterionId": "candidate-link",
+          "expectedFact": "The prior apitegromab CRL and sponsor update explicitly connect the application to Catalent Indiana; this is a supported facility relationship, not inference from a generic company warning.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/0/claim",
+              "excerpt": "an apitegromab CRL solely concerning observations from a routine general inspection of Catalent Indiana"
+            },
+            {
+              "pointer": "/answer/claims/4/claim",
+              "excerpt": "its March 2026 BLA submission included two fill-finish facilities"
+            }
+          ],
+          "sourceIds": [
+            "srrk-crl-2025",
+            "srrk-facility-2026"
+          ],
+          "rationale": "The candidate/facility relationship is grounded in the supplied sponsor releases. The actual FDA CRL found in the separate live investigation was not supplied here, and the answer correctly says so."
+        },
+        {
+          "criterionId": "alternative",
+          "expectedFact": "The August 7 sponsor update reports removal of Catalent and ongoing FDA review of a second facility; available supply and a submitted data package provide a mitigation path, not proof of FDA clearance.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/4/claim",
+              "excerpt": "it 'will remove' Catalent under FDA guidance"
+            },
+            {
+              "pointer": "/answer/claims/4/claim",
+              "excerpt": "not confirmation that removal or substantive review was complete"
+            },
+            {
+              "pointer": "/answer/claims/5/claim",
+              "excerpt": "do not establish FDA acceptance of that facility for apitegromab"
+            }
+          ],
+          "sourceIds": [
+            "srrk-facility-2026"
+          ],
+          "rationale": "The answer is more temporally precise than the shorthand question: the August release describes planned removal and ongoing second-site review, with inventory distinguished from clearance."
+        },
+        {
+          "criterionId": "redaction",
+          "expectedFact": "The FDA Form 483 redacts product information and cannot establish affected apitegromab lots or conditions at the unnamed replacement facility. A Form 483 is not itself a final FDA determination.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/2/claim",
+              "excerpt": "not a final agency compliance determination"
+            },
+            {
+              "pointer": "/answer/uncertainties/3",
+              "excerpt": "redacted products or batches cannot be attributed to apitegromab"
+            },
+            {
+              "pointer": "/answer/uncertainties/2",
+              "excerpt": "The second facility is unnamed"
+            }
+          ],
+          "sourceIds": [
+            "fda-catalent-483-2026"
+          ],
+          "rationale": "It respects the Form 483 scope and redactions and does not transfer observations to the replacement facility."
+        },
+        {
+          "criterionId": "unresolved",
+          "expectedFact": "Neither guaranteed resolution nor inevitable rejection is supported. The sponsor continued to report September 30 as the action target; the replacement-facility assessment remains consequential.",
+          "weight": 1,
+          "status": "met",
+          "evidence": [
+            {
+              "pointer": "/answer/claims/6/claim",
+              "excerpt": "Neither guaranteed rejection from OAI nor guaranteed approval from the alternative facility or September 30 target is supported"
+            },
+            {
+              "pointer": "/answer/uncertainties/0",
+              "excerpt": "FDA accepted the second facility/data package"
+            }
+          ],
+          "sourceIds": [
+            "srrk-facility-2026"
+          ],
+          "rationale": "Both false certainties are rejected and the remaining candidate-specific review is identified."
+        }
+      ],
+      "criticalOverclaims": [
+        {
+          "claim": "The replacement site's FDA review is completed and cleared.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/6/claim",
+            "/answer/uncertainties/3"
+          ]
+        },
+        {
+          "claim": "Catalent's OAI guarantees rejection despite removal from the application.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/6/claim",
+            "/answer/uncertainties/3"
+          ]
+        },
+        {
+          "claim": "The redacted Form 483 proves contaminated apitegromab batches.",
+          "observed": false,
+          "reviewedOutputPointers": [
+            "/answer/answer",
+            "/answer/claims/2/claim",
+            "/answer/claims/6/claim",
+            "/answer/uncertainties/3"
+          ]
+        }
+      ],
+      "additionalChecks": [
+        {
+          "status": "verified_with_extraction_limit",
+          "claimPointers": [
+            "/answer/uncertainties/3"
+          ],
+          "note": "The exact pdftotext source supplied to the model contains June 25, 2026 and 10/25/26, 10/02/2026, 10/21/2026 references despite the April inspection header. The answer appropriately flags uncertain event timing. This review does not determine whether these are original document errors or text-extraction errors."
+        },
+        {
+          "status": "verified",
+          "claimPointers": [
+            "/answer/claims/3/claim",
+            "/answer/claims/4/claim"
+          ],
+          "note": "The August release attributes OAI to a Catalent customer notice and says will remove; it does not supply an FDA classification letter or announce completed review of the replacement package."
+        }
+      ],
+      "missingOrPartialCriteria": []
+    }
+  ]
+}

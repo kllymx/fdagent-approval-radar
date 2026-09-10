@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-10",
+  "title": "Public-evidence reasoning challenge suite",
+  "provenance": "Five evaluator-authored questions over real public documents; no fictional records or model responses.",
+  "limitations": [
+    "This is a small curated challenge suite, not a representative benchmark or approval-probability validation.",
+    "Expected distinctions were authored after inspecting these sources. They are an explicit grading rubric, not hidden clinical ground truth.",
+    "Do not send expectedFacts or criticalOverclaims to a model answering the questions. Give comparison arms the same evidence and cutoff.",
+    "A correct answer should cite evidence, distinguish reporting parties and uncertainties, and avoid unsupported numerical approval probabilities.",
+    "A source-summary-only arm tests reasoning over already curated facts. A document-reading arm tests additional retrieval and synthesis; report this difference."
+  ],
+  "cases": [
+    {
+      "id": "bimo-manufacturing-scope",
+      "candidateId": "relutrigine-dee",
+      "question": "Praxis says the FDA inspection ended with no Form 483 and the mid-cycle meeting found no major concerns. Can we now treat relutrigine's manufacturing risk as cleared? Explain the defensible conclusion and what evidence is still needed, as of September 10, 2026.",
+      "sourceIds": ["prax-q2-2026", "prax-rel-extension"],
+      "expectedFacts": [
+        {"id": "bimo-scope", "weight": 1, "fact": "The inspection described was a BIMO sponsor inspection concerning clinical operations/data integrity, not a drug-manufacturing facility inspection.", "sourceIds": ["prax-q2-2026"]},
+        {"id": "reporting-party", "weight": 1, "fact": "The clean-inspection and mid-cycle statements are reported by Praxis, including in an SEC-filed exhibit; they are not an independent final FDA approval determination.", "sourceIds": ["prax-q2-2026"]},
+        {"id": "notice-scope", "weight": 1, "fact": "No manufacturing concerns cited in the extension correspondence does not establish full CMC or manufacturing clearance; the actual manufacturing assessment remains unknown here.", "sourceIds": ["prax-rel-extension", "prax-q2-2026"]},
+        {"id": "required-evidence", "weight": 1, "fact": "A conclusion on manufacturing readiness would require candidate/facility-specific CMC review or inspection outcome evidence, or the final FDA action; no approval probability follows from these statements alone.", "sourceIds": ["prax-q2-2026"]}
+      ],
+      "criticalOverclaims": ["Manufacturing is cleared because the BIMO inspection had no Form 483.", "A favorable mid-cycle meeting guarantees approval."]
+    },
+    {
+      "id": "deramiocel-analysis-chronology",
+      "candidateId": "deramiocel-dmd",
+      "question": "Capricor says HOPE-3 met its primary endpoint and has now submitted longer follow-up for a refined upper-limb indication. Does this dispose of FDA's July statistical objections? Reconcile the actual analyses and the chronology, and identify what remains unresolved.",
+      "sourceIds": ["fda-deramiocel-briefing", "capr-extension", "trial-hope3"],
+      "expectedFacts": [
+        {"id": "analysis-disagreement", "weight": 1, "fact": "FDA Appendix Table 12 (printed page 52) reports p=0.11 under SAP 1.1 and p=0.045 under SAP 3.0, with sensitivity to analysis and missing-data handling; these are not interchangeable results.", "sourceIds": ["fda-deramiocel-briefing"]},
+        {"id": "chronology", "weight": 1, "fact": "The blinded treatment period ended June 18, 2025; SAP 2.0 and 3.0 were dated September 26 and November 24. These revisions were after study completion, but the record lists database lock/unblinding November 25. Do not equate post-completion with proven post-unblinding.", "sourceIds": ["fda-deramiocel-briefing"]},
+        {"id": "new-scope", "weight": 1, "fact": "July's FDA briefing addresses the then-proposed cardiomyopathy indication. The August amendment proposes an upper-limb-function focus and adds 24-month open-label follow-up; it requires a fresh assessment without automatically resolving statistical concerns.", "sourceIds": ["fda-deramiocel-briefing", "capr-extension"]},
+        {"id": "not-final", "weight": 1, "fact": "The FDA briefing is a pre-advisory-committee assessment, not a final decision on the subsequent amendment. Review was extended to November 22, 2026.", "sourceIds": ["fda-deramiocel-briefing", "capr-extension"]}
+      ],
+      "criticalOverclaims": ["FDA's July critique is irrelevant because the sponsor submitted new data.", "The sponsor's statistically significant analysis by itself establishes effectiveness.", "All statistical-plan changes were made after unblinding.", "FDA has already rejected the August amended indication."]
+    },
+    {
+      "id": "dplex-endpoint-population",
+      "candidateId": "dplex100-ssi",
+      "question": "The headline says D-PLEX100 reduced surgical-site infections by 60%, and SHIELD II enrolled 975 patients. Is it accurate to present that as the primary-endpoint benefit for every patient undergoing abdominal surgery? Explain exactly which claims the available evidence supports.",
+      "sourceIds": ["polypid-q2", "trial-shield2", "polypid-submission"],
+      "expectedFacts": [
+        {"id": "composite", "weight": 1, "fact": "The registered primary endpoint is a composite treatment-failure measure including SSI, target-incision re-intervention and death within 30 days, rather than SSI alone.", "sourceIds": ["trial-shield2"]},
+        {"id": "subgroup", "weight": 1, "fact": "The primary analysis population specifies target incision length greater than 20 cm. The total 975 enrollment is not automatically that analysis population.", "sourceIds": ["trial-shield2"]},
+        {"id": "scope", "weight": 1, "fact": "The current application is prevention after abdominal colorectal surgery; one cannot generalize its evidence to every abdominal surgery.", "sourceIds": ["polypid-submission", "polypid-q2"]},
+        {"id": "relative", "weight": 1, "fact": "The sponsor reports a 60% relative SSI reduction; this is not a 60-percentage-point absolute reduction and should be accompanied by outcome/population-specific absolute rates if available.", "sourceIds": ["polypid-q2"]}
+      ],
+      "criticalOverclaims": ["The primary endpoint proves a 60% benefit in all 975 patients across every abdominal surgery.", "SSI risk fell by 60 percentage points."]
+    },
+    {
+      "id": "relutrigine-target-revision",
+      "candidateId": "relutrigine-dee",
+      "question": "A March source lists September 27, 2026 for relutrigine. Which date should Approval Radar display as of September 10, what changed, and what should we infer about the chance of approval from the date change?",
+      "sourceIds": ["prax-rel-acceptance", "prax-rel-extension", "prax-q2-2026"],
+      "expectedFacts": [
+        {"id": "latest-date", "weight": 1, "fact": "Display December 27, 2026 as the latest reported FDA action target; September 27 is superseded.", "sourceIds": ["prax-rel-extension", "prax-q2-2026"]},
+        {"id": "amendment", "weight": 1, "fact": "Praxis disclosed a three-month extension on June 29 after sensitivity analyses of existing clinical data were classified as a major amendment.", "sourceIds": ["prax-rel-extension"]},
+        {"id": "scope-of-concerns", "weight": 1, "fact": "Praxis said no new study was requested and the extension notice cited no safety or manufacturing concerns; these are scoped sponsor reports, not proof all concerns are absent.", "sourceIds": ["prax-rel-extension"]},
+        {"id": "no-probability-from-target", "weight": 1, "fact": "An action target is not an approval date or approval probability. An extension establishes a timing change but is insufficient on its own to assign a numerical approval probability.", "sourceIds": ["prax-rel-extension"]}
+      ],
+      "criticalOverclaims": ["September 27 remains the current target.", "FDA approval is scheduled for December 27.", "A three-month extension alone establishes a calibrated approval probability."]
+    },
+    {
+      "id": "apitegromab-facility-mitigation",
+      "candidateId": "apitegromab-sma",
+      "question": "Catalent Indiana has an OAI classification, but Scholar Rock is removing it from apitegromab's application and using a second fill-finish facility. Is the manufacturing issue resolved, or does the OAI mean apitegromab will be rejected? Trace what each document actually establishes.",
+      "sourceIds": ["srrk-crl-2025", "fda-catalent-483-2026", "srrk-facility-2026"],
+      "expectedFacts": [
+        {"id": "candidate-link", "weight": 1, "fact": "The prior apitegromab CRL and sponsor update explicitly connect the application to Catalent Indiana; this is a supported facility relationship, not inference from a generic company warning.", "sourceIds": ["srrk-crl-2025", "srrk-facility-2026"]},
+        {"id": "alternative", "weight": 1, "fact": "The August 7 sponsor update reports removal of Catalent and ongoing FDA review of a second facility; available supply and a submitted data package provide a mitigation path, not proof of FDA clearance.", "sourceIds": ["srrk-facility-2026"]},
+        {"id": "redaction", "weight": 1, "fact": "The FDA Form 483 redacts product information and cannot establish affected apitegromab lots or conditions at the unnamed replacement facility. A Form 483 is not itself a final FDA determination.", "sourceIds": ["fda-catalent-483-2026"]},
+        {"id": "unresolved", "weight": 1, "fact": "Neither guaranteed resolution nor inevitable rejection is supported. The sponsor continued to report September 30 as the action target; the replacement-facility assessment remains consequential.", "sourceIds": ["srrk-facility-2026"]}
+      ],
+      "criticalOverclaims": ["The replacement site's FDA review is completed and cleared.", "Catalent's OAI guarantees rejection despite removal from the application.", "The redacted Form 483 proves contaminated apitegromab batches."]
+    }
+  ]
+}

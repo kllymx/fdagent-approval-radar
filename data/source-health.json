@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-09-10T17:42:40.505771Z",
+  "catalogAsOf": "2026-09-10",
+  "scope": "all",
+  "meaning": "Transport/hash checks only. Does not certify scientific accuracy or pending FDA status. A separate human/agent review is required to update catalog claims.",
+  "sources": [
+    {
+      "sourceId": "prax-rel-acceptance",
+      "url": "https://investors.praxismedicines.com/node/11301/pdf",
+      "retrievedAt": "2026-09-10T17:42:32.492417Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 6829,
+      "sha256": "403800990502ef02873f4eaebddf3ef2e566bd83a4a34a673e6c09accdd316d1",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "prax-rel-extension",
+      "url": "https://investors.praxismedicines.com/node/11541/pdf",
+      "retrievedAt": "2026-09-10T17:42:34.350557Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 5028,
+      "sha256": "8c8811b8ef5b73ad2553d7be3fa0023b57f0bc88da43e59748dc57746f2c7358",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": true
+    },
+    {
+      "sourceId": "prax-q2-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+      "retrievedAt": "2026-09-10T17:42:30.298220Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 20707,
+      "sha256": "0816142cc934808b186bd0acf506ac2c1bf1f55e6320126eb6e674be03c94c8d",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-embold",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05818553",
+      "retrievedAt": "2026-09-10T17:39:08.263960Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05818553",
+      "contentType": "application/json",
+      "bytes": 8942,
+      "sha256": "368b3c74f208ad3f447d4cb8a04d001782f796dc65260485f46a546556edb429",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05818553",
+        "lastUpdatePosted": {
+          "date": "2026-01-29",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 77,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "TRIPLE",
+        "primaryCompletion": {
+          "date": "2025-11-12",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "srrk-crl-2025",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/fda-issues-complete-response-letter-crl-apitegromab-treatment/",
+      "retrievedAt": "2026-09-10T17:42:32.786170Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 25208,
+      "sha256": "5a5a465da04da8018e6398c9a1de88bed2161a9e405b66060b1c003be2b8b369",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "srrk-facility-2026",
+      "url": "https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+      "retrievedAt": "2026-09-10T17:42:32.474024Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 26273,
+      "sha256": "8957c9a13b63eaac2a705a75409bd12fd76acf1d27d5376c33568d5a8d7ba50e",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": true
+    },
+    {
+      "sourceId": "fda-catalent-483-2026",
+      "url": "https://www.fda.gov/media/193455/download",
+      "retrievedAt": "2026-09-10T17:39:26.437031Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fda.gov/media/193455/download",
+      "contentType": "application/pdf",
+      "bytes": 3585547,
+      "sha256": "d9d33b157726d4a0a36a24603f2109d2353ca4eb2c6dbd723198d098df4d3cae",
+      "changedSincePreviousFetch": false,
+      "textChecks": "not attempted for binary content"
+    },
+    {
+      "sourceId": "srrk-sapphire",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-presents-new-phase-3-sapphire-data-2025-muscular/",
+      "retrievedAt": "2026-09-10T17:42:34.357832Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 32114,
+      "sha256": "b6fc70ff6ca73ac9f2bc737c25cb793f24ded43f467f8e1982e1e9c285eea599",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-sapphire",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05156320",
+      "retrievedAt": "2026-09-10T17:39:33.384178Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05156320",
+      "contentType": "application/json",
+      "bytes": 21791,
+      "sha256": "e82e3fcd8f566743f806293db71c9e55bd4b51f6d0eff867d0ac8a0c49e5dd27",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05156320",
+        "lastUpdatePosted": {
+          "date": "2026-01-22",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 188,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2024-12-18",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "ux111-crl",
+      "url": "https://ir.ultragenyx.com/node/17891",
+      "retrievedAt": "2026-09-10T17:42:34.878491Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 19889,
+      "sha256": "0be73da7dd7dab51265a24a34639f986b6d10772fc73247c6dc10d68b39f9db7",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "ux111-resubmission",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-us-fda-acceptance-bla-resubmission-ux111",
+      "retrievedAt": "2026-09-10T17:42:33.308452Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 20356,
+      "sha256": "40ed96fbeb14016bcfe508dbe2e6dc4fe58003b35101df898255c6d65e358cce",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": true
+    },
+    {
+      "sourceId": "ux111-q2",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-reports-second-quarter-2026-financial-results-and",
+      "retrievedAt": "2026-09-10T17:42:33.831305Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 27680,
+      "sha256": "521b79da1c64ad4e91501dade2c1c9b6fb4473a4552f99b5f5a684246130b6d9",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-ux111",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02716246",
+      "retrievedAt": "2026-09-10T17:39:51.718041Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02716246",
+      "contentType": "application/json",
+      "bytes": 17473,
+      "sha256": "e2c45ae4f8ee4f86953bf7c8a56b035c1225100c8376eaa7428ad5002864afa0",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT02716246",
+        "lastUpdatePosted": {
+          "date": "2026-08-21",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 36,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "allocation": "NON_RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2029-03",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "capr-extension",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "retrievedAt": "2026-09-10T17:39:51.881469Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 52952,
+      "sha256": "9ec9e08c8f2156441159418f113f8f7173ef893a1d310995a39cde0379d38d9c",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false
+    },
+    {
+      "sourceId": "fda-deramiocel-briefing",
+      "url": "https://www.fda.gov/media/193839/download",
+      "retrievedAt": "2026-09-10T17:39:52.600369Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fda.gov/media/193839/download",
+      "contentType": "application/pdf",
+      "bytes": 1599256,
+      "sha256": "4b101fa03e803eeebb029f90c24a776c2e070e7bc72e12a9f24d847b7ec34eac",
+      "changedSincePreviousFetch": false,
+      "textChecks": "not attempted for binary content"
+    },
+    {
+      "sourceId": "trial-hope3",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05126758",
+      "retrievedAt": "2026-09-10T17:39:52.866056Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05126758",
+      "contentType": "application/json",
+      "bytes": 22339,
+      "sha256": "272ade82142e18cd847b05109544d861cc4a941647e99d0d8faa422b7ee3b30a",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05126758",
+        "lastUpdatePosted": {
+          "date": "2026-08-28",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 106,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-06-18",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "summit-acceptance",
+      "url": "https://www.smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx",
+      "retrievedAt": "2026-09-10T17:42:34.439352Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 34424,
+      "sha256": "920db4b61ff8727648b1b36c820561ec2b487e50c6995411b56791d182bbb6b7",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "summit-harmoni",
+      "url": "https://smmttx.com/news/press-releases/news-details/2026/Ivonescimab-Plus-Chemotherapy-Global-Phase-III-HARMONi-Primary-Analysis-Results-Published-in-The-Lancet-Oncology/default.aspx",
+      "retrievedAt": "2026-09-10T17:42:34.895964Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 42878,
+      "sha256": "78044701eb8147eae29c08d8d63e97d011529309f079658d11bcd7329d6d4622",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-harmoni",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06396065",
+      "retrievedAt": "2026-09-10T17:39:53.444765Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06396065",
+      "contentType": "application/json",
+      "bytes": 26552,
+      "sha256": "1b897f22291f59e59af30d06110e7d1872d307e47f94cae56614b6dbff54be83",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT06396065",
+        "lastUpdatePosted": {
+          "date": "2026-07-28",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 420,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2025-04-12",
+          "type": "ACTUAL"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 2
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "savara-extension",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "retrievedAt": "2026-09-10T17:42:40.505307Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 12943,
+      "sha256": "a1403b1d369ccce3ff33d21af8f1afe22db7cb874e0d1c712e74ab98ec0300d0",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "savara-q2",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx",
+      "retrievedAt": "2026-09-10T17:42:36.655215Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "HTTP Error 403: Forbidden",
+      "bytes": 17895,
+      "sha256": "95a020bfe43ad96340f6c9bc6b89f18f27773a346ee9b3815b084e0e5b1d15c8",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-impala2",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04544293",
+      "retrievedAt": "2026-09-10T17:39:54.003558Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04544293",
+      "contentType": "application/json",
+      "bytes": 72800,
+      "sha256": "93adcc59048472d4294669f60d6ca82fede34286d5754f9eefecc811eba04f28",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04544293",
+        "lastUpdatePosted": {
+          "date": "2026-08-26",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 164,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "QUADRUPLE",
+        "primaryCompletion": {
+          "date": "2023-11-30",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "nuvl-acceptance",
+      "url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "retrievedAt": "2026-09-10T17:39:54.103175Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 58614,
+      "sha256": "a4a8291ca48561b959760b7b2cecddcc1fc9942efc299f42cd93773cdec447e9",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false
+    },
+    {
+      "sourceId": "gsk-nuvalent",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-nuvalent-inc/",
+      "retrievedAt": "2026-09-10T17:39:54.477715Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-nuvalent-inc/",
+      "contentType": "text/html",
+      "bytes": 463134,
+      "sha256": "f011c95490ae9a37aa35298b92b78acc4784c107cfd9cacf2486fc52a71a4913",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false
+    },
+    {
+      "sourceId": "gsk-q2",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+      "retrievedAt": "2026-09-10T17:39:55.212648Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+      "contentType": "text/html",
+      "bytes": 494353,
+      "sha256": "3eccad839ae9c62682c08faf03237acc94d073ba525e682141af3ba825f60959",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false
+    },
+    {
+      "sourceId": "trial-alkove1",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05384626",
+      "retrievedAt": "2026-09-10T17:39:55.795450Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05384626",
+      "contentType": "application/json",
+      "bytes": 35639,
+      "sha256": "e8840842b73823f67a54a603e37de4520ac20f9f01ab0fd3b98872471ebf0125",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT05384626",
+        "lastUpdatePosted": {
+          "date": "2026-05-27",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 840,
+          "type": "ESTIMATED"
+        },
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "allocation": "NON_RANDOMIZED",
+        "masking": "NONE",
+        "primaryCompletion": {
+          "date": "2027-12",
+          "type": "ESTIMATED"
+        },
+        "hasResults": false,
+        "primaryOutcomeCount": 7
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "polypid-submission",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-completes-new-drug-application-submission-fda-d-plex100",
+      "retrievedAt": "2026-09-10T17:42:38.920533Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 13592,
+      "sha256": "d2e14c57e7483d713fe4fc0733c1b2f3781fa3112efea3547c1daacef9727e73",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "polypid-q2",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-provides-corporate-update-and-reports-second-quarter-3",
+      "retrievedAt": "2026-09-10T17:42:36.652106Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "[Errno 60] Operation timed out",
+      "bytes": 33938,
+      "sha256": "4551edc211a9bb11276990930465b9ce14968dce24c6c370431d57d09260865a",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    },
+    {
+      "sourceId": "trial-shield2",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04411199",
+      "retrievedAt": "2026-09-10T17:39:58.766296Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04411199",
+      "contentType": "application/json",
+      "bytes": 57884,
+      "sha256": "2303bcbb5fba42c68ccb7182816504e3ff2d905e4dbf28972d55175a10da2377",
+      "changedSincePreviousFetch": false,
+      "trial": {
+        "nctId": "NCT04411199",
+        "lastUpdatePosted": {
+          "date": "2026-07-13",
+          "type": "ACTUAL"
+        },
+        "enrollment": {
+          "count": 975,
+          "type": "ACTUAL"
+        },
+        "phases": [
+          "PHASE3"
+        ],
+        "allocation": "RANDOMIZED",
+        "masking": "TRIPLE",
+        "primaryCompletion": {
+          "date": "2025-04-14",
+          "type": "ACTUAL"
+        },
+        "hasResults": true,
+        "primaryOutcomeCount": 1
+      },
+      "registryDateDiffersFromCatalog": false
+    },
+    {
+      "sourceId": "telix-acceptance",
+      "url": "https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/",
+      "retrievedAt": "2026-09-10T17:39:58.799393Z",
+      "ok": true,
+      "httpStatus": 200,
+      "finalUrl": "https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 65584,
+      "sha256": "5c6ee5db0a943e897b73727950e635a30a821545fd984e8efd751d61f70044e5",
+      "changedSincePreviousFetch": false,
+      "looksLikeAccessChallenge": false
+    },
+    {
+      "sourceId": "telix-halfyear",
+      "url": "https://ir.telixpharma.com/news-releases/news-release-details/telix-2026-half-year-results-strong-commercial-execution-and",
+      "retrievedAt": "2026-09-10T17:42:37.101463Z",
+      "ok": true,
+      "method": "firecrawl_cli",
+      "directError": "The read operation timed out",
+      "bytes": 26988,
+      "sha256": "c34bcb5d0fed7662f997f624fc42881acb0daac94d2542c14aeb27dcf2b102e8",
+      "looksLikeAccessChallenge": false,
+      "excerptPresent": null
+    }
+  ]
+}

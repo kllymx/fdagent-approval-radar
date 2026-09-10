@@ -1,0 +1,21 @@
+name: Validate public research app
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install -g pnpm@11
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm data:validate
+      - run: python3 -m unittest discover -s scripts/data -p 'test_*.py'
+      - run: python3 model/rebuild.py --check
+      - run: python3 -m unittest discover -s model -p 'test_*.py'
+      - run: pnpm build
+      - run: VITE_BASE_PATH=/fdagent-approval-radar/ pnpm build:demo

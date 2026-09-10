@@ -1,0 +1,430 @@
+{
+  "summary": "As of September 10, 2026, deramiocel has a plausible but high-risk approval path for upper-limb function. The August amendment better aligns the requested indication with HOPE-3’s primary clinical outcome, but does not itself resolve FDA’s objections to statistical prespecification and robustness. Positive sponsor-reported results and FDA’s unfavorable July assessment reflect materially different analyses of the same trial—not independent confirming and disproving studies. The reported November 22 action target remains a review deadline, not an approval forecast.",
+  "outlook": {
+    "verdict": "Guarded: improved indication–endpoint alignment, but substantial unresolved effectiveness risk.",
+    "timing": "Capricor’s August 24 disclosure reports an extension from August 22 to November 22, 2026 to review the major amendment. Public searches conducted September 10 corroborated that disclosure but did not establish a subsequent FDA decision on the amended indication. Action could be approval or another complete response; further delay remains possible. The registry’s estimated March 2027 overall study completion is not an FDA action date or evidence that approval must await it.",
+    "probability": null,
+    "probabilityBasis": "The historical model estimates original-application first-cycle approval rates, which are not applicable approval probabilities for this BLA resubmission. Its separate resubmission timing cohorts generally met applicable action goals, but measure regulatory action—not approval—and do not validate an individual forecast for an extended review. No candidate-specific numeric probability is supported."
+  },
+  "findings": [
+    {
+      "id": "efficacy-reconciliation",
+      "title": "The positive primary result depends on the analytical framework",
+      "detail": "Capricor’s August 13 update reports PUL 2.0 significance at p=0.029. FDA’s July presentation contrasts the applicant’s modified analysis—4.55 percentage points, p=0.029—with its prespecified SAP 1.1 analysis—0.66 raw PUL points, p=0.24. Separately, briefing Appendix Table 12 reports p=0.11 under SAP 1.1 versus p=0.045 under SAP 3.0 across missing-data assumptions. These are different analysis variants and scales, not interchangeable estimates. The regulatory question is whether the functional benefit remains clinically meaningful and statistically persuasive under justified methods.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-81eb491b273c",
+        "web-176722829cd3",
+        "fda-deramiocel-briefing",
+        "web-46ac854d55e4"
+      ]
+    },
+    {
+      "id": "sap-chronology",
+      "title": "Post-completion changes are documented; post-unblinding changes should not be assumed",
+      "detail": "The briefing places final randomized-period follow-up on June 18, 2025, SAP 2.0 on September 26, SAP 3.0 on November 24, and database lock/unblinding on November 25. Thus, those SAP revisions preceded formal unblinding but followed completed data collection. FDA challenged the raw-to-percent endpoint conversion, missing-data handling, adherence to the blinding plan, and further clinical-study-report modifications. Pre-unblinding finalization does not automatically resolve these concerns; conversely, this chronology alone does not establish deliberate data manipulation.",
+      "direction": "concern",
+      "sourceIds": [
+        "fda-deramiocel-briefing",
+        "web-176722829cd3"
+      ]
+    },
+    {
+      "id": "indication-refocus",
+      "title": "Upper-limb focus strengthens the rationale, without erasing July’s critique",
+      "detail": "FDA recognizes PUL as a DMD-specific functional outcome suitable for a randomized, blinded comparison. Capricor’s August 24 amendment requests an upper-limb-focused indication rather than the cardiomyopathy indication evaluated in July. Capricor reports a 3–9 advisory vote on cardiomyopathy effectiveness and describes separate upper-limb discussion as directionally supportive. The strongest supportive interpretation is better alignment with the trial’s primary outcome. However, FDA also challenged PUL analyses, and neither that discussion nor amendment acceptance establishes effectiveness for the revised indication.",
+      "direction": "supportive",
+      "sourceIds": [
+        "fda-deramiocel-briefing",
+        "web-176722829cd3",
+        "web-81eb491b273c",
+        "web-072ea4419aa4"
+      ]
+    },
+    {
+      "id": "cardiac-correction",
+      "title": "Later disclosure weakens the earlier positive cardiac headline",
+      "detail": "Capricor disclosed that correcting a statistical-model issue during peer review changed the overall LVEF result from approximately p=0.04 and a 2.4-percentage-point difference to p=0.09 and 1.8 points; it says the PUL result was unaffected. The reported cardiomyopathy-subgroup p=0.02 does not establish overall cardiac efficacy. Downstream nominal functional or composite findings likewise cannot replace a robust individual upper-limb endpoint. This correction reinforces the rationale for the indication change, but is separate from FDA’s continuing PUL objections.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-81eb491b273c",
+        "trial-NCT05126758",
+        "fda-deramiocel-briefing"
+      ]
+    },
+    {
+      "id": "extension-evidence",
+      "title": "The additional follow-up can inform durability, not recreate placebo control",
+      "detail": "The current registry confirms 106 participants and a randomized, masked 12-month period followed by open-label treatment, including treatment of former placebo recipients. Capricor submitted 24-month open-label data, not a second blinded placebo-controlled year. Such follow-up may support durability and repeated-dose safety, but interpretation depends on retention, missingness, treatment history, and assessment bias; FDA notes PUL’s effort dependence. No registry results are posted, and the retrieved amendment announcement supplies no detailed 24-month effect estimates or sensitivity results.",
+      "direction": "unknown",
+      "sourceIds": [
+        "trial-NCT05126758",
+        "web-072ea4419aa4",
+        "fda-deramiocel-briefing"
+      ]
+    },
+    {
+      "id": "safety-integrity",
+      "title": "Benefit–risk and clinical-inspection closure remain relevant",
+      "detail": "FDA reported hypersensitivity reactions in approximately 42% of deramiocel recipients versus 15% of placebo recipients and identified possible functional unblinding—not proof that blinding failed. Capricor also disclosed a July BIMO inspection with one Form 483 observation; as of August 13, its response awaited feedback. The observation’s current disposition and regulatory impact were not established here. BIMO concerns clinical research oversight, not manufacturing clearance, and the disclosure alone does not establish an approval-blocking deficiency.",
+      "direction": "concern",
+      "sourceIds": [
+        "fda-deramiocel-briefing",
+        "web-176722829cd3",
+        "web-81eb491b273c"
+      ]
+    },
+    {
+      "id": "review-clock",
+      "title": "The extension preserves review opportunity, not a favorable outcome",
+      "detail": "According to Capricor, CBER accepted the additional follow-up and robustness analyses as a major amendment and added three months for review. This is neither another complete response nor endorsement of the analyses or proposed label. The decisive uncertainty is whether FDA can accept the amended evidence within this cycle or requires additional controlled evidence. The unfavorable July briefing predates the amendment and cannot be treated as FDA’s final assessment of it.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-072ea4419aa4",
+        "fda-deramiocel-briefing"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "FDA’s post-amendment assessment: whether it accepts substantial evidence for upper-limb function, the exact eligible population, and whether further controlled evidence is required before approval.",
+    "A reproducible crosswalk from SAP 1.1 through SAP 3.0 and the final clinical-study-report analysis, including dated rationales, data-access history, absolute PUL effects with confidence intervals, and sensitivity to missing-data/intercurrent-event assumptions.",
+    "Detailed 24-month HOPE-3 results by original randomized arm and treatment exposure, including retention, missingness, functional trajectories, and repeated-dose hypersensitivity and cardiac safety.",
+    "Updated regulatory correspondence confirming the applicable action target, disposition of the BIMO observation, and any remaining candidate-specific manufacturing or inspection requirements."
+  ],
+  "limitations": [
+    "The complete August amendment and FDA’s subsequent review were not retrieved; acceptance and claimed strengthening of evidence are sponsor-attributed.",
+    "The full journal article, patient-level data, and complete SAP audit trail were not independently assessed. The later cardiac correction is supported by Capricor’s own disclosure.",
+    "The registry was checked live on September 10 and last updated August 28. Its current percent-change endpoint wording does not establish what was prospectively specified before trial completion.",
+    "Advisory-vote details and characterization of supportive upper-limb discussion come from Capricor’s disclosure, not independently retrieved meeting minutes. Manufacturing clearance is also unestablished; an operational facility is not equivalent to FDA clearance."
+  ],
+  "id": "dbaf1062-0418-4997-ba97-2a5935a19c55",
+  "candidateId": "deramiocel-dmd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T17:42:03.995Z",
+  "mode": "investigate",
+  "question": "Assess the current approval outlook. Reconcile the reported positive trial results with the FDA statistical review and the later indication amendment. Identify the key remaining clinical and timing uncertainties.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "capr-extension",
+      "title": "Capricor: deramiocel extension and refined indication",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "publisher": "Capricor Therapeutics",
+      "publishedAt": "2026-08-24",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Capricor reported the target moved from August 22 to November 22, 2026. After a July advisory committee, it submitted 24-month HOPE-3 open-label follow-up and robustness analyses, seeking an indication focused on upper-limb function. FDA accepted the material as a major amendment. The sponsor reports HOPE-3 met its primary endpoint."
+    },
+    {
+      "id": "fda-deramiocel-briefing",
+      "title": "FDA: deramiocel July 2026 advisory-committee briefing",
+      "url": "https://www.fda.gov/media/193839/download",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "fda",
+      "summary": "FDA’s briefing for July 29, 2026 concerns resubmitted BLA 125842 and the then-proposed cardiomyopathy indication. Printed pages 32–34 describe the June 18, 2025 final visit, SAP 2.0 dated September 26, SAP 3.0 dated November 24, and database lock/unblinding November 25. Changes were post-completion, not necessarily post-unblinding; FDA questions raw-to-percent endpoint conversion. Appendix table 12, printed page 52 (PDF page 52), gives p=0.11 under SAP 1.1 versus p=0.045 under SAP 3.0; sensitivity analyses differ. Printed page 47 gives the unfavorable pre-meeting effectiveness assessment. This precedes the sponsor’s August refined-indication amendment; it is not a final decision on that amendment. Exact posting day was not established."
+    },
+    {
+      "id": "trial-hope3",
+      "title": "ClinicalTrials.gov: HOPE-3",
+      "url": "https://clinicaltrials.gov/study/NCT05126758",
+      "publisher": "ClinicalTrials.gov / Capricor",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "HOPE-3 is a randomized, masked phase 3 study of deramiocel (CAP-1002) in Duchenne muscular dystrophy. The registry reports actual enrollment of 106 and primary completion June 18, 2025. The primary measure is upper-limb function at month 12; an open-label extension follows the blinded period. No registry results are posted."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05126758",
+      "title": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+      "url": "https://clinicaltrials.gov/study/NCT05126758",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T17:42:12.520Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05126758; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-072ea4419aa4",
+      "title": "Capricor Therapeutics Announces Extension of PDUFA Target Action ...",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "publisher": "Capricor Therapeutics",
+      "publishedAt": "2026-08-24",
+      "retrievedAt": "2026-09-10T17:42:25.763Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-65bc4661e10d",
+      "title": "Capricor's PDUFA date for FDA to review Deramiocel has been ...",
+      "url": "https://www.facebook.com/cureduchenne/posts/capricors-pdufa-date-for-fda-to-review-deramiocel-has-been-extended-to-november-/1526373892866235/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:25.764Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f6bf87cf5a3b",
+      "title": "FDA Extends Deramiocel Review for Duchenne Muscular Dystrophy",
+      "url": "https://www.cgtlive.com/view/fda-extends-deramiocel-review-dmd",
+      "publisher": "www.cgtlive.com",
+      "publishedAt": "2026-09-10",
+      "retrievedAt": "2026-09-10T17:42:25.764Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a2c222c86430",
+      "title": "Capricor's PDUFA date for FDA to review Deramiocel has ... - Instagram",
+      "url": "https://www.instagram.com/p/DcbaMGTmwDK/",
+      "publisher": "www.instagram.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:25.764Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-46ac854d55e4",
+      "title": "[PDF] Cellular, Tissue, and Gene Therapies Advisory Committee July 29, 2026 ...",
+      "url": "https://www.fda.gov/media/193839/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:50.432Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-60455e2169df",
+      "title": "Deramiocel for DMD: HOPE-3 Cell Therapy Trial Outcomes",
+      "url": "https://intuitionlabs.ai/articles/deramiocel-hope-3-dmd-cell-therapy",
+      "publisher": "intuitionlabs.ai",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:41.945Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c81eaf2492f8",
+      "title": "Deramiocel (CAP-1002) - (HOPE-3) | Catalyst Events | Noah AI",
+      "url": "https://www.noah.bio/calendar/catalyst/15235",
+      "publisher": "www.noah.bio",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:41.946Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-81eb491b273c",
+      "title": "Capricor Therapeutics Reports Second Quarter 2026 Financial ...",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/353/capricor-therapeutics-reports-second-quarter-2026-financial",
+      "publisher": "Capricor Therapeutics",
+      "publishedAt": "2026-08-13",
+      "retrievedAt": "2026-09-10T17:42:41.947Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d45f128a96e2",
+      "title": "Deramiocel Significantly Slows Upper Limb Function Decline in ...",
+      "url": "https://pharmacally.com/deramiocel-phase-3-hope-3-trial-lancet-duchenne-muscular-dystrophy/",
+      "publisher": "pharmacally.com",
+      "publishedAt": "2026-07-30",
+      "retrievedAt": "2026-09-10T17:42:41.947Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-310230f32228",
+      "title": "$CAPR After $REPL: Does Tudriqev's FDA Approval Create A Real ...",
+      "url": "https://www.merlintrader.com/capr-repl-the-path-to-aug22/",
+      "publisher": "www.merlintrader.com",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T17:42:50.433Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-176722829cd3",
+      "title": "[PDF] FDA",
+      "url": "https://www.fda.gov/media/193912/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:42:50.434Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 171072,
+    "outputTokens": 3663
+  },
+  "durationMs": 118397,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "fda-deramiocel-briefing"
+      },
+      "status": "completed",
+      "durationMs": 336
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "capr-extension"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "trial-hope3"
+      },
+      "status": "completed",
+      "durationMs": 78
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05126758"
+      },
+      "status": "completed",
+      "durationMs": 74
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "deramiocel Capricor August 24 2026 November 22 PDUFA upper limb indication amendment HOPE-3 September 2026 FDA"
+      },
+      "status": "completed",
+      "durationMs": 13243
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov/media/193839 deramiocel \"Table 12\" \"SAP\" \"0.045\" \"0.11\" September 26 November 24 2025"
+      },
+      "status": "completed",
+      "durationMs": 1622
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Deramiocel\" \"HOPE-3\" \"Lancet\" \"2026\" \"0.029\""
+      },
+      "status": "completed",
+      "durationMs": 4793
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"deramiocel\" \"SAP 1.1\" \"SAP 3.0\" \"0.11\" \"0.045\" \"missing\""
+      },
+      "status": "completed",
+      "durationMs": 8486
+    }
+  ],
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T18:02:01.375Z",
+    "originalSha256": "4d47d4f25af583b76e465d1c31356e0b614d33153d8445cc0996ff5efde0c7f0",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

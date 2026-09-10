@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "status": "evaluated",
+  "generatedAt": "2026-09-10",
+  "modelVersion": "public-cohort-baselines-v1",
+  "title": "FDA public-cohort baselines",
+  "summary": "Reproducible class-level first-cycle rate forecasts and separately scored action-timing baselines. Individual approval probabilities remain unestimated.",
+  "cohortSize": 1682,
+  "cohortSizeUnit": "original and resubmission action records with known goal outcome, FY2017–2024; aggregate counts, not deduplicated drugs",
+  "metrics": [
+    {
+      "label": "Approval-rate MAE",
+      "value": "6.9 pp",
+      "detail": "Six held-out annual review-class rates, FY2021–2023. Not individual drug prediction accuracy."
+    },
+    {
+      "label": "Action timing Brier",
+      "value": "0.0390",
+      "detail": "Exact score over 603 due/resolved action outcomes, FY2022–2024; lower is better."
+    },
+    {
+      "label": "Pending held out",
+      "value": "8",
+      "detail": "Kept unresolved; never counted as unsuccessful approvals."
+    }
+  ],
+  "approvalRatePrior": {
+    "target": "FDA-reported annual first-cycle approval percentage by original-application review priority",
+    "unit": "annual review-class cohort",
+    "method": "Unweighted least-squares class intercept (class-specific mean); equal weight per fiscal year.",
+    "selectionRule": "Five complete older receipt cohorts in frozen FY2019 report; later FY2021–2023 held out; current reference refit on FY2017–2023.",
+    "train": {
+      "receiptFiscalYears": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "cells": 10,
+      "sourceVintage": "pdufa-2019",
+      "availableBy": "2020-09-26"
+    },
+    "test": {
+      "receiptFiscalYears": [
+        2021,
+        2022,
+        2023
+      ],
+      "cells": 6,
+      "forecastCutoff": "2020-09-30",
+      "labelSourceVintage": "pdufa-2025"
+    },
+    "fittedBeforeHoldout": {
+      "class_mean": {
+        "priority": 0.822,
+        "standard": 0.616
+      },
+      "pooled_mean": {
+        "priority": 0.719,
+        "standard": 0.719
+      }
+    },
+    "evaluation": {
+      "class_mean": {
+        "cells": 6,
+        "maePercentagePoints": 6.899999999999995,
+        "rmsePercentagePoints": 7.850689990907378,
+        "maxErrorPercentagePoints": 13.200000000000001,
+        "roundingOnlyMaeBoundsPercentagePoints": [
+          5.899999999999995,
+          7.899999999999995
+        ]
+      },
+      "pooled_mean": {
+        "cells": 6,
+        "maePercentagePoints": 11.633333333333333,
+        "rmsePercentagePoints": 13.239209442661847,
+        "maxErrorPercentagePoints": 19.899999999999995,
+        "roundingOnlyMaeBoundsPercentagePoints": [
+          10.633333333333333,
+          12.633333333333333
+        ]
+      }
+    },
+    "current": {
+      "priority": {
+        "meanRate": 0.7871428571428571,
+        "fiscalYearBootstrapMean95": [
+          0.7414285714285714,
+          0.8328571428571429
+        ],
+        "annualObservedRange": [
+          0.69,
+          0.89
+        ],
+        "annualCohortCount": 7,
+        "candidateProbability": null
+      },
+      "standard": {
+        "meanRate": 0.5785714285714286,
+        "fiscalYearBootstrapMean95": [
+          0.5371428571428571,
+          0.6242857142857143
+        ],
+        "annualObservedRange": [
+          0.5,
+          0.67
+        ],
+        "annualCohortCount": 7,
+        "candidateProbability": null
+      }
+    },
+    "observations": [
+      {
+        "receiptFiscalYear": 2017,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 85,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2017,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 62,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2018,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 89,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2018,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 63,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2019,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 73,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2019,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 67,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2020,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 77,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2020,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 50,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2021,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 69,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2021,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 55,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 81,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 52,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 77,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 56,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages."
+      }
+    ],
+    "heldOutPredictions": [
+      {
+        "receiptFiscalYear": 2021,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 69,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.822,
+        "pooledPrediction": 0.719
+      },
+      {
+        "receiptFiscalYear": 2021,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 55,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.616,
+        "pooledPrediction": 0.719
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 81,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.822,
+        "pooledPrediction": 0.719
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 52,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.616,
+        "pooledPrediction": 0.719
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "priority",
+        "firstCycleApprovalPercent": 77,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.822,
+        "pooledPrediction": 0.719
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "standard",
+        "firstCycleApprovalPercent": 56,
+        "reportedPrecisionPercentagePoints": 1,
+        "preliminary": false,
+        "sourceId": "pdufa-2025",
+        "pdfPage": 52,
+        "printedPage": "41",
+        "sourceFigure": "First-cycle approvals graph",
+        "extraction": "Manually transcribed from labeled figure; checked against PDF text and rendered figure. Counts are NOT reconstructed from rounded percentages.",
+        "prediction": 0.616,
+        "pooledPrediction": 0.719
+      }
+    ],
+    "interpretation": "The mean is a historical cohort reference; candidateProbability is null. It is not a calibrated individualized likelihood."
+  },
+  "actionTiming": {
+    "target": "FDA action completed by its applicable PDUFA goal among cases with observable timely/overdue status",
+    "method": "Beta(1,1) prior plus exact on-time and overdue counts, conditioned on six review classes.",
+    "train": {
+      "receiptFiscalYears": [
+        2017,
+        2018,
+        2019
+      ],
+      "sourceVintages": [
+        "pdufa-2018",
+        "pdufa-2019",
+        "pdufa-2020"
+      ],
+      "availableBy": "2021-09-23",
+      "dueOrResolved": 637,
+      "pendingWithinGoal": 4
+    },
+    "test": {
+      "receiptFiscalYears": [
+        2022,
+        2023,
+        2024
+      ],
+      "forecastCutoff": "2021-09-30",
+      "sourceVintages": [
+        "pdufa-2023",
+        "pdufa-2024",
+        "pdufa-2025"
+      ],
+      "dueOrResolved": 603,
+      "pendingWithinGoal": 8
+    },
+    "fittedBeforeHoldout": {
+      "class_beta_binomial": {
+        "original_priority_nme_bla": {
+          "probability": 0.992,
+          "onTime": 123,
+          "overdue": 0,
+          "pendingWithinGoal": 0,
+          "resolvedOrDue": 123,
+          "wilson95": [
+            0.9697134063272616,
+            0.9999999999999999
+          ],
+          "pendingOutcomeSensitivity": [
+            0.992,
+            0.992
+          ]
+        },
+        "original_standard_nme_bla": {
+          "probability": 0.9615384615384616,
+          "onTime": 74,
+          "overdue": 2,
+          "pendingWithinGoal": 3,
+          "resolvedOrDue": 76,
+          "wilson95": [
+            0.9090320424906206,
+            0.9927534928693922
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9259259259259259,
+            0.9629629629629629
+          ]
+        },
+        "original_priority_non_nme": {
+          "probability": 0.9655172413793104,
+          "onTime": 55,
+          "overdue": 1,
+          "pendingWithinGoal": 0,
+          "resolvedOrDue": 56,
+          "wilson95": [
+            0.9055414182080672,
+            0.9968408710355361
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9655172413793104,
+            0.9655172413793104
+          ]
+        },
+        "original_standard_non_nme": {
+          "probability": 0.9771689497716894,
+          "onTime": 213,
+          "overdue": 4,
+          "pendingWithinGoal": 1,
+          "resolvedOrDue": 217,
+          "wilson95": [
+            0.9535706212833842,
+            0.9928090463154741
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9727272727272728,
+            0.9772727272727273
+          ]
+        },
+        "resubmission_class_1": {
+          "probability": 0.8518518518518519,
+          "onTime": 22,
+          "overdue": 3,
+          "pendingWithinGoal": 0,
+          "resolvedOrDue": 25,
+          "wilson95": [
+            0.7004380781662651,
+            0.9583325864293191
+          ],
+          "pendingOutcomeSensitivity": [
+            0.8518518518518519,
+            0.8518518518518519
+          ]
+        },
+        "resubmission_class_2": {
+          "probability": 0.9366197183098591,
+          "onTime": 132,
+          "overdue": 8,
+          "pendingWithinGoal": 0,
+          "resolvedOrDue": 140,
+          "wilson95": [
+            0.8912955111799957,
+            0.9707638652451832
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9366197183098591,
+            0.9366197183098591
+          ]
+        }
+      },
+      "pooled_beta_binomial": {
+        "original_priority_nme_bla": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        },
+        "original_standard_nme_bla": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        },
+        "original_priority_non_nme": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        },
+        "original_standard_non_nme": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        },
+        "resubmission_class_1": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        },
+        "resubmission_class_2": {
+          "probability": 0.9702660406885759,
+          "onTime": 619,
+          "overdue": 18,
+          "pendingWithinGoal": 4,
+          "resolvedOrDue": 637,
+          "wilson95": [
+            0.9557767759700851,
+            0.9820524785602075
+          ],
+          "pendingOutcomeSensitivity": [
+            0.9642301710730948,
+            0.9704510108864697
+          ]
+        }
+      }
+    },
+    "evaluation": {
+      "class_beta_binomial": {
+        "n": 603,
+        "brier": 0.03897810643657865,
+        "logLoss": 0.17770988771587107,
+        "meanPrediction": 0.9606015559423584,
+        "observedOnTimeRate": 0.9601990049751243,
+        "calibrationError": 0.00040255096723400914
+      },
+      "pooled_beta_binomial": {
+        "n": 603,
+        "brier": 0.03831822102796136,
+        "logLoss": 0.1689026081343258,
+        "meanPrediction": 0.9702660406885759,
+        "observedOnTimeRate": 0.9601990049751243,
+        "calibrationError": 0.010067035713451517
+      },
+      "policy_90_percent": {
+        "n": 603,
+        "brier": 0.04184079601990049,
+        "logLoss": 0.19281224012891957,
+        "meanPrediction": 0.9,
+        "observedOnTimeRate": 0.9601990049751243,
+        "calibrationError": 0.0601990049751243
+      }
+    },
+    "pendingOutcomeBrierBounds": {
+      "class_beta_binomial": [
+        0.038483987618021194,
+        0.05067242843233919
+      ],
+      "pooled_beta_binomial": [
+        0.03782808534623792,
+        0.05014274434953942
+      ],
+      "policy_90_percent": [
+        0.04142389525368249,
+        0.051898527004909975
+      ]
+    },
+    "current": {
+      "original_priority_nme_bla": {
+        "probability": 0.9686609686609686,
+        "onTime": 339,
+        "overdue": 10,
+        "pendingWithinGoal": 1,
+        "resolvedOrDue": 349,
+        "wilson95": [
+          0.9480665165485817,
+          0.9843632196276514
+        ],
+        "pendingOutcomeSensitivity": [
+          0.9659090909090909,
+          0.96875
+        ],
+        "label": "Original priority NME NDAs / BLAs",
+        "nominalGoalMonths": 6,
+        "clockOrigin": "filing date after the 60-day filing period",
+        "fiscalYearBootstrapMean95": [
+          0.9457142857142857,
+          0.9906832298136646
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      },
+      "original_standard_nme_bla": {
+        "probability": 0.9495412844036697,
+        "onTime": 206,
+        "overdue": 10,
+        "pendingWithinGoal": 14,
+        "resolvedOrDue": 216,
+        "wilson95": [
+          0.9168894753834482,
+          0.9746615322511396
+        ],
+        "pendingOutcomeSensitivity": [
+          0.8922413793103449,
+          0.9525862068965517
+        ],
+        "label": "Original standard NME NDAs / BLAs",
+        "nominalGoalMonths": 10,
+        "clockOrigin": "filing date after the 60-day filing period",
+        "fiscalYearBootstrapMean95": [
+          0.910377358490566,
+          0.9795081967213115
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      },
+      "original_priority_non_nme": {
+        "probability": 0.946969696969697,
+        "onTime": 124,
+        "overdue": 6,
+        "pendingWithinGoal": 0,
+        "resolvedOrDue": 130,
+        "wilson95": [
+          0.9029608537656114,
+          0.9786783376367628
+        ],
+        "pendingOutcomeSensitivity": [
+          0.946969696969697,
+          0.946969696969697
+        ],
+        "label": "Original priority non-NME NDAs",
+        "nominalGoalMonths": 6,
+        "clockOrigin": "receipt date",
+        "fiscalYearBootstrapMean95": [
+          0.9133858267716536,
+          0.9784172661870504
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      },
+      "original_standard_non_nme": {
+        "probability": 0.9647058823529412,
+        "onTime": 491,
+        "overdue": 17,
+        "pendingWithinGoal": 4,
+        "resolvedOrDue": 508,
+        "wilson95": [
+          0.9470644598574222,
+          0.9790032923534179
+        ],
+        "pendingOutcomeSensitivity": [
+          0.9571984435797666,
+          0.9649805447470817
+        ],
+        "label": "Original standard non-NME NDAs",
+        "nominalGoalMonths": 10,
+        "clockOrigin": "receipt date",
+        "fiscalYearBootstrapMean95": [
+          0.9499136442141624,
+          0.9776876267748479
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      },
+      "resubmission_class_1": {
+        "probability": 0.9016393442622951,
+        "onTime": 54,
+        "overdue": 5,
+        "pendingWithinGoal": 0,
+        "resolvedOrDue": 59,
+        "wilson95": [
+          0.8164797538583944,
+          0.9632585086938003
+        ],
+        "pendingOutcomeSensitivity": [
+          0.9016393442622951,
+          0.9016393442622951
+        ],
+        "label": "Class 1 original application resubmissions",
+        "nominalGoalMonths": 2,
+        "clockOrigin": "resubmission receipt date",
+        "fiscalYearBootstrapMean95": [
+          0.8545454545454545,
+          0.9491525423728814
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      },
+      "resubmission_class_2": {
+        "probability": 0.9383886255924171,
+        "onTime": 395,
+        "overdue": 25,
+        "pendingWithinGoal": 0,
+        "resolvedOrDue": 420,
+        "wilson95": [
+          0.9136073002036843,
+          0.9593603367625786
+        ],
+        "pendingOutcomeSensitivity": [
+          0.9383886255924171,
+          0.9383886255924171
+        ],
+        "label": "Class 2 original application resubmissions",
+        "nominalGoalMonths": 6,
+        "clockOrigin": "resubmission receipt date",
+        "fiscalYearBootstrapMean95": [
+          0.9188405797101449,
+          0.9570405727923628
+        ],
+        "predictionUnit": "cohort action timeliness; not approval"
+      }
+    },
+    "heldOutPredictions": [
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "original_priority_nme_bla",
+        "filed": 43,
+        "onTime": 43,
+        "overdue": 0,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.992
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "original_standard_nme_bla",
+        "filed": 33,
+        "onTime": 31,
+        "overdue": 0,
+        "pendingWithinGoal": 2,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9615384615384616
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "original_priority_non_nme",
+        "filed": 11,
+        "onTime": 10,
+        "overdue": 1,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9655172413793104
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "original_standard_non_nme",
+        "filed": 44,
+        "onTime": 42,
+        "overdue": 1,
+        "pendingWithinGoal": 1,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9771689497716894
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "resubmission_class_1",
+        "filed": 8,
+        "onTime": 8,
+        "overdue": 0,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.8518518518518519
+      },
+      {
+        "receiptFiscalYear": 2022,
+        "reviewClass": "resubmission_class_2",
+        "filed": 59,
+        "onTime": 57,
+        "overdue": 2,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2023",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9366197183098591
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "original_priority_nme_bla",
+        "filed": 38,
+        "onTime": 35,
+        "overdue": 3,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.992
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "original_standard_nme_bla",
+        "filed": 27,
+        "onTime": 27,
+        "overdue": 0,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9615384615384616
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "original_priority_non_nme",
+        "filed": 18,
+        "onTime": 16,
+        "overdue": 2,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9655172413793104
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "original_standard_non_nme",
+        "filed": 72,
+        "onTime": 68,
+        "overdue": 3,
+        "pendingWithinGoal": 1,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9771689497716894
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "resubmission_class_1",
+        "filed": 10,
+        "onTime": 10,
+        "overdue": 0,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.8518518518518519
+      },
+      {
+        "receiptFiscalYear": 2023,
+        "reviewClass": "resubmission_class_2",
+        "filed": 66,
+        "onTime": 61,
+        "overdue": 5,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2024",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9366197183098591
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "original_priority_nme_bla",
+        "filed": 40,
+        "onTime": 38,
+        "overdue": 2,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.992
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "original_standard_nme_bla",
+        "filed": 33,
+        "onTime": 27,
+        "overdue": 2,
+        "pendingWithinGoal": 4,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9615384615384616
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "original_priority_non_nme",
+        "filed": 9,
+        "onTime": 9,
+        "overdue": 0,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9655172413793104
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "original_standard_non_nme",
+        "filed": 47,
+        "onTime": 46,
+        "overdue": 1,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9771689497716894
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "resubmission_class_1",
+        "filed": 6,
+        "onTime": 5,
+        "overdue": 1,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.8518518518518519
+      },
+      {
+        "receiptFiscalYear": 2024,
+        "reviewClass": "resubmission_class_2",
+        "filed": 47,
+        "onTime": 46,
+        "overdue": 1,
+        "pendingWithinGoal": 0,
+        "sourceId": "pdufa-2025",
+        "sourceTable": "Final review-goal performance details, original and resubmitted original applications",
+        "extraction": "Manually transcribed exact counts from detailed tables; total denominator checked against final performance summary.",
+        "prediction": 0.9366197183098591
+      }
+    ],
+    "censoring": "Pending within goal excluded; scoring bounds also show either eventual timing outcome for unresolved statuses. No terminal drug failure label exists."
+  },
+  "limitations": [
+    "This is a statistical public-cohort baseline, not a validated probability that a particular drug will be approved.",
+    "Approval-rate evaluation has only six held-out year-by-review-class cells across three fiscal years; these are rounded annual rates, not individual drug outcomes.",
+    "Original applications mix novel and non-novel NDA products with BLAs. First-cycle rates are not valid resubmission, biosimilar, generic, supplement, or early-development approval probabilities.",
+    "Action-timeliness predicts FDA action by the applicable goal, which can include approval, complete response, tentative approval or withdrawal. It does not predict approval.",
+    "Actions still pending within goal are excluded from binary scoring and retained as unresolved counts; overdue pending actions already have a known missed-goal outcome.",
+    "Historical sources are report vintages, with a primary research reference-access date and FDA newsletters supporting report-era availability. Exact historical PDF byte-version upload dates are not independently archived.",
+    "Aggregate data cannot group repeated applications by drug, sponsor or facility. Action proper scores are exact from counts, but independence assumptions and individual discrimination are not established.",
+    "An extension can change the applicable PDUFA goal. Historical goal performance does not measure adherence to an originally announced, unextended date.",
+    "Intervals reflect sampling and year-to-year variation within this limited cohort; they do not cover all shifts in policy, case mix, source revisions or candidate-specific uncertainty.",
+    "No monthly approval CDF or survival curve is inferred from median review durations, and no CRL eventual approval_status field is used as a predictive feature or terminal label."
+  ],
+  "sources": [
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "reportFiscalYear": 2018,
+      "outcomeAsOf": "2018-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "be013f8a19917ee393da9d1d62978570c0fcccaca53d9cd4a3687e845c452ab5",
+      "pdfMetadata": {
+        "CreationDate": "Tue Sep 10 07:09:34 2019 EDT",
+        "ModDate": "Fri Oct  4 12:11:28 2019 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "reportFiscalYear": 2019,
+      "outcomeAsOf": "2019-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "ba6772b8e806ec05d4dd33e2492e085f34bf6f5d47a8674aa750de9e60edde68",
+      "pdfMetadata": {
+        "CreationDate": "Fri May 22 14:42:11 2020 EDT",
+        "ModDate": "Fri May 22 15:27:43 2020 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "reportFiscalYear": 2020,
+      "outcomeAsOf": "2020-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "0fce86c8a9d599aab75fd3e7525e62c02ee5343c03f95c7ad9ac360a3b224e8f",
+      "pdfMetadata": {
+        "CreationDate": "Mon Aug  9 08:18:33 2021 EDT",
+        "ModDate": "Fri Aug 13 03:05:26 2021 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "reportFiscalYear": 2021,
+      "outcomeAsOf": "2021-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "66f74e3a5b87c3450ca1090ea11aaa8eed49c0295ecbc80ea366393cf42e67c8",
+      "pdfMetadata": {
+        "CreationDate": "Mon Feb  7 16:43:34 2022 EST",
+        "ModDate": "Tue Feb  8 18:24:03 2022 EST"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "reportFiscalYear": 2022,
+      "outcomeAsOf": "2022-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "4e65fce2ad46312bbb4f8dee4cbaf51a20d38f6dea98c9b6a865645831fa633e",
+      "pdfMetadata": {
+        "CreationDate": "Fri Apr  7 12:39:04 2023 EDT",
+        "ModDate": "Fri Apr  7 14:01:08 2023 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "reportFiscalYear": 2023,
+      "outcomeAsOf": "2023-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "32d51e77264bb859258677be86176a98dc70d1d4faeadd8f7c48b08258b2ca51",
+      "pdfMetadata": {
+        "CreationDate": "Sun Apr 21 16:50:13 2024 EDT",
+        "ModDate": "Sun Apr 21 16:50:13 2024 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "reportFiscalYear": 2024,
+      "outcomeAsOf": "2024-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "589f432a7bb34237b247c1c39376ca1a3a9722984856f409e79d81fddf8127c4",
+      "pdfMetadata": {
+        "CreationDate": "Mon Jul 28 12:15:51 2025 EDT",
+        "ModDate": "Tue Sep 30 09:32:19 2025 EDT"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "reportFiscalYear": 2025,
+      "outcomeAsOf": "2025-09-30",
+      "retrievedAt": "2026-09-10",
+      "sha256": "0e1744fdf373841cd2d3f013c7796fe14fa87f4fa123a2dfcfc3abbae730fb8e",
+      "pdfMetadata": {
+        "CreationDate": "Mon Jan 26 10:57:45 2026 EST",
+        "ModDate": "Thu Feb 12 15:19:16 2026 EST"
+      },
+      "publicationDate": null,
+      "publicationDateNote": "PDF metadata is retained for audit but is not treated as proof of public availability."
+    }
+  ],
+  "availabilityEvidence": [
+    {
+      "id": "pdufa-2019-availability",
+      "sourceUrl": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2775955",
+      "availableBy": "2020-09-26",
+      "scope": "Chahal et al., JAMA Internal Medicine (2021), reference16 cites the exact FDA FY2019 report URL with a September26,2020 reference-access date. The current PDF metadata is May22,2020. This supports availability before the October1,2020 holdout start, but does not independently archive the exact historical bytes."
+    },
+    {
+      "id": "pdufa-2020-availability",
+      "sourceUrl": "https://www.fda.gov/about-fda/fda-track-agency-wide-program-performance/fda-track-newsletter-september-23-2021",
+      "availableBy": "2021-09-23",
+      "scope": "FDA newsletter says preliminary FY2020 user-fee performance data available. Together with FY2020 report PDF metadata dated August2021, supports report-era availability before FY2022. Exact byte-version historical publication not archived."
+    }
+  ],
+  "sourceDataSha256": {
+    "action_counts.json": "36a9e0661f91ee39fa057c2a55a9d8f367ca39bdd4f20a938626358c1d76934b",
+    "approval_rates.json": "d09be7100eeb1e632f7cf0352580fe8676d1e8984771cb279d74313ff2def9a6",
+    "reports.json": "8a4e3a1c6cee3dbc747478863dea9413ed91bf3a0a525b9b34b4d88535a76956"
+  },
+  "reproduce": "python3 model/rebuild.py && python3 -m unittest discover -s model -p \"test_*.py\""
+}

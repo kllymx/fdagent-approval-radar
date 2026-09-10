@@ -1,0 +1,102 @@
+{
+  "caseId": "apitegromab-facility-mitigation",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T17:52:42.898Z",
+  "mode": "original-documents-only",
+  "reasoningEffort": "high",
+  "question": "Catalent Indiana has an OAI classification, but Scholar Rock is removing it from apitegromab's application and using a second fill-finish facility. Is the manufacturing issue resolved, or does the OAI mean apitegromab will be rejected? Trace what each document actually establishes.",
+  "answer": {
+    "answer": "Neither conclusion is established. The documents support a manufacturing-risk mitigation pathway, not confirmed resolution: Scholar Rock reports moving apitegromab’s review to a second fill-finish facility, but does not establish completed FDA acceptance of that manufacturing arrangement. Removing Catalent would avoid relying on that site; it would not remediate Catalent’s deficiencies. Conversely, Catalent’s reported OAI classification is not itself a decision rejecting apitegromab’s revised application. The September 30, 2026 action date establishes neither approval nor rejection. [srrk-facility-2026; fda-catalent-483-2026]",
+    "claims": [
+      {
+        "claim": "September 23, 2025 — Scholar Rock reported that FDA issued an apitegromab CRL solely concerning observations from a routine general inspection of Catalent Indiana. According to the company, those observations were not apitegromab-specific, and the CRL cited no other approvability concerns, including efficacy, safety or the drug-substance manufacturer. This establishes the company-reported scope of that CRL, not an unconditional FDA endorsement of the application. The actual CRL is not supplied.",
+        "sourceIds": [
+          "srrk-crl-2025"
+        ]
+      },
+      {
+        "claim": "The 2025 release described Catalent’s response and continuing corrective actions, with resubmission planned after successful remediation. It did not establish that remediation had succeeded. It also clarified that the Bloomington facility was owned and operated by Novo Nordisk, no longer by Catalent, Inc.",
+        "sourceIds": [
+          "srrk-crl-2025"
+        ]
+      },
+      {
+        "claim": "April 13–24, 2026 — FDA’s Form 483 directly records investigators’ observations at Catalent Indiana: recurring mammalian hair in finished sterile products despite corrective actions; inadequate investigations of repeated roof leaks affecting aseptic areas; deficient visual-inspection qualification; and shortcomings in aseptic validation, monitoring and quality systems. These are substantive facility concerns. However, the form expressly says it is not a final agency compliance determination. It does not identify apitegromab as an affected product, and this later inspection cannot itself establish the basis of the September 2025 CRL.",
+        "sourceIds": [
+          "fda-catalent-483-2026",
+          "srrk-crl-2025"
+        ]
+      },
+      {
+        "claim": "August 7, 2026 — The OAI classification is reported by Scholar Rock through a customer notification received from Catalent Indiana concerning FDA’s classification of the April inspection. The supplied FDA 483 does not itself establish that classification. Thus, the evidence chain is FDA classification → Catalent notification → Scholar Rock public disclosure, rather than a supplied FDA classification letter. The reported OAI concerns the facility inspection, not a new product-level rejection.",
+        "sourceIds": [
+          "srrk-facility-2026",
+          "fda-catalent-483-2026"
+        ]
+      },
+      {
+        "claim": "Scholar Rock reported that its March 2026 BLA submission included two fill-finish facilities, providing two independent potential approval pathways. It said FDA and the company agreed at a March Type C meeting on the second facility’s required data package, which was submitted ahead of schedule and remained under review. On August 7, the company said it 'will remove' Catalent under FDA guidance and proceed solely with the second facility. This documents a reported regulatory pathway and planned removal, not confirmation that removal or substantive review was complete.",
+        "sourceIds": [
+          "srrk-facility-2026"
+        ]
+      },
+      {
+        "claim": "The second facility’s favorable compliance history, recent successful FDA/EMA inspections, U.S. location and commercial-product experience are company-reported. Scholar Rock also reported commercial vials at a third-party provider awaiting packaging and labeling. These support manufacturing and supply readiness, but do not establish FDA acceptance of that facility for apitegromab or approval of the BLA.",
+        "sourceIds": [
+          "srrk-facility-2026"
+        ]
+      },
+      {
+        "claim": "Inference: if FDA accepts the revised manufacturing arrangement, the second facility could avoid the need to rely on Catalent’s remediation for this application. Nevertheless, the August release describes ongoing review and potential approval, explicitly acknowledges uncertainty over whether the updated BLA will support approval, and states apitegromab remained unapproved at publication. Neither guaranteed rejection from OAI nor guaranteed approval from the alternative facility or September 30 target is supported.",
+        "sourceIds": [
+          "srrk-facility-2026"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No supplied update after August 7 establishes whether Catalent’s removal was completed, FDA accepted the second facility/data package, or a final BLA decision occurred by September 10, 2026.",
+      "The actual CRL, FDA OAI classification communication, Type C meeting records and second facility’s inspection/acceptance documents are not supplied. Important application-specific statements therefore remain sponsor-reported.",
+      "The second facility is unnamed, limiting independent assessment of its reported compliance history and apitegromab-specific readiness from these documents.",
+      "The supplied 483 text contains substantial redactions and internal date inconsistencies, including June and October 2026 references within an April inspection record. Those passages cannot reliably establish event timing, and redacted products or batches cannot be attributed to apitegromab."
+    ]
+  },
+  "documents": [
+    {
+      "id": "srrk-crl-2025",
+      "title": "Scholar Rock: apitegromab complete response",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/fda-issues-complete-response-letter-crl-apitegromab-treatment/",
+      "characters": 25061,
+      "sha256": "5a5a465da04da8018e6398c9a1de88bed2161a9e405b66060b1c003be2b8b369"
+    },
+    {
+      "id": "fda-catalent-483-2026",
+      "title": "FDA: Catalent Indiana inspection observations",
+      "url": "https://www.fda.gov/media/193455/download",
+      "characters": 51248,
+      "sha256": "ed4dcbfe65ea1f6eed11559080a3cb555170057ee22a54fecf1bbaa00a70a6e4"
+    },
+    {
+      "id": "srrk-facility-2026",
+      "title": "Scholar Rock: second fill-finish facility pathway",
+      "url": "https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+      "characters": 26172,
+      "sha256": "8957c9a13b63eaac2a705a75409bd12fd76acf1d27d5376c33568d5a8d7ba50e"
+    }
+  ],
+  "inputSha256": "34fea8f357b197106259e20f1a0c1a31231dd9edbef3ecbb7cd2fa437e11844c",
+  "usage": {
+    "input_tokens": 23566,
+    "input_tokens_details": {
+      "cache_write_tokens": 23563,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2194,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 25760
+  },
+  "durationMs": 48508,
+  "gradingStatus": "ungraded",
+  "method": "No candidate summaries, curated signals, expected facts or grading rubric supplied. Current retrieved documents, not a historical forecast backtest."
+}

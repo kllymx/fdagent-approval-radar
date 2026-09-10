@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "title": "Observed FDA review pathways",
+  "asOf": "2026-09-10",
+  "coverage": "12 illustrative, manually selected histories from FDA FY2025 approved-application appendix; not random or representative. No probability is inferred from their outcomes.",
+  "limitations": [
+    "Applications with no approval in FY2025 are absent. These examples cannot estimate approval likelihood or the distribution of delays in all filed applications.",
+    "Similarity of review structure is not similarity of clinical evidence, modality, indication or manufacturing risk.",
+    "FDA rounds months to one decimal; totals may differ slightly from sums. An extension marker is an observed post-submission event, not a baseline predictor."
+  ],
+  "histories": [
+    {
+      "id": "journavx",
+      "drug": "JOURNAVX",
+      "genericName": "suzetrigine",
+      "sponsor": "VERTEX PHARMACEUTICALS INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 8.0,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 8.0,
+          "outcome": "AP",
+          "cumulativeMonths": 8.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=92",
+      "pdfPage": 92,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-92.txt",
+      "lesson": "An original priority review with first-cycle approval at 8.0 months.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "revuforj",
+      "drug": "REVUFORJ",
+      "genericName": "revumenib",
+      "sponsor": "SYNDAX PHARMACEUTICALS INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 9.7,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 9.7,
+          "outcome": "AP",
+          "cumulativeMonths": 9.7,
+          "goalMet": true,
+          "majorAmendmentMarker": true
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=92",
+      "pdfPage": 92,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-92.txt",
+      "lesson": "Major-amendment marker and approval after 9.7 months; the applicable goal was still met.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "symvess",
+      "drug": "SYMVESS",
+      "genericName": "acellular tissue engineered vessel-tyod",
+      "sponsor": "HUMACYTE GLOBAL INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 12.3,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 12.3,
+          "outcome": "AP",
+          "cumulativeMonths": 12.3,
+          "goalMet": false,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=92",
+      "pdfPage": 92,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-92.txt",
+      "lesson": "First-cycle approval can occur after the review goal: this record shows 12.3 months and goal not met.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "lynozyfic",
+      "drug": "LYNOZYFIC",
+      "genericName": "linvoseltamab-gcpt",
+      "sponsor": "REGENERON PHARMACEUTICALS INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 18.4,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 8.0,
+          "outcome": "CR",
+          "cumulativeMonths": 8.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 4.7,
+          "outcome": null,
+          "cumulativeMonths": 12.7,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 5.7,
+          "outcome": "AP",
+          "cumulativeMonths": 18.4,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=92",
+      "pdfPage": 92,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-92.txt",
+      "lesson": "A complete response was followed by sponsor response and another review, for 18.4 months total.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "forzinity",
+      "drug": "FORZINITY",
+      "genericName": "elamipretide",
+      "sponsor": "STEALTH BIOTHERAPEUTICS INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 19.6,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 15.5,
+          "outcome": "CR",
+          "cumulativeMonths": 15.5,
+          "goalMet": false,
+          "majorAmendmentMarker": true
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 3.0,
+          "outcome": null,
+          "cumulativeMonths": 18.5,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 1.1,
+          "outcome": "AP",
+          "cumulativeMonths": 19.6,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "An extended first review missed its goal and ended in a complete response; a later review ended in approval.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "vyloy",
+      "drug": "VYLOY",
+      "genericName": "zolbetuximab-clzb",
+      "sponsor": "ASTELLAS PHARMA US INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2023,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 17.2,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 7.8,
+          "outcome": "CR",
+          "cumulativeMonths": 7.8,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 4.1,
+          "outcome": null,
+          "cumulativeMonths": 11.9,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 5.3,
+          "outcome": "AP",
+          "cumulativeMonths": 17.2,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "A first-cycle complete response and second-cycle approval after 17.2 months total.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "zevaskyn",
+      "drug": "ZEVASKYN",
+      "genericName": "prademagene zamikeracel",
+      "sponsor": "ABEONA THERAPEUTICS INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2023,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 19.1,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 6.7,
+          "outcome": "CR",
+          "cumulativeMonths": 6.7,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 6.4,
+          "outcome": null,
+          "cumulativeMonths": 13.1,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 6.0,
+          "outcome": "AP",
+          "cumulativeMonths": 19.1,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "Sponsor response time was similar to the subsequent six-month review.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "alhemo",
+      "drug": "ALHEMO",
+      "genericName": "concizumab-mtci",
+      "sponsor": "NOVO NORDISK INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2022,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 27.9,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 8.0,
+          "outcome": "CR",
+          "cumulativeMonths": 8.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 13.9,
+          "outcome": null,
+          "cumulativeMonths": 21.9,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 6.0,
+          "outcome": "AP",
+          "cumulativeMonths": 27.9,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "A 13.9-month sponsor response interval contributed materially to total time of 27.9 months.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "orlynvah",
+      "drug": "ORLYNVAH",
+      "genericName": "sulopenem etzadroxil and probenecid",
+      "sponsor": "ITERUM THERAPEUTICS US LTD",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2021,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 47.0,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 7.9,
+          "outcome": "CR",
+          "cumulativeMonths": 7.9,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 33.1,
+          "outcome": null,
+          "cumulativeMonths": 41.0,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 6.0,
+          "outcome": "AP",
+          "cumulativeMonths": 47.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "Sponsor response consumed 33.1 of the 47.0 total months; FDA review time alone would miss most of this delay.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "ryoncil",
+      "drug": "RYONCIL",
+      "genericName": "remestemcel-l-rknd",
+      "sponsor": "MESOBLAST INC",
+      "reviewClass": "priority",
+      "receiptFiscalYear": 2020,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 58.6,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 8.0,
+          "outcome": "CR",
+          "cumulativeMonths": 8.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 28.0,
+          "outcome": null,
+          "cumulativeMonths": 36.0,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 6.0,
+          "outcome": "CR",
+          "cumulativeMonths": 42.0,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "Sponsor response",
+          "months": 11.2,
+          "outcome": null,
+          "cumulativeMonths": 53.2,
+          "goalMet": null,
+          "majorAmendmentMarker": false
+        },
+        {
+          "stage": "FDA review",
+          "months": 5.4,
+          "outcome": "AP",
+          "cumulativeMonths": 58.6,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=93",
+      "pdfPage": 93,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-93.txt",
+      "lesson": "Two complete responses and two sponsor intervals preceded eventual approval after 58.6 months.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "inluriyo",
+      "drug": "INLURIYO",
+      "genericName": "imlunestrant",
+      "sponsor": "ELI LILLY AND CO",
+      "reviewClass": "standard",
+      "receiptFiscalYear": 2025,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 10.8,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 10.8,
+          "outcome": "AP",
+          "cumulativeMonths": 10.8,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=94",
+      "pdfPage": 94,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-94.txt",
+      "lesson": "An original standard application reached first-cycle approval in 10.8 months.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    },
+    {
+      "id": "attruby",
+      "drug": "ATTRUBY",
+      "genericName": "acoramidis",
+      "sponsor": "BRIDGEBIO PHARMA INC",
+      "reviewClass": "standard",
+      "receiptFiscalYear": 2024,
+      "approvalFiscalYear": 2025,
+      "totalMonths": 11.8,
+      "timeline": [
+        {
+          "stage": "FDA review",
+          "months": 11.8,
+          "outcome": "AP",
+          "cumulativeMonths": 11.8,
+          "goalMet": true,
+          "majorAmendmentMarker": false
+        }
+      ],
+      "sourceId": "pdufa-2025",
+      "sourceUrl": "https://www.fda.gov/media/191112/download#page=96",
+      "pdfPage": 96,
+      "sourceTextPath": "model/sources/excerpts/pdufa-2025-page-96.txt",
+      "lesson": "An original standard application reached first-cycle approval in 11.8 months.",
+      "selection": "Manually selected examples of different review paths, all from applications approved in FY2025. Not a representative prediction cohort.",
+      "diseaseSimilarityAssessed": false,
+      "extractionMethod": "Manual transcription, numeric timeline checked against FDA source page."
+    }
+  ]
+}

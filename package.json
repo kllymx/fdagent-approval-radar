@@ -1,0 +1,42 @@
+{
+  "name": "fdagent-approval-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Public-data FDA approval intelligence, reproducible review-cohort forecasting, and live Astra investigations.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "dev:ui": "vite --host 127.0.0.1 --port 5178",
+    "dev:server": "tsx watch server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts ui/*.test.ts",
+    "preflight": "tsx scripts/preflight.ts",
+    "data:validate": "tsx scripts/validate-data.ts",
+    "evaluate": "tsx scripts/evaluate.ts",
+    "build:demo": "VITE_STATIC_DEMO=true vite build && tsx scripts/static-demo.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "dotenv": "^17.2.3",
+    "lucide-react": "^0.562.0",
+    "openai": "^6.16.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prettier": "3.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}

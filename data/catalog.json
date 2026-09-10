@@ -1,0 +1,1324 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-10T17:35:10Z",
+  "asOf": "2026-09-10",
+  "candidates": [
+    {
+      "id": "relutrigine-dee",
+      "drug": "Relutrigine",
+      "indication": "SCN2A and SCN8A developmental and epileptic encephalopathies",
+      "sponsor": "Praxis Precision Medicines",
+      "ticker": "PRAX",
+      "modality": "Small molecule · sodium-channel modulator",
+      "phase": "Phase 2/3",
+      "reviewType": "Priority review · extended",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05818553"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-12-27",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A review extension for additional analyses sits alongside later favorable sponsor-reported mid-cycle and clinical-research inspection updates.",
+      "sourceIds": [
+        "trial-embold",
+        "prax-rel-acceptance",
+        "prax-rel-extension",
+        "prax-q2-2026"
+      ],
+      "milestones": [
+        {
+          "id": "rel-accepted",
+          "date": "2026-03-30",
+          "title": "NDA accepted with priority review",
+          "detail": "Praxis announced an original September 27 FDA action target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "prax-rel-acceptance"
+          ]
+        },
+        {
+          "id": "rel-extended",
+          "date": "2026-06-29",
+          "title": "Decision target moved by three months",
+          "detail": "Additional sensitivity analyses were classified as a major amendment; the reported target became December 27.",
+          "kind": "extension",
+          "sourceIds": [
+            "prax-rel-extension"
+          ]
+        },
+        {
+          "id": "rel-midcycle",
+          "date": "2026-08-06",
+          "title": "Mid-cycle and BIMO update",
+          "detail": "Praxis reported no major safety or efficacy concerns identified to date and no Form 483 following its sponsor BIMO inspection.",
+          "kind": "update",
+          "sourceIds": [
+            "prax-q2-2026"
+          ]
+        },
+        {
+          "id": "rel-target",
+          "date": "2026-12-27",
+          "title": "Reported FDA action target",
+          "detail": "A goal for agency action, not a promise of approval.",
+          "kind": "target",
+          "sourceIds": [
+            "prax-rel-extension"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "rel-extra-analysis",
+          "label": "Additional analysis required time",
+          "detail": "The major amendment creates a documented timing setback; it does not itself establish an adverse benefit-risk judgment.",
+          "direction": "concern",
+          "category": "timing",
+          "sourceIds": [
+            "prax-rel-extension"
+          ]
+        },
+        {
+          "id": "rel-midcycle-positive",
+          "label": "Favorable mid-cycle report",
+          "detail": "The sponsor reports no major safety or efficacy concerns identified to date; the complete FDA review remains unavailable.",
+          "direction": "supportive",
+          "category": "regulatory",
+          "sourceIds": [
+            "prax-q2-2026"
+          ]
+        },
+        {
+          "id": "rel-bimo-scope",
+          "label": "BIMO is not manufacturing clearance",
+          "detail": "The clean reported inspection concerned sponsor clinical operations and data integrity. Manufacturing readiness cannot be inferred from it.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "prax-q2-2026"
+          ]
+        },
+        {
+          "id": "rel-registry-gap",
+          "label": "Registry results not posted",
+          "detail": "The registry supports design and identifiers, but does not independently reproduce the submitted efficacy analysis.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-embold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apitegromab-sma",
+      "drug": "Apitegromab",
+      "indication": "Spinal muscular atrophy with background SMN-targeted therapy",
+      "sponsor": "Scholar Rock",
+      "ticker": "SRRK",
+      "modality": "Monoclonal antibody · myostatin activation inhibitor",
+      "phase": "Phase 3",
+      "reviewType": "BLA resubmission",
+      "applicationType": "BLA resubmission",
+      "nctIds": [
+        "NCT05156320"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-09-30",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A manufacturing-linked prior setback and a newly selected fill-finish pathway make facility-specific evidence decisive.",
+      "sourceIds": [
+        "trial-sapphire",
+        "srrk-crl-2025",
+        "fda-catalent-483-2026",
+        "srrk-facility-2026",
+        "srrk-sapphire"
+      ],
+      "milestones": [
+        {
+          "id": "api-crl",
+          "date": "2025-09-23",
+          "title": "Prior complete response disclosed",
+          "detail": "The sponsor attributed the CRL to third-party fill-finish inspection observations.",
+          "kind": "crl",
+          "sourceIds": [
+            "srrk-crl-2025"
+          ]
+        },
+        {
+          "id": "api-483",
+          "date": "2026-04-24",
+          "title": "Catalent Form 483 issued",
+          "detail": "FDA documented observations at the identified Indiana site; product identities are redacted. Public posting date is unknown.",
+          "kind": "update",
+          "sourceIds": [
+            "fda-catalent-483-2026"
+          ]
+        },
+        {
+          "id": "api-second-site",
+          "date": "2026-08-07",
+          "title": "Review proceeds with second fill-finish site",
+          "detail": "Scholar Rock reported removal of Catalent Indiana from the BLA after OAI classification.",
+          "kind": "update",
+          "sourceIds": [
+            "srrk-facility-2026"
+          ]
+        },
+        {
+          "id": "api-target",
+          "date": "2026-09-30",
+          "title": "Reported FDA action target",
+          "detail": "September 30 remains the sponsor-reported action target after the facility update.",
+          "kind": "target",
+          "sourceIds": [
+            "srrk-facility-2026"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "api-clinical",
+          "label": "Prespecified motor-function result positive",
+          "detail": "The combined-dose SAPPHIRE analysis was significant. The 20 mg/kg-only result was not; these should not be conflated.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "srrk-sapphire"
+          ]
+        },
+        {
+          "id": "api-oai",
+          "label": "Documented manufacturing setback",
+          "detail": "A prior CRL and subsequent OAI classification are candidate-linked through the sponsor disclosure.",
+          "direction": "concern",
+          "category": "manufacturing",
+          "sourceIds": [
+            "srrk-crl-2025",
+            "srrk-facility-2026",
+            "fda-catalent-483-2026"
+          ]
+        },
+        {
+          "id": "api-alternative",
+          "label": "Alternative facility under review",
+          "detail": "The sponsor reports a submitted alternative-site package and available supply. This mitigates dependence on Catalent but is not FDA approval of that pathway.",
+          "direction": "supportive",
+          "category": "manufacturing",
+          "sourceIds": [
+            "srrk-facility-2026"
+          ]
+        },
+        {
+          "id": "api-redaction",
+          "label": "Exact lot and new-site assessments unknown",
+          "detail": "The public Form 483 redacts products. It cannot prove affected apitegromab lots or describe FDA findings for the unnamed replacement facility.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "fda-catalent-483-2026",
+            "srrk-facility-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ux111-mpsiiia",
+      "drug": "UX111 (rebisufligene etisparvovec)",
+      "indication": "Sanfilippo syndrome type A (MPS IIIA)",
+      "sponsor": "Ultragenyx Pharmaceutical",
+      "ticker": "RARE",
+      "modality": "AAV9 gene therapy",
+      "phase": "Phase 1/2/3",
+      "reviewType": "Resubmission · accelerated approval sought",
+      "applicationType": "BLA resubmission",
+      "nctIds": [
+        "NCT02716246"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-09-19",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A gene-therapy resubmission after CMC observations, with biomarker and longer-term clinical evidence requiring careful interpretation.",
+      "sourceIds": [
+        "trial-ux111",
+        "ux111-crl",
+        "ux111-resubmission",
+        "ux111-q2"
+      ],
+      "milestones": [
+        {
+          "id": "ux-crl",
+          "date": "2025-07-11",
+          "title": "CMC-linked complete response",
+          "detail": "The sponsor disclosed manufacturing and controls observations.",
+          "kind": "crl",
+          "sourceIds": [
+            "ux111-crl"
+          ]
+        },
+        {
+          "id": "ux-accepted",
+          "date": "2026-04-02",
+          "title": "Resubmitted BLA accepted",
+          "detail": "The application seeks accelerated approval for MPS IIIA.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "ux111-resubmission"
+          ]
+        },
+        {
+          "id": "ux-update",
+          "date": "2026-08-04",
+          "title": "Target reaffirmed in business update",
+          "detail": "Ultragenyx continued to report September 19 as the UX111 target.",
+          "kind": "update",
+          "sourceIds": [
+            "ux111-q2"
+          ]
+        },
+        {
+          "id": "ux-target",
+          "date": "2026-09-19",
+          "title": "Reported FDA action target",
+          "detail": "This target belongs to UX111, not the separate DTX401 application.",
+          "kind": "target",
+          "sourceIds": [
+            "ux111-resubmission"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "ux-cmc",
+          "label": "Manufacturing review remains pivotal",
+          "detail": "The earlier CRL explicitly requested CMC and inspection-related improvements; resubmission acceptance alone does not prove resolution.",
+          "direction": "concern",
+          "category": "manufacturing",
+          "sourceIds": [
+            "ux111-crl",
+            "ux111-resubmission"
+          ]
+        },
+        {
+          "id": "ux-followup",
+          "label": "Longer follow-up submitted",
+          "detail": "The sponsor describes an updated package with additional follow-up supporting its accelerated-approval request.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "ux111-resubmission"
+          ]
+        },
+        {
+          "id": "ux-surrogate",
+          "label": "Surrogate and clinical interpretation matter",
+          "detail": "The trial is open-label and uses CSF heparan-sulfate exposure as a primary measure. Cross-cohort comparisons need appropriate natural-history context.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-ux111"
+          ]
+        },
+        {
+          "id": "ux-program-scope",
+          "label": "Distinct from DTX401",
+          "detail": "An outcome for Ultragenyx’s glycogen-storage-disease program is not an outcome for UX111 in Sanfilippo syndrome.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "ux111-q2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deramiocel-dmd",
+      "drug": "Deramiocel",
+      "indication": "Duchenne muscular dystrophy · proposed upper-limb-function indication",
+      "sponsor": "Capricor Therapeutics",
+      "ticker": "CAPR",
+      "modality": "Allogeneic cardiosphere-derived cell therapy",
+      "phase": "Phase 3",
+      "reviewType": "BLA resubmission · extended",
+      "applicationType": "BLA resubmission",
+      "nctIds": [
+        "NCT05126758"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-22",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A major amendment adds longer follow-up and narrows the proposed indication after advisory-committee discussion.",
+      "sourceIds": [
+        "fda-deramiocel-briefing",
+        "capr-extension",
+        "trial-hope3"
+      ],
+      "milestones": [
+        {
+          "id": "der-adcom",
+          "date": "2026-07-29",
+          "title": "FDA analysis challenged efficacy interpretation",
+          "detail": "The FDA meeting briefing raised analysis-plan and effectiveness concerns before the later amendment. Exact public posting day is unknown.",
+          "kind": "update",
+          "sourceIds": [
+            "fda-deramiocel-briefing"
+          ]
+        },
+        {
+          "id": "der-extension",
+          "date": "2026-08-24",
+          "title": "Target extended and indication refined",
+          "detail": "Capricor disclosed additional HOPE-3 follow-up and analyses; the target moved from August 22 to November 22.",
+          "kind": "extension",
+          "sourceIds": [
+            "capr-extension"
+          ]
+        },
+        {
+          "id": "der-trial-update",
+          "date": "2026-08-28",
+          "title": "HOPE-3 registry updated",
+          "detail": "The current record preserves the randomized 12-month period and open-label follow-up distinction.",
+          "kind": "trial",
+          "sourceIds": [
+            "trial-hope3"
+          ]
+        },
+        {
+          "id": "der-target",
+          "date": "2026-11-22",
+          "title": "Reported FDA action target",
+          "detail": "The target allows review of the major amendment.",
+          "kind": "target",
+          "sourceIds": [
+            "capr-extension"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "der-endpoint",
+          "label": "Sponsor reports positive primary endpoint",
+          "detail": "Capricor says HOPE-3 demonstrated a significant upper-limb-function benefit; this claim must be reconciled with FDA’s earlier statistical critique.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "capr-extension"
+          ]
+        },
+        {
+          "id": "der-fda-statistics",
+          "label": "FDA challenged statistical robustness",
+          "detail": "The July briefing reports different results across analysis plans and did not find sufficient effectiveness evidence. August’s amendment requires a new assessment, not automatic dismissal of those concerns.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "fda-deramiocel-briefing",
+            "capr-extension"
+          ]
+        },
+        {
+          "id": "der-scope",
+          "label": "Requested indication changed",
+          "detail": "The refined application focus is upper-limb function. Broader skeletal or cardiac benefit claims should not substitute for this proposed indication.",
+          "direction": "concern",
+          "category": "regulatory",
+          "sourceIds": [
+            "capr-extension"
+          ]
+        },
+        {
+          "id": "der-ole",
+          "label": "Follow-up does not preserve randomization",
+          "detail": "The additional 24-month data are open-label. Their interpretive strength differs from the blinded 12-month comparison.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "capr-extension",
+            "trial-hope3"
+          ]
+        },
+        {
+          "id": "der-time",
+          "label": "Three-month review extension",
+          "detail": "FDA accepted additional material for review, which is not a final finding of effectiveness.",
+          "direction": "concern",
+          "category": "timing",
+          "sourceIds": [
+            "capr-extension"
+          ]
+        }
+      ],
+      "applicationNumber": "125842"
+    },
+    {
+      "id": "ivonescimab-egfrm",
+      "drug": "Ivonescimab + chemotherapy",
+      "indication": "EGFR-mutated advanced non-squamous NSCLC after third-generation EGFR TKI",
+      "sponsor": "Summit Therapeutics",
+      "ticker": "SMMT",
+      "modality": "Bispecific antibody · PD-1 / VEGF",
+      "phase": "Phase 3",
+      "reviewType": "Original BLA review",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT06396065"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-14",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "Global trial evidence shows a progression-free-survival benefit, with an unresolved overall-survival interpretation and a near-term public data update.",
+      "sourceIds": [
+        "summit-acceptance",
+        "summit-harmoni",
+        "trial-harmoni"
+      ],
+      "milestones": [
+        {
+          "id": "ivo-accepted",
+          "date": "2026-01-29",
+          "title": "BLA accepted",
+          "detail": "The accepted indication follows third-generation EGFR TKI treatment.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "summit-acceptance"
+          ]
+        },
+        {
+          "id": "ivo-publication",
+          "date": "2026-08-25",
+          "title": "Primary analysis published",
+          "detail": "The sponsor summarized positive PFS and a non-significant primary OS analysis.",
+          "kind": "trial",
+          "sourceIds": [
+            "summit-harmoni"
+          ]
+        },
+        {
+          "id": "ivo-data-event",
+          "date": "2026-09-15",
+          "title": "Further OS presentation announced",
+          "detail": "An announced future presentation; its contents are not included as known evidence at September 10.",
+          "kind": "target",
+          "sourceIds": [
+            "summit-harmoni"
+          ]
+        },
+        {
+          "id": "ivo-target",
+          "date": "2026-11-14",
+          "title": "Reported FDA action target",
+          "detail": "An action target for the HARMONi-based indication.",
+          "kind": "target",
+          "sourceIds": [
+            "summit-acceptance"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "ivo-pfs",
+          "label": "Progression-free survival improved",
+          "detail": "Sponsor-reported PFS HR was 0.52, with a 95% interval below 1; median PFS was 6.8 versus 4.4 months.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "summit-harmoni"
+          ]
+        },
+        {
+          "id": "ivo-os",
+          "label": "Primary OS result was not significant",
+          "detail": "A favorable numerical trend must not be described as proven overall-survival benefit.",
+          "direction": "concern",
+          "category": "clinical",
+          "sourceIds": [
+            "summit-harmoni"
+          ]
+        },
+        {
+          "id": "ivo-newdata",
+          "label": "Upcoming evidence could change interpretation",
+          "detail": "More OS detail is scheduled for September 15. As of this snapshot, that future presentation cannot be used.",
+          "direction": "unknown",
+          "category": "timing",
+          "sourceIds": [
+            "summit-harmoni"
+          ]
+        },
+        {
+          "id": "ivo-trial-scope",
+          "label": "Keep HARMONi populations separate",
+          "detail": "This application uses the global EGFR-mutated post-TKI study; results from other similarly named ivonescimab trials are not interchangeable.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "summit-acceptance",
+            "trial-harmoni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "molgramostim-apap",
+      "drug": "Molgramostim inhalation solution",
+      "indication": "Autoimmune pulmonary alveolar proteinosis",
+      "sponsor": "Savara",
+      "ticker": "SVRA",
+      "modality": "Inhaled recombinant GM-CSF",
+      "phase": "Phase 3",
+      "reviewType": "Priority review · extended",
+      "applicationType": "BLA",
+      "nctIds": [
+        "NCT04544293"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-22",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "An inhaled biologic with public randomized-trial results and a major-amendment timing extension.",
+      "sourceIds": [
+        "savara-extension",
+        "savara-q2",
+        "trial-impala2"
+      ],
+      "milestones": [
+        {
+          "id": "mol-extension",
+          "date": "2026-04-15",
+          "title": "Review extended for additional material",
+          "detail": "Responses to FDA requests were a major amendment; the sponsor reported a November 22 target.",
+          "kind": "extension",
+          "sourceIds": [
+            "savara-extension"
+          ]
+        },
+        {
+          "id": "mol-update",
+          "date": "2026-08-11",
+          "title": "Target reaffirmed",
+          "detail": "The sponsor continued to describe MOLBREEVI as an unapproved proposed brand.",
+          "kind": "update",
+          "sourceIds": [
+            "savara-q2"
+          ]
+        },
+        {
+          "id": "mol-target",
+          "date": "2026-11-22",
+          "title": "Reported FDA action target",
+          "detail": "An agency action target under the extended priority review.",
+          "kind": "target",
+          "sourceIds": [
+            "savara-q2"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "mol-rct",
+          "label": "Randomized results publicly available",
+          "detail": "IMPALA-2 provides a placebo-controlled design and posted results for lung gas-transfer function.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-impala2"
+          ]
+        },
+        {
+          "id": "mol-time",
+          "label": "Documented extension",
+          "detail": "Additional review time was needed for information-request responses; the letter is summarized by the sponsor.",
+          "direction": "concern",
+          "category": "timing",
+          "sourceIds": [
+            "savara-extension"
+          ]
+        },
+        {
+          "id": "mol-no-concerns",
+          "label": "Notice did not cite major concern categories",
+          "detail": "The sponsor says the extension correspondence cited no safety, efficacy or manufacturing concerns. That statement is limited to the correspondence.",
+          "direction": "supportive",
+          "category": "regulatory",
+          "sourceIds": [
+            "savara-extension"
+          ]
+        },
+        {
+          "id": "mol-cmc",
+          "label": "Complete manufacturing assessment unknown",
+          "detail": "The cited public materials do not expose FDA’s complete manufacturing assessment. Silence cannot be treated as clearance.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "savara-extension",
+            "savara-q2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neladalkib-alk",
+      "drug": "Neladalkib",
+      "indication": "TKI-pretreated advanced ALK-positive non-small cell lung cancer",
+      "sponsor": "Nuvalent / GSK",
+      "ticker": "GSK",
+      "modality": "Small molecule · ALK inhibitor",
+      "phase": "Phase 1/2",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT05384626"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-27",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "A targeted oncology application supported by a single-arm registrational study, now within GSK after acquisition.",
+      "sourceIds": [
+        "nuvl-acceptance",
+        "gsk-nuvalent",
+        "gsk-q2",
+        "trial-alkove1"
+      ],
+      "milestones": [
+        {
+          "id": "nel-accepted",
+          "date": "2026-05-27",
+          "title": "Priority-review NDA accepted",
+          "detail": "The reported target is November 27 for TKI-pretreated ALK-positive NSCLC.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "nuvl-acceptance"
+          ]
+        },
+        {
+          "id": "nel-acquired",
+          "date": "2026-07-15",
+          "title": "GSK completed Nuvalent acquisition",
+          "detail": "Ownership changed while the neladalkib review continued.",
+          "kind": "update",
+          "sourceIds": [
+            "gsk-nuvalent"
+          ]
+        },
+        {
+          "id": "nel-update",
+          "date": "2026-07-28",
+          "title": "Distinct regulatory status confirmed",
+          "detail": "The portfolio update separated approved zidesamtinib from pending neladalkib.",
+          "kind": "update",
+          "sourceIds": [
+            "gsk-q2"
+          ]
+        },
+        {
+          "id": "nel-target",
+          "date": "2026-11-27",
+          "title": "Reported FDA action target",
+          "detail": "The target applies to neladalkib’s ALK-positive indication.",
+          "kind": "target",
+          "sourceIds": [
+            "nuvl-acceptance"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "nel-priority",
+          "label": "Priority review granted",
+          "detail": "The sponsor reported an accepted application with priority review. This describes the review pathway, not an efficacy verdict.",
+          "direction": "supportive",
+          "category": "regulatory",
+          "sourceIds": [
+            "nuvl-acceptance"
+          ]
+        },
+        {
+          "id": "nel-singlearm",
+          "label": "Single-arm evidence needs context",
+          "detail": "ALKOVE-1’s phase 2 portion lacks a randomized concurrent comparator. Response durability and prior treatment mix matter.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "nuvl-acceptance",
+            "trial-alkove1"
+          ]
+        },
+        {
+          "id": "nel-distinct",
+          "label": "Do not inherit zidesamtinib’s approval",
+          "detail": "Zidesamtinib targets ROS1 and is a separate application; its approval does not resolve neladalkib’s ALK review.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "gsk-q2"
+          ]
+        },
+        {
+          "id": "nel-cmc",
+          "label": "Manufacturing status not established",
+          "detail": "The cited application announcement and portfolio update do not establish final FDA manufacturing clearance.",
+          "direction": "unknown",
+          "category": "manufacturing",
+          "sourceIds": [
+            "nuvl-acceptance",
+            "gsk-q2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dplex100-ssi",
+      "drug": "D-PLEX100",
+      "indication": "Prevention of surgical-site infection after abdominal colorectal surgery",
+      "sponsor": "PolyPid",
+      "ticker": "PYPD",
+      "modality": "Locally delivered doxycycline formulation",
+      "phase": "Phase 3",
+      "reviewType": "Priority review",
+      "applicationType": "NDA",
+      "nctIds": [
+        "NCT04411199"
+      ],
+      "status": "under_review",
+      "targetDate": "2026-11-28",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "Priority review brought the reported decision target ahead of prior guidance; trial endpoint and population scope require close reading.",
+      "sourceIds": [
+        "polypid-submission",
+        "polypid-q2",
+        "trial-shield2"
+      ],
+      "milestones": [
+        {
+          "id": "dplex-submitted",
+          "date": "2026-06-01",
+          "title": "Rolling NDA completed",
+          "detail": "Original sponsor guidance anticipated Q1 2027.",
+          "kind": "submission",
+          "sourceIds": [
+            "polypid-submission"
+          ]
+        },
+        {
+          "id": "dplex-accepted",
+          "date": "2026-07-27",
+          "title": "NDA accepted with priority review",
+          "detail": "The acceptance date was reported in the August 12 update.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "polypid-q2"
+          ]
+        },
+        {
+          "id": "dplex-update",
+          "date": "2026-08-12",
+          "title": "Earlier target disclosed",
+          "detail": "November 28 replaced the earlier first-quarter-2027 expectation.",
+          "kind": "update",
+          "sourceIds": [
+            "polypid-q2"
+          ]
+        },
+        {
+          "id": "dplex-target",
+          "date": "2026-11-28",
+          "title": "Reported FDA action target",
+          "detail": "A formal reported action target, distinct from prior sponsor guidance.",
+          "kind": "target",
+          "sourceIds": [
+            "polypid-q2"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "dplex-results",
+          "label": "Sponsor reports positive pivotal results",
+          "detail": "The company reported a 60% relative reduction in SSI. Absolute outcomes and analysis populations are available for inspection in the registry.",
+          "direction": "supportive",
+          "category": "clinical",
+          "sourceIds": [
+            "polypid-q2",
+            "trial-shield2"
+          ]
+        },
+        {
+          "id": "dplex-population",
+          "label": "Primary analysis has a defined subgroup",
+          "detail": "The registered primary endpoint concerns a composite and incisions over 20 cm. Broad SSI claims must not be silently substituted for this analysis.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "trial-shield2"
+          ]
+        },
+        {
+          "id": "dplex-priority",
+          "label": "Review target earlier than guidance",
+          "detail": "Priority-review acceptance moves the public target from anticipated Q1 2027 to November 28, 2026.",
+          "direction": "supportive",
+          "category": "timing",
+          "sourceIds": [
+            "polypid-submission",
+            "polypid-q2"
+          ]
+        },
+        {
+          "id": "dplex-filing",
+          "label": "Filing acceptance is an early gate",
+          "detail": "No filing issues reported by the sponsor does not establish absence of later clinical or CMC deficiencies.",
+          "direction": "unknown",
+          "category": "regulatory",
+          "sourceIds": [
+            "polypid-q2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floretyrosine-glioma",
+      "drug": "Floretyrosine F 18 (TLX101-Px)",
+      "indication": "PET characterization of recurrent or progressive glioma versus treatment-related change",
+      "sponsor": "Telix Pharmaceuticals",
+      "ticker": "TLX",
+      "modality": "Radiopharmaceutical · diagnostic PET tracer",
+      "phase": "NDA review",
+      "reviewType": "NDA resubmission",
+      "applicationType": "NDA resubmission",
+      "nctIds": [],
+      "status": "under_review",
+      "targetDate": "2026-09-11",
+      "targetDateKind": "reported",
+      "asOf": "2026-09-10",
+      "summary": "The nearest reported target in this collection concerns a diagnostic tracer, which requires different efficacy interpretation from a cancer therapy.",
+      "sourceIds": [
+        "telix-acceptance",
+        "telix-halfyear"
+      ],
+      "milestones": [
+        {
+          "id": "tlx-resubmitted",
+          "date": "2026-03-13",
+          "title": "NDA resubmitted",
+          "detail": "The April acceptance announcement specifies the March 13 resubmission.",
+          "kind": "submission",
+          "sourceIds": [
+            "telix-acceptance"
+          ]
+        },
+        {
+          "id": "tlx-accepted",
+          "date": "2026-04-10",
+          "title": "Resubmission accepted",
+          "detail": "The sponsor reported a September 11 target.",
+          "kind": "acceptance",
+          "sourceIds": [
+            "telix-acceptance"
+          ]
+        },
+        {
+          "id": "tlx-update",
+          "date": "2026-08-19",
+          "title": "Target reaffirmed",
+          "detail": "The half-year update continued to list the same target.",
+          "kind": "update",
+          "sourceIds": [
+            "telix-halfyear"
+          ]
+        },
+        {
+          "id": "tlx-target",
+          "date": "2026-09-11",
+          "title": "Reported FDA action target",
+          "detail": "This is the next-day target relative to this September 10 snapshot.",
+          "kind": "target",
+          "sourceIds": [
+            "telix-halfyear"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "tlx-scope",
+          "label": "Diagnostic performance is the relevant question",
+          "detail": "This is an imaging agent for differentiating glioma progression from treatment effects; tumor-shrinkage endpoints from a therapy are not a substitute.",
+          "direction": "neutral",
+          "category": "clinical",
+          "sourceIds": [
+            "telix-acceptance"
+          ]
+        },
+        {
+          "id": "tlx-review-active",
+          "label": "Resubmission review active",
+          "detail": "The sponsor disclosed FDA acceptance and reaffirmed the target in August.",
+          "direction": "supportive",
+          "category": "regulatory",
+          "sourceIds": [
+            "telix-acceptance",
+            "telix-halfyear"
+          ]
+        },
+        {
+          "id": "tlx-gap",
+          "label": "Submitted clinical package not reconstructed",
+          "detail": "The current catalog does not identify a single registrational NCT record or reproduce diagnostic-accuracy analyses. These remain evidence gaps.",
+          "direction": "unknown",
+          "category": "clinical",
+          "sourceIds": [
+            "telix-acceptance"
+          ]
+        },
+        {
+          "id": "tlx-identifiers",
+          "label": "Separate the related Telix products",
+          "detail": "The imaging candidate TLX101-Px must not inherit evidence or outcomes from TLX101-Tx or Zircaix.",
+          "direction": "neutral",
+          "category": "regulatory",
+          "sourceIds": [
+            "telix-halfyear"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "prax-rel-acceptance",
+      "title": "Praxis: relutrigine NDA acceptance",
+      "url": "https://investors.praxismedicines.com/node/11301/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-03-30",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported acceptance of the relutrigine NDA with priority review for SCN2A and SCN8A developmental and epileptic encephalopathies; the original target was September 27, 2026. The submission uses EMBOLD data."
+    },
+    {
+      "id": "prax-rel-extension",
+      "title": "Praxis: relutrigine three-month extension",
+      "url": "https://investors.praxismedicines.com/node/11541/pdf",
+      "publisher": "Praxis Precision Medicines",
+      "publishedAt": "2026-06-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Praxis reported that additional sensitivity analyses of existing clinical data were a major amendment; the target moved from September 27 to December 27, 2026. The company said no new study was requested and the notice cited no safety or manufacturing concerns.",
+      "excerpt": "FDA sets updated PDUFA date of December 27, 2026"
+    },
+    {
+      "id": "prax-q2-2026",
+      "title": "Praxis: August regulatory update filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/praxisq22026pr.htm",
+      "publisher": "Praxis Precision Medicines / SEC",
+      "publishedAt": "2026-08-06",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sec",
+      "summary": "Praxis reported a completed relutrigine mid-cycle meeting without major safety or efficacy concerns identified to date or a planned advisory committee. It reported BIMO sponsor inspections for relutrigine and ulixacaltamide ended without a Form 483. This is sponsor-reported clinical-research oversight, not manufacturing-site clearance. Praxis said it would not communicate further regulatory updates before the expected targets."
+    },
+    {
+      "id": "trial-embold",
+      "title": "ClinicalTrials.gov: EMBOLD",
+      "url": "https://clinicaltrials.gov/study/NCT05818553",
+      "publisher": "ClinicalTrials.gov / Praxis Precision Medicines",
+      "publishedAt": "2026-01-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The current registry describes a randomized, masked phase 2/3 study of PRAX-562 (relutrigine), including monthly motor-seizure frequency and longer-term safety assessments. Estimated enrollment is 77 across cohorts; this is not the efficacy analysis sample size. Primary completion is recorded as November 12, 2025; no registry results are posted."
+    },
+    {
+      "id": "srrk-crl-2025",
+      "title": "Scholar Rock: apitegromab complete response",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/fda-issues-complete-response-letter-crl-apitegromab-treatment/",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2025-09-23",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Scholar Rock reported a complete response letter tied to observations from an inspection at Catalent Indiana, its third-party fill-finish site. This historical setback belongs to apitegromab, not a general company-wide risk assumption."
+    },
+    {
+      "id": "srrk-facility-2026",
+      "title": "Scholar Rock: second fill-finish facility pathway",
+      "url": "https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-review-apitegromab-biologics-license",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2026-08-07",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Scholar Rock reported Catalent Indiana received an OAI inspection classification. It will remove that site from the apitegromab BLA under FDA guidance. Review proceeds with a second facility and the September 30 target remains. The sponsor says the alternative site package was submitted and commercial vials are available.",
+      "excerpt": "FDA review of second fill-finish facility progressing"
+    },
+    {
+      "id": "fda-catalent-483-2026",
+      "title": "FDA: Catalent Indiana inspection observations",
+      "url": "https://www.fda.gov/media/193455/download",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "fda",
+      "summary": "FDA Form 483 issued April 24, 2026 after an April 13–24 inspection at Catalent Indiana, Bloomington, FEI 3005949964. Observations include investigation, visual-inspection, aseptic-process and sampling controls. Product details are redacted. The document does not establish that observations concern apitegromab lots, and a Form 483 is not a final agency determination. Exact public posting date was not established."
+    },
+    {
+      "id": "srrk-sapphire",
+      "title": "Scholar Rock: SAPPHIRE clinical results",
+      "url": "https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-presents-new-phase-3-sapphire-data-2025-muscular/",
+      "publisher": "Scholar Rock",
+      "publishedAt": "2025-03-16",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "The sponsor reported a 1.8-point HFMSE difference at week 52 for combined apitegromab doses versus placebo, both with standard care (p=0.0192). The 20 mg/kg group alone had a 1.4-point difference (p=0.1149). The distinction between the prespecified combined analysis and individual doses matters."
+    },
+    {
+      "id": "trial-sapphire",
+      "title": "ClinicalTrials.gov: SAPPHIRE",
+      "url": "https://clinicaltrials.gov/study/NCT05156320",
+      "publisher": "ClinicalTrials.gov / Scholar Rock",
+      "publishedAt": "2026-01-22",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry describes a randomized, masked phase 3 trial in later-onset SMA on nusinersen or risdiplam, with actual enrollment of 188. The main efficacy outcome is HFMSE total-score change. Primary completion was December 18, 2024. No results are currently posted in the registry."
+    },
+    {
+      "id": "ux111-crl",
+      "title": "Ultragenyx: UX111 prior complete response",
+      "url": "https://ir.ultragenyx.com/node/17891",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2025-07-11",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Ultragenyx reported a CRL requesting CMC improvements and information associated with manufacturing inspection observations. It characterized clinical data as robust and biomarker evidence as supportive, attributing those views to FDA reviews."
+    },
+    {
+      "id": "ux111-resubmission",
+      "title": "Ultragenyx: UX111 resubmission accepted",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-us-fda-acceptance-bla-resubmission-ux111",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-04-02",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Ultragenyx reported FDA acceptance of its resubmitted BLA seeking accelerated approval of UX111 for MPS IIIA, with September 19, 2026 as the action target. The submission includes longer follow-up; final adequacy of the package and manufacturing review is not public.",
+      "excerpt": "PDUFA action date set for September 19, 2026"
+    },
+    {
+      "id": "ux111-q2",
+      "title": "Ultragenyx: Q2 2026 regulatory update",
+      "url": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-reports-second-quarter-2026-financial-results-and",
+      "publisher": "Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-08-04",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "The second-quarter update continued to list the accepted resubmitted UX111 BLA and September 19, 2026 action target. The separate DTX401 program must not be mistaken for UX111."
+    },
+    {
+      "id": "trial-ux111",
+      "title": "ClinicalTrials.gov: UX111 gene-transfer trial",
+      "url": "https://clinicaltrials.gov/study/NCT02716246",
+      "publisher": "ClinicalTrials.gov / Ultragenyx Pharmaceutical",
+      "publishedAt": "2026-08-21",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry links UX111 to ABO-102 and rebisufligene etisparvovec. It describes a nonrandomized, open-label gene-transfer trial, estimated enrollment 36, with CSF heparan-sulfate exposure as a primary measure. No registry results are posted. The planned total enrollment is not the application efficacy population."
+    },
+    {
+      "id": "capr-extension",
+      "title": "Capricor: deramiocel extension and refined indication",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/354/capricor-therapeutics-announces-extension-of-pdufa-target",
+      "publisher": "Capricor Therapeutics",
+      "publishedAt": "2026-08-24",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Capricor reported the target moved from August 22 to November 22, 2026. After a July advisory committee, it submitted 24-month HOPE-3 open-label follow-up and robustness analyses, seeking an indication focused on upper-limb function. FDA accepted the material as a major amendment. The sponsor reports HOPE-3 met its primary endpoint."
+    },
+    {
+      "id": "fda-deramiocel-briefing",
+      "title": "FDA: deramiocel July 2026 advisory-committee briefing",
+      "url": "https://www.fda.gov/media/193839/download",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "fda",
+      "summary": "FDA’s briefing for July 29, 2026 concerns resubmitted BLA 125842 and the then-proposed cardiomyopathy indication. Printed pages 32–34 describe the June 18, 2025 final visit, SAP 2.0 dated September 26, SAP 3.0 dated November 24, and database lock/unblinding November 25. Changes were post-completion, not necessarily post-unblinding; FDA questions raw-to-percent endpoint conversion. Appendix table 12, printed page 52 (PDF page 52), gives p=0.11 under SAP 1.1 versus p=0.045 under SAP 3.0; sensitivity analyses differ. Printed page 47 gives the unfavorable pre-meeting effectiveness assessment. This precedes the sponsor’s August refined-indication amendment; it is not a final decision on that amendment. Exact posting day was not established."
+    },
+    {
+      "id": "trial-hope3",
+      "title": "ClinicalTrials.gov: HOPE-3",
+      "url": "https://clinicaltrials.gov/study/NCT05126758",
+      "publisher": "ClinicalTrials.gov / Capricor",
+      "publishedAt": "2026-08-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "HOPE-3 is a randomized, masked phase 3 study of deramiocel (CAP-1002) in Duchenne muscular dystrophy. The registry reports actual enrollment of 106 and primary completion June 18, 2025. The primary measure is upper-limb function at month 12; an open-label extension follows the blinded period. No registry results are posted."
+    },
+    {
+      "id": "summit-acceptance",
+      "title": "Summit: ivonescimab BLA accepted",
+      "url": "https://www.smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx",
+      "publisher": "Summit Therapeutics",
+      "publishedAt": "2026-01-29",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Summit reported its ivonescimab-plus-chemotherapy BLA was accepted for EGFR-mutated non-squamous NSCLC after TKI treatment, with November 14, 2026 as the action target. The filing is based on the global HARMONi trial, not HARMONi-2 or HARMONi-6."
+    },
+    {
+      "id": "summit-harmoni",
+      "title": "Summit: HARMONi primary analysis and upcoming update",
+      "url": "https://smmttx.com/news/press-releases/news-details/2026/Ivonescimab-Plus-Chemotherapy-Global-Phase-III-HARMONi-Primary-Analysis-Results-Published-in-The-Lancet-Oncology/default.aspx",
+      "publisher": "Summit Therapeutics",
+      "publishedAt": "2026-08-25",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Summit reported median PFS of 6.8 versus 4.4 months (HR 0.52; 95% CI 0.41–0.66; p<0.0001). Primary OS analysis did not reach significance. It said updated OS detail would be presented September 15; those future details are outside this catalog cutoff. The November 14 action target was reaffirmed."
+    },
+    {
+      "id": "trial-harmoni",
+      "title": "ClinicalTrials.gov: global HARMONi",
+      "url": "https://clinicaltrials.gov/study/NCT06396065",
+      "publisher": "ClinicalTrials.gov / Summit Therapeutics",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The global randomized, masked phase 3 HARMONi study enrolled 420 patients. PFS and overall survival are primary outcomes; primary completion is April 12, 2025. The population has EGFR-mutated non-squamous NSCLC progressing after EGFR-TKI therapy. No registry results are posted."
+    },
+    {
+      "id": "savara-extension",
+      "title": "Savara: molgramostim major-amendment extension",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "Savara",
+      "publishedAt": "2026-04-15",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Savara reported responses to FDA information requests were a major amendment and the priority-review target was extended three months to November 22, 2026. It said the correspondence cited no safety, efficacy or manufacturing concerns."
+    },
+    {
+      "id": "savara-q2",
+      "title": "Savara: Q2 2026 review status",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx",
+      "publisher": "Savara",
+      "publishedAt": "2026-08-11",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Savara reaffirmed November 22, 2026 as the molgramostim BLA target. It described long-term lung-function and respiratory-quality-of-life improvement and stated MOLBREEVI is a proposed brand, not an approved medicine."
+    },
+    {
+      "id": "trial-impala2",
+      "title": "ClinicalTrials.gov: IMPALA-2",
+      "url": "https://clinicaltrials.gov/study/NCT04544293",
+      "publisher": "ClinicalTrials.gov / Savara",
+      "publishedAt": "2026-08-26",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry describes a randomized, masked phase 3 trial of inhaled molgramostim versus placebo, with 164 enrolled. Its primary measure is hemoglobin-adjusted percent-predicted DLCO change at week 24. Primary completion was November 30, 2023 and results are posted."
+    },
+    {
+      "id": "nuvl-acceptance",
+      "title": "Nuvalent: neladalkib priority-review acceptance",
+      "url": "https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC",
+      "publisher": "Nuvalent",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Nuvalent announced priority-review acceptance for neladalkib in TKI-pretreated advanced ALK-positive NSCLC, with a November 27, 2026 target. The application uses ALKOVE-1 phase 1/2 data; the registrational phase 2 portion is single-arm and open-label."
+    },
+    {
+      "id": "gsk-nuvalent",
+      "title": "GSK: completed Nuvalent acquisition",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-nuvalent-inc/",
+      "publisher": "GSK",
+      "publishedAt": "2026-07-15",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "GSK announced completion of its acquisition of Nuvalent. Neladalkib was still under FDA review; the sponsor identity here reflects the completed acquisition rather than obsolete standalone-company information."
+    },
+    {
+      "id": "gsk-q2",
+      "title": "GSK: Q2 2026 portfolio update",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+      "publisher": "GSK",
+      "publishedAt": "2026-07-28",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "GSK’s Q2 update distinguished FDA-approved Jideytro (zidesamtinib) from neladalkib, which still had a forthcoming FDA target. The two acquired kinase inhibitors have different targets and review outcomes."
+    },
+    {
+      "id": "trial-alkove1",
+      "title": "ClinicalTrials.gov: ALKOVE-1",
+      "url": "https://clinicaltrials.gov/study/NCT05384626",
+      "publisher": "ClinicalTrials.gov / Nuvalent",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The phase 1/2 registry describes a nonrandomized, open-label study of neladalkib (NVL-655), including phase 2 response rate by independent review. Estimated enrollment 840 covers the wider protocol, not just the submitted efficacy group. No registry results are posted."
+    },
+    {
+      "id": "polypid-submission",
+      "title": "PolyPid: completed D-PLEX100 NDA submission",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-completes-new-drug-application-submission-fda-d-plex100",
+      "publisher": "PolyPid",
+      "publishedAt": "2026-06-01",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "PolyPid announced its completed rolling NDA for prevention of surgical-site infection after colorectal surgery. At that time it anticipated an action in Q1 2027; this was guidance, not an assigned target."
+    },
+    {
+      "id": "polypid-q2",
+      "title": "PolyPid: priority-review acceptance and updated target",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-provides-corporate-update-and-reports-second-quarter-3",
+      "publisher": "PolyPid",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "PolyPid reported FDA accepted D-PLEX100 on July 27 with priority review and November 28, 2026 as the target. It reported SHIELD II met primary and key secondary endpoints and a 60% relative SSI reduction (p=0.0013). It said filing communications identified no issues; full substantive review remained ahead."
+    },
+    {
+      "id": "trial-shield2",
+      "title": "ClinicalTrials.gov: SHIELD II",
+      "url": "https://clinicaltrials.gov/study/NCT04411199",
+      "publisher": "ClinicalTrials.gov / PolyPid",
+      "publishedAt": "2026-07-13",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The randomized, masked phase 3 study enrolled 975. Its primary analysis uses a composite of SSI, re-intervention or death within 30 days in subjects with target incisions over 20 cm. This is not identical to SSI alone across all surgeries. Primary completion was April 14, 2025 and results are posted."
+    },
+    {
+      "id": "telix-acceptance",
+      "title": "Telix: Pixclara NDA resubmission accepted",
+      "url": "https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/",
+      "publisher": "Telix Pharmaceuticals",
+      "publishedAt": "2026-04-10",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Telix reported acceptance of its resubmitted NDA for TLX101-Px (floretyrosine F 18; proposed Pixclara brand), an investigational PET agent for glioma imaging, with a September 11, 2026 target. The indication distinguishes recurrent or progressive glioma from treatment-related change. Resubmission occurred March 13."
+    },
+    {
+      "id": "telix-halfyear",
+      "title": "Telix: half-year 2026 pipeline status",
+      "url": "https://ir.telixpharma.com/news-releases/news-release-details/telix-2026-half-year-results-strong-commercial-execution-and",
+      "publisher": "Telix Pharmaceuticals",
+      "publishedAt": "2026-08-19",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Telix reaffirmed September 11, 2026 as the Pixclara action target. TLX101-Px is the imaging candidate; TLX101-Tx is a different therapeutic candidate and Zircaix is a separate kidney-imaging application."
+    }
+  ],
+  "coverage": {
+    "title": "Nine real FDA review episodes",
+    "description": "Manually curated and source-linked public evidence for nine drug–indication or diagnostic review episodes, checked September 10, 2026. This is a focused demonstration collection, not a census or model-training cohort.",
+    "limitations": [
+      "Current review status reflects the latest identified sponsor/SEC disclosures and a contemporaneous outcome search; FDA does not publish a complete live pending-application registry.",
+      "All FDA action dates are sponsor-reported targets. They are not approval predictions, and may change or precede an earlier action.",
+      "No numerical approval probabilities are supplied by this catalog. Supportive/concern labels are qualitative curation, not a trained score or Astra output.",
+      "Sponsor statements and SEC-filed sponsor exhibits are attributed reports, not independent FDA conclusions. Trial registry records are submitted by responsible parties.",
+      "Trial snapshots are current at retrieval. Do not use later-updated records as historical features without a historical version; total enrollment may differ from a pivotal analysis population.",
+      "Missing manufacturing findings, unpublished results and unobserved regulatory correspondence are unknown, not evidence that a concern is absent.",
+      "The Catalent Form 483 issue date is known but its exact public posting date is not. It must be excluded from historical as-of backtests unless first-public availability is established.",
+      "No private FDAgent data, customer uploads or fictional company records are included. Source summaries are human/agent-curated; new Astra investigations carry separate provenance."
+    ]
+  }
+}

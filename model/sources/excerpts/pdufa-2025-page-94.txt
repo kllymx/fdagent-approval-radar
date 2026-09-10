@@ -1,0 +1,69 @@
+       Table A-2. FY 2025 Standard NDA and BLA Approvals (by Fiscal Year of Receipt).
+
+ Proprietary Name                                                  Cycle              Total
+                                                  NME     Review            Cycle               Goal
+   (Established                 Applicant                           Time              Time
+                                                  (Y/N)    Cycle            Result              Met
+      Name)                                                        (Mos.)            (Mos.)
+Submitted in FY 2025
+E-Z-DISK (barium
+                        BRACCO DIAGNOSTICS INC     N       First    8.3      AP        8.3       Y
+sulfate)
+KYXATA (carboplatin)    AVYXA HOLDINGS LLC         N       First    8.4      AP        8.4       Y
+LEQEMBI IQLIK
+                        EISAI, INCORPORATED        N       First    9.9      AP        9.9       Y
+(lecanemab-irmb)
+ZOLYMBUS
+                        THEA PHARMA INC            N       First    9.9      AP        9.9       Y
+(bimatoprost)
+escitalopram            ALMATICA PHARMA LLC        N       First    9.9      AP        9.9       Y
+ENBUMYST                CORSTASIS
+                                                   N       First    9.9      AP        9.9       Y
+(bumetanide)            THERAPEUTICS INC
+                        FORESEE
+CAMCEVI ETM
+                        PHARMACEUTICALS CO         N       First    9.9      AP        9.9       Y
+(leuprolide mesylate)
+                        LTD
+CYKLX (articaine)       AMERICAN GENOMICS LLC      N       First    10.0     AP       10.0       Y
+TONMYA
+                        TONIX PHARMACEUTICALS
+(cyclobenzaprine                                   N       First    10.0     AP       10.0       Y
+                        INC
+hydrochloride )
+INLURIYO
+                        ELI LILLY AND CO           Y       First    10.8     AP       10.8       Y♦
+(imlunestrant)
+Submitted in FY 2024
+BRUKINSA
+                        BEONE MEDICINES USA INC    N       First    9.3      AP        9.3       Y
+(zanubrutinib)
+                        AZURITY
+DANZITEN (nilotinib)                               N       First    9.3      AP        9.3       Y
+                        PHARMACEUTICALS INC
+AVGEMSI
+                        AVYXA HOLDINGS LLC         N       First    9.3      AP        9.3       Y
+(gemcitabine)
+                        SAGENT
+famotidine                                         N       First    9.5      AP        9.5       Y
+                        PHARMACEUTICALS
+IMKELDI (imatinib)      SHORLA ONCOLOGY            N       First    9.7      AP        9.7       Y
+LOPRESSOR
+                        RUBICON RESEARCH LTD       N       First    9.7      AP        9.7       Y
+(metoprolol tartrate)
+OPDIVO QVANTIG
+                        BRISTOL-MYERS SQUIBB
+(nivolumab and                                     N       First    9.9      AP        9.9       Y
+                        COMPANY
+hyaluronidase-nvhy)
+piperacillin-
+tazobactam and          B BRAUN MEDICAL INC        N       First    9.9      AP        9.9       Y
+sodium chloride
+                        CARWIN PHARMACEUTICAL
+VYSCOXA (celecoxib)                                N       First    9.9      AP        9.9       Y
+                        ASSOCIATES LLC
+
+
+
+
+      Appendix A                                                                     Page A-6
