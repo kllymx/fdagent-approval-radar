@@ -1,0 +1,70 @@
+data/deep-review-2026-09-10.md
+  s_949e10ef803d8b::t_830ffa47417567 38-57
+  s_949e10ef803d8b::t_30ea4bab13e3b2 1-17
+  s_949e10ef803d8b::t_0b42e23232c6f0 18-37
+ui/types.ts
+  s_949e10ef803d8b::t_f84c42c4db1335 187-200,202-205
+  s_949e10ef803d8b::t_df2bc2df5c768f 201
+ui/TrialEvidenceVisual.tsx
+  s_949e10ef803d8b::t_29ec7e7b7c54f4 21
+  s_949e10ef803d8b::t_df2bc2df5c768f 1-20,22-51
+data/trial-visuals-review.md
+  s_949e10ef803d8b::t_d148b8a836d735 1-31
+data/deep-review-expanded-2026-09-10.md
+  s_949e10ef803d8b::t_c2f0a3a9786937 1-28
+ui/trial-evidence.css
+  s_949e10ef803d8b::t_df2bc2df5c768f 1-15,17-53,55-57
+  s_949e10ef803d8b::t_6cf3df54d6f356 16,54
+README.md
+  s_949e10ef803d8b::t_c43941699df196 16,33,37-38,41,94-104
+data/investigations/14f1d098-81cb-4806-908c-f20f1e1aad8a.json
+  s_949e10ef803d8b::t_0647dc8f5175fb 1-707
+data/investigations/719dbabb-e741-4194-ae66-d6bc5c2f76ad.json
+  s_949e10ef803d8b::t_8549b4f00946bd 1-819
+data/investigations/839be2e3-037f-4c9d-99ec-d040cbcf780b.json
+  s_949e10ef803d8b::t_82746ba9a87ad6 1-809
+data/investigations/cb5e3505-3df1-4b3b-b342-0d944a6068b1.json
+  s_949e10ef803d8b::t_f55ccab1bd4e02 1-595
+data/trial-visuals.json
+  s_949e10ef803d8b::t_1a2fa6cf6899c7 1-365
+docs/contracts.md
+  s_949e10ef803d8b::t_0487533ff04862 64-69
+package.json
+  s_949e10ef803d8b::t_3b49ced2b90009 24-25
+scripts/deep-investigate.ts
+  s_949e10ef803d8b::t_91c350600680a0 1-152
+scripts/static-demo.ts
+  s_949e10ef803d8b::t_461367bc373f6d 8-13,65
+server/data.ts
+  s_949e10ef803d8b::t_5f13442b5a3630 168-195
+server/index.ts
+  s_949e10ef803d8b::t_c820130aee2bd4 16,112
+shared/trial-visuals.ts
+  s_949e10ef803d8b::t_c493763b8c68f5 1-74
+tests/trial-visuals.test.ts
+  s_949e10ef803d8b::t_97f14b6d6c641b 1-88
+ui/App.tsx
+  s_949e10ef803d8b::t_c346e1f877e454 17,470
+ui/CandidateOverview.tsx
+  s_949e10ef803d8b::t_2d4cf9095b74e9 44,64
+ui/main.tsx
+  s_949e10ef803d8b::t_e9314e255cebb9 9
+ui/trial-evidence.test.ts
+  s_949e10ef803d8b::t_18b45dc62d247e 1-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "9266f364b9790a8fe526d1699296f70a549bd02c",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
