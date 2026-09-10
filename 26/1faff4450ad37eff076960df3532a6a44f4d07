@@ -1,0 +1,227 @@
+docs/product-thesis.md
+  s_949e10ef803d8b::t_c0506eae376c9d 1-30
+server/config.ts
+  s_949e10ef803d8b::t_efd326c80fa077 1-26
+  s_949e10ef803d8b::t_fe2ddfc0bbab55 27-32
+scripts/validate-data.ts
+  s_949e10ef803d8b::t_efd326c80fa077 1-15
+  s_949e10ef803d8b::t_4a2513135a94f2 16-36
+package.json
+  s_949e10ef803d8b::t_182a43f6ab6645 1-37
+  s_949e10ef803d8b::t_64b90c6f167395 38-42
+server/investigate.ts
+  s_949e10ef803d8b::t_4cd2aa261feb4f 1-37,39-49,51-69,71-74,76-79,81-87,89-90
+  s_949e10ef803d8b::t_c5c9a33983117f 38,50,80,88
+  s_949e10ef803d8b::t_e9776e8ee3ff3b 70,75
+  s_949e10ef803d8b::t_e099406f3bfe2c 91-279
+pnpm-workspace.yaml
+  s_949e10ef803d8b::t_efd326c80fa077 3-4
+  s_949e10ef803d8b::t_5aad3afabaee50 1-2
+LICENSE
+  s_949e10ef803d8b::t_e14e2bc59f3679 1-21
+scripts/investigate.ts
+  s_949e10ef803d8b::t_c0e70ea0263a42 1-9
+  s_949e10ef803d8b::t_251ac9a11d9209 10-25
+index.html
+  s_949e10ef803d8b::t_182a43f6ab6645 1-14
+tests/server.test.ts
+  s_949e10ef803d8b::t_6b0a87a2653533 1-163
+  s_949e10ef803d8b::t_e52ec139ea0171 164-261
+ui/main.tsx
+  s_949e10ef803d8b::t_0e3b43b0470310 5
+  s_949e10ef803d8b::t_e33e0341305d51 1-4,6-11
+.env.example
+  s_949e10ef803d8b::t_182a43f6ab6645 1-10
+scripts/dev.ts
+  s_949e10ef803d8b::t_d3fc9be9d77d85 3
+  s_949e10ef803d8b::t_182a43f6ab6645 1-2,4-15
+  s_949e10ef803d8b::t_742ec45f37714c 16-17
+ui/lib.ts
+  s_949e10ef803d8b::t_03006f9fa2f0b2 1,25-62
+  s_949e10ef803d8b::t_ce2a683c60088f 2,11-24,63-99
+  s_949e10ef803d8b::t_2b55e5d10bead4 3-10
+server/index.ts
+  s_949e10ef803d8b::t_4cd2aa261feb4f 1-24,26-28,30-33,35-36,38-43,45-66
+  s_949e10ef803d8b::t_f37bbc58a850f2 25,29,34,37
+  s_949e10ef803d8b::t_57da60c7b38b2a 44
+  s_949e10ef803d8b::t_48850597757939 67-231
+ui/styles.css
+  s_949e10ef803d8b::t_dfaed96c9caed2 344-416,591-603
+  s_949e10ef803d8b::t_6900b87a6ca63f 192-206,604-607
+  s_949e10ef803d8b::t_03006f9fa2f0b2 254
+  s_949e10ef803d8b::t_9349ec96edaa44 1-85,87-191,207-253,255-343,417-590,608-614
+  s_949e10ef803d8b::t_450f0bb819eb3d 86
+.gitignore
+  s_949e10ef803d8b::t_182a43f6ab6645 1-15
+shared/schema.ts
+  s_949e10ef803d8b::t_efd326c80fa077 1-34
+  s_949e10ef803d8b::t_a4c8769ef300a3 35-169
+scripts/preflight.ts
+  s_949e10ef803d8b::t_efd326c80fa077 1-8
+  s_949e10ef803d8b::t_e21b6d2cc42f40 9-36
+data/source-metadata.json
+  s_949e10ef803d8b::t_3d721d46cd31d5 1-13
+docs/verification.md
+  s_949e10ef803d8b::t_3b9de85aeff8ed 1-25
+scripts/static-demo.ts
+  s_949e10ef803d8b::t_2e4541721fc878 1-11
+  s_949e10ef803d8b::t_fa6f9e709cdf7f 12-48
+.github/workflows/pages.yml
+  s_949e10ef803d8b::t_c0506eae376c9d 1-34
+tsconfig.json
+  s_949e10ef803d8b::t_182a43f6ab6645 1-17
+server/tools.ts
+  s_949e10ef803d8b::t_c5c9a33983117f 17,101-102,104-109,149-154
+  s_949e10ef803d8b::t_f37bbc58a850f2 140
+  s_949e10ef803d8b::t_270a700c16b525 1-16,18-28,34-35,37-42,45-74,76-77,85-86,88,90-100,103,110-114,116-133,135-139,142-148,155
+  s_949e10ef803d8b::t_57da60c7b38b2a 29-33,36,75,87,89,115,134,141
+  s_949e10ef803d8b::t_f25e77051fd110 43-44,78-84
+  s_949e10ef803d8b::t_e002f243e48e97 156-548
+vite.config.ts
+  s_949e10ef803d8b::t_6b0a87a2653533 5
+  s_949e10ef803d8b::t_182a43f6ab6645 1-4,6-15
+  s_949e10ef803d8b::t_ea7ea48625a1b5 16-17
+server/data.ts
+  s_949e10ef803d8b::t_efd326c80fa077 1-12,18-47
+  s_949e10ef803d8b::t_f25e77051fd110 13-17
+  s_949e10ef803d8b::t_b05187653e621a 48-104
+scripts/evaluate.ts
+  s_949e10ef803d8b::t_f91d3de012dc45 1-26,28-30,33-37
+  s_949e10ef803d8b::t_0f74428b2413f5 27,31,38
+  s_949e10ef803d8b::t_e9776e8ee3ff3b 32
+  s_949e10ef803d8b::t_5c7725c136ea35 39-166
+ui/lib.test.ts
+  s_949e10ef803d8b::t_9662fcaf0d71fe 1-56
+ui/App.tsx
+  s_949e10ef803d8b::t_0919d50760fd4a 242-264,268,271
+  s_949e10ef803d8b::t_88a7fbfde0ede6 23-24,106
+  s_949e10ef803d8b::t_450f0bb819eb3d 84,86,112,147,159,302,364
+  s_949e10ef803d8b::t_03006f9fa2f0b2 3,90,95-101,110,189-198,214
+  s_949e10ef803d8b::t_2b55e5d10bead4 8,12-13,118,206,296,300,332,365
+  s_949e10ef803d8b::t_423306248d235c 157,324
+  s_949e10ef803d8b::t_ce2a683c60088f 1-2,4-7,9-11,14-22,25-83,85,87-89,91-94,102-105,107-109,111,113-117,119-137,139,142-146,148-153,155-156,161-188,199-205,207-213,215-241,265-267,269-270,272-295,297-299,301,303-323,325-326,328-331,333-363,366-368,370-376
+  s_949e10ef803d8b::t_7db6934cb3ca7e 158,160
+  s_949e10ef803d8b::t_7c5db0a6e4009b 138,140-141,154,369
+  s_949e10ef803d8b::t_c2b5f256c731ed 327
+ui/types.ts
+  s_949e10ef803d8b::t_88aaa09d143ad2 63-95
+  s_949e10ef803d8b::t_e33e0341305d51 1-62,96-148
+ui/brand.css
+  s_949e10ef803d8b::t_0e3b43b0470310 1-416
+.github/workflows/validate.yml
+  s_949e10ef803d8b::t_e14e2bc59f3679 1-21
+scripts/record.ts
+  s_949e10ef803d8b::t_2e4541721fc878 1,37,42,59
+  s_949e10ef803d8b::t_3d721d46cd31d5 2-36,38-41,43-58
+  s_949e10ef803d8b::t_888a175e385748 60-61
+README.md
+  s_949e10ef803d8b::t_d3fc9be9d77d85 16,34-37
+  s_949e10ef803d8b::t_e14e2bc59f3679 1-8,11-15,17-33,38-114
+  s_949e10ef803d8b::t_053b82eaacb907 9-10
+AGENTS.md
+  s_ebb729a6a1c716::t_b4aba86eb343cc 1-11
+data/.gitignore
+  s_949e10ef803d8b::t_fec8975c5e388d 1
+data/catalog.json
+  s_949e10ef803d8b::t_398539442c9205 1-1324
+data/evaluation-cases.json
+  s_949e10ef803d8b::t_49b0453023d2ac 1-80
+data/evaluation-results.json
+  s_949e10ef803d8b::t_c80f53b206695c 1-960
+data/evaluation-runs/apitegromab-facility-mitigation.json
+  s_949e10ef803d8b::t_398c35f2003f6d 1-102
+data/evaluation-runs/bimo-manufacturing-scope.json
+  s_949e10ef803d8b::t_5d081768b51ecd 1-88
+data/evaluation-runs/deramiocel-analysis-chronology.json
+  s_949e10ef803d8b::t_8f1303cabd1591 1-110
+data/evaluation-runs/dplex-endpoint-population.json
+  s_949e10ef803d8b::t_73064fd3a1805e 1-105
+data/evaluation-runs/relutrigine-target-revision.json
+  s_949e10ef803d8b::t_25799c9e02f254 1-82
+data/investigations/1086eb94-24fd-4b75-94ef-f1f8ac2227ff.json
+  s_949e10ef803d8b::t_afc06d9dff6856 1-414
+data/investigations/d293d1fd-2e27-4a09-93d6-8666ad6911e3.json
+  s_949e10ef803d8b::t_f5435560b6931e 1-496
+data/investigations/dbaf1062-0418-4997-ba97-2a5935a19c55.json
+  s_949e10ef803d8b::t_73a226a25370f6 1-430
+data/recorded-run-review.md
+  s_949e10ef803d8b::t_039ec50afe55fc 1-44
+data/source-audit.md
+  s_949e10ef803d8b::t_2aad5381ac383f 1-45
+data/source-health.json
+  s_949e10ef803d8b::t_e9521b90d00e1a 1-574
+docs/contracts.md
+  s_ebb729a6a1c716::t_a8c2694c2e5219 1-47
+docs/demo-script.md
+  s_949e10ef803d8b::t_9dc223e50f2530 1-72
+docs/evidence-evaluation.md
+  s_949e10ef803d8b::t_6d7cd34370b145 1-109
+model/.gitignore
+  s_949e10ef803d8b::t_165274f71009c2 1
+model/README.md
+  s_949e10ef803d8b::t_7b26a188881140 1-90
+model/artifact.json
+  s_949e10ef803d8b::t_f7d8abe78a3cce 1-1145
+model/rebuild.py
+  s_949e10ef803d8b::t_25a0258ba752cc 1-214
+model/review_histories.json
+  s_949e10ef803d8b::t_80441a819e4a53 1-477
+model/sources/action_counts.json
+  s_949e10ef803d8b::t_12b7bdf76c14a3 1-530
+model/sources/approval_rates.json
+  s_949e10ef803d8b::t_efa982de74769c 1-386
+model/sources/excerpts/pdufa-2025-page-92.txt
+  s_949e10ef803d8b::t_6fba8628e58d14 1-71
+model/sources/excerpts/pdufa-2025-page-93.txt
+  s_949e10ef803d8b::t_4ccda685f3d642 1-57
+model/sources/excerpts/pdufa-2025-page-94.txt
+  s_949e10ef803d8b::t_2df290d86aee66 1-69
+model/sources/excerpts/pdufa-2025-page-96.txt
+  s_949e10ef803d8b::t_688b712e6522e1 1-69
+model/sources/reports.json
+  s_949e10ef803d8b::t_a920a79acb8d1c 1-122
+model/test_model.py
+  s_949e10ef803d8b::t_0080b29bd1a4a4 1-80
+model/verify_sources.py
+  s_949e10ef803d8b::t_430f06551acf84 1-55
+pnpm-lock.yaml
+  s_949e10ef803d8b::t_4567edd7a819e9 1-1270
+research/model/.gitignore
+  s_949e10ef803d8b::t_b9af24ed7d615f 1-2
+scripts/data/.gitignore
+  s_949e10ef803d8b::t_70026784fe364b 1-2
+scripts/data/README.md
+  s_949e10ef803d8b::t_e85d242c13bc33 1-38
+scripts/data/build_catalog.py
+  s_949e10ef803d8b::t_71a304875d92bb 1-166
+scripts/data/refresh_sources.py
+  s_949e10ef803d8b::t_962b968019499e 1-99
+scripts/data/test_validate_catalog.py
+  s_949e10ef803d8b::t_0e89f1aa68f45f 1-32
+scripts/data/validate_catalog.py
+  s_949e10ef803d8b::t_e5a6d39039a52b 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "261faff4450ad37eff076960df3532a6a44f4d07",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    },
+    "s_ebb729a6a1c716": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "5a8a1b3d-d621-4fdd-bc9a-4bd7610be816",
+        "model": "claude-fable-5-1-thinking-high"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
