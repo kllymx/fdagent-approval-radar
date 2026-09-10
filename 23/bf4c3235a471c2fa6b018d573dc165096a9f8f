@@ -1,0 +1,59 @@
+README.md
+  s_949e10ef803d8b::t_a087505f6c2b24 17
+  s_949e10ef803d8b::t_fd58bf0647e771 71
+scripts/coverage.ts
+  s_949e10ef803d8b::t_beba6a29bc1164 1-30,32-64
+  s_949e10ef803d8b::t_a087505f6c2b24 31
+  s_949e10ef803d8b::t_1ee1e6a7e65b87 65-76
+server/investigate.ts
+  s_949e10ef803d8b::t_67bdc91a0d6600 29
+ui/navigation.test.ts
+  s_949e10ef803d8b::t_c46161c4b8b66a 1-94
+package.json
+  s_949e10ef803d8b::t_beba6a29bc1164 25-26
+  s_949e10ef803d8b::t_fd58bf0647e771 8,40,44
+tests/assessment.test.ts
+  s_949e10ef803d8b::t_f002de4d8154e8 187-195,200
+data/deep-review-2026-09-10.md
+  s_949e10ef803d8b::t_b567c655860e59 148-192
+data/deep-review-expanded-2026-09-10.md
+  s_949e10ef803d8b::t_e2625901f1f3e7 11-15,63-132
+data/investigations/13f9d5d9-ece0-492c-85d2-9be0725c719f.json
+  s_949e10ef803d8b::t_c67f961f625f82 1-670
+data/investigations/274ec0e2-cbee-48a8-a484-7289e562e25c.json
+  s_949e10ef803d8b::t_a97fc0227d0d22 1-672
+data/investigations/28f31709-682b-4bc6-a770-bdda471bdb52.json
+  s_949e10ef803d8b::t_ceeb76d0e47494 1-761
+data/investigations/2b80acee-2fdc-4c09-becb-eb09cbf6190f.json
+  s_949e10ef803d8b::t_d596ed6301b09e 1-647
+data/investigations/2d1b924d-785e-4c23-ae0f-f911f223ae73.json
+  s_949e10ef803d8b::t_f4745970af3df8 1-677
+data/investigations/47fdd712-88cc-47a4-884f-a0f8ad788e90.json
+  s_949e10ef803d8b::t_64f57c15ba91bb 1-732
+data/investigations/e6afd1f9-17c4-4e61-9d20-d7ca1a215032.json
+  s_949e10ef803d8b::t_54cb37815de7e6 1-675
+data/investigations/e90284f6-a5d7-4c68-9755-bb82919a4f0a.json
+  s_949e10ef803d8b::t_91aae6b8417d77 1-631
+docs/research-coverage.md
+  s_949e10ef803d8b::t_b52969c96e9b9c 1-47
+pnpm-lock.yaml
+  s_949e10ef803d8b::t_658c8c0650238e 39-41,51-53,69-76,160-199,356-364,565-567,579-581,608-610,666-669,673-676,686-688,711-714,824-827,847-849,862-870,887-890,903-905,973-975,1021-1024,1066-1069,1120-1122,1127-1133,1138-1145,1163-1169,1224-1243,1252-1258,1272-1286,1399-1426,1505-1506,1659-1665,1678-1679,1710-1713,1773-1777,1780-1786,1791-1792,1809-1810,1959-1964,1983-1984,1993-2018,2027-2028,2039-2040,2077-2080,2112-2113,2183-2186,2256-2257,2263-2268,2271-2278,2295-2298,2322-2345,2352-2355
+ui/App.tsx
+  s_949e10ef803d8b::t_2f82ca87c41260 452-453
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "23bf4c3235a471c2fa6b018d573dc165096a9f8f",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
