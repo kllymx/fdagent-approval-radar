@@ -25,7 +25,7 @@ Company logos come from Firecrawl's branding extraction of official sponsor site
 
 ## What Astra actually does
 
-1. Builds a source map from ClinicalTrials.gov, Drugs@FDA, drug labeling and PubMed. The catalog and recorded scans link to **220 unique public URLs**; bounded discovery matches are clearly separated from confirmed indication-specific evidence.
+1. Starts from a source map assembled by the app from ClinicalTrials.gov, Drugs@FDA, drug labeling and PubMed. The catalog and recorded scans link to **220 unique public URLs**; bounded discovery matches are clearly separated from confirmed indication-specific evidence.
 2. Chooses tools to inspect trial results, read FDA documents, search within long reports, retrieve complete-response letters and discover newer disclosures through Firecrawl.
 3. Can query an existing FDAgent MCP installation for inspections, warning letters, exact facilities, Orange Book and Purple Book references. A company-name match is a lead; the model must verify product/facility identity and original evidence.
 4. Produces a **decision brief**: the pivotal question, strongest case for approval and setback, evidence that would decide between them, conditional paths and concrete questions for a licensing or investment meeting.
@@ -75,16 +75,18 @@ Requirements: a supported Node.js release (22.22.2+, 24.15+, or 26+), pnpm 11, P
 ```bash
 pnpm install
 cp .env.example .env.local
-# Set ASTRA_API_KEY in .env.local. Add FIRECRAWL_API_KEY for live web discovery.
-pnpm preflight
+# Optional live research: set ASTRA_API_KEY in .env.local.
+# Add FIRECRAWL_API_KEY for live web discovery.
 pnpm dev
 ```
 
 Open `http://127.0.0.1:5178`. The API runs on port 8788. Without credentials, the catalog, evaluated model and recorded runs remain available. Live research requires Astra access; there is no silent model fallback.
 
+With Astra credentials configured, run `pnpm preflight` to verify model access before starting a live investigation.
+
 `ASTRA_BASE_URL` can point to an event-provided OpenAI-compatible Responses endpoint. Keep keys server-side. The API uses `gpt-6-astra`, structured output, function calls and configurable reasoning effort. Firecrawl is optional; without it, public FDA/trial APIs and curated sources remain available, while web-search failures are reported.
 
-To reuse an existing FDAgent installation, set `FDAGENT_MCP_ENTRY` to its already-built MCP server entry point and, if needed, `FDAGENT_ENV_FILE` to its existing environment file. The bridge forwards only the three allowlisted backend settings needed by that process; private code and configuration remain outside this repository. It exposes read-only, bounded reference queries. Public demo snapshots omit the FDAgent compliance dataset.
+To reuse an existing FDAgent installation, set `FDAGENT_MCP_ENTRY` to its already-built MCP server entry point and, if needed, `FDAGENT_ENV_FILE` to its existing environment file. That MCP server reuses the data-access functions from FDAgent's CLI through structured tool calls. The bridge forwards only the three allowlisted backend settings needed by that process; private code and configuration remain outside this repository. It exposes read-only, bounded reference queries. Public demo snapshots omit the FDAgent compliance dataset.
 
 Generate or refresh initial evidence assessments with real Astra (unchanged input packets are reused):
 
