@@ -1,3 +1,10 @@
+.rail { height: 100dvh; overflow: hidden; }
+.rail > :not(.candidate-list) { flex-shrink: 0; }
+.candidate-list { overscroll-behavior-y: contain; }
+@media (min-width: 760px) {
+  .rail { position: fixed; inset: 0 auto 0 0; width: 240px; min-width: 240px; }
+  .workspace { margin-left: 240px; }
+}
 .rail-destination { width: calc(100% - 24px); text-align: left; }
 .rail-destination.active { background: var(--accent-surface); border-color: transparent; }
 .candidate-overview { padding-top: 2px; }
