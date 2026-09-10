@@ -18,7 +18,8 @@
     "preflight": "tsx scripts/preflight.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "evaluate": "tsx scripts/evaluate.ts",
-    "build:demo": "VITE_STATIC_DEMO=true vite build && tsx scripts/static-demo.ts"
+    "build:demo": "VITE_STATIC_DEMO=true vite build && tsx scripts/static-demo.ts",
+    "brands": "tsx scripts/brands.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.2",

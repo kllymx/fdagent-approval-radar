@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-10T18:16:39.185Z",
+  "attribution": "Logos and trademarks belong to their respective companies. Extracted from their official sites through Firecrawl branding for identification, not endorsement.",
+  "companies": [
+    {
+      "id": "capricor",
+      "name": "Capricor Therapeutics",
+      "website": "https://www.capricor.com",
+      "logoUrl": "https://d1io3yog0oux5.cloudfront.net/_50007d7151abaeddca04af2625202c33/capricor/files/theme/images/logo.svg",
+      "iconUrl": "https://d1io3yog0oux5.cloudfront.net/_50007d7151abaeddca04af2625202c33/capricor/files/theme/images/favicons/favicon.ico",
+      "assetPath": "brands/capricor-logo.svg",
+      "iconPath": "brands/capricor-icon.ico",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.527Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.capricor.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "0226fdca65934727e277f8e1575166d44102dbbee3df1c136aad75fb1082540f",
+      "iconSha256": "07585de0645f1e2e3c4d64c45f2f802b4d801f92a70d6fc7e63c953ab0b0d5d7",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "gsk",
+      "name": "GSK",
+      "website": "https://www.gsk.com/en-gb/",
+      "logoUrl": "https://www.gsk.com/nuxtassets/images/gif_logo_opt.gif",
+      "iconUrl": "https://www.gsk.com/nuxtassets/img/favicons/favicon-96x96.png",
+      "assetPath": "brands/gsk-logo.png",
+      "iconPath": "brands/gsk-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.782Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.gsk.com/en-gb/",
+      "assetSource": "Static company mark from Firecrawl branding favicon; animated logo URL retained",
+      "logoSha256": "0421bcfcdcdc67e5a70355314327a1a5e1e2fd6ec7703384441742b9cc86193f",
+      "iconSha256": "0421bcfcdcdc67e5a70355314327a1a5e1e2fd6ec7703384441742b9cc86193f",
+      "displayKind": "symbol"
+    },
+    {
+      "id": "nuvalent",
+      "name": "Nuvalent",
+      "website": "https://nuvalent.com",
+      "logoUrl": "https://nuvalent.com/_next/image?url=%2Fimages%2Fglobal%2Fnuv-logo-white.webp&w=640&q=75",
+      "iconUrl": "https://nuvalent.com/favicon.ico",
+      "assetPath": "brands/nuvalent-logo.webp",
+      "iconPath": "brands/nuvalent-icon.ico",
+      "background": "dark",
+      "retrievedAt": "2026-09-10T18:16:38.733Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://nuvalent.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "7b9e4b2937f2bf33ffa2d971c1dc58a1bf7cf2c0e00f09d8b99c3353f15e9042",
+      "iconSha256": "e17d12c842bf22f7d5f985cb63db456af190c1101854d3215e7e58943e94d0d3",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "polypid",
+      "name": "PolyPid",
+      "website": "https://www.polypid.com",
+      "logoUrl": "https://polypid.com/wp-content/uploads/2026/01/polypid-logo.svg",
+      "iconUrl": "https://polypid.com/wp-content/uploads/2026/01/icon-150x150.png",
+      "assetPath": "brands/polypid-logo.svg",
+      "iconPath": "brands/polypid-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:39.178Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.polypid.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "5595238d4184b2e1416bc97beadd9894a7760b76b721b52804bbc91326b6a70b",
+      "iconSha256": "3e2e1c1045b1a64f8a6bd215f2d9463b02cdaa554e0cdefd7a58677e9c25ccc9",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "praxis",
+      "name": "Praxis Precision Medicines",
+      "website": "https://praxismedicines.com",
+      "logoUrl": "https://praxismedicines.com/wp-content/uploads/2022/09/praxis-logo-color-reversed.svg",
+      "iconUrl": "https://praxismedicines.com/wp-content/uploads/2022/09/praxis-favicon.jpg",
+      "assetPath": "brands/praxis-logo.svg",
+      "iconPath": "brands/praxis-icon.jpg",
+      "background": "dark",
+      "retrievedAt": "2026-09-10T18:16:38.560Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://praxismedicines.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "4662fbb30f84fe6c216796f54f0289ef62886940181f6acc734b39a14db86636",
+      "iconSha256": "da38a4d9eb325b0544797da1e21757c096a2e491383a5fad134e7e340f6a7191",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "savara",
+      "name": "Savara",
+      "website": "https://savarapharma.com",
+      "logoUrl": "https://savarapharma.com/wp-content/themes/savara/img/logo-savara.svg",
+      "iconUrl": "https://savarapharma.com/wp-content/uploads/favicon-32x32.png",
+      "assetPath": "brands/savara-logo.svg",
+      "iconPath": "brands/savara-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.705Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://savarapharma.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "33bdaacaf6724f045de899b52e20e26a5391d529042d090bc00465272cfaea16",
+      "iconSha256": "ab04a51384ec67a41da45272b40c672e8458a971622c5d6eed216109f9b13f95",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "scholar-rock",
+      "name": "Scholar Rock",
+      "website": "https://scholarrock.com",
+      "logoUrl": null,
+      "iconUrl": "https://scholarrock.com/wp-content/uploads/2026/05/cropped-Favicon-32x32.png",
+      "assetPath": "brands/scholar-rock-logo.svg",
+      "iconPath": "brands/scholar-rock-icon.png",
+      "background": "dark",
+      "retrievedAt": "2026-09-10T18:16:38.569Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://scholarrock.com",
+      "assetSource": "Inline SVG extracted by Firecrawl from the source page",
+      "logoSha256": "976b03eba4fd6c4fb6a054b2238227d13a29ae11ea25c0a60eafb5cfa84b227f",
+      "iconSha256": "b7c8e5261d22f04332344e2fc06ceadc7f4d3a247e93c6e1c5910deb33fcfbf0",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "summit",
+      "name": "Summit Therapeutics",
+      "website": "https://www.smmttx.com",
+      "logoUrl": "https://s206.q4cdn.com/652410165/files/design/summit-therapeutics-logo.png",
+      "iconUrl": "https://s206.q4cdn.com/652410165/files/favicon-32x32.png",
+      "assetPath": "brands/summit-logo.png",
+      "iconPath": "brands/summit-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.701Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://www.smmttx.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "fb7b56e6978af27e25f21773d6f7f4115a88816fa17c63718b7dc0d31872b680",
+      "iconSha256": "05377cff6acf72305197ba0fed374a3f0df9ad8342203f8aea8f72f7a0a96a5a",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "telix",
+      "name": "Telix Pharmaceuticals",
+      "website": "https://telixpharma.com",
+      "logoUrl": "https://telixpharma.com/wp-content/uploads/2025/09/Telix-Logo.svg",
+      "iconUrl": "https://telixpharma.com/apple-touch-icon.png",
+      "assetPath": "brands/telix-logo.svg",
+      "iconPath": "brands/telix-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.799Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://telixpharma.com",
+      "assetSource": "Logo URL returned by Firecrawl branding",
+      "logoSha256": "bfbd58ca1ca51e226ca60bac000f624528bd2f0aff6e90718c6b4b40bdbbd6b6",
+      "iconSha256": "3dbfcd771ccc4ce6fedcc5ac466fc160fbf02c9d7035145f48976726174f6c4e",
+      "displayKind": "wordmark"
+    },
+    {
+      "id": "ultragenyx",
+      "name": "Ultragenyx",
+      "website": "https://www.ultragenyx.com",
+      "logoUrl": null,
+      "iconUrl": "https://ir.ultragenyx.com/sites/g/files/knoqqb83881/files/UGX-Favicon.png",
+      "assetPath": "brands/ultragenyx-logo.png",
+      "iconPath": "brands/ultragenyx-icon.png",
+      "background": "light",
+      "retrievedAt": "2026-09-10T18:16:38.696Z",
+      "method": "firecrawl-branding",
+      "sourcePage": "https://ir.ultragenyx.com",
+      "assetSource": "Official company icon returned by Firecrawl branding; full wordmark unavailable",
+      "logoSha256": "48f058a6d1c8529651e5f3d1b2d8f69838998b281d82410caa38120d90825b12",
+      "iconSha256": "48f058a6d1c8529651e5f3d1b2d8f69838998b281d82410caa38120d90825b12",
+      "displayKind": "symbol"
+    }
+  ],
+  "candidateCompanies": {
+    "relutrigine-dee": [
+      "praxis"
+    ],
+    "apitegromab-sma": [
+      "scholar-rock"
+    ],
+    "ux111-mpsiiia": [
+      "ultragenyx"
+    ],
+    "deramiocel-dmd": [
+      "capricor"
+    ],
+    "ivonescimab-egfrm": [
+      "summit"
+    ],
+    "molgramostim-apap": [
+      "savara"
+    ],
+    "neladalkib-alk": [
+      "nuvalent",
+      "gsk"
+    ],
+    "dplex100-ssi": [
+      "polypid"
+    ],
+    "floretyrosine-glioma": [
+      "telix"
+    ]
+  }
+}

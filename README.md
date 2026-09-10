@@ -17,6 +17,8 @@ Built for the GPT-6 Astra hackathon in New York. This is an original, standalone
 
 The public demo is a September 10, 2026 evidence snapshot. Its dates and status are not automatically refreshed. Live local investigations can retrieve newer evidence and must distinguish that from the snapshot.
 
+Company logos come from Firecrawl's branding extraction of official sponsor sites. The app serves the verified assets locally; [brand provenance and refresh instructions](public/brands/README.md) explain their sources and ownership.
+
 ## What Astra actually does
 
 1. Starts with a sourced candidate packet and a specific regulatory question.

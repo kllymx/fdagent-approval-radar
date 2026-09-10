@@ -1,0 +1,53 @@
+{
+  "companies": [
+    {
+      "id": "praxis",
+      "name": "Praxis Precision Medicines",
+      "website": "https://praxismedicines.com"
+    },
+    {
+      "id": "scholar-rock",
+      "name": "Scholar Rock",
+      "website": "https://scholarrock.com"
+    },
+    {
+      "id": "ultragenyx",
+      "name": "Ultragenyx",
+      "website": "https://www.ultragenyx.com"
+    },
+    {
+      "id": "capricor",
+      "name": "Capricor Therapeutics",
+      "website": "https://www.capricor.com"
+    },
+    {
+      "id": "summit",
+      "name": "Summit Therapeutics",
+      "website": "https://www.smmttx.com"
+    },
+    { "id": "savara", "name": "Savara", "website": "https://savarapharma.com" },
+    { "id": "nuvalent", "name": "Nuvalent", "website": "https://nuvalent.com" },
+    { "id": "gsk", "name": "GSK", "website": "https://www.gsk.com/en-gb/" },
+    {
+      "id": "polypid",
+      "name": "PolyPid",
+      "website": "https://www.polypid.com"
+    },
+    {
+      "id": "telix",
+      "name": "Telix Pharmaceuticals",
+      "website": "https://telixpharma.com"
+    }
+  ],
+  "candidateCompanies": {
+    "relutrigine-dee": ["praxis"],
+    "apitegromab-sma": ["scholar-rock"],
+    "ux111-mpsiiia": ["ultragenyx"],
+    "deramiocel-dmd": ["capricor"],
+    "ivonescimab-egfrm": ["summit"],
+    "molgramostim-apap": ["savara"],
+    "neladalkib-alk": ["nuvalent", "gsk"],
+    "dplex100-ssi": ["polypid"],
+    "floretyrosine-glioma": ["telix"]
+  }
+}
