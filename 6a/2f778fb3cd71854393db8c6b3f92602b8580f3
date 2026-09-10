@@ -1,0 +1,19 @@
+ui/App.tsx
+  s_949e10ef803d8b::t_cea314c26e6ce5 48-50,52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "6a2f778fb3cd71854393db8c6b3f92602b8580f3",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
