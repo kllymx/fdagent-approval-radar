@@ -17,6 +17,7 @@ for (const file of (await readdir("data/investigations")).filter((f) =>
   runs.push(run);
   await writeFile("dist/demo/investigations/" + file, JSON.stringify(run));
 }
+runs.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 const payload = {
   catalog: await getCatalog(),
   model: await getModel(),

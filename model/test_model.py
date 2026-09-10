@@ -73,6 +73,30 @@ class ModelBehaviorTests(unittest.TestCase):
             self.assertEqual(history['totalMonths'],history['timeline'][-1]['cumulativeMonths'])
             self.assertEqual(history['timeline'][-1]['outcome'],'AP')
 
+    def test_artifact_precision_removes_platform_last_bit_differences(self):
+        value=0.17770988771587107
+        following=math.nextafter(value,math.inf)
+        self.assertNotEqual(value,following)
+        self.assertEqual(rebuild.canonical_artifact({'metric':value}),rebuild.canonical_artifact({'metric':following}))
+        self.assertNotEqual(rebuild.canonical_artifact({'metric':value}),rebuild.canonical_artifact({'metric':value+1e-7}))
+        payload={'n':603,'hash':'unchanged','probability':None,'flag':True,'negativeZero':-0.0}
+        canonical=rebuild.canonical_artifact(payload)
+        self.assertIs(type(canonical['n']),int)
+        self.assertEqual(canonical['hash'],payload['hash'])
+        self.assertIsNone(canonical['probability'])
+        self.assertEqual(math.copysign(1,canonical['negativeZero']),1)
+
+    def test_artifact_rejects_non_finite_statistics(self):
+        for value in (math.inf,-math.inf,math.nan):
+            with self.assertRaisesRegex(ValueError,'non-finite'):
+                rebuild.canonical_artifact({'bad':value})
+
+    def test_stale_artifact_diagnostic_identifies_actual_field(self):
+        old={'evaluation':[{'brier':0.03,'n':603}]}
+        new={'evaluation':[{'brier':0.04,'n':603}]}
+        self.assertEqual(rebuild.first_difference(old,new),'$.evaluation[0].brier')
+        self.assertIsNone(rebuild.first_difference(new,copy.deepcopy(new)))
+
     def test_reported_artifact_reproduces(self):
         on_disk=json.loads((Path(__file__).resolve().parent/'artifact.json').read_text())
         self.assertEqual(on_disk,rebuild.build())

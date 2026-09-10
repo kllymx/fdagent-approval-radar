@@ -14,6 +14,47 @@ import statistics
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+FLOAT_DECIMAL_PLACES = 12
+
+def canonical_artifact(value):
+    """Round only final numeric outputs, below the precision of reported estimates.
+
+    Platform libm implementations can differ in the last binary digit. Twelve
+    decimal places preserve meaningful model changes while making JSON portable.
+    Source hashes, integer counts, strings, and nulls are unchanged.
+    """
+    if isinstance(value, float):
+        if not math.isfinite(value):
+            raise ValueError('Model artifact contains a non-finite number.')
+        rounded = round(value, FLOAT_DECIMAL_PLACES)
+        return 0.0 if rounded == 0 else rounded
+    if isinstance(value, dict):
+        return {key: canonical_artifact(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [canonical_artifact(item) for item in value]
+    return value
+
+def first_difference(actual, expected, path='$'):
+    """Name a stale field without printing source contents or the full artifact."""
+    if type(actual) is not type(expected):
+        return path + ' (type differs)'
+    if isinstance(actual, dict):
+        if actual.keys() != expected.keys():
+            return path + ' (keys differ)'
+        for key in expected:
+            difference = first_difference(actual[key], expected[key], path + '.' + key)
+            if difference:
+                return difference
+    elif isinstance(actual, list):
+        if len(actual) != len(expected):
+            return path + ' (length differs)'
+        for index, (left, right) in enumerate(zip(actual, expected)):
+            difference = first_difference(left, right, path + '[' + str(index) + ']')
+            if difference:
+                return difference
+    elif actual != expected:
+        return path
+    return None
 CLASSES = {
     'original_priority_nme_bla': ('Original priority NME NDAs / BLAs', 6, 'filing date after the 60-day filing period'),
     'original_standard_nme_bla': ('Original standard NME NDAs / BLAs', 10, 'filing date after the 60-day filing period'),
@@ -170,8 +211,9 @@ def build():
       'Intervals reflect sampling and year-to-year variation within this limited cohort; they do not cover all shifts in policy, case mix, source revisions or candidate-specific uncertainty.',
       'No monthly approval CDF or survival curve is inferred from median review durations, and no CRL eventual approval_status field is used as a predictive feature or terminal label.',
     ]
-    return {
+    result = {
       'schemaVersion':1,'status':'evaluated','generatedAt':'2026-09-10','modelVersion':'public-cohort-baselines-v1',
+      'serialization':{'floatDecimalPlaces':FLOAT_DECIMAL_PLACES,'maximumAbsoluteRoundingError':'5e-13','scope':'Final float outputs only; source hashes, integer counts and model calculations are unchanged.'},
       'title':'FDA public-cohort baselines',
       'summary':'Reproducible class-level first-cycle rate forecasts and separately scored action-timing baselines. Individual approval probabilities remain unestimated.',
       'cohortSize':sum(r['onTime']+r['overdue'] for r in counts),
@@ -202,12 +244,18 @@ def build():
       'sourceDataSha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/'sources').glob('*.json'))},
       'reproduce':'python3 model/rebuild.py && python3 -m unittest discover -s model -p "test_*.py"',
     }
+    return canonical_artifact(result)
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args()
     result=build(); serialized=json.dumps(result,indent=2,ensure_ascii=False)+'\n'; path=ROOT/'artifact.json'
     if args.check:
-        if path.read_text()!=serialized:raise SystemExit('artifact.json is stale; run python3 model/rebuild.py')
+        if path.read_text()!=serialized:
+            try:
+                mismatch=first_difference(json.loads(path.read_text()),result) or '$ (JSON formatting differs)'
+            except json.JSONDecodeError:
+                mismatch='$ (invalid JSON)'
+            raise SystemExit(f'artifact.json is stale at {mismatch}; run python3 model/rebuild.py')
         print('artifact.json is reproducible and current')
     else:path.write_text(serialized);print(json.dumps({'artifact':str(path),'metrics':result['metrics']},indent=2))
 

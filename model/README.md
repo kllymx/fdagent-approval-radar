@@ -8,7 +8,9 @@ python3 model/rebuild.py --check
 python3 -m unittest discover -s model -p 'test_*.py'
 ```
 
-Python standard library only. To audit the upstream FDA documents, install Poppler (`pdftotext`), then run:
+Python standard library only. Final float outputs are serialized to twelve decimal places (at most `5e-13` absolute rounding error), which removes insignificant macOS/Linux math-library differences. Calculations retain full precision; integer counts and source hashes are unchanged. `--check` still requires an exact artifact match and reports the first differing JSON path. This is not a tolerance that silently accepts changed metrics.
+
+To audit the upstream FDA documents, install Poppler (`pdftotext`), then run:
 
 ```sh
 python3 model/verify_sources.py --download
