@@ -1,0 +1,70 @@
+.github/workflows/pages.yml
+  s_949e10ef803d8b::t_d576b4f7f74b96 28
+ui/focus.css
+  s_949e10ef803d8b::t_043056188dc74f 56-62
+ui/lib.ts
+  s_949e10ef803d8b::t_043056188dc74f 2,50,78
+ui/workspace.css
+  s_949e10ef803d8b::t_ed9b5871ef7c05 1
+README.md
+  s_949e10ef803d8b::t_c408508e377a29 7-8,18
+  s_949e10ef803d8b::t_d576b4f7f74b96 105
+shared/review-notes.ts
+  s_949e10ef803d8b::t_0b9d71a1ed1d67 1-26
+ui/SourceReviewNotes.tsx
+  s_949e10ef803d8b::t_043056188dc74f 1-9
+ui/App.tsx
+  s_949e10ef803d8b::t_043056188dc74f 10,18,206
+.github/workflows/validate.yml
+  s_949e10ef803d8b::t_d576b4f7f74b96 17
+scripts/coverage.ts
+  s_949e10ef803d8b::t_c408508e377a29 64-65
+ui/lib.test.ts
+  s_949e10ef803d8b::t_043056188dc74f 70-78
+data/deep-review-2026-09-10.md
+  s_949e10ef803d8b::t_f6e2355ab787d7 193-215
+data/deep-review-expanded-2026-09-10.md
+  s_949e10ef803d8b::t_188927ea9505b8 16-24,133-226
+data/investigations/19d1ee43-b142-4520-95db-0b53ad0519f2.json
+  s_949e10ef803d8b::t_ee08b7452431e7 1-696
+data/investigations/3a808a7d-fcff-45f9-8d0b-7fb2b1a83a7b.json
+  s_949e10ef803d8b::t_aeb1e39cdce154 1-722
+data/investigations/900f93d6-f4b7-43ec-a38a-26ad4f058ebc.json
+  s_949e10ef803d8b::t_f71bba8119d86a 1-665
+data/investigations/969d4838-430b-4a4f-b811-09323b936d6c.json
+  s_949e10ef803d8b::t_e914d49b5a10f6 1-846
+data/investigations/c64bef80-34c2-4185-b0d0-c84402d93299.json
+  s_949e10ef803d8b::t_f2bcacf5d368a4 1-702
+data/investigations/cbf45c73-dd3d-4d58-839c-8007b52bdd7c.json
+  s_949e10ef803d8b::t_25494fd8bf9c58 1-665
+data/investigations/cd2b165e-46db-45ab-b777-e89edaf5016b.json
+  s_949e10ef803d8b::t_12ae98a4612407 1-681
+data/investigations/e9790fae-60d1-4619-820c-3bae45c2ffe6.json
+  s_949e10ef803d8b::t_557b87b086bb2c 1-697
+data/investigations/f0a21d7a-dd8e-4c37-bff8-d2b2d3e20da8.json
+  s_949e10ef803d8b::t_052e624ffaddff 1-681
+docs/research-coverage.md
+  s_949e10ef803d8b::t_8d68b3857f20f9 3,5,11,17,20-21,30,32,38-39,43,47-48
+ui/CompanyLogos.tsx
+  s_949e10ef803d8b::t_4cc0ac0e97d9c7 1-24
+ui/ResearchMissions.tsx
+  s_949e10ef803d8b::t_ad80727c40dc77 1-2,19
+ui/assessment.css
+  s_949e10ef803d8b::t_ebaea37fb6ff4f 112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "635f219dc6f62cecad10d66de21d2047e8eb0886",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
