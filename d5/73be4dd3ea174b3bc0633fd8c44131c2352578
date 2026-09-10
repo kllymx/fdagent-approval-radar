@@ -1,0 +1,19 @@
+README.md
+  s_949e10ef803d8b::t_1a7e983c0d9da8 28,78-79,85-86,89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "d573be4dd3ea174b3bc0633fd8c44131c2352578",
+  "prompts": {},
+  "sessions": {
+    "s_949e10ef803d8b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c46-79ce-7bb0-b635-810867f5dff5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "kllymx <122115719+kllymx@users.noreply.github.com>"
+    }
+  }
+}
