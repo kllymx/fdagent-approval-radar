@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Public-data FDA approval intelligence, reproducible review-cohort forecasting, and live Astra investigations.",
   "engines": {
-    "node": ">=22"
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
   },
   "scripts": {
     "dev": "tsx scripts/dev.ts",
@@ -22,7 +22,8 @@
     "brands": "tsx scripts/brands.ts",
     "evidence": "tsx scripts/evidence.ts",
     "assess": "tsx scripts/assess.ts",
-    "investigate:catalog": "tsx scripts/deep-investigate.ts"
+    "investigate:catalog": "tsx scripts/deep-investigate.ts",
+    "research:coverage": "tsx scripts/coverage.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
@@ -36,9 +37,11 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
+    "@types/jsdom": "^30.0.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "jsdom": "^30.0.1",
     "prettier": "3.6.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",

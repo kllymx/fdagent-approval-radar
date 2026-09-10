@@ -1,0 +1,672 @@
+{
+  "summary": "Povetacicept has a substantive accelerated-approval case in adult IgA nephropathy: Vertex reports a large, prespecified placebo-controlled proteinuria effect and broadly comparable short-term serious-event rates. The most consequential contrary evidence is late severe hypogammaglobulinemia in the published IgAN study, including at the proposed 80-mg dose. Longer-exposure safety—not filing acceptance—is the pivotal diligence question. Manufacturing readiness remains unverified. November 30, 2026 is the latest sponsor-reported FDA action target retrieved, not an approval date.",
+  "outlook": {
+    "verdict": "Clinically supportive, with a material longer-term immune-safety question; public evidence supports a mixed overall assessment.",
+    "timing": "Vertex's June 1, 2026 disclosure reports FDA acceptance and a November 30, 2026 PDUFA action target. No superseding target or completed action was established in the retrieved evidence. The separate week-104 renal-function analysis remains pending; the current registry estimates primary completion on January 30, 2028, which is neither a results-release date nor an FDA deadline.",
+    "probability": null,
+    "probabilityBasis": "The historical model concerns original-application receipt cohorts by review priority and separately measures action timeliness. Sponsor disclosures suggest an original BLA using a priority review voucher, but the model does not separately calibrate voucher-driven or accelerated-approval IgAN applications. It cannot provide an individual approval probability, and timely FDA action can include a complete response."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "RAINIER provides actual randomized efficacy evidence—not merely an accepted filing",
+      "detail": "Vertex's March 9, 2026 results release describes a global, randomized, double-blind trial of povetacicept 80 mg subcutaneously every four weeks versus matched placebo, both added to standard care. Of 605 randomized adults, 557 formed the main cohort and 48 an exploratory cohort. The main cohort required eGFR ≥30 mL/min/1.73 m²; the exploratory cohort covered 20 to <30. Background ACE inhibitor/ARB and SGLT2 inhibitor use in the main cohort was 97.8% and 67.7%, respectively. The prespecified week-36 efficacy subset comprised only 199 participants: 131 active and 68 placebo. For the primary endpoint, 24-hour UPCR fell 52.0% from baseline with povetacicept versus 4.3% with placebo, yielding a reported 49.8% relative reduction versus placebo, two-sided P<0.0001. This is not a 49.8-percentage-point subtraction. The registry confirms the randomized placebo-controlled design and week-36 UPCR endpoint, but contains no posted results.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-f0375da86ea5",
+        "trial-NCT06564142"
+      ]
+    },
+    {
+      "id": "clinical-boundaries",
+      "title": "Biological corroboration and 48-week durability support the signal, but renal preservation is unproved",
+      "detail": "Vertex reports success on two alpha-controlled week-36 secondary endpoints: serum Gd-IgA1 reduction of 79.3% versus placebo and hematuria resolution of 85.1% versus 23.4%, a 61.7-percentage-point difference; both P<0.0001. Hematuria analysis was restricted to those positive at baseline: 67 active and 36 placebo participants. These outcomes do not establish prevention of kidney failure. RAINIER's total eGFR slope through week 104 remains a planned final primary endpoint, not an interim result. The original RUBY-3 paper provides supportive IgAN durability: at 80 mg, week-48 UPCR change was −64% (95% CI −76% to −48%) and eGFR change was +3.3±3.1 mL/min/1.73 m², mean±SE; 17 of 21 participants completed the week-48 visit. However, RUBY-3 was uncontrolled, dose assignment was nonrandomized, its interim analysis was not prespecified, and analyses were descriptive without hypothesis testing. It is corroboration, not independent randomized replication. RAINIER confidence intervals, full estimand, missing-data sensitivity analyses, subgroup estimates and detailed alpha allocation were not available in the inspected results release. Its sponsor-reported subgroup consistency does not establish benefit in the separate low-eGFR cohort or superiority to another active IgAN therapy.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-f0375da86ea5",
+        "web-574aa7bd99cb",
+        "trial-NCT06564142"
+      ]
+    },
+    {
+      "id": "safety-controlled",
+      "title": "Controlled short-term safety is interpretable and reasonably reassuring, with identifiable tolerability costs",
+      "detail": "RAINIER's sponsor-reported safety population included 372 active and 185 placebo participants, with mean treatment durations of 33.7 and 33.4 weeks. Any adverse event occurred in 75.0% versus 78.4%; serious adverse events occurred in 11/372 (3.0%) versus 8/185 (4.3%). Serious infection incidence was 0.5% in each arm. Upper respiratory infection was more frequent with povetacicept, 18.3% versus 11.4%, as were injection-site reactions, 14.5% versus 2.2%; all reported injection-site reactions were nonserious and mild or moderate. Vertex reported no deaths, opportunistic infections or infection-related discontinuations, and no serious events considered related to povetacicept. These are observed sponsor-reported findings, not an absence of safety discussion. In the smaller interim efficacy population, all-cause treatment discontinuation was 3.8% versus 8.8%; this is not an adverse-event discontinuation rate for the entire safety cohort. Anti-drug antibodies occurred, but the release supplies no incidence or neutralizing-antibody breakdown to independently assess Vertex's statement that they did not affect efficacy or risk.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-f0375da86ea5"
+      ]
+    },
+    {
+      "id": "safety-late",
+      "title": "Late severe IgG suppression is the strongest candidate-specific contrary evidence",
+      "detail": "In the published RUBY-3 IgAN cohorts, severe hypogammaglobulinemia, defined as IgG <300 mg/dL, occurred in 1/21 participants receiving 80 mg and 4/33 receiving 240 mg. All these events occurred after 48 weeks—later than RAINIER's approximately 34-week mean exposure at its disclosed safety cut. None was associated with serious/severe infection, intravenous immunoglobulin treatment or treatment discontinuation. Nevertheless, the proposed 80-mg dose was not exempt. Infection adverse events occurred in 9/21 and 21/33 participants at 80 and 240 mg; the higher-dose cohort also had one severe serious urinary tract infection and two acute kidney injury events. Nonrandomized small cohorts cannot establish a dose-response relationship. RUBY-3 required baseline IgG ≥700 mg/dL in IgAN, vaccination requirements, infection/immune-deficiency exclusions and rigorous IgG monitoring, limiting extrapolation to less selected practice populations. The paper also requires disposition reconciliation: its statement of no adverse-event discontinuations at 80 mg conflicts with a described invasive breast-cancer event leading to withdrawal in a participant with prior breast cancer and melanoma; investigators considered the malignancy unrelated. This inconsistency is not evidence of drug causation or a known FDA objection.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-574aa7bd99cb",
+        "web-f0375da86ea5"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "No product-linked CMC clearance, deficiency or corrective-action record was established",
+      "detail": "Targeted manufacturer/site/CMC searches and SEC-document inspection did not establish povetacicept's drug-substance, fill-finish, testing or autoinjector manufacturing sites. The inspected 2025 Form 10-K manufacturing excerpt describes Vertex's global third-party network and internal capabilities only at company level. Search hits concerning manufacturing analysis and resumed dosing in the first-quarter 2026 disclosure relate to zimislecel, not povetacicept. The Portsmouth, New Hampshire manufacturing submission in the first-quarter 2025 disclosure relates to CASGEVY. Neither establishes a povetacicept site relationship or CGMP clearance. No candidate-specific CMC setback, replaced contractor, corrective action or FDA inspection disposition was documented in the inspected evidence. This domain remains unknown, not favorable or adverse. The intended low-volume home autoinjector makes commercial-product comparability, device performance and manufacturing validation concrete unresolved diligence items.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-7eb24f807ea6",
+        "web-97b0a9f29d24",
+        "web-133ef405097a",
+        "web-24eafdf9c45c"
+      ]
+    },
+    {
+      "id": "regulatory",
+      "title": "The filing progressed from a rolling submission to review; formal FDA objections remain unavailable",
+      "detail": "Vertex's first-quarter 2026 SEC-filed disclosure confirms completion of the rolling BLA in March for potential accelerated approval in adult IgAN, superseding earlier conditional filing plans. The June 1 release then reports acceptance and the November 30 target. Vertex reports using a priority review voucher; the shorter review clock should not be interpreted as FDA confirmation of clinical superiority. The sequence and investigational status support treating this as an initial BLA rather than a supplement or documented CRL resubmission, although an FDA application number and formal administrative classification were not retrieved. No prior povetacicept approval, candidate-specific CRL, target extension or specific FDA objection was established. The public letter-archive retrieval failed, so a clean CRL history cannot be certified. Filing acceptance is supportive process evidence, not an FDA determination that the surrogate, safety package or manufacturing package is sufficient. Detailed requested risk/proteinuria restrictions, final indication wording and confirmatory obligations remain unverified.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-97b0a9f29d24",
+        "web-24eafdf9c45c",
+        "web-c616939c4b6f"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "JOURNAVX: documented Vertex first-cycle review experience, not an IgAN precedent",
+      "relevance": "The FDA historical review record identifies Vertex's JOURNAVX original priority application as reaching first-cycle approval after 8.0 months with its applicable goal met. Vertex's SEC-filed disclosure dates the completed approval to January 30, 2025, for adults with moderate-to-severe acute pain. This establishes a specific prior regulatory execution example.",
+      "difference": "Suzetrigine is an oral pain therapy, not povetacicept's fusion-protein BLA or a proteinuria-based accelerated-approval request. Its outcome establishes neither shared manufacturing sites nor current clinical sufficiency. This illustrative history is not a systematic sponsor track record or validated approval predictor.",
+      "sourceIds": [
+        "pdufa-2025",
+        "web-133ef405097a"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "RAINIER's complete interim clinical study report, statistical analysis plan and posted results: primary-effect confidence interval, prespecified subset selection, baseline balance, estimand, rescue-treatment handling, missing-data sensitivity and subgroup interaction estimates.",
+    "An updated integrated 80-mg IgAN safety report with numbers exposed beyond 48 and 104 weeks, longitudinal IgG and recovery, infection rates by IgG nadir, serious-event narratives, quantitative immunogenicity and reconciled discontinuation listings.",
+    "A product-linked CMC/site schedule identifying manufacturers and FEIs, original FDA inspection correspondence and any responses, commercial process-validation and stability evidence, and autoinjector comparability/performance documentation.",
+    "FDA's action letter, review and final labeling—including the exact population, monitoring and confirmatory obligations—followed separately by RAINIER's week-104 eGFR-slope estimate and confidence interval when mature."
+  ],
+  "limitations": [
+    "This is a current investigation as of September 10, 2026, but the latest candidate-specific application-status disclosure retrieved was dated June 1. No later direct FDA status confirmation was inspected; search non-detection does not certify unchanged status.",
+    "The current RAINIER registry has no results posted. Targeted publication searching did not retrieve an original pivotal paper; an August 2026 systematic review explicitly treated RAINIER as non-peer-reviewed evidence. Its class-level pooled results were not substituted for povetacicept results.",
+    "The retrieved registry extract and sponsor release do not provide complete RAINIER eligibility criteria, baseline tables, protocol amendments, statistical methods or efficacy confidence intervals. RUBY-3 confidence intervals cannot fill those pivotal-trial gaps.",
+    "Long-term safety exposure distributions and randomized late IgG/infection analyses were unavailable. RUBY-3 follow-up extended up to 104 weeks, but this does not mean every participant had that exposure. Its withdrawal-accounting inconsistency remains unresolved.",
+    "The supplied compliance-data feed was unavailable, and no original inspection or warning-letter document linked to povetacicept was inspected. Corporate manufacturing disclosures are not site-specific evidence; no clinical/BIMO inspection was treated as CGMP clearance.",
+    "The public FDA letter-archive request returned an error, and the supplied approval-database discovery also failed. Neither establishes absence of prior correspondence, approval or deficiencies. Formal FDA filing correspondence and the application history would resolve the administrative gaps."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does longer-term 80-mg exposure establish manageable immune-suppression risk sufficient to support accelerated approval on RAINIER's proteinuria result?",
+    "bullCase": {
+      "claim": "The prespecified randomized proteinuria effect is large despite substantial background supportive therapy, with concordant Gd-IgA1 and hematuria findings. Controlled short-term serious-event and serious-infection rates were not higher than placebo. RUBY-3 adds 48-week IgAN durability, and its late low-IgG events were not accompanied by serious/severe infections.",
+      "sourceIds": [
+        "web-f0375da86ea5",
+        "web-574aa7bd99cb"
+      ]
+    },
+    "bearCase": {
+      "claim": "RAINIER's disclosed mean exposure is too short to resolve the late severe IgG suppression observed in RUBY-3, including at 80 mg. If the larger chronic-exposure dataset shows clinically important infection risk or burdensome treatment interruption, the benefit-risk balance and label could change despite the proteinuria effect. Randomized renal preservation remains unconfirmed.",
+      "sourceIds": [
+        "web-574aa7bd99cb",
+        "web-f0375da86ea5",
+        "trial-NCT06564142"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What does the latest integrated 80-mg IgAN dataset show after 48 weeks about IgG nadirs, serious infections, recovery and treatment interruption?",
+      "whyItMatters": "The concerning laboratory events appeared after the principal exposure window summarized publicly for RAINIER. Exposure-stratified randomized data would distinguish an infrequent, monitorable laboratory effect from a clinically consequential chronic-treatment risk. This is the investigation's priority question, not a disclosed FDA objection.",
+      "sourceIds": [
+        "web-574aa7bd99cb",
+        "web-f0375da86ea5"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Surrogate benefit with manageable chronic safety",
+        "trigger": "FDA accepts the robust UPCR analysis and confirmatory plan; longer 80-mg exposure shows that IgG suppression is manageable without a material serious-infection excess, and the commercial product meets review requirements.",
+        "implication": "Accelerated approval could proceed with population and monitoring provisions. Kidney-function confirmation would remain a distinct subsequent obligation, not an already demonstrated benefit.",
+        "sourceIds": [
+          "web-f0375da86ea5",
+          "web-574aa7bd99cb",
+          "web-24eafdf9c45c",
+          "trial-NCT06564142"
+        ]
+      },
+      {
+        "label": "Chronic immune safety changes the benefit-risk balance",
+        "trigger": "Updated 80-mg data associate sustained severe IgG suppression with important infections or frequent interruptions, or show that trial safeguards cannot adequately support the requested population.",
+        "implication": "FDA could seek additional exposure, narrower eligibility or stronger monitoring before or as part of an approval decision. A sufficiently material unresolved concern could prevent first-cycle approval; current evidence does not establish that outcome.",
+        "sourceIds": [
+          "web-574aa7bd99cb",
+          "web-f0375da86ea5"
+        ]
+      },
+      {
+        "label": "A separate statistical or commercial-product deficiency emerges",
+        "trigger": "FDA identifies a material problem in the interim analysis's robustness, or product-linked CMC/autoinjector evidence reveals an unresolved deficiency.",
+        "implication": "Additional analyses or remediation could alter timing independently of the headline efficacy result. A review extension and a complete response would be distinct events; neither is documented for this application in the inspected evidence.",
+        "sourceIds": [
+          "web-f0375da86ea5",
+          "web-24eafdf9c45c",
+          "web-7eb24f807ea6"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How were the 199 interim participants selected prospectively, and what are the primary-effect confidence interval and missing-data/rescue-treatment sensitivity results?",
+        "whyItMatters": "The 605 enrollment headline overstates the efficacy sample available at interim. Full statistical documentation is needed to establish robustness without relying only on a very small P value or sponsor-reported subgroup consistency.",
+        "sourceIds": [
+          "web-f0375da86ea5",
+          "trial-NCT06564142"
+        ]
+      },
+      {
+        "question": "How many 80-mg IgAN participants now exceed 48 weeks, and what IgG testing, vaccination, dose-hold and restart rules are proposed?",
+        "whyItMatters": "Late severe hypogammaglobulinemia occurred despite baseline IgG selection and close monitoring in RUBY-3. Management should also reconcile the 80-mg malignancy-related withdrawal with the paper's discontinuation summary.",
+        "sourceIds": [
+          "web-574aa7bd99cb",
+          "web-f0375da86ea5"
+        ]
+      },
+      {
+        "question": "Which exact sites manufacture and test commercial povetacicept and its autoinjector, and what product-linked FDA findings or open corrective actions exist?",
+        "whyItMatters": "Public corporate and other-product manufacturing references do not answer this question. Site identities, FEIs, process validation, clinical-to-commercial comparability and device documentation would turn the current manufacturing unknown into assessable evidence.",
+        "sourceIds": [
+          "web-24eafdf9c45c",
+          "web-7eb24f807ea6",
+          "web-97b0a9f29d24"
+        ]
+      },
+      {
+        "question": "Can management provide the FDA application number, original-application classification, exact requested indication, current review clock, outstanding requests and agreed renal-confirmation milestones?",
+        "whyItMatters": "These documents would distinguish sponsor-reported acceptance from FDA's substantive review position and clarify whether label restrictions, further evidence or amendments could change the November target.",
+        "sourceIds": [
+          "web-97b0a9f29d24",
+          "web-24eafdf9c45c",
+          "trial-NCT06564142"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong sponsor-reported randomized proteinuria results coexist with documented late severe hypogammaglobulinemia, including at 80 mg. Short-term controlled safety is reassuring, but longer-exposure risk remains unresolved. Manufacturing readiness is unknown.",
+    "pivotalQuestion": "Is late IgG suppression at 80 mg sufficiently manageable to support accelerated approval on the proteinuria result?",
+    "sourceIds": [
+      "web-f0375da86ea5",
+      "web-574aa7bd99cb",
+      "web-24eafdf9c45c"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "RAINIER's prespecified week-36 analysis showed a large placebo-adjusted UPCR reduction with concordant secondary endpoints. RUBY-3 supports durability, but randomized week-104 renal preservation remains unproved.",
+        "sourceIds": [
+          "web-f0375da86ea5",
+          "web-574aa7bd99cb",
+          "trial-NCT06564142"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Short-term serious-event rates were comparable to placebo. RUBY-3 documented severe IgG suppression after 48 weeks, including at 80 mg, requiring longer-exposure infection and monitoring assessment.",
+        "sourceIds": [
+          "web-f0375da86ea5",
+          "web-574aa7bd99cb"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No product-linked manufacturing sites, FDA inspection dispositions or corrective-action records were established. Corporate supply-chain disclosures and other-product manufacturing updates do not establish povetacicept readiness.",
+        "sourceIds": [
+          "web-7eb24f807ea6",
+          "web-97b0a9f29d24"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Vertex reports March BLA completion and June acceptance with a November 30 target. These support review progression, not substantive FDA agreement on accelerated approval; formal objections and application history remain unverified.",
+        "sourceIds": [
+          "web-97b0a9f29d24",
+          "web-24eafdf9c45c"
+        ]
+      }
+    ]
+  },
+  "id": "274ec0e2-cbee-48a8-a484-7289e562e25c",
+  "candidateId": "povetacicept-igan",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:32:20.292Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Povetacicept, specifically IgA nephropathy in adults. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "vrtx-poveta-acceptance",
+      "title": "Vertex: povetacicept BLA accepted",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application",
+      "publisher": "Vertex Pharmaceuticals",
+      "publishedAt": "2026-06-01",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Vertex reported a November 30 target for the povetacicept BLA seeking accelerated approval in adult IgA nephropathy. The RAINIER interim analysis reported 49.8% placebo-adjusted reduction in urine protein-to-creatinine ratio at week 36. The later 104-week eGFR-slope assessment addresses renal-function benefit and is not an observed result of this interim analysis."
+    },
+    {
+      "id": "trial-nct06564142",
+      "title": "ClinicalTrials.gov: NCT06564142 · Evaluation of Efficacy of Povetacicept in Adults With Immunoglobulin A Nephropathy (IgAN)",
+      "url": "https://clinicaltrials.gov/study/NCT06564142",
+      "publisher": "ClinicalTrials.gov / Alpine Immune Sciences Inc, A Subsidiary of Vertex",
+      "publishedAt": "2026-05-15",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 605 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT06564142",
+      "title": "Evaluation of Efficacy of Povetacicept in Adults With Immunoglobulin A Nephropathy (IgAN)",
+      "url": "https://clinicaltrials.gov/study/NCT06564142",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-05-15",
+      "retrievedAt": "2026-09-10T20:32:22.796Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT06564142; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-f0375da86ea5",
+      "title": "Vertex Announces Positive Week 36 Interim Analysis Results for Primary ...",
+      "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-positive-week-36-interim-analysis-results",
+      "publisher": "investors.vrtx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:33.054Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-47bbc15829bc",
+      "title": "RAINIER: Povetacicept Reduces Proteinuria By 52.0% - HCPLive",
+      "url": "https://www.hcplive.com/view/ranier-povetacicept-achieves-primary-and-all-secondary-endpoints-for-igan",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:33.054Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-574aa7bd99cb",
+      "title": "Povetacicept for IgA Nephropathy and Primary Membranous ... - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12799581/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:33.055Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c7f4fc610da7",
+      "title": "Vertex Announces Positive Week 36 Interim Analysis Results for Primary ...",
+      "url": "https://www.drugs.com/clinical_trials/vertex-announces-positive-week-36-interim-analysis-results-primary-all-secondary-endpoints-rainier-22337.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:33.055Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-24eafdf9c45c",
+      "title": "Vertex Announces US FDA Acceptance of Biologics License ...",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application",
+      "publisher": "news.vrtx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:37.926Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-03b0a7ddce8b",
+      "title": "FDA Accepts BLA for Povetacicept in IgA Nephropathy - HCPLive",
+      "url": "https://www.hcplive.com/view/fda-accepts-bla-for-povetacicept-in-iga-nephropathy",
+      "publisher": "www.hcplive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:37.926Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c43e32605f9f",
+      "title": "FDA Sets November Decision on Vertex Povetacicept - AllSci",
+      "url": "https://allsci.com/news/approvals/approval-filings/fda-sets-november-decision-date-for-vertexs-povetacicept-in-iga-nephropathy/",
+      "publisher": "allsci.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:37.927Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-36c09e69b1c2",
+      "title": "Vertex's Povetacicept BLA Accepted by US FDA for IgA Nephropathy",
+      "url": "https://www.biospectrumasia.com/news/97/27747/vertexs-povetacicept-bla-accepted-by-us-fda-for-iga-nephropathy.html",
+      "publisher": "www.biospectrumasia.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:37.927Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c616939c4b6f",
+      "title": "Vertex Announces Progress in Povetacicept Development ...",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-progress-povetacicept-development-program-and",
+      "publisher": "news.vrtx.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:47.448Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ace7d1cc95a5",
+      "title": "Updated Global Phase 1/2 Clinical Trial Data for Povetacicept, which ...",
+      "url": "https://www.ono-pharma.com/en/news/20251111.html",
+      "publisher": "www.ono-pharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:47.449Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-503a35b3cd15",
+      "title": "Vertex Announces US FDA Acceptance of Biologics License ...",
+      "url": "https://zailab.gcs-web.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application",
+      "publisher": "zailab.gcs-web.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:47.449Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2e896e1dba6b",
+      "title": "Vertex kidney disease drug hits mark in late-stage study | BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/vertex-povetacicept-iga-nephropathy-study-results/814253/",
+      "publisher": "www.biopharmadive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:47.449Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1f9669f1901d",
+      "title": "Efficacy and safety of BAFF/APRIL-pathway inhibitors ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13464696/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:59.447Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-20305ed76546",
+      "title": "10 clinical trials to watch in the second half of 2026 | BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+      "publisher": "www.biopharmadive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:59.448Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-243b7b7614d5",
+      "title": "[PDF] Global Science. One Purpose.",
+      "url": "https://docs.publicnow.com/viewDoc.aspx?filename=183261%5CEXT%5CDB0439D420BE6DF74CEED914186FEA4944AACFF7_57A46A247646C5BEC9DD3288160B95EB2A026772.PDF",
+      "publisher": "docs.publicnow.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:59.448Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-97b0a9f29d24",
+      "title": "Vertex Reports First Quarter 2026 Financial Results - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000171/ex-991_q12026.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:34:12.069Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7eb24f807ea6",
+      "title": "vrtx-20251231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/vrtx-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:34:12.070Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-133ef405097a",
+      "title": "Vertex Reports First Quarter 2025 Financial Results - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000171/ex-991_q12025.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:34:12.071Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9366df8a85dc",
+      "title": "Vertex Reports Fourth Quarter and Full Year 2025 Financial Results",
+      "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000034/ex-991_q42025.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:34:12.072Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 614403,
+    "outputTokens": 8128
+  },
+  "durationMs": 271050,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "vrtx-poveta-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 4
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT06564142"
+      },
+      "status": "completed",
+      "durationMs": 77
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "povetacicept RAINIER week 36 49.8 confidence interval adverse events 2026 results RUBY-3"
+      },
+      "status": "completed",
+      "durationMs": 5399
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "povetacicept Vertex BLA November 30 2026 FDA manufacturing CMC manufacturer complete response letter priority review"
+      },
+      "status": "completed",
+      "durationMs": 4871
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "web-574aa7bd99cb"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"povetacicept\" manufacturing manufacturer site CMC Lonza AGC Samsung warning inspection -site:hcplive.com -site:biospectrumasia.com"
+      },
+      "status": "completed",
+      "durationMs": 3110
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Vertex"
+      },
+      "status": "partial",
+      "durationMs": 478
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"RAINIER\" \"povetacicept\" publication confidence interval 2026 NEJM Lancet"
+      },
+      "status": "completed",
+      "durationMs": 71521
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:sec.gov \"povetacicept\" \"manufacturing\" 2026 Vertex"
+      },
+      "status": "completed",
+      "durationMs": 2635
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-7eb24f807ea6",
+        "query": "manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-7eb24f807ea6",
+        "query": "Manufacturing and Supply"
+      },
+      "status": "completed",
+      "durationMs": 0
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0d56df6230b989a6016aa31451395087d29a2baf115ce1eaf8",
+    "inputHash": "18b5b0233714c736fbf9bd67cf453552593372124ee6dfb7f0f4a547c7af677a"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:39:51.041Z",
+    "originalSha256": "2bf00eadaf2bbf303b18d5baace9a95dd44c9145188bbd31b67ed6f640b2ce6e",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

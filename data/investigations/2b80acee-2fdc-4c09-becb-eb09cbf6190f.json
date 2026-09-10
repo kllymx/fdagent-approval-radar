@@ -1,0 +1,647 @@
+{
+  "summary": "BBP-418 has substantive sponsor-reported evidence supporting its LGMD2I/R9 application: randomized improvements in ambulatory and pulmonary function accompany biomarker effects, with interpretable, generally reassuring comparative safety results. The pivotal question is whether the prespecified interim package is sufficient for traditional approval before the long-term primary assessment. Manufacturing readiness remains unverified, not demonstrably deficient.",
+  "outlook": {
+    "verdict": "Favorable clinical and observed safety evidence, with unresolved regulatory sufficiency and manufacturing visibility.",
+    "timing": "As of September 10, 2026, the latest inspected disclosures support an ongoing priority-review NDA with a November 27, 2026 PDUFA target. The May acceptance announcement, second-quarter SEC filing and supplied August update are consistent on that target. No changed target was identified in the inspected evidence. November 27 is an action goal, not an approval date; an extension or complete response remains possible. The current registry estimates FORTIFY primary completion in September 2027, a separate trial milestone.",
+    "probability": null,
+    "probabilityBasis": "The historical model supplies FDA receipt-cohort context for original priority applications, broadly consistent with the publicly described application category. It does not validate an individual BBP-418 probability. Its approval-rate and action-timeliness models measure different outcomes and are not combined. BBP-418's exact FDA application classification was not independently retrieved."
+  },
+  "findings": [
+    {
+      "id": "f1",
+      "title": "Current application: initial NDA seeking traditional approval, not an established accelerated-approval pathway",
+      "detail": "BridgeBio announced submission on March 30, 2026 and acceptance with priority review on May 27; its second-quarter SEC filing corroborates both events and the November 27 target. The requested disease is LGMD2I/R9. Public disclosures describe an initial NDA, not a supplement or CRL resubmission. Importantly, the March 11 clinical update explicitly stated an intention to seek traditional approval; earlier discussion of potential accelerated approval should not define the current application. FDA was reportedly not planning an advisory committee at acceptance. The exact requested age/functional-status label, NDA number, statutory route and FDA correspondence were not retrieved. The public CRL archive request failed, so prior-letter absence cannot be certified.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-32da081be5bb",
+        "web-db905cf13d42",
+        "web-db29d45ecff9",
+        "web-781fc0a98e13",
+        "bbio-q2-2026"
+      ]
+    },
+    {
+      "id": "f2",
+      "title": "FORTIFY's interim primary endpoint differs from its long-term primary assessment",
+      "detail": "FORTIFY is a randomized, masked, placebo-controlled Phase 3 study in genetically confirmed, symptomatic LGMD2I/R9, ages 12–60. The registry and sponsor schematic specify 2:1 allocation: 74 BBP-418 and 38 placebo participants, 112 total. The regimen is weight-based oral granules, 9 g or 12 g twice daily, versus matching placebo. The sponsor schematic identifies a 72-participant interim cohort. Sponsor materials and the original MDA abstract describe the prespecified interim primary endpoint as change in muscle glycosylated alpha-dystroglycan at three months; key secondary measures include alpha-dystroglycan, CK, 100-meter timed-test velocity and sitting FVC at 12 months. The current registry instead lists 36-month NSAD change and treatment-emergent adverse-event frequency/severity as primary outcomes, with interim measures under other outcomes. These are different analysis stages, not proof of endpoint switching. The dated protocol and statistical analysis plan are needed to verify the exact hierarchy and interim testing rules.",
+      "direction": "neutral",
+      "sourceIds": [
+        "trial-NCT05775848",
+        "web-dd5ea010b816",
+        "web-a901c340c07f"
+      ]
+    },
+    {
+      "id": "f3",
+      "title": "Actual pivotal results show functional benefit, not merely biomarker activity",
+      "detail": "In the October 2025 sponsor presentation, three-month glycosylated alpha-dystroglycan increased by 17.1 percentage points of control versus −0.04 with placebo; observed-value counts were 71 and 36. At 12 months, changes were 23.6 versus 0.8, with counts of 49 and 22. Both comparisons were reported as p<0.0001. At 12 months, CK changed by −1,869 versus +186 U/L, with an 82% average reduction from baseline on BBP-418; p<0.0001. For 100MTT, changes were +0.14 versus −0.12 m/s, with a reported treatment difference of 0.27 m/s, p<0.0001; observed counts were 40 versus 20. Sitting FVC changed by +3.0 versus −1.9 percentage points of predicted, approximately a five-point difference, p=0.0071; observed counts were 35 versus 21. These are sponsor-reported least-squares estimates, not FDA-verified analyses. The March 2026 update also reports early 100MTT separation and 10MWT changes of +0.13 versus −0.10 m/s; the latter's confirmatory statistical status was not established in the inspected materials.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-dd5ea010b816",
+        "web-35518c3655a0",
+        "web-a901c340c07f",
+        "web-781fc0a98e13"
+      ]
+    },
+    {
+      "id": "f4",
+      "title": "The strongest contrary interpretation concerns robustness and scope—not a retrieved failed endpoint",
+      "detail": "The functional results come from smaller endpoint-specific observed samples than the randomized population. This does not establish excessive attrition: interim maturity, eligibility and missing measurements must be separated. The sponsor uses mixed models for repeated measures, but the complete estimands, missing-data assumptions, sensitivity analyses, multiplicity control and interim alpha allocation were not inspected. Alpha-dystroglycan graphics are labeled with 99% confidence intervals, but numeric bounds were not recoverable from the returned text; functional confidence intervals were also unavailable. Sponsor-reported favorable subgroup point estimates do not establish efficacy independently in every age, genotype or severity subgroup. Twelve-month biochemical persistence and functional benefit do not establish the final 36-month NSAD outcome, prevention of wheelchair dependence, cardiac benefit or survival. No independent confirmatory randomized study or original Phase 2 report was inspected; repeat presentations of FORTIFY are not replication.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-dd5ea010b816",
+        "web-781fc0a98e13",
+        "trial-NCT05775848",
+        "web-a901c340c07f"
+      ]
+    },
+    {
+      "id": "f5",
+      "title": "Comparative safety is meaningfully reassuring, but exposure and subgroup detail remain incomplete",
+      "detail": "BridgeBio's March 11, 2026 report gives TEAE rates of 93.2% versus 100%, grade ≥3 TEAEs of 5.4% versus 5.3%, and serious TEAEs of 5.4% versus 7.9% for BBP-418 versus placebo. It reports no treatment-related serious TEAEs and no deaths during the reported study period. Diarrhea occurred in 39.2% versus 52.6%, entirely grade 1–2; nausea was more frequent with BBP-418, 16.2% versus 7.9%. Other reported events included procedural pain, falls, respiratory infections, arthralgia and headache. The sponsor reports no laboratory pattern suggesting hepatic, renal, cardiac, hematologic or metabolic toxicity and no clinically meaningful ECG/echocardiographic changes. These observed comparisons are stronger than a bare 'no new safety signal' statement, but do not exclude uncommon or delayed toxicity. The 2025 deck calls discontinuation low and higher on placebo without counts. Patient-years, exposure-duration distributions, individual serious-event narratives, exact discontinuation causes, dose modifications and safety by weight-based dose, age and disease severity were not retrieved.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-781fc0a98e13",
+        "web-dd5ea010b816",
+        "trial-NCT05775848"
+      ]
+    },
+    {
+      "id": "f6",
+      "title": "CMC: outsourced manufacturing is documented; candidate-specific site readiness is unknown",
+      "detail": "BridgeBio's 2025 annual report states that it owns no manufacturing facilities and uses third-party organizations for raw materials, drug substance, drug product and packaging; the second-quarter filing continues to disclose third-party dependence. The registry identifies BBP-418 granules containing ribitol and silicon dioxide, supplied in foil-barrier sachets for reconstitution. Neither establishes commercial-process validation or FDA acceptance. Targeted public and SEC searches did not yield an inspected document naming a BBP-418 commercial manufacturer/site, linking an FEI to this application, or documenting a candidate-specific CMC deficiency, contractor replacement or corrective action. The supplied compliance discovery was unavailable, and no original product-linked inspection or warning letter was verified. Thus there is neither a substantiated CMC setback nor evidence of manufacturing clearance. Resolution requires the application-specific site list, commercial-versus-clinical batch bridge, validation/stability assessment and any FDA deficiency correspondence with responses.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-29850acea4cd",
+        "web-db29d45ecff9",
+        "trial-NCT05775848"
+      ]
+    },
+    {
+      "id": "f7",
+      "title": "Sponsor history establishes experience, not a predictive approval record",
+      "detail": "The second-quarter SEC filing records Attruby's FDA approval on November 22, 2024. FDA's historical review table identifies that original standard application as first-cycle approved after 11.8 months, with its goal met. BridgeBio's annual report also distinguishes NULIBRY's historical approval and subsequent transfer to Sentynl from TRUSELTIQ's historical accelerated approval and later withdrawal. These completed portfolio events should not be conflated with BBP-418's pending application or presented simply as three currently marketed sponsor products. They show regulatory experience but supply no validated candidate-level predictor and no evidence of shared BBP-418 manufacturing sites.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-db29d45ecff9",
+        "web-29850acea4cd",
+        "pdufa-2025"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Attruby: same-sponsor review-execution context only",
+      "relevance": "FDA records an observed first-cycle approval for BridgeBio's original standard application after 11.8 months, meeting its applicable goal.",
+      "difference": "Different drug, disease, clinical package and review priority. It does not resolve BBP-418's interim-evidence sufficiency, label scope or manufacturing readiness, and is not an approval-probability analog.",
+      "sourceIds": [
+        "pdufa-2025",
+        "web-db29d45ecff9"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "FORTIFY's dated protocol, statistical analysis plan and full interim report: confirm hierarchy/alpha allocation, endpoint eligibility, participant disposition, confidence intervals and sensitivity to missing-data assumptions.",
+    "FDA or detailed sponsor disclosure of the clinical review position: whether 12-month functional evidence supports traditional approval, the requested age/functional-status label, and whether longer follow-up is required before action or afterward.",
+    "Integrated safety update with patient-years, exposure distributions, serious-event narratives, discontinuation/dose-interruption counts, and analyses by age, weight-based dose and baseline cardiopulmonary/renal status.",
+    "Application-linked CMC package or FDA quality assessment identifying commercial sites/FEIs, batch comparability, process validation, stability, inspection findings and documented resolution of any deficiencies."
+  ],
+  "limitations": [
+    "This is a current September 10, 2026 investigation. The registry was updated September 9; it is not a historical snapshot proving what was prespecified before unblinding.",
+    "The registry contains no posted results. Clinical evidence inspected consists of a sponsor results presentation, sponsor releases and an original investigator/sponsor conference abstract—not a full peer-reviewed pivotal paper or FDA clinical/statistical review.",
+    "A bounded PubMed search for BBP-418 returned no indexed trial records. That search can miss ribitol aliases, unindexed work and differently named publications; it does not establish that no original paper exists.",
+    "The 2025 presentation translates 100MTT results to approximately 14 seconds, whereas the March 2026 release reports approximately 31 seconds faster than placebo. The estimands behind those descriptions were not reconciled; this report relies on the explicitly reported velocity results rather than treating the seconds figures as interchangeable.",
+    "Manufacturing review covered targeted public/SEC searches and inspected annual-report manufacturing and second-quarter risk disclosures, not a complete quality dossier. No candidate-linked manufacturer, inspection classification, corrective-action record or FDA clearance was verified.",
+    "The public CRL archive request returned an error. FDA correspondence, exact NDA number, requested label and final review conclusions were not available; absence of a retrieved objection is not evidence that FDA has none."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does FORTIFY's prespecified interim package establish sufficiently robust functional benefit for traditional approval before the 36-month primary assessment?",
+    "bullCase": {
+      "claim": "This is not a biomarker-only filing: randomized 100MTT and FVC improvements accompany sustained biochemical effects, with severe and serious adverse-event rates similar to placebo. Concordance across different measures supports a clinically meaningful treatment effect.",
+      "sourceIds": [
+        "web-dd5ea010b816",
+        "web-a901c340c07f",
+        "web-781fc0a98e13"
+      ]
+    },
+    "bearCase": {
+      "claim": "The interim primary endpoint is biochemical, while the functional evidence supporting traditional approval comes from smaller endpoint-specific samples and an incompletely public statistical framework. If those effects are sensitive to missingness, eligibility or multiplicity assumptions, FDA could require additional evidence or narrow the label. This is an analytical vulnerability, not a retrieved FDA objection.",
+      "sourceIds": [
+        "web-dd5ea010b816",
+        "trial-NCT05775848",
+        "web-781fc0a98e13"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Do FDA-reviewed, multiplicity-controlled functional estimates remain clinically meaningful under the prespecified estimand and credible missing-data sensitivity analyses?",
+      "whyItMatters": "That distinguishes a robust clinical-benefit package supporting the stated traditional-approval strategy from a convincing biomarker result whose clinical interpretation still needs longer follow-up. The relevant documents are the dated analysis plan, full interim report and FDA statistical/clinical assessment.",
+      "sourceIds": [
+        "web-dd5ea010b816",
+        "web-781fc0a98e13",
+        "trial-NCT05775848"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Interim evidence accepted as sufficient",
+        "trigger": "FDA accepts the prespecified functional analyses and proposed population, while the integrated safety and commercial-quality assessments are satisfactory.",
+        "implication": "Traditional approval during the current review is a credible outcome; the eventual label and follow-up obligations, not priority designation, would determine the approved claim.",
+        "sourceIds": [
+          "web-781fc0a98e13",
+          "web-db905cf13d42",
+          "web-dd5ea010b816"
+        ]
+      },
+      {
+        "label": "Clinical sufficiency or population breadth remains unresolved",
+        "trigger": "FDA identifies consequential sensitivity of functional results or insufficient evidence for portions of the requested population.",
+        "implication": "Potential outcomes include a narrower label, additional analyses, or a requirement for more follow-up before approval. The September 2027 registry milestone is not automatically an FDA-required waiting period.",
+        "sourceIds": [
+          "trial-NCT05775848",
+          "web-dd5ea010b816",
+          "web-781fc0a98e13"
+        ]
+      },
+      {
+        "label": "Independent safety or quality gate delays action",
+        "trigger": "A new exposure-related safety finding or a documented application-linked manufacturing deficiency remains unresolved.",
+        "implication": "Supportive efficacy would not overcome that separate approval barrier. Additional review could change timing, while an unresolved deficiency could produce a complete response; neither is currently established by the inspected evidence.",
+        "sourceIds": [
+          "web-781fc0a98e13",
+          "web-29850acea4cd",
+          "web-db29d45ecff9"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "How do the 112 randomized participants, 72-person interim cohort and smaller endpoint-specific observed samples reconcile?",
+        "whyItMatters": "Obtain disposition by treatment arm separating follow-up maturity, prespecified eligibility, inability to perform testing, withdrawal and other missingness. This is essential to interpreting the functional estimates.",
+        "sourceIds": [
+          "web-dd5ea010b816",
+          "trial-NCT05775848"
+        ]
+      },
+      {
+        "question": "What written FDA feedback supports traditional approval, and what exact age and ambulatory-status population is requested?",
+        "whyItMatters": "Trials in ages 12–60 and favorable subgroup point estimates do not themselves establish a broad label, especially for younger children or patients unable to perform ambulatory endpoints.",
+        "sourceIds": [
+          "web-781fc0a98e13",
+          "web-db905cf13d42",
+          "trial-NCT05775848"
+        ]
+      },
+      {
+        "question": "What are the full exposure, discontinuation and dose-interruption results, and what practical monitoring is proposed?",
+        "whyItMatters": "Clarify nausea/diarrhea management, hydration and adherence at twice-daily gram doses, and whether renal/hepatic laboratory or cardiac monitoring is warranted. These are diligence questions, not established label requirements.",
+        "sourceIds": [
+          "web-781fc0a98e13",
+          "web-dd5ea010b816",
+          "trial-NCT05775848"
+        ]
+      },
+      {
+        "question": "Which drug-substance, granulation, packaging and testing sites are listed in the NDA, and what application-specific quality issues remain open?",
+        "whyItMatters": "Request exact site/FEI linkage, commercial-batch bridging and inspection/deficiency responses. Sponsor experience, clinical-site inspections and generic outsourcing disclosures cannot establish CGMP readiness.",
+        "sourceIds": [
+          "web-29850acea4cd",
+          "web-db29d45ecff9",
+          "trial-NCT05775848"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "favorable",
+    "summary": "Sponsor-reported randomized functional and biomarker improvements, with comparative safety results, support a favorable evidence balance. Interim-analysis sufficiency and long-term durability remain unresolved; manufacturing readiness is unknown. This is evidence triage, not an approval prediction.",
+    "pivotalQuestion": "Does the prespecified interim package establish robust functional benefit sufficient for traditional approval before the long-term primary assessment?",
+    "sourceIds": [
+      "web-dd5ea010b816",
+      "web-781fc0a98e13",
+      "trial-NCT05775848",
+      "web-29850acea4cd"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Sponsor-reported randomized 100MTT and FVC improvements accompany biochemical effects. Smaller endpoint samples, unavailable full statistical analyses and pending 36-month outcomes limit interpretation without establishing a failed endpoint.",
+        "sourceIds": [
+          "web-dd5ea010b816",
+          "web-a901c340c07f",
+          "trial-NCT05775848"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "supportive",
+        "rationale": "Sponsor-reported severe and serious event rates were similar to placebo, with no deaths or treatment-related serious events. Nausea was more frequent; exposure, discontinuation and subgroup details remain incomplete.",
+        "sourceIds": [
+          "web-781fc0a98e13",
+          "web-dd5ea010b816"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Outsourcing and formulation are documented, but no BBP-418 commercial site linkage, validation assessment, product-specific deficiency or FDA quality clearance was verified.",
+        "sourceIds": [
+          "web-29850acea4cd",
+          "web-db29d45ecff9",
+          "trial-NCT05775848"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor and SEC disclosures corroborate NDA acceptance, priority review and the November 27 target. Traditional approval is the stated strategy; acceptance does not establish clinical sufficiency or final label scope.",
+        "sourceIds": [
+          "web-db905cf13d42",
+          "web-db29d45ecff9",
+          "web-781fc0a98e13"
+        ]
+      }
+    ]
+  },
+  "id": "2b80acee-2fdc-4c09-becb-eb09cbf6190f",
+  "candidateId": "bbp418-lgmd",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:26:58.797Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for BBP-418 (ribitol), specifically Limb-girdle muscular dystrophy type 2I/R9. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "bbio-bbp418-acceptance",
+      "title": "BridgeBio: BBP-418 priority NDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301817/0/en/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9.html",
+      "publisher": "BridgeBio Pharma",
+      "publishedAt": "2026-05-27",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BridgeBio reported a November 27 target and priority review for oral BBP-418 in LGMD2I/R9. The filing relies on a prespecified 12-month FORTIFY interim analysis that the sponsor says met primary and key secondary endpoints. No advisory committee was planned at the announcement; longer-term follow-up and the final regulatory assessment remain distinct."
+    },
+    {
+      "id": "bbio-q2-2026",
+      "title": "BridgeBio: BBP-418 and encaleret review update",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx",
+      "publisher": "BridgeBio Pharma",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "BridgeBio reported accepted priority-review NDAs for BBP-418 in LGMD2I/R9 with a November 27, 2026 target and encaleret in ADH1 with a May 8, 2027 target, with no planned advisory committee for either. Its infigratinib NDA had been submitted but lacked a reported target; that stage must not be conflated with acceptance."
+    },
+    {
+      "id": "trial-nct05775848",
+      "title": "ClinicalTrials.gov: NCT05775848 · Study to Evaluate the Efficacy and Safety of BBP-418 (Ribitol) in Patients With Limb Girdle Muscular Dystrophy 2I (LGMD2I)",
+      "url": "https://clinicaltrials.gov/study/NCT05775848",
+      "publisher": "ClinicalTrials.gov / ML Bio Solutions, Inc.",
+      "publishedAt": "2026-09-09",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 112 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05775848",
+      "title": "Study to Evaluate the Efficacy and Safety of BBP-418 (Ribitol) in Patients With Limb Girdle Muscular Dystrophy 2I (LGMD2I)",
+      "url": "https://clinicaltrials.gov/study/NCT05775848",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-09-09",
+      "retrievedAt": "2026-09-10T20:27:02.483Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05775848; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-35518c3655a0",
+      "title": "BridgeBio Reports Positive Phase 3 Results for Small Molecule BBP ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2025/BridgeBio-Reports-Positive-Phase-3-Results-for-Small-Molecule-BBP-418-in-LGMD2IR9-FORTIFY-Study/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:20.981Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4994e374b5f5",
+      "title": "BridgeBio Pursues FDA Submission for BBP-418 in LGMD2i/R9 After ...",
+      "url": "https://www.neurologylive.com/view/bridgebio-pursues-fda-submission-bbp-418-lgmd2i-r9-after-positive-topline-phase-3-results",
+      "publisher": "www.neurologylive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:36.971Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a901c340c07f",
+      "title": "LB: Interim Analysis from Ongoing Phase 3 FORTIFY Study of BBP ...",
+      "url": "https://www.mdaconference.org/abstract-library/lb-interim-analysis-from-ongoing-phase-3-fortify-study-of-bbp-418-for-patients-with-limb-girdle-muscular-dystrophy-2i-r9-meets-efficacy-endpoints/",
+      "publisher": "www.mdaconference.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:36.971Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-dd5ea010b816",
+      "title": "[PDF] FORTIFY Phase 3 Interim Analysis Topline Results of BBP-418 in ...",
+      "url": "https://s205.q4cdn.com/224494602/files/doc_events/2025/Oct/27/FINAL-2-2025-10-27_ML-Bio_Phase-3-FORTIFY-IA-Topline-Results_Webcast_vFinal.pdf",
+      "publisher": "s205.q4cdn.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:20.982Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-32da081be5bb",
+      "title": "BridgeBio Submits NDA to FDA for BBP-418 for Individuals Living with ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Submits-NDA-to-FDA-for-BBP-418-for-Individuals-Living-with-LGMD2IR9/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:24.402Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-781fc0a98e13",
+      "title": "BBP-418 Demonstrates Consistent Efficacy and Favorable Safety ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BBP-418-Demonstrates-Consistent-Efficacy-and-Favorable-Safety-Profile-in-Phase-3-FORTIFY-Interim-Analysis-in-LGMD2IR9/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:36.970Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-509e590bb048",
+      "title": "FDA accepts Bridge Bio's BBP-418 for priority review for LGMD2I/R9 ...",
+      "url": "https://www.facebook.com/CureLGMD2i/posts/we-are-ecstatic-to-see-that-the-fda-has-accepted-the-nda-with-priority-review-fo/1438027415032607/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:24.403Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-db905cf13d42",
+      "title": "BridgeBio Announces FDA Acceptance and Priority Review of ...",
+      "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx",
+      "publisher": "investor.bridgebio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:24.403Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a129dc5c281e",
+      "title": "99.1 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000114036125039463/ef20057750_ex99-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:35.405Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-29850acea4cd",
+      "title": "bbio-20251231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000009/bbio-20251231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:35.405Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-db29d45ecff9",
+      "title": "bbio-20260630 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000027/bbio-20260630.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:35.409Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-79cc81f9cb61",
+      "title": "bbio-20260331 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000019/bbio-20260331.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:35.411Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-156c4e943807",
+      "title": "Muscular Dystrophy Association - Facebook",
+      "url": "https://www.facebook.com/MDAOrg/posts/-join-us-for-an-upcoming-industry-update-webinar-for-healthcare-providersdr-doug/1412260130935268/",
+      "publisher": "www.facebook.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:27:36.971Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 298829,
+    "outputTokens": 6980
+  },
+  "durationMs": 169594,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "bbio-bbp418-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "bbio-q2-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 4
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05775848"
+      },
+      "status": "completed",
+      "durationMs": 99
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "BBP-418 FORTIFY 12 month results 2026 2025 primary endpoint alpha dystroglycan 100 meter FVC adverse events NDA November 27"
+      },
+      "status": "completed",
+      "durationMs": 13685
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "BridgeBio BBP-418 ribitol manufacturing supplier CMC complete response letter FDA NDA 2026 ML Bio Solutions"
+      },
+      "status": "completed",
+      "durationMs": 3419
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"BBP-418\" (manufacturing OR manufacturer OR CMC OR supplier OR \"complete response\") site:sec.gov/Archives/edgar/data/ 2026"
+      },
+      "status": "completed",
+      "durationMs": 4140
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"BBP-418\" \"2026\" \"FORTIFY\" (\"discontinuation\" OR \"confidence interval\" OR \"Phase 2\" OR \"Mathews\") results MDA presentation"
+      },
+      "status": "completed",
+      "durationMs": 1558
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "BridgeBio"
+      },
+      "status": "partial",
+      "durationMs": 412
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-29850acea4cd",
+        "query": "Manufacturing"
+      },
+      "status": "completed",
+      "durationMs": 3
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-db29d45ecff9",
+        "query": "BBP-418"
+      },
+      "status": "completed",
+      "durationMs": 2
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "publications",
+        "query": "BBP-418"
+      },
+      "status": "completed",
+      "durationMs": 197
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_08be26fa2e8bacde016aa312bf17f087d280414954f1a7f177",
+    "inputHash": "ab07df27bfe44f7adb79f62601858a97094a5a385ac3832d29919a76e8cfe676"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:33:15.077Z",
+    "originalSha256": "bb0748b29b554c0539cfec9fd47c10243cc2058719c69ada06c1bc5d114fe9e9",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

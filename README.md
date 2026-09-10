@@ -14,6 +14,7 @@ Built for the GPT-6 Astra hackathon in New York. This is an original, standalone
 - [Four-minute demo script](docs/demo-script.md)
 - [Evidence evaluation](docs/evidence-evaluation.md) and [independent agent review of the recorded runs](data/recorded-run-review.md)
 - [Expanded investigation review](data/deep-review-2026-09-10.md) and [additional review queue](data/deep-review-expanded-2026-09-10.md)
+- [Published research coverage by drug and evidence domain](docs/research-coverage.md)
 - [Product thesis and customer experiment](docs/product-thesis.md)
 
 The public demo is a September 10, 2026 evidence snapshot. Its dates and status are not automatically refreshed. Live local investigations can retrieve newer evidence and must distinguish that from the snapshot.
@@ -67,7 +68,7 @@ Read [model methodology, source vintages and reproduction commands](model/README
 
 ## Run locally
 
-Requirements: Node.js 22+, pnpm 11, Python 3.9+ for data/model checks, and `pdftotext` for live PDF reading (`brew install poppler` on macOS; `apt install poppler-utils` on Debian/Ubuntu).
+Requirements: a supported Node.js release (22.22.2+, 24.15+, or 26+), pnpm 11, Python 3.9+ for data/model checks, and `pdftotext` for live PDF reading (`brew install poppler` on macOS; `apt install poppler-utils` on Debian/Ubuntu).
 
 ```bash
 pnpm install

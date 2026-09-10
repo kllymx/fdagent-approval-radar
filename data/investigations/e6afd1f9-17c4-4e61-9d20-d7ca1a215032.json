@@ -1,0 +1,675 @@
+{
+  "summary": "As of September 10, 2026, giredestrant has a substantive, clinically supportive adjuvant filing—not merely an accepted application. Original lidERA conference results confirm an invasive disease-free-survival benefit, but not an overall-survival benefit. The principal unresolved issue is whether the interim benefit–risk evidence supports the requested broad stage I–III label, given the trial’s medium/high-risk population and incomplete long-term safety assessment. Manufacturing remains unassessed rather than demonstrably problematic.",
+  "outlook": {
+    "verdict": "Clinically supportive application, with material uncertainty around label breadth and durable benefit–risk; no candidate-specific manufacturing setback was established.",
+    "timing": "Roche and Genentech report a November 30, 2026 FDA action target for the adjuvant NDA. The July portfolio summary continues to list the filing, and the live searches retrieved no superseding adjuvant target or completed action. November 30 is a review goal, not an approval date. The December 18, 2026 target belongs to the separate advanced-disease giredestrant-plus-everolimus application, not an extension of this review.",
+    "probability": null,
+    "probabilityBasis": "The historical model provides FDA receipt-cohort context for original priority applications, not a calibrated probability for giredestrant. That context is provisionally relevant because the sponsor describes a new NDA, although the FDA application identifier and formal classification were not retrieved. The model neither captures this candidate’s clinical/CMC issues nor predicts approval from action timeliness; no individual probability is assigned."
+  },
+  "findings": [
+    {
+      "id": "regulatory-status",
+      "title": "Sponsor-reported priority NDA is distinct from the metastatic combination filing",
+      "detail": "Genentech’s June 1 and Roche’s June 2 disclosures report acceptance under priority review for adjuvant treatment of adults with ER-positive/HER2-negative stage I, II and III breast cancer. They describe an NDA for investigational giredestrant, not a supplement or resubmission; original-application treatment is consistent with these disclosures but is not independently confirmed by an FDA filing letter or application number. The inspected sources disclose no giredestrant-specific CRL or FDA objection. The approved-product database search returned no giredestrant record, but that database cannot verify pending applications. The separate everolimus-combination NDA concerns ESR1-mutated advanced disease and supplies neither approval nor direct clinical validation for this adjuvant claim.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-7318978c09cd",
+        "web-3bab59361143",
+        "roche-hy-2026",
+        "web-31c7adcd8938"
+      ]
+    },
+    {
+      "id": "pivotal-efficacy",
+      "title": "Original pivotal results confirm a statistically positive, modest absolute iDFS benefit",
+      "detail": "The investigator-authored SABCS abstract, published in Clinical Cancer Research in February 2026, reports 4,170 randomized patients: 2,084 giredestrant and 2,086 physician-choice endocrine therapy. lidERA is global, phase III, randomized 1:1 and open-label. Giredestrant 30 mg orally daily was compared with tamoxifen, anastrozole, letrozole or exemestane, with five years of planned treatment. The registry specifies the primary endpoint as iDFS excluding second primary non-breast cancers. At the August 8, 2025 cutoff, median follow-up was 32.3 months: 140 versus 196 iDFS events; stratified HR 0.70, 95% CI 0.57–0.87; two-sided P=0.0014. Three-year estimates were 92.4% versus 89.6%, a calculated 2.8-percentage-point difference—not a 30-percentage-point improvement. Stratification included recurrence risk, region, previous chemotherapy and menopausal status. These are actual trial results, although retrieved as an original conference abstract rather than a full clinical study report.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-905779d5ff47",
+        "trial-NCT04961996"
+      ]
+    },
+    {
+      "id": "durability-statistics",
+      "title": "OS is unproven, and interim-analysis robustness cannot yet be fully audited",
+      "detail": "The prespecified interim analysis included 336 iDFS events. Overall survival had 57 versus 71 deaths: HR 0.79, 95% CI 0.56–1.12; P=0.1863. This neither establishes survival benefit nor demonstrates mortality harm. Distant recurrence-free interval was directionally supportive: 102 versus 145 events; HR 0.69, 95% CI 0.54–0.89. Its confirmatory statistical status cannot be established without the multiplicity hierarchy. The retrieved documents do not supply the full interim alpha-spending boundary, component-event analysis, censoring sensitivity analyses, proportional-hazards assessment or confidence intervals for the three-year absolute difference. Follow-up is shorter than the intended five-year treatment course and cannot establish post-treatment durability. ASCO menopausal analyses reuse lidERA patients and are not independent replication. The current registry has no posted results tables.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-905779d5ff47",
+        "web-3d799b696672",
+        "trial-NCT04961996"
+      ]
+    },
+    {
+      "id": "population-comparator",
+      "title": "The broad requested label must be reconciled with risk enrichment and the comparator",
+      "detail": "The registry describes medium/high-risk disease, not all patients with stage I–III breast cancer. The pivotal abstract reports stage I/II/III proportions of 13.0%/47.4%/39.6%. The original ASCO analysis supports benefit in both premenopausal and postmenopausal groups, but its subgroup HRs are unstratified and do not independently prove benefit in every stage or comparator subgroup. Ovarian suppression was not uniform across control choices: ASCO reports LHRH therapy for premenopausal giredestrant and aromatase-inhibitor recipients, while 58% of tamoxifen recipients received LHRH. Independent conference discussion identifies another limitation: concurrent CDK4/6 inhibition was not tested, despite its relevance to many high-risk patients. These observations raise label and treatment-integration questions; they are not documented FDA objections or proof that the randomized result is invalid.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04961996",
+        "web-905779d5ff47",
+        "web-3d799b696672",
+        "web-24fa596b8437"
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Observed tolerability is encouraging, but cardiac and chronic-exposure questions remain",
+      "detail": "The original pivotal abstract reports adverse-event discontinuation of 5.3% versus 8.2%; these are not all-cause discontinuation rates. Common events were arthralgia, 48.0% versus 47.1%; hot flush, 27.4% versus 28.8%; and headache, 15.3% versus 13.2%. Grade 3–4 hypertension occurred in 2.6% versus 2.0%. The original ASCO subgroup table reports grade 3–4 AEs in 18.2% versus 17.3% of premenopausal patients and 20.7% versus 18.4% of postmenopausal patients: fewer discontinuations should not be interpreted as uniformly fewer severe events. Secondary conference reporting describes more dose interruptions, 12.7% versus 6.6%, and bradycardia in approximately 10% on giredestrant, predominantly asymptomatic grade 1. That reporting also describes mean dose intensity above 99%, which does not establish cumulative exposure duration. Full serious-AE rates, fatal treatment-emergent events, cardiac narratives, exposure-adjusted rates and multi-year safety tables were not inspected. Practical diligence should address heart-rate/ECG and blood-pressure monitoring, symptomatic events, interacting heart-rate-lowering medicines and adherence over five years. Dose-response safety cannot be inferred from this fixed-dose comparison.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-905779d5ff47",
+        "web-3d799b696672",
+        "web-24fa596b8437",
+        "trial-NCT04961996"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "No candidate-linked CMC assessment or manufacturing-site clearance was established",
+      "detail": "The inspected sponsor filing disclosure contains no manufacturing-site list or substantive CMC assessment. A Roche-name inspection lookup produced unverified diagnostics/device/BIMO leads without original documents or a giredestrant linkage; these were not used as manufacturing evidence. Public searches combining giredestrant with manufacturing, CMC, inspection and CRL terms retrieved filing disclosures rather than candidate-linked quality findings. Consequently, neither a documented giredestrant CMC setback nor satisfactory inspection status, contractor replacement or corrective-action closure is established. The resolving documents are the NDA’s API/finished-product site list with FEIs, FDA quality and facility assessments, and any candidate-linked deficiency letters and responses. Sponsor identity or a clinical/BIMO inspection cannot substitute for CGMP evidence.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-7318978c09cd"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Relevant sponsor experience is documented, but does not predict this outcome",
+      "detail": "FDA approved Genentech’s inavolisib combination on October 10, 2024 under priority review, seven weeks ahead of its goal, for a biomarker-selected advanced breast-cancer population. This is completed oncology review experience, not an adjuvant SERD precedent or evidence of shared manufacturing sites. The sponsor CRL-archive search returned a November 23, 2020 Xofluza pediatric letter concerning antiviral resistance and requests for additional transmission and study data—not giredestrant or CMC. Its current archive status of Approved does not change that letter’s historical complete-response outcome; subsequent resolution of its exact requested pediatric scope was not investigated. These examples do not establish a company-wide approval rate.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-4c1c14fc6dcb",
+        "crl-6a51c2da970d"
+      ]
+    }
+  ],
+  "analogs": [
+    {
+      "title": "Itovebi: completed Genentech priority-review experience",
+      "relevance": "FDA documents an October 10, 2024 approval seven weeks ahead of the goal, establishing a concrete example of the sponsor completing an expedited breast-cancer review.",
+      "difference": "Inavolisib was approved in a PIK3CA-mutated advanced-disease combination setting. Its efficacy standard, safety context and manufacturing assessment cannot be transferred to chronic adjuvant giredestrant.",
+      "sourceIds": [
+        "web-4c1c14fc6dcb"
+      ]
+    }
+  ],
+  "nextEvidence": [
+    "Full lidERA report, protocol and statistical analysis plan: verify the interim boundary, endpoint components, censoring/switching sensitivity analyses, risk-specific absolute effects and the testing hierarchy.",
+    "Updated lidERA efficacy and integrated safety analyses: longer recurrence/OS follow-up, actual treatment exposure, serious and fatal AEs, and adjudicated symptomatic bradycardia by age, menopausal status and concomitant medication.",
+    "FDA filing/review correspondence or proposed labeling: confirm application identity, original status, current action target, requested risk restrictions and any specific clinical or safety objections.",
+    "Candidate-linked CMC package: named API and finished-product sites/FEIs, facility assessments, validation and stability conclusions, and any deficiency-response or corrective-action closure documents."
+  ],
+  "limitations": [
+    "The live investigation retrieved the original pivotal conference abstract and original ASCO subgroup abstract, not a full pivotal manuscript, clinical study report or statistical analysis plan. The sponsor presentation landing page was accessible, but retrieval of its linked slide PDF failed.",
+    "The June 17, 2026 registry snapshot contains protocol information but no posted results. It is not an archived protocol version establishing the full prespecification history.",
+    "Detailed bradycardia, interruption and dose-intensity information came from secondary conference reporting. Serious-AE, fatal-event, cumulative-exposure and long-term safety tables remain unavailable in the inspected evidence.",
+    "Manufacturing searches were bounded and established no exact drug–site linkage. The name-based inspection leads were not citable original FDA documents; their presence or absence says nothing definitive about giredestrant CGMP compliance.",
+    "Pending status and the action target remain sponsor-reported. The approved-product search cannot verify pending reviews, and the incomplete CRL archive was updated August 13, 2026; no-match findings cannot exclude undisclosed or later FDA correspondence.",
+    "The July portfolio update was available only as a curated summary. Newly retrieved documents deepen the evidence available on September 10, 2026, but do not constitute new efficacy follow-up beyond the reported August 2025 cutoff."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Is lidERA’s interim recurrence benefit sufficient for the requested broad adjuvant label, given risk enrichment and chronic-treatment safety?",
+    "bullCase": {
+      "claim": "A large randomized active-control trial met its prespecified interim iDFS endpoint, with a confidence interval excluding no effect, supportive distant-recurrence results and fewer AE-related discontinuations. Original subgroup results support activity across menopausal groups. These are substantive candidate-specific grounds for a positive benefit–risk assessment, independent of priority designation.",
+      "sourceIds": [
+        "web-905779d5ff47",
+        "web-3d799b696672",
+        "trial-NCT04961996"
+      ]
+    },
+    "bearCase": {
+      "claim": "The requested stage I–III wording is broader than the trial’s medium/high-risk description. The absolute three-year benefit is 2.8 percentage points, OS remains unproven, and endocrine-monotherapy results do not establish benefit with contemporary CDK4/6 combinations. More interruptions and reported bradycardia require a durable net-benefit assessment in a curative-intent population. None is yet a documented FDA rejection rationale.",
+      "sourceIds": [
+        "web-7318978c09cd",
+        "trial-NCT04961996",
+        "web-905779d5ff47",
+        "web-24fa596b8437"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does FDA’s review of the full lidERA dataset support the requested population after examining interim statistical control, risk-specific benefit, treatment switching and cumulative serious/cardiac toxicity?",
+      "whyItMatters": "That assessment would distinguish a robust broadly usable endocrine replacement from evidence supporting a narrower risk-defined label or a need for additional follow-up. Public headline results cannot resolve these alternatives; manufacturing remains a separate prerequisite.",
+      "sourceIds": [
+        "web-905779d5ff47",
+        "web-3d799b696672",
+        "trial-NCT04961996",
+        "web-24fa596b8437"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Current evidence supports an action without additional efficacy follow-up",
+        "trigger": "FDA accepts the interim statistical framework and population-specific benefit–risk, with manageable cardiac labeling and satisfactory candidate-linked quality/facility findings.",
+        "implication": "Approval could occur within the reported review window, potentially with continued OS and long-term safety follow-up. This is conditional, not a forecast that November 30 will be an approval date.",
+        "sourceIds": [
+          "web-7318978c09cd",
+          "web-905779d5ff47",
+          "trial-NCT04961996"
+        ]
+      },
+      {
+        "label": "Positive trial supports a narrower label",
+        "trigger": "FDA considers the medium/high-risk evidence persuasive but finds insufficient support for unrestricted stage I–III use or untested combination/sequencing claims.",
+        "implication": "The outcome could be a risk-defined indication and specific treatment/monitoring limitations, preserving the core trial benefit while narrowing its commercial and clinical scope.",
+        "sourceIds": [
+          "trial-NCT04961996",
+          "web-7318978c09cd",
+          "web-24fa596b8437"
+        ]
+      },
+      {
+        "label": "Additional evidence is required",
+        "trigger": "Full review identifies material statistical sensitivity, an unfavorable serious/cardiac safety pattern, or a candidate-linked CMC deficiency not disclosed in the inspected sources.",
+        "implication": "Additional submissions could delay action or lead to a complete response, depending on the issue. A review extension alone would not establish rejection; no such candidate-specific deficiency is established here.",
+        "sourceIds": [
+          "web-905779d5ff47",
+          "web-24fa596b8437",
+          "web-7318978c09cd"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What exact risk criteria are requested in the label, and what are the event counts and absolute benefits in stage I, node-negative and medium-risk patients?",
+        "whyItMatters": "The public indication wording spans stage I–III, whereas eligibility was medium/high-risk. Stage alone does not establish applicability to lower-risk patients.",
+        "sourceIds": [
+          "web-7318978c09cd",
+          "trial-NCT04961996",
+          "web-905779d5ff47"
+        ]
+      },
+      {
+        "question": "What were the interim efficacy boundary and multiplicity hierarchy, and how stable is iDFS under alternative censoring, switching and component-event analyses?",
+        "whyItMatters": "The original abstract identifies a prespecified interim analysis but does not provide the complete statistical audit trail. ASCO reports unequal switching to alternative endocrine therapy.",
+        "sourceIds": [
+          "web-905779d5ff47",
+          "web-3d799b696672"
+        ]
+      },
+      {
+        "question": "What are the exposure-adjusted serious/fatal-event rates and symptomatic bradycardia outcomes, and what monitoring or concomitant-medication restrictions has FDA discussed?",
+        "whyItMatters": "Lower discontinuation coexists with more interruptions and a reported heart-rate signal. Actual multi-year exposure and clinically consequential events matter more than the sponsor’s general tolerability description.",
+        "sourceIds": [
+          "web-905779d5ff47",
+          "web-24fa596b8437",
+          "trial-NCT04961996"
+        ]
+      },
+      {
+        "question": "Can management provide the NDA identifier, current FDA issue list and the giredestrant-specific manufacturing-site/FEI list with quality-review and inspection status?",
+        "whyItMatters": "The acceptance disclosure establishes a review process, not clinical agreement or manufacturing readiness. Exact identifiers would enable targeted verification without relying on unrelated Roche facilities or products.",
+        "sourceIds": [
+          "web-7318978c09cd"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Pivotal iDFS results support the filing, but broad stage I–III applicability and long-term cardiac/tolerability trade-offs remain unresolved. Manufacturing is unassessed; priority review is sponsor-reported, not approval.",
+    "pivotalQuestion": "Does the interim recurrence benefit justify the requested broad adjuvant label given risk enrichment and chronic-treatment safety?",
+    "sourceIds": [
+      "web-905779d5ff47",
+      "trial-NCT04961996",
+      "web-24fa596b8437",
+      "web-7318978c09cd"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "Randomized lidERA results favor giredestrant for iDFS and distant recurrence. OS is unproven; broad-label applicability, interim statistical details and long-term durability remain limitations.",
+        "sourceIds": [
+          "web-905779d5ff47",
+          "trial-NCT04961996"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "AE discontinuations were lower, but interruptions were higher and bradycardia was reported. Severe-AE subgroup rates were not uniformly lower; serious-event and chronic-exposure tables were not inspected.",
+        "sourceIds": [
+          "web-905779d5ff47",
+          "web-3d799b696672",
+          "web-24fa596b8437"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "No candidate-linked manufacturing-site, FDA quality assessment, CMC deficiency or corrective-action closure document was inspected. Unverified sponsor-name inspection matches cannot establish compliance.",
+        "sourceIds": []
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor disclosures establish priority-review acceptance and a November 30 target for the adjuvant NDA. FDA application-level correspondence and substantive review conclusions remain unavailable.",
+        "sourceIds": [
+          "web-7318978c09cd",
+          "web-3bab59361143"
+        ]
+      }
+    ]
+  },
+  "id": "e6afd1f9-17c4-4e61-9d20-d7ca1a215032",
+  "candidateId": "giredestrant-early-breast",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:29:48.395Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Giredestrant, specifically Adjuvant ER-positive/HER2-negative stage I–III breast cancer. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "roche-gired-early",
+      "title": "Roche: adjuvant giredestrant priority review",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-02",
+      "publisher": "Roche",
+      "publishedAt": "2026-06-02",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche reported priority review with a November 30 target for adjuvant giredestrant in ER-positive/HER2-negative stage I–III breast cancer. lidERA showed invasive disease-free-survival HR 0.70 (95% CI 0.57–0.87), with three-year estimates 92.4% versus 89.6%; overall survival remained immature. Relative hazard reduction is not the absolute benefit."
+    },
+    {
+      "id": "roche-hy-2026",
+      "title": "Roche: half-year 2026 regulatory portfolio update",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-23",
+      "publisher": "Roche",
+      "publishedAt": "2026-07-23",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Roche’s half-year update lists the 2026 US filings for adjuvant giredestrant, giredestrant plus everolimus, adjuvant atezolizumab and satralizumab in TED. It supports portfolio context; individual acceptance releases supply the exact target dates and trial limitations."
+    },
+    {
+      "id": "trial-nct04961996",
+      "title": "ClinicalTrials.gov: NCT04961996 · A Study Evaluating the Efficacy and Safety of Adjuvant Giredestrant Compared With Physician's Choice of Adjuvant Endocrine Monotherapy in Participants With Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer (lidERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT04961996",
+      "publisher": "ClinicalTrials.gov / Hoffmann-La Roche",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 4170 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT04961996",
+      "title": "A Study Evaluating the Efficacy and Safety of Adjuvant Giredestrant Compared With Physician's Choice of Adjuvant Endocrine Monotherapy in Participants With Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer (lidERA Breast Cancer)",
+      "url": "https://clinicaltrials.gov/study/NCT04961996",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T20:29:55.734Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04961996; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-eac25b6db113",
+      "title": "FDA Grants Priority Review to Giredestrant in ER+/HER2",
+      "url": "https://www.cancernetwork.com/view/fda-grants-priority-review-giredestrant-er-her2-early-breast-cancer",
+      "publisher": "www.cancernetwork.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:09.400Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3bab59361143",
+      "title": "FDA accepts New Drug Application for Roche's giredestrant in ER-positive ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-06-02",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:09.401Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f3b8b3a8756b",
+      "title": "FDA Grants Priority Review to Giredestrant for ER-Positive Early ...",
+      "url": "https://www.onclive.com/view/fda-grants-priority-review-to-giredestrant-for-er-positive-early-breast-cancer",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:09.401Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3d799b696672",
+      "title": "eBC) in the phase III lidERA BC clinical trial: Results by menopausal ...",
+      "url": "https://www.asco.org/abstracts-presentations/261559",
+      "publisher": "www.asco.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:09.401Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-24fa596b8437",
+      "title": "Novel Endocrine Therapy, Giredestrant, Improves Invasive ...",
+      "url": "https://ascopost.com/issues/january-25-2026/novel-endocrine-therapy-giredestrant-improves-invasive-disease-free-survival-in-estrogen-receptor-positive-her2-negative-early-breast-cancer/",
+      "publisher": "ascopost.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:23.458Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-905779d5ff47",
+      "title": "Abstract GS1-10: Giredestrant vs standard-of-care endocrine therapy ...",
+      "url": "https://aacrjournals.org/clincancerres/article/32/4_Supplement/GS1-10/772276/Abstract-GS1-10-Giredestrant-vs-standard-of-care",
+      "publisher": "aacrjournals.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:23.458Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0028716b57c5",
+      "title": "Results from the global Phase III lidERA Breast Cancer trial",
+      "url": "https://www.researchgate.net/publication/400875089_Abstract_GS1-10_Giredestrant_vs_standard-of-care_endocrine_therapy_as_adjuvant_treatment_for_patients_with_estrogen_receptor-positive_HER2-negative_early_breast_cancer_Results_from_the_global_Phase_II",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:23.458Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-057ac66fa877",
+      "title": "Results from the global Phase III lidERA Breast Cancer trial - Medically",
+      "url": "https://medically.gene.com/global/en/unrestricted/oncology/SABCS-2025/sabcs-2025-presentation-bardia-giredestrant-v-standard-.html",
+      "publisher": "medically.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:23.459Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7318978c09cd",
+      "title": "FDA Accepts New Drug Application for Genentech's Giredestrant in ER ...",
+      "url": "https://www.gene.com/media/press-releases/15115/2026-06-01/fda-accepts-new-drug-application-for-gen",
+      "publisher": "www.gene.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:36.351Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-31c7adcd8938",
+      "title": "FDA accepts New Drug Application for Roche's giredestrant in ESR1 ...",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-02-20",
+      "publisher": "www.roche.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:36.352Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a3b82211e5a4",
+      "title": "FDA Accepts NDA for Giredestrant in ER-Positive Early-Stage Breast ...",
+      "url": "https://www.pharmexec.com/view/fda-accepts-nda-giredestrant-er-positive-early-stage-breast-cancer",
+      "publisher": "www.pharmexec.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:36.352Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-adfd86177fa9",
+      "title": "FDA Accepts NDA for Roche's Giredestrant in Early-Stage Breast ...",
+      "url": "https://www.clinicaltrialvanguard.com/news/fda-accepts-nda-for-roches-giredestrant-in-early-stage-breast-cancer-2/",
+      "publisher": "www.clinicaltrialvanguard.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:36.352Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-6a51c2da970d",
+      "title": "FDA complete response: Genentech, Incorporated — 11/23/2020",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22214410Orig2s000OtherActionLtrs.pdf%22+AND+letter_date%3A%2211%2F23%2F2020%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:36.784Z",
+      "kind": "fda",
+      "summary": "Letter dated 11/23/2020. Archive current application status: Approved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "web-4c1c14fc6dcb",
+      "title": "FDA approves inavolisib with palbociclib and fulvestrant for ...",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-inavolisib-palbociclib-and-fulvestrant-endocrine-resistant-pik3ca-mutated-hr-positive",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:46.333Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0c5abeed53ec",
+      "title": "[PDF] CY 2024 CDER New Molecular Entity (NME) Drug & Original BLA ... - FDA",
+      "url": "https://www.fda.gov/media/185463/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:46.335Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-862543f20a72",
+      "title": "[PDF] CY 2024 CDER Drug and Biologic Calendar Year Priority Approvals",
+      "url": "https://www.fda.gov/media/185464/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:46.335Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-13225a74ca3a",
+      "title": "[PDF] CY 2024 CDER Drug and Biologic Calendar Year Approvals - FDA",
+      "url": "https://www.fda.gov/media/185462/download",
+      "publisher": "www.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:46.335Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 238701,
+    "outputTokens": 6906
+  },
+  "durationMs": 182397,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-gired-early"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "roche-hy-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04961996"
+      },
+      "status": "completed",
+      "durationMs": 103
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "giredestrant lidERA primary results invasive disease free survival safety adverse events June 2026 FDA November 30 NDA manufacturing CRL"
+      },
+      "status": "completed",
+      "durationMs": 13667
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Roche"
+      },
+      "status": "completed",
+      "durationMs": 297
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "lidERA Bardia Schmid giredestrant GS1-10 2025 2026 primary results 32.3 months serious adverse events bradycardia paper supplementary"
+      },
+      "status": "completed",
+      "durationMs": 6596
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "giredestrant FDA September 2026 NDA manufacturing site CMC inspection complete response letter extension Roche Genentech"
+      },
+      "status": "completed",
+      "durationMs": 12893
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Genentech"
+      },
+      "status": "completed",
+      "durationMs": 433
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://medically.gene.com/content/dam/pdmahub/restricted/oncology/sabcs-2025/SABCS-2025-presentation-bardia-giredestrant-v-standard-of-care-endocrine-therapy.pdf"
+      },
+      "status": "error",
+      "durationMs": 780
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:fda.gov Itovebi inavolisib Genentech approval October 10 2024 priority review"
+      },
+      "status": "completed",
+      "durationMs": 2144
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "giredestrant"
+      },
+      "status": "completed",
+      "durationMs": 413
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0b39bcaac21212bd016aa31377261c87d2bbb4d8269b0aa297",
+    "inputHash": "4cb0a72a0103af55206f618d9e2c72dc113818e22f2a505501144c824bbca0a9"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:39:51.040Z",
+    "originalSha256": "a94783783a4fc17c25ceee9a29191a73a02cc5c1e2b6bace9400dba169a84d19",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

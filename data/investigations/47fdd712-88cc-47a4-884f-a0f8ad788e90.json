@@ -1,0 +1,732 @@
+{
+  "summary": "D-PLEX100 has credible pivotal efficacy evidence for large-incision colorectal surgery, not merely an accepted filing. The outlook is mixed: SHIELD I failed overall, SHIELD II has important population and analysis limitations, and excess nonserious wound dehiscence warrants scrutiny. FDA manufacturing readiness remains unverified. The sponsor-reported action target is November 28, 2026.",
+  "outlook": {
+    "verdict": "Mixed: a credible approval case for defined large-incision use, with broader-label benefit–risk and FDA CMC readiness unresolved.",
+    "timing": "PolyPid’s July 29, 2026 acceptance announcement and August 12 update report a November 28, 2026 PDUFA action target. This supersedes the earlier first-quarter-2027 guidance; it is not an approval date. The September 10 investigation did not verify a subsequent action or extension. Additional review requests or amendments could affect timing.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides original-priority-application receipt-cohort context, not individualized approval probabilities. Sponsor disclosures describe an initial 505(b)(2) NDA; the original priority non-NME timing cohort is a possible structural comparator, subject to FDA classification. Neither cohort approval rates nor action-timeliness estimates establish this application’s outcome, and they have not been combined."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "SHIELD II demonstrates an interpretable efficacy benefit, with separate composite and SSI results",
+      "detail": "The posted registry results describe 975 participants randomized 1:1 to locally administered D-PLEX plus standard prophylaxis or standard prophylaxis alone. Patients underwent elective colorectal resection, with or without stoma formation. Participants, follow-up assessors and adjudication were masked; operating-room personnel knew treatment assignment. The registered primary analysis covered 798 patients with incisions >20 cm: SSI, target-incision reintervention or all-cause death by day 30 occurred in 10.9% of 405 D-PLEX patients versus 18.1% of 393 controls. The reported stratified risk difference was −7.2 percentage points, 95% CI −12.1 to −2.3; p=0.0039. SSI alone was a secondary endpoint: 3.8% versus 9.5% among 391 versus 377 evaluable patients, reported risk difference −5.8 points, 95% CI −9.3 to −2.3; p=0.0013. Thus, the sponsor’s 60% relative SSI reduction is not the primary composite result or a result across every randomized patient.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-0f3087fd6ecf"
+      ]
+    },
+    {
+      "id": "clinical-replication",
+      "title": "SHIELD I supports the large-incision hypothesis but does not provide an independently successful broad-population pivotal trial",
+      "detail": "The original SHIELD I paper reports 977 randomized patients and 974 in the primary analysis, undergoing open elective colorectal surgery with incisions >10 cm. Its 30-day composite failed: 9.3% versus 12.1%, risk difference −2.8 points, 95% CI −6.7 to 1.0; p=0.1520. Overall incisional SSI rates were 5.8% versus 6.3%. The prespecified >20-cm subgroup favored D-PLEX on the composite, 8.0% versus 17.5%, difference −9.4 points, 95% CI −15.5 to −3.2; p=0.0032. Conversely, the >10-to-20-cm subgroup showed 9.9% versus 7.9%, difference +2.0 points, 95% CI −2.8 to 6.7. SHIELD II therefore reinforces a candidate-specific large-incision signal, but does not erase the earlier overall failure. The sponsor/investigator explanation that pandemic precautions reduced control infections is plausible, not proof that the failed endpoint should be disregarded.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-ebd0b43f7b96",
+        "web-18c5646c1c14",
+        "trial-NCT04411199"
+      ]
+    },
+    {
+      "id": "clinical-scope",
+      "title": "Population transportability and the statistical hierarchy could determine label breadth",
+      "detail": "Only four of SHIELD II’s 975 participants were enrolled in the United States, and 973 were recorded as White. Prophylaxis was stratified across IV antibiotics alone, IV antibiotics with mechanical bowel preparation, and IV plus oral antibiotics with bowel preparation; treatment effects within these strata were not available in the inspected results. The all-randomized >7-cm composite also favored D-PLEX, 11.1% versus 17.4%; p=0.0047, but this overlapping population cannot establish benefit specifically in shorter incisions. The SSI analysis excludes missing outcomes and uses a different denominator from the primary composite. The final SAP, amendment chronology, interim-analysis adjustment and multiplicity hierarchy were not inspected. The >20-cm focus was publicly described before final results, but that does not independently verify every prespecification detail. Efficacy was assessed through day 30 and safety through day 60, not long-term durability. Fewer patients exceeding ASEPSIS 20 also does not by itself establish reduced severity conditional on developing an infection.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-18c5646c1c14",
+        "web-181eaadaee55"
+      ]
+    },
+    {
+      "id": "safety-systemic",
+      "title": "Observed serious-event data provide some reassurance, rather than merely silence about safety",
+      "detail": "SHIELD II reports 60-day safety results for 481 D-PLEX-exposed patients and 493 controls, differing from randomized-arm counts. Serious adverse events affected 75 versus 85 patients, and deaths occurred in 10 versus 19. Other adverse events affected 399 versus 401. Serious anastomotic leaks were reported in 9 versus 13 patients and serious wound dehiscence in 2 versus 2. These are descriptive comparisons, not demonstrated mortality benefit or statistical safety equivalence. Adverse-event-attributed study noncompletion was 1 versus 2 in randomized-arm participant flow; it should not be interpreted as discontinuation or removal of the locally deposited formulation. SHIELD I’s original paper provides additional exposure—478 D-PLEX patients versus 498 controls—and reports similar overall treatment-emergent adverse-event incidence, although its detailed safety supplement was not inspected.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-ebd0b43f7b96"
+      ]
+    },
+    {
+      "id": "safety-local",
+      "title": "Nonserious wound-healing imbalances are a concrete diligence issue",
+      "detail": "Against the same SHIELD II safety denominators, nonserious wound dehiscence affected 25 D-PLEX patients versus 8 controls. Incision-site pain was reported in 230 versus 210, erythema in 65 versus 46, and swelling in 58 versus 45. These numerical imbalances do not establish causation, but warrant case-level review of severity, timing, infection overlap, closure technique and applied dose. SHIELD I used two vials for >10-to-20-cm incisions and three for >20 cm, so its incision subgroup also differed in administered dose. SHIELD II dose-stratified safety was not retrieved. An April 13, 2026 sponsor release, inspected in syndicated form, reports plasma doxycycline below 100 ng/mL and detectable through approximately 32 days. That supports low systemic-exposure context, but does not resolve local wound toxicity or directly establish effective wound-tissue concentrations.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-ebd0b43f7b96",
+        "web-51eb6b1c5045"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "PolyPid documents manufacturing preparation, but no FDA product-linked CGMP disposition was verified",
+      "detail": "PolyPid’s September 16, 2025 disclosure explicitly links its manufacturing facility to D-PLEX100 and reports a fourth successful Israeli Ministry of Health GMP inspection. This is sponsor-reported, non-FDA manufacturing evidence—not a verified FDA clearance. The company submitted CMC and nonclinical NDA sections on March 31, 2026. Its SEC-hosted first-half-2026 MD&A still identifies completion of commercial process validation and preparation for an FDA pre-launch audit among activities and costs; that wording does not establish a deficiency or its resolution. Targeted public CMC searches and a live inspection lookup under PolyPid did not produce an original FDA inspection report, warning letter or application-specific corrective-action record. The exact NDA-listed site address/FEI, API suppliers and full contractor chain remain unverified. No documented current CMC setback was established, but neither was FDA manufacturing acceptability.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-435971cc8cf3",
+        "web-f7c627d1d727",
+        "web-a9b7da892696"
+      ]
+    },
+    {
+      "id": "regulatory-history",
+      "title": "The current episode is an initial 505(b)(2) NDA with priority review, not a documented CRL resubmission",
+      "detail": "Sponsor disclosures describe initiation of a rolling NDA in March 2026, completion announced June 1, and priority-review acceptance announced July 29 for prevention of SSI in patients undergoing abdominal colorectal surgery. The SEC MD&A identifies the 505(b)(2) pathway. The August update reports acceptance on July 27; the November 28 target was already public in the July 29 release. PolyPid’s December 2025 account of pre-NDA minutes says the existing clinical package appeared adequate for submission and review, not that FDA had accepted efficacy or the eventual label. Likewise, no filing-review issues is only a filing-stage statement. The first-half-2026 MD&A states PolyPid had no product candidates approved for sale, so no completed sponsor-product approval precedent was established. No prior candidate CRL or specific substantive FDA objection was verified; the public CRL archive request failed and cannot establish absence.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-f7c627d1d727",
+        "web-b20e3cbb69a9",
+        "web-0f3087fd6ecf",
+        "polypid-q2",
+        "web-5cbca43d02d7",
+        "web-a9b7da892696"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The final SHIELD II protocol/SAP and FDA clinical-statistical assessment: amendment timing, interim-analysis and multiplicity controls, missing-data sensitivity analyses, shorter-incision results, and consistency across prophylaxis regimens.",
+    "The integrated safety report and wound-dehiscence case narratives, including severity, onset, treatment relationship, application dose, closure technique and infection adjudication; the original SHIELD II pharmacokinetic poster/report would clarify exposure sampling.",
+    "The NDA manufacturing-site roster with exact FEIs, completed commercial validation and stability/release-control summaries, plus original FDA inspection findings and any corrective-action acceptance or application-specific CMC disposition.",
+    "The formal FDA application/filing correspondence and proposed label, followed by dated disclosures of substantive review requests, any target extension, or the actual FDA action."
+  ],
+  "limitations": [
+    "The current registry snapshot, updated July 13, 2026, was inspected during this September 10 investigation. Registry results are sponsor-submitted data, not FDA conclusions; no later facts were retroactively attributed to the curated packet.",
+    "SHIELD II numerical efficacy and adverse-event results were inspected, but its full clinical study report, final SAP and amendment history were not. The SHIELD I original paper’s methods, efficacy results and safety overview were inspected; its detailed safety supplement was not.",
+    "The registry’s all-randomized composite analysis labels a negative estimate as a risk ratio. A risk ratio cannot be negative; the reported rates and p-value are usable as posted, but the effect-measure field requires reconciliation rather than silent correction.",
+    "Targeted CMC searches, SEC disclosures and a PolyPid-name public inspection lookup did not verify an original FDA compliance document or exact site FEI. No-match results do not establish a clean history, and a headquarters address cannot substitute for the NDA manufacturing-site roster.",
+    "The formal FDA acceptance letter, application number, exact proposed indication wording and substantive review correspondence were not retrieved. The CRL archive returned an error. Consequently, absence of prior CRLs or FDA objections is not established.",
+    "The pharmacokinetic conference materials were discovered, but only the sponsor’s syndicated results announcement was inspected. Dose-dependent safety, organ-function effects, resistant-organism outcomes and longer-term wound outcomes remain insufficiently characterized in the inspected evidence."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does FDA accept the large-incision evidence as sufficient for the requested colorectal SSI indication, given SHIELD I and wound-healing findings?",
+    "bullCase": {
+      "claim": "SHIELD II shows statistically persuasive, clinically interpretable reductions in both the large-incision composite and SSI-alone secondary endpoint, aligned with SHIELD I’s prespecified large-incision signal. Serious events and deaths were numerically lower. Sponsor-reported pre-NDA feedback supported submission of the existing package. An older SEC disclosure also records conditional FDA agreement that one adequate pivotal trial could suffice, so SHIELD I’s failure does not automatically imply another trial is required.",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-ebd0b43f7b96",
+        "web-5cbca43d02d7",
+        "web-0282b08c76b7"
+      ]
+    },
+    "bearCase": {
+      "claim": "The publicly described requested indication is broader than the strongest evidence. SHIELD I failed overall and showed no shorter-incision benefit; SHIELD II was almost entirely non-U.S., and its SSI analysis used evaluable rather than all primary-analysis patients. More nonserious wound dehiscence creates a specific benefit–risk question. Separately, manufacturing preparations and a reported Israeli GMP inspection do not establish FDA CMC acceptability.",
+      "sourceIds": [
+        "web-0f3087fd6ecf",
+        "web-ebd0b43f7b96",
+        "trial-NCT04411199",
+        "web-435971cc8cf3",
+        "web-a9b7da892696"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What population and SSI estimand does FDA judge adequately supported after reviewing the final SAP, missing-data analyses, SHIELD I and the wound-healing cases?",
+      "whyItMatters": "This distinguishes a robust large-incision benefit that can support an appropriately defined label from an analysis package requiring narrower use or additional evidence. It would also determine whether the dehiscence imbalance is incidental, manageable through administration instructions, or material to benefit–risk. Manufacturing acceptance remains a separate necessary gate.",
+      "sourceIds": [
+        "trial-NCT04411199",
+        "web-ebd0b43f7b96",
+        "web-0f3087fd6ecf"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Defined large-incision use supported",
+        "trigger": "FDA accepts SHIELD II’s prespecified analysis and supporting SHIELD I subgroup evidence, finds local wound events manageable, and accepts the CMC package, but does not accept extrapolation to shorter incisions.",
+        "implication": "An approval pathway with a restricted population or administration conditions becomes more credible; the addressable indication could be narrower than the sponsor’s public shorthand.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-ebd0b43f7b96",
+          "web-0f3087fd6ecf"
+        ]
+      },
+      {
+        "label": "Broader colorectal indication justified",
+        "trigger": "FDA finds convincing shorter-incision and prophylaxis-regimen evidence beyond the overlapping pooled composite, accepts benefit–risk across the proposed population, and finds manufacturing acceptable.",
+        "implication": "The broader publicly described indication would have stronger support. The currently inspected pooled results alone do not establish this scenario.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-ebd0b43f7b96",
+          "web-0f3087fd6ecf"
+        ]
+      },
+      {
+        "label": "Additional evidence or remediation required",
+        "trigger": "FDA identifies a material statistical/generalizability problem, clinically important local wound toxicity, or an application-linked CMC deficiency.",
+        "implication": "Additional analyses, a major amendment, further clinical work or manufacturing remediation could be required. A target extension would not itself be a CRL; a CRL would represent a setback requiring response, not necessarily terminal failure.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-ebd0b43f7b96",
+          "web-a9b7da892696"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "When were the >20-cm primary population and endpoint hierarchy finalized relative to unblinded analyses, and what do the shorter-incision, missing-data and prophylaxis-stratum analyses show?",
+        "whyItMatters": "The current record establishes benefit in a defined population, but not independent efficacy in shorter incisions or consistent incremental benefit across care bundles. The SAP and dated amendment history would distinguish prospectively controlled inference from unsupported extrapolation.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-18c5646c1c14",
+          "web-ebd0b43f7b96"
+        ]
+      },
+      {
+        "question": "How does management explain the 25-versus-8 nonserious wound-dehiscence imbalance, and does it vary with applied dose, incision length, closure technique or infection status?",
+        "whyItMatters": "Case-level review could change the safety assessment or administration instructions. Practical monitoring should address wound separation, erythema, swelling and discharge while distinguishing local reactions from infection; low plasma exposure does not answer this question.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-ebd0b43f7b96",
+          "web-51eb6b1c5045"
+        ]
+      },
+      {
+        "question": "Which exact sites and FEIs perform drug-product manufacture, API supply and testing, and what original documents establish current validation status and FDA disposition?",
+        "whyItMatters": "The sponsor links its facility to D-PLEX100, but the complete application manufacturing chain and FDA acceptability remain unverified. Obtain the site roster, validation completion evidence, inspection records and any corrective-action correspondence rather than relying on the non-FDA GMP announcement.",
+        "sourceIds": [
+          "web-435971cc8cf3",
+          "web-f7c627d1d727",
+          "web-a9b7da892696"
+        ]
+      },
+      {
+        "question": "What exact indication is proposed in the NDA, and has FDA raised substantive clinical, safety or CMC requests that could require a major amendment before November 28?",
+        "whyItMatters": "Public acceptance and pre-NDA statements concern submission readiness. The formal correspondence would clarify the requested population, unresolved review issues and whether the reported action target remains applicable.",
+        "sourceIds": [
+          "web-0f3087fd6ecf",
+          "web-5cbca43d02d7",
+          "polypid-q2"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "SHIELD II supports efficacy in large-incision surgery, but SHIELD I’s overall failure, limited U.S. enrollment and excess nonserious wound dehiscence leave substantive benefit–risk questions. FDA manufacturing readiness remains unverified.",
+    "pivotalQuestion": "Does FDA accept the large-incision evidence as sufficient for the requested colorectal SSI indication, given SHIELD I and wound-healing findings?",
+    "sourceIds": [
+      "trial-NCT04411199",
+      "web-ebd0b43f7b96",
+      "web-435971cc8cf3",
+      "web-a9b7da892696"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "SHIELD II met its large-incision composite and SSI secondary endpoint; SHIELD I failed overall, and shorter-incision and U.S. applicability remain uncertain.",
+        "sourceIds": [
+          "trial-NCT04411199",
+          "web-ebd0b43f7b96"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Serious events and deaths were numerically lower, but nonserious wound dehiscence and local reactions were higher; causality, dose effects and longer-term outcomes need review.",
+        "sourceIds": [
+          "trial-NCT04411199"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Sponsor-reported Israeli GMP inspection provides readiness context, but FDA site disposition, completed commercial validation and the full NDA manufacturing chain remain unverified.",
+        "sourceIds": [
+          "web-435971cc8cf3",
+          "web-a9b7da892696"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor reports initial 505(b)(2) NDA acceptance with priority review and a November 28 target. Pre-NDA adequacy concerned submission, not approval; no prior PolyPid-approved product supplies precedent.",
+        "sourceIds": [
+          "web-0f3087fd6ecf",
+          "web-a9b7da892696",
+          "web-5cbca43d02d7"
+        ]
+      }
+    ]
+  },
+  "id": "47fdd712-88cc-47a4-884f-a0f8ad788e90",
+  "candidateId": "dplex100-ssi",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:28:25.195Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for D-PLEX100, specifically Prevention of surgical-site infection after abdominal colorectal surgery. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "polypid-submission",
+      "title": "PolyPid: completed D-PLEX100 NDA submission",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-completes-new-drug-application-submission-fda-d-plex100",
+      "publisher": "PolyPid",
+      "publishedAt": "2026-06-01",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "PolyPid announced its completed rolling NDA for prevention of surgical-site infection after colorectal surgery. At that time it anticipated an action in Q1 2027; this was guidance, not an assigned target."
+    },
+    {
+      "id": "polypid-q2",
+      "title": "PolyPid: priority-review acceptance and updated target",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-provides-corporate-update-and-reports-second-quarter-3",
+      "publisher": "PolyPid",
+      "publishedAt": "2026-08-12",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "PolyPid reported FDA accepted D-PLEX100 on July 27 with priority review and November 28, 2026 as the target. It reported SHIELD II met primary and key secondary endpoints and a 60% relative SSI reduction (p=0.0013). It said filing communications identified no issues; full substantive review remained ahead."
+    },
+    {
+      "id": "trial-shield2",
+      "title": "ClinicalTrials.gov: SHIELD II",
+      "url": "https://clinicaltrials.gov/study/NCT04411199",
+      "publisher": "ClinicalTrials.gov / PolyPid",
+      "publishedAt": "2026-07-13",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The randomized, masked phase 3 study enrolled 975. Its primary analysis uses a composite of SSI, re-intervention or death within 30 days in subjects with target incisions over 20 cm. This is not identical to SSI alone across all surgeries. Primary completion was April 14, 2025 and results are posted."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT04411199",
+      "title": "D-PLEX 312 - Safety and Efficacy of D-PLEX in the Prevention of Post Abdominal Surgery Incisional Infection (SHIELD II)",
+      "url": "https://clinicaltrials.gov/study/NCT04411199",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-07-13",
+      "retrievedAt": "2026-09-10T20:28:33.649Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04411199; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-5cbca43d02d7",
+      "title": "PolyPid Announces Positive FDA Pre-NDA Meeting Minutes for D ...",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-announces-positive-fda-pre-nda-meeting-minutes-d-plex100",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:36.485Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0f3087fd6ecf",
+      "title": "PolyPid Announces FDA Acceptance of NDA with Priority Review for D ...",
+      "url": "https://polypid.gcs-web.com/news-releases/news-release-details/polypid-announces-fda-acceptance-nda-priority-review-d-plex100",
+      "publisher": "polypid.gcs-web.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:36.485Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b20e3cbb69a9",
+      "title": "Press Release issued by PolyPid Ltd. on June 1, 2026, titled ... - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1611842/000121390026063169/ea029288201ex99-1.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:53.761Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-59d4c92644bb",
+      "title": "[PDF] SHIELD II Topline Results - Polypid",
+      "url": "https://investors.polypid.com/static-files/20414933-3e65-4455-9685-900cc48dba8b",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:36.486Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-18c5646c1c14",
+      "title": "PolyPid Announces Publication in International Journal of Surgery ...",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-announces-publication-international-journal-surgery",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:43.046Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-181eaadaee55",
+      "title": "PolyPid to Present Data from SHIELD II Phase 3 Trial Demonstrating ...",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-present-data-shield-ii-phase-3-trial-demonstrating",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:43.046Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-10cc2b7dfaa8",
+      "title": "PolyPid Publishes Phase 3 SHIELD I Trial Results on D-PLEX₁₀₀ in ...",
+      "url": "https://synapse.patsnap.com/article/polypid-publishes-phase-3-shield-i-trial-results-on-d-plexE28281E28280E28280-in-preventing-abdominal-surgery-infections",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:43.047Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-2da723e50e71",
+      "title": "PolyPid details D-PLEX100 Phase 3 success, NDA plan | PYPD SEC Filing",
+      "url": "https://www.stocktitan.net/sec-filings/PYPD/20-f-poly-pid-ltd-files-annual-report-foreign-issuer-0c30185c3cc7.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:43.047Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-435971cc8cf3",
+      "title": "PolyPid Successfully Completes Israeli Ministry of Health GMP ...",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-successfully-completes-israeli-ministry-health-gmp",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:53.760Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f7c627d1d727",
+      "title": "PolyPid Initiates D-PLEX₁₀₀ NDA Submission to the FDA",
+      "url": "https://investors.polypid.com/news-releases/news-release-details/polypid-initiates-d-plex100-nda-submission-fda",
+      "publisher": "investors.polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:53.760Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d63dfa8899c2",
+      "title": "Polypid Ltd. (PYPD) Stock Price, News & Analysis",
+      "url": "https://www.stocktitan.net/overview/PYPD/",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:28:53.761Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ebd0b43f7b96",
+      "title": "Effect of local prolonged-release incisional doxycycline on ... - Ovid",
+      "url": "https://www.ovid.com/jnls/international-journal-of-surgery/fulltext/10.1097/js9.0000000000001824~effect-of-local-prolonged-release-incisional-doxycycline-on",
+      "publisher": "www.ovid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:04.791Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f09a4e7d42e6",
+      "title": "Effect of local prolonged-release incisional doxycycline on surgical ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486998/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:04.791Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-7189e3190ae9",
+      "title": "Effect of local prolonged-release incisional doxycycline on surgical ...",
+      "url": "https://www.researchgate.net/publication/381405865_Effect_of_local_prolonged-release_incisional_doxycycline_on_surgical_site_infection_prophylaxis_in_abdominal_colorectal_surgery_The_SHIELD_1_randomized_clinical_trial",
+      "publisher": "www.researchgate.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:04.792Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-fe69e1b3be68",
+      "title": "Resources - Polypid",
+      "url": "https://polypid.com/resources/",
+      "publisher": "polypid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:25.775Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a9b7da892696",
+      "title": "management's discussion and analysis of financial ... - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1611842/000121390026088439/ea030023101ex99-2.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:20.171Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b96d908ebfbf",
+      "title": "Untitled",
+      "url": "https://www.sec.gov/Archives/edgar/data/1611842/000121390025075783/ea025084401ex99-2_polypid.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:20.171Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0282b08c76b7",
+      "title": "file - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1611842/000121390022009722/f20f2021_polypidltd.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:20.172Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9d74abad0462",
+      "title": "Form 20-F - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1611842/000121390025017412/ea0231533-20f_polypid.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:20.174Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4298ef2ee34f",
+      "title": "PolyPid to Present New Phase 3 SHIELD II Data Demonstrating D ...",
+      "url": "https://firstwordpharma.com/story/7180136",
+      "publisher": "firstwordpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:25.775Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-51eb6b1c5045",
+      "title": "PolyPid to Present New Phase 3 SHIELD II Data Demonstrating D ...",
+      "url": "https://www.taiwannews.com.tw/news/6339629",
+      "publisher": "www.taiwannews.com.tw",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:25.776Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e7d12e8a44cc",
+      "title": "Doxycycline Calcium - Drug Targets, Indications, Patents - Synapse",
+      "url": "https://synapse.patsnap.com/drug/a3c671d909024fa683f449549aed9a54",
+      "publisher": "synapse.patsnap.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:25.776Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 334932,
+    "outputTokens": 9328
+  },
+  "durationMs": 235094,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "polypid-q2"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "trial-shield2"
+      },
+      "status": "completed",
+      "durationMs": 77
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04411199"
+      },
+      "status": "completed",
+      "durationMs": 78
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "PolyPid D-PLEX100 September 2026 NDA FDA November 28 SHIELD II results SHIELD I manufacturing facility CMC"
+      },
+      "status": "completed",
+      "durationMs": 2836
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "D-PLEX100 SHIELD I SHIELD II results 2025 2026 adverse events primary endpoint 2022 PolyPid"
+      },
+      "status": "completed",
+      "durationMs": 6563
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "PolyPid D-PLEX100 manufacturing facility GMP 2026 FDA inspection CMC 20-F Petach Tikva deficiencies"
+      },
+      "status": "completed",
+      "durationMs": 3061
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Effect of local prolonged-release incisional doxycycline\" SHIELD I full text"
+      },
+      "status": "completed",
+      "durationMs": 11031
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "PolyPid"
+      },
+      "status": "partial",
+      "durationMs": 455
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:sec.gov/Archives/edgar/data/1611842/ \"2025\" \"2026\" \"manufacturing facility\" \"approved\" \"D-PLEX\""
+      },
+      "status": "completed",
+      "durationMs": 4658
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "PolyPid"
+      },
+      "status": "completed",
+      "durationMs": 469
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-ebd0b43f7b96",
+        "query": "Safety"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Pharmacokinetics of Local Extended-Release Incisional Doxycycline\" \"SHIELD II\""
+      },
+      "status": "completed",
+      "durationMs": 5130
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_05e2437109608654016aa31325f68c87d2a40d63080fd6d556",
+    "inputHash": "8aa3fe25b7ed6768b2ab957eb535f6f540fd6518cfa8ff468cee83f7ec93bd07"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:39:51.036Z",
+    "originalSha256": "157f0bc6df8160f6a6bd5e75628417417bb4ffe08093683d9e7ed23b09a6daea",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

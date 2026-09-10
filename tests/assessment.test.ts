@@ -184,11 +184,20 @@ test("an unrelated newer report or corrected catalog withholds stale labels with
   const updated = await getAssessments(catalog, [...runs, newer]);
   assert.equal(updated["apitegromab-sma"], undefined);
   assert.ok(updated["bezuclastinib-gist"]);
+  // Exercise the initial-packet path even after this candidate gains a full report.
+  // A completed investigation has its own evidence/provenance and supersedes that packet.
+  const initialOnlyRuns = runs.filter(
+    (run) => run.candidateId !== "bezuclastinib-gist",
+  );
+  assert.equal(
+    (await getAssessments(catalog, initialOnlyRuns))["bezuclastinib-gist"].scope,
+    "initial_packet",
+  );
   const changed = structuredClone(catalog);
   changed.candidates.find((c) => c.id === "bezuclastinib-gist")!.summary =
     "A corrected packet";
   assert.equal(
-    (await getAssessments(changed, runs))["bezuclastinib-gist"],
+    (await getAssessments(changed, initialOnlyRuns))["bezuclastinib-gist"],
     undefined,
   );
 });

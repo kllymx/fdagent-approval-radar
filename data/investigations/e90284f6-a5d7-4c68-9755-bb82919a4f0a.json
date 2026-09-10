@@ -1,0 +1,631 @@
+{
+  "summary": "As of September 10, 2026, Cogent reports the GIST combination NDA under priority review with a November 30 action target. PEAK provides strong randomized efficacy evidence, but actual results show more liver-enzyme toxicity and treatment-related discontinuation. The pivotal unresolved question is whether this added toxicity is manageable without compromising benefit. Current product-linked manufacturing readiness remains unknown.",
+  "outlook": {
+    "verdict": "Clinically compelling, with a substantive combination-safety question and unverified manufacturing readiness. The public evidence supports continued consideration for approval, not an unconditional favorable conclusion.",
+    "timing": "Cogent announced a November 30, 2026 PDUFA target on May 28; the supplied August 10 update reaffirmed it. The retrieved disclosures do not establish a changed GIST target or completed action. November 30 is an action goal, not an approval date; an extension or complete response remains possible.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical baseline measures annual first-cycle approval rates for original FDA applications by review priority. Original-priority applications are the closest disclosed cohort, subject to verification of the formal application classification. These aggregate rates do not validate an individual probability for this combination. The separate timing baseline concerns FDA action, including complete responses, rather than approval."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "Actual randomized results show a substantial PFS and response benefit",
+      "detail": "The original ASCO 2026 abstract reports 413 randomized patients: bezuclastinib 600 mg once daily plus sunitinib 37.5 mg once daily, n=204, versus sunitinib 37.5 mg once daily, n=209. The registry describes an international, open-label trial in locally advanced, unresectable or metastatic GIST, with the randomized portion enrolling patients who failed or were intolerant to imatinib only. The listed primary endpoint was PFS, assessed by blinded independent central review in the reported analysis. Median PFS was 16.5 months (95% CI 13.8–19.2) versus 9.2 months (7.2–11.0); HR 0.50 (0.39–0.65), p<0.0001. ORR, a key secondary endpoint, was 46% versus 26%; reported risk difference 20 percentage points (95% CI 10.6–28.6), p<0.0001. This establishes the combination's incremental activity over the tested sunitinib regimen—not bezuclastinib monotherapy efficacy.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-147d2510e364",
+        "trial-NCT05208047"
+      ]
+    },
+    {
+      "id": "clinical-durability-statistics",
+      "title": "Durability is encouraging, but survival, statistical robustness and replication remain incompletely characterized",
+      "detail": "Cogent's May 30 disclosure reports median PFS2 not reached versus 21 months, HR 0.57 (95% CI 0.41–0.78). This supports persistence of benefit through subsequent treatment, but is not an OS result; OS remained immature, and crossover after centrally confirmed progression was permitted. Blinded central review reduces assessment bias but does not eliminate open-label differences in treatment management or informative censoring. The original abstract has no full-paper component, and the current registry has no posted results. Event counts, censoring sensitivity analyses, proportional-hazards checks and the multiplicity hierarchy were not available for inspection. The retrieved 39-patient PEAK lead-in is not independent randomized replication. Registry enrollment of 482 is an estimated multipart total, not the 413-patient pivotal population; first-line and interaction substudies must remain separate.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-147d2510e364",
+        "web-2f7347df8d4a",
+        "trial-NCT05208047",
+        "web-0b0f6d306400"
+      ]
+    },
+    {
+      "id": "safety-observed",
+      "title": "The strongest contrary evidence is excess hepatic toxicity and treatment-related discontinuation",
+      "detail": "Cogent reports grade 3 or higher ALT/AST elevations in 10.8% versus 1.4%, and anemia in 9.3% versus 4.8%, for combination versus control. Other reported severe events were hypertension, 29.4% versus 27.4%; neutropenia, 15.2% versus 15.4%; and diarrhea, 7.8% versus 7.2%. Treatment-related adverse events caused discontinuation of study treatment(s) in 7.4% versus 3.8%. These findings qualify the sponsor's broad characterization of 'no unique risks': familiar toxicity can still become more frequent. Counterbalancing observations are that all reported grade 3 hepatic events resolved, no grade 4 hepatic elevations were reported, and the ASCO abstract reports no treatment-related deaths in the combination arm. That does not establish absence of all-cause deaths, serious events or clinically important liver injury.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-2f7347df8d4a",
+        "web-147d2510e364"
+      ]
+    },
+    {
+      "id": "safety-dose-exposure",
+      "title": "Exposure, dose management and interaction data are the key safety diligence gaps",
+      "detail": "Cogent estimated mean combination treatment duration at 21.4 months using patients ongoing as of March 31, 2026; this is not a completed observed exposure distribution, median response duration or balanced exposure comparison between arms. Comprehensive serious-event rates, all-cause deaths, all-cause discontinuations, relative dose intensity and exposure-adjusted toxicity were not retrieved. The ASCO abstract reports hepatic-event dose reductions in 13.2%, versus 12.7% in the May 30 release; the difference needs denominator or coding reconciliation, not averaging. Although participants ranged from 30 to 88 years, age-specific safety was not supplied. The registry specifies sunitinib interaction studies and a midazolam substudy assessing CYP3A4 induction, but supplies no results. Practical questions concern liver chemistry and bilirubin monitoring, blood pressure and blood counts, interruption/rechallenge rules, and whether dose reductions preserve efficacy.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-147d2510e364",
+        "web-2f7347df8d4a",
+        "trial-NCT05208047"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Manufacturing remains unknown; neither a documented current setback nor clearance was established",
+      "detail": "A targeted public/SEC manufacturing search retrieved Cogent's 2023 annual report, which disclosed reliance on sole-source third parties for bezuclastinib API and drug product. That historical dependency cannot establish the 2026 commercial supplier configuration or a current deficiency. A sponsor-name public inspection lookup returned no verified product-linked facility records. No current commercial manufacturer, site address/FEI, product-linked FDA observation, corrective-action closure or FDA quality assessment was established. The registry also documents dose confirmation for an updated formulation, making the clinical-to-commercial formulation bridge a specific diligence question—not evidence that bridging failed. Current CMC status requires the NDA facility roster, formulation/process comparability evidence and product-linked FDA inspection or quality-review conclusions.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-29eaf186c35b",
+        "trial-NCT05208047"
+      ]
+    },
+    {
+      "id": "regulatory-status",
+      "title": "The disclosed episode is a new GIST NDA under priority review, not a documented resubmission",
+      "detail": "An April 21 sponsor disclosure states that the GIST NDA was submitted under Real-Time Oncology Review in March 2026, superseding earlier plans for April completion. On May 28, Cogent reported acceptance with priority review for bezuclastinib plus sunitinib in GIST previously treated with imatinib, with a November 30 target. The supplied August 10 update reaffirmed that target. These disclosures describe a newly submitted NDA, not a supplement or CRL resubmission; the FDA application number and formal classification were not retrieved. Cogent said at acceptance that FDA had identified no potential review issues and did not then plan an advisory committee. This is a dated sponsor account, not final FDA endorsement. The FDA letter-archive search failed, so prior CRLs or specific objections cannot be excluded through that search.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-c845457ebf10",
+        "web-a8610d0a318d",
+        "cogt-q2-2026"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Sponsor filing progress is documented, but there is no established completed-approval track record here",
+      "detail": "Cogent's January 2026 disclosure describes the December 2025 NonAdvSM filing as its first NDA. The retrieved reproduction of its Q2 2026 filing states that it had no products approved for sale; the original SEC-hosted Q2 document was not inspected. NonAdvSM's December 30 target and the June 30 AdvSM submission are separate episodes, not completed approvals or clinical confirmation of the GIST combination. Cogent's progression from planned GIST filing to reported submission and acceptance demonstrates delivery of filing milestones, but does not validate approval forecasting from sponsor history. No sufficiently verified comparable completed review was established for use as an analog.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-63abd1cdf001",
+        "web-ce4808809376",
+        "cogt-q2-2026"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The PEAK clinical study report, pre-unblinding statistical analysis plan and full presentation/manuscript: verify PFS event counts, censoring sensitivity analyses, endpoint hierarchy, response duration, patient-reported outcomes and updated OS with crossover accounting.",
+    "The GIST integrated safety update and clinical-pharmacology assessment: obtain arm-specific actual exposure, serious events and deaths, hepatic case narratives including bilirubin, dose intensity, rechallenge outcomes, and sunitinib/midazolam interaction results.",
+    "The current NDA manufacturing roster and quality package: identify API, drug-product and testing sites with exact addresses/FEIs, establish formulation/process bridging, and retrieve product-linked inspection findings and any corrective-action acceptance.",
+    "Dated FDA or sponsor review correspondence confirming the application number/classification, requested label and dose, outstanding discipline-specific questions, and any amendment, target extension or final action."
+  ],
+  "limitations": [
+    "This is a current investigation through September 10, 2026. The pivotal efficacy analysis uses the September 30, 2025 cutoff; the March 2026 treatment-duration estimate is a different update and was not substituted for mature efficacy or safety follow-up.",
+    "The current trial registry was inspected and has no posted results. An original ASCO results abstract and detailed sponsor disclosures were retrieved, but targeted searches did not yield the full oral presentation, complete manuscript, protocol history or statistical analysis plan. The reported primary endpoint could not be audited against a pre-unblinding plan.",
+    "Comparative serious-event totals, all-cause deaths, actual exposure distributions, dose-response analyses and hepatic/renal impairment results were not retrieved. Sponsor-reported reversibility is meaningful observed evidence, but cannot substitute for the integrated safety assessment.",
+    "Manufacturing research included targeted public/SEC disclosures and a sponsor-name inspection lookup. No current product–site linkage was verified, preventing meaningful site-specific compliance assessment. Historical supply concentration and missing inspection records prove neither a current CMC failure nor clearance.",
+    "The approved-product database search returned no bezuclastinib record, but that database is not a complete pending-application registry. The FDA complete-response archive returned an error. Neither result establishes absence of an application, prior letter or objection.",
+    "The latest supplied August status evidence is a curated sponsor summary; current filing text was also inspected through a third-party reproduction. No original FDA filing letter, review package or current FDA manufacturing conclusion was available."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Is added hepatic toxicity at the studied combination dose manageable without eroding the PFS benefit in the intended post-imatinib population?",
+    "bullCase": {
+      "claim": "A randomized active-control trial shows a large centrally assessed PFS benefit with consistent improvement in response rate. Reported resolution of grade 3 hepatic events and absence of treatment-related combination deaths support the possibility that the added toxicity can be managed through monitoring and dose modification.",
+      "sourceIds": [
+        "web-147d2510e364",
+        "web-2f7347df8d4a"
+      ]
+    },
+    "bearCase": {
+      "claim": "Severe liver-enzyme elevations and treatment-related discontinuations are higher with the combination. If detailed case review reveals clinically consequential liver injury, unfavorable interaction effects or substantial loss of dose intensity, the benefit–risk balance or acceptable regimen could change despite the positive PFS endpoint. This is a diligence hypothesis, not a documented FDA objection.",
+      "sourceIds": [
+        "web-2f7347df8d4a",
+        "web-147d2510e364",
+        "trial-NCT05208047"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What do hepatic case narratives, exposure-adjusted safety, interaction results and efficacy after protocol-defined dose reductions show?",
+      "whyItMatters": "These data distinguish manageable laboratory abnormalities from toxicity that materially compromises treatment delivery or patient safety. FDA's integrated benefit–risk and dose assessment would be more decisive than the sponsor's aggregate tolerability description.",
+      "sourceIds": [
+        "web-147d2510e364",
+        "web-2f7347df8d4a",
+        "trial-NCT05208047"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Benefit retained with manageable toxicity",
+        "trigger": "FDA accepts the PFS analyses, detailed hepatic and interaction data support a workable regimen, and the commercial quality package is acceptable.",
+        "implication": "Approval of the post-imatinib combination becomes supportable, potentially with liver monitoring and dose-modification provisions. The exact label and timing remain subject to the actual FDA action.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "web-2f7347df8d4a",
+          "web-a8610d0a318d"
+        ]
+      },
+      {
+        "label": "Safety or dosing requires additional resolution",
+        "trigger": "Integrated data reveal consequential liver injury or interaction effects, or the proposed management strategy cannot maintain useful exposure and efficacy.",
+        "implication": "A different dose, more restrictive label or additional evidence could be required; unresolved material benefit–risk questions could lead to a complete response.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "web-2f7347df8d4a",
+          "trial-NCT05208047"
+        ]
+      },
+      {
+        "label": "Independent quality or formulation obstacle",
+        "trigger": "Product-linked review identifies an unresolved commercial-site, process or formulation-bridging deficiency.",
+        "implication": "A major amendment, extension or CMC-related complete response could delay an otherwise clinically supported application. No such current deficiency was established in this investigation.",
+        "sourceIds": [
+          "web-29eaf186c35b",
+          "trial-NCT05208047"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Can management provide the pre-unblinding PFS analysis plan, event/censoring tables and sensitivity analyses, plus the prespecified hierarchy for ORR, OS and PFS2?",
+        "whyItMatters": "This would test whether the large reported treatment effect is robust and clarify which secondary claims are confirmatory rather than descriptive.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "web-2f7347df8d4a",
+          "trial-NCT05208047"
+        ]
+      },
+      {
+        "question": "What explains the 13.2% versus 12.7% hepatic dose-reduction figures, and what were bilirubin findings, serious hepatic events, actual exposure, rechallenge outcomes and efficacy after dose reduction?",
+        "whyItMatters": "Reconciled patient-level safety and dose-delivery information would directly address the strongest observed contrary evidence.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "web-2f7347df8d4a"
+        ]
+      },
+      {
+        "question": "Which exact commercial API, drug-product and testing sites are listed in this NDA, and what documents establish formulation bridging and closure of any FDA quality observations?",
+        "whyItMatters": "The historical outsourced-supply disclosure does not identify current sites or their compliance status. Site linkage is required before inspection findings can inform this application.",
+        "sourceIds": [
+          "web-29eaf186c35b",
+          "trial-NCT05208047"
+        ]
+      },
+      {
+        "question": "What is the GIST NDA number and formal application classification, and has FDA raised any clinical, safety, dosing or CMC issue since the May acceptance disclosure?",
+        "whyItMatters": "This would replace a dated sponsor statement with application-specific review evidence and determine whether the November 30 target or requested label has materially changed.",
+        "sourceIds": [
+          "web-a8610d0a318d",
+          "cogt-q2-2026"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Strong randomized PFS and response benefits coexist with increased hepatic toxicity and treatment-related discontinuation. Reported reversibility is reassuring but does not resolve the combination's full safety assessment; commercial manufacturing readiness remains unknown.",
+    "pivotalQuestion": "Is added hepatic toxicity manageable without compromising the combination's PFS benefit in post-imatinib GIST?",
+    "sourceIds": [
+      "web-147d2510e364",
+      "web-2f7347df8d4a"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "supportive",
+        "rationale": "PEAK's 413-patient randomized comparison shows centrally assessed PFS and ORR improvements. OS remains immature; full censoring, hierarchy and durability analyses were not available.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "trial-NCT05208047"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "Severe ALT/AST elevations and treatment-related discontinuations increased, balanced by reported hepatic-event resolution and no treatment-related combination deaths. Comprehensive serious-event, exposure and interaction results remain unavailable.",
+        "sourceIds": [
+          "web-147d2510e364",
+          "web-2f7347df8d4a"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Historical outsourced sole-source supply is documented, but no current commercial sites, product-linked inspection conclusions, corrective-action status or FDA quality assessment were verified.",
+        "sourceIds": [
+          "web-29eaf186c35b"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Cogent reports priority-review NDA acceptance and a reaffirmed November 30 target. These support review progress, not final benefit–risk acceptance; no original FDA review conclusions were inspected.",
+        "sourceIds": [
+          "web-a8610d0a318d",
+          "cogt-q2-2026"
+        ]
+      }
+    ]
+  },
+  "id": "e90284f6-a5d7-4c68-9755-bb82919a4f0a",
+  "candidateId": "bezuclastinib-gist",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:29:36.400Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Bezuclastinib + sunitinib, specifically Gastrointestinal stromal tumors after imatinib. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "cogt-gist-acceptance",
+      "title": "Cogent: bezuclastinib plus sunitinib GIST NDA accepted",
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302753/0/en/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-nda-with-priority-review-for-bezuclastinib-in-combination-with-sunitinib-for-patients-with-gist.html",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-05-28",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Cogent reported priority review and a November 30 target for bezuclastinib plus sunitinib in GIST after imatinib. In PEAK, median PFS was 16.5 versus 9.2 months (HR 0.50; 95% CI 0.39–0.65). This is combination evidence in GIST, separate from bezuclastinib monotherapy in systemic mastocytosis."
+    },
+    {
+      "id": "trial-nct05208047",
+      "title": "ClinicalTrials.gov: NCT05208047 · (Peak) A Phase 3 Randomized Trial of CGT9486+Sunitinib vs. Sunitinib in Subjects With Gastrointestinal Stromal Tumors",
+      "url": "https://clinicaltrials.gov/study/NCT05208047",
+      "publisher": "ClinicalTrials.gov / Cogent Biosciences, Inc.",
+      "publishedAt": "2026-06-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 482 (estimated); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "cogt-q2-2026",
+      "title": "Cogent: bezuclastinib application status update",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-recent-business-highlights-and-11",
+      "publisher": "Cogent Biosciences",
+      "publishedAt": "2026-08-10",
+      "retrievedAt": "2026-09-10T18:52:08.492552Z",
+      "kind": "sponsor",
+      "summary": "Cogent reaffirmed November 30 for its GIST combination NDA and December 30 for its non-advanced systemic mastocytosis NDA. A third NDA for advanced systemic mastocytosis was submitted June 30; this disclosure does not provide acceptance or a target for that separate application."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05208047",
+      "title": "(Peak) A Phase 3 Randomized Trial of CGT9486+Sunitinib vs. Sunitinib in Subjects With Gastrointestinal Stromal Tumors",
+      "url": "https://clinicaltrials.gov/study/NCT05208047",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-06-16",
+      "retrievedAt": "2026-09-10T20:29:39.555Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05208047; status RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "web-2f7347df8d4a",
+      "title": "Cogent Biosciences Announces Detailed Clinical Data from PEAK ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-detailed-clinical-data-peak-phase-3",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:08.018Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c2e6b079e654",
+      "title": "Cogent Biosciences Reports Positive Results from Bezuclastinib PEAK ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-positive-results-bezuclastinib-peak",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:08.019Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-634a61dce8df",
+      "title": "The PEAK Study: Global, Randomized, Open-Label Phase 3 ... - OncLive",
+      "url": "https://www.onclive.com/view/the-peak-study-global-randomized-open-label-phase-3-study-evaluating-the-efficacy-and-safety-of-bezuclastinib-sunitinib-vs-sunitinib-as-second-line-treatment-after-imatinib-in-advanced-gastrointestinal-stromal-tumors",
+      "publisher": "www.onclive.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:53.163Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-147d2510e364",
+      "title": "Primary results of the phase 3 peak study of bezuclastinib + sunitinib vs ...",
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.11500",
+      "publisher": "ascopubs.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:53.164Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a8610d0a318d",
+      "title": "Cogent Biosciences Announces FDA Acceptance of New Drug ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-0",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:55.630Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-68dafa1d478e",
+      "title": "Cogent Biosciences Announces FDA Acceptance of New Drug ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-application",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:55.630Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-894b3f56c16b",
+      "title": "Cogent Biosciences Announces FDA Acceptance of New Drug",
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302753/0/en/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-nda-with-priority-review-for-bezuclastinib-in-combination-with-sunitinib-for-patients-with-gist.html",
+      "publisher": "www.globenewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:55.631Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1ca98ec3f5ec",
+      "title": "Cogent Biosciences to Initiate New Drug Application (NDA) Submission ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-initiate-new-drug-application-nda-submission",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:29:55.631Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8c2e2841b2c7",
+      "title": "10-K - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622229/000095017023007729/cogt-20221231.htm?ref=p05.org",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:06.025Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-63abd1cdf001",
+      "title": "Cogent Biosciences Announces Anticipated 2026 Commercial and ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-anticipated-2026-commercial-and",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:06.026Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-29eaf186c35b",
+      "title": "[PDF] COGENT BIOSCIENCES, INC. - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622229/000119312524107137/d828655dars.pdf",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:06.026Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ce4808809376",
+      "title": "Cogent Biosciences advances bezuclastinib, widens loss",
+      "url": "https://www.stocktitan.net/sec-filings/COGT/10-q-cogent-biosciences-inc-quarterly-earnings-report-cfc679aa0134.html",
+      "publisher": "www.stocktitan.net",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:06.028Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c845457ebf10",
+      "title": "Cogent Biosciences Announces Oral Presentation of Positive Phase 3 ...",
+      "url": "https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-oral-presentation-positive-phase-3",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:08.018Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0b0f6d306400",
+      "title": "[PDF] Cogent Biosciences Announces Positive Lead-In Data from Ongoing ...",
+      "url": "https://investors.cogentbio.com/node/9901/pdf",
+      "publisher": "investors.cogentbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:30:08.019Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 330455,
+    "outputTokens": 7007
+  },
+  "durationMs": 179932,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cogt-gist-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cogt-q2-2026"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 4
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05208047"
+      },
+      "status": "completed",
+      "durationMs": 71
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "bezuclastinib sunitinib PEAK phase 3 results 2026 16.5 9.2 adverse events publication"
+      },
+      "status": "completed",
+      "durationMs": 8471
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Cogent bezuclastinib September 2026 NDA GIST November 30 manufacturing CMC contract manufacturer FDA complete response"
+      },
+      "status": "completed",
+      "durationMs": 2467
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Cogent"
+      },
+      "status": "partial",
+      "durationMs": 400
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov Cogent 2026 bezuclastinib manufacturing third party manufacturers approved products"
+      },
+      "status": "completed",
+      "durationMs": 3772
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.cogentbio.com 2026 ASCO PEAK Wagner 413 serious adverse events duration response pdf"
+      },
+      "status": "completed",
+      "durationMs": 1990
+    },
+    {
+      "name": "find_in_source",
+      "arguments": {
+        "sourceId": "web-ce4808809376",
+        "query": "manufactur"
+      },
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Cogent Biosciences"
+      },
+      "status": "completed",
+      "durationMs": 257
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "bezuclastinib"
+      },
+      "status": "completed",
+      "durationMs": 461
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0fe56e0084100259016aa31366e52c87d2a92c57aed199b23e",
+    "inputHash": "c1b9c789e1526886b0da8c583c74feabe1859db98307dd7a16cdbe7d9779af25"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:39:51.039Z",
+    "originalSha256": "f6d799058d15f8ed2b0f502e90d3004cbc425aff64aa6ec4f6428de3eebcb81b",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

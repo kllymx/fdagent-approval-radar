@@ -1,0 +1,761 @@
+{
+  "summary": "Imsidolimab has substantive randomized evidence for acute GPP improvement, but the maintenance claim rests on only 16 selected responders. The current original-BLA episode remains under review, with a sponsor-reported December 12, 2026 action target reaffirmed on August 24. The main unresolved question is whether the maintenance efficacy and safety package supports the requested treatment scope. Commercial manufacturing readiness remains unknown—not a documented failure.",
+  "outlook": {
+    "verdict": "Clinically supportive for acute treatment; qualified and mixed for the full GPP application, particularly maintenance use.",
+    "timing": "Vanda announced filing acceptance on February 25, 2026 and reaffirmed the December 12, 2026 FDA action target on August 24. Its earlier mid-2026 possibility was conditional on priority review, not an established FDA goal; the later December target should not be described as a review extension. No subsequent action or target change was verified. The target is for FDA action, not promised approval.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical baseline describes original-application receipt cohorts, mixing NDAs and BLAs, and separately measures action timeliness. It does not estimate an individual approval probability. This episode is described as an original BLA, but the FDA's formal review-priority classification was not directly verified. Cohort action timing can include complete responses and cannot be equated with approval."
+  },
+  "findings": [
+    {
+      "id": "clinical-acute",
+      "title": "GEMINI-1 establishes an acute efficacy signal, with substantial statistical and population limitations",
+      "detail": "The randomized, double-blind, placebo-controlled study enrolled 45 adults with GPP flares, assigned 1:1:1 to a single IV dose of 750 mg, 300 mg or placebo. The registry-listed primary endpoint was GPPPGA 0/1 at Week 4: 8/15 responded in each active arm versus 2/15 on placebo, an absolute difference of 40 percentage points. The April 28, 2026 original-paper abstract reports P=0.023 for each comparison; earlier sponsor disclosures reported P=0.0131 for 750 mg. The reason for the different analyses was not resolved. A secondary account of the paper reports a 95% confidence interval of 9–71 percentage points, but its calculation was not verified in the inaccessible full paper. Registry confidence-limit fields for the acute outcome are insufficiently labeled to substitute confidently. Baseline disease was moderate in 35 patients and severe in 10; only four enrolled in the US. Placebo patients were younger on average than either active arm. Week-1 pustulation-rating responses were 6/15 with 750 mg, 10/15 with 300 mg and 2/15 with placebo; these do not demonstrate a consistent dose-response. Overall GPPPGA clearance is not proof of complete pustule clearance, systemic-complication prevention or survival benefit.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05352893",
+        "web-dc80691199c9",
+        "web-f6538e7c74fb",
+        "web-4ef690ed1b3b"
+      ]
+    },
+    {
+      "id": "clinical-maintenance",
+      "title": "Maintenance benefit is promising, but GEMINI-2 is not independent replication or a 42-patient two-year placebo comparison",
+      "detail": "GEMINI-2 enrolled 42 GEMINI-1 participants, but only 16 responders were randomized to monthly 200 mg SC imsidolimab or placebo, eight per arm. Other participants entered open-label or rescue pathways. Its primary outcome was adverse-event incidence; maintenance efficacy outcomes were secondary. At Week 24, imputed maintenance of GPPPGA 0/1 was 100% versus 64.4%, risk difference 35.6 percentage points (95% CI 1.0–70.3; P=0.0440). Imputed freedom from flare was 100% versus 63.3%, reported difference 36.8 points (95% CI 2.9–70.6; P=0.0334). These use FCS imputation and Rubin's methods; they are not simple observed proportions. Time-to-first-flare analysis reported no events in the active group and a placebo median of 42.3 weeks (95% CI 4.1–64.0; log-rank P=0.0018). Earlier sponsor figures of 25% maintenance and 63% experiencing a flare are not the same estimand as the registry's Week-24 imputed outcomes. The registry records termination after approximately six months of treatment for participants and a maximum of 104 weeks; this does not establish uniform two-year exposure or a safety-driven stop. Small enriched groups, variable follow-up, missing-data assumptions and unverified multiplicity control materially limit broad maintenance claims.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT05366855",
+        "web-4ef690ed1b3b",
+        "web-dc80691199c9"
+      ]
+    },
+    {
+      "id": "safety-acute",
+      "title": "Acute safety contains reassuring observations, not merely an absence of discussion",
+      "detail": "GEMINI-1 registry results report no deaths or serious adverse events among the 30 active-treated patients; one placebo patient had serious sepsis. The adverse-event collection window extended to the final Week-12 safety visit. Nonserious adverse events affected 6/15 patients at 750 mg, 5/15 at 300 mg and 11/15 on placebo. Candidate-specific events included urinary and skin infections at 300 mg and leukopenia and neutropenia at 750 mg, each reported in one patient for the latter terms. These observations support short-term tolerability, but the sample cannot establish a dose-related safety pattern or exclude uncommon risks. Study noncompletion counts must not be interpreted as adverse-event discontinuations without their reasons.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT05352893"
+      ]
+    },
+    {
+      "id": "safety-extension",
+      "title": "Extension events and withdrawals require a narrower interpretation than 'no safety signals'",
+      "detail": "GEMINI-2 reported no deaths. There were no serious events in the eight randomized active-maintenance patients, but serious events affected two of eight active-induction partial responders receiving open-label imsidolimab and two of nine prior-placebo patients receiving IV/SC rescue imsidolimab. Listed events included nephrogenic anaemia, elevated creatine phosphokinase, bacterial arthritis and pustular psoriasis; causality is not established by these listings. Nonserious events included cytopenias and, in the rescue group, angioedema and urticaria. The registry records adverse-event-related study withdrawals in one randomized active patient and one of four prior-placebo partial responders receiving open-label imsidolimab, plus three placebo-maintenance patients. Thus, the December 2025 sponsor wording about no adverse-event discontinuations cannot be repeated without qualification. The later paper makes the narrower claim that no serious adverse events led to imsidolimab discontinuation. Anaptys also reported no infusion reactions, DRESS or Guillain-Barré syndrome and low, non-neutralizing antibodies, but detailed immunogenicity denominators were not inspected. Patient-years, event narratives, treatment versus study withdrawal, and concomitant therapies remain essential.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT05366855",
+        "web-ce9e2e212e71",
+        "web-dc80691199c9",
+        "web-4ef690ed1b3b"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "title": "Technology-transfer obligations are documented; commercial CMC readiness is not",
+      "detail": "The February 3, 2025 licensing announcement gave Vanda development, manufacturing and commercialization rights and stated that it intended to complete technology-transfer activities during 2025. It also documented purchase of existing drug supply. These are not evidence that transfer, commercial process validation or FDA manufacturing assessment was completed. Candidate/manufacturer and SEC-focused searches did not verify a named commercial drug-substance or fill-finish site, FEI, candidate-linked inspection finding, CMC rejection, corrective-action program or remediation closure. Historical SEC disclosures about imsidolimab manufacturing expenditure do not establish site identity or compliance. Consequently, no documented CMC setback presently dominates the assessment, but manufacturing remains unknown. The resolving evidence is the BLA facility list and product-role linkage, commercial comparability and validation package, and FDA's assessment of any relevant inspection deficiencies—not a sponsor or clinical/BIMO inspection.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-91052e854cc1",
+        "web-b8613774add8",
+        "web-53af4e06688c"
+      ]
+    },
+    {
+      "id": "regulatory-current",
+      "title": "The latest inspected disclosure preserves the original-BLA review episode and December target",
+      "detail": "Vanda announced submission on December 15, 2025, filing acceptance on February 25, 2026 and continuing review on August 24, 2026. These disclosures support the supplied classification as an original BLA rather than a supplement or identified CRL resubmission. The requested indication is described broadly as treatment of GPP; the proposed age limits and exact acute-IV versus maintenance-SC labeling were not retrieved. Priority review was requested at submission, with only a conditional mid-2026 possibility. The subsequent December 12 target supersedes that expectation without documenting an extension. No imsidolimab-specific CRL, formal FDA objection or prior approved indication was established by the inspected documents. The public CRL archive request failed, so it cannot verify their absence. Filing acceptance and orphan designations are process evidence, not FDA agreement on clinical sufficiency or manufacturing acceptability.",
+      "direction": "supportive",
+      "sourceIds": [
+        "web-ce9e2e212e71",
+        "web-45c5f9e0960a",
+        "web-98ae3911441e"
+      ]
+    },
+    {
+      "id": "sponsor-history",
+      "title": "Sponsor experience is real context, but not a validated predictor for this biologic",
+      "detail": "The paper identifies Vanda as sole sponsor from January 31, 2025, following AnaptysBio's development program. Anaptys described a productive 2024 pre-BLA meeting, but FDA minutes were not inspected. Vanda's acceptance announcement cites NEREUS and BYSANTI as prior new products. Independently, the FDA application record identifies Vanda's BYSANTI oral milsaperidone NDA as a standard original application approved February 20, 2026. That is an observed outcome for another drug, not an imsidolimab forecast. Its indication-specific approval letter and full review timeline were not inspected here. Neither this portfolio experience nor Anaptys' other partnerships establishes GPP evidence sufficiency or a shared manufacturing site.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-dc80691199c9",
+        "web-91052e854cc1",
+        "web-45c5f9e0960a",
+        "evidence-approvals-NDA220358"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "The proposed imsidolimab indication and dosing sections, together with FDA meeting or review correspondence addressing whether the GEMINI package supports acute treatment, chronic maintenance, or both.",
+    "The finalized GEMINI clinical study reports and pre-unblinding statistical plans: reconcile the acute P-values, rescue and missing-data handling, maintenance multiplicity, and observed versus imputed results with numbers remaining under observation through 104 weeks.",
+    "The integrated safety summary with unique exposed patients and patient-years by regimen, serious-event and withdrawal narratives, cytopenia/infection/hypersensitivity analyses, and anti-drug-antibody denominators and neutralizing assays.",
+    "The commercial facility list with exact product roles and FEIs, technology-transfer completion, pivotal-to-commercial comparability, process-validation and stability evidence, and FDA disposition of any candidate-linked manufacturing deficiencies."
+  ],
+  "limitations": [
+    "This is a current investigation through September 10, 2026. The March 2026 registry results and April 2026 publication were inspected now and should not be retroactively represented as evidence available at February filing acceptance.",
+    "The original NEJM Evidence page yielded its abstract, publication information and supplementary-material listings, but not the subscriber-only full paper, protocol or appendix. The acute confidence interval is explicitly attributed to a secondary account; its method, statistical hierarchy and historical endpoint prespecification were not independently verified.",
+    "Registry results are sponsor-submitted rather than FDA-adjudicated. GEMINI-2 overlaps GEMINI-1, so their enrollment totals cannot be added as independent patients. Safety listings lack sufficient causality and exposure detail to quantify uncommon risks or establish monitoring requirements.",
+    "Manufacturing research covered imsidolimab/ANB019, Vanda/AnaptysBio, manufacturer/site/CMC terms and SEC disclosures. The supplied compliance discovery service was unavailable; no original candidate-linked manufacturing inspection or warning letter was inspected. Exact site identities and current transfer completion remain unresolved.",
+    "The CRL archive request failed, and the supplied August 5 SEC document could not be retrieved in full. Current status was instead checked against the fully returned August 24 sponsor release. The FDA filing letter, application number, review correspondence and exact proposed label were not retrieved.",
+    "Sponsor-history verification was bounded: BYSANTI's original approval was checked in FDA application data, not its full review file; NEREUS was only identified in sponsor disclosure. No head-to-head comparison, GPP-specific approval analog or validated sponsor-track-record model was established."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Will FDA accept the small, responder-enriched GEMINI maintenance dataset and its safety exposure as sufficient for the requested GPP treatment scope?",
+    "bullCase": {
+      "claim": "Both IV doses produced the same substantial Week-4 response advantage over placebo in GEMINI-1. Randomized maintenance results also favor imsidolimab, including no observed flare events in the eight active-maintenance patients. Acute serious-event findings and the paper's absence of SAE-led discontinuation support a potentially manageable benefit–risk profile.",
+      "sourceIds": [
+        "trial-NCT05352893",
+        "trial-NCT05366855",
+        "web-dc80691199c9"
+      ]
+    },
+    "bearCase": {
+      "claim": "The apparent two-study efficacy package is one acute trial followed by an extension, not independent acute replication. Maintenance efficacy is secondary, responder-enriched, imputation-dependent and based on eight patients per arm with wide intervals. Serious events and adverse-event withdrawals require reconciliation. These issues could materially limit chronic-use labeling or prompt additional evidence requests even if the acute signal is accepted.",
+      "sourceIds": [
+        "trial-NCT05352893",
+        "trial-NCT05366855",
+        "web-ce9e2e212e71",
+        "web-dc80691199c9"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "Does FDA's written review accept the maintenance estimand, missing-data sensitivity analyses and integrated safety exposure for the actual proposed label?",
+      "whyItMatters": "This would distinguish a defensible acute-plus-maintenance package from evidence sufficient only for narrower acute treatment. The pivotal documents are the requested label, prespecified analysis plan and FDA assessment—not another sponsor summary of two-year efficacy. Manufacturing acceptability remains a separate prerequisite.",
+      "sourceIds": [
+        "trial-NCT05366855",
+        "web-ce9e2e212e71",
+        "web-91052e854cc1"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Requested acute and maintenance scope supported",
+        "trigger": "FDA accepts the acute analyses, maintenance sensitivity analyses and safety exposure, with an acceptable commercial CMC package.",
+        "implication": "A broader GPP treatment label becomes supportable. The December target remains an action goal, and this scenario is not an approval prediction.",
+        "sourceIds": [
+          "trial-NCT05352893",
+          "trial-NCT05366855",
+          "web-91052e854cc1",
+          "web-98ae3911441e"
+        ]
+      },
+      {
+        "label": "Acute evidence accepted but maintenance scope limited",
+        "trigger": "FDA finds the Week-4 IV benefit persuasive but considers the 16-patient maintenance comparison or chronic safety exposure inadequate for the proposed maintenance claim.",
+        "implication": "A narrower label or additional maintenance-study requirement could preserve the acute-treatment opportunity without validating the sponsor's broad durability interpretation.",
+        "sourceIds": [
+          "trial-NCT05352893",
+          "trial-NCT05366855",
+          "web-ce9e2e212e71"
+        ]
+      },
+      {
+        "label": "Additional review or remediation required",
+        "trigger": "FDA identifies material unresolved clinical/safety deficiencies or candidate-linked manufacturing deficiencies requiring new data or corrective work.",
+        "implication": "An amendment could alter timing; a complete response would require a response and another review. Neither an extension nor a CRL is established in the currently inspected record.",
+        "sourceIds": [
+          "trial-NCT05366855",
+          "web-91052e854cc1",
+          "web-98ae3911441e"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "What exact indication, age range and IV/SC regimen are requested, and what did FDA agree—or decline to agree—to at the 2024 pre-BLA meeting?",
+        "whyItMatters": "The public wording 'treatment of GPP' does not establish whether acute control and flare prevention are separate requested claims or whether FDA has accepted the extension as sufficient evidence.",
+        "sourceIds": [
+          "web-91052e854cc1",
+          "web-ce9e2e212e71",
+          "trial-NCT05366855"
+        ]
+      },
+      {
+        "question": "Why do acute P-values differ across disclosures, and do conclusions survive prespecified multiplicity control, rescue-as-failure and conservative missing-data analyses? How many maintenance patients remain observed at each long-term visit?",
+        "whyItMatters": "The acute direction is consistent, but statistical robustness and maintenance durability cannot be inferred from selected time points or imputed percentages without the analysis plan and patient disposition.",
+        "sourceIds": [
+          "web-4ef690ed1b3b",
+          "web-dc80691199c9",
+          "trial-NCT05352893",
+          "trial-NCT05366855"
+        ]
+      },
+      {
+        "question": "What explains the extension bacterial arthritis, cytopenias, angioedema and adverse-event withdrawals, and what monitoring is proposed for infection, blood counts and hypersensitivity?",
+        "whyItMatters": "Event attribution, exposure-adjusted rates and concomitant treatment determine whether these are background disease events, manageable drug risks or evidence requiring further investigation. Proposed monitoring is not yet an established FDA requirement.",
+        "sourceIds": [
+          "trial-NCT05352893",
+          "trial-NCT05366855",
+          "web-ce9e2e212e71"
+        ]
+      },
+      {
+        "question": "Which exact facilities make commercial drug substance and finished IV/SC product, and what evidence closes technology-transfer, comparability, validation and inspection questions?",
+        "whyItMatters": "The documented 2025 transfer intention and existing inventory purchase do not establish a validated commercial process or FDA acceptance. A site-specific deficiency could change timing independently of clinical efficacy.",
+        "sourceIds": [
+          "web-91052e854cc1"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Acute efficacy is supported by randomized results. Maintenance benefit rests on 16 selected responders and imputation. Serious events and adverse-event withdrawals require reconciliation; commercial manufacturing readiness remains unverified.",
+    "pivotalQuestion": "Will FDA accept the small, responder-enriched GEMINI maintenance dataset and its safety exposure as sufficient for the requested GPP treatment scope?",
+    "sourceIds": [
+      "trial-NCT05352893",
+      "trial-NCT05366855",
+      "web-ce9e2e212e71",
+      "web-91052e854cc1"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "GEMINI-1 supports acute efficacy. GEMINI-2 maintenance analyses involve eight patients per arm, secondary endpoints, imputation and variable follow-up, limiting a broad chronic-treatment inference.",
+        "sourceIds": [
+          "trial-NCT05352893",
+          "trial-NCT05366855",
+          "web-dc80691199c9"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "mixed",
+        "rationale": "No acute active-arm serious events were reported, but extension serious events, cytopenias, angioedema and adverse-event withdrawals require causality and exposure-adjusted review.",
+        "sourceIds": [
+          "trial-NCT05352893",
+          "trial-NCT05366855",
+          "web-dc80691199c9"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "Technology transfer and existing supply were documented, but commercial sites, validation, comparability and FDA manufacturing assessments were not verified. No candidate-linked CMC setback was established.",
+        "sourceIds": [
+          "web-91052e854cc1"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "supportive",
+        "rationale": "Sponsor disclosures document filing acceptance and continued review with the December 12 target reaffirmed August 24. This supports process progress, not FDA agreement on benefit–risk or manufacturing.",
+        "sourceIds": [
+          "web-45c5f9e0960a",
+          "web-98ae3911441e"
+        ]
+      }
+    ]
+  },
+  "id": "28f31709-682b-4bc6-a770-bdda471bdb52",
+  "candidateId": "imsidolimab-gpp",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:32:36.336Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Imsidolimab, specifically Generalized pustular psoriasis. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "vnda-imsi-acceptance",
+      "title": "Vanda: imsidolimab BLA accepted for GPP",
+      "url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html",
+      "publisher": "Vanda Pharmaceuticals",
+      "publishedAt": "2026-02-25",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sponsor",
+      "summary": "Vanda reported FDA filing acceptance of imsidolimab for generalized pustular psoriasis and a December 12 target. Its GEMINI program includes an acute controlled efficacy study and longer-term maintenance follow-up. Different periods and populations should not be collapsed into a single two-year placebo-controlled effect."
+    },
+    {
+      "id": "vnda-q2-2026",
+      "title": "Vanda: imsidolimab review update",
+      "url": "https://www.sec.gov/Archives/edgar/data/1347178/000162828026053308/vnda8-k852026exhibit991.htm",
+      "publisher": "Vanda Pharmaceuticals / SEC",
+      "publishedAt": "2026-08-05",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Vanda continued to report the imsidolimab BLA under FDA review for generalized pustular psoriasis with a December 12, 2026 target. Corporate launch planning or non-US orphan designation does not constitute a US approval."
+    },
+    {
+      "id": "trial-nct05352893",
+      "title": "ClinicalTrials.gov: NCT05352893 · Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05352893",
+      "publisher": "ClinicalTrials.gov / Vanda Pharmaceuticals",
+      "publishedAt": "2026-03-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 45 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "trial-nct05366855",
+      "title": "ClinicalTrials.gov: NCT05366855 · Study to Evaluate the Long-Term Safety and Efficacy of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05366855",
+      "publisher": "ClinicalTrials.gov / Vanda Pharmaceuticals",
+      "publishedAt": "2026-03-27",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 42 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT05352893",
+      "title": "Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05352893",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-03-17",
+      "retrievedAt": "2026-09-10T20:32:40.116Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05352893; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "trial-NCT05366855",
+      "title": "Study to Evaluate the Long-Term Safety and Efficacy of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "url": "https://clinicaltrials.gov/study/NCT05366855",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-03-27",
+      "retrievedAt": "2026-09-10T20:32:40.145Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT05366855; status TERMINATED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-45c5f9e0960a",
+      "title": "Vanda Pharmaceuticals Announces FDA Acceptance of Biologics ...",
+      "url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:52.324Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-9442810893aa",
+      "title": "FDA Accepts Vanda Pharmaceuticals' BLA for Imsidolimab in Generalized ...",
+      "url": "https://www.dermatologytimes.com/view/fda-accepts-vanda-pharmaceuticals-bla-for-imsidolimab-in-generalized-pustular-psoriasis",
+      "publisher": "www.dermatologytimes.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:49.840Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ab0983c62e60",
+      "title": "FDA Accepts Vanda Pharmaceuticals' BLA for Imsidolimab in GPP - LinkedIn",
+      "url": "https://www.linkedin.com/posts/dermatology-times_fda-accepts-vanda-pharmaceuticals-bla-for-activity-7432465655737647106-Jk07",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:49.840Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-98ae3911441e",
+      "title": "Vanda Pharmaceuticals Granted Orphan Designation for ... - BioSpace",
+      "url": "https://www.biospace.com/press-releases/vanda-pharmaceuticals-granted-orphan-designation-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-by-the-european-commission",
+      "publisher": "www.biospace.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:49.840Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-91052e854cc1",
+      "title": "Vanda Pharmaceuticals and Anaptys Announce Exclusive Global ...",
+      "url": "https://ir.anaptysbio.com/news-releases/news-release-details/vanda-pharmaceuticals-and-anaptys-announce-exclusive-global",
+      "publisher": "ir.anaptysbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:52.324Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-95c23fdc9294",
+      "title": "AnaptysBio Announces Orphan Drug Designation of Imsidolimab For ...",
+      "url": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptysbio-announces-orphan-drug-designation-imsidolimab",
+      "publisher": "ir.anaptysbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:52.325Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0f4c09595838",
+      "title": "imsidolimab (ANB019) / AnaptysBio, Vanda - LARVOL DELTA",
+      "url": "https://delta.larvol.com/Products/?ProductId=5ee71a62-e32f-4bc4-ac18-023f2c80a3ec",
+      "publisher": "delta.larvol.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:32:52.325Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4ef690ed1b3b",
+      "title": "Anaptys Announces Positive Top-Line GEMINI-2 Phase 3 ...",
+      "url": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-positive-top-line-gemini-2-phase-3-clinical",
+      "publisher": "ir.anaptysbio.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:05.747Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f8f3312bdc96",
+      "title": "Efficacy and Safety of Imsidolimab for Generalized Pustular Psoriasis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047557/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:36.155Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f6538e7c74fb",
+      "title": "GEMINI-1 and GEMINI-2 phase III: Imsidolimab for GPP - PsOPsA Hub",
+      "url": "https://psoriasis-hub.com/medical-information/gemini-1-and-gemini-2-phase-iii-imsidolimab-for-gpp",
+      "publisher": "psoriasis-hub.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:05.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3c62678841cc",
+      "title": "Vanda Files BLA for Imsidolimab in Generalized Pustular Psoriasis",
+      "url": "https://www.dermatologytimes.com/view/vanda-files-bla-for-imsidolimab-in-generalized-pustular-psoriasis",
+      "publisher": "www.dermatologytimes.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:05.748Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-dc80691199c9",
+      "title": "Efficacy and Safety of Imsidolimab for Generalized Pustular Psoriasis",
+      "url": "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2500272",
+      "publisher": "evidence.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:36.154Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a8b87f0675ea",
+      "title": "Efficacy and Safety of Imsidolimab for... : NEJM Evidence - Ovid",
+      "url": "https://www.ovid.com/journals/nejme/abstract/10.1056/evidoa2500272~efficacy-and-safety-of-imsidolimab-for-generalized-pustular",
+      "publisher": "www.ovid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:36.155Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0af3fc1d55b0",
+      "title": "Vanda Pharmaceuticals announces the publication of \"Efficacy and ...",
+      "url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-the-publication-of-efficacy-and-safety-of-imsidolimab-for-generalized-pustular-psoriasis-in-nejm-evidence-302756392.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:36.156Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b8613774add8",
+      "title": "Document - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1370053/000137005322000031/q12022earningsrelease.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:39.402Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-53af4e06688c",
+      "title": "AnaptysBio Announces Second Quarter 2022 Financial Results and",
+      "url": "https://www.sec.gov/Archives/edgar/data/1370053/000137005322000040/q22022earningsrelease.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:39.402Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a627ed783b64",
+      "title": "99.1 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1370053/000137005321000018/q42020earningsrelease.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:39.403Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c8fd771f103d",
+      "title": "anab-20201231 - SEC.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1370053/000137005321000019/anab-20201231.htm",
+      "publisher": "www.sec.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:39.403Z",
+      "kind": "sec",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-491ea0915d65",
+      "title": "[PDF] Vanda Announces Submission of Biologics License Application to the ...",
+      "url": "https://vandapharmaceuticalsinc.gcs-web.com/node/16676/pdf",
+      "publisher": "vandapharmaceuticalsinc.gcs-web.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:43.972Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ce9e2e212e71",
+      "title": "Vanda Announces Submission of Biologics License Application to the ...",
+      "url": "https://www.prnewswire.com/news-releases/vanda-announces-submission-of-biologics-license-application-to-the-fda-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302641858.html",
+      "publisher": "www.prnewswire.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:43.973Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8d238216c0d9",
+      "title": "Vanda Seeks FDA Priority Review for Imsidolimab to Treat GPP",
+      "url": "https://www.rarediseaseadvisor.com/news/vanda-seeks-fda-priority-review-imsidolimab-gpp/",
+      "publisher": "www.rarediseaseadvisor.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:43.973Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f52f9db77b04",
+      "title": "Vanda Pharmaceuticals Submits FDA BLA for Imsidolimab in Generalized ...",
+      "url": "https://www.linkedin.com/posts/jack-shuang-hou-75314a2b3_vanda-announces-submission-of-biologics-license-activity-7406417727139213312-cjDi",
+      "publisher": "www.linkedin.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:43.973Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "contentKind": "metadata",
+      "id": "evidence-approvals-NDA220358",
+      "title": "BYSANTI — NDA220358",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number%3A%22NDA220358%22&limit=1",
+      "kind": "fda",
+      "publisher": "FDA / Drugs@FDA via openFDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:44.330Z",
+      "summary": "NDA220358; sponsor VANDA PHARMS INC. 1 of 1 submission records shown, with original applications prioritized. Indication match is unverified."
+    }
+  ],
+  "usage": {
+    "inputTokens": 304553,
+    "outputTokens": 8676
+  },
+  "durationMs": 230385,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "vnda-imsi-acceptance"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "vnda-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 144
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05352893"
+      },
+      "status": "completed",
+      "durationMs": 72
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT05366855"
+      },
+      "status": "completed",
+      "durationMs": 30
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "imsidolimab Vanda BLA FDA December 12 2026 August September 2026 acceptance"
+      },
+      "status": "completed",
+      "durationMs": 1614
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "imsidolimab ANB019 manufacturing manufacturer CMC drug substance drug product site Lonza Vanda AnaptysBio"
+      },
+      "status": "completed",
+      "durationMs": 2485
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "imsidolimab GEMINI-1 GEMINI-2 results 2026 2025 publication 53.3 confidence interval safety"
+      },
+      "status": "completed",
+      "durationMs": 13423
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Vanda"
+      },
+      "status": "partial",
+      "durationMs": 353
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2500272 Efficacy Safety Imsidolimab"
+      },
+      "status": "completed",
+      "durationMs": 21139
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site:sec.gov \"imsidolimab\" \"manufacturing\""
+      },
+      "status": "completed",
+      "durationMs": 3246
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"Vanda Announces Submission\" \"Imsidolimab\" December 15 2025 priority review"
+      },
+      "status": "completed",
+      "durationMs": 4569
+    },
+    {
+      "name": "search_evidence_database",
+      "arguments": {
+        "family": "approvals",
+        "query": "milsaperidone"
+      },
+      "status": "completed",
+      "durationMs": 357
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0b0ba9abbee778d9016aa31428932887d2b22178d1d226d24e",
+    "inputHash": "3884c53fb838224a81d41702edc913b4bda402f342547124f6dee9d952d640ad"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:39:51.043Z",
+    "originalSha256": "c211ce3f6b6949221b28382131336bec0efa6c13ed37c144d21fd59f4d27fa78",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

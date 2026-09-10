@@ -1,0 +1,670 @@
+{
+  "summary": "Relacorilant’s Cushing’s NDA resubmission has a sponsor-reported December 17, 2026 action target, but the current evidence balance is concerning. GRACE demonstrated maintenance of hypertension response in selected responders; GRADIENT failed its primary endpoint. FDA’s published CRL also identified probable drug-induced liver injury. The June resubmission adds requested analyses, but public disclosures do not establish that FDA has accepted them as resolving these objections. Manufacturing remains unverified, not demonstrably deficient.",
+  "outlook": {
+    "verdict": "Concerning, with a potentially viable but publicly unproven resubmission pathway. The decisive issue is whether the revised evidence establishes sufficient clinical benefit in the proposed population to outweigh liver-injury risk.",
+    "timing": "Corcept’s July 29, 2026 disclosure reports a December 17, 2026 PDUFA target following the June 17 resubmission. This is an FDA-action goal, not an approval date. The original CRL took effect December 30, 2025; its January 28, 2026 correction retained that effective date and was not a second rejection or review extension. The resubmission acceptance/classification letter and original-cycle target history were not inspected. Further clinical requirements could move resolution beyond this cycle.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model estimates original-application receipt-cohort first-cycle approval rates, which do not apply to this resubmission. Its separate resubmission timing cohorts concern timely FDA action—including complete responses—not approval. The exact resubmission class was not independently verified. Neither model supports an individual approval probability or a validated date forecast."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "title": "The resubmission restarts review; it does not establish resolution of the CRL",
+      "detail": "FDA’s corrected CRL identifies NDA 219398 and retains December 30, 2025 as the original action date. Corcept’s December disclosure described the requested indication as hypertension secondary to hypercortisolism. The June 17, 2026 resubmission announcement instead uses broader Cushing’s syndrome wording and says FDA-requested additional analyses of original-NDA data were submitted, including GRACE, GRADIENT and extension evidence. July’s update reports the December 17 target. These documents support an original-NDA resubmission episode, not an oncology supplement, but do not disclose the exact revised proposed label. Crucially, the CRL requested new clinical data; no inspected later FDA document explains whether that requirement was replaced by an analyses-based pathway. Sponsor engagement and a review target are positive process developments, not evidence that this substantive requirement has been satisfied.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-0969a742991f",
+        "web-b41dd69d4636",
+        "web-d786e1b8f527",
+        "web-0a802e8b5f61"
+      ]
+    },
+    {
+      "id": "F2",
+      "title": "GRACE provides real, but responder-enriched, randomized efficacy evidence",
+      "detail": "The inspected registry results describe 152 patients with endogenous Cushing’s syndrome and hypertension, diabetes/impaired glucose tolerance, or both. All received 22 weeks of open-label relacorilant, titrated from 100 to 400 mg daily; 95 completed that phase and 62 entered blinded withdrawal, continuing relacorilant or switching to placebo for 12 weeks. The primary hypertension analysis included only 43 responders—21 versus 22—not all 152 patients. Loss of response incorporated blood-pressure worsening, rescue medication, discontinuation and missing ambulatory measurements. The reported odds ratio was 0.17 (95% CI 0.04–0.77; p=0.0215), favoring continued treatment. This supports maintenance of benefit in selected responders, with substantial effect-size uncertainty. FDA nevertheless judged enrichment and open-label attrition likely to overestimate benefit in the intended population. Controlled durability is limited to the withdrawal period; numerical long-term extension results were not inspected.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT03697109",
+        "web-0969a742991f"
+      ]
+    },
+    {
+      "id": "F3",
+      "title": "GRADIENT failed the prospective efficacy test; subgroup rescue is not reliable replication",
+      "detail": "GRADIENT randomized 137 patients with cortisol-secreting adrenal adenomas/hyperplasia and hypertension and/or dysglycemia to daily relacorilant, titrated to 400 mg, or placebo for 22 weeks. Its registered primary efficacy endpoint was change in average 24-hour systolic pressure among 84 baseline-hypertensive patients. Registry results report a treatment difference of −2.67 mm Hg (95% CI −9.096 to 3.766; p=0.4160). FDA’s CRL reports a different primary estimate, −0.85 mm Hg (95% CI −6.7 to 4.9; p=0.77). These estimates require reconciliation, but both fail to demonstrate superiority. FDA also rejected reliance on a non-prespecified 33-person Cushing’s subgroup: the sponsor’s nominal −10.4 mm Hg result used only 8/16 treated and 13/17 placebo patients. FDA’s wash-out imputation reduced this to −4.9 mm Hg (95% CI −15.3 to 5.6; nominal p=0.36). Accordingly, Corcept’s characterization of positive GRADIENT data should not be interpreted as a successful primary endpoint or robust replication of GRACE.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04308590",
+        "web-0969a742991f",
+        "web-d786e1b8f527"
+      ]
+    },
+    {
+      "id": "F4",
+      "title": "FDA identified a substantive liver-injury signal requiring an explicit benefit-risk solution",
+      "detail": "In the original Cushing’s NDA review, FDA assessed four cases as probable drug-induced liver injury among 303 subjects exposed to at least one relacorilant dose. One patient’s ALT reached 1,952 U/L, more than 50 times the upper limit of normal. No patient met traditional Hy’s law criteria, but FDA explicitly considered the findings concerning and concluded that a favorable benefit-risk assessment had not been established. It recommended DILI warnings, routine monitoring, enhanced pharmacovigilance and post-market evaluation. Neither inspected June nor July disclosure supplies updated case adjudications, exposure-adjusted rates, or FDA agreement on mitigation. The unresolved question is not simply whether liver tests can be monitored: it is whether demonstrated endocrine benefit justifies this risk and whether monitoring can adequately control it.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-0969a742991f",
+        "web-d786e1b8f527",
+        "web-0a802e8b5f61"
+      ]
+    },
+    {
+      "id": "F5",
+      "title": "Actual adverse-event and discontinuation data are less reassuring than broad tolerability language",
+      "detail": "GRACE’s 22-week open-label phase recorded treatment-emergent adverse events in 147/152 patients, serious events in 29/152, 24 adverse-event withdrawals and two deaths. Common reported events included nausea in 52/152 and peripheral edema in 50/152. During withdrawal, serious events occurred in 5/30 continuing relacorilant versus 1/32 receiving placebo; neither arm recorded deaths. GRADIENT, which offers a randomized comparison from initiation, recorded serious events in 15/68 versus 4/69, adverse-event withdrawals in 12/68 versus 2/69, and one versus zero deaths, with safety follow-up through week 26. These counts do not establish treatment causality for every event, but the imbalances warrant case-level review and also complicate efficacy interpretation through differential attrition. Dose-specific exposure, patient-years, death narratives and population-specific risk estimates were not available in the inspected results. Practical diligence should address liver tests, edema, blood pressure, glucose and electrolyte monitoring during titration.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT03697109",
+        "trial-NCT04308590",
+        "web-0969a742991f"
+      ]
+    },
+    {
+      "id": "F6",
+      "title": "Manufacturing is unknown—not a documented CMC-driven rejection or demonstrated clearance",
+      "detail": "The inspected CRL specifies clinical/statistical and liver-safety deficiencies, not a manufacturing deficiency. The retrieved resubmission and quarterly disclosures do not identify relacorilant API or finished-product manufacturing sites, outstanding CMC corrective actions, or a Cushing-specific FDA quality conclusion. A sponsor-name public inspection lookup produced unverified leads without original document URLs or candidate–facility linkage; these were excluded from compliance findings. In particular, a sponsor or clinical/BIMO inspection cannot establish CGMP acceptability. The available evidence therefore supports neither a CMC-failure claim nor a clean-manufacturing claim. Resolution requires the NDA establishment list and product-role mapping, relevant original inspection documents, and FDA’s application-specific quality assessment; corrective-action evidence is needed if those documents identify deficiencies.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-0969a742991f",
+        "web-d786e1b8f527",
+        "web-0a802e8b5f61"
+      ]
+    },
+    {
+      "id": "F7",
+      "title": "Prior Corcept approvals provide experience, not transferable efficacy or manufacturing conclusions",
+      "detail": "FDA’s current novel-drug list confirms relacorilant/Lifyorli approval on March 25, 2026 for a defined platinum-resistant ovarian, fallopian-tube or primary-peritoneal cancer population. That completed oncology action does not resolve NDA 219398’s endocrine efficacy or liver-risk objections. Corcept also reports introducing Korlym in 2012; the inspected endocrine paper describes mifepristone’s approval for hyperglycemia in endogenous Cushing’s syndrome with impaired glucose tolerance or type 2 diabetes. The original Korlym approval package and cycle history were not inspected. Neither precedent is a direct hypertension-efficacy comparison, a validated sponsor-level approval predictor, or proof that the endocrine and oncology applications share an acceptable manufacturing configuration.",
+      "direction": "neutral",
+      "sourceIds": [
+        "fda-novel-2026",
+        "web-d786e1b8f527",
+        "web-f625fd3b9b5c"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "Post-CRL FDA meeting minutes and the resubmission acceptance letter: confirm the exact proposed indication, review classification, and whether FDA agreed that additional analyses could replace the CRL’s request for new clinical data.",
+    "The submitted efficacy response, final statistical analysis plans and clinical study reports: reconcile GRADIENT’s differing estimates, test missing-data and rescue-medication assumptions, explain GRACE’s analysis populations, and quantify extension durability with retention denominators.",
+    "The updated integrated safety report: provide all four probable DILI narratives, dose/latency and follow-up, new liver events, person-time exposure, serious-event/death adjudication, and proposed monitoring and stopping rules.",
+    "The NDA 219398 manufacturing establishment list and FDA quality assessment: link each API, finished-dose and testing site to the application and document any inspection deficiencies, corrective actions and relevant formulation/process bridging."
+  ],
+  "limitations": [
+    "This is a current September 10, 2026 investigation. Live searches retrieved the FDA CRL and June/July sponsor disclosures beyond the curated summaries. Initial SEC full-document reads failed, but corresponding sponsor releases were retrieved and inspected.",
+    "The corrected FDA CRL is redacted, and its archive is incomplete. The latest inspected sponsor update is July 29; no later FDA document resolving the deficiencies, exact current proposed label, or resubmission classification was inspected.",
+    "Actual posted GRACE and GRADIENT registry results were inspected. The February 2026 GRACE publication abstract was retrieved, but the full pivotal manuscript and supplement were not obtained; abstract safety statements were not treated as a substitute for full safety adjudication.",
+    "A 2019 GRACE design abstract described separate glycemic and hypertension primary efficacy endpoints, whereas the current registry identifies hypertension as the primary efficacy outcome. The dated protocol/SAP amendment history and multiplicity strategy were not inspected, so the timing and regulatory agreement behind that evolution remain unverified.",
+    "GRADIENT’s registry and FDA primary estimates differ. Both are negative, but the precise analysis-population, missing-data and model differences cannot be resolved without the submitted statistical package. Numerical long-term extension efficacy and updated exposure data were also unavailable in the inspected documents.",
+    "Manufacturing searches covered candidate-specific public disclosures and a sponsor-name inspection lookup, but did not establish named drug-manufacturing sites or retrieve linked original inspection reports. Original Korlym FDA records and the original Cushing’s review-target/extension history were not independently verified."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Do the resubmitted analyses establish clinically meaningful benefit in the proposed population sufficient to outweigh FDA-identified liver injury?",
+    "bullCase": {
+      "claim": "GRACE provides randomized evidence that continuing relacorilant preserves hypertension response in selected patients. Corcept subsequently submitted FDA-requested analyses of the original package and extension evidence. If those analyses establish a defensible target population and robust benefit, an approvable benefit-risk case could emerge with an acceptable liver-risk strategy.",
+      "sourceIds": [
+        "trial-NCT03697109",
+        "web-d786e1b8f527",
+        "web-0969a742991f"
+      ]
+    },
+    "bearCase": {
+      "claim": "FDA’s objections concern the adequacy of the evidence, not merely presentation: responder enrichment, extensive missing data, a failed parallel-group trial and a fragile post-hoc subgroup coexist with probable DILI. Reanalysis of the original data may not supply the new clinical evidence requested in the CRL, and the later disclosures do not establish that FDA changed that requirement.",
+      "sourceIds": [
+        "web-0969a742991f",
+        "trial-NCT04308590",
+        "web-d786e1b8f527"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What did FDA agree after the CRL about an analyses-only path, and which submitted results demonstrate benefit that remains persuasive under FDA’s missing-data assumptions?",
+      "whyItMatters": "This distinguishes a genuinely revised regulatory pathway from another review of evidence FDA previously found inadequate. The same package must show why the demonstrated benefit outweighs the liver signal; filing progress alone cannot answer either issue.",
+      "sourceIds": [
+        "web-0969a742991f",
+        "web-d786e1b8f527",
+        "web-0a802e8b5f61"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Reanalysis establishes an acceptable benefit-risk case",
+        "trigger": "FDA accepts the proposed population and robust efficacy analyses, agrees to adequate DILI mitigation, and finds the application’s quality package acceptable.",
+        "implication": "An approval pathway becomes substantively supported, potentially with a narrower indication or monitoring requirements. December 17 remains an action target, not a guaranteed approval date.",
+        "sourceIds": [
+          "trial-NCT03697109",
+          "web-0969a742991f",
+          "web-0a802e8b5f61"
+        ]
+      },
+      {
+        "label": "Prospective efficacy evidence is still required",
+        "trigger": "FDA maintains that enrichment, missingness and GRADIENT’s failed endpoint cannot be remedied sufficiently by the submitted analyses.",
+        "implication": "Another complete response or additional clinical development becomes a material possibility; final resolution would extend beyond the reported target if new studies are necessary.",
+        "sourceIds": [
+          "web-0969a742991f",
+          "trial-NCT04308590",
+          "web-d786e1b8f527"
+        ]
+      },
+      {
+        "label": "Liver risk remains limiting despite an efficacy signal",
+        "trigger": "Updated exposure reveals additional credible DILI, or FDA finds that proposed monitoring does not adequately mitigate risk relative to the demonstrated endocrine benefit.",
+        "implication": "More restrictive use, additional safety work, or an unfavorable benefit-risk decision could follow even if parts of the efficacy argument improve.",
+        "sourceIds": [
+          "web-0969a742991f"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Can management provide the post-January FDA meeting record and exact proposed label showing whether the new-clinical-data requirement was modified?",
+        "whyItMatters": "The original episode concerned hypertension secondary to hypercortisolism; current releases use broader Cushing’s wording without disclosing FDA agreement on population, endpoint or evidentiary sufficiency.",
+        "sourceIds": [
+          "web-b41dd69d4636",
+          "web-0969a742991f",
+          "web-d786e1b8f527"
+        ]
+      },
+      {
+        "question": "How do the final GRACE protocol/SAP and patient flow reconcile 46 baseline-hypertensive randomized patients in FDA’s account with 43 primary-analysis responders, and when was the glycemic endpoint hierarchy changed?",
+        "whyItMatters": "Population definitions, endpoint amendments and handling of rescue medication/missing measurements determine the strength and scope of the positive result. These differences should be explained, not presumed improper.",
+        "sourceIds": [
+          "trial-NCT03697109",
+          "web-0969a742991f",
+          "web-5444d517d058"
+        ]
+      },
+      {
+        "question": "What explains GRADIENT’s registry estimate of −2.67 mm Hg versus FDA’s −0.85 mm Hg, and what new analysis survives conservative missing-data assumptions?",
+        "whyItMatters": "Both inspected primary estimates are negative, while FDA’s sensitivity analysis removes the post-hoc subgroup’s nominal significance. A credible explanation must go beyond choosing the most favorable estimate.",
+        "sourceIds": [
+          "trial-NCT04308590",
+          "web-0969a742991f"
+        ]
+      },
+      {
+        "question": "What are the four probable DILI cases’ doses, latency, concomitant medicines, outcomes and independent adjudications, and which monitoring/cessation rules has FDA accepted?",
+        "whyItMatters": "FDA linked liver injury to relacorilant despite no traditional Hy’s law case. Updated exposure and case-level evidence are necessary to judge mitigation and the practical burden of chronic endocrine treatment.",
+        "sourceIds": [
+          "web-0969a742991f",
+          "trial-NCT03697109",
+          "trial-NCT04308590"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "concerning",
+    "summary": "GRACE’s positive withdrawal result is outweighed by unresolved FDA efficacy objections, GRADIENT’s failed primary endpoint and probable liver injury. The newer resubmission does not publicly establish resolution; manufacturing remains unverified.",
+    "pivotalQuestion": "Do the resubmitted analyses establish clinically meaningful benefit in the proposed population sufficient to outweigh FDA-identified liver injury?",
+    "sourceIds": [
+      "trial-NCT03697109",
+      "trial-NCT04308590",
+      "web-0969a742991f",
+      "web-d786e1b8f527"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "GRACE supports maintained hypertension control in selected responders; GRADIENT failed its primary endpoint. FDA judged enrichment, missing data and post-hoc subgroup evidence insufficient for the intended population.",
+        "sourceIds": [
+          "trial-NCT03697109",
+          "trial-NCT04308590",
+          "web-0969a742991f"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "concern",
+        "rationale": "FDA identified four probable DILI cases, including marked ALT elevation. Registry results also show serious-event and discontinuation burdens. Updated exposure and an FDA-accepted mitigation strategy were not inspected.",
+        "sourceIds": [
+          "web-0969a742991f",
+          "trial-NCT03697109",
+          "trial-NCT04308590"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "unknown",
+        "rationale": "The inspected CRL specifies no CMC deficiency. Retrieved disclosures and unverified inspection leads do not establish product-linked sites, corrective actions or an application-specific FDA quality conclusion.",
+        "sourceIds": [
+          "web-0969a742991f",
+          "web-d786e1b8f527",
+          "web-0a802e8b5f61"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "June resubmission and December’s reported target restart the process, but later disclosures do not establish FDA resolution of the CRL’s efficacy and benefit-risk deficiencies.",
+        "sourceIds": [
+          "web-0969a742991f",
+          "web-d786e1b8f527",
+          "web-0a802e8b5f61"
+        ]
+      }
+    ]
+  },
+  "id": "13f9d5d9-ece0-492c-85d2-9be0725c719f",
+  "candidateId": "relacorilant-cushing",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:32:50.797Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Relacorilant, specifically Endogenous Cushing’s syndrome. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "fda-novel-2026",
+      "title": "FDA: novel drug approvals in 2026",
+      "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "publisher": "U.S. Food and Drug Administration",
+      "publishedAt": "2026-09-08",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "fda",
+      "summary": "FDA’s list records zilganersen approval on September 3 for Alexander disease and relacorilant approval on March 25 for platinum-resistant ovarian, fallopian-tube or primary peritoneal cancer. Relacorilant’s oncology outcome is not approval of its separate Cushing’s syndrome application. The CDER novel-drug list is not a comprehensive pending or supplemental-application register."
+    },
+    {
+      "id": "cort-q2-2026",
+      "title": "Corcept: relacorilant Cushing’s resubmission target",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
+      "publisher": "Corcept Therapeutics / SEC",
+      "publishedAt": "2026-07-29",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Corcept reported a resubmitted relacorilant NDA for Cushing’s syndrome and a December 17 target. GRACE is a pivotal randomized-withdrawal study enrolling 152 patients. The Cushing’s application remains separate from relacorilant’s already approved oncology use."
+    },
+    {
+      "id": "cort-resubmission",
+      "title": "Corcept: relacorilant Cushing’s NDA resubmitted",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941dex991.htm",
+      "publisher": "Corcept Therapeutics / SEC",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "sec",
+      "summary": "Corcept resubmitted relacorilant for Cushing’s syndrome with FDA-requested additional analyses of data in the original application. The package includes GRACE, GRADIENT and long-term follow-up; sponsor-reported positive trials and resubmission do not establish FDA agreement that prior questions are resolved."
+    },
+    {
+      "id": "trial-nct03697109",
+      "title": "ClinicalTrials.gov: NCT03697109 · A Study of the Efficacy and Safety of Relacorilant in Patients With Endogenous Cushing Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT03697109",
+      "publisher": "ClinicalTrials.gov / Corcept Therapeutics",
+      "publishedAt": "2025-07-16",
+      "retrievedAt": "2026-09-10T18:48:49.706194Z",
+      "kind": "trial",
+      "summary": "Current registry snapshot: phase 3; randomized; parallel. Registry enrollment is 152 (actual); this need not equal the pivotal efficacy analysis population. Historical features require a historical registry version."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "trial-NCT03697109",
+      "title": "A Study of the Efficacy and Safety of Relacorilant in Patients With Endogenous Cushing Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT03697109",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2025-07-16",
+      "retrievedAt": "2026-09-10T20:32:53.866Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT03697109; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-9dc09fec1d41",
+      "title": "Efficacy and safety of relacorilant for the treatment of patients ... - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730814/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:38.745Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-cbbdd666910a",
+      "title": "NCT03697109 | A Study of the Efficacy and Safety of Relacorilant ...",
+      "url": "https://clinicaltrials.gov/study/NCT03697109",
+      "publisher": "clinicaltrials.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:16.398Z",
+      "kind": "trial",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1bdbb85911ec",
+      "title": "A Multicentre, Phase 3, Double-Blind, Placebo-Controlled, Randomised ...",
+      "url": "https://corcept.com/publications/efficacy-and-safety-of-relacorilant-for-the-treatment-of-patients-with-cushings-syndrome-grace-a-multicentre-phase-3-double-blind-placebo-controlled-randomised-withdrawal-study/",
+      "publisher": "corcept.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:16.398Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d0e0090762a2",
+      "title": "Corcept Therapeutics Announces Presentations of Results of Pivotal ...",
+      "url": "https://firstwordpharma.com/story/5863244",
+      "publisher": "firstwordpharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:16.398Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d786e1b8f527",
+      "title": "Corcept Resubmits New Drug Application for Relacorilant as a ...",
+      "url": "https://ir.corcept.com/news-releases/news-release-details/corcept-resubmits-new-drug-application-relacorilant-treatment",
+      "publisher": "ir.corcept.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:41.577Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-b41dd69d4636",
+      "title": "Corcept Receives Complete Response Letter for Relacorilant as ...",
+      "url": "https://ir.corcept.com/news-releases/news-release-details/corcept-receives-complete-response-letter-relacorilant-treatment",
+      "publisher": "ir.corcept.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:23.020Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0969a742991f",
+      "title": "[PDF] complete response letter - FDA",
+      "url": "https://download.open.fda.gov/crl/CRL_NDA219398_20260128.pdf",
+      "publisher": "download.open.fda.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:23.020Z",
+      "kind": "fda",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a4b8d35b77cc",
+      "title": "Corcept submitted lead asset for approval despite FDA warning",
+      "url": "https://www.fiercebiotech.com/biotech/corcept-submitted-lead-asset-approval-despite-fda-warning-success-was-unlikely",
+      "publisher": "www.fiercebiotech.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:23.020Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "crl-701c1cc801cc",
+      "title": "FDA complete response: Corcept Therapeutics — 01/28/2026",
+      "url": "https://api.fda.gov/transparency/crl.json?limit=1&search=file_name%3A%22CRL_NDA219398_20260128.pdf%22+AND+letter_date%3A%2201%2F28%2F2026%22",
+      "publisher": "FDA",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:23.384Z",
+      "kind": "fda",
+      "summary": "Letter dated 01/28/2026. Archive current application status: Unapproved. Letter issue date is not its public release date."
+    },
+    {
+      "id": "trial-NCT04308590",
+      "title": "A Study of the Efficacy and Safety of Relacorilant in Patients With Cortisol-Secreting Adrenal Adenomas",
+      "url": "https://clinicaltrials.gov/study/NCT04308590",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2025-09-04",
+      "retrievedAt": "2026-09-10T20:33:33.524Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04308590; status COMPLETED. This is not a historical snapshot."
+    },
+    {
+      "id": "web-c8ec3e695e40",
+      "title": "9323 Open-label Results From Grace, A Phase 3 Double-blind ... - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11455256/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:38.745Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-5444d517d058",
+      "title": "SUN-451 A Randomized-Withdrawal, Placebo-Controlled, Phase 3 Study ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6553349/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:38.746Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f625fd3b9b5c",
+      "title": "Relacorilant, a Selective Glucocorticoid Receptor Modulator ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8317576/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:38.746Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-0a802e8b5f61",
+      "title": "Corcept Therapeutics Announces Second Quarter Financial Results ...",
+      "url": "https://corcept.gcs-web.com/news-releases/news-release-details/corcept-therapeutics-announces-second-quarter-financial-4",
+      "publisher": "corcept.gcs-web.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:41.577Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3eefb04d72d1",
+      "title": "Press Releases - Corcept Therapeutics, Incorporated",
+      "url": "https://ir.corcept.com/news-releases",
+      "publisher": "ir.corcept.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:41.578Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-4cc8f92ed4f3",
+      "title": "Corcept Therapeutics, Incorporated: Investor Relations",
+      "url": "https://ir.corcept.com/",
+      "publisher": "ir.corcept.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:33:41.578Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 223801,
+    "outputTokens": 8212
+  },
+  "durationMs": 402361,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cort-resubmission"
+      },
+      "status": "partial",
+      "durationMs": 63
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "cort-q2-2026"
+      },
+      "status": "partial",
+      "durationMs": 31
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT03697109"
+      },
+      "status": "completed",
+      "durationMs": 75
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "relacorilant Cushing GRACE GRADIENT phase 3 published results randomized withdrawal 2025 2026 Lancet Diabetes Endocrinology"
+      },
+      "status": "completed",
+      "durationMs": 14240
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Corcept relacorilant Cushing complete response letter FDA December 2025 June 17 2026 resubmission December 17 manufacturing CMC objections"
+      },
+      "status": "completed",
+      "durationMs": 6622
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Corcept"
+      },
+      "status": "completed",
+      "durationMs": 364
+    },
+    {
+      "name": "query_fdagent",
+      "arguments": {
+        "dataset": "inspections",
+        "query": "Corcept Therapeutics"
+      },
+      "status": "completed",
+      "durationMs": 235
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04308590"
+      },
+      "status": "completed",
+      "durationMs": 166
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220893/ relacorilant GRACE full text"
+      },
+      "status": "completed",
+      "durationMs": 5220
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Corcept 2026 relacorilant manufacturing drug substance drug product manufacturers sites CMC December 17 July 29 2026 resubmission"
+      },
+      "status": "completed",
+      "durationMs": 2831
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "fda-novel-2026"
+      },
+      "status": "completed",
+      "durationMs": 95
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_02ff4fcf9d24e4d3016aa314da41cc87d2b61bcde27efaa7bd",
+    "inputHash": "7fd00464284d56d18493c0b6f25ba521f4f7ce7267b023890f2ccf506f6e7d94"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:42:23.069Z",
+    "originalSha256": "c2f1e4155f202e66694166e681e93c935431fb88f913af8a810ce130bcdf31d4",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}

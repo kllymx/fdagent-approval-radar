@@ -1,0 +1,677 @@
+{
+  "summary": "Molgramostim has convincing placebo-controlled evidence of improved gas transfer in adult autoimmune PAP, with a broadly reassuring observed 48-week safety profile. The application nevertheless warrants a mixed assessment: a prior CMC-related refusal to file was followed by filing acceptance, but substantive manufacturing acceptability remains unverified. Published statistical limitations also constrain broader functional-benefit claims. The sponsor-reported FDA action target remains November 22, 2026.",
+  "outlook": {
+    "verdict": "Clinically supported, with manufacturing and review-content uncertainty still material. The strongest unresolved issue is whether the commercial-product package adequately addresses the earlier CMC deficiency and reported manufacturing transfer.",
+    "timing": "Savara's February 20, 2026 filing announcement reported an August 22 target. Its April 15 announcement extended that target by three months to November 22, 2026 because information-request responses constituted a major amendment; the August 11 update reaffirmed November 22. This is an action target, not an approval date. The extension is not a CRL, and the reviewed disclosures do not establish whether further information or inspections could change timing.",
+    "probability": null,
+    "probabilityBasis": "The inspected historical model provides original-priority receipt-cohort context, not an individualized estimate. Its approval-rate evaluation concerns annual review-class rates; it does not separately model molgramostim's refusal-to-file, refiling and major-amendment sequence. Post-CRL resubmission categories should not be assigned to a refiling after an RTF. Historical action timeliness concerns any FDA action against the applicable, potentially extended goal—not approval."
+  },
+  "findings": [
+    {
+      "id": "clinical-pivotal",
+      "title": "IMPALA-2 demonstrates a statistically persuasive gas-transfer benefit",
+      "detail": "The posted registry results describe 164 adults randomized to inhaled molgramostim 300 micrograms once daily or matching placebo for 48 weeks: 81 versus 83 participants. The multicenter trial was double-blind, with registry masking covering participants, caregivers, investigators and assessors. Diagnosis required GM-CSF autoantibody confirmation; screening required hemoglobin-adjusted percent-predicted DLCO of 70% or less. Mean age was 49.6 years and median baseline DLCO was 55% predicted. The prespecified primary endpoint was change in adjusted percent-predicted DLCO at week 24. Least-squares mean improvements were 9.8 versus 3.8 percentage points, a treatment difference of 6.0 points (95% CI 2.5–9.4; P=0.0007). At week 48, the difference was 6.9 points (95% CI 2.9–10.9; P=0.0008), supporting durability during continued blinded treatment. These are percentage-point changes, not relative percentage improvements. The registry specifies an MMRM adjusted for baseline, treatment, visit, region, severity stratum and treatment-by-visit interaction.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04544293",
+        "web-d0216bb155e1"
+      ]
+    },
+    {
+      "id": "clinical-boundaries",
+      "title": "Patient-benefit evidence is supportive but narrower than broad functionality claims",
+      "detail": "Week-24 SGRQ total score improved by 11.5 versus 4.9 points; the treatment difference was −6.59 (95% CI −11.40 to −1.79; P=0.0072). However, the published NEJM abstract explicitly reports that week-24 SGRQ activity did not achieve significance in its multiplicity-controlled analysis, stopping inference for subsequent secondary endpoints. The registry separately lists an activity difference of −7.81 with P=0.0149; that value cannot override the publication's hierarchy. The exact testing threshold and analysis reconciliation require the SAP. Week-24 exercise capacity was nonsignificant: difference 0.41 METs (95% CI −0.06 to 0.89). Week-48 SGRQ total remained numerically favorable, but its CI included no difference: −4.87 (95% CI −10.76 to 1.01). Thus sustained gas-transfer improvement is better established than sustained quality-of-life or exercise benefit. Sponsor-reported rescue lavage use was lower, 6 versus 11 patients, but does not establish superiority to lavage. The sponsor's comparison with meaningful-change thresholds from pulmonary fibrosis does not validate those thresholds in autoimmune PAP.",
+      "direction": "concern",
+      "sourceIds": [
+        "trial-NCT04544293",
+        "web-d0216bb155e1",
+        "web-8353c3c2c579"
+      ]
+    },
+    {
+      "id": "clinical-replication",
+      "title": "Earlier IMPALA corroborates activity, but is not a second clean primary-endpoint success",
+      "detail": "The original IMPALA publication describes 138 patients randomized to continuous daily molgramostim, alternate-week molgramostim or placebo for 24 weeks, followed by open-label treatment. Its primary endpoint was alveolar–arterial oxygen difference, not DLCO. The original full-analysis primary comparison was nonsignificant. After unblinding, investigators identified four invalid blood-gas measurements obtained during supplemental oxygen administration; treating these as missing and imputing replacements produced a continuous-treatment difference of −6.2 mmHg, P=0.03. This has a physiologic justification, but the reanalysis and associated imputation were not prespecified. SGRQ total favored continuous treatment by 7.4 points, and continuous dosing generally outperformed intermittent dosing. The appropriate interpretation is same-drug corroboration with an important analysis qualification—not two unambiguously positive prespecified pivotal primary analyses. IMPALA-2 strengthens the clinical case through its independently positive DLCO primary endpoint.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-51f36cd93171",
+        "trial-NCT04544293"
+      ]
+    },
+    {
+      "id": "safety-observed",
+      "title": "Observed tolerability is reassuring overall, with specific imbalances requiring follow-up",
+      "detail": "During IMPALA-2's 48-week blinded period, treatment-emergent adverse events affected 69/81 molgramostim versus 71/83 placebo participants; serious events affected 14/81 versus 20/83, with no deaths in either group. AE-related study noncompletion was 2 versus 1; the registry separately notes a placebo participant who stopped randomized drug but completed assessments, so study withdrawal is not interchangeable with treatment discontinuation. Serious worsening of PAP affected 3 versus 9 patients, but these counts do not establish a statistically demonstrated safety advantage. Nonserious imbalances included diarrhea 9 versus 2, vomiting 6 versus 1, and COVID-19 16 versus 8; serious COVID-19 occurred in 2 versus 0 and Mycobacterium avium complex infection in 1 versus 0. Cough was similar, 17 versus 18. These small counts do not establish causality. At week 48, treatment-boosted anti-GM-CSF titers occurred in 39/80 versus 37/83; these results are not equivalent to a neutralizing anti-drug-antibody assessment. The trial tested one active dose, and the posted safety results exclude the ongoing open-label extension.",
+      "direction": "supportive",
+      "sourceIds": [
+        "trial-NCT04544293"
+      ]
+    },
+    {
+      "id": "cmc-setback",
+      "title": "A documented CMC filing setback must be reconciled with later acceptance—not erased by it",
+      "detail": "Savara disclosed on May 27, 2025 that FDA refused to file the March 2025 BLA because it was insufficiently complete for substantive review and required additional CMC data. According to Savara, that RTF was not caused by safety concerns and did not request additional efficacy studies. At the time, Savara reported three completed upstream PPQ batches, ongoing downstream PPQ work and the start of analytical comparability work for a second-source drug-substance manufacturer. February 2026 filing acceptance establishes that the application subsequently passed the filing-completeness gate; it does not establish FDA acceptance of process validation, comparability, stability or commercial manufacturing controls. Conversely, the earlier RTF should not be represented as an unchanged current refusal. April's major amendment was not publicly identified as CMC-related. The claim that extension correspondence cited no manufacturing concerns is limited to that correspondence.",
+      "direction": "concern",
+      "sourceIds": [
+        "web-776d43a124b3",
+        "web-f58687b7abe5",
+        "web-dce4cd950fd8"
+      ]
+    },
+    {
+      "id": "manufacturing-linkage",
+      "title": "PARI's device role is documented; drug-substance transfer and site compliance need stronger verification",
+      "detail": "Current sponsor disclosures explicitly link molgramostim to PARI Pharma GmbH's investigational eFlow nebulizer system. That documents a delivery-device relationship, not drug-substance or fill-finish manufacturing clearance. A February 15, 2026 secondary account of management's presentation reports a completed technology transfer to Fujifilm, use of Fujifilm as primary drug-substance manufacturer in the December refiling, and FDA alignment on an analytical comparability protocol after a Type A meeting. This is a useful, attributed lead—not independently verified primary evidence of successful comparability or FDA agreement with its results. A targeted SEC search failed. No exact Fujifilm site, FEI, legacy drug-substance site, fill-finish site, site-specific FDA inspection outcome or corrective-action closure was inspected. Neither a company-name match nor a sponsor/BIMO inspection would establish commercial CGMP acceptability.",
+      "direction": "unknown",
+      "sourceIds": [
+        "web-ac999d2049c7",
+        "web-3185ad948f97"
+      ]
+    },
+    {
+      "id": "regulatory-current",
+      "title": "Current episode is a filed BLA after an RTF, with an extended priority-review target",
+      "detail": "The public sequence is an initial BLA, CMC-related RTF, reported December 2025 refiling, February 2026 filing acceptance and priority review, then an April major-amendment extension. It is consistent with an original BLA refiled after refusal—not a supplement or a demonstrated Class 1/Class 2 post-CRL resubmission. The formal application number and FDA classification were not retrieved. The requested indication is treatment of autoimmune PAP; exact proposed age, severity and label wording remain unverified. Savara's August 11 disclosure states that MOLBREEVI is a proposed trade name and is not approved in any indication. No completed prior molgramostim approval supplies a regulatory precedent here. The inspected material describes management experience but does not document a systematically verified sponsor approval track record. The FDA CRL archive lookup failed, so it cannot establish that no other letter exists; the specifically documented historical setback is an RTF, not a CRL.",
+      "direction": "neutral",
+      "sourceIds": [
+        "web-776d43a124b3",
+        "web-3185ad948f97",
+        "web-f58687b7abe5",
+        "web-dce4cd950fd8",
+        "web-ac999d2049c7"
+      ]
+    }
+  ],
+  "analogs": [],
+  "nextEvidence": [
+    "A primary-source account of the Type A agreement and refiling contents, including completed PPQ, clinical-to-commercial analytical comparability, stability and potency results, would distinguish a resolved CMC deficiency from a remaining substantive obstacle.",
+    "The application-specific manufacturing/site list, with exact legal entities and FEIs, plus relevant FDA inspection classifications, observations and corrective-action assessments, would permit a genuine commercial-supply compliance assessment.",
+    "The IMPALA-2 SAP and FDA clinical/statistical review should reconcile the SGRQ activity result, multiplicity hierarchy, missing-data sensitivity analyses and handling of rescue lavage, and identify the benefit claims FDA considers supportable.",
+    "An integrated safety update with actual exposure, complete treatment-discontinuation reasons, serious-infection narratives, neutralizing-antibody assessments and long-term extension results could change the benefit–risk assessment or monitoring requirements; an FDA action letter and label would resolve the current episode."
+  ],
+  "limitations": [
+    "Clinical reading included the current August 26, 2026 registry protocol/results, the IMPALA-2 published abstract, and original IMPALA paper excerpts including its methods. The complete IMPALA-2 paper, supplement and SAP were not successfully retrieved; the precise reason its activity endpoint failed despite the registry P value remains unresolved.",
+    "The MMRM specification is public, but patient-level data, missing-not-at-random sensitivity analyses and rescue-lavage estimands were not inspected. Only 23 participants were enrolled in the United States and 53 in Japan; subgroup consistency and generalizability beyond the enrolled adult population require further review.",
+    "Actual person-years, complete dose-exposure distributions, severity-specific safety estimates and final open-label safety results were unavailable in the inspected registry. The sponsor's long-term improvement headline is not a substitute for controlled long-term results.",
+    "Manufacturing research covered the sponsor's RTF, filing, extension and current business disclosures, plus the secondary Fujifilm-transfer account. The SEC search failed, and the supplied discovery packet reported unavailable compliance records. No original FDA CGMP inspection or warning-letter document with a verified molgramostim-site link was inspected.",
+    "Regulatory status and FDA correspondence contents are sponsor-reported; original filing, RTF, extension and review letters were not inspected. The failed CRL-archive lookup and supplied approval-database failures cannot establish absence of letters or approvals. No independent sponsor-portfolio approval history was verified.",
+    "This is a current investigation using evidence retrieved on September 10, 2026, not a historical prediction. Earlier setbacks are interpreted against later filing and status disclosures; neither acceptance nor the extended target proves eventual approval."
+  ],
+  "decisionBrief": {
+    "pivotalQuestion": "Does the refiled BLA establish an FDA-acceptable commercial product after the CMC-related refusal to file and reported drug-substance manufacturing transfer?",
+    "bullCase": {
+      "claim": "The clinical foundation is substantive: IMPALA-2 met its DLCO primary endpoint, maintained a controlled gas-transfer benefit through week 48, improved week-24 SGRQ total, and showed similar overall AE burdens without deaths. Later filing acceptance supersedes the earlier refusal at the completeness stage, and Savara reports no safety, efficacy or manufacturing concerns cited in the extension correspondence.",
+      "sourceIds": [
+        "trial-NCT04544293",
+        "web-d0216bb155e1",
+        "web-f58687b7abe5",
+        "web-dce4cd950fd8"
+      ]
+    },
+    "bearCase": {
+      "claim": "The earlier CMC deficiency was real, and a reported drug-substance transfer introduces an application-specific comparability question whose resolution is not publicly demonstrated. Filing acceptance and narrowly reassuring extension language cannot answer it. Separately, the clinical hierarchy does not support treating every activity or exercise result as confirmatory, potentially limiting benefit claims even if the main efficacy finding is accepted.",
+      "sourceIds": [
+        "web-776d43a124b3",
+        "web-3185ad948f97",
+        "web-dce4cd950fd8",
+        "web-d0216bb155e1"
+      ]
+    },
+    "decisiveEvidence": {
+      "question": "What did FDA require after the RTF, which commercial process and sites are now in the BLA, and has FDA accepted the resulting validation and comparability evidence?",
+      "whyItMatters": "This distinguishes remediation sufficient to begin review from remediation sufficient for approval. The extension's undisclosed information requests must also be separated from the older CMC issue rather than assumed to concern the same deficiency.",
+      "sourceIds": [
+        "web-776d43a124b3",
+        "web-3185ad948f97",
+        "web-f58687b7abe5",
+        "web-dce4cd950fd8"
+      ]
+    },
+    "scenarios": [
+      {
+        "label": "Commercial-product package accepted",
+        "trigger": "FDA accepts the manufacturing controls, comparability and relevant site assessments, while finding the DLCO and SGRQ-total evidence sufficient for the requested indication.",
+        "implication": "Approval becomes a supportable regulatory outcome, potentially with claims limited to the demonstrated benefits. November 22 remains an action target, not a guaranteed approval date.",
+        "sourceIds": [
+          "trial-NCT04544293",
+          "web-f58687b7abe5",
+          "web-dce4cd950fd8"
+        ]
+      },
+      {
+        "label": "Substantive CMC deficiency remains",
+        "trigger": "FDA identifies an unresolved validation, comparability, stability or site-compliance deficiency in the commercial-product package.",
+        "implication": "Additional remediation could delay action or produce a CRL despite supportive efficacy. This is conditional; the inspected sources do not establish that such a current deficiency exists.",
+        "sourceIds": [
+          "web-776d43a124b3",
+          "web-3185ad948f97",
+          "web-dce4cd950fd8"
+        ]
+      },
+      {
+        "label": "Clinical claim or benefit–risk scope narrows",
+        "trigger": "FDA considers gas-transfer improvement insufficient for some requested claims, gives weight to the failed secondary hierarchy, or identifies a material issue in the integrated safety update.",
+        "implication": "The result could be narrower labeling, additional monitoring or a request for further evidence; the positive primary endpoint does not predetermine label breadth.",
+        "sourceIds": [
+          "trial-NCT04544293",
+          "web-d0216bb155e1",
+          "web-51f36cd93171"
+        ]
+      }
+    ],
+    "diligenceQuestions": [
+      {
+        "question": "Can management provide the Type A meeting conclusions, a deficiency-by-deficiency RTF response, and primary documentation of the reported Fujifilm transfer?",
+        "whyItMatters": "Protocol alignment, successful analytical results and FDA acceptance are different milestones. The current public account does not establish all three.",
+        "sourceIds": [
+          "web-776d43a124b3",
+          "web-3185ad948f97"
+        ]
+      },
+      {
+        "question": "Which exact drug-substance, fill-finish, testing and device sites are included in the current BLA, and what application-relevant inspection or corrective-action issues remain?",
+        "whyItMatters": "PARI's documented device role does not identify the full supply chain. Exact site linkage is necessary before using compliance records to assess this product.",
+        "sourceIds": [
+          "web-ac999d2049c7",
+          "web-3185ad948f97"
+        ]
+      },
+      {
+        "question": "What SAP rule explains the week-24 SGRQ activity conclusion, how was rescue lavage handled, and which efficacy claims are sought in the proposed label?",
+        "whyItMatters": "This resolves the registry/publication interpretation gap and separates demonstrated gas-transfer and SGRQ-total benefits from exploratory functional findings.",
+        "sourceIds": [
+          "trial-NCT04544293",
+          "web-d0216bb155e1",
+          "web-8353c3c2c579"
+        ]
+      },
+      {
+        "question": "Do longer-term data clarify infection imbalances, inhalation-related symptoms and antibody effects, and what monitoring or treatment-interruption instructions are proposed?",
+        "whyItMatters": "Small blinded-group counts cannot resolve uncommon risks, dose-response or long-term safety. Practical nebulizer-use and monitoring requirements may affect the final benefit–risk presentation.",
+        "sourceIds": [
+          "trial-NCT04544293",
+          "web-ac999d2049c7"
+        ]
+      }
+    ]
+  },
+  "changes": null,
+  "evidenceAssessment": {
+    "category": "mixed",
+    "summary": "Randomized gas-transfer benefit and observed tolerability support the application. Secondary-endpoint limitations constrain broader claims, while later filing acceptance resolves the earlier CMC completeness barrier without establishing commercial manufacturing acceptability.",
+    "pivotalQuestion": "Has FDA accepted the commercial-product validation and comparability package addressing the earlier CMC refusal to file?",
+    "sourceIds": [
+      "trial-NCT04544293",
+      "web-d0216bb155e1",
+      "web-776d43a124b3",
+      "web-f58687b7abe5"
+    ],
+    "factors": [
+      {
+        "category": "clinical",
+        "state": "mixed",
+        "rationale": "DLCO benefit persists through week 48 and week-24 SGRQ total improves. The published secondary hierarchy stops at activity; earlier IMPALA's positive primary interpretation required post-unblinding data correction.",
+        "sourceIds": [
+          "trial-NCT04544293",
+          "web-d0216bb155e1",
+          "web-51f36cd93171"
+        ]
+      },
+      {
+        "category": "safety",
+        "state": "supportive",
+        "rationale": "Observed 48-week AE burdens were similar, serious events were not higher overall, and neither group had deaths. Infection and gastrointestinal imbalances merit follow-up; rare and long-term risks remain incompletely assessed.",
+        "sourceIds": [
+          "trial-NCT04544293"
+        ]
+      },
+      {
+        "category": "manufacturing",
+        "state": "mixed",
+        "rationale": "A CMC-related RTF preceded later filing acceptance. Reported manufacturing transfer is supported only by a secondary account; FDA acceptance of validation, comparability and exact-site compliance remains unverified.",
+        "sourceIds": [
+          "web-776d43a124b3",
+          "web-f58687b7abe5",
+          "web-3185ad948f97"
+        ]
+      },
+      {
+        "category": "regulatory",
+        "state": "mixed",
+        "rationale": "Sponsor reports filing acceptance and priority review, followed by a major-amendment extension to November 22. August disclosures retain unapproved status; the underlying FDA requests and full review conclusions remain unavailable.",
+        "sourceIds": [
+          "web-f58687b7abe5",
+          "web-dce4cd950fd8",
+          "web-ac999d2049c7"
+        ]
+      }
+    ]
+  },
+  "id": "2d1b924d-785e-4c23-ae0f-f911f223ae73",
+  "candidateId": "molgramostim-apap",
+  "model": "gpt-6-astra",
+  "createdAt": "2026-09-10T20:24:58.620Z",
+  "mode": "investigate",
+  "question": "Conduct deep due diligence across all four domains for Molgramostim inhalation solution, specifically Autoimmune pulmonary alveolar proteinosis. Assess the current FDA application and what could materially change its outcome.\n1. Clinical: retrieve actual pivotal results, not just the announcement of an accepted filing. Identify design, comparator, population, prespecified primary endpoints, effect sizes and uncertainty, durability, replication and relevant statistical limitations. Inspect trial registry results or original papers where available.\n2. Safety: inspect candidate-specific adverse-event results, exposure, serious events, discontinuations, dose/population effects, and practical monitoring questions. Distinguish no discussion from reassuring observed evidence.\n3. Manufacturing: investigate documented CMC setbacks, named manufacturers/sites and current corrective actions. Use FDAgent public inspections/warning letters if useful, but verify original sources and drug-site links. A sponsor/BIMO inspection is not CGMP clearance. Missing records are unknown.\n4. Regulatory and sponsor history: verify current application status, original-versus-supplement/resubmission, requested indication, target changes, prior CRLs and specific FDA objections. Check relevant prior approved products or indications and timeline experience when documented; do not treat company-wide track record as a validated approval predictor or infer site linkage. Distinguish completed prior actions from this application.\nRead both supportive and contrary sources, resolve superseded facts, and identify the single pivotal unresolved question. Return a substantive decision brief and evidenceAssessment covering every domain with citations and concrete limitations. When a domain lacks public data, document what was searched and what specific document would resolve it. Stay within the bounded research tools: prioritize substantive source reading over repetitive broad searches. No invented probabilities, no inferred FDA clearance, no unrelated-indication evidence substituted for the current claim.",
+  "status": "completed",
+  "provenance": "recorded",
+  "sources": [
+    {
+      "id": "savara-extension",
+      "title": "Savara: molgramostim major-amendment extension",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "Savara",
+      "publishedAt": "2026-04-15",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Savara reported responses to FDA information requests were a major amendment and the priority-review target was extended three months to November 22, 2026. It said the correspondence cited no safety, efficacy or manufacturing concerns."
+    },
+    {
+      "id": "savara-q2",
+      "title": "Savara: Q2 2026 review status",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx",
+      "publisher": "Savara",
+      "publishedAt": "2026-08-11",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "sponsor",
+      "summary": "Savara reaffirmed November 22, 2026 as the molgramostim BLA target. It described long-term lung-function and respiratory-quality-of-life improvement and stated MOLBREEVI is a proposed brand, not an approved medicine."
+    },
+    {
+      "id": "trial-impala2",
+      "title": "ClinicalTrials.gov: IMPALA-2",
+      "url": "https://clinicaltrials.gov/study/NCT04544293",
+      "publisher": "ClinicalTrials.gov / Savara",
+      "publishedAt": "2026-08-26",
+      "retrievedAt": "2026-09-10T17:35:10Z",
+      "kind": "trial",
+      "summary": "The registry describes a randomized, masked phase 3 trial of inhaled molgramostim versus placebo, with 164 enrolled. Its primary measure is hemoglobin-adjusted percent-predicted DLCO change at week 24. Primary completion was November 30, 2023 and results are posted."
+    },
+    {
+      "id": "trial-NCT04544293",
+      "title": "Clinical Trial of Inhaled Molgramostim Nebulizer Solution in Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+      "url": "https://clinicaltrials.gov/study/NCT04544293",
+      "publisher": "ClinicalTrials.gov",
+      "publishedAt": "2026-08-26",
+      "retrievedAt": "2026-09-10T20:25:01.233Z",
+      "kind": "trial",
+      "summary": "Current registry record NCT04544293; status ACTIVE_NOT_RECRUITING. This is not a historical snapshot."
+    },
+    {
+      "id": "pdufa-2018",
+      "title": "FDA FY 2018 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/130665/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2019",
+      "title": "FDA FY 2019 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/138325/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2020",
+      "title": "FDA FY 2020 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/151602/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2021",
+      "title": "FDA FY 2021 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/156077/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2022",
+      "title": "FDA FY 2022 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/166927/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2023",
+      "title": "FDA FY 2023 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/177976/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2024",
+      "title": "FDA FY 2024 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/188188/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "pdufa-2025",
+      "title": "FDA FY 2025 PDUFA Performance Report",
+      "url": "https://www.fda.gov/media/191112/download",
+      "publisher": "FDA",
+      "kind": "fda",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10",
+      "summary": "FDA performance report. Historical cohort evidence and selected review histories; not a calibrated probability for this candidate."
+    },
+    {
+      "id": "web-dce4cd950fd8",
+      "title": "Savara Announces the U.S. Food & Drug Administration (FDA) Has ...",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:37.709Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-776d43a124b3",
+      "title": "Savara Receives Refusal to File (RTF) Letter From the U.S. Food ...",
+      "url": "https://investors.savarapharma.com/news/news-details/2025/Savara-Receives-Refusal-to-File-RTF-Letter-From-the-U-S--Food-and-Drug-Administration-FDA-for-the-Biologics-License-Application-BLA-for-MOLBREEVI-to-Treat-Patients-With-Autoimmune-Pulmonary-Alveolar-Proteinosis-autoimmune-PAP/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:41.355Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-13ffae6c71ea",
+      "title": "Savara's lung disease asset hit with FDA refuse-to-file letter",
+      "url": "https://www.fiercepharma.com/manufacturing/fda-calls-additional-manufacturing-data-refusal-review-savaras-beleaguered",
+      "publisher": "www.fiercepharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:10.004Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-005c99311478",
+      "title": "Molbreevi - Drugs.com",
+      "url": "https://www.drugs.com/nda/molbreevi_260415.html",
+      "publisher": "www.drugs.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:10.004Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-51f36cd93171",
+      "title": "Inhaled Molgramostim Therapy in Autoimmune Pulmonary Alveolar ...",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1913590",
+      "publisher": "www.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:22.815Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8353c3c2c579",
+      "title": "News Details - Investor Relations - Savara Inc.",
+      "url": "https://investors.savarapharma.com/news/news-details/2025/New-England-Journal-of-Medicine-NEJM-to-Publish-Results-From-Savaras-Pivotal-Phase-3-IMPALA-2-Clinical-Trial-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:34.294Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-12af09b886a2",
+      "title": "Phase 3 Trial of Inhaled Molgramostim in Autoimmune Pulmonary ... - Ovid",
+      "url": "https://www.ovid.com/journals/nejm/fulltext/10.1056/nejmoa2410542~phase-3-trial-of-inhaled-molgramostim-in-autoimmune",
+      "publisher": "www.ovid.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:54.716Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-8d792ebc9671",
+      "title": "Phase 3 Trial of Inhaled Molgramostim in Autoimmune Pulmonary ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40834301/",
+      "publisher": "pubmed.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:34.294Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-d0216bb155e1",
+      "title": "Phase 3 Trial of Inhaled Molgramostim in Autoimmune Pulmonary ...",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2410542",
+      "publisher": "www.nejm.org",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:34.293Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-ac999d2049c7",
+      "title": "Savara Reports Second Quarter 2026 Financial Results and Provides ...",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:37.708Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3b4464f9e293",
+      "title": "Investor Relations - Savara Inc.",
+      "url": "https://savarapharma.com/investors/press-releases/",
+      "publisher": "savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:37.709Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-c9a3263920ec",
+      "title": "Savara Reports Second Quarter 2026 Financial Results and Provides ...",
+      "url": "https://markets.ft.com/data/announce/full?dockey=600-202608111605BIZWIRE_USPRX____20260811_BW733978-1",
+      "publisher": "markets.ft.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:37.709Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-f58687b7abe5",
+      "title": "Savara Announces the U.S. Food and Drug Administration (FDA) Filed the ...",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food-and-Drug-Administration-FDA-Filed-the-MOLBREEVI-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:41.354Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-e283a0cb4851",
+      "title": "Savara Announces European Medicines Agency (EMA) Validation ...",
+      "url": "https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-European-Medicines-Agency-EMA-Validation-of-Marketing-Authorization-Application-MAA-for-MOLBREEVI-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx",
+      "publisher": "investors.savarapharma.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:41.354Z",
+      "kind": "sponsor",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-3185ad948f97",
+      "title": "Savara Eyes August PDUFA for MOLBREEVI as FDA BLA Filing ...",
+      "url": "https://finance.yahoo.com/news/savara-eyes-august-pdufa-molbreevi-160309581.html",
+      "publisher": "finance.yahoo.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:41.355Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-a31bdc9da4b1",
+      "title": "Pharmacokinetics and pharmacodynamics of inhaled ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12458661/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:54.717Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-1724f22dc0fc",
+      "title": "Efficacy of recombinant human GM-CSF compared to placebo for ...",
+      "url": "https://link.springer.com/article/10.1186/s12890-026-04179-1",
+      "publisher": "link.springer.com",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:54.717Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    },
+    {
+      "id": "web-97cbfef8ab99",
+      "title": "A long-term observational study on autoimmune pulmonary alveolar ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13159374/",
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-10T20:25:54.718Z",
+      "kind": "publication",
+      "summary": "Discovered during this Astra investigation. The linked original document supports the cited findings; scraped body text is not redistributed."
+    }
+  ],
+  "usage": {
+    "inputTokens": 320053,
+    "outputTokens": 7685
+  },
+  "durationMs": 206570,
+  "tools": [
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "savara-extension"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "read_source",
+      "arguments": {
+        "sourceId": "savara-q2"
+      },
+      "status": "completed",
+      "durationMs": 0
+    },
+    {
+      "name": "get_clinical_trial",
+      "arguments": {
+        "nctId": "NCT04544293"
+      },
+      "status": "completed",
+      "durationMs": 131
+    },
+    {
+      "name": "get_historical_baseline",
+      "arguments": {},
+      "status": "completed",
+      "durationMs": 1
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Savara molgramostim BLA 2026 November 22 extension manufacturing manufacturer CMC refusal to file resubmission"
+      },
+      "status": "completed",
+      "durationMs": 2472
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "molgramostim IMPALA IMPALA-2 trial original full text 2025 2020 primary endpoint hierarchical safety NEJM"
+      },
+      "status": "completed",
+      "durationMs": 12813
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "https://www.nejm.org/doi/full/10.1056/NEJMoa2410542 molgramostim statistical analysis SGRQ activity safety"
+      },
+      "status": "completed",
+      "durationMs": 6103
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Savara 2026 molgramostim manufacturing GEMA second source CMC PPQ August 11 2026 10-Q"
+      },
+      "status": "completed",
+      "durationMs": 3415
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "Savara February 23 2026 molbreevi filed BLA August 22 2026 refusal file December resubmission"
+      },
+      "status": "completed",
+      "durationMs": 3645
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "site.sec.gov Savara 2026 \"FUJIFILM\" \"manufactur\" molgramostim"
+      },
+      "status": "error",
+      "durationMs": 559
+    },
+    {
+      "name": "search_fda_letters",
+      "arguments": {
+        "query": "Savara"
+      },
+      "status": "partial",
+      "durationMs": 413
+    },
+    {
+      "name": "search_public_sources",
+      "arguments": {
+        "query": "\"nejmoa2410542\" \"Statistical Analysis\" \"activity\""
+      },
+      "status": "completed",
+      "durationMs": 5219
+    }
+  ],
+  "assessmentProvenance": {
+    "responseId": "resp_0419cd18163d008c016aa31252f54087d2a6c7eb79dbb2f3df",
+    "inputHash": "d3021326dda44f7aed65e7a2fcd77bf2b86656c8062f2ee22198a4bbb5c8b9f4"
+  },
+  "validation": {
+    "citationIdsValid": true,
+    "probabilityWithheld": true,
+    "warning": [
+      "Citation IDs are validated; source entailment and scientific correctness remain reviewable judgments."
+    ]
+  },
+  "recording": {
+    "exportedAt": "2026-09-10T20:40:33.143Z",
+    "originalSha256": "b2be5f7b593f544f483ac7e2e5df52f067055ac14957cb42e165d81580056465",
+    "metadataChanges": "Removed raw source bodies and copied search snippets; classified known sponsor domains; applied independently reviewed publication metadata from data/source-metadata.json; unverified search-result publication dates are withheld; narrowed legacy CRL search links by letter date. Model findings, outlook, question, tool trace, token usage and timing are unchanged."
+  }
+}
